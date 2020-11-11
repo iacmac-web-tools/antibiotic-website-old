@@ -1,0 +1,872 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Antimicrobial Resistance Patterns Among Aerobic Gram-Negative Bacilli Isolated from Patients in Intensive Care Units</title>
+<meta name="description" content="Antimicrobial Resistance Patterns Among Aerobic Gram-Negative Bacilli Isolated from Patients in Intensive Care Units: Results of Multicentre Study in Russia">
+<meta name="keywords" content="antimicrobial resistance, gram-negative bacilli, intensive care units, nosocomial infections">
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript"> <!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/en/inc/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../inc/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 10px; margin-left: 10px; text-align: justify;}
+LI {margin-top: 8px; margin-left: 15px; text-align: justify;}
+H4 {margin-left: 10px;}
+HR {margin-left: 10px;}
+</style>
+</head>
+
+<body class="main">
+
+<table width="750" cellpadding="0" border="0" cellspacing="5">
+<tr>
+  <th width="150" valign="top">
+
+  <table border="0" cellpadding="5" cellspacing="0" width="100%">
+    <tr><td>
+<p class="m10"><b>Antimicrobial Resistance</b></p>
+<hr size="1" style="color: #D0C0AC;">
+<p class="m8"><a href="../index.shtml#rus">Antimicrobial Resistance in Russia</a></p>
+<p class="m8"><a href="../index.shtml#pub">Publications</a></p>
+<p class="m8"><a href="../links.shtml">References</a></p>
+
+    </td></tr>
+  </table>
+  
+
+  </th><td valign="top">
+<!--navigation-->
+<map name="TopBtnEn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Previous page" title="Previous page">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Next page" title="Next page">
+<area shape="circle" coords="77,15,15" href="../../index-1.htm" alt="Main page" title="Main page">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="E-Mail" title="E-Mail">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../../rus/images/buttons/topline.gif);" width="98%" height="32"><img src="../../../rus/images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../../rus/images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Navigation" usemap="#TopBtnEn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+
+<h2>Antimicrobial Resistance Patterns Among <br>Aerobic Gram-Negative Bacilli Isolated <br>from Patients in Intensive Care Units: <br>Results of Multicentre Study in Russia</h2>
+<hr size="1">
+
+<p class="r"><i>Clinical Microbiology and Infection, 1998; 9 (4): 497-507</i></p>
+<p class="r"><b>reprinted with permission from the journal</b></p>
+<br><br>
+
+<p class="l">Leonid S. Stratchounski*, Department of Clinical Pharmacology, State Medical Academy, Smolensk, Russian Federation</p>
+
+<p class="l">Roman S. Kozlov, Department of Clinical Pharmacology, State Medical Academy, Smolensk, Russian Federation</p>
+
+<p class="l">Galina K. Rechedko, Department of Clinical Pharmacology, State Medical Academy, Smolensk, Russian Federation</p>
+
+<p class="l">Olga U. Stetsiouk, Department of Clinical Pharmacology, State Medical Academy, Smolensk, Russian Federation </p>
+
+<p class="l">Elena P. Chavrikova, Clinical Research Organisation &quot;InnoPharm Ltd&quot;, Smolensk, Russian Federation</p>
+
+<p>and the Russian NPRS Study Group*</p>
+
+<p class="t8">* Participants in the Russian NPRS Study Group were:<br>
+V.E.&nbsp;Nonikov, S.D.&nbsp;Mitrokhin, L.A.&nbsp;Ritchik, A.S.&nbsp;Ankirskaya, 
+T.G.&nbsp;Mironova (all from Moscow), V.V.&nbsp;Tetz, N.V.&nbsp;Zaslavskaya (Saint-Petersburg), L.I.&nbsp;Akhmetova, S.M.&nbsp;Rozanova, V.A.&nbsp;Rudnov (Ekaterinburg), M.R.&nbsp;Rokitsky, N.E.&nbsp;Marusina (Kazan), N.P.&nbsp;Melnikova, V.K.&nbsp;Taraban, A.F.&nbsp;Yampolski (Krasnodar), D.E.&nbsp;Zdzitovetsky, 
+T.B.&nbsp;Skazka, N.A.&nbsp;Gobetz (Krasnoyarsk), O.A.&nbsp;Speranskaya, 
+N.A.&nbsp;Zdakova, L.A.&nbsp;Smirnova (Nizniy Novgorod), V.N.&nbsp;Ilyina (Novosibirsk), 
+O.I.&nbsp;Kretchikova (Smolensk).</p>
+
+<br><br>
+
+<p><b>Content:</b></p>
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#metod">Study design</a></li>
+<li><a href="#result">Results</a></li>
+<li><a href="#discus">Discussion</a></li>
+<li><a href="#acnow">Acknowledgements</a></li>
+<li><a href="#refer">References</a></li>
+<br><br>
+<li><a href="#t1">Tables</a></li>
+<li><a href="#f1">Figures</a></li>
+</ul>
+<hr size="1">
+
+<a name="abstract"></a><br>
+<h4>Abstract</h4>
+
+<p><b>Objective:</b> To determine the antimicrobial resistance patterns among aerobic gram-negative bacilli isolated from patients in intensive care units (ICUs) in different parts of Russia.</p>
+
+<p><b>Methods:</b> During the 1995-96, 10 Russian hospitals from different geographical areas were asked to submit 100 consecutive gram-negative isolates from patients with ICU-acquired infections. Minimal inhibitory concentrations (MICs) of 12 antimicrobials were determined by Etest<sup>&reg;</sup> and results were interpreted according to National Committee for Clinical Laboratory Standards (NCCLS) guidelines.</p>
+
+<p><b>Results:</b> A total of 1,005 non-duplicate strains were obtained from 863 patients. The most common species were <i>P.aeruginosa</i> (28.8%), <i>E.coli</i> (21.4%), <i>K.pneumoniae</i> (16.7%), <i>P.mirabilis</i> (9.7%), <i>Enterobacter</i> spp. (8.2%) and <i>Acinetobacter</i> spp. (7.7%). High levels of resistance were seen to second- and third-generation cephalosporins, ureidopenicillins, <font face="Symbol">b</font>-lactam/<font face="Symbol">b</font>-lactamase inhibitor combinations and gentamicin. The most active agents were imipenem (no resistance in <i>E.coli, K.pneumoniae, P.mirabilis, Enterobacter</i> spp. and <i>Acinetobacter</i> spp., 7% of resistance in <i>P.aeruginosa</i>), amikacin (7% of resistance in <i>P.aeruginosa</i> and <i>Acinetobacter</i> spp., 4% in <i>Enterobacter</i> spp., 1% in <i>E.coli</i> and <i>P.mirabilis</i> and no resistance in <i>K.pneumoniae</i>) and ciprofloxacin (15% of resistance in <i>P.aeruginosa</i>, 5% in <i>Enterobacter</i> spp. and <i>P.mirabilis</i>, 2% in <i>K.pneumoniae</i>, 1% in <i>E.coli</i>).</p>
+
+<p><b>Conclusions:</b> second- and third-generation cephalosporins, ureidopenicillins, <font face="Symbol">b</font>-lactam/<font face="Symbol">b</font>-lactamase inhibitor combinations and gentamicin cannot be considered as reliable drugs for empirical monotherapy for aerobic gram-negative infections in ICUs in Russia.</p>
+
+<table cellpadding="2" cellspacing="8" border="0">
+<tr>
+	<td valign="top"><b>Key&nbsp;words:&nbsp;</b></td>
+	<td>Antimicrobial resistance, gram-negative bacilli, intensive care units, nosocomial infections</td>
+</tr>
+</table>
+
+<a name="intro"></a><br><br>
+<h4>Introduction</h4>
+
+<p>Nosocomial infections are important problems in hospitals. In spite of the advances in infection control measures the mortality, morbidity and cost of such infections remain extremely high. In a recent European Prevalence Study it was shown that ICU-acquired infections developed in 20.6% of all patients admitted [<a href="#1">1</a>]. The frequency of such infections varies significantly not only between countries, but also between different hospitals. There is an obvious necessity to know not only global trends in epidemiology of hospital infections but also the local situation.</p>
+
+<p>Monitoring of antimicrobial resistance is most important in ICUs, where infection rates and consumption of antimicrobials are significantly higher in comparison with other wards. This practice also helps in optimisation of empirical antimicrobial therapy, decreasing prescription of non-rational regimens of therapy, and increasing cost-effectiveness of treatment.</p>
+
+<p>The aim of this study was to determine the profile of antimicrobial resistance among aerobic gram-negative bacilli isolated from patients with ICU-acquired infections in different parts of Russia.</p>
+
+<a name="metod"></a><br><br>
+<h3>MATERIALS AND METHODS</h3>
+
+<h4><i>Study design</i></h4>
+
+<p>Between September 1995 and May 1996, 10 centres in different parts of Russia (<a href="#f1">Figure&nbsp;1</a>) which included the North-West European Region (Moscow, Saint-Petersburg, Smolensk, Nizniy Novgorod), the South European Region (Krasnodar), the Central European Region (Kazan), Ural (Ekaterinburg), and Siberia (Novosibirsk, Krasnoyarsk) were asked to submit a minimum of 100 consecutive aerobic gram-negative bacilli isolated from patients with ICU-acquired infections. The cultures were performed on the basis of clinical indications. Only non-duplicate isolates were included in this study. All microorganisms were identified to species level.</p>
+
+<h4><i>Processing of the strains</i></h4>
+
+<p>Following isolation, identification and susceptibility testing, isolates were sent to the central laboratory in Smolensk on 0.7% nutrient agar slants.</p>
+
+<p>At least 20% of strains were re-identified by API 20E and API 20NE (BioMerieux, La Balme les Grottes, France). When more than 10% of discrepancies were observed, re-identification was performed for all submitted isolates.</p>
+
+<p>All isolates were stored at -70<sup>o</sup>C as a heavy suspension in trypticase soy broth with added glycerol (10%&nbsp;v/v).</p>
+
+<h4><i>Susceptibility testing</i></h4>
+
+<p>Minimal inhibitory concentrations (MICs) of 12 antimicrobials were determined by Etest<sup>&reg;</sup> (AB BIODISK, Solna, Sweden). Interpretation of the results was performed according to National Committee for Clinical Laboratory Standards guidelines (1995). Validation of the procedures was by the determination of the MICs for <i>Pseudomonas aeruginosa</i> ATCC 27853 and <i>Escherichia coli</i> ATCC 35218. Test results were accepted only if the control strains' MICs were within performance range. As an additional quality control procedure, susceptibility testing of 20% of all strains was performed in the Research and Development Laboratory of AB BIODISK.</p>
+
+<p>The following antimicrobials were tested: piperacillin, amoxicillin/clavulanate, piperacillin/tazobactam, cefuroxime, ceftriaxone, cefotaxime, ceftazidime, imipenem, gentamicin, amikacin, ciprofloxacin and trimethoprim/sulphamethoxazole.</p>
+
+<h4><i>Data management</i></h4>
+
+<p>Data management and statistical analysis was performed with SAS 6.11 (SAS Institute, USA).</p>
+
+<a name="result"></a><br><br>
+<h3>RESULTS</h3>
+
+<p><b><i>Microorganisms</i></b></p>
+
+<p>During the study period, 1,005 non-duplicate consecutive strains from 863 patients were received and evaluated. The most common isolates, in order of frequency, were <i>Pseudomonas aeruginosa</i> (28.8%), <i>Escherichia coli</i> (21.4%), <i>Klebsiella pneumoniae</i> (16.7%), <i>Proteus mirabilis</i> (9.7%), <i>Enterobacter</i> spp. (8.2%) and <i>Acinetobacter</i> spp. (7.7%), representing 92.5% of all isolates. The remaining isolates included <i>Citrobacter</i> spp. (1.6%), <i>Morganella morganii</i> (1.0%), P<i>roteus vulgaris</i> (1.0%), <i>Serratia marcescens</i> (0.9%), <i>Stenotrophomonas maltophilia</i> (0.9%), and other gram-negative bacilli (2.1%).</p>
+
+<p>The most common isolates submitted by centres are shown in the <a href="#t1">Table&nbsp;1</a>. <i>E.coli</i> was the most prevalent isolate in Saint-Petersburg and Krasnoyarsk, <i>Acinetobacter</i> spp. in Ekaterinburg, <i>Enterobacter</i> spp. in Moscow-2.</p>
+
+<p><b><i>Body Sites</i></b></p>
+
+<p>The body sites yielding specimens are presented in <a href="#f2">Figure&nbsp;2</a>. Among the wound isolates the most common microorganisms were <i>P.aeruginosa</i> (38.2%), <i>E.coli</i> (19.4%), <i>P.mirabilis</i> (14.2%), from the respiratory tract <i>P.aeruginosa</i> (37.4%), <i>K.pneumoniae</i> (23.1%), <i>E.coli</i> (13.2%), from the urinary tract <i>E.coli</i> (33.1%), <i>P.aeruginosa</i> (18.0%), <i>K.pneumoniae</i> (14.4%) and from the gastrointestinal tract <i>E.coli</i> (32.1%), <i>K.pneumoniae</i> (19.5%), <i>E.cloacae</i> (18.9%). <i>K.pneumoniae</i> (45.7%), <i>A.baumanii</i> (17.4%) and <i>P.aeruginosa</i> (15.2%) were the common isolates from blood.</p>
+
+<p><b><i>Administration of Antimicrobials</i></b></p>
+
+<p>A total of 854 patients (99.0%) were receiving antimicrobials on the day samples were taken. Aminoglycosides were the most frequently administered (35.3% of total prescriptions), and gentamicin was the most commonly administered antibiotic (27.3% of total prescriptions), followed by third-generation cephalosporins (13.2%) and ampicillin (11.5%). Overall, 312 patients (36.2%) were given more than one antimicrobial agent.</p>
+
+<p><b><i>Comparison of activity</i></b></p>
+
+<p>There were no major discrepancies between results obtained in Russia and those in the Research and Development laboratory of AB Biodisk in Sweden.</p>
+
+<p>Summaries of MIC<sub>50</sub>, MIC<sub>90</sub>, MIC ranges and levels of resistance for the most common isolates are presented in <a href="#t2a">Tables&nbsp;2a-2c</a>.</p>
+
+<p><i><font face="Symbol">b</font>-lactams</i></p>
+<p>The most active <font face="Symbol">b</font>-lactam antibiotic against <i>P.aeruginosa</i> was imipenem (7% of resistance), followed closely by ceftazidime (11%). Imipenem also was the most active <font face="Symbol">b</font>-lactam against <i>E.coli</i>, followed by third-generation cephalosporins (ceftazidime, ceftriaxone and cefotaxime). Against <i>K.pneumoniae</i>, imipenem showed the highest activity among the <font face="Symbol">b</font>-lactams tested, followed by third-generation cephalosporins. Imipenem possessed the highest activity against <i>P.mirabilis</i>, <i>Enterobacter</i> spp. and <i>Acinetobacter</i> spp. We observed quite low activity of piperacillin and piperacillin/tazobactam against both enterobacteria and non-fermenters.</p>
+
+<p><i>Aminoglycosides</i></p>
+<p>Amikacin was significantly more active than gentamicin against all tested microorganisms. The resistance rates to amikacin varied from 0% in <i>K.pneumoniae</i> to 7% in <i>P.aeruginosa</i> and <i>Acinetobacter</i> spp. compared with the resistance rates to gentamicin of 58% in <i>K.pneumoniae</i>, 75% in <i>P.aeruginosa</i> and 91% in <i>Acinetobacter</i> spp.</p>
+
+<p><i>Fluoroquinolones</i></p>
+<p>Ciprofloxacin was selected as the most active drug among the currently available fluoroquinolones. It showed good activity against enterobacteria (1-5% resistant), but was significantly less active against non-fermenters (15% resistance in <i>P.aeruginosa</i> and 53% resistance in <i>Acinetobacter</i> spp.). </p>
+
+<h4>Comparison of resistance patterns between the centres</h4>
+
+<p><i>P.aeruginosa</i> (<a href="#f3">Fig. 3</a>)</p>
+<p>The resistance of <i>P.aeruginosa</i> to piperacillin ranged from 10% in Saint-Petersburg to 79% in Smolensk. The similar tendency have been observed on activity of other antimicrobials. The resistance to ceftazidime was the lowest in Ekaterinburg and Krasnodar (5%) and the highest in Nizniy Novgorod (26%). Resistance to imipenem was comparatively low in all centres (0-11%), excluding Kazan (29%). Gentamicin possessed relatively low activity against <i>P.aeruginosa</i> in all centres (from 40% resistance in Krasnoyarsk to 90% in Krasnodar). Amikacin showed good activity in all centres with a resistance range of 0-11%, excluding Nizniy Novgorod (18%) and Kazan (19%). Resistance to ciprofloxacin varied between 6% and 42%.</p>
+
+<p><i>E.coli</i></p>
+<p>As indicated on <a href="#f4">Figure&nbsp;4</a>, piperacillin showed quite poor activity against <i>E.coli</i> isolated in different centres, with the resistance ranging from 9% in Moscow-2 to 75% in Smolensk. Piperacillin/tazobactam was more active not only on comparison with piperacillin, but also with co-amoxiclav.</p>
+
+<p><i>K.pneumoniae</i></p>
+<p>Generally, piperacillin, piperacillin/tazobactam and co-amoxiclav possessed the lowest activity against <i>K.pneumoniae</i> isolates with the ranges of resistance 58-100%, 17-89% and 25-94%, respectively (<a href="#f5">Figure&nbsp;5</a>). Another problem is a high level of resistance to third-generation cephalosporins (more than 30%) in Kazan, Novosibirsk, Smolensk and Krasnoyarsk.</p>
+
+<p><i>P.mirabilis</i></p>
+<p>The resistance of <i>P.mirabilis</i> in different centres is presented in <a href="#f6">Figure&nbsp;6</a>. Piperacillin showed relatively poor activity in all centres with the resistance ranging from 47% in Krasnodar to 91% in Smolensk. Piperacillin/tazobactam and co-amoxiclav had similar activity with a resistance range of 0-64%.</p>
+
+<a name="discus"></a><br><br>
+<h3>DISCUSSION</h3>
+
+<p>To our knowledge this study was the first multicentre study of ICU-acquired infections carried out in Russia. The design of this study included the simultaneous collection of clinical material in all participating centres, which excluded the influence of time factors on patterns and frequency of hospital infections. Also of the importance was the use of an internationally approved susceptibility testing method. We would also like to emphasise that selection of tested antimicrobials was based on the drugs available in Russian hospitals. We feel that these data will be of real value for physicians in different hospitals especially in the choice of empirical therapy.</p>
+
+<p>We compared our results with studies in the Western Europe, analysing data from studies from Germany [<a href="#6">6</a>], Belgium [<a href="#7">7</a>], the Netherlands [<a href="#8">8</a>] and Sweden [<a href="#9">9</a>] which had a similar design. All of these studies included several centres (16 in Belgium, 10 in Germany and Sweden and 8 in the Netherlands) and were focused on ICUs. Moreover, the centres were asked to submit susceptibility testing data on at least 100 consecutive gram-negative isolates. We found the relatively high level of resistance among all <i>P.aeruginosa</i> isolates in Russian ICUs to piperacillin (50% vs. 8.5%, 12%, 15%, 18% in Sweden, Germany, the Netherlands and Belgium, respectively) and gentamicin (75% vs. 6.8%, 40%, 41%, 48%, respectively). Resistance rates to gentamicin in <i>E.coli</i> in this study was also significantly higher (13% vs. 2% in Germany and 4% in both Belgium and the Netherlands). The differences in the resistance rates for the other antimicrobials were not so marked. Similar tendencies of resistance were observed in <i>K.pneumoniae</i>: the resistance to gentamicin was 58% in comparison with 2% in Germany and 10% in the Netherlands. Such high levels of resistance to gentamicin might be explained by its high consumption both in out-patients clinics and hospitals, even for therapy of community-acquired pneumonia.</p>
+
+<p>In our analysis ceftazidime was selected as the representative third-generation cephalosporin for detection of resistance in strains that are hyperproducers of type I chromosomal <font face="Symbol">b</font>-lactamases or that carry plasmid-mediated extended spectrum <font face="Symbol">b</font>-lactamases [<a href="#3">3</a>]. The comparison of our data with recently published NPSP [<a href="#4">4</a>] and NNIS ICU [<a href="#5">5</a>] data shows that the rate of resistance among our <i>K.pneumoniae</i> strains was significantly higher (26.2% vs. 5.8% and 2.6%, respectively). The resistance rate among <i>Enterobacter</i> species was also higher (56.1% vs. 32.0% and 39.6%, respectively), but the resistance among our <i>P.aeruginosa</i> isolates was slightly lower (10.7% vs. 14.2% and 13.2%, respectively).</p>
+
+<p>We would like to draw attention to the high level of resistance of nosocomial strains of <i>Acinetobacter</i> spp. One of the most troubling issues is the increase of resistance to ciprofloxacin (53%) which has been widely used for the treatment of gram-negative infections in Russian hospitals during the last couple years.</p>
+
+<p>Another interesting fact that the resistance to many antimicrobials in <i>Enterobacter</i> spp. coexists with quite good activity of trimethoprim/sulphamethoxazole, which potentially can be used for the treatment of these infections.</p>
+
+<p>Comparatively high level of resistance to combinations of <font face="Symbol">b</font>-lactam and <font face="Symbol">b</font>-lactamase inhibitors among all species in different hospitals considerably restrict their usage in the treatment of nosocomial infections.</p>
+
+<p>In conclusion we would like to mention the important point. During this study we created a team which will work on the control of hospital infections and, will, we hope, develop guidelines and protocols for the treatment of infections in hospitals in Russia.</p>
+
+<a name="acnow"></a><br><br>
+<h3>ACKNOWLEDGEMENTS</h3>
+
+<p>We would like to thank Merck Sharp&nbsp;&&nbsp;Dohme (Russia) for financial support.</p>
+
+<p>Also we are grateful to Dr.&nbsp;Yu.&nbsp;Danilevsky personally for his continuous enthusiasm during the study.</p>
+
+<p>We would like to offer our gratitude to personnel of Research&nbsp;&&nbsp;Development Laboratory of AB BIODISK (Sweden) and to Dr.&nbsp;A.&nbsp;Bolmstrцm and Dr.&nbsp;Е.&nbsp;Karlsson personally for their help in this study.</p>
+
+<a name="refer"></a><br><br>
+<h3>References</h3>
+
+<ol class="liter">
+<a name="1"></a><li value="1">Vincent JL, Bihari DJ, Suter PM, et al. The prevalence of nosocomial infection in intensive care units in Europe: results of the European prevalence of infection in intensive care (EPIC) study. J Am Med Assoc 1995; 274: 639-44.</li>
+<a name="2"></a><li value="2">Mayon-White RT, Ducel G, Kereselidze T, Tikomirov E. An international survey of the prevalence of hospital-acquired infection. J Hosp Infect 1988; 11 (suppl A): 43-8.</li>
+<a name="3"></a><li value="3">Jacoby GA, Archer GL. New mechanisms of bacterial resistance to antimicrobial agents. N Engl J Med 1991; 324: 601-12.</li>
+<a name="4"></a><li value="4">Itokazu GS, Quinn JP, Bell-Dixon C, Kahan FM, Weinstein RA. Antimicobial Resistance Rates Among Aerobic Gram-Negative Bacilli Recovered from Patients in Intensive Care Units: Evaluation of a National Postmarketing Surveillance Program. Clin Infect Dis 1996; 23: 779-84.</li>
+<a name="5"></a><li value="5">Burwen DR, Banerjee SN, Gaynes RP, the National Nosocomial Infections Surveillance System. Ceftazidime resistance among selected nosocomial gram-negative bacilli in the United States. J Infect Dis 1994; 170: 1622-5.</li>
+<a name="6"></a><li value="6">Shah PM, Asanger R, Kahan FM. Incidence of multi-resistance in gram-negative aerobes from intensive care units of 10 German hospitals. Scand J Infect Dis 1991; 78 (Suppl): 22-34.</li>
+<a name="7"></a><li value="7">Verbist L. Incidence of multi-resistance in gram-negative bacterial isolates from intensive care units in Belgium: a surveillance study. Scand J Infect Dis 1991; 78 (Suppl): 45-53.</li>
+<a name="8"></a><li value="8">Buirma RJA, Horrevorts AM, Wagenvoort JHT. Incidence of multi-resistant gram-negative isolates in eight Dutch hospitals. Scand J Infect Dis 1991; 78 (Suppl): 35-44.</li>
+<a name="9"></a><li value="9">Hanberger H., Nilsson L.E. and the Swedish Study Group. High frequency of antibiotic resistance among Gram-negative isolates in intensive care units at 10 Swedish hospitals. Clin Microb Infect 1997; 3: 208-15.</li>
+<a name="10"></a><li value="10">Spencer RC. Predominant Pathogens Found in the European Prevalence of Infection in Intensive Care Study. Eur J Clin Microbiol Infect Dis 1996; 15: 281-5.</li>
+</ol>
+
+<a name="t1"></a><br><br>
+<p><b>Table&nbsp;1.</b> The most common bacterial isolates received from the centres</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table cellpadding="4" cellspacing="1" border="0" width="100%">
+<tr>
+  <th rowspan="2"><b>City</b></th>
+  <th colspan="6"><b>Microorganisms</b></th>
+</tr>
+<tr>
+  <th width="15%"><i>P.aeruginosa</i></th>
+  <th width="15%"><i>E.coli</i></th>
+  <th width="15%"><i>K.pneumoniae</i></th>
+  <th width="15%"><i>P.mirabilis</i></th>
+  <th width="15%"><i>Enterobacter</i> spp.</th>
+  <th width="15%"><i>Acinetobacter</i> spp.</th>
+</tr>
+<tr>
+	<td class="cl">Novosibirsk<br>(n=102)</td>
+	<td class="cc">55 (53,9%)</td>
+	<td class="cc">5 (4,9%)</td>
+	<td class="cc">22 (21,6%)</td>
+	<td class="cc">12 (11,8%)</td>
+	<td class="cc">5 (4,9%)</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Kazan<br>(n=99)</td>
+	<td class="cc">43 (43,4%)</td>
+	<td class="cc">21 (21,2%)</td>
+	<td class="cc">31 (31,3%)</td>
+	<td class="cc">31 (31,3%)</td>
+	<td class="cc">1 (1,0%)</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Krasnodar<br>(n=97)</td>
+	<td class="cc">40 (41,2%)</td>
+	<td class="cc">6 (6,2%)</td>
+	<td class="cc">8 (8,2%)</td>
+	<td class="cc">17 (17,5%)</td>
+	<td class="cc">4 (4,1%)</td>
+	<td class="cc">13 (13,4%)</td>
+</tr>
+<tr>
+	<td class="cl">Moscow-1<br>(n=99)</td>
+	<td class="cc">36 (36,4%)</td>
+	<td class="cc">14 (14,1%)</td>
+	<td class="cc">8 (8,1%)</td>
+	<td class="cc">13 (13,1%)</td>
+	<td class="cc">7 (7,1%)</td>
+	<td class="cc">10 (10,1%)</td>
+</tr>
+<tr>
+	<td class="cl">Smolensk<br>(n=102)</td>
+	<td class="cc">34 (33,3%)</td>
+	<td class="cc">14 (13,7%)</td>
+	<td class="cc">13 (12,7%)</td>
+	<td class="cc">22 (21,6%)</td>
+	<td class="cc">6 (5,9%)</td>
+	<td class="cc">2 (2,0%)</td>
+</tr>
+<tr>
+	<td class="cl">N.&nbsp;Novgorod<br>(n=102)</td>
+	<td class="cc">34 (33.3%)</td>
+	<td class="cc">25 (24.5%)</td>
+	<td class="cc">8 (7.8%)</td>
+	<td class="cc">8 (7.8%)</td>
+	<td class="cc">13 (12.7%)</td>
+	<td class="cc">5 (4.9%)</td>
+</tr>
+<tr>
+	<td class="cl">Ekaterinburg<br>(n=99)</td>
+	<td class="cc">20 (20.2%)</td>
+	<td class="cc">16 (16.2%)</td>
+	<td class="cc">12 (12.1%)</td>
+	<td class="cc">12 (12.1%)</td>
+	<td class="cc">4 (4.0%)</td>
+	<td class="cc">27 (27.3%)</td>
+</tr>
+<tr>
+	<td class="cl">Krasnoyarsk<br>(n=104)</td>
+	<td class="cc">15 (14.4%)</td>
+	<td class="cc">36 (34.6%)</td>
+	<td class="cc">18 (17.3%)</td>
+	<td class="cc">12 (11.5%)</td>
+	<td class="cc">0</td>
+	<td class="cc">18 (17.3%)</td>
+</tr>
+<tr>
+	<td class="cl">Saint-Petersburg<br>(n=100)</td>
+	<td class="cc">10 (10.0%)</td>
+	<td class="cc">46 (46.0%)</td>
+	<td class="cc">19 (19.0%)</td>
+	<td class="cc">9 (9.0%)</td>
+	<td class="cc">8 (8.0%)</td>
+	<td class="cc">2 (2.0%)</td>
+</tr>
+<tr>
+	<td class="cl">Moscow-2<br>(n=101)</td>
+	<td class="cc">2 (2.0%)</td>
+	<td class="cc">32 (31.7%)</td>
+	<td class="cc">29 (28.7%)</td>
+	<td class="cc">0</td>
+	<td class="cc">34 (33.7%)</td>
+	<td class="cc">0</td>
+</tr>
+</table>
+</td></tr></table>
+
+  </td></tr>
+</table>
+<!-- /main table -->
+
+
+<a name="t2a"></a><br><br>
+<p><b>Table&nbsp;2a.</b> MICs<sub>50</sub> (mg/l), MICs<sub>90</sub> (mg/l), MIC ranges (mg/l) and resistance (%) to tested antimicrobials for the most common bacterial species.</p>
+
+<table border="0" cellpadding="0" cellspacing="2" width="100%"><tr><td bgcolor="#CC9988">
+<table cellpadding="4" cellspacing="1" border="0" width="100%">
+<tr>
+  <th rowspan="3" width="12%"><b>Microorganism</b></th>
+  <th colspan="16"><b>Antimicrobials</b></th>
+</tr>
+<tr>
+  <th colspan="4" width="22%"><b>Piperacillin</b></th>
+  <th colspan="4" width="22%"><b>Piperacillin&nbsp;/&nbsp;tazobactam</b></th>
+  <th colspan="4" width="22%"><b>Amoxicillin&nbsp;/&nbsp;clavulanate</b></th>
+  <th colspan="4" width="22%"><b>Cefuroxime</b></th>
+</tr>
+<tr>
+  <th>MIC<sub>50</sub>, mg/l</th>
+  <th>MIC<sub>90</sub>, mg/l</th>
+  <th>MIC&nbsp;Range, mg/l</th>
+  <th>R&nbsp;* (%)</th>
+  <th>MIC<sub>50</sub>, mg/l</th>
+  <th>MIC<sub>90</sub>, mg/l</th>
+  <th>MIC&nbsp;Range, mg/l</th>
+  <th>R&nbsp;* (%)</th>
+  <th>MIC<sub>50</sub>, mg/l</th>
+  <th>MIC<sub>90</sub>, mg/l</th>
+  <th>MIC&nbsp;Range, mg/l</th>
+  <th>R&nbsp;* (%)</th>
+  <th>MIC<sub>50</sub>, mg/l</th>
+  <th>MIC<sub>90</sub>, mg/l</th>
+  <th>MIC&nbsp;Range, mg/l</th>
+  <th>R&nbsp;* (%)</th>
+</tr>
+<tr>
+	<td class="cl"><i>P.aeruginosa</i> (n=289)</td>
+	<td class="cc">64</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">2&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">50</td>
+	<td class="cc">32</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">41</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+</tr>
+<tr>
+	<td class="cl"><i>E.coli</i> (n=215)</td>
+	<td class="cc">4</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">44</td>
+	<td class="cc">2</td>
+	<td class="cc">32</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">11</td>
+	<td class="cc">4</td>
+	<td class="cc">16</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">27</td>
+	<td class="cc">4</td>
+	<td class="cc">16</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">19</td>
+</tr>
+<tr>
+	<td class="cl"><i>K.pneumoniae</i> (n=168)</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">4&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">85</td>
+	<td class="cc">16</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">2&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">51</td>
+	<td class="cc">8</td>
+	<td class="cc">32</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">52</td>
+	<td class="cc">8</td>
+	<td class="cc">128</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">52</td>
+</tr>
+<tr>
+	<td class="cl"><i>P.mirabilis</i> (n=97)</td>
+	<td class="cc">64</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">59</td>
+	<td class="cc">1</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">22</td>
+	<td class="cc">4</td>
+	<td class="cc">64</td>
+	<td class="cc">0.5&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">20</td>
+	<td class="cc">2</td>
+	<td class="cc">128</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">32</td>
+</tr>
+<tr>
+	<td class="cl"><i>Enterobacter</i> spp. (n=82)</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">2&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">70</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">63</td>
+	<td class="cc">64</td>
+	<td class="cc">128</td>
+	<td class="cc">0.5&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">88</td>
+	<td class="cc">128</td>
+	<td class="cc">128</td>
+	<td class="cc">2&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">96</td>
+</tr>
+<tr>
+	<td class="cl"><i>Acinetobacter</i> spp. (n=77)</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">2&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">88</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">1&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">82</td>
+	<td class="cc">16</td>
+	<td class="cc">128</td>
+	<td class="cc">0.5&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">73</td>
+	<td class="cc">128</td>
+	<td class="cc">128</td>
+	<td class="cc">2&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">96</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p class="t8">* R &#150; resistance, according to NCCLS criteria</p>
+
+<a name="t2b"></a><br><br>
+<p><b>Table&nbsp;2b.</b> MICs<sub>50</sub> (mg/l), MICs<sub>90</sub> (mg/l), MIC ranges (mg/l) and resistance (%) to tested antimicrobials for the most common bacterial species.</p>
+
+<table border="0" cellpadding="0" cellspacing="2" width="100%"><tr><td bgcolor="#CC9988">
+<table cellpadding="4" cellspacing="1" border="0" width="100%">
+<tr>
+  <th rowspan="3" width="12%"><b>Microorganism</b></th>
+  <th colspan="16"><b>Antimicrobials</b></th>
+</tr>
+<tr>
+  <th colspan="4" width="22%"><b>Cefotaxime</b></th>
+  <th colspan="4" width="22%"><b>Ceftriaxone</b></th>
+  <th colspan="4" width="22%"><b>Ceftazidime</b></th>
+  <th colspan="4" width="22%"><b>Imipenem</b></th>
+</tr>
+<tr>
+  <th>MIC<sub>50</sub>, mg/l</th>
+  <th>MIC<sub>90</sub>, mg/l</th>
+  <th>MIC&nbsp;Range, mg/l</th>
+  <th>R&nbsp;* (%)</th>
+  <th>MIC<sub>50</sub>, mg/l</th>
+  <th>MIC<sub>90</sub>, mg/l</th>
+  <th>MIC&nbsp;Range, mg/l</th>
+  <th>R&nbsp;* (%)</th>
+  <th>MIC<sub>50</sub>, mg/l</th>
+  <th>MIC<sub>90</sub>, mg/l</th>
+  <th>MIC&nbsp;Range, mg/l</th>
+  <th>R&nbsp;* (%)</th>
+  <th>MIC<sub>50</sub>, mg/l</th>
+  <th>MIC<sub>90</sub>, mg/l</th>
+  <th>MIC&nbsp;Range, mg/l</th>
+  <th>R&nbsp;* (%)</th>
+</tr>
+<tr>
+	<td class="cl"><i>P.aeruginosa</i> (n=289)</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">4</td>
+	<td class="cc">8</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">11</td>
+	<td class="cc">2</td>
+	<td class="cc">4</td>
+	<td class="cc">0.5&nbsp;&#150;&nbsp;64</td>
+	<td class="cc">7</td>
+</tr>
+<tr>
+	<td class="cl"><i>E.coli</i> (n=215)</td>
+	<td class="cc">0.25</td>
+	<td class="cc">2</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">6</td>
+	<td class="cc">0.25</td>
+	<td class="cc">1</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">5</td>
+	<td class="cc">0.25</td>
+	<td class="cc">2</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">3</td>
+	<td class="cc">0.25</td>
+	<td class="cc">0.5</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;4</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl"><i>K.pneumoniae</i> (n=168)</td>
+	<td class="cc">2</td>
+	<td class="cc">128</td>
+	<td class="cc">0.5&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">32</td>
+	<td class="cc">2</td>
+	<td class="cc">128</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">33</td>
+	<td class="cc">2</td>
+	<td class="cc">128</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">26</td>
+	<td class="cc">0.25</td>
+	<td class="cc">0.5</td>
+	<td class="cc">0.13&nbsp;&#150;&nbsp;4</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl"><i>P.mirabilis</i> (n=97)</td>
+	<td class="cc">0.25</td>
+	<td class="cc">128</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">20</td>
+	<td class="cc">0.25</td>
+	<td class="cc">128</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">17</td>
+	<td class="cc">0.25</td>
+	<td class="cc">1</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;16</td>
+	<td class="cc">1</td>
+	<td class="cc">1</td>
+	<td class="cc">4</td>
+	<td class="cc">0.13&nbsp;&#150;&nbsp;4</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl"><i>Enterobacter</i> spp. (n=82)</td>
+	<td class="cc">64</td>
+	<td class="cc">128</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">60</td>
+	<td class="cc">64</td>
+	<td class="cc">128</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">57</td>
+	<td class="cc">64</td>
+	<td class="cc">128</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">56</td>
+	<td class="cc">0.5</td>
+	<td class="cc">2</td>
+	<td class="cc">0.13&nbsp;&#150;&nbsp;4</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl"><i>Acinetobacter</i> spp. (n=77)</td>
+	<td class="cc">128</td>
+	<td class="cc">128</td>
+	<td class="cc">0.5&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">88</td>
+	<td class="cc">128</td>
+	<td class="cc">128</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">94</td>
+	<td class="cc">32</td>
+	<td class="cc">128</td>
+	<td class="cc">2&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">78</td>
+	<td class="cc">0.5</td>
+	<td class="cc">2</td>
+	<td class="cc">0.13&nbsp;&#150;&nbsp;4</td>
+	<td class="cc">0</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p class="t8">* R &#150; resistance, according to NCCLS criteria</p>
+
+<a name="t2c"></a><br><br>
+<p><b>Table&nbsp;2c.</b> MICs<sub>50</sub> (mg/l), MICs<sub>90</sub> (mg/l), MIC ranges (mg/l) and resistance (%) to tested antimicrobials for the most common bacterial species.</p>
+
+<table border="0" cellpadding="0" cellspacing="2" width="100%"><tr><td bgcolor="#CC9988">
+<table cellpadding="4" cellspacing="1" border="0" width="100%">
+<tr>
+  <th rowspan="3" width="12%"><b>Microorganism</b></th>
+  <th colspan="16"><b>Antimicrobials</b></th>
+</tr>
+<tr>
+  <th colspan="4" width="22%"><b>Gentamicin</b></th>
+  <th colspan="4" width="22%"><b>Amikacin</b></th>
+  <th colspan="4" width="22%"><b>Ciprofloxacin</b></th>
+  <th colspan="4" width="22%"><b>Co-trimoxazole</b></th>
+</tr>
+<tr>
+  <th>MIC<sub>50</sub>, mg/l</th>
+  <th>MIC<sub>90</sub>, mg/l</th>
+  <th>MIC&nbsp;Range, mg/l</th>
+  <th>R&nbsp;* (%)</th>
+  <th>MIC<sub>50</sub>, mg/l</th>
+  <th>MIC<sub>90</sub>, mg/l</th>
+  <th>MIC&nbsp;Range, mg/l</th>
+  <th>R&nbsp;* (%)</th>
+  <th>MIC<sub>50</sub>, mg/l</th>
+  <th>MIC<sub>90</sub>, mg/l</th>
+  <th>MIC&nbsp;Range, mg/l</th>
+  <th>R&nbsp;* (%)</th>
+  <th>MIC<sub>50</sub>, mg/l</th>
+  <th>MIC<sub>90</sub>, mg/l</th>
+  <th>MIC&nbsp;Range, mg/l</th>
+  <th>R&nbsp;* (%)</th>
+</tr>
+<tr>
+	<td class="cl"><i>P.aeruginosa</i> (n=289)</td>
+	<td class="cc">32</td>
+	<td class="cc">128</td>
+	<td class="cc">0.5&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">75</td>
+	<td class="cc">4</td>
+	<td class="cc">16</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">7</td>
+	<td class="cc">0.5</td>
+	<td class="cc">2</td>
+	<td class="cc">0.06&nbsp;&#150;&nbsp;32</td>
+	<td class="cc">15</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+</tr>
+<tr>
+	<td class="cl"><i>E.coli</i> (n=215)</td>
+	<td class="cc">1</td>
+	<td class="cc">16</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">13</td>
+	<td class="cc">2</td>
+	<td class="cc">4</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;8</td>
+	<td class="cc">1</td>
+	<td class="cc">0.06</td>
+	<td class="cc">0.13</td>
+	<td class="cc">0.06&nbsp;&#150;&nbsp;0.5</td>
+	<td class="cc">1</td>
+	<td class="cc">0.25</td>
+	<td class="cc">64</td>
+	<td class="cc">0.13&nbsp;&#150;&nbsp;64</td>
+	<td class="cc">27</td>
+</tr>
+<tr>
+	<td class="cl"><i>K.pneumoniae</i> (n=168)</td>
+	<td class="cc">16</td>
+	<td class="cc">128</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">58</td>
+	<td class="cc">2</td>
+	<td class="cc">4</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;16</td>
+	<td class="cc">0</td>
+	<td class="cc">0.13</td>
+	<td class="cc">0.5</td>
+	<td class="cc">0.06&nbsp;&#150;&nbsp;8</td>
+	<td class="cc">2</td>
+	<td class="cc">1</td>
+	<td class="cc">64</td>
+	<td class="cc">0.13&nbsp;&#150;&nbsp;64</td>
+	<td class="cc">51</td>
+</tr>
+<tr>
+	<td class="cl"><i>P.mirabilis</i> (n=97)</td>
+	<td class="cc">8</td>
+	<td class="cc">128</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">56</td>
+	<td class="cc">4</td>
+	<td class="cc">8</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;32</td>
+	<td class="cc">1</td>
+	<td class="cc">0.06</td>
+	<td class="cc">0.25</td>
+	<td class="cc">0.06&nbsp;&#150;&nbsp;4</td>
+	<td class="cc">5</td>
+	<td class="cc">64</td>
+	<td class="cc">64</td>
+	<td class="cc">0.13&nbsp;&#150;&nbsp;64</td>
+	<td class="cc">62</td>
+</tr>
+<tr>
+	<td class="cl"><i>Enterobacter</i> spp. (n=82)</td>
+	<td class="cc">2</td>
+	<td class="cc">128</td>
+	<td class="cc">0.5&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">42</td>
+	<td class="cc">2</td>
+	<td class="cc">4</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">4</td>
+	<td class="cc">0.13</td>
+	<td class="cc">0.5</td>
+	<td class="cc">0.06&nbsp;&#150;&nbsp;8</td>
+	<td class="cc">5</td>
+	<td class="cc">0.25</td>
+	<td class="cc">64</td>
+	<td class="cc">0.13&nbsp;&#150;&nbsp;64</td>
+	<td class="cc">12</td>
+</tr>
+<tr>
+	<td class="cl"><i>Acinetobacter</i> spp. (n=77)</td>
+	<td class="cc">128</td>
+	<td class="cc">128</td>
+	<td class="cc">0.25&nbsp;&#150;&nbsp;128</td>
+	<td class="cc">91</td>
+	<td class="cc">2</td>
+	<td class="cc">&gt;&nbsp;256</td>
+	<td class="cc">1&nbsp;&#150;&nbsp;&gt;&nbsp;256</td>
+	<td class="cc">7</td>
+	<td class="cc">2</td>
+	<td class="cc">32</td>
+	<td class="cc">0.06&nbsp;&#150;&nbsp;32</td>
+	<td class="cc">53</td>
+	<td class="cc">64</td>
+	<td class="cc">64</td>
+	<td class="cc">0.13&nbsp;&#150;&nbsp;64</td>
+	<td class="cc">88</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p class="t8">* R &#150; resistance, according to NCCLS criteria</p>
+
+<center>
+<table cellpadding="2" border="0" cellspacing="0" width="750">
+<tr><td valign="top">
+  
+<a name="f1"></a><br><br><br>
+<p><b>Figure 1.</b> Geographic distribution of the centers included in this study.</p>
+<p><font size="1"><img src="images/ae_fig1.gif" width="570" height="310" border="0" alt="Figure 1. Geographic distribution of the centers included in this study"></font></p>
+
+<a name="f2"></a><br><br><br>
+<p><b>Figure 2.</b> Distribution of body site samples.<br><br>
+<font size="1"><img src="images/ae_fig2.gif" width="620" height="250" border="0" alt="Figure 2. Distribution of body site samples"></font></p>
+
+<a name="f3"></a><br><br><br>
+<p><b>Figure 3.</b> Resistance (%) of <i>Pseudomonas aeruginoza</i> in the study centers.<br><br>
+<font size="1"><img src="images/ae_fig3.gif" width="570" height="810" border="0" alt="Figure 3. Resistance (%) of Pseudomonas aeruginoza in the study centers"></font></p>
+
+<a name="f4"></a><br><br><br>
+<p><b>Figure 4.</b> Resistance (%) of <i>Escherichia coli</i> in the study centers.<br>
+<font size="1"><img src="images/ae_fig4.gif" width="510" height="900" border="0" alt="Figure 4. Resistance (%) of Escherichia coli in the study centers"></font></p>
+
+<a name="f5"></a><br><br><br>
+<p><b>Figure 5.</b> Resistance (%) of <i>K.pneumoniae</i> in the study centers.<br>
+<font size="1"><img src="images/ae_fig5.gif" width="497" height="840" border="0" alt="Figure 5. Resistance (%) of K.pneumoniae in the study centers"></font></p>
+
+<a name="f6"></a><br><br><br>
+<p><b>Figure 6.</b> Resistance (%) of <i>Proteus mirabilis</i> in the study centers.<br><br>
+<font size="1"><img src="images/ae_fig6.gif" width="500" height="800" border="0" alt="Figure 6. Resistance (%) of Proteus mirabilis in the study centers"></font></p>
+
+<br>
+<!-- begin footer -->
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tr>
+  <td style="text-align: left; vertical-align: bottom;" align="left" valign="bottom"><div class="t8">&copy; 2000-2006 IAC SSMA &middot; E-mail: <a href="mailto:website@antibiotic.ru" title="Send e-mail">website&#64;antibiotic&#46;ru</a></div></td>
+  <td colspan="2" valign="top" align="right"><font size="1"><!-- SpyLOG v2 f:0211 --><script language="javascript">
+u="u607.38.spylog.com";d=document;nv=navigator;na=nv.appName;p=1;
+bv=Math.round(parseFloat(nv.appVersion)*100);
+n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random();z="p="+p+"&rn="+rn;y="";
+y+="<a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+
+"&r="+escape(d.referrer)+"&pg="+escape(window.location.href)+"' border=0  width=88 height=31  alt='SpyLOG'>";
+y+="</a>"; d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<a href="../../../index-15.htm?f=3&p=1" target="_blank">
+<img src="../../../digits.png?p=1" alt='SpyLOG' border='0' width="88" height="31">
+</a></noscript><script language="javascript1.2"><!--
+if(!n) { d.write("--"+">"); }//--></script><!-- SpyLOG  --></font></td>
+</tr>
+</table>
+<!-- end of footer -->
+
+  </td></tr>
+</table>
+</center>
+</body>
+</html>

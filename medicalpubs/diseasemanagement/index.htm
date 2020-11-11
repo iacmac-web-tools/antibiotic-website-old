@@ -1,0 +1,921 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+<title>Disease Management - Online Medical Reference | Cleveland Clinic Center for Continuing Education</title>
+<meta name="Keywords" content="Disease Management, online medical reference, disease and condition guide, Cleveland Clinic">
+<meta name="Description" content="The Disease Management is an online medical reference, designed to provide nationally established treatment guidelines for the most commonly seen diseases and conditions.">
+<meta name="ROBOTS" content="INDEX, FOLLOW">
+
+<script type="text/javascript" src="/includes/scripts/jquery.min.js"></script>
+<script src="/includes/scripts/pagetools_bookmarks.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" src="/js/homepage/jssor.slider.mini.js"></script>
+
+<link href="/css/master_screen_responsive.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/css/master_print.css" rel="stylesheet" type="text/css" media="print" />
+
+<!--[if lte IE 9]>
+<link href="/css/ie7-fixes.css" rel="stylesheet" type="text/css" media="screen" />
+<![endif]-->
+
+<link href="/css/publications_DMP_screen.css" rel="stylesheet" type="text/css" media="screen">
+<link href="/css/dm/scroll-banner.css" rel="stylesheet" type="text/css" media="screen">
+<link href="/css/publications_DMP_print.css" rel="stylesheet" type="text/css" media="print">
+
+<script src="/includes/scripts/pagetools_bookmarks.js" type="text/javascript" language="JavaScript"></script>
+
+<script language="JavaScript" type="text/javascript">
+function ToggleIndex(ProgramID) {
+	if (document.getElementById(ProgramID).style.display == "none") {
+		document.getElementById(ProgramID).style.display = "block";
+		document.getElementById("section"+ProgramID).innerHTML = "Hide Chapter List";
+	}
+	else {
+		document.getElementById(ProgramID).style.display = "none";
+		document.getElementById("section"+ProgramID).innerHTML = "View Chapter List";
+	}
+}
+</script>
+
+<script>
+jQuery(document).ready(function ($) {
+
+	var jssor_1_SlideoTransitions = [
+	  [{b:5500.0,d:3000.0,o:-1.0,r:240.0,e:{r:2.0}}],
+	  [{b:-1.0,d:1.0,o:-1.0,c:{x:51.0,t:-51.0}},{b:0.0,d:1000.0,o:1.0,c:{x:-51.0,t:51.0},e:{o:7.0,c:{x:7.0,t:7.0}}}],
+	  [{b:-1.0,d:1.0,o:-1.0,sX:9.0,sY:9.0},{b:1000.0,d:1000.0,o:1.0,sX:-9.0,sY:-9.0,e:{sX:2.0,sY:2.0}}],
+	  [{b:-1.0,d:1.0,o:-1.0,r:-180.0,sX:9.0,sY:9.0},{b:2000.0,d:1000.0,o:1.0,r:180.0,sX:-9.0,sY:-9.0,e:{r:2.0,sX:2.0,sY:2.0}}],
+	  [{b:-1.0,d:1.0,o:-1.0},{b:3000.0,d:2000.0,y:180.0,o:1.0,e:{y:16.0}}],
+	  [{b:-1.0,d:1.0,o:-1.0,r:-150.0},{b:7500.0,d:1600.0,o:1.0,r:150.0,e:{r:3.0}}],
+	  [{b:10000.0,d:2000.0,x:-379.0,e:{x:7.0}}],
+	  [{b:10000.0,d:2000.0,x:-379.0,e:{x:7.0}}],
+	  [{b:-1.0,d:1.0,o:-1.0,r:288.0,sX:9.0,sY:9.0},{b:9100.0,d:900.0,x:-1400.0,y:-660.0,o:1.0,r:-288.0,sX:-9.0,sY:-9.0,e:{r:6.0}},{b:10000.0,d:1600.0,x:-200.0,o:-1.0,e:{x:16.0}}]
+	];
+	
+	var jssor_1_options = {
+	  $AutoPlay: true,
+	  $SlideDuration: 6000,
+	  $SlideEasing: $Jease$.$OutQuint,
+	  $CaptionSliderOptions: {
+		$Class: $JssorCaptionSlideo$,
+		$Transitions: jssor_1_SlideoTransitions
+	  },
+	  $ArrowNavigatorOptions: {
+		$Class: $JssorArrowNavigator$
+	  },
+	  $BulletNavigatorOptions: {
+		$Class: $JssorBulletNavigator$
+	  }
+	};
+	
+	var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+	
+	//responsive code begin
+	//you can remove responsive code if you don't want the slider scales while window resizes
+	function ScaleSlider() {
+		var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+		if (refSize) {
+			refSize = Math.min(refSize, 1920);
+			jssor_1_slider.$ScaleWidth(refSize);
+		}
+		else {
+			window.setTimeout(ScaleSlider, 30);
+		}
+	}
+	ScaleSlider();
+	$(window).bind("load", ScaleSlider);
+	$(window).bind("resize", ScaleSlider);
+	$(window).bind("orientationchange", ScaleSlider);
+	//responsive code end
+});
+
+jQuery(document).ready(function ($) {
+	
+	var jssor_2_options = {
+	  $AutoPlay: true,
+	  $AutoPlaySteps: 4,
+	  $SlideDuration: 800,
+	  $SlideWidth: 175,
+	  $SlideSpacing: 9,
+	  $Cols: 6,
+	  $ArrowNavigatorOptions: {
+		$Class: $JssorArrowNavigator$,
+		$Steps: 4
+	  },
+	  $BulletNavigatorOptions: {
+		$Class: $JssorBulletNavigator$,
+		$SpacingX: 1,
+		$SpacingY: 1
+	  }
+	};
+	
+	var jssor_2_slider = new $JssorSlider$("jssor_2", jssor_2_options);
+	
+	//responsive code begin
+	//you can remove responsive code if you don't want the slider scales while window resizes
+	function ScaleSlider() {
+		var refSize = jssor_2_slider.$Elmt.parentNode.clientWidth;
+		if (refSize) {
+			refSize = Math.min(refSize, 935);
+			jssor_2_slider.$ScaleWidth(refSize);
+		}
+		else {
+			window.setTimeout(ScaleSlider, 30);
+		}
+	}
+	ScaleSlider();
+	$(window).bind("load", ScaleSlider);
+	$(window).bind("resize", ScaleSlider);
+	$(window).bind("orientationchange", ScaleSlider);
+	//responsive code end
+});
+</script>
+
+<style type="text/css">
+#wrapper-page { z-index: 0;}
+
+.dropdown { position: inherit; display: inline-block; width: 98%; margin-bottom: 12px;}
+.dropbtn { width: inherit; background-color: #d3dee8; padding: 16px; font-size: 16px; border: none; cursor: pointer;}
+.dropbtn a { margin: 0 auto; color: #434241; text-decoration: none; font-weight: bold;}
+.dropdown-content { display: none; position: relative; font-size: 14px; background-color: #f1f1f1; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); padding: 0 12px 14px 12px; margin-bottom: 1%; overflow: hidden;}
+.dropdown-content a { display: block; color: black; padding: 12px 16px; text-decoration: none;}
+.dropdown-content a:hover { background-color: #dddede;}
+.dropdown:hover .dropdown-content { display: inherit; z-index: 25; width: 100%;
+	-webkit-transition: all 1.3s ease .15s;
+	-moz-transition: all 1.3s ease .15s;
+	-o-transition: all 1.3s ease .15s;
+	-ms-transition: all 1.3s ease .15s;
+	transition: all 1.3s ease .15s;}
+.dropdown-content {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;}
+.dropdown-content a {
+	-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+	page-break-inside: avoid; /* Firefox */
+	break-inside: avoid; /* IE 10+ */}
+.dropdown:hover .dropbtn { background-color: #d3dee8;}
+
+@media (max-width: 768px) {
+.dropdown:hover .dropdown-content { width: 100%; padding: 0 12px 14px 12px; margin-bottom: 1%;}
+.dropdown-content {
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;}
+}
+</style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T4T6R5');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+<a name="top" id="top"></a>
+<div id="header-wrap">
+	<div id="header">
+		<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4T6R5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="logo">
+                    <a href="/" title="Home page for clevelandclinicmeded.com">	
+                        <img src="/images/CC_logo.jpg" alt="Cleveland Clinic. Your complete Medical Education portal." />												
+                    </a>
+                </div>
+                
+                <div id="header-right">
+                	<div id="mobile-nav-btn">
+                    	<a href="/mobile-nav.htm">Menu</a>
+                    </div>
+                    <div id="">
+                		<div id="nav-top" align="right">
+<ol>
+	<li><a href="/welcome.htm" id="aaboutus">About Us</a></li>
+	<li><a href="/mycme/mylogin.asp" id="amycme">myCME Login</a></li>
+	<li><a href="/help.asp" id="help">Help</a></li>
+<!--	<li><a href="/emailupdates.asp" id="aemailupdates">Monthly CME eNewsletter</a></li> -->
+	<!-- <li>Text Size: </li>
+	<li><a href="javascript:ChangeFontSize('smallFont')" class="smaller">A</a></li>
+	<li><a href="javascript:ChangeFontSize('normalFont')" class="normal">A</a></li>
+	<li><a href="javascript:ChangeFontSize('largeFont')" class="larger">A</a></li>
+	-->
+</ol>
+</div>
+
+<div id="printHeading">
+	<img src="/images/elements/ID-600_2007.jpg" alt="Cleveland Clinic Center for Continuing Education" width="584" height="40" />
+</div>
+
+
+                    </div>
+                </div>
+                
+                <div class="clearthis"></div>
+                
+                <div id="section_medpubs" class="mobile">
+             		<div id="section-inner">
+                        <img src="/images/section/dmp.jpg" alt="Online Medical Reference" />
+                    </div>
+                </div>
+                
+	<div class="clearthis"></div>
+                
+
+
+	<div class="clearthis"></div>
+	</div><!-- /header --> 
+	<div id="section_medpubs" class="desktop">
+		<div id="section-inner">
+			<img src="/images/section/dmp.jpg" alt="Online Medical Reference">
+		</div>
+	</div>
+	<div id="nav-main">
+		<div id="qnavigation">
+<div class="nav-container">
+	<ul id="ccNav" class="clearthis">
+		<li id="navHome" class="navItem"><h3><a href="/">Home</a></h3></li>
+		<li id="navLive" class="navItem"><h3><a href="/live/">Live Events</a></h3></li>
+		<li id="navTextBased" class="navItem"><h3><a href="/online/textbased/">Text-Based CME</a></h3></li>
+		<li id="navWebcast" class="navItem"><h3><a href="/online/webcast/">Webcasts</a></h3></li>
+		<li id="navJournal" class="navItem"><h3><a href="/online/journals/">Journal CME</a></h3></li>
+		<li id="navDMP" class="navItem"><h3><a href="/medicalpubs/diseasemanagement/">Disease Management</a></h3></li>
+		<li id="navLast" class="navItem"><h3><a href="/self-study-cme/">Self-Study CME</a></h3></li>
+	</ul>
+</div><!-- /nav-container -->
+</div><!-- /qnavigation -->
+	</div><!--/nav_main.inc -->
+	<div id="breadcrumb">
+		<a title="Homepage">Disease Management Home</a>
+	</div>
+</div><!-- /header-wrap -->
+
+    <div id="wrapper-page" class="clearthis pub">
+
+	<div id="one_column">
+		<h1>Disease Management</h1>
+        
+        <p class="pageintro">Cleveland Clinic physicians present selected topics about the management of common diseases and conditions.</p>
+
+		<section class="banner">		
+<!-- //
+			<div class="about-image">
+				<img src="/images/diseasemanagement/about-dm.jpg">
+			</div>
+			
+			<div class="about-image-mobile">
+				<img src="/images/diseasemanagement/about-dm-mobile.jpg">
+			</div>
+// -->
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 900px; height: 175px; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('/images/homepage/slider/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 900px; height: 175px; overflow: hidden;">
+            <div data-p="225.00" style="display: none;">
+                <a href="/medicalpubs/diseasemanagement/womens-health/ovarian-cysts/"><img data-u="image" src="/medicalpubs/diseasemanagement/images/slider/ovarian-cysts.jpg" alt="Ovarian Cysts"/></a>
+            </div>
+            <div data-p="225.00" style="display: none;">
+                <a href="/medicalpubs/diseasemanagement/endocrinology/"><img data-u="image" src="/medicalpubs/diseasemanagement/images/slider/diabetes.jpg" alt="Diabetes Mellitus Treatment and Management" /></a>
+            </div>
+            <div data-p="225.00" style="display: none;">
+                <a href="/medicalpubs/diseasemanagement/womens-health/risk-of-venous-thromboembolism/"><img data-u="image" src="/medicalpubs/diseasemanagement/images/slider/thromboembolism.jpg" alt="Hormone Therapy and the Risk of Venous Thromboembolism" /></a>
+            </div>
+            <div data-p="225.00" style="display: none;">
+                <a href="http://www.ccjm.org/topics/diabetes-endocrinology-metabolism/single-article-page/diabetes-management-today-issues-in-achieving-glycemic-goals/5d7afc4c3ca2222d609041890398f7ba.html" target="_blank"><img data-u="image" src="/medicalpubs/diseasemanagement/images/slider/diabetes-supp.jpg" alt="Diabetes" /></a>
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:6px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora03l" style="top:123px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora03r" style="top:123px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
+    </div>
+
+    <!-- #endregion Jssor Slider End -->				
+		</section><!-- features -->		
+
+        
+         <h5><em>Cleveland Clinic is a non-profit academic medical center. Advertising on our site helps support our mission. We do not endorse non-Cleveland Clinic products or services.</em></h5><br>
+
+<br>
+<br>
+
+<!-- individual nav-bars -->
+		
+<!-- individual nav-bars -->
+
+		
+
+			<div class="dropbtn"><strong>Allergy and Immunology</strong></div>
+		
+      <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="allergy/anaphylaxis/">Anaphylaxis</a><br>
+  Fred Hsieh, MD<br /><br>
+  
+  
+  
+  <a href="allergy/hereditary-angioedema/">Hereditary Angioedema</a><br>
+  Roxana Siles, MD
+  <br /><br>
+  
+  
+  <a href="allergy/latex-allergy/">Latex Allergy</a><br>
+  Lily C. Pien, MD</h6></blockquote>
+  
+
+
+					    </div>
+					    <div class="facultyRight">
+                        <blockquote>
+					      <h6><a href="allergy/occupational-asthma/">Occupational Asthma</a><br>
+Mark Aronica, MD<br />
+<br />
+
+<a href="allergy/rhino-sinusitis/">Sinusitis</a><br>
+Christine Radojicic, MD</h6></blockquote>
+				        </div>
+			        </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>   
+        
+
+
+		<div class="dropbtn"><strong>Cardiology</strong></div>
+       <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="cardiology/atrial-fibrillation/">Atrial Fibrillation</a><br>
+Daniel J. Cantillon MD; Ram Amuthan, MD<br><br>
+
+					
+					<a href="cardiology/peripheral-arterial-disease-carotid/">Carotid Artery Stenosis</a><br>
+Natalie S. Evans, MD<a href="cardiology/dilated-restrictive-cardiomyopathy/"><br>
+              <br>
+              Dilated and Restrictive Cardiomyopathies</a><br>
+                                Corinne Bott-Silverman, MD; Baran Aksut, MD<br>
+                                <a href="cardiology/pericardial-disease/"><br>
+                              Pericardial Disease</a><br>
+                                Dermot Phelan, MD, PhD; Patrick Collier, MD, PhD; Richard A. Grimm, DO</h6>
+
+                          </blockquote>
+  
+
+
+					    </div>
+					    <div class="facultyRight">
+                        <blockquote>
+					      <h6><a href="cardiology/syncope/">Syncope</a><br>
+Erika Hutt Centeno, MD; Kenneth A. Mayuga, MD; Fetnat Fouad-Tarazi, MD; Laura Shoemaker, DO; Fredrick Jaeger, DO<br>
+					        <br>
+					        <a href="cardiology/venous-thromboembolism/">Venous Thromboembolism
+					        (Deep Venous Thrombosis & Pulmonary Embolism)
+					        
+                            </a><br>
+				          John R. Bartholomew, MD&nbsp;</h6>
+                        </blockquote>   </div>
+			        </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>   
+				
+		
+
+		
+			<div class="dropbtn"><strong>Dermatology</strong></div>
+            
+            
+            
+            <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="dermatology/atopic-dermatitis/default.htm">Atopic Dermatitis</a><br>
+Melissa Piliang, MD; Sarah Schneider, MD<br><br>
+								  
+								  <a href="dermatology/blistering-diseases/">Blistering Diseases</a><br>
+Shilpi Khetarpal, MD; Pooja Khera, MD<br><br>
+
+					
+					<a href="dermatology/bugs-bites-and-stings/">Bugs, Bites, and Stings</a><br>
+Esteban Faith-Fernandez, MD; Kenneth J. Tomecki, MD<br>
+<br>
+<a href="dermatology/common-benign-growths/">Common Benign Growths</a><br>
+Justin G. Woodhouse, MD; 
+ Kenneth J. Tomecki, MD
+ <br>
+ <br>
+ <a href="dermatology/dermatological-emergencies/">Dermatological Emergencies</a><br>
+Shilpi Khetarpal, MD; 
+Anthony Fernandez, MD, PhD                              </h6>
+                              </blockquote>
+  
+
+
+					    </div>
+					    <div class="facultyRight">
+                        <blockquote>
+					      <h6><a href="dermatology/dermatologic-signs-of-systemic-disease/">Dermatologic Signs of Systemic Disease</a><br>
+					        Lisa M. Grandinetti, MD; Kenneth J. Tomecki, MD<br>
+  <br>
+  <a href="dermatology/cutaneous-malignant-melanoma/">Melanoma</a><br>
+					        Alok Vij, MD<br>
+					        <br>
+                            <a href="dermatology/nonmelanoma-skin-cancer/default.htm">Nonmelanoma Skin Cancer</a><br>
+Daniel Knabel, MD; 
+Allison Vidimos, MD<br>
+  <br>
+					        
+  <a href="dermatology/pigmentary-disorders/">Pigmentary Disorders</a><br>
+					        Apra Sood, MD; Kenneth J. Tomecki, MD<br>
+  <br>
+  <a href="dermatology/pruritus-itch/">Pruritus</a>
+					        <br>
+					        James S. Taylor, MD; Matthew J. Zirwas, MD; Apra Sood, MD				          </h6>
+                        </blockquote>  </div>
+			        </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>    
+            
+            
+            
+
+	
+
+	
+			<div class="dropbtn"><strong>Endocrinolog</strong>y</div>
+            
+            
+            <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="endocrinology/diabetes-mellitus/">Diabetes Mellitus: Management of Microvascular and Macrovascular Complications</a><br>
+Robert. S. Zimmerman, MD<br><br>
+
+					
+					<a href="endocrinology/diabetes-mellitus-treatment/">Diabetes Mellitus Treatment</a><br>
+Mario Skugor, MD<br><br>
+								  
+								  <a href="endocrinology/erectile-dysfunction/">Erectile Dysfunction</a><br>
+Milton Lakin, MD; Hadley Wood, MD<br><br></h6></blockquote>
+  
+
+
+					    </div>
+                        
+                        
+					    <div class="facultyRight">
+                        <blockquote>
+					      <h6>		
+					
+					
+					<a href="endocrinology/prevention-treatment-diabetic-leg-and-foot-ulcers/">Prevention and Treatment of Leg and Foot Ulcers in Diabetes Mellitus</a><br>
+Allan Boike, DPM; Michael Maier, DPM; Daniel Logan, DPM<br><br>
+							
+							
+							<a href="endocrinology/hypercalcemia/default.htm">Hypercalcemia</a><br>
+Mario Skugor, MD</h6></blockquote>  
+                        </div>
+			        </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>   
+            
+ 
+		
+			<div class="dropbtn"><strong>Gastroenterology</strong></div>
+             <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="gastroenterology/colorectal-neoplasia/">Colorectal Neoplasia</a><br>
+Gautam Mankaney, MD; Carol A. Burke, MD</h6></blockquote>  
+						  
+						  <blockquote>
+                              <h6><a href="gastroenterology/colonic-diverticular-disease/default.htm">Colonic Diverticular Disease</a><br>
+Vladimir Bolshinsky MD;
+
+Scott R. Steele, MD, MBA;
+
+Prashanthi N. Thota, MD</h6>
+					    </blockquote></div>
+					    <div class="facultyRight">
+					      <blockquote>
+					        <h6> <a href="gastroenterology/barrett-esophagus-early-esophageal-cancer/">Screening, Surveillance, and Endoscopic Management of Barrett Esophagus and Early Esophageal Cancer</a><br>
+				            Emily Reznicek, MD; Udhayvir Grewal, MD; Mythri Anil Kumar, MD; Prashanthi N. Thota, MD</h6>
+				          </blockquote>
+				        </div>
+		            </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>   
+                                    
+
+		
+			<div class="dropbtn"><strong>Hematology &amp; Oncology</strong></div>
+            <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="hematology-oncology/chronic-myeloproliferative-disorders/">Myeloproliferative Neoplasms</a><br>
+Aaron T. Gerds, MD</h6></blockquote>  </div>
+			        </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>   
+                
+
+		
+			<div class="dropbtn"><strong>Hepatology</strong></div>
+            
+            
+            
+             <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="hepatology/acute-liver-failure/">Acute Liver Failure</a><br>
+Arvind R Murali, MD; KV Narayanan Menon, MD<br><br>
+
+
+
+					
+					<a href="hepatology/alcoholic-liver-disease/">Alcoholic Liver Disease</a><br>
+Catherine Frakes Vozzo, DO; Nicole Welch, MD; Carlos Romero-Marrero, MD; 
+ Kyrsten D. Fairbanks, MD<br>
+<br>					
+					<a href="hepatology/alpha-antitrypsin-deficiency/">Alpha<sub>1</sub>-Antitrypsin Deficiency</a><br>
+Anthony S. Tavill, MD; Loutfi S. Aboussouan, MD<br>
+<br>
+<a href="hepatology/chronic-autoimmune-hepatitis/">Autoimmune Hepatitis</a><br>
+Andrea Fialho, MD; Andre Fialho, MD; 
+ William D. Carey, MD<br>
+<br>
+<a href="hepatology/complications-of-cirrhosis-ascites/">Cirrhotic Ascites</a><br>
+Karin B. Cesario, MD; Anuja Choure, MD; 
+ William D. Carey, MD<br>
+<br>
+<a href="hepatology/gallbladder-biliary-tract-disease/">Gallbladder and Biliary Tract Disease</a><br>
+David S. Barnes, MD<br>
+<br>
+
+<a href="hepatology/hemochromatosis/">Hemochromatosis</a><br>
+Anthony S. Tavill, MD<br>
+<br>
+<a href="hepatology/hepatic-encephalopathy/">Hepatic Encephalopathy</a><br>
+Mina Shaker, MD; William D. Carey, MD<br>
+<br>
+<a href="hepatology/hepatitis-A/">Hepatitis A</a><br>
+Talal Adhami, MD; Ibrahim Hanouneh, MD<br><br>
+<a href="hepatology/hepatitis-b/">Hepatitis B</a><br>
+Robert S. O'Shea, MD</h6>
+</blockquote>
+  
+
+
+					    </div>
+					    <div class="facultyRight">
+                        <blockquote>
+					      <h6>
+					
+										<a href="hepatology/hepatitis-C/">Hepatitis C</a><br>
+Neal Mehta, MD; William Carey, MD; 
+ Naim Alkhouri, MD; Robert S. O'Shea, MD<br><br>
+
+					<a href="hepatology/hepatitis-D/">Hepatitis D</a><br>
+Talal Adhami, MD; William D. Carey, MD<br><br>
+
+<a href="hepatology/hepatitis-e/">Hepatitis E - An Evolving Disease</a><br>
+Sandra Rodriguez, MD; William D. Carey, MD<br><br>
+
+<a href="hepatology/liver-disease-in-pregnancy/">Liver Disease in Pregnancy</a><br>
+JamilГ© Wakim-Fleming, MD<br><br>
+					
+					<a href="hepatology/guide-to-common-liver-tests/">Liver Test Interpretation - Approach to the Patient with Liver Disease: A Guide to Commonly Used Liver Tests</a><br>
+Arvind R. Murali, MD; William D. Carey, MD<br><br>
+
+<a href="hepatology/nonalcoholic-fatty-liver-disease-march-13/">Nonalcoholic Fatty Liver Disease</a><br>
+Emily Carey, DO; Anna Wieckowska, MD;<br>
+ William D. Carey, MD<br><br>
+
+<a href="hepatology/post-liver-transplantation-management/">Post-Liver Transplantation Management</a><br>
+Bijan Eghtesad, MD; Charles M. Miller, MD;<br>
+ John J. Fung, MD<br><br>
+
+<a href="hepatology/cirrhosis-cholangitis-other-cholestatic-liver-disease/">Primary Biliary Cirrhosis, Primary Sclerosing Cholangitis, and Other Cholestatic Liver Diseases</a><br>
+Claudia O. Zein, MD<br><br>
+
+<a href="hepatology/variceal-hemorrhage/">Variceal Hemorrhage</a><br>
+Karin B. Cesario, MD; Anuja Choure, MD; 
+ Kunjam Modha, MD; William D. Carey, MD<br><br>
+
+					<a href="hepatology/wilson-disease/">Wilson's Disease</a><br>
+Anthony S. Tavill, MD
+</h6></blockquote>  </div>
+			        </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>   
+
+
+			<div class="dropbtn"><strong>Infectious Disease</strong></div>
+			 <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="infectious-disease/HIV-care/">HIV for the Primary Care Physician</a><br>
+
+Julianne Griswold, DO; Marisa Tungsiripat, MD<br>
+<br>
+</h6></blockquote>
+					<blockquote>
+					      <h6>
+
+<a href="infectious-disease/adult-immunization/">Adult Immunization</a><br>
+
+Patricia Dandache, MD<br>
+
+</h6></blockquote>  	  
+						  </div>
+
+ <div class="facultyRight">
+                        
+						  
+	<blockquote>
+					      <h6>
+
+<a href="infectious-disease/sepsis/default.htm">Sepsis</a><br>
+
+Bethany Lehman, DO;
+
+Patricia Dandache, MD <br>
+
+</h6></blockquote> 					  
+						  </div>
+			        </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>   
+
+
+		
+			<div class="dropbtn"><strong>Neurology</strong></div>
+            
+            
+            
+         <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="neurology/alzheimers-disease/">Alzheimer's Disease</a><br>
+
+Dylan Wint, MD; Jinny Tavee, MD; Patrick Sweeney, MD<br><br>
+
+					
+					<a href="neurology/dizziness/">Dizziness</a><br>
+
+Neil Cherian, MD<br>
+<br>
+<a href="neurology/headache-syndromes/">Headache</a><br>
+
+Jennifer S. Kriegler, MD<br>
+<br>
+<a href="neurology/multiple_sclerosis/">Multiple Sclerosis</a><br>
+
+Carrie M. Hersh, DO, MSc; Robert J. Fox, MD
+</h6></blockquote>
+  
+
+
+					    </div>
+                        
+                        
+					    <div class="facultyRight">
+                        <blockquote>
+					      <h6><a href="neurology/myopathy/">Myopathy</a><br>
+
+Preetha Muthusamy, MD; Jinny Tavee, MD<br>
+<br>
+
+					
+					<a href="neurology/parkinsons-disease/">Parkinson's Disease</a><br>
+
+Patrick Sweeney, MD<br><br>
+
+					
+					
+					<a href="neurology/sleep-disorders/">Sleep Disorders</a><br>
+
+Li Ling Lim, MD; Nancy Foldvary-Schaefer, DO, MS<br><br>
+
+					
+					<a href="neurology/tremors/">Tremors</a><br>
+
+Anwar Ahmed, MD; Patrick Sweeney, MD</h6></blockquote>  </div>
+			        </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>       
+ 
+ 
+
+			<div class="dropbtn"><strong>Psychiatry &amp; Psychology</strong></div>
+            
+             <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="psychiatry-psychology/eating-disorders/">Eating Disorders</a><br>
+Kathleen N. Franco, MD; Erin H. Sieke; Leah Dickstein, MD; Tatiana Falcone, MD</h6></blockquote>  </div>
+			        </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>   
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+            
+  
+					<div class="dropbtn"><strong>Pulmonary Disease</strong></div>
+                    
+                    
+                    
+                  <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="pulmonary/dyspnea/">Dyspnea</a><br>
+
+Rendell Ashton, MD; Dileep Raman, MD
+</h6></blockquote>
+  
+
+
+					    </div>
+                        
+                        
+					    <div class="facultyRight">
+                        <blockquote>
+					      <h6>
+					
+					<a href="pulmonary/pulmonary-arterial-hypertension/">Pulmonary Arterial Hypertension</a><br>
+
+Ahmed Jawad, MD; Gustavo A. Heresi, MD; Adriano R. Tonelli, MD;
+ Raed A. Dweik, MD; Neal Chaisson, MD</h6></blockquote>  </div>
+			        </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>      
+                    
+	
+			<div class="dropbtn"><strong>Rheumatology</strong></div>
+            
+            
+           <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="rheumatology/gout-and-pseudogout/">Gout and Calcium Pyrophosphate Deposition Disease</a><br>
+
+Feyrouz Al-Ashkar, MD<br><br>
+										<a href="rheumatology/pagets-disease-of-bone/">Paget's Disease of Bone</a><br>
+
+Elizabeth File, MD; Abby Abelson, MD
+</h6></blockquote>
+  
+
+
+					    </div>
+                        
+                        
+					    <div class="facultyRight">
+                        <blockquote>
+					      <h6><a href="rheumatology/angiitis-of-central-nervous-system/">Primary Angiitis of the Central Nervous System</a><br>
+
+Rula A. Hajj-Ali, MD; Leonard H. Calabrese, DO<br><br>
+					
+					<a href="rheumatology/psoriatic-arthritis/">Psoriatic Arthritis</a><br>
+
+M. Elaine Husni, MD, MPH</h6></blockquote>  </div>
+			        </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>       
+            
+
+		
+			<div class="dropbtn"><strong>Women's Health</strong></div>
+            
+  <div>
+                      <div class="facultyRow">
+					    <div class="facultyLeft">
+                              <blockquote>
+                              <h6><a href="womens-health/breast-disorders-cancer-screening-and-risk-assessment/default.htm">Breast Disorders, Cancer Screening, and Risk Assessment</a><br>
+
+Holly J. Pederson, MD;
+Shazia Goraya, MD</h6></blockquote>                              <blockquote>
+                              <h6><a href="womens-health/gynecologic-malignancies/">Endometrial, Ovarian, and Cervical Cancer</a><br>
+
+Elizabeth Connor, MD; Chad Michener, MD<br><br>
+
+
+										<a href="womens-health/female-contraception/">Female Contraception</a><br>
+
+Pelin Batur, MD<br><br>
+
+
+										<a href="womens-health/risk-of-venous-thromboembolism/">Hormone Therapy and the Risk of Venous Thromboembolism</a><br>
+
+Holly L. Thacker, MD
+</h6></blockquote>
+  
+
+
+					    </div>
+                        
+                        
+					    <div class="facultyRight">
+                        <blockquote>
+					      <h6>Infertility (see <em><a href="https://www.ccjm.org/content/86/7/473">Cleveland Clinic Journal of Medicine</a></em>)<br>
+					        Tommaso Falcone, MD
+					        <br><br>
+
+										<a href="womens-health/menopause/">Menopause</a><br>
+
+Julie A. Elder, MD; Holly L. Thacker, MD<br><br>
+
+										<a href="womens-health/ovarian-cysts/">Ovarian Cysts</a><br>
+
+Elisa Ross, MD; Chelsea Fortin, MD</h6></blockquote>  </div>
+			        </div>
+					  <!-- facultyRow -->
+					  <div class="clearthis"></div>
+				  </div>                   
+            
+<div class="clearthis"></div>
+
+<p align="center" class="page_subtitle2">A generous gift in memory of Eileen Cawley made this work possible.</p>
+
+ <div class="clearthis"></div>
+
+<p><a href="#top" class="backtop_links">Back to Top</a></p>
+            
+<p><a href="/online/casebased/decisionmaking/" target="_blank">Take <i>Disease Management  Clinical Decisions</i> lessons for CME credit</a></p>
+            
+        </div><!-- one_column -->
+        
+        <div class="clearthis"></div>
+        
+        <div id="footer">
+  			<div style="display: hidden"><img src="http://cce.ccf.org/ccecme/session" /></div>
+<div id="upperFooterContainer" class="clearthis">
+	<div id="footerPad">&nbsp;</div>
+	<div id="upperFooterLinks" class="textNavFooter">
+	</div>
+</div><!-- /upperFooterContainer -->
+	<div id="lowerFooterContainer" class="clearthis">
+		<!--<div id="pageTools"><a href="#" onclick="AddBookMark();return false"><img src="/images/elements/bookmark.jpg" alt="Bookmark this Chapter" width="74" height="20" border="0" class="bookmark" /></a></div>-->
+		<div id="copyStatement">Copyright &copy; 2000-2018 The Cleveland Clinic Foundation. All Rights Reserved.<br />
+	Center for Continuing Education | 1950 Richmond Road, TR204, Lyndhurst, OH  44124</div>
+	</div><!-- /lowerFooterContainer -->
+		<div id="lowerFooterLinks" class="textNavFooter">
+			<ul>
+				<li><a href="/disclaimer.htm">Site Disclaimer</a></li>
+				<li><a href="https://my.clevelandclinic.org/about/website/privacy-security" target="_blank">Privacy Policy</a></li>
+				<!--<li><a href="/sitemap.htm" id="asitemap"  target="_blank">Sitemap</a></li>-->
+			<li><a href="/medicalpubs/diseasemanagement/editorialpolicy.htm" target="_blank">Editorial Policy</a></li>
+			 <li><a href="/medicalpubs/diseasemanagement/editorialboard.htm">Editorial Board</a></li>
+			</ul>
+		</div>
+<div id="printFooter">
+		<div id="copyStatement">Copyright &copy; 2000-2018 The Cleveland Clinic Foundation. All Rights Reserved.<br />
+	Center for Continuing Education | 1950 Richmond Road, TR204, Lyndhurst, OH 44124</div>
+</div>
+  		</div><!-- /footer -->
+    </div><!-- wrapper-page -->
+</body>
+</html>

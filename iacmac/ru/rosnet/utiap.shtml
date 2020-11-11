@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content-Language" content="ru">
+<meta http-equiv="Last-Update" content="2004-12-14">
+<title>Проекты RosNet: Исследование чувствительности возбудителей внебольничных острых неосложнённых инфекций мочевыводящих путей (UTIAP)</title>
+<meta name="description" content="Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии. Программы мониторинга за антибиотикорезистентностью в России (RosNet): Исследование чувствительности возбудителей внебольничных острых неосложнённых инфекций мочевыводящих путей (UTIAP)">
+<meta name="keywords" content="МАКМАХ, клиническая микробиология, антимикробная химиотерапия, RosNet, мониторинг, антибиотикорезистентность, UTIAP, неосложнённые инфекции мочевыводящих путей">
+<meta name="Language" content="Russian">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="resource-type" content="document">
+<meta name="author" content="МАКМАХ">
+<meta name="copyright" content="Copyright (c) 1998-2007 МАКМАХ">
+<meta name="classification" content="Medicine">
+<link rel="SHORTCUT ICON" type="image/x-icon" href="../../favicon.ico">
+<link rel="Home" href="../../index.htm">
+<link rel="Index" href="../../index.shtml">
+<link rel="Help" href="../info/index.htm">
+
+<link rel="StyleSheet" type="text/css" href="../../inc/style.css">
+<style type="text/css"> @import url("../../inc/style-ie.css"); </style>
+<script type="text/javascript" language="JavaScript" src="../../inc/nn.js"></script>
+</head>
+
+<body leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td bgcolor="#D6D6D6" width="30%">&nbsp;</td>
+  <td width="775">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr bgcolor="#10715D">
+  <td colspan="3"><img src="../../img/head1-ru.gif" width="775" height="32" border="0" alt="Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии"></td>
+</tr>
+<tr bgcolor="#10715D">
+  <td><img src="../../img/head2a.gif" width="39" height="29" alt="" border="0"></td>
+  <td><img src="../../img/head2b.gif" width="548" height="29" alt="" border="0"></td>
+  <td><img src="../../img/head2c.gif" width="188" height="29" alt="" border="0"></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr bgcolor="#10715D">
+  <td><img src="../../img/head3a.gif" width="25" height="101" alt="" border="0"></td>
+  <td><a href="../../index.htm" title="На главную страницу"><img src="../../img/head3b.jpg" width="97" height="101" alt="" border="0"></a></td>
+  <td background="/iacmac/img/head3c.gif" width="132"></td>
+  <td><img src="../../img/head3d.jpg" width="307" height="101" alt="" border="0"></td>
+  <td bgcolor="#F0F0F0" background="/iacmac/img/head3e.gif" width="214">
+
+    <table border="0" cellpadding="2" cellspacing="0" align="center">
+    <tr>
+      <td align="right"><img src="../../img/flag-eng.gif" width="20" height="14" alt="" border="0"></td>
+      <td><h6><a class="n" href="../../en/index-1.htm">English</a></h6></td>
+    </tr>
+    </table>
+
+    <form name="web" method="get" action="http://www.yandex.ru:8081/yandsearch" target="_blank">
+    <input type="hidden" name="serverurl" value="http://www.iacmac.ru/iacmac/"> 
+    <input type="hidden" name="server_name" value="МАКМАХ"> 
+    <input type="hidden" name="referrer1" value="http://www.iacmac.ru/iacmac/">
+    <input type="hidden" name="referrer2" value="Сайт МАКМАХ">
+    <table border="0" cellpadding="0" cellspacing="2" align="center">
+    <tr><td height="2"></td></tr>
+    <tr><td bgcolor="#10715D" height="1"></td></tr>
+    <tr><td height="2"></td></tr>
+    <tr><td><small>Поиск по сайту:</small></td></tr>
+    <tr><td><input name="text" type="text" class="text" size="16" maxlength="150" title="Введите слова для поиска" style="height:20px;">&nbsp;<input type="submit" class="button" value="Искать" style="height:20px;"></td></tr>
+    </table>
+    </form>
+  </td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr bgcolor="#10715D">
+  <td><img src="../../img/head4a.gif" width="46" height="29" alt="" border="0"></td>
+  <td><img src="../../img/head4b.gif" width="729" height="29" alt="" border="0"></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td bgcolor="#10715D"><img src="../../img/head5a.gif" width="72" height="36" alt="" border="0"></td>
+  <td bgcolor="#D8D8D8" background="/iacmac/img/head5b.gif" width="703">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr>
+    <td background="/iacmac/img/tab1.gif" width="138" align="center"><div id="tab1"><a href="../../index.htm" title="На главную страницу">МАКМАХ</a></div></td>
+<!--    <TD background="/iacmac/img/tab1.gif" width="138" align="center"><div id="tab1"><a href="/iacmac/ru/member/" title="Информация об индивидуальном членстве в МАКМАХ">Членство</a></div></TD>-->
+    <td background="/iacmac/img/tab1.gif" width="138" align="center"><div id="tab1"><a href="../confer/index.htm" title="Конференции, симпозиумы и семинары МАКМАХ">Мероприятия</a></div></td>
+    <td background="/iacmac/img/tab1.gif" width="138" align="center"><div id="tab1"><a href="../pub/index.htm" title="Публикации МАКМАХ">Публикации</a></div></td>
+    <td background="/iacmac/img/tab2.gif" width="138" align="center"><div id="tab1"><a name="rosnet">RosNet</a></div></td>
+    <td><img src="../../img/px.gif" width="1" height="36" alt="" border="0"></td>
+  </tr></table>
+  </td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td bgcolor="#10715D"><img src="../../img/head6a.gif" width="76" height="26" alt="" border="0"></td>
+  <td bgcolor="#CCE0DA" background="/iacmac/img/head6b.gif" width="699" style="padding-left:12px;"><small><a href="index.htm">RosNet</a> / UTIAP</small></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr valign="top">
+  <td bgcolor="#10715D" background="/iacmac/img/head7a.gif"><img src="../../img/px.gif" width="36" height="1" alt="" border="0"></td>
+  <td bgcolor="#EFF5F4" background="/iacmac/img/head8b.gif" width="40"><img src="../../img/head7b.gif" width="40" height="75" alt="" border="0"></td>
+  <td bgcolor="#EFF5F4" width="699">
+
+  <table border="0" cellpadding="1" cellspacing="0" width="100%"><tr valign="top">
+    <td style="padding:10px;">
+
+<h1 class="h2">Исследование чувствительности возбудителей внебольничных острых неосложнённых инфекций мочевыводящих путей&nbsp;&#150; UTIAP</h1>
+<br>
+<p class="aj"><font class="h5">UTIAP</font> - исследование чувствительности возбудителей внебольничных острых неосложнённых инфекций мочевыводящих путей.</p>
+
+<p class="aj">Данный проект был начат в 1999&nbsp;г. и в настоящее время проводится III фаза исследования. В&nbsp;таблице представлена основная информация о каждой фазе.</p>
+<br>
+<table class="brd" border="0" cellspacing="1" cellpadding="7" width="100%">
+<tr class="bkg" valign="top">
+  <th class="l"><small>Название</small></th>
+  <td class="c"><b>UTIAP&#150;1</b></td>
+  <td class="c"><b>UTIAP&#150;2</b></td>
+  <td class="c"><b>UTIAP&#150;3</b></td>
+</tr>
+<tr class="bkg" valign="top">
+  <th class="l"><small>Особенности  протокола</small></th>
+  <td><small>Женщины с&nbsp;острым неосложнённым циститом</small></td>
+  <td><small>Амбулаторные осложнённые и неосложненные ИМП. Собиралась информация о&nbsp;стереотипах назначения антибиотиков</small></td>
+  <td><small>Амбулаторные осложнённые и неосложнённые ИМП. Собирается информация о&nbsp;стереотипах назначения антибиотиков</small></td>
+</tr>
+<tr class="bkg" valign="top">
+  <th class="l"><small>Сроки проведения</small></th>
+  <td><small>1999-2000</small></td>
+  <td><small>2000-2001</small></td>
+  <td><small>2004-2005</small></td>
+</tr>
+<tr class="bkg" valign="top">
+  <th class="l"><small>Количество центров</small></th>
+  <td><small>4</small></td>
+  <td><small>4</small></td>
+  <td><small>9</small></td>
+</tr>
+<tr class="bkg" valign="top">
+  <th class="l"><small>Центры участники</small></th>
+  <td nowrap=""><small>Москва<br> Новосибирск<br> Санкт-Петербург<br> Смоленск</small></td>
+  <td nowrap=""><small>Екатеринбург<br> Ростов-На-Дону<br> Санкт-Петербург<br> Смоленск</small></td>
+  <td nowrap=""><small>Владивосток<br> Казань<br> Москва<br> Нижний Новгород<br> Новосибирск<br> Санкт-Петербург<br> Смоленск<br> Томск<br> Челябинск</small></td>
+</tr>
+<tr class="bkg" valign="top">
+  <th class="l"><small>Количество штаммов</small></th>
+  <td><small>400</small></td>
+  <td><small>295</small></td>
+  <td><small>Планируется 800 штаммов</small></td>
+</tr>
+<tr class="bkg" valign="top">
+  <th class="l"><small>Тестируемые антибиотики</small></th>
+  <td nowrap=""><small>Ампициллин<br> Гентамицин<br> Ко-тримоксазол<br> Налидиксовая к-та<br> Нитроксолин<br> Нитрофурантоин<br> Норфлоксацин<br> Пипемидовая к-та<br> Триметоприм<br> Ципрофлоксацин</small></td>
+  <td nowrap=""><small>Ампициллин<br> Гентамицин<br> Ко-тримоксазол<br> Налидиксовая к-та<br> Нитроксолин<br> Нитрофурантоин<br> Норфлоксацин<br> Пипемидовая к-та<br> Триметоприм<br> Ципрофлоксацин</small></td>
+  <td nowrap=""><small>Амикацин<br> Амоксициллин<br> Амоксициллин/клавуланат<br> Гентамицин<br> Доксициклин<br> Имипенем<br> Ко-тримоксазол<br> Налидиксовая кислота<br> Нетилмицин<br> Нитроксолин<br> Нитрофурантоин<br> Норфлоксацин<br> Пипемидовая кислота<br> Фосфомицин<br> Цефазолин<br> Цефепим<br> Цефотаксим<br> Цефтазидим<br> Цефтриаксон<br> Цефуроксим<br> Ципрофлоксацин</small></td>
+</tr>
+</table>
+<br>
+<h4>Основные публикации</h4>
+<ol>
+	<li>Рафальский В.В. Особенности выбора антимикробной терапии при осложненных инфекциях мочевыводящих путей. Consilium Medicum.- 2004.- N&nbsp;7.- <nobr>С. 466-472.</nobr></li>
+	<li>Рафальский В.В, Антибиотикорезистентность - фактор, определяющий выбор антимикробных препаратов для терапии инфекций мочевыводящий путей // Врачебное сословие.- 2004.- N&nbsp;4.- <nobr>С. 10-18.</nobr></li>
+	<li>Страчунский Л.С., Рафальский В.В. Антибактериальная терапия хронического простатита / Простатит: практическое руководство по диагностике и лечению острого и хронического простатита/синдрома хронической тазовой боли. Под ред. Щеплева&nbsp;П.А.- М.: Росмэн, 2004.- 369&nbsp;с.</li>
+	<li>Лоран О.Б., Страчунский Л.С., Синякова Л.А., Рафальский В.В., Шевелев А.Н., Косова&nbsp;И.В. Микробиологическая характеристика и клиническая эффективность фосфомицина. Урология 2004;&nbsp; N 3: 18-21.</li>
+	<li>Рафальский В.В., Страчунский Л.С., Кречикова О.И., Эйдельштейн И.А., Ахметова&nbsp;Л.И., Бабкин&nbsp;П.А. и др. Резистентность возбудителей амбулаторных инфекций мочевыводящих путей по данным многоцентровых микробиологических исследований <nobr>UTIAP-I</nobr> и <nobr>UTIAP-II</nobr> // Урология.- 2004.- N&nbsp;2.- <nobr>С. 13-17.</nobr></li>
+	<li>V.V. Rafalski, L.I. Ahmetova, P.A. Babkin, M.I. Kogan, V.V. Kopilov, O.I.&nbsp;Krechikova, I.V.&nbsp;Malev, S.B.&nbsp;Petrov, L.V.&nbsp;Rafalskaya, S.M.&nbsp;Rosanova, L.S.&nbsp;Stratchunski. Resistance of <i>E.coli</i> isolates from women with uncomplicated community-acquired urinary tract infections in Russia: result of multicenter study UTIAP. Abstract A5. UTI symposium Hot topics in urinary tract infections, January 24-26 2003, Budapest, Hungary.</li>
+	<li>V. Rafalski, L. Ahmetova, P. Babkin, M. Kogan, V. Kopilov, O. Krechikova, I.&nbsp;Malev, S.&nbsp;Petrov, L.&nbsp;Rafalskaya, S.&nbsp;Rosanova, L.&nbsp;Stratchunski. Antibiotic drug prescription in community-acquired urinary tract infection: A Russian multicenter pharmacoepidemiological survey. 23 Intrenational Congress of Chemotherapy, Durban, South Africa, 7-9 June 2003. Abstract SA 113.</li>
+	<li>Выбор антимикробных препаратов при неосложнённых инфекциях мочевыводящих путей внебольничного происхождения. Пособие для врачей. Лопаткин&nbsp;Н.А., Страчунский&nbsp;Л.С., Рафальский&nbsp;В.В., Деревянко&nbsp;И.И., Кречикова&nbsp;О.И., Эйдельштейн&nbsp;И.А., Коган&nbsp;М.И., Копылов&nbsp;В.В, Городниченко&nbsp;В.Я., Петров&nbsp;С.В., Бабкин&nbsp;П.А., Шустрова&nbsp;Т.А., Розанова&nbsp;С.М., Рафальская&nbsp;Л.В., Сухорукова&nbsp;М.В. / Смоленск 2002. 14&nbsp;с.</li>
+	<li>Рафальский В.В., Ахметова Л.И., Бабкин П.А., Коган М.И., Копылов В.В., Малёв&nbsp;И.В., Петров&nbsp;С.Б., Рафальская&nbsp;Л.В., Розанова&nbsp;С.М., Страчунский&nbsp;Л.С. Фармакоэпидемиологический анализ антибактериальной терапии внебольничных инфекций мочевыводящих путей // Тезисы докладов IX Российского национального конгрсесса &laquo;Человек и лекарство&raquo;, 8-12 апреля, Москва, 2002.- С.&nbsp;373.</li>
+	<li>Рафальский В.В., Ахметова Л.И., Бабкин П.А., Коган М.И., Копылов В.В., Кречикова&nbsp;О.И., Малёв&nbsp;И.В., Петров&nbsp;С.Б., Рафальская&nbsp;Л.В., Розанова&nbsp;С.М., Эйдельштейн&nbsp;И.А., Страчунский&nbsp;Л.С. Чувствительность к пероральным антибиотикам штаммов <i>E.coli</i> у пациентов с внебольничными неосложнёнными инфекциями мочевыводящих путей (НИМП) // тезисы IV Международной конференции МАКМАХ  &laquo;Антимикробная терапия&raquo;, 2001&nbsp;г. Клиническая микробиология и антимикробная химиотерапия N&nbsp;3, 2001, Приложение&nbsp;1. Тезис&nbsp;68.</li>
+	<li>Рафальский В.В., Ахметова Л.И., Бабкин П.А., Коган М.И., Копылов В.В., Кречикова&nbsp;О.И., Малев&nbsp;И.В., Петров&nbsp;С.Б., Рафальская&nbsp;Л.В., Розанова&nbsp;С.М., Эйдельштейн&nbsp;И.А., Страчунский&nbsp;Л.С., Структура возбудителей внебольничных инфекций мочевых путей по данным многоцентрового исследования UTIAP-2. &laquo;Клиническая лабораторная диагностика&raquo;, N&nbsp;9, 2001.</li>
+	<li>Лопаткин Н.А., Деревянко И.И., Страчунский Л.С., Рафальский В.В., Решедько&nbsp;Г.К., Сехин&nbsp;С.В., Лоран&nbsp;О.Б., Петров&nbsp;С.Б., Бабкин&nbsp;П.А. <a target="_blank" href="http://www.antibiotic.ru/cmac/2000_2_1/069.htm">Антибактериальная терапия острого цистита и пиелонефрита у взрослых</a> // КМАХ.- 2000.- Том 2.- N&nbsp;1.- <nobr>С. 69-76.</nobr></li>
+	<li>Страчунский Л.С., Рафальский В.В., Сехин С.В., Абрарова Э.Р. Практические подходы к выбору антибиотиков при неосложнённых инфекциях мочевыводящих путей // Урология, 2000.- N&nbsp;2.- <nobr>С. 8-16.</nobr></li>
+	<li>Лопаткин Н.А., Деревянко И.И., Страчунский Л.С., Рафальский В.В., Лоран&nbsp;О.Б., Петров&nbsp;С.Б., Бабкин&nbsp;П.А. Антибактериальная терапия острого цистита и пиелонефрита у взрослых // Антибиотики и химиотерапия.- 2000.- N&nbsp;4.- <nobr>С. 30-34.</nobr></li>
+	<li>Антибактериальная терапия острого цистита и пиелонефрита у взрослых. Пособие для врачей. Лопаткин&nbsp;Н.А., Деревянко&nbsp;И.И., Страчунский&nbsp;Л.С., Рафальский&nbsp;В.В., Лоран&nbsp;О.Б., Петров&nbsp;С.Б., Бабкин&nbsp;П.А. / Москва, 2000. 24&nbsp;с.</li>
+	<li>Страчунский Л.С., Рафальский В.В. Клиническое значение и антибактериальная терапия острых циститов // Клиническая антимикробная химиотерапия.- 1999.- N&nbsp;3.- <nobr>С. 84-90.</nobr></li>
+</ol>
+<br>
+<p>Координатор исследования <ul>Владимир Витальевич Рафальский<br> Д.м.н., зам. директора НИИ антимикробной терапии<br> <a href="mailto:raf@antibiotic.ru">raf&#64;antibiotic&#46;ru</a></ul>
+
+    </td>
+  </tr></table>
+
+<br>
+
+<div align="right" style="padding-right:10px;"><small><font class="note">Дата последнего изменения: 12.12.2013 </font></small></div>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr>
+<td align="left" valign="bottom"><small>&copy; 1998-2020 МАКМАХ</small></td>
+<td align="right">
+<!--Rambler-1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../../top100.cnt.gif?335834" alt="" width="1" height="1" border="0"></a><!--/Rambler--><!--RAX-1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';'+Math.random()+
+'" border="0" width="1" height="1" alt="">')
+//--></script><!--/RAX-->
+<!--RAX--><a target="_blank" href="../../../stat/antibiotic.ru/index.htm"><img src="../../../images/banners/rax.gif" border="0" width="31" height="31" alt="RAX.ru"></a><!--/RAX-->
+<!--Mail.ru--><a target="_blank" href="http://top.mail.ru/jump?from=96637"><img src="../../../counter-1.gif?id=96637;t=58" border="0" height="31" width="88" alt="Рейтинг@Mail.ru"></a><!--/Mail.ru--> <!-- t=55 -->
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../../images/banners/rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+</td>
+</tr></table>
+<!--/counters-->
+
+  </td>
+</tr>
+<tr bgcolor="#10715D">
+  <td colspan="3" height="1"></td>
+</tr>
+</table>
+
+  </td>
+  <td bgcolor="#10715D"><img src="../../img/px.gif" width="1" height="1" alt="" border="0"></td>
+  <td bgcolor="#D6D6D6" width="30%">&nbsp;</td>
+</tr>
+</table>
+
+</body>
+</html>

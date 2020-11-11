@@ -1,0 +1,1727 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+  <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"ea2a3c61cd",applicationID:"899848932"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<meta name="title" content="Financial Conduct Authority | FCA" />
+<link rel="shortlink" href="https://www.fca.org.uk/" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:site_name" content="FCA" />
+<link rel="canonical" href="https://www.fca.org.uk/" />
+<meta name="description" content="The Financial Conduct Authority is the conduct regulator for 58,000 financial services firms and financial markets in the UK and the prudential regulator for over 24,000 of those firms." />
+<meta name="twitter:title" content="Homepage" />
+<meta name="twitter:site" content="@TheFCA" />
+<meta property="og:type" content="website" />
+<meta name="twitter:site:id" content="169431716" />
+<meta property="og:url" content="https://www.fca.org.uk/" />
+<meta property="og:title" content="FCA" />
+<meta name="twitter:url" content="https://www.fca.org.uk/homepage" />
+<meta name="twitter:image" content="https://www.fca.org.uk/sites/default/files/images/fca-logo-social-media.jpg" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #6C1D45} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}#sliding-popup.sliding-popup-top { position: fixed; }</style>
+<meta name="theme-color" content="#6c1d45" />
+<link rel="shortcut icon" href="/themes/custom/fca/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="https://www.fca.org.uk/homepage" />
+<script>function fcaCookieForTracking(name) {name += '=';for (var ca = document.cookie.split(/;\s*/), i = ca.length - 1; i >= 0; i--)if (!ca[i].indexOf(name))return ca[i].replace(name, '');}(function (w, d, s, l, i) {var cag = typeof fcaCookieForTracking('fca-cookie-agreed-categories') !== 'undefined' && fcaCookieForTracking('fca-cookie-agreed-categories').indexOf('tracking_ad') !== -1;if (cag) {w[l] = w[l] || [];w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});var f = d.getElementsByTagName(s)[0];var j = d.createElement(s);var dl = l != 'dataLayer' ? '&l=' + l : '';j.type = 'text/javascript';j.src='//www.googletagmanager.com/gtm.js?id='+i+dl+'';j.async = true;f.parentNode.insertBefore(j, f);}})(window,document,'script','dataLayer','GTM-PCC62S');</script>
+
+    <title>Financial Conduct Authority | FCA</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_nVv1QS1npIAoAJ_GPtFEGet8Lc2VFgEbCxO9t7awBoc.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Rx-4fQZz7v5a5SFW2NUCd8W5tX2nqXeYaf6Uu-Ux2jw.css" />
+
+    <link rel=preload href="/themes/custom/fca/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.woff2" as="font" crossorigin>
+    <meta name="google-site-verification" content="UMTpd8qXqUbCGtkijm3SkFV2lRJQM2lIIkMKmJg8jMk" />
+    <meta name="msvalidate.01" content="57E38F6BD7138599EBD7F7F4FF496957" />
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+</head>
+<body class="page-node-233 node-bg-6c1d45 logged-out">
+<div class="skip-links" aria-labelledby="skip-main-content" role="banner">
+  <a href="#main-content" id="skip-main-content" class="visually-hidden sr-only-focusable focusable" tab-index="1">Skip to main content</a>
+  <a href="#edit-search-term" class="visually-hidden focusable skip-to-search">Skip to search box</a>
+      </div>
+<noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCC62S" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    					<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4 header__logo-col">
+        <a class="header__logo navbar-btn pull-left" href="/" title="Home">
+          <img src="/themes/custom/fca/images/logo.png" alt="Home" aria-role="image">
+        </a>
+      </div>
+
+      <div class="col-md-8 col-sm-8 header__nav-col">
+        <div class="row header__nav-search">
+          <div id="block-fca-funnelback-fca-funnelback-search-box"
+            class="block block-fca-funnelback clearfix col-xs-12 col-md-6 header__nav-search-block">
+            <section class="fca-funnelback-search-form block block-fca-funnelback block-funnelback-search-block clearfix" data-drupal-selector="fca-funnelback-search-form" novalidate="novalidate" id="block-funnelbacksearchblock">
+  
+    
+
+      <form action="/" method="post" id="fca-funnelback-search-form" accept-charset="UTF-8">
+  <div class="input-group search-input-group">
+  <label class="text-hide" for="edit-search-term">
+    Search
+  </label>
+  <input title="Search" placeholder="Search" class="funnelback-query form-text form-control" data-drupal-selector="edit-search-term" type="text" id="edit-search-term" name="search_term" value="" size="60" maxlength="128" />
+  <span class="input-group-btn">
+    <button aria-label="Submit" title="Submit" class="form-submit btn--search text-hide button js-form-submit form-submit btn-primary btn icon-before" data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" name="op" value="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+Search</button>
+  </span>
+</div>
+
+<input autocomplete="off" data-drupal-selector="form-uod-ybvy5z3hsshizxgleisn4sev7fy2pef3q63jxy8" type="hidden" name="form_build_id" value="form-uoD-Ybvy5z3HsShiZXGLEisN4SEv7Fy2PEF3q63jxY8" /><input data-drupal-selector="edit-fca-funnelback-search-form" type="hidden" name="form_id" value="fca_funnelback_search_form" />
+
+</form>
+
+  </section>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-10 header__nav-col header__nav-menu">
+        <div class="row header__nav-wrapper">
+          <nav class="navbar navbar-default header__nav-navigation" aria-labelledby="navbar-collapse">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+              <section class="block-tb-megamenu-main-menu">
+                <div class="tb-megamenu tb-megamenu-main-menu">
+                  <nav aria-labelledby="block-fca-main-menu-menu" id="block-fca-main-menu">
+            <h2 class="sr-only" id="block-fca-main-menu-menu">Main navigation</h2>
+
+      
+<div class="always-show">
+        <ul class="tb-megamenu-nav nav level-0 items-6 list-inline mega-menu">
+                            <li class="first tb-megamenu-item level-1 mega dropdown col-xs-12 col-sm-2 mega-menu__level-one-item">
+                                                           <a href="/about" class="dropdown-toggle mega-menu__level-one-link" data-drupal-link-system-path="node/2881">About us</a>
+                                  <div class="megamenu__menu view view-megamenu-block view-id-megamenu_block view-display-id-megamenu_block_contextual dropdown-menu mega-menu__level-two-wrapper">
+  
+    
+      
+            <div class="view-content">
+        <div class="container">
+          <div class="row">
+                <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">What we do</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-d23fbc3edc6ae67b8108d321f96013f5a6963cb9ec62e88698e26315301a5a9f">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/about/the-fca" hreflang="en">About the FCA</a></li>
+          <li class="menu--item"><a href="/about/enhancing-market-integrity" hreflang="en">Enhancing market integrity</a></li>
+          <li class="menu--item"><a href="/about/international-standards-regulations" hreflang="en">International standards and regulations</a></li>
+          <li class="menu--item"><a href="/opbas" hreflang="en">Office for Professional Body Anti-Money Laundering Supervision (OPBAS)</a></li>
+          <li class="menu--item"><a href="/our-approach-menu" hreflang="en">Our Approach</a></li>
+          <li class="menu--item"><a href="/our-mission-menu" hreflang="en">Our Mission</a></li>
+          <li class="menu--item"><a href="/about/promoting-competition" hreflang="en">Promoting competition</a></li>
+          <li class="menu--item"><a href="/about/protecting-consumers" hreflang="en">Protecting consumers</a></li>
+          <li class="menu--item"><a href="/about/sector-overview" hreflang="en">Sector overview</a></li>
+          <li class="menu--item"><a href="/about/uk-regulators-government-other-bodies/statutory-panels" hreflang="en">Statutory panels</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+<div class="megamenu-promo view view-megamenu-promo-content view-id-megamenu_promo_content view-display-id-default js-view-dom-id-3b648712dc660e0a0ae03643ca9fa35b8d203ffd5544bb74b7fcebc2639a729f">
+  
+    
+      
+            <div class="view-content">
+            <div class="views-row"><h3 class="promo-block__title">Contact us</h3><div class="promo-block__image"></div><div class="promo-block__copy"><p>Contact usВ by web chat, email, phone or post:</p>
+<p>Financial Conduct Authority</p>
+<p>12 Endeavour Square</p>
+<p>London E20 1JN</p>
+<p>В </p>
+</div><div class="promo-block__read-more"><a href="/contact">Contact us</a></div></div>
+
+              </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">How we regulate</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-0f2878017e39c4085e9a7d71f743fc3bf454b8a917d3e3bc366b09b788920d83">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/about/promoting-competition/powers" hreflang="en">Competition law</a></li>
+          <li class="menu--item"><a href="/about/enforcement" hreflang="en">Enforcement</a></li>
+          <li class="menu--item"><a href="/about/handbook" hreflang="en">Handbook and guidance</a></li>
+          <li class="menu--item"><a href="/about/how-we-authorise" hreflang="en">How we authorise</a></li>
+          <li class="menu--item"><a href="/about/principles-good-regulation" hreflang="en">Principles of good regulation</a></li>
+          <li class="menu--item"><a href="/about/promoting-competition/procedural-officer" hreflang="en">Raising procedural issues with our Procedural Officer</a></li>
+          <li class="menu--item"><a href="/about/supervision" hreflang="en">Supervision</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+<div class="megamenu-promo view view-megamenu-promo-content view-id-megamenu_promo_content view-display-id-default js-view-dom-id-965ffb23992e0e20bba9b289e2761601dc665f968564dc780eabbcaba61964d7">
+  
+    
+      
+            <div class="view-content">
+            <div class="views-row"><h3 class="promo-block__title">Contact us</h3><div class="promo-block__image"></div><div class="promo-block__copy"><p>Contact usВ by web chat, email, phone or post:</p>
+<p>Financial Conduct Authority</p>
+<p>12 Endeavour Square</p>
+<p>London E20 1JN</p>
+<p>В </p>
+</div><div class="promo-block__read-more"><a href="/contact">Contact us</a></div></div>
+
+              </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">How we operate</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-f31f20a9bbdb2d764219469fe57101434424a18d97f2d45cd27b1238d71f2868">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/about/allowances-expenses" hreflang="en">Allowances and expenses </a></li>
+          <li class="menu--item"><a href="/about/complain-about-regulators" hreflang="en">Complain about us, the PRA or the Bank of England (the regulators)</a></li>
+          <li class="menu--item"><a href="/about/corporate-responsibility" hreflang="en">Corporate responsibility</a></li>
+          <li class="menu--item"><a href="/about/data-strategy" hreflang="en">Data strategy </a></li>
+          <li class="menu--item"><a href="/about/measuring-our-performance" hreflang="en">Measuring our performance</a></li>
+          <li class="menu--item"><a href="/about/procuring-goods-services" hreflang="en">Procuring goods and services</a></li>
+          <li class="menu--item"><a href="/about/reporting-treasury-parliament" hreflang="en">Reporting to Treasury and Parliament</a></li>
+          <li class="menu--item"><a href="/about/woolard-review-unsecured-credit" hreflang="en">Review into change and innovation in the unsecured credit market (the Woolard Review)</a></li>
+          <li class="menu--item"><a href="/about/transparency" hreflang="en">Transparency</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+<div class="megamenu-promo view view-megamenu-promo-content view-id-megamenu_promo_content view-display-id-default js-view-dom-id-63ff9e3ab042979770cf17f1c1b3c61a85a49462c5b6b514f763673d89245d72">
+  
+    
+      
+            <div class="view-content">
+            <div class="views-row"><h3 class="promo-block__title">Contact us</h3><div class="promo-block__image"></div><div class="promo-block__copy"><p>Contact usВ by web chat, email, phone or post:</p>
+<p>Financial Conduct Authority</p>
+<p>12 Endeavour Square</p>
+<p>London E20 1JN</p>
+<p>В </p>
+</div><div class="promo-block__read-more"><a href="/contact">Contact us</a></div></div>
+
+              </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Our structure</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-e3683de1a168ffc84078e3f5e311af095c51c57ea8a884ea472c0607bc02b3b9">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/about/chair" hreflang="en">Chair</a></li>
+          <li class="menu--item"><a href="/about/chief-executive" hreflang="en">Chief Executive</a></li>
+          <li class="menu--item"><a href="/about/committees" hreflang="en">Committees</a></li>
+          <li class="menu--item"><a href="/about/executive-committees" hreflang="en">Executive committees</a></li>
+          <li class="menu--item"><a href="/about/fca-board" hreflang="en">The FCA Board</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+<div class="megamenu-promo view view-megamenu-promo-content view-id-megamenu_promo_content view-display-id-default js-view-dom-id-3a4a0fe51bdc25850cde75a681036830910e54b8509cd53463cddc8484e02c4b">
+  
+    
+      
+            <div class="view-content">
+            <div class="views-row"><h3 class="promo-block__title">Contact us</h3><div class="promo-block__image"></div><div class="promo-block__copy"><p>Contact usВ by web chat, email, phone or post:</p>
+<p>Financial Conduct Authority</p>
+<p>12 Endeavour Square</p>
+<p>London E20 1JN</p>
+<p>В </p>
+</div><div class="promo-block__read-more"><a href="/contact">Contact us</a></div></div>
+
+              </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Careers</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-d054e9b23684eb61038a5680702de772b4a6008a64827678364f616dbe4caabe">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/careers-home" hreflang="en">Careers home</a></li>
+          <li class="menu--item"><a href="/careers/early-careers" hreflang="en">Early careers</a></li>
+          <li class="menu--item"><a href="/careers/experienced-professionals" hreflang="en">Experienced professionals</a></li>
+          <li class="menu--item"><a href="/careers/search-jobs-apply" hreflang="en">Search jobs and apply</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Contact us</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-f5c709df35e48b6496b7c3af61c8a11c3532eb1b21154145e5d8b75f24df17e9">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/contact-us-web-chat-email-phone-or-post" hreflang="en">Contact us by web chat, email, phone or post</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+
+            <a class="megamenu__close btn--close text-hide hidden-xs js-megamenu-close">Close menu</a>
+          </div>
+        </div>
+      </div>
+      
+          </div>
+
+              </li>
+                            <li class="tb-megamenu-item level-1 mega dropdown col-xs-12 col-sm-2 mega-menu__level-one-item">
+                                                           <a href="/firms" class="dropdown-toggle mega-menu__level-one-link" data-drupal-link-system-path="node/2886">Firms</a>
+                                  <div class="megamenu__menu view view-megamenu-block view-id-megamenu_block view-display-id-megamenu_block_contextual dropdown-menu mega-menu__level-two-wrapper">
+  
+    
+      
+            <div class="view-content">
+        <div class="container">
+          <div class="row">
+                <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><a href="/firms/innovation" hreflang="en">Firm types</a></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-cc8a72cb48a4502bed57f9cd041491610dbe00d03a08dc375be4c6ef70df308d">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/firms/innovation" hreflang="en">FCA Innovation вЂ“ fintech, regtech and innovative businesses</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+<div class="megamenu__menu view view-megamenu-block view-id-megamenu_block view-display-id-megamenu_firms_types js-view-dom-id-363658b9104371ecfd72fdc8c57d264c0b0b7aec869f69e56a8dc23848cc3e09 dropdown-menu mega-menu__level-two-wrapper">
+  
+    
+      
+            <div class="view-content">
+        <div class="container">
+          <div class="row">
+            <div class="item-list firms-types">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/firms/banks-building-societies-credit-unions" hreflang="en">Banks, building societies and credit unions</a></li>
+          <li class="menu--item"><a href="/firms/claims-management-companies" hreflang="en">Claims management companies</a></li>
+          <li class="menu--item"><a href="/firms/consumer-credit" hreflang="en">Consumer credit firms</a></li>
+          <li class="menu--item"><a href="/firms/electronic-money-payment-institutions" hreflang="en">Electronic money and payment institutions</a></li>
+          <li class="menu--item"><a href="/firms/financial-advisers" hreflang="en">Financial advisers</a></li>
+          <li class="menu--item"><a href="/firms/general-insurers-insurance-intermediaries" hreflang="en">General insurers and insurance intermediaries</a></li>
+          <li class="menu--item"><a href="/firms/investment-managers" hreflang="en">Investment managers</a></li>
+          <li class="menu--item"><a href="/firms/life-insurers-pension-providers" hreflang="en">Life insurers and pension providers</a></li>
+          <li class="menu--item"><a href="/firms/mortgage-lenders-intermediaries" hreflang="en">Mortgage lenders and intermediaries</a></li>
+          <li class="menu--item"><a href="/firms/mutual-societies" hreflang="en">Mutual societies</a></li>
+          <li class="menu--item"><a href="/firms/sole-advisers" hreflang="en">Sole advisers</a></li>
+          <li class="menu--item"><a href="/firms/wealth-managers" hreflang="en">Wealth managers</a></li>
+    
+  </ul>
+
+</div>
+
+            <a class="megamenu__close btn--close text-hide hidden-xs js-megamenu-close">Close menu</a>
+          </div>
+        </div>
+      </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">New firm authorisation</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-e6f4d3e6b9baa15870f38111c919bef86304d662bb4d1aa60cc7e4d5173b9b99">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/firms/authorisation" hreflang="en">Authorisation: what&#039;s involved</a></li>
+          <li class="menu--item"><a href="/firms/authorisation/when-required" hreflang="en">Firms that need authorisation</a></li>
+          <li class="menu--item"><a href="/firms/authorisation/how-to-apply" hreflang="en">How to apply for authorisation</a></li>
+          <li class="menu--item"><a href="/firms/authorisation/cancel" hreflang="en">How to cancel an authorisation</a></li>
+          <li class="menu--item"><a href="/firms/authorisation/process" hreflang="en">Our authorisation process</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Tasks for regulated firms</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-99b563ea41a5702ffa3179e2cab935c8823cc1bc5b6f939d0d564de17df94267">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/firms/appointed-representatives-principals" hreflang="en">Appointed representatives and principals</a></li>
+          <li class="menu--item"><a href="/firms/approved-persons" hreflang="en">Approved persons</a></li>
+          <li class="menu--item"><a href="/firms/change-control" hreflang="en">Change in control</a></li>
+          <li class="menu--item"><a href="/firms/client-money-assets" hreflang="en">Client money and assets</a></li>
+          <li class="menu--item"><a href="/firms/defined-benefit-pension-transfers" hreflang="en">Defined benefit pension transfers</a></li>
+          <li class="menu--item"><a href="/firms/directory-persons" hreflang="en">Directory of certified and assessed persons</a></li>
+          <li class="menu--item"><a href="/firms/fair-treatment-customers" hreflang="en">Fair treatment of customers</a></li>
+          <li class="menu--item"><a href="/firms/fees" hreflang="en">Fees and levies</a></li>
+          <li class="menu--item"><a href="/firms/financial-promotions-adverts" hreflang="en">Financial promotions and adverts</a></li>
+          <li class="menu--item"><a href="/firms/passporting" hreflang="en">Passporting</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Focus areas</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-25b53602b081e82307d74388920a32acc0f82780b1134a39a0cae8cf3b070349">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/firms/aifmd" hreflang="en">AIFMD</a></li>
+          <li class="menu--item"><a href="/brexit/resources" hreflang="en">Brexit resources</a></li>
+          <li class="menu--item"><a href="/firms/complaints-data" hreflang="en">Complaints data</a></li>
+          <li class="menu--item"><a href="/firms/information-firms-coronavirus-covid-19-response" hreflang="en">Coronavirus (Covid-19): Information for firms</a></li>
+          <li class="menu--item"><a href="/firms/credit-rating-agencies" hreflang="en">Credit rating agencies</a></li>
+          <li class="menu--item"><a href="/firms/cryptoassets" hreflang="en">Cryptoassets: our work</a></li>
+          <li class="menu--item"><a href="/brexit/e-commerce-directive-changes-end-transition-period" hreflang="en">eCommerce Directive вЂ“ changes at the end of the transition period</a></li>
+          <li class="menu--item"><a href="/firms/high-cost-credit-consumer-credit" hreflang="en">High-cost credit and consumer credit</a></li>
+          <li class="menu--item"><a href="/firms/insurance-distribution-directive" hreflang="en">Insurance Distribution Directive</a></li>
+          <li class="menu--item"><a href="/markets/mifid-ii" hreflang="en">MiFID II</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Registers and systems</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-27c2d0b1761cff2491d407028f42465e431fff2582b3f3f1152eec0f85509c52">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/firms/connect" hreflang="en">Connect</a></li>
+          <li class="menu--item"><a href="/firms/financial-services-register" hreflang="en">Financial Services Register</a></li>
+          <li class="menu--item"><a href="/firms/gabriel" hreflang="en">Gabriel</a></li>
+          <li class="menu--item"><a href="/firms/mutuals-public-register" hreflang="en">Mutuals Public Register</a></li>
+          <li class="menu--item"><a href="/firms/regdata" hreflang="en">RegData</a></li>
+          <li class="menu--item"><a href="/firms/regulated-covered-bonds/register" hreflang="en">Regulated Covered Bonds Register</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+
+            <a class="megamenu__close btn--close text-hide hidden-xs js-megamenu-close">Close menu</a>
+          </div>
+        </div>
+      </div>
+      
+          </div>
+
+              </li>
+                            <li class="tb-megamenu-item level-1 mega dropdown col-xs-12 col-sm-2 mega-menu__level-one-item">
+                                                           <a href="/markets" class="dropdown-toggle mega-menu__level-one-link" data-drupal-link-system-path="node/2891">Markets</a>
+                                  <div class="megamenu__menu view view-megamenu-block view-id-megamenu_block view-display-id-megamenu_block_contextual dropdown-menu mega-menu__level-two-wrapper">
+  
+    
+      
+            <div class="view-content">
+        <div class="container">
+          <div class="row">
+                <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><a href="/markets/primary-markets" hreflang="en">Primary markets</a></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-ef7cbbd64042293084e6abea088b6315e30d0ddd33c5237c4dae40ae3db0a618">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/markets/ukla/regulatory-disclosures" hreflang="en">Regulatory Disclosures</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Markets policy</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-15a5bd784f7711e195d36e762770f39fd2af1cac8b5fbbed3d9349886c462f7a">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/markets/data-reporting-services-providers-drsps" hreflang="en">Data reporting services providers</a></li>
+          <li class="menu--item"><a href="/markets/emir" hreflang="en">EMIR</a></li>
+          <li class="menu--item"><a href="/markets/mifid-ii" hreflang="en">MiFID II</a></li>
+          <li class="menu--item"><a href="/markets/sftr" hreflang="en">Securities Financing Transactions Regulation (SFTR)</a></li>
+          <li class="menu--item"><a href="/markets/securitisation" hreflang="en">Securitisation</a></li>
+          <li class="menu--item"><a href="/markets/libor" hreflang="en">Transition from LIBOR</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Regulated markets</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-a274e60e4f4f51b03af23373ef4efe77ae17f27eb478649a3c1fbb298ffba1e9">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/markets/benchmarks" hreflang="en">Benchmarks</a></li>
+          <li class="menu--item"><a href="/markets/central-securities-depositories" hreflang="en">Central securities depositories</a></li>
+          <li class="menu--item"><a href="/markets/commodity-markets" hreflang="en">Commodity markets</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Market abuse</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-79a42890e36db199491bef8c26cf720174912f7d9bdf143ad59ef6ef1a67a8a4">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/markets/market-abuse/how-report-suspected-market-abuse-firm-or-trading-venue" hreflang="en">How to report suspected market abuse as a firm or trading venue</a></li>
+          <li class="menu--item"><a href="/markets/market-abuse/how-report-suspected-market-abuse-individual" hreflang="en">How to report suspected market abuse as an individual</a></li>
+          <li class="menu--item"><a href="/markets/market-abuse" hreflang="en">Market abuse</a></li>
+          <li class="menu--item"><a href="/markets/market-abuse/regulation" hreflang="en">Market Abuse Regulation</a></li>
+          <li class="menu--item"><a href="/markets/market-abuse/polling-and-market-abuse-regulation" hreflang="en">Polling and Market Abuse Regulation</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Short selling</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-f7d047b3a20f5c58782d3c02a556c403da4b6c6c6135f3b271fe7875892ed3e1">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/markets/short-selling/exemptions-requirements" hreflang="en">Exemptions from short-selling requirements</a></li>
+          <li class="menu--item"><a href="/markets/short-selling/market-making-exemptions-preparing-brexit" hreflang="en">Market making exemptions and preparing for Brexit</a></li>
+          <li class="menu--item"><a href="/markets/short-selling/net-short-positions-reporting-preparing-brexit" hreflang="en">Net short positions reporting and preparing for Brexit</a></li>
+          <li class="menu--item"><a href="/markets/short-selling/notification-and-disclosure-net-short-positions" hreflang="en">Notification and disclosure of net short positions</a></li>
+          <li class="menu--item"><a href="/markets/short-selling" hreflang="en">Short selling</a></li>
+          <li class="menu--item"><a href="/markets/short-selling/restrictions-prohibitions" hreflang="en">Short selling restrictions and prohibitions</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Transaction reporting</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-d315ede45cfa9c18724c61f9624270358cbeae225fb04e191ad42a5d761a2236">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/markets/transaction-reporting/instrument-reference-data" hreflang="en">Instrument Reference Data</a></li>
+          <li class="menu--item"><a href="/markets/transaction-reporting/reportable-instruments" hreflang="en">Reportable instruments</a></li>
+          <li class="menu--item"><a href="/markets/transaction-reporting/access-change-sample-data-extracts" hreflang="en">Requesting sample transaction reporting data</a></li>
+          <li class="menu--item"><a href="/markets/transaction-reporting" hreflang="en">Transaction reporting</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+
+            <a class="megamenu__close btn--close text-hide hidden-xs js-megamenu-close">Close menu</a>
+          </div>
+        </div>
+      </div>
+      
+          </div>
+
+              </li>
+                            <li class="tb-megamenu-item level-1 mega dropdown col-xs-12 col-sm-2 mega-menu__level-one-item">
+                                                           <a href="/consumers" class="dropdown-toggle mega-menu__level-one-link" data-drupal-link-system-path="node/2901">Consumers</a>
+                                  <div class="megamenu__menu view view-megamenu-block view-id-megamenu_block view-display-id-megamenu_block_contextual dropdown-menu mega-menu__level-two-wrapper">
+  
+    
+      
+            <div class="view-content">
+        <div class="container">
+          <div class="row">
+                <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Complaints and compensation</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-790c6d466f0502194174c9e3fcc1fe9bae693abe146208625a01a8070b0c14a3">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/consumers/claim-compensation-firm-fails" hreflang="en">How to claim compensation if a firm fails</a></li>
+          <li class="menu--item"><a href="/consumers/how-complain" hreflang="en">How to complain</a></li>
+          <li class="menu--item"><a href="/consumers/how-complain/report-information-payment-services-e-money-firm" hreflang="en">Report information about a payment services or e-money firm</a></li>
+          <li class="menu--item"><a href="/consumers/rights-victims" hreflang="en">Rights of victims</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+<div class="megamenu-promo view view-megamenu-promo-content view-id-megamenu_promo_content view-display-id-default js-view-dom-id-ae380d7f0fdbabc87f9d3142efb49202749f2c0ff57b39b9519e83d8b3a1ff7b">
+  
+    
+      
+            <div class="view-content">
+            <div class="views-row"><h3 class="promo-block__title">Coronavirus (Covid-19): support for consumers</h3><div class="promo-block__image"></div><div class="promo-block__copy"><p>В </p>
+<p>В </p>
+</div><div class="promo-block__read-more"><a href="/consumers/coronavirus-covid-19">Find out more</a></div></div>
+
+              </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Report a firm</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-f2166a8debf7b35753608fdb815bf7ae918e9601e6295ab5fb078959b5527a99">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/consumers/misleading-financial-promotions" hreflang="en">Misleading financial promotions</a></li>
+          <li class="menu--item"><a href="/consumers/rights-victims" hreflang="en">Rights of victims</a></li>
+          <li class="menu--item"><a href="/consumers/unfair-contracts" hreflang="en">Unfair contracts</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+<div class="megamenu-promo view view-megamenu-promo-content view-id-megamenu_promo_content view-display-id-default js-view-dom-id-5886ca9ffb0b30b876a451769d68bd37c470588d9e6f66c7519792f39a2128ae">
+  
+    
+      
+            <div class="view-content">
+            <div class="views-row"><h3 class="promo-block__title">Coronavirus (Covid-19): support for consumers</h3><div class="promo-block__image"></div><div class="promo-block__copy"><p>В </p>
+<p>В </p>
+</div><div class="promo-block__read-more"><a href="/consumers/coronavirus-covid-19">Find out more</a></div></div>
+
+              </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Scams</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-4f152ee85042aea0fa558ddc70f97310eb82881da63c73ea5020e11c91b0e475">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/consumers/banking-online-account-scams" hreflang="en">Banking and online account scams</a></li>
+          <li class="menu--item"><a href="/scamsmart/binary-options-scams" hreflang="en">Binary options scams</a></li>
+          <li class="menu--item"><a href="/scamsmart/cryptoasset-investment-scams" hreflang="en">Cryptoasset investment scams</a></li>
+          <li class="menu--item"><a href="/scamsmart/how-avoid-investment-scams" hreflang="en">How to avoid investment scams</a></li>
+          <li class="menu--item"><a href="/scamsmart/how-avoid-pension-scams" hreflang="en">How to avoid pension scams</a></li>
+          <li class="menu--item"><a href="/consumers/loan-fee-fraud" hreflang="en">Loan fee fraud</a></li>
+          <li class="menu--item"><a href="/consumers/money-transfer-scams" hreflang="en">Money transfer scams</a></li>
+          <li class="menu--item"><a href="/scamsmart/online-trading-scams" hreflang="en">Online trading scams</a></li>
+          <li class="menu--item"><a href="/consumers/ppi-refund-scams" hreflang="en">PPI refund scams</a></li>
+          <li class="menu--item"><a href="/consumers/protect-yourself-scams" hreflang="en">Protect yourself from scams</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+<div class="megamenu-promo view view-megamenu-promo-content view-id-megamenu_promo_content view-display-id-default js-view-dom-id-9c84dba164b95a4aa52fb82a72da2dbafecc516049393ee5a75f81d8c80707ec">
+  
+    
+      
+            <div class="view-content">
+            <div class="views-row"><h3 class="promo-block__title">Coronavirus (Covid-19): support for consumers</h3><div class="promo-block__image"></div><div class="promo-block__copy"><p>В </p>
+<p>В </p>
+</div><div class="promo-block__read-more"><a href="/consumers/coronavirus-covid-19">Find out more</a></div></div>
+
+              </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><span class="no-link">Know your rights</span></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-c8008b04443d68e838c88aa9d8d099cf613e97e414743d81e934247efd759fc5">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/consumers/check-if-firm-fca-authorised" hreflang="en">Check if a firm is FCA authorised</a></li>
+          <li class="menu--item"><a href="/consumers/deposit-savings-protection" hreflang="en">Deposit and savings protection</a></li>
+          <li class="menu--item"><a href="/consumers/how-brexit-could-affect-you" hreflang="en">How Brexit could affect you</a></li>
+          <li class="menu--item"><a href="/consumers/interest-rate-hedging-products" hreflang="en">Interest rate hedging products (IRHP)</a></li>
+          <li class="menu--item"><a href="/consumers/loans-credit" hreflang="en">Loans and credit</a></li>
+          <li class="menu--item"><a href="/consumers/mini-bonds" hreflang="en">Mini-bonds</a></li>
+          <li class="menu--item"><a href="/ppi-explained" hreflang="en">PPI: payment protection insurance</a></li>
+          <li class="menu--item"><a href="/consumers/unauthorised-payments-account" hreflang="en">Unauthorised payments from your account</a></li>
+          <li class="menu--item"><a href="/consumers/using-payment-service-providers" hreflang="en">Using payment service providers</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+<div class="megamenu-promo view view-megamenu-promo-content view-id-megamenu_promo_content view-display-id-default js-view-dom-id-2a4d25a63f0888bbef7be02860071f0172fbd44c7dd2823e97ace8ced068e7fc">
+  
+    
+      
+            <div class="view-content">
+            <div class="views-row"><h3 class="promo-block__title">Coronavirus (Covid-19): support for consumers</h3><div class="promo-block__image"></div><div class="promo-block__copy"><p>В </p>
+<p>В </p>
+</div><div class="promo-block__read-more"><a href="/consumers/coronavirus-covid-19">Find out more</a></div></div>
+
+              </div>
+      
+          </div>
+</div>
+
+            <a class="megamenu__close btn--close text-hide hidden-xs js-megamenu-close">Close menu</a>
+          </div>
+        </div>
+      </div>
+      
+          </div>
+
+              </li>
+                            <li class="tb-megamenu-item level-1 mega dropdown col-xs-12 col-sm-2 mega-menu__level-one-item">
+                                                           <a href="/news" class="dropdown-toggle mega-menu__level-one-link" data-drupal-link-system-path="node/11876">News</a>
+                                  <div class="megamenu__menu view view-megamenu-block view-id-megamenu_block view-display-id-megamenu_block_contextual dropdown-menu mega-menu__level-two-wrapper">
+  
+    
+      
+            <div class="view-content">
+        <div class="container">
+          <div class="row">
+                <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><a href="/news" hreflang="en">News</a></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-8a049983db07988d6a00807ecabfcd3c900aab9f7785e0f0d2f7040152d5f75f">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/news/news-stories/news-stories" hreflang="en">News stories</a></li>
+          <li class="menu--item"><a href="/news/newsletters/newsletters" hreflang="en">Newsletters</a></li>
+          <li class="menu--item"><a href="/news/press-releases/press-releases" hreflang="en">Press releases</a></li>
+          <li class="menu--item"><a href="/news/speeches/speeches" hreflang="en">Speeches</a></li>
+          <li class="menu--item"><a href="/news/statements/statements" hreflang="en">Statements</a></li>
+          <li class="menu--item"><a href="/news/warnings/warnings" hreflang="en">Warnings</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><a href="/news/media-centre" hreflang="en">Media centre</a></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-d2ed198acddc4f8925d41cd8b191f7fb7b6b8cebdc944efb6d29e406d3e392f6">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/news/news-stories/media-library" hreflang="en">Media library</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+<div class="megamenu-promo view view-megamenu-promo-content view-id-megamenu_promo_content view-display-id-default js-view-dom-id-3fa9a7180ec65a9b9acd4cd0973dcb1f75cd55c27c7bc25a07f611f306ab931e">
+  
+    
+      
+            <div class="view-content">
+            <div class="views-row"><h3 class="promo-block__title">Explore our News section</h3><div class="promo-block__image"></div><div class="promo-block__copy"><p>See the latest news stories, speeches, statements, press releases and warnings</p>
+<p>В </p>
+<p>В </p>
+</div><div class="promo-block__read-more"><a href="https://www.fca.org.uk/news/search-results">Show all news</a></div></div>
+
+              </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><a href="/events" hreflang="en">Events</a></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-e06833aa68260a8dc220327c80ce1c06ba606eed0ebb8efaf19da4a672b0757c">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/live-and-local-events" hreflang="en">Live &amp; Local</a></li>
+          <li class="menu--item"><a href="/news/news-stories/see-all-fca-events" hreflang="en">See all FCA events</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+<div class="megamenu-promo view view-megamenu-promo-content view-id-megamenu_promo_content view-display-id-default js-view-dom-id-114f21234fb4990aad821c66f6de076e92547c460b6f6cd6fa358d092b3a5442">
+  
+    
+      
+            <div class="view-content">
+            <div class="views-row"><h3 class="promo-block__title">Explore our News section</h3><div class="promo-block__image"></div><div class="promo-block__copy"><p>See the latest news stories, speeches, statements, press releases and warnings</p>
+<p>В </p>
+<p>В </p>
+</div><div class="promo-block__read-more"><a href="https://www.fca.org.uk/news/search-results">Show all news</a></div></div>
+
+              </div>
+      
+          </div>
+</div>
+    <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><a href="/insight" hreflang="en">Insight</a></h4><div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default js-view-dom-id-3b843d63f3abad3481026599cba3a0866a1f99cf95534b008279dcab01f510cf">
+  
+    
+      
+            <div class="view-content">
+        <div class="item-list">
+  
+  <ul>
+
+          <li class="menu--item"><a href="/news/news-stories/fca-home-independent-opinion" hreflang="en">The FCA home for independent opinion</a></li>
+    
+  </ul>
+
+</div>
+
+      </div>
+      
+          </div>
+<div class="megamenu-promo view view-megamenu-promo-content view-id-megamenu_promo_content view-display-id-default js-view-dom-id-a36330ecb8e5f9d846a03b9b1752fac260ad47a942011b0078b082320f897640">
+  
+    
+      
+            <div class="view-content">
+            <div class="views-row"><h3 class="promo-block__title">Explore our News section</h3><div class="promo-block__image"></div><div class="promo-block__copy"><p>See the latest news stories, speeches, statements, press releases and warnings</p>
+<p>В </p>
+<p>В </p>
+</div><div class="promo-block__read-more"><a href="https://www.fca.org.uk/news/search-results">Show all news</a></div></div>
+
+              </div>
+      
+          </div>
+</div>
+
+            <a class="megamenu__close btn--close text-hide hidden-xs js-megamenu-close">Close menu</a>
+          </div>
+        </div>
+      </div>
+      
+          </div>
+
+              </li>
+                            <li class="last tb-megamenu-item level-1 mega dropdown col-xs-12 col-sm-2 mega-menu__level-one-item">
+                                                           <a href="/publications" class="dropdown-toggle mega-menu__level-one-link" data-drupal-link-system-path="node/6011">Publications</a>
+                                  <div class="megamenu__menu view view-megamenu-block view-id-megamenu_block view-display-id-megamenu_block_contextual dropdown-menu mega-menu__level-two-wrapper">
+  <div class="view-content">
+    <div class="container">
+      <div class="row">
+                  <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><a href="/publications/search-results?p_search_term=%20&amp;category=policy%20and%20guidance%2Cpolicy%20and%20guidance-policy%20statements%2Cpolicy%20and%20guidance-finalised%20guidance%2Cpolicy%20and%20guidance-consultation%20papers%2Cpolicy%20and%20guidance-guidance%20consultations%2Cpolicy%20and%20guidance-feedback%20statements%2Cpolicy%20and%20guidance-discussion%20papers%2Cpolicy%20and%20guidance-calls%20for%20input%2Cpolicy%20and%20guidance-newsletters%2Cpolicy%20and%20guidance-handbook&amp;sort_by=dmetaZ" hreflang="en">Policy and guidance</a></h4>
+            <div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default">
+  <div class="view-content">
+    <div class="item-list">
+          </div>
+  </div>
+</div>
+
+          </div>
+                  <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><a href="/publications/search-results?category=corporate%20documents%2Ccorporate%20documents-annual%20reports%2Ccorporate%20documents-business%20plans%2Ccorporate%20documents-corporate%20documents%2Ccorporate%20documents-impact%20assessments%2Ccorporate%20documents-memorandums%20of%20understanding%2Ccorporate%20documents-correspondence%2Ccorporate%20documents-foi%20releases%2Ccorporate%20documents-meeting%20minutes&amp;start=1" hreflang="en">Corporate documents</a></h4>
+            <div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default">
+  <div class="view-content">
+    <div class="item-list">
+          </div>
+  </div>
+</div>
+
+          </div>
+                  <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><a href="/publications/search-results?start=1&amp;category=notices%20and%20decisions-decision%20notices%2Cnotices%20and%20decisions-final%20notices%2Cnotices%20and%20decisions-warning%20notices%2Cnotices%20and%20decisions-supervisory%20notices%2Cnotices%20and%20decisions-cancellation%20notices%2Cnotices%20and%20decisions-requirement%20notices%2Cnotices%20and%20decisions-temporary%20product%20interventions%2Cnotices%20and%20decisions-undertakings%2Cnotices%20and%20decisions-waivers%20and%20crr%20notices" hreflang="en">Notices and decisions</a></h4>
+            <div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default">
+  <div class="view-content">
+    <div class="item-list">
+          </div>
+  </div>
+</div>
+
+          </div>
+                  <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><a href="/data" hreflang="en">Data</a></h4>
+            <div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default">
+  <div class="view-content">
+    <div class="item-list">
+          </div>
+  </div>
+</div>
+
+          </div>
+                  <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><a href="/publications/search-results?category=research%20and%20data%2Cresearch%20and%20data-market%20studies%2Cresearch%20and%20data-thematic%20reviews%2Cresearch%20and%20data-multi-firm%20reviews%2Cresearch%20and%20data-occasional%20papers%2Cresearch%20and%20data-research%2Cresearch%20and%20data-data&amp;start=1" hreflang="en">Research</a></h4>
+            <div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default">
+  <div class="view-content">
+    <div class="item-list">
+          </div>
+  </div>
+</div>
+
+          </div>
+                  <div class="megamenu-category col-sm-4 col-lg-2"><h4 class="menu__heading"><a href="/publications/search-results?start=1&amp;category=forms" hreflang="en">Forms</a></h4>
+            <div class="view view-megamenu-block-items view-id-megamenu_block_items view-display-id-default">
+  <div class="view-content">
+    <div class="item-list">
+          </div>
+  </div>
+</div>
+
+          </div>
+                <a class="megamenu__close btn--close text-hide hidden-xs js-megamenu-close" style="display: block;">Close menu</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+              </li>
+        </ul>
+  
+</div>
+
+  </nav>
+
+                </div>
+              </section>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<!-- Breadcrumb -->
+
+	
+	<div role="main" class="main-container js-quickedit-main-content">
+				
+				
+						<section>
+
+															<div class="highlighted">  <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+</div>
+							
+						
+						    <a id="main-content"></a>
+      <div class="region region-content">
+      <article data-history-node-id="233" role="article" about="/homepage" class="landing-page full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+    										
+<section  class="component carousel-and-image-boxes">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-7 carousel-and-image-boxes__carousel">
+        <div class="carousel carousel--autoplay">
+          										
+
+
+<div class="slick-view">
+  <div >
+    <div class="container">
+      <div class="slick-view__item fca-custom-6c1d45-bg fca-custom-6c1d45-border-tint-medium with-spotlight">
+        <h2 class="featured__title">
+          						<a href="/publications/guidance-consultations/consumer-credit-and-coronavirus-additional-guidance-firms-november-2020">Consumer credit and coronavirus</a>
+			
+        </h2>
+        <div class="featured__body">
+          Further proposals to support consumers impacted by coronavirus
+        </div>
+        <div class="featured__links">
+          						<a href="/publications/guidance-consultations/consumer-credit-and-coronavirus-additional-guidance-firms-november-2020">Find out more</a>
+			
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+												
+
+
+<div class="slick-view">
+  <div >
+    <div class="container">
+      <div class="slick-view__item fca-custom-6c1d45-bg fca-custom-6c1d45-border-tint-medium with-spotlight">
+        <h2 class="featured__title">
+          						<a href="/publications/guidance-consultations/mortgages-coronavirus-updated-and-additional-guidance-firms">Mortgages and coronavirus</a>
+			
+        </h2>
+        <div class="featured__body">
+          Further proposals to support mortgage borrowers impacted by coronavirus
+        </div>
+        <div class="featured__links">
+          						<a href="/publications/guidance-consultations/mortgages-coronavirus-updated-and-additional-guidance-firms">Find out more</a>
+			
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+												
+
+
+<div class="slick-view">
+  <div >
+    <div class="container">
+      <div class="slick-view__item fca-custom-6c1d45-bg fca-custom-6c1d45-border-tint-medium with-spotlight">
+        <h2 class="featured__title">
+          						<a href="/firms/business-interruption-insurance">Business Interruption insurance</a>
+			
+        </h2>
+        <div class="featured__body">
+          The High Court has handed down its judgment on our test case
+        </div>
+        <div class="featured__links">
+          						<a href="/firms/business-interruption-insurance">Find out more</a>
+			
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+						
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-5 carousel-and-image-boxes__image-boxes">
+        <div class="col-xs-12 image-box fca-custom-003c71-bg fca-custom-004851-border-tint-medium">
+          <h2 class="image-box__title">						<a href="/firms"> Firms</a>
+			</h2>
+          <div class="image-box__body">
+            										<a href="/firms/information-firms-coronavirus-covid-19-response">Coronavirus: information for firms</a>
+												<a href="/firms/coronavirus-guidance">Published coronavirus guidance for firms</a>
+												<a href="/firms/insurance-and-coronavirus-our-expectations">Insurance and coronavirus: expectations of firms</a>
+						
+          </div>
+        </div>
+        <div class="col-xs-12 image-box fca-custom-004851-bg fca-custom-004851-border-tint-medium">
+          <h2 class="image-box__title">						<a href="https://www.fca.org.uk/consumers">Consumers</a>
+			</h2>
+          <div class="image-box__body">
+            										<a href="/consumers/coronavirus-covid-19">Coronavirus: support for consumers</a>
+												<a href="/news/news-stories/avoid-coronavirus-scams">Avoid coronavirus scams</a>
+												<a href="https://www.fca.org.uk/news/search-results?np_category=warnings&amp;start=1">Warnings on unauthorised and clone firms</a>
+						
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+												
+
+<section  class="two-tone-banner component">
+  <div class="two-tone-banner__top fca-custom-007fae-bg ">
+    <div class="container">
+      <h2 class="two-tone-banner__top-title">						Coronavirus (Covid-19)
+			</h2>
+    </div>
+  </div>
+  <div class="two-tone-banner__bottom fca-custom-007fae-bg-tint-medium with-spotlight">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <p class="two-tone-banner__bottom-text">						See our dedicated section on coronavirus with the latest information for consumers and firms
+			</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  						<a href="/coronavirus" class="overlay-link">/coronavirus</a>
+			
+</section>
+
+												
+
+<section  class="feed-carousel component fca-colour fca-colour--6c1d45">
+  <header class="feed-carousel__header fca-colour__foundation">
+    <div class="container">
+      <h2>Latest news</h2>
+    </div>
+  </header>
+  <div class="container">
+    <div class="view view-component-latest-news-pubs-data-hub-carousel view-id-component_latest_news_pubs_data_hub_carousel view-display-id-default js-view-dom-id-8231a18655494c5d62391e4459e857aef5a37a74ae08f96f5cfccdef3dd18f7e">
+  
+    
+      
+        <div class="view-content">
+      <div class="slick-view">
+            <div class="views-row"><div class="views-field views-field-title"><span class="field-content">
+<div class="feed-carousel__content"><a href="/news/news-stories/nikhil-rathi-discusses-fcas-pandemic-response-and-his-vision-future">Nikhil Rathi discusses the FCAвЂ™s pandemic response and his vision for the future </a></div>
+</span></div><div class="views-field views-field-field-published-date"><div class="field-content"><div class="feed-carousel__published">
+  <span class="column-tabs__published--text">Published:</span>
+  <div class="field-content"><time datetime="2020-11-10T09:58:02Z">10/11/2020</time>
+</div>
+</div></div></div></div>
+    <div class="views-row"><div class="views-field views-field-title"><span class="field-content">
+<div class="feed-carousel__content"><a href="/news/statements/fca-responds-chancellors-statement-future-uk-financial-services">FCA responds to Chancellor&#039;s statement on future of UK financial services</a></div>
+</span></div><div class="views-field views-field-field-published-date"><div class="field-content"><div class="feed-carousel__published">
+  <span class="column-tabs__published--text">Published:</span>
+  <div class="field-content"><time datetime="2020-11-09T16:26:06Z">09/11/2020</time>
+</div>
+</div></div></div></div>
+    <div class="views-row"><div class="views-field views-field-title"><span class="field-content">
+<div class="feed-carousel__content"><a href="/news/statements/response-treasury-equivalence">FCA responds to Treasury announcement on equivalence</a></div>
+</span></div><div class="views-field views-field-field-published-date"><div class="field-content"><div class="feed-carousel__published">
+  <span class="column-tabs__published--text">Published:</span>
+  <div class="field-content"><time datetime="2020-11-09T16:26:01Z">09/11/2020</time>
+</div>
+</div></div></div></div>
+    <div class="views-row"><div class="views-field views-field-title"><span class="field-content">
+<div class="feed-carousel__content"><a href="/news/speeches/green-horizon-summit-rising-climate-challenge">Green Horizon Summit: Rising to the Climate Challenge</a></div>
+</span></div><div class="views-field views-field-field-published-date"><div class="field-content"><div class="feed-carousel__published">
+  <span class="column-tabs__published--text">Published:</span>
+  <div class="field-content"><time datetime="2020-11-09T11:15:48Z">09/11/2020</time>
+</div>
+</div></div></div></div>
+    <div class="views-row"><div class="views-field views-field-title"><span class="field-content">
+<div class="feed-carousel__content"><a href="/news/press-releases/fca-bans-three-individuals-working-financial-services-industry-non-financial-misconduct">FCA bans three individuals from working in the financial services industry for non-financialвЂ¦</a></div>
+</span></div><div class="views-field views-field-field-published-date"><div class="field-content"><div class="feed-carousel__published">
+  <span class="column-tabs__published--text">Published:</span>
+  <div class="field-content"><time datetime="2020-11-05T11:07:18Z">05/11/2020</time>
+</div>
+</div></div></div></div>
+    <div class="views-row"><div class="views-field views-field-title"><span class="field-content">
+<div class="feed-carousel__content"><a href="/news/speeches/acting-flexibly-treating-customers-fairly-pandemic">Acting flexibly and treating customers fairly in the face of a pandemic</a></div>
+</span></div><div class="views-field views-field-field-published-date"><div class="field-content"><div class="feed-carousel__published">
+  <span class="column-tabs__published--text">Published:</span>
+  <div class="field-content"><time datetime="2020-11-04T16:00:22Z">04/11/2020</time>
+</div>
+</div></div></div></div>
+    <div class="views-row"><div class="views-field views-field-title"><span class="field-content">
+<div class="feed-carousel__content"><a href="/news/press-releases/fca-announces-proposals-further-support-consumer-credit-borrowers-impacted-coronavirus">FCA announces proposals for further support to consumer credit borrowers impacted by coronavirus</a></div>
+</span></div><div class="views-field views-field-field-published-date"><div class="field-content"><div class="feed-carousel__published">
+  <span class="column-tabs__published--text">Published:</span>
+  <div class="field-content"><time datetime="2020-11-04T09:34:56Z">04/11/2020</time>
+</div>
+</div></div></div></div>
+    <div class="views-row"><div class="views-field views-field-title"><span class="field-content">
+<div class="feed-carousel__content"><a href="/news/press-releases/fca-sets-out-its-approach-share-trading-obligation">FCA sets out its approach to the share trading obligation</a></div>
+</span></div><div class="views-field views-field-field-published-date"><div class="field-content"><div class="feed-carousel__published">
+  <span class="column-tabs__published--text">Published:</span>
+  <div class="field-content"><time datetime="2020-11-04T09:11:53Z">04/11/2020</time>
+</div>
+</div></div></div></div>
+    <div class="views-row"><div class="views-field views-field-title"><span class="field-content">
+<div class="feed-carousel__content"><a href="/news/statements/fca-statement-share-trading-obligation">FCA statement on the share trading obligation</a></div>
+</span></div><div class="views-field views-field-field-published-date"><div class="field-content"><div class="feed-carousel__published">
+  <span class="column-tabs__published--text">Published:</span>
+  <div class="field-content"><time datetime="2020-11-04T09:11:51Z">04/11/2020</time>
+</div>
+</div></div></div></div>
+
+      </div>
+    </div>
+  
+          </div>
+
+    <span class="feed-carousel__more-link">										<a href="https://www.fca.org.uk/news/search-results?np_category=news%20stories%2Cpress%20releases%2Cstatements%2Cspeeches%2Cnewsletters&amp;start=1">Show all news</a>
+						</span>
+  </div>
+</section>
+
+												
+<section  class="component icons-row container">
+  <div class="slick-view">
+    <div class="slick">
+      										
+<div  class="icons-row__col col-xs-4 col-sm-2">
+  <a href="https://register.fca.org.uk/">
+    <div class="icons-row__icon-wrapper">
+      <span class="icons-row__icon">
+        <img alt="financial services register.png" title="financial services register.png" src="/sites/default/files/styles/icon_teaser/public/images/financial_services_register.png?itok=nbdAa1b-" width="83" height="75" typeof="foaf:Image" class="img-responsive" />
+
+
+      </span>
+    </div>
+    <div class="icons-row__title">
+      <h5>Financial Services Register</h5>
+    </div>
+  </a>
+</div>
+												
+<div  class="icons-row__col col-xs-4 col-sm-2">
+  <a href="/firms/gabriel">
+    <div class="icons-row__icon-wrapper">
+      <span class="icons-row__icon">
+        <img alt="gabriel.png" title="gabriel.png" src="/sites/default/files/styles/icon_teaser/public/images/gabriel.png?itok=9bg51_m3" width="83" height="75" typeof="foaf:Image" class="img-responsive" />
+
+
+      </span>
+    </div>
+    <div class="icons-row__title">
+      <h5>Gabriel and RegData</h5>
+    </div>
+  </a>
+</div>
+												
+<div  class="icons-row__col col-xs-4 col-sm-2">
+  <a href="/firms/connect">
+    <div class="icons-row__icon-wrapper">
+      <span class="icons-row__icon">
+        <img alt="connect.png" title="connect.png" src="/sites/default/files/styles/icon_teaser/public/images/connect.png?itok=HF0aud4q" width="83" height="75" typeof="foaf:Image" class="img-responsive" />
+
+
+      </span>
+    </div>
+    <div class="icons-row__title">
+      <h5>Connect</h5>
+    </div>
+  </a>
+</div>
+												
+<div  class="icons-row__col col-xs-4 col-sm-2">
+  <a href="https://www.handbook.fca.org.uk/">
+    <div class="icons-row__icon-wrapper">
+      <span class="icons-row__icon">
+        <img alt="fca handbook.png" title="fca handbook.png" src="/sites/default/files/styles/icon_teaser/public/images/fca_handbook.png?itok=ikPzeF7Y" width="83" height="75" typeof="foaf:Image" class="img-responsive" />
+
+
+      </span>
+    </div>
+    <div class="icons-row__title">
+      <h5>FCA Handbook</h5>
+    </div>
+  </a>
+</div>
+												
+<div  class="icons-row__col col-xs-4 col-sm-2">
+  <a href="/firms/fees/online-invoices">
+    <div class="icons-row__icon-wrapper">
+      <span class="icons-row__icon">
+        <img alt="annual fees online invoices.png" title="annual fees online invoices.png" src="/sites/default/files/styles/icon_teaser/public/images/annual_fees_online_invoices.png?itok=ep8-kkTr" width="83" height="75" typeof="foaf:Image" class="img-responsive" />
+
+
+      </span>
+    </div>
+    <div class="icons-row__title">
+      <h5>Annual fees: online invoices</h5>
+    </div>
+  </a>
+</div>
+												
+<div  class="icons-row__col col-xs-4 col-sm-2">
+  <a href="/firms/authorisation">
+    <div class="icons-row__icon-wrapper">
+      <span class="icons-row__icon">
+        <img alt="authorisation new to regulation.png" title="authorisation new to regulation.png" src="/sites/default/files/styles/icon_teaser/public/images/authorisation_new_to_regulation.png?itok=VHXkZ-ca" width="83" height="75" typeof="foaf:Image" class="img-responsive" />
+
+
+      </span>
+    </div>
+    <div class="icons-row__title">
+      <h5>Authorisation: new to regulation</h5>
+    </div>
+  </a>
+</div>
+						
+    </div>
+  </div>
+</section>
+												
+<section  class="two-column-content component fca-colour">
+  <div class="container">
+    <div class="row table-display__row">
+      <div class="table-display__inner">
+        
+          <div class="fca-colour table-display__cell fca-colour--6c1d45 fca-colour__foundation-swatch">
+            <div class="with-spotlight--wide">
+              <h2 class="fca-colour__foundation content-block__title">						Latest consultations
+			</h2>
+              <div class="content-block__body">
+                
+                                                  <div class="view view-component-content view-id-component_content view-display-id-2_col_latest_publications js-view-dom-id-c553b472035f9f05798495f4a75740d2e51d31d04137dfc89c266cbf27741fb7">
+  
+    
+      
+            <div class="view-content">
+            <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/guidance-consultations/consumer-credit-and-coronavirus-additional-guidance-firms-november-2020" hreflang="en">Consumer credit and coronavirus: additional guidance for firms (November 2020)</a></span></div></div>
+    <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/guidance-consultations/mortgages-coronavirus-updated-and-additional-guidance-firms" hreflang="en">Mortgages and coronavirus: updated and additional guidance for firms</a></span></div></div>
+    <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/consultation-papers/cp20-21-breathing-space-regulations-changes-our-handbook" hreflang="en">CP20/21: Breathing Space Regulations: changes to our Handbook</a></span></div></div>
+    <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/guidance-consultations/coronavirus-and-customers-financial-difficulty-draft-additional-guidance-insurance-and-premium" hreflang="en">Coronavirus and customers in financial difficulty: draft additional guidance for insurance and premium finance firms</a></span></div></div>
+    <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/consultation-papers/cp20-20-our-approach-international-firms" hreflang="en">CP20/20: Our approach to international firms </a></span></div></div>
+    <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/consultation-papers/cp20-19-general-insurance-pricing-practices-market-study" hreflang="en">CP20/19: General insurance pricing practices market study - Consultation on Handbook changes</a></span></div></div>
+    <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/guidance-consultations/overdrafts-and-coronavirus-additional-guidance-firms" hreflang="en">Overdrafts and coronavirus: Additional guidance for firms</a></span></div></div>
+    <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/guidance-consultations/consumer-credit-and-coronavirus-additional-guidance-firms" hreflang="en">Consumer credit and coronavirus: Additional guidance for firms</a></span></div></div>
+
+      </div>
+      
+          </div>
+
+                              </div>
+              <div class="media-library__see-more">
+                						<a href="https://www.fca.org.uk/publications/search-results?p_search_term=&amp;category=policy%20and%20guidance-consultation%20papers%2Cpolicy%20and%20guidance-guidance%20consultations%2Cpolicy%20and%20guidance-discussion%20papers&amp;sort_by=dmetaZ">Show all consultations</a>
+			
+              </div>
+            </div>
+          </div>
+        
+          <div class="fca-colour table-display__cell fca-colour--6c1d45 fca-colour__foundation-swatch">
+            <div class="with-spotlight--wide">
+              <h2 class="fca-colour__foundation content-block__title">						Latest policy and guidance
+			</h2>
+              <div class="content-block__body">
+                
+                                                  <div class="view view-component-content view-id-component_content view-display-id-2_col_latest_publications js-view-dom-id-0f2682c09643e4a77be07c7c25302517609c6f224eda3b3512ac817df54f7540">
+  
+    
+      
+            <div class="view-content">
+            <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/policy-statements/ps20-14-delay-implementation-european-single-electronic-format-esef" hreflang="en">PS20/14: Delay to the implementation of the European Single Electronic Format (ESEF)</a></span></div></div>
+    <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/policy-statements/ps20-13-amendments-open-banking-identification-requirements-eidas-certificate" hreflang="en">PS20/13: Amendments to the open banking identification requirements (eIDAS certificate)</a></span></div></div>
+    <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/feedback-statements/fs20-16-coronavirus-customers-financial-difficulty-feedback-draft-additional-guidance" hreflang="en">FS20/16: Coronavirus and customers in financial difficulty: feedback on draft additional guidance for insurance and premium finance firms </a></span></div></div>
+    <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/finalised-guidance-coronavirus-customers-financial-difficulty-insurance-premium-finance-firms" hreflang="en">Finalised Guidance: Coronavirus and customers in financial difficulty: additional guidance for insurance and premium finance firms</a></span></div></div>
+    <div class="link-and-title views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/publications/policy-statements/ps20-12-extending-implementation-deadlines-certification-regime-and-conduct-rules" hreflang="en">PS20/12: Extending implementation deadlines for the Certification Regime and Conduct Rules</a></span></div></div>
+
+      </div>
+      
+          </div>
+
+                              </div>
+              <div class="media-library__see-more">
+                						<a href="https://www.fca.org.uk/publications/search-results?p_search_term=&amp;category=policy%20and%20guidance-policy%20statements%2Cpolicy%20and%20guidance-finalised%20guidance%2Cpolicy%20and%20guidance-feedback%20statements&amp;sort_by=dmetaZ">Show all policy and guidance</a>
+			
+              </div>
+            </div>
+          </div>
+              </div>
+    </div>
+  </div>
+</section>
+
+												
+
+<section  class="two-image-buttons component vertical">
+  <div class="container">
+    <div class="row">
+              <div class="two-image-buttons__col two-image-buttons__col--first col-md-12 col-lg-6">
+          <div class="image-button image-button--left">
+            <h2 class="image-button__title fca-custom-584446-bg">
+              Brexit
+            </h2>
+            <div class="row ">
+                              <div class="image-button__image image-button__image--left col-xs-5">
+                  <img alt="brexit.png" title="brexit.png" src="/sites/default/files/styles/two_image_buttons_style/public/images/brexit.png?itok=Ub6ocf8h" width="280" height="130" typeof="foaf:Image" class="img-responsive" />
+
+
+                </div>
+              
+              <div class="image-button__body col-xs-7">
+                Information on EU withdrawal
+                <div class="image-button__link">
+                  						<a href="/brexit">Learn more</a>
+			
+                </div>
+              </div>
+
+                          </div>
+          </div>
+        </div>
+              <div class="two-image-buttons__col  col-md-12 col-lg-6">
+          <div class="image-button image-button--left">
+            <h2 class="image-button__title fca-custom-003c71-bg">
+              Open consultations
+            </h2>
+            <div class="row ">
+                              <div class="image-button__image image-button__image--left col-xs-5">
+                  <img alt="open consultation.jpg" title="open consultation.jpg" src="/sites/default/files/styles/two_image_buttons_style/public/images/open-consultation.jpg?itok=H30SPkpv" width="280" height="130" typeof="foaf:Image" class="img-responsive" />
+
+
+                </div>
+              
+              <div class="image-button__body col-xs-7">
+                See our current live consultations and have your say
+                <div class="image-button__link">
+                  						<a href="https://www.fca.org.uk/publications/search-results?live_c=1">Learn more</a>
+			
+                </div>
+              </div>
+
+                          </div>
+          </div>
+        </div>
+          </div>
+  </div>
+</section>
+
+
+												
+
+<section  class="two-tone-banner component has-image">
+  <div class="two-tone-banner__top fca-custom-003c71-bg ">
+    <div class="container">
+      <h2 class="two-tone-banner__top-title">						FCA Careers
+			</h2>
+    </div>
+  </div>
+  <div class="two-tone-banner__bottom fca-custom-003c71-bg-tint-medium with-spotlight--half">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <p class="two-tone-banner__bottom-text two-tone-banner__bottom-text--image">						Our people work across law, insurance, banking, policy, human resources, technology services and more. <br />
+Find out more about where you could fit in and how to apply.
+			</p>
+        </div>
+        <div class="two-tone-banner__image col-xs-12 col-sm-6"><img alt="text banner careers 0.jpg" title="text banner careers 0.jpg" src="/sites/default/files/styles/page_header_image/public/images/text-banner-careers_0.jpg?itok=3FtChAyk" width="720" height="145" typeof="foaf:Image" class="img-responsive" />
+
+</div>
+      </div>
+    </div>
+  </div>
+  						<a href="/careers" class="overlay-link">/careers</a>
+			
+</section>
+
+						<strong class="node_view"></strong>
+  </div>
+
+</article>
+
+
+  </div>
+
+		</section>
+
+					</div>
+
+      <footer class="footer">
+      <div class="footer-main">
+        <div class="container">
+          <div class="row">
+             <div class="region region-footer">
+    
+
+
+  <section  id="block-menu-menu-social" class="block block-menu contextual-links-region clearfix footer-main__column footer-main__column--social">
+  
+      <h3 class="block block-menu contextual-links-region footer-main__menu-title">Social</h3>
+    
+  <ul class="menu nav">
+          <li class="leaf social-footer-links__item social-footer-links__item--linkedin">
+        <a href="https://www.linkedin.com/company/financial-conduct-authority" class="text-hide ext" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </li>
+          <li class="leaf social-footer-links__item social-footer-links__item--rss feed">
+        <a href="https://www.fca.org.uk/news/rss.xml" class="text-hide ext" target="_blank" rel="noopener noreferrer">RSS Feed</a>
+      </li>
+          <li class="leaf social-footer-links__item social-footer-links__item--twitter">
+        <a href="https://twitter.com/thefca" class="text-hide ext" target="_blank" rel="noopener noreferrer">Twitter</a>
+      </li>
+      </ul>
+
+</section>
+
+
+
+
+  <section  id="block-menu-menu-systems" class="block block-menu clearfix footer-main__column">
+
+      <h3 id="footerSystemsList" class="block block-menu footer-main__menu-title">
+      <a class="overlay-link collapsed" role="button" data-toggle="collapse" href="#footerSystems" aria-expanded="false" aria-controls="footerSystems">Registers and Systems</a>
+      <span class="hidden-md hidden-lg footer-section-collapse" aria-hidden="true"></span>
+    </h3>
+    <div id="footerSystems" class="collapse" aria-hidden="true">
+    <ul class="menu nav">
+            <li class="leaf">
+        <a href="/firms/mutuals-public-register"> Mutuals Public Register</a>
+      </li>
+            <li class="leaf">
+        <a href="/firms/connect">Connect</a>
+      </li>
+            <li class="leaf">
+        <a href="/about/handbook">FCA Handbook</a>
+      </li>
+            <li class="leaf">
+        <a href="/firms/financial-services-register">Financial Services Register</a>
+      </li>
+            <li class="leaf">
+        <a href="/firms/gabriel">Gabriel</a>
+      </li>
+          </ul>
+  </div>
+
+</section>
+
+
+
+
+  <section  id="block-menu-menu-careers" class="block block-menu clearfix footer-main__column">
+      <h3 id="carrersList" class="block block-menu footer-main__menu-title">
+    <a class="overlay-link collapsed" role="button" data-toggle="collapse" href="#footerCareers" aria-expanded="false" aria-controls="footerCareers">Careers</a>
+    <span class="hidden-md hidden-lg footer-section-collapse" aria-hidden="true"></span>
+    </h3>
+    <div id="footerCareers" class="collapse" aria-hidden="true">
+    <ul class="menu nav">
+              <li class="leaf">
+          <a href="/careers">Careers home</a>
+        </li>
+              <li class="leaf">
+          <a href="/careers/early-careers">Early careers</a>
+        </li>
+              <li class="leaf">
+          <a href="/careers/experienced-professionals">Experienced professionals</a>
+        </li>
+              <li class="leaf">
+          <a href="/careers/search-jobs-apply">Search jobs and apply</a>
+        </li>
+          </ul>
+  </div>
+</section>
+
+
+
+
+
+
+  <section  id="block-menu-menu-onsite-links" class="block block-menu clearfix footer-main__column footer-main__column--no-title">
+  
+  
+  <ul class="menu nav">
+        <li class="leaf">
+      <a href="/accessibility">Accessibility</a>
+    </li>
+        <li class="leaf">
+      <a href="/about/complain-about-regulators">Complain about us</a>
+    </li>
+        <li class="leaf">
+      <a href="/legal">Copyright notice</a>
+    </li>
+        <li class="leaf">
+      <a href="/about/corporate-responsibility">Corporate responsibility</a>
+    </li>
+        <li class="leaf">
+      <a href="/about/cymraeg">Cymraeg</a>
+    </li>
+        <li class="leaf">
+      <a href="/freedom-information">Freedom of information</a>
+    </li>
+        <li class="leaf">
+      <a href="/about/corporate-responsibility#modern_slavery">Modern Slavery and Human Trafficking Statement</a>
+    </li>
+        <li class="leaf">
+      <a href="/privacy">Privacy</a>
+    </li>
+        <li class="leaf">
+      <a href="/sitemap">Sitemap</a>
+    </li>
+        <li class="leaf">
+      <a href="/translated-pages">Translated languages</a>
+    </li>
+      </ul>
+</section>
+
+<section  id="block-block-1" class="block block-block clearfix footer-main__column">
+      <h3 id="contactInfo" class="block block-block footer-main__menu-title">
+      <a class="overlay-link collapsed" role="button" data-toggle="collapse" href="#footerContact" aria-expanded="false" aria-controls="footerContact">Contact</a>
+      <span class="hidden-md hidden-lg footer-section-collapse" aria-hidden="true"></span>
+    </h3>
+    <div id="footerContact" class="footer-main__content-wrapper collapse" aria-hidden="true">
+    						<p>FCAВ Head Office</p>
+<p>12 Endeavour Square</p>
+<p>London E20 1JN</p>
+<p><a class="btn btn-primary" href="/contact">Contact us</a></p>
+
+			
+  </div>
+</section>
+
+  </div>
+
+          </div>
+          <div class="footer__plain-text-logo">
+                        <img class="plain-text-logo__img" src="/themes/custom/fca/images/PLC-CES_black.jpg" alt="Clear English Gold Standard Award Logo">
+            <a href="https://www.clearest.co.uk/gold-standard" title="Clear English Gold Standard Award Logo" class="overlay-link" target="_blank">Plain Language Commission Gold Award</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-8 col-sm-4 footer-bottom__column">
+              <p class="footer-bottom__copyright">Copyright В© 2020 FCA. All rights reserved.</p>
+            </div>
+            <div class="col-xs-4 col-sm-4 footer-bottom__column">
+              <div class="footer-bottom__back-to-top">
+                <a href="#">
+                  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+                  <p>Back to top</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 footer-bottom__column">
+              <p class="footer-bottom__company-number">Company no. 01920623</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+  </div>
+
+
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/233","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"multiselect":{"widths":250},"selection_sharer":{"jquery_selectors":[".node-publication-longform div",".node-publication-longform h1",".node-publication-longform h2",".node-publication-longform h3",".node-publication-longform h4",".node-publication-longform h5",".node-publication-longform h6",".node-publication-longform p"]},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"External","extImgClass":false,"extSubdomains":false,"extExclude":"(fca\\.org\\.uk)|(fsa\\.gov\\.uk)|(fcatest\\.org\\.uk)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"0","mailtoLabel":"link sends email"}},"eu_cookie_compliance":{"popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":true,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv class=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EWe use cookies to improve your online experience. Some of these cookies are necessary to make the site work. We use other optional cookies to understand how the website is used. All our cookie data is \u003Cspan class=\u0022nanospell-typo\u0022\u003Eanonymised\u003C\/span\u003E. Please let us know if you agree to these optional cookies.\u003C\/p\u003E\n\u003Cp\u003EFind out more in our\u00a0\u003Ca href=\u0022\/privacy\u0022\u003Eprivacy policy\u003C\/a\u003E.\u003C\/p\u003E\n\n    \u003C\/div\u003E\n        \u003Cul id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories list-inline list-unstyled hidden\u0022\u003E\n                  \u003Cli       aria-hidden=\u0022true\u0022      class=\u0022eu-cookie-compliance-category\u0022\u003E\n      \u003Cdiv\u003E\n        \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 id=\u0022cookie-category-functional\u0022\n               value=\u0022functional\u0022 checked\n        disabled\u003E\n        \u003Clabel for=\u0022cookie-category-functional\u0022\u003EFunctional\u003C\/label\u003E\n      \u003C\/div\u003E\n\n            \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003E\u003C\/div\u003E\n            \u003C\/li\u003E\n                  \u003Cli       class=\u0022eu-cookie-compliance-category\u0022\u003E\n      \u003Cdiv\u003E\n        \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 id=\u0022cookie-category-tracking_ad\u0022\n               value=\u0022tracking_ad\u0022 \u003E\n        \u003Clabel for=\u0022cookie-category-tracking_ad\u0022\u003EAccept analytics and campaign advertising cookies\u003C\/label\u003E\n      \u003C\/div\u003E\n\n            \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003E\u003C\/div\u003E\n            \u003C\/li\u003E\n                \u003C\/ul\u003E\n      \u003Cdiv class=\u0022eu-cookie-compliance-category-fca-custom\u0022\u003E\n        \u003Cbutton type=\u0022button\u0022 class=\u0022btn agree\u0022\u003EYes, I agree\u003C\/button\u003E\n        \u003Cbutton type=\u0022button\u0022 class=\u0022btn dont-agree\u0022\u003ENo, I don\u0027t agree\u003C\/button\u003E\n      \u003C\/div\u003E\n      \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv class=\u0022popup-text\u0022\u003E\n      \n    \u003C\/div\u003E\n        \u003Cul id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories list-inline list-unstyled hidden\u0022\u003E\n                  \u003Cli       aria-hidden=\u0022true\u0022      class=\u0022eu-cookie-compliance-category\u0022\u003E\n      \u003Cdiv\u003E\n        \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 id=\u0022cookie-category-functional\u0022\n               value=\u0022functional\u0022 checked\n        disabled\u003E\n        \u003Clabel for=\u0022cookie-category-functional\u0022\u003EFunctional\u003C\/label\u003E\n      \u003C\/div\u003E\n\n            \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003E\u003C\/div\u003E\n            \u003C\/li\u003E\n                  \u003Cli       class=\u0022eu-cookie-compliance-category\u0022\u003E\n      \u003Cdiv\u003E\n        \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 id=\u0022cookie-category-tracking_ad\u0022\n               value=\u0022tracking_ad\u0022 \u003E\n        \u003Clabel for=\u0022cookie-category-tracking_ad\u0022\u003EAccept analytics and campaign advertising cookies\u003C\/label\u003E\n      \u003C\/div\u003E\n\n            \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003E\u003C\/div\u003E\n            \u003C\/li\u003E\n                \u003C\/ul\u003E\n      \u003Cdiv class=\u0022eu-cookie-compliance-category-fca-custom\u0022\u003E\n        \u003Cbutton type=\u0022button\u0022 class=\u0022btn agree\u0022\u003EYes, I agree\u003C\/button\u003E\n        \u003Cbutton type=\u0022button\u0022 class=\u0022btn dont-agree\u0022\u003ENo, I don\u0027t agree\u003C\/button\u003E\n      \u003C\/div\u003E\n      \u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/privacy","popup_link_new_window":true,"popup_position":true,"fixed_top_position":true,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"fca-cookie-agreed","reload_page":true,"domain":"","domain_all_sites":true,"popup_eu_only_js":false,"cookie_lifetime":100,"cookie_session":0,"disagree_do_not_show_popup":false,"method":"categories","whitelisted_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\n\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E\n\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":false,"withdraw_button_on_info_popup":false,"cookie_categories":["functional","tracking_ad"],"enable_save_preferences_button":true,"fix_first_cookie_category":true,"select_all_categories_by_default":false},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click"},"fcaFunnelback":{"funnelbackCollection":"fca-push-prod"},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"disable_all_popups":1,"global_popup":{"popup_global_enabled":1,"popup_global_title":"Global popup banner test","popup_global_text":"\u003Cp\u003Etest content\u0026nbsp;test content\u0026nbsp;test content\u0026nbsp;test content\u0026nbsp;test content\u0026nbsp;test content\u0026nbsp;test content.\u003C\/p\u003E\r\n","popup_config_button":"Continue"},"user":{"uid":0,"permissionsHash":"04b7752dc515c2d0a8a3fd21df4b5ba0bc6b416064c869037d0b3da2e87820fd"}}</script>
+<script src="/sites/default/files/js/js_6OQlL22uUDQcnZv2unOBwkaidTuFQNKQPfLzGZPCl3E.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="/sites/default/files/js/js_nJbaKg0BwZ2U4rJBTQsPdS9E4cVc5e_irlSFcNoWywo.js"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"ea2a3c61cd","applicationID":"899848932","transactionName":"Z1QAYRNVCEoDAEYLV14eI1YVXQlXTSdAF0hRXT5bDlADZSEMXBZKX10OUBNoKFYGBmQLXUdyDVsVRglVDgZATwZGWAdC","queueTime":0,"applicationTime":762,"atts":"SxMDF1tPG0Q=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>

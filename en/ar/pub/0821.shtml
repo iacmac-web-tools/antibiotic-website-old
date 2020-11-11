@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>B.B. Makushkin, L.S. Stratchounski, A.V. Dekhnitch - M-Lab System - A New Tool for Automation of Microbiological Data Collection, Analysis and Storage</title>
+<meta name="description" content="M-Lab System - A New Tool for Automation of Microbiological Data Collection, Analysis and Storage">
+<meta name="keywords" content="M-Lab system, M-Lab, new tool, automation, microbiology, data collection, data analysis, data storage">
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript"> <!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/en/inc/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../inc/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 10px; margin-left: 10px; text-align: justify;}
+LI {margin-top: 8px; margin-left: 15px; text-align: justify;}
+H4 {margin-left: 10px;}
+H5 {font-size: 11pt}
+H5.l {text-align: left;}
+</style>
+</head>
+
+<body class="main">
+
+<table cellpadding="0" border="0" cellspacing="5" width="750">
+<tr>
+  <th width="150" valign="top">
+
+  <table border="0" cellpadding="5" cellspacing="0" width="100%">
+    <tr><td>
+<p class="m10"><b>Antimicrobial Resistance</b></p>
+<hr size="1" style="color: #D0C0AC;">
+<p class="m8"><a href="../index.shtml#rus">Antimicrobial Resistance in Russia</a></p>
+<p class="m8"><a href="../index.shtml#pub">Publications</a></p>
+<p class="m8"><a href="../links.shtml">References</a></p>
+
+    </td></tr>
+  </table>
+  
+
+  </th><td valign="top">
+<!--navigation-->
+<map name="TopBtnEn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Previous page" title="Previous page">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Next page" title="Next page">
+<area shape="circle" coords="77,15,15" href="../../index-1.htm" alt="Main page" title="Main page">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="E-Mail" title="E-Mail">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../../rus/images/buttons/topline.gif);" width="98%" height="32"><img src="../../../rus/images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../../rus/images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Navigation" usemap="#TopBtnEn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+
+<h2><a name="top"></a>9<sup>th</sup> European Congress of Clinical Microbiology<br> and Infectious Diseases</h2>
+<h5><i>21-25 March, 1999, Berlin, Germany</i><br>
+<b>Poster # 0821</b></h5>
+
+<h1>M-Lab System - a new tool for automation of microbiological data collection, analysis and storage</h1>
+
+<h5><i>B.B.&nbsp;MAKUSHKIN, L.S.&nbsp;STRATCHOUNSKI, <u>A.V.&nbsp;DEKHNITCH</u></i></h5>
+
+<h5 class="l"><i>Department of Clinical Pharmacology and Antimicrobial Chemotherapy, State Medical Academy, Smolensk, Russia</i></h5>
+
+<p style="text-align:right; font-size:8pt"><a href="../../pdfs/0821.pdf">The PDF format poster (239 kb) <img src="../../images/pdf.gif" width="16" height="16" alt="" border="0"></a></p>
+
+<hr size="1">
+<ul>
+   <li><a href="#1">Introduction and purpose</a></li>
+   <li><a href="#2">Methods</a></li>
+   <li><a href="#3">Results</a></li>
+   <li><a href="#4">Conclusion</a></li>
+</ul>
+<hr size="1">
+
+<a name="1"></a><br>
+<h2>INTRODUCTION AND PURPOSE</h2>
+
+<p>World-wide and even in our department we have plenty of programs, databases and software's for microbiological data collection, analysis and storage. But majority of this products allow to solve only predetermined limited number of tasks. And what is  more, very often one computer product unfit for dialling with the data form another product. That is why we need in new universal tool for automation of microbiological data collection analysis and storage.</p>
+
+<a name="2"></a><br>
+<h2>METHODS</h2>
+
+<p><b>Software requirements:</b></p>
+
+<ul>
+	<li>Unix or Unix-like system (tested on Linux and FreeBSD);</li>
+	<li>SQL server (PostgreSQL);</li>
+	<li>HTTPD (Apache);</li>
+	<li>Perl 5.</li>
+</ul>
+
+<p><b>Hardware requirements:</b></p>
+
+<ul>
+	<li><u>&gt;</u>16 MB RAM;</li>
+	<li><u>&gt;</u>100 MB on HDD;</li>
+	<li><u>&gt;</u>Intel 486SX-33;</li>
+	<li>Network<u>&gt;</u>10 Mbit.</li>
+</ul>
+
+<a name="3"></a><br>
+<h2>RESULTS</h2>
+
+<p style="text-align:center;"><img src="images/0821r1.gif" width="753" height="467" alt="" border="0"></p>
+
+<p><b>Data collection.</b></p>
+
+<ol>
+	<i><li>From pre-existing sources of date:</li></i>
+		<ul type="disc">
+			<li>pre-defined: WHONet, BioMic etc.;</li>
+			<li>user-defined: Excel, XBase, SQL servers.</li>
+		</ul>
+	<i><li>Direct input:</li></i>
+		<ul type="disc">
+			<li>offline;</li>
+			<li>online.</li>
+		</ul>
+</ol>
+
+<p><b>Data processing.</b></p>
+
+<ul>
+	<li>offline (Email);</li>
+	<li>online (Web-Browser);</li>
+	<li>pre-existing template;</li>
+	<li>low level request SQL.</li>
+</ul>
+
+<p><b>Report System.</b></p>
+
+<p align="center">&nbsp;<br><img src="images/0821r2.gif" width="533" height="90" alt="" border="0"><br>&nbsp;</p>
+
+<p><b>Data Storage.</b><br>
+There are two blocs of information linked to each other and distributed according to referent guides - on strains and on patients.</p>
+
+<p style="text-align:center;"><img src="images/0821r3.gif" width="746" height="518" alt="" border="0"></p>
+
+<a name="4"></a><br>
+<h2>CONCLUSION</h2>
+
+<p>M-Lab System is a new  universal software that is capable to:</p>
+
+<ul>
+	<li>collect practically any type of microbiological data from any pre-existing source of information or by direct input;</li>
+	<li>analyse any type of loaded microbiological information;</li>
+	<li>produce reports of any parameter requested, pre-defined by templates (e.g. MIC<sub>50</sub>, MIC<sub>90</sub>, MIC ranges etc.) or user defined.</li>
+</ul>
+
+<hr size="1">
+
+<br>
+<!-- begin footer -->
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tr>
+  <td style="text-align: left; vertical-align: bottom;" align="left" valign="bottom"><div class="t8">&copy; 2000-2006 IAC SSMA &middot; E-mail: <a href="mailto:website@antibiotic.ru" title="Send e-mail">website&#64;antibiotic&#46;ru</a></div></td>
+  <td colspan="2" valign="top" align="right"><font size="1"><!-- SpyLOG v2 f:0211 --><script language="javascript">
+u="u607.38.spylog.com";d=document;nv=navigator;na=nv.appName;p=1;
+bv=Math.round(parseFloat(nv.appVersion)*100);
+n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random();z="p="+p+"&rn="+rn;y="";
+y+="<a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+
+"&r="+escape(d.referrer)+"&pg="+escape(window.location.href)+"' border=0  width=88 height=31  alt='SpyLOG'>";
+y+="</a>"; d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<a href="../../../index-15.htm?f=3&p=1" target="_blank">
+<img src="../../../digits.png?p=1" alt='SpyLOG' border='0' width="88" height="31">
+</a></noscript><script language="javascript1.2"><!--
+if(!n) { d.write("--"+">"); }//--></script><!-- SpyLOG  --></font></td>
+</tr>
+</table>
+<!-- end of footer -->
+
+  </td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,329 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js no-svg ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="ru-RU"> <![endif]-->
+<!--[if IE 7]><html class="no-js no-svg ie ie7 lt-ie9 lt-ie8" lang="ru-RU"> <![endif]-->
+<!--[if IE 8]><html class="no-js no-svg ie ie8 lt-ie9" lang="ru-RU"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js no-svg" lang="ru-RU"> <!--<![endif]-->
+<head>
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <meta charset="UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"c5bc1c0da2",applicationID:"155084137"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+    <title>Home - Ipsen Russia</title>
+    <link rel="icon" href="/russia/wp-content/themes/ipsen-master/favicon.ico">
+    <link rel="stylesheet" href="https://www.ipsen.com/russia/wp-content/themes/ipsen-master/dist/main.css" type="text/css" media="screen" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="author" href="https://www.ipsen.com/russia/wp-content/themes/ipsen-master/humans.txt" />
+    <link rel="pingback" href="https://www.ipsen.com/russia/xmlrpc.php" />
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link href="https://fonts.googleapis.com/css?family=Biryani:200,400,600,900|Quicksand:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.5.3/plyr.css" />
+    <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js"></script>
+    <script src="/wp-content/themes/ipsen-master/src/js/vendor/ResizeObserver.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+   <style type="text/css">.leaflet-div-icon{background:transparent;border:none;}.a2a_svg {padding: 0.5em!important; border-radius: 0 !important; }</style>
+        
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO plugin v15.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://www.ipsen.com/russia/" />
+	<meta property="og:locale" content="ru_RU" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Home - Ipsen Russia" />
+	<meta property="og:url" content="https://www.ipsen.com/russia/" />
+	<meta property="og:site_name" content="Ipsen Russia" />
+	<meta property="article:modified_time" content="2020-09-15T08:19:25+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="РќР°РїРёСЃР°РЅРѕ Р°РІС‚РѕСЂРѕРј">
+	<meta name="twitter:data1" content="akoa">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.ipsen.com/russia/#website","url":"https://www.ipsen.com/russia/","name":"Ipsen Russia","description":"","potentialAction":[{"@type":"SearchAction","target":"https://www.ipsen.com/russia/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"ru-RU"},{"@type":"WebPage","@id":"https://www.ipsen.com/russia/#webpage","url":"https://www.ipsen.com/russia/","name":"Home - Ipsen Russia","isPartOf":{"@id":"https://www.ipsen.com/russia/#website"},"datePublished":"2018-12-20T10:47:20+00:00","dateModified":"2020-09-15T08:19:25+00:00","inLanguage":"ru-RU","potentialAction":[{"@type":"ReadAction","target":["https://www.ipsen.com/russia/"]}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.ipsen.com\/russia\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.ipsen.com/russia/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cpsh-shortcodes-css'  href='https://www.ipsen.com/russia/wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css'  href='https://www.ipsen.com/russia/wp-content/plugins/cookie-notice/css/front.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive_images-css'  href='https://www.ipsen.com/russia/wp-content/themes/ipsen-master/dist/responsive_images.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='misc_css-css'  href='https://www.ipsen.com/russia/wp-content/themes/ipsen-master/dist/misc.css?ver=5.5.3' type='text/css' media='all' />
+<script type='text/javascript' id='cookie-notice-front-js-extra'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxUrl":"https:\/\/www.ipsen.com\/russia\/wp-admin\/admin-ajax.php","nonce":"9c0fcde9e6","hideEffect":"fade","position":"bottom","onScroll":"0","onScrollOffset":"100","onClick":"0","cookieName":"cookie_notice_accepted","cookieTime":"2592000","cookieTimeRejected":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"0","cache":"1","refuse":"0","revokeCookies":"0","revokeCookiesOpt":"automatic","secure":"1","coronabarActive":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.ipsen.com/russia/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.3.2' id='cookie-notice-front-js'></script>
+<script type='text/javascript' src='https://www.ipsen.com/russia/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.ipsen.com/russia/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.11.5' id='gtm4wp-form-move-tracker-js'></script>
+<link rel="https://api.w.org/" href="https://www.ipsen.com/russia/wp-json/" /><link rel="alternate" type="application/json" href="https://www.ipsen.com/russia/wp-json/wp/v2/pages/533" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.ipsen.com/russia/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.ipsen.com/russia/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel='shortlink' href='https://www.ipsen.com/russia/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.ipsen.com/russia/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ipsen.com%2Frussia%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.ipsen.com/russia/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ipsen.com%2Frussia%2F&#038;format=xml" />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+	var dataLayer_content = {"pagePostType":"frontpage","pagePostType2":"single-page","pagePostAuthor":"akoa"};
+	dataLayer.push( dataLayer_content );//]]>
+</script>
+<script data-cfasync="false">//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PPQTXB4');//]]>
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel="shortcut icon" type="image/x-icon" href="https://www.ipsen.com/russia/wp-content/themes/ipsen-master/favicon.ico" /><style>#wpadminbar #wp-admin-bar-site-name>.ab-item:before { content: none !important;}li#wp-admin-bar-site-name a { background: url( "https://www.ipsen.com/russia/wp-content/themes/ipsen-master/favicon.ico" ) left center/20px no-repeat !important; padding-left: 21px !important; background-size: 20px !important; } li#wp-admin-bar-site-name { margin-left: 5px !important; } li#wp-admin-bar-site-name {} #wp-admin-bar-site-name div a { background: none !important; }
+</style>
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=cyrillic-ext,greek-ext" rel="stylesheet">
+      <style>
+        * {
+          font-family: Open Sans, sans-serif !important;
+        }
+      </style>
+            <script>
+      var owaUserID = "null";
+    </script>
+    <script>
+      var lastGoodDesktopMasthead;
+      var lastGoodDesktopMastheadAvailable = false;
+      var owaUserID = "null";
+    </script>
+</head>
+
+
+<body class="home page-template-default page page-id-533 cookies-not-set language-ru-RU  " data-glow="0, 111, 238">
+    
+    <div class="page-container theme-corporate" data-glow="0, 111, 238">
+
+                          
+<div id="masthead" class="masthead masthead--corporate  masthead--show-menu-nav ">
+    
+    <div class="masthead__mobile ">
+               <div class="masthead__mobile__main">
+            <div class="masthead__logo">
+                <a href="https://www.ipsen.com/russia?nopop" title="Home">
+                                    <svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" viewBox="-194 390.9 206 60">
+  <style>.st0{fill:#18296c}.st1{fill:#1a93e5}</style>
+  <path class="st0" d="M-150.1 446.7c0 .4-.4.6-.7.6-.3 0-.5-.3-.6-.6v-8.3c0-.4.4-.6.7-.6.3 0 .5.3.6.6v8.3zM-166.1 393.3s-39.8 14.3-6.6 28.6c0 0-39.6-14.1 6.6-28.6"/><path class="st0" d="M-175.5 397.2c-8.3 3.6-12.5 7.3-12.5 11.2 0 2.5 1.7 4.8 4 6.8-1.5-1.5-2.3-3.6-2.3-5.7.1-5 5.6-9.3 10.8-12.3m2.8 25.2h-.1c-.7-.2-16.3-5.9-16.1-13.9.1-5.6 7.7-10.8 22.7-15.5.2-.1.5.1.6.3.1.2-.1.4-.3.5-.2.1-19.2 7-19.5 15.7-.1 4.2 4.2 8.3 12.9 12 .2 0 .4.2.4.4-.1.2-.3.4-.6.5.1 0 .1 0 0 0z"/><path class="st0" d="M-185.6 447.4s40.3-13.3 6.9-28.2c0 .1 39.8 15-6.9 28.2"/><path class="st0" d="M-167.3 426.2c1.5 1.5 2.3 3.6 2.3 5.8-.2 4.9-5.8 9-11.1 11.8 8.3-3.3 12.6-6.9 12.8-10.7.1-2.5-1.6-4.9-4-6.9m-18.3 21.7c-.2 0-.4-.1-.4-.3-.1-.2 0-.5.3-.5.2-.1 19.4-6.5 19.8-15.1.2-4.2-4.1-8.3-13-12.3-.2-.1-.3-.4-.2-.6.1-.2.3-.3.5-.2.7.3 16.4 6.3 16.1 14.3-.2 5.5-8 10.5-23.1 14.7.1 0 0 0 0 0M-109.9 416.5c0 2.2-.6 3.1-2.8 3.1h-11.9v-7.3c0-2 1-3.1 3.6-3.1h8.3c2.2 0 2.9.9 2.8 3.1v4.2zm3.5-10.7h-28.9v26.6h10.7V423h18.3c4.5 0 7.1-1 7.1-5.4v-6.4c-.1-4.4-2.7-5.4-7.2-5.4M-151.2 405.8h10.7v26.6h-10.7zM-62.3 426.9c0 3-.9 5.5-7 5.5h-24.3V429h18.1c1.3.1 2.4-.9 2.5-2.1v-3.3c0-2-.9-2.9-2.7-2.9h-14.1c-4.8 0-6.2-2.3-6.2-5.2v-4.9c0-2.9 2.3-4.8 6.2-4.8h23.5s-.3 3.4-4.5 3.4h-11.8c-2.2 0-2.8 1.3-2.8 2.7v2.5c0 1.6.6 2.8 2.6 2.8H-69c5.3 0 6.7 2.1 6.7 5.9v3.8zM-59 432.4v-26.6h29.1v3.5h-15.6c-1.8 0-2.8.7-2.8 2.8v5.2H-33s-.3 3.4-4.5 3.4h-10.8v5.5c0 2.1 1 2.8 2.7 2.8h15.7v3.4H-59zM.9 432.4c-2.5 0-4.4-1-6.3-3.2l-16-18.3h-.1v21.5h-4.9v-26.6h9.8c1.8-.1 3.6.6 4.9 2 1.3 1.6 16.6 19.1 16.6 19.1H5v-21.1h4.9v26.6h-9zM-148.3 440.8c0-.4.3-.6.7-.6.4 0 .6.3.6.6v.3c.5-.6 1.3-1 2.2-.9 1.4-.1 2.6 1 2.7 2.4v4.2c0 .4-.4.6-.7.6-.3 0-.5-.3-.6-.6V443c-.1-1-1-1.7-2-1.6-.8.1-1.5.8-1.6 1.6v3.8c0 .4-.3.6-.7.6-.4 0-.6-.3-.6-.6v-6zM-140.3 440.8c0-.4.4-.6.7-.6.3 0 .5.3.6.6v.3c.5-.6 1.3-1 2.2-.9 1.4-.1 2.6 1 2.7 2.4v4.2c0 .4-.3.6-.7.6-.4 0-.6-.3-.6-.6V443c-.2-1-1.1-1.6-2.1-1.5-.7.1-1.3.7-1.5 1.5v3.8c0 .4-.4.6-.7.6-.3 0-.5-.3-.6-.6v-6zM-129.2 446.3c1.6 0 2.1-1.4 2.1-2.6 0-1.2-.6-2.6-2.1-2.6-1.6 0-2.1 1.4-2.1 2.6-.1 1.2.5 2.6 2.1 2.6m0-6.2c2-.1 3.7 1.4 3.8 3.4.1 2-1.4 3.7-3.4 3.8-2 .1-3.7-1.4-3.8-3.4v-.2c-.1-1.9 1.3-3.5 3.2-3.6h.2M-125 441.2c-.1-.1-.1-.3-.1-.5 0-.3.3-.5.6-.5s.6.2.7.4l1.8 4.9 1.8-4.9c.1-.3.4-.5.7-.4.3 0 .6.2.6.5 0 .2-.1.3-.1.5l-2.2 5.7c-.1.3-.3.5-.7.5s-.6-.2-.7-.5l-2.4-5.7zM-114.9 446.3c1.6 0 2.1-1.4 2.1-2.6 0-1.2-.6-2.6-2.1-2.6s-2.2 1.4-2.2 2.6c0 1.2.6 2.6 2.2 2.6m3.4.5c0 .3-.3.6-.6.6s-.6-.2-.6-.5v-.6c-.5.7-1.3 1.1-2.1 1.1-2-.1-3.5-1.8-3.4-3.8.1-1.8 1.6-3.3 3.4-3.4.8 0 1.6.3 2.1 1v-.4c0-.3.3-.6.6-.6s.6.2.6.6v6zM-109.4 438.7c0-.4.3-.6.6-.6.4 0 .6.3.6.6v1.5h.5c.4 0 .7.2.7.5s-.2.5-.7.5h-.5v5.5c0 .4-.3.6-.6.6-.4 0-.6-.3-.6-.6v-5.5h-.5c-.4 0-.7-.2-.7-.5s.2-.5.7-.5h.5v-1.5zM-104.6 446.7c0 .3-.2.6-.6.6h-.1c-.3 0-.6-.2-.6-.5v-6.1c0-.3.2-.6.6-.6h.1c.3 0 .6.2.6.5v6.1zm-.6-9c.4 0 .8.2.8.6 0 .4-.2.8-.6.8h-.2c-.4 0-.8-.2-.8-.6 0-.4.2-.8.6-.8h.2M-99.7 446.3c1.6 0 2.1-1.4 2.1-2.6 0-1.2-.6-2.6-2.1-2.6s-2.1 1.4-2.1 2.6c-.1 1.2.5 2.6 2.1 2.6m0-6.2c2-.1 3.7 1.4 3.8 3.4.1 2-1.4 3.7-3.4 3.8-2 .1-3.7-1.4-3.8-3.4v-.2c-.1-1.9 1.3-3.5 3.2-3.6h.2M-94.8 440.8c0-.3.2-.6.6-.6h.1c.3 0 .6.2.6.5v.4c.5-.6 1.3-1 2.2-.9 1.4-.1 2.6 1 2.7 2.4v4.2c0 .4-.3.6-.6.6-.4 0-.6-.3-.6-.6V443c0-1-.8-1.8-1.8-1.8s-1.8.8-1.8 1.8v3.8c0 .3-.2.6-.5.6h-.1c-.3 0-.6-.2-.6-.5v-.1l-.2-6zM-81.4 446.7c0 .4-.4.6-.7.6-.3 0-.5-.3-.6-.6v-5.5h-.5c-.4 0-.7-.2-.7-.5s.2-.5.7-.5h.5v-1.7c0-.8.7-1.5 1.5-1.5H-80.6c.3 0 .7.2.7.5s-.2.5-.7.5h-.3c-.4 0-.5.2-.5.5v1.7h.8c.4 0 .7.2.7.5s-.2.5-.7.5h-.8v5.5zM-76.1 446.3c1.6 0 2.2-1.4 2.2-2.6 0-1.2-.6-2.6-2.2-2.6s-2.1 1.4-2.1 2.6c-.1 1.2.5 2.6 2.1 2.6m0-6.2c2-.1 3.7 1.4 3.8 3.4.1 2-1.4 3.7-3.4 3.8-2 .1-3.7-1.4-3.8-3.4v-.2c-.1-1.9 1.3-3.5 3.2-3.6h.2M-71.3 440.8c0-.4.3-.6.6-.6.4 0 .6.3.6.6v.6c.3-.7 1-1.1 1.8-1.2.3 0 .7.2.7.5v.1c0 .3-.3.5-.8.6-1 .1-1.8 1-1.7 2v3.4c0 .4-.3.6-.6.6-.4 0-.6-.3-.6-.6v-6zM-59.4 446.3c1.6 0 2.1-1.4 2.1-2.6 0-1.2-.6-2.6-2.1-2.6s-2.1 1.4-2.1 2.6c-.1 1.2.5 2.6 2.1 2.6m-3.4-5.5c0-.3.2-.6.6-.6h.1c.3 0 .6.2.6.5v.4c.5-.7 1.3-1.1 2.1-1 2 .2 3.5 1.9 3.3 3.9-.2 1.7-1.5 3.1-3.3 3.3-.8 0-1.6-.4-2.1-1v3.1c0 .3-.2.6-.5.6h-.1c-.3 0-.6-.2-.6-.5v-8.7zM-51.5 446.3c1.6 0 2.1-1.4 2.1-2.6 0-1.2-.6-2.6-2.1-2.6s-2.1 1.4-2.1 2.6c0 1.2.5 2.6 2.1 2.6m3.4.5c0 .3-.3.6-.6.6s-.6-.2-.6-.5v-.5c-.5.7-1.3 1.1-2.1 1.1-2-.1-3.5-1.8-3.4-3.8.1-1.8 1.6-3.3 3.4-3.4.8 0 1.6.3 2.1 1v-.4c0-.3.3-.6.6-.6s.6.2.6.6v5.9zM-45.9 438.7c0-.4.4-.6.7-.6.3 0 .5.3.6.6v1.5h.5c.4 0 .6.2.6.5s-.2.5-.6.5h-.5v5.5c0 .4-.4.6-.7.6-.3 0-.5-.3-.6-.6v-5.5h-.5c-.4 0-.6-.2-.6-.5s.2-.5.6-.5h.5v-1.5zM-41.1 446.7c0 .4-.3.6-.7.6-.4 0-.6-.3-.6-.6v-6c0-.4.3-.6.6-.6.4 0 .7.3.7.6v6zm-.7-9c.4 0 .7.4.7.8s-.4.7-.8.7-.7-.3-.7-.7c0-.5.4-.8.8-.8M-34.3 443.3c.1-1.2-.8-2.2-2-2.3s-2.2.8-2.3 2v.3h4.3zm-4.2.9c0 1.2.9 2.1 2.1 2.1h.2c1.7 0 2.2-.9 2.6-.9.3 0 .5.2.5.5 0 .6-1.6 1.5-3.1 1.5-1.9.1-3.5-1.3-3.6-3.1v-.5c-.1-1.9 1.4-3.5 3.3-3.6h.2c1.9 0 3.3 1.5 3.3 3.4v.1c0 .4-.2.6-.7.6l-4.8-.1zM-31.6 440.8c0-.4.3-.6.6-.6.4 0 .6.3.6.6v.3c.5-.6 1.3-1 2.2-.9 1.4-.1 2.6 1 2.7 2.4v4.2c0 .3-.2.6-.5.6h-.1c-.3 0-.6-.2-.6-.5V443c0-1-.8-1.8-1.8-1.8s-1.8.8-1.8 1.8v3.8c0 .4-.3.6-.6.6-.4 0-.6-.3-.6-.6l-.1-6zM-23.3 438.7c0-.3.2-.6.6-.6h.1c.3 0 .6.2.6.5v1.6h.5c.4 0 .6.2.6.5s-.2.5-.6.5h-.5v5.5c0 .3-.2.6-.5.6h-.1c-.3 0-.6-.2-.6-.5v-5.6h-.5c-.4 0-.6-.2-.6-.5s.2-.5.6-.5h.5l-.1-1.5zM-12.9 440.1c1.3 0 2.1.4 2.1.9 0 .3-.3.5-.5.5-.5 0-.7-.4-1.6-.4-1.4.2-2.4 1.5-2.2 3 .2 1.2 1.1 2.1 2.2 2.2.9 0 1.1-.4 1.6-.4.2 0 .5.1.5.4v.1c0 .4-.7.9-2.1.9-2-.1-3.5-1.8-3.4-3.8.1-1.8 1.6-3.3 3.4-3.4M-6.3 446.3c1.6 0 2.1-1.4 2.1-2.6 0-1.2-.6-2.6-2.1-2.6s-2.1 1.4-2.1 2.6c-.1 1.2.5 2.6 2.1 2.6m3.3.5c0 .3-.3.6-.6.6s-.6-.2-.6-.5v-.5c-.5.7-1.3 1.1-2.1 1.1-2-.1-3.5-1.8-3.4-3.8.1-1.8 1.6-3.3 3.4-3.4.8 0 1.6.3 2.1 1v-.4c0-.3.3-.6.6-.6s.6.2.6.5v6zM-1.2 440.8c0-.4.3-.6.7-.6.4 0 .6.3.6.6v.6c.3-.7 1-1.1 1.8-1.2.4 0 .7.2.7.6 0 .3-.3.5-.8.6-1 .1-1.8 1-1.7 2v3.4c0 .4-.3.6-.6.6-.4 0-.7-.3-.7-.6v-6zM8.6 443.3c.1-1.2-.8-2.2-2-2.3s-2.2.8-2.3 2v.3h4.3zm-4.3.9c0 1.2.9 2.1 2.1 2.1h.2c1.7 0 2.2-.9 2.6-.9.3 0 .5.2.5.5 0 .6-1.6 1.5-3.1 1.5-1.8.1-3.5-1.2-3.6-3.1v-.5c-.1-1.9 1.4-3.5 3.3-3.6h.2c1.9 0 3.4 1.5 3.4 3.3v.1c0 .4-.2.6-.7.6H4.3z"/><path class="st1" d="M-192.4 424.4s40.3-13.3 6.9-28.2c0 0 39.8 14.9-6.9 28.2"/><path class="st1" d="M-174.1 403.1c1.5 1.5 2.3 3.6 2.3 5.7-.2 4.9-5.8 9-11.1 11.8 8.3-3.3 12.6-6.9 12.8-10.7 0-2.4-1.7-4.8-4-6.8m-18.3 21.7c-.2 0-.4-.2-.4-.4s.1-.4.3-.4c.2-.1 19.4-6.5 19.8-15.1.2-4.2-4.1-8.3-13-12.3-.2-.1-.3-.4-.2-.6.1-.2.3-.3.5-.2.7.3 16.4 6.2 16.1 14.3-.2 5.5-8 10.5-23 14.7h-.1"/><path class="st1" d="M-159.5 414.4s-39.8 14.3-6.6 28.6c0 0-39.6-14.1 6.6-28.6M-161.7 406.6c.8 1.7.1 3.7-1.6 4.5-.1.1-.3.1-.5.2-1.8.7-3.3-.9-3.7-2.1-.4-1.9 1.7-3.1 3.9-3.5.8-.2 1.6.2 1.9.9"/><path class="st1" d="M-168.9 418.3c-8.3 3.6-12.5 7.3-12.6 11.2 0 2.5 1.7 4.8 4 6.8-1.5-1.5-2.3-3.6-2.3-5.7.1-5.1 5.6-9.3 10.9-12.3m2.8 25.1h-.1c-.7-.2-16.3-5.9-16.1-14 .1-5.6 7.7-10.8 22.7-15.5.2-.1.5 0 .5.3.1.2 0 .5-.3.6-.2.1-19.2 7-19.5 15.7-.1 4.2 4.2 8.3 12.9 12 .2 0 .4.2.4.4-.1.3-.3.5-.5.5z"/>
+</svg>                                </a>
+            </div>
+            <div class="snowball"></div>
+            <button class="mobile-nav__toggle">
+                <svg id="nav-trigger" class="nav-trigger" viewbox="0 0 24 24" width="30">
+                    <path id="burger" d="M5.18 10.97H20v2H5.18zM5.18 16.97h11.06v2H5.18zM5.18 4.97h11.06v2H5.18z" />
+                    <path id="cross" d="M5.65 7.443L7.064 6.03l10.48 10.48-1.415 1.414zM5.644 16.509l3.931-3.932 1.414 1.415-3.931 3.931zM12.194 9.956l3.931-3.932L17.54 7.44l-3.931 3.931z" />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div class="masthead__inner">
+        <div class="masthead__mobile--scroll-wrapper">
+            <div class="masthead__upper">
+                              <div class="masthead__widget-area masthead__widget-area--left"><a class="header-cta header-cta--align-left" href="https://www.ipsen.com">Go to Global Ipsen site</a></div><div class="masthead__widget-area masthead__widget-area--left"> 
+    <div class="masthead-country-widget">
+		<div class="widget-trigger" data-country-trigger>
+							Ipsen Russia
+						<span class="widget-arrow-icon"></span>
+		</div>
+		<div class="masthead-country-widget__inner">
+			<div class="masthead-country-widget__inner-er">
+				<h2>Choose your location:</h2>
+				<ul class="masthead-country-widget__list">
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/aus/"   >Australia</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/belgium-fr/"   >Belgium (FR)</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/belgium-nl/"   >Belgium (NL)</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/brazil/"   >Brazil</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.ca/fr/"   >Canada</a></li>
+											<li class="masthead-country-item"><a href="http://www.ipsen.cn/"   >China</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/czc/"   >Czech Republic</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/france/"   >France</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/germany/"   >Germany</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/greece/"   >Greece</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/italy/"   >Italy</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/netherlands/"   >Netherlands</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsennordic.com/"   >Nordics</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/poland/"   >Poland</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/russia/"   >Russia</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/singapore/"   >Singapore</a></li>
+											<li class="masthead-country-item"><a href="http://www.ipsen.sk/"   >Slovakia</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/korea/"   >South Korea</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/spain/"   >Spain</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.co.uk"   >UK</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/ukraine"   >Ukraine</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com/us/"   >USA</a></li>
+											<li class="masthead-country-item"><a href="https://www.ipsen.com"   >Global</a></li>
+									</ul>
+			</div>
+		</div>
+	</div>
+</div>
+                <div class="masthead__widget-area masthead__widget-area--right"><a class="header-cta header-cta--align-right" href="https://www.ipsen.com/russia/contact-us/">СЃРІСЏР·Р°С‚СЊСЃСЏ СЃ РЅР°РјРё</a></div>
+                          </div>
+                        <div class="masthead__main">
+                <div class="masthead__logo">
+                <a href="https://www.ipsen.com/russia?nopop" title="Home">
+                                    <svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" viewBox="-194 390.9 206 60">
+  <style>.st0{fill:#18296c}.st1{fill:#1a93e5}</style>
+  <path class="st0" d="M-150.1 446.7c0 .4-.4.6-.7.6-.3 0-.5-.3-.6-.6v-8.3c0-.4.4-.6.7-.6.3 0 .5.3.6.6v8.3zM-166.1 393.3s-39.8 14.3-6.6 28.6c0 0-39.6-14.1 6.6-28.6"/><path class="st0" d="M-175.5 397.2c-8.3 3.6-12.5 7.3-12.5 11.2 0 2.5 1.7 4.8 4 6.8-1.5-1.5-2.3-3.6-2.3-5.7.1-5 5.6-9.3 10.8-12.3m2.8 25.2h-.1c-.7-.2-16.3-5.9-16.1-13.9.1-5.6 7.7-10.8 22.7-15.5.2-.1.5.1.6.3.1.2-.1.4-.3.5-.2.1-19.2 7-19.5 15.7-.1 4.2 4.2 8.3 12.9 12 .2 0 .4.2.4.4-.1.2-.3.4-.6.5.1 0 .1 0 0 0z"/><path class="st0" d="M-185.6 447.4s40.3-13.3 6.9-28.2c0 .1 39.8 15-6.9 28.2"/><path class="st0" d="M-167.3 426.2c1.5 1.5 2.3 3.6 2.3 5.8-.2 4.9-5.8 9-11.1 11.8 8.3-3.3 12.6-6.9 12.8-10.7.1-2.5-1.6-4.9-4-6.9m-18.3 21.7c-.2 0-.4-.1-.4-.3-.1-.2 0-.5.3-.5.2-.1 19.4-6.5 19.8-15.1.2-4.2-4.1-8.3-13-12.3-.2-.1-.3-.4-.2-.6.1-.2.3-.3.5-.2.7.3 16.4 6.3 16.1 14.3-.2 5.5-8 10.5-23.1 14.7.1 0 0 0 0 0M-109.9 416.5c0 2.2-.6 3.1-2.8 3.1h-11.9v-7.3c0-2 1-3.1 3.6-3.1h8.3c2.2 0 2.9.9 2.8 3.1v4.2zm3.5-10.7h-28.9v26.6h10.7V423h18.3c4.5 0 7.1-1 7.1-5.4v-6.4c-.1-4.4-2.7-5.4-7.2-5.4M-151.2 405.8h10.7v26.6h-10.7zM-62.3 426.9c0 3-.9 5.5-7 5.5h-24.3V429h18.1c1.3.1 2.4-.9 2.5-2.1v-3.3c0-2-.9-2.9-2.7-2.9h-14.1c-4.8 0-6.2-2.3-6.2-5.2v-4.9c0-2.9 2.3-4.8 6.2-4.8h23.5s-.3 3.4-4.5 3.4h-11.8c-2.2 0-2.8 1.3-2.8 2.7v2.5c0 1.6.6 2.8 2.6 2.8H-69c5.3 0 6.7 2.1 6.7 5.9v3.8zM-59 432.4v-26.6h29.1v3.5h-15.6c-1.8 0-2.8.7-2.8 2.8v5.2H-33s-.3 3.4-4.5 3.4h-10.8v5.5c0 2.1 1 2.8 2.7 2.8h15.7v3.4H-59zM.9 432.4c-2.5 0-4.4-1-6.3-3.2l-16-18.3h-.1v21.5h-4.9v-26.6h9.8c1.8-.1 3.6.6 4.9 2 1.3 1.6 16.6 19.1 16.6 19.1H5v-21.1h4.9v26.6h-9zM-148.3 440.8c0-.4.3-.6.7-.6.4 0 .6.3.6.6v.3c.5-.6 1.3-1 2.2-.9 1.4-.1 2.6 1 2.7 2.4v4.2c0 .4-.4.6-.7.6-.3 0-.5-.3-.6-.6V443c-.1-1-1-1.7-2-1.6-.8.1-1.5.8-1.6 1.6v3.8c0 .4-.3.6-.7.6-.4 0-.6-.3-.6-.6v-6zM-140.3 440.8c0-.4.4-.6.7-.6.3 0 .5.3.6.6v.3c.5-.6 1.3-1 2.2-.9 1.4-.1 2.6 1 2.7 2.4v4.2c0 .4-.3.6-.7.6-.4 0-.6-.3-.6-.6V443c-.2-1-1.1-1.6-2.1-1.5-.7.1-1.3.7-1.5 1.5v3.8c0 .4-.4.6-.7.6-.3 0-.5-.3-.6-.6v-6zM-129.2 446.3c1.6 0 2.1-1.4 2.1-2.6 0-1.2-.6-2.6-2.1-2.6-1.6 0-2.1 1.4-2.1 2.6-.1 1.2.5 2.6 2.1 2.6m0-6.2c2-.1 3.7 1.4 3.8 3.4.1 2-1.4 3.7-3.4 3.8-2 .1-3.7-1.4-3.8-3.4v-.2c-.1-1.9 1.3-3.5 3.2-3.6h.2M-125 441.2c-.1-.1-.1-.3-.1-.5 0-.3.3-.5.6-.5s.6.2.7.4l1.8 4.9 1.8-4.9c.1-.3.4-.5.7-.4.3 0 .6.2.6.5 0 .2-.1.3-.1.5l-2.2 5.7c-.1.3-.3.5-.7.5s-.6-.2-.7-.5l-2.4-5.7zM-114.9 446.3c1.6 0 2.1-1.4 2.1-2.6 0-1.2-.6-2.6-2.1-2.6s-2.2 1.4-2.2 2.6c0 1.2.6 2.6 2.2 2.6m3.4.5c0 .3-.3.6-.6.6s-.6-.2-.6-.5v-.6c-.5.7-1.3 1.1-2.1 1.1-2-.1-3.5-1.8-3.4-3.8.1-1.8 1.6-3.3 3.4-3.4.8 0 1.6.3 2.1 1v-.4c0-.3.3-.6.6-.6s.6.2.6.6v6zM-109.4 438.7c0-.4.3-.6.6-.6.4 0 .6.3.6.6v1.5h.5c.4 0 .7.2.7.5s-.2.5-.7.5h-.5v5.5c0 .4-.3.6-.6.6-.4 0-.6-.3-.6-.6v-5.5h-.5c-.4 0-.7-.2-.7-.5s.2-.5.7-.5h.5v-1.5zM-104.6 446.7c0 .3-.2.6-.6.6h-.1c-.3 0-.6-.2-.6-.5v-6.1c0-.3.2-.6.6-.6h.1c.3 0 .6.2.6.5v6.1zm-.6-9c.4 0 .8.2.8.6 0 .4-.2.8-.6.8h-.2c-.4 0-.8-.2-.8-.6 0-.4.2-.8.6-.8h.2M-99.7 446.3c1.6 0 2.1-1.4 2.1-2.6 0-1.2-.6-2.6-2.1-2.6s-2.1 1.4-2.1 2.6c-.1 1.2.5 2.6 2.1 2.6m0-6.2c2-.1 3.7 1.4 3.8 3.4.1 2-1.4 3.7-3.4 3.8-2 .1-3.7-1.4-3.8-3.4v-.2c-.1-1.9 1.3-3.5 3.2-3.6h.2M-94.8 440.8c0-.3.2-.6.6-.6h.1c.3 0 .6.2.6.5v.4c.5-.6 1.3-1 2.2-.9 1.4-.1 2.6 1 2.7 2.4v4.2c0 .4-.3.6-.6.6-.4 0-.6-.3-.6-.6V443c0-1-.8-1.8-1.8-1.8s-1.8.8-1.8 1.8v3.8c0 .3-.2.6-.5.6h-.1c-.3 0-.6-.2-.6-.5v-.1l-.2-6zM-81.4 446.7c0 .4-.4.6-.7.6-.3 0-.5-.3-.6-.6v-5.5h-.5c-.4 0-.7-.2-.7-.5s.2-.5.7-.5h.5v-1.7c0-.8.7-1.5 1.5-1.5H-80.6c.3 0 .7.2.7.5s-.2.5-.7.5h-.3c-.4 0-.5.2-.5.5v1.7h.8c.4 0 .7.2.7.5s-.2.5-.7.5h-.8v5.5zM-76.1 446.3c1.6 0 2.2-1.4 2.2-2.6 0-1.2-.6-2.6-2.2-2.6s-2.1 1.4-2.1 2.6c-.1 1.2.5 2.6 2.1 2.6m0-6.2c2-.1 3.7 1.4 3.8 3.4.1 2-1.4 3.7-3.4 3.8-2 .1-3.7-1.4-3.8-3.4v-.2c-.1-1.9 1.3-3.5 3.2-3.6h.2M-71.3 440.8c0-.4.3-.6.6-.6.4 0 .6.3.6.6v.6c.3-.7 1-1.1 1.8-1.2.3 0 .7.2.7.5v.1c0 .3-.3.5-.8.6-1 .1-1.8 1-1.7 2v3.4c0 .4-.3.6-.6.6-.4 0-.6-.3-.6-.6v-6zM-59.4 446.3c1.6 0 2.1-1.4 2.1-2.6 0-1.2-.6-2.6-2.1-2.6s-2.1 1.4-2.1 2.6c-.1 1.2.5 2.6 2.1 2.6m-3.4-5.5c0-.3.2-.6.6-.6h.1c.3 0 .6.2.6.5v.4c.5-.7 1.3-1.1 2.1-1 2 .2 3.5 1.9 3.3 3.9-.2 1.7-1.5 3.1-3.3 3.3-.8 0-1.6-.4-2.1-1v3.1c0 .3-.2.6-.5.6h-.1c-.3 0-.6-.2-.6-.5v-8.7zM-51.5 446.3c1.6 0 2.1-1.4 2.1-2.6 0-1.2-.6-2.6-2.1-2.6s-2.1 1.4-2.1 2.6c0 1.2.5 2.6 2.1 2.6m3.4.5c0 .3-.3.6-.6.6s-.6-.2-.6-.5v-.5c-.5.7-1.3 1.1-2.1 1.1-2-.1-3.5-1.8-3.4-3.8.1-1.8 1.6-3.3 3.4-3.4.8 0 1.6.3 2.1 1v-.4c0-.3.3-.6.6-.6s.6.2.6.6v5.9zM-45.9 438.7c0-.4.4-.6.7-.6.3 0 .5.3.6.6v1.5h.5c.4 0 .6.2.6.5s-.2.5-.6.5h-.5v5.5c0 .4-.4.6-.7.6-.3 0-.5-.3-.6-.6v-5.5h-.5c-.4 0-.6-.2-.6-.5s.2-.5.6-.5h.5v-1.5zM-41.1 446.7c0 .4-.3.6-.7.6-.4 0-.6-.3-.6-.6v-6c0-.4.3-.6.6-.6.4 0 .7.3.7.6v6zm-.7-9c.4 0 .7.4.7.8s-.4.7-.8.7-.7-.3-.7-.7c0-.5.4-.8.8-.8M-34.3 443.3c.1-1.2-.8-2.2-2-2.3s-2.2.8-2.3 2v.3h4.3zm-4.2.9c0 1.2.9 2.1 2.1 2.1h.2c1.7 0 2.2-.9 2.6-.9.3 0 .5.2.5.5 0 .6-1.6 1.5-3.1 1.5-1.9.1-3.5-1.3-3.6-3.1v-.5c-.1-1.9 1.4-3.5 3.3-3.6h.2c1.9 0 3.3 1.5 3.3 3.4v.1c0 .4-.2.6-.7.6l-4.8-.1zM-31.6 440.8c0-.4.3-.6.6-.6.4 0 .6.3.6.6v.3c.5-.6 1.3-1 2.2-.9 1.4-.1 2.6 1 2.7 2.4v4.2c0 .3-.2.6-.5.6h-.1c-.3 0-.6-.2-.6-.5V443c0-1-.8-1.8-1.8-1.8s-1.8.8-1.8 1.8v3.8c0 .4-.3.6-.6.6-.4 0-.6-.3-.6-.6l-.1-6zM-23.3 438.7c0-.3.2-.6.6-.6h.1c.3 0 .6.2.6.5v1.6h.5c.4 0 .6.2.6.5s-.2.5-.6.5h-.5v5.5c0 .3-.2.6-.5.6h-.1c-.3 0-.6-.2-.6-.5v-5.6h-.5c-.4 0-.6-.2-.6-.5s.2-.5.6-.5h.5l-.1-1.5zM-12.9 440.1c1.3 0 2.1.4 2.1.9 0 .3-.3.5-.5.5-.5 0-.7-.4-1.6-.4-1.4.2-2.4 1.5-2.2 3 .2 1.2 1.1 2.1 2.2 2.2.9 0 1.1-.4 1.6-.4.2 0 .5.1.5.4v.1c0 .4-.7.9-2.1.9-2-.1-3.5-1.8-3.4-3.8.1-1.8 1.6-3.3 3.4-3.4M-6.3 446.3c1.6 0 2.1-1.4 2.1-2.6 0-1.2-.6-2.6-2.1-2.6s-2.1 1.4-2.1 2.6c-.1 1.2.5 2.6 2.1 2.6m3.3.5c0 .3-.3.6-.6.6s-.6-.2-.6-.5v-.5c-.5.7-1.3 1.1-2.1 1.1-2-.1-3.5-1.8-3.4-3.8.1-1.8 1.6-3.3 3.4-3.4.8 0 1.6.3 2.1 1v-.4c0-.3.3-.6.6-.6s.6.2.6.5v6zM-1.2 440.8c0-.4.3-.6.7-.6.4 0 .6.3.6.6v.6c.3-.7 1-1.1 1.8-1.2.4 0 .7.2.7.6 0 .3-.3.5-.8.6-1 .1-1.8 1-1.7 2v3.4c0 .4-.3.6-.6.6-.4 0-.7-.3-.7-.6v-6zM8.6 443.3c.1-1.2-.8-2.2-2-2.3s-2.2.8-2.3 2v.3h4.3zm-4.3.9c0 1.2.9 2.1 2.1 2.1h.2c1.7 0 2.2-.9 2.6-.9.3 0 .5.2.5.5 0 .6-1.6 1.5-3.1 1.5-1.8.1-3.5-1.2-3.6-3.1v-.5c-.1-1.9 1.4-3.5 3.3-3.6h.2c1.9 0 3.4 1.5 3.4 3.3v.1c0 .4-.2.6-.7.6H4.3z"/><path class="st1" d="M-192.4 424.4s40.3-13.3 6.9-28.2c0 0 39.8 14.9-6.9 28.2"/><path class="st1" d="M-174.1 403.1c1.5 1.5 2.3 3.6 2.3 5.7-.2 4.9-5.8 9-11.1 11.8 8.3-3.3 12.6-6.9 12.8-10.7 0-2.4-1.7-4.8-4-6.8m-18.3 21.7c-.2 0-.4-.2-.4-.4s.1-.4.3-.4c.2-.1 19.4-6.5 19.8-15.1.2-4.2-4.1-8.3-13-12.3-.2-.1-.3-.4-.2-.6.1-.2.3-.3.5-.2.7.3 16.4 6.2 16.1 14.3-.2 5.5-8 10.5-23 14.7h-.1"/><path class="st1" d="M-159.5 414.4s-39.8 14.3-6.6 28.6c0 0-39.6-14.1 6.6-28.6M-161.7 406.6c.8 1.7.1 3.7-1.6 4.5-.1.1-.3.1-.5.2-1.8.7-3.3-.9-3.7-2.1-.4-1.9 1.7-3.1 3.9-3.5.8-.2 1.6.2 1.9.9"/><path class="st1" d="M-168.9 418.3c-8.3 3.6-12.5 7.3-12.6 11.2 0 2.5 1.7 4.8 4 6.8-1.5-1.5-2.3-3.6-2.3-5.7.1-5.1 5.6-9.3 10.9-12.3m2.8 25.1h-.1c-.7-.2-16.3-5.9-16.1-14 .1-5.6 7.7-10.8 22.7-15.5.2-.1.5 0 .5.3.1.2 0 .5-.3.6-.2.1-19.2 7-19.5 15.7-.1 4.2 4.2 8.3 12.9 12 .2 0 .4.2.4.4-.1.3-.3.5-.5.5z"/>
+</svg>                                </a>
+                </div>
+                                  <nav class="masthead__nav" tabindex="0">
+                      <ul>
+                                                        <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-395 menu-item-has-children">
+                                  <a class="masthead__primary-link" target="" 
+                                  href="https://www.ipsen.com/russia/o-%d0%bdac/" 
+                                                                        data-js-trigger-subnav 
+                                                                                                      data-menu-item="395">O РЅac</a>
+                              </li>
+                                                        <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-387">
+                                  <a class="masthead__primary-link" target="" 
+                                  href="https://www.ipsen.com/russia/%d1%82%d0%b5%d1%80%d0%b0%d0%bf%d0%b5%d0%b2%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b5-%d0%be%d0%b1%d0%bb%d0%b0%d1%81%d1%82%d0%b8/" 
+                                                                                                      data-menu-item="387">TРµСЂР°РїРµРІС‚РёС‡РµСЃРєРёРµ РѕР±Р»Р°СЃС‚Рё</a>
+                              </li>
+                                                        <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-392">
+                                  <a class="masthead__primary-link" target="" 
+                                  href="https://www.ipsen.com/russia/%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%86%d0%b8%d1%8f/" 
+                                                                                                      data-menu-item="392">РџСЂРѕРґСѓРєС†РёСЏ</a>
+                              </li>
+                                                        <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-394">
+                                  <a class="masthead__primary-link" target="" 
+                                  href="https://www.ipsen.com/russia/%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0-%d0%b2-ipsen/" 
+                                                                                                      data-menu-item="394">Р Р°Р±РѕС‚Р° РІ Ipsen</a>
+                              </li>
+                                                        <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-980 menu-item-has-children">
+                                  <a class="masthead__primary-link" target="" 
+                                  href="#" 
+                                                                        data-js-trigger-subnav 
+                                                                                                      data-menu-item="980">РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР°</a>
+                              </li>
+                                                        <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-979">
+                                  <a class="masthead__primary-link" target="" 
+                                  href="https://www.ipsen.com/russia/%d0%bc%d0%b5%d0%b4%d0%b8%d0%b0/" 
+                                                                                                      data-menu-item="979">РњРµРґРёР°</a>
+                              </li>
+                                                    <li class="search__trigger">
+                              <a href="#" data-js-trigger-search>
+                                  <div class="mobile-text">РџРѕРёСЃРє</div>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" viewBox="0 0 24 24">
+                                      <path d="M23 21.7l-6-6c1.4-1.5 2.2-3.5 2.2-5.7 0-4.7-3.9-8.6-8.6-8.6C5.9 1.4 2 5.3 2 10s3.9 8.6 8.6 8.6c1.8 0 3.5-.6 4.9-1.5l6.1 6.1 1.4-1.5zM3.9 9.9c0-3.6 3-6.6 6.6-6.6s6.6 3 6.6 6.6-3 6.6-6.6 6.6-6.6-3-6.6-6.6z" />
+                                  </svg>
+                              </a>
+                          </li>
+                      </ul>
+                      <div class="search">   
+                                                    <div class="search__field">
+                              <form action="https://www.ipsen.com/russia" method="get">
+                                  <div class="icon-toggle">
+                                      <svg id="close-icon" class="close-icon"  viewbox="0 0 24 24" width="30">
+                                          <path id="minus" d="M4.18 11.28h15.43v2H4.18z"/>
+                                          <path id="cross" d="M5.65 7.443L7.064 6.03l10.48 10.48-1.415 1.414zM5.644 16.509l3.931-3.932 1.414 1.415-3.931 3.931zM12.194 9.956l3.931-3.932L17.54 7.44l-3.931 3.931z" />
+                                      </svg>
+                                  </div>
+                                  <input type="text" name="s" placeholder="РЇ РёС‰Сѓ...">
+                                  <button type="submit">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" viewBox="0 0 24 24">
+                                          <path d="M23 21.7l-6-6c1.4-1.5 2.2-3.5 2.2-5.7 0-4.7-3.9-8.6-8.6-8.6C5.9 1.4 2 5.3 2 10s3.9 8.6 8.6 8.6c1.8 0 3.5-.6 4.9-1.5l6.1 6.1 1.4-1.5zM3.9 9.9c0-3.6 3-6.6 6.6-6.6s6.6 3 6.6 6.6-3 6.6-6.6 6.6-6.6-3-6.6-6.6z" />
+                                      </svg>
+                                  </button>
+                              </form>
+                          </div>
+                                              </div>
+                  </nav>
+                            </div>
+        </div>
+    </div>
+
+                                <div class="global-subnav on-load global-subnav--corporate" data-submenu-item="395">
+                <button class="global-subnav__section-title mobile-back-button"><span></span>O РЅac</button>
+                                <div class="global-subnav__links">
+                    <ul>
+                                                <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-395 menu-item-has-children">
+                            <a href="https://www.ipsen.com/russia/o-%d0%bdac/" class="global-subnav__primary-link">
+                                <span class="global-subnav__primary-link__title">
+                                    O РЅac
+                                </span>
+                                                            </a>
+                        </li>
+                                                                             <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-955">
+                                <a href="https://www.ipsen.com/russia/o-%d0%bdac/%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f/" class="global-subnav__primary-link">
+                                    <span class="global-subnav__primary-link__title">
+                                        РњРµСЂРѕРїСЂРёСЏС‚РёСЏ
+                                    </span>
+                                                                    </a>
+                            </li>
+                                            </ul>
+                </div>
+
+                            </div>
+	                                                                                                 <div class="global-subnav on-load global-subnav--corporate" data-submenu-item="980">
+                <button class="global-subnav__section-title mobile-back-button"><span></span>РћР±СЏР·Р°С‚РµР»СЊСЃС‚РІР°</button>
+                                <div class="global-subnav__links">
+                    <ul>
+                                                                             <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-1006">
+                                <a href="https://www.ipsen.com/russia/%d0%bf%d1%80%d0%be%d0%b7%d1%80%d0%b0%d1%87%d0%bd%d0%be%d1%81%d1%82%d1%8c-%d0%be%d1%82%d0%bd%d0%be%d1%88%d0%b5%d0%bd%d0%b8%d0%b9-%d1%81%d0%be-%d1%81%d0%bf%d0%b5%d1%86%d0%b8%d0%b0%d0%bb%d0%b8%d1%81/" class="global-subnav__primary-link">
+                                    <span class="global-subnav__primary-link__title">
+                                        РџСЂРѕР·СЂР°С‡РЅРѕСЃС‚СЊ РѕС‚РЅРѕС€РµРЅРёР№ СЃРѕ СЃРїРµС†РёР°Р»РёСЃС‚Р°РјРё Рё РѕСЂРіР°РЅРёР·Р°С†РёСЏРјРё Р·РґСЂР°РІРѕРѕС…СЂР°РЅРµРЅРёСЏ
+                                    </span>
+                                                                    </a>
+                            </li>
+                                                     <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-1009">
+                                <a href="https://www.ipsen.com/russia/%d0%be%d0%ba%d1%80%d1%83%d0%b6%d0%b0%d1%8e%d1%89%d0%b0%d1%8f-%d1%81%d1%80%d0%b5%d0%b4%d0%b0-%d0%b7%d0%b4%d0%be%d1%80%d0%be%d0%b2%d1%8c%d0%b5-%d0%b1%d0%b5%d0%b7%d0%be%d0%bf%d0%b0%d1%81%d0%bd%d0%be/" class="global-subnav__primary-link">
+                                    <span class="global-subnav__primary-link__title">
+                                        РћРєСЂСѓР¶Р°СЋС‰Р°СЏ СЃСЂРµРґР°, Р·РґРѕСЂРѕРІСЊРµ, Р±РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ (EHS)
+                                    </span>
+                                                                    </a>
+                            </li>
+                                                     <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-1013">
+                                <a href="https://www.ipsen.com/russia/%d0%ba%d0%be%d1%80%d0%bf%d0%be%d1%80%d0%b0%d1%82%d0%b8%d0%b2%d0%bd%d0%b0%d1%8f-%d1%81%d0%be%d1%86%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%be%d1%82%d0%b2%d0%b5%d1%82%d1%81%d1%82%d0%b2%d0%b5%d0%bd/" class="global-subnav__primary-link">
+                                    <span class="global-subnav__primary-link__title">
+                                        РљРѕСЂРїРѕСЂР°С‚РёРІРЅР°СЏ СЃРѕС†РёР°Р»СЊРЅР°СЏ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚СЊ
+                                    </span>
+                                                                    </a>
+                            </li>
+                                            </ul>
+                </div>
+
+                            </div>
+	                             </div>            
+                        <header id="hero" class="hero hero--has-image   hero--light-background hero--dark-gradient parallax ">
+
+      <div class="hero__background parallax-background" style="background-image: url('https://www.ipsen.com/websites/Ipsen_Online/wp-content/uploads/sites/27/2020/04/10094252/iStock-450853983.jpg'); background-position: 50% 50%;">
+          </div>
+  
+  
+  <section class="hero__upper">
+    <div class="hero__main">
+   	      
+          	  <div>
+	  <h1 class="heading heading--large ">
+                  Р

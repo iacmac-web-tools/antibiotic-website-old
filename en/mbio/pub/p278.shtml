@@ -1,0 +1,279 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>M. Edelstein, M. Suvorov,  I. Edelstein, R. Kozlov - Identification of the Naturally Occurring Variant Genes blaTEM-1d and blaTEM-70 Encoding Broad-Spectrum TEM-Type b-lactamases</title>
+<meta name="description" content="Identification of the Naturally Occurring Variant Genes blaTEM-1d and blaTEM-70 Encoding Broad-Spectrum TEM-Type b-lactamases">
+<meta name="keywords" content="Identification, naturally occurring, variant genes, blatem-1d, blatem-70, encoding, broad-spectrum, tem-type, b-lactamases, Edelstein, Suvorov, Edelstein, Kozlov">
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript"> <!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/en/inc/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../inc/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 10px; margin-left: 10px; text-align: justify;}
+LI {margin-top: 8px; margin-left: 15px; text-align: justify;}
+H4 {margin-left: 10px;}
+H5 {font-size: 11pt}
+H5.l {text-align: left;}
+</style>
+</head>
+
+<body class="main">
+
+<table width="750" cellpadding="0" border="0" cellspacing="5">
+<tr>
+  <th width="150" valign="top">
+
+  <table border="0" cellpadding="5" cellspacing="0" width="100%">
+    <tr><td>
+<p class="m10"><b>Molecular Microbiology</b></p>
+<hr size="1" style="color: #D0C0AC;">
+<p class="m8">Selected poster presentations</p>
+
+
+    </td></tr>
+  </table>
+  
+
+  </th><td valign="top">
+<!--navigation-->
+<map name="TopBtnEn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Previous page" title="Previous page">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Next page" title="Next page">
+<area shape="circle" coords="77,15,15" href="../../index-1.htm" alt="Main page" title="Main page">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="E-Mail" title="E-Mail">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../../rus/images/buttons/topline.gif);" width="98%" height="32"><img src="../../../rus/images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../../rus/images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Navigation" usemap="#TopBtnEn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+
+<h2><a name="top"></a>10<sup>th</sup> European Congress of Clinical Microbiology and Infectious Diseases</h2>
+<h5><i>28-31, 2000 May, Stockholm, Sweden</i><br>
+<b>Poster # P278:14/1</b></h5>
+
+<h1>Identification of the Naturally Occurring Variant Genes <i>bla</i><sub>TEM-1d</sub> and <i>bla</i><sub>TEM-70</sub> Encoding Broad-Spectrum TEM-Type <font face="Symbol">b</font>-lactamases</h1>
+
+<h5><i>M.&nbsp;EDELSTEIN, M.&nbsp;SUVOROV, I.&nbsp;EDELSTEIN, R.&nbsp;KOZLOV</i></h5>
+
+<h5 class="l"><i>Institute of Antimicrobial Chemotherapy, Smolensk, Russia</i></h5>
+
+<p style="text-align:right; font-size:8pt"><a href="../../pdfs/p278.pdf">The PDF format poster (795 kb) <img src="../../images/pdf.gif" width="16" height="16" alt="" border="0"></a></p>
+
+<hr size="1">
+
+<a name="1"></a><br>
+<h2>BACKGROUND AND OBJECTIVES</h2>
+
+<p>In recent years, there have been numerous reports describing the sequences of the genes for extended-spectrum and inhibitor resistant <font face="Symbol">b</font>-lactamases which belong to the TEM-family. At the same time genetic diversity of the naturally occurring parental genes encoding TEM-type penicillinases was studied to a lesser extent. Sequences of the genes <i>bla</i><sub>TEM-1a</sub>, <i>bla</i><sub>TEM-1b</sub> and <i>bla</i><sub>TEM-2</sub> carried by transposons Tn<i>3</i>, Tn<i>2</i> and Tn<i>1</i> were determined in the middle 1980-s, and since then it has been commonly accepted that other members of the TEM-group evolved from three distinct genetic lineages. More recently, a TEM-55 penicillinase with an altered isoelectric point (pI&nbsp;5.2) was found in a single clinical isolate of <i>E.coli</i> using the isoelectric focusing (IEF) method, and in 1999 the third allelic variant encoding TEM-1 <font face="Symbol">b</font>-lactamase was described that received a designation <i>bla</i><sub>TEM-1c</sub>.</p>
+
+<p>We have used a recently developed Polymerase Chain Reaction - Single Strand Conformational Polymorphism (PCR-SSCP) method to screen for mutational events which account for the sequence diversity of parental <i>bla</i><sub>TEM</sub> genes in unrelated uropathogenic strains of <i>E.coli</i>. We have also determined the sequences of the variant genes and characterised the properties of mutant <font face="Symbol">b</font>-lactamases.</p>
+
+<a name="2"></a><br>
+<h2>METHODS</h2>
+
+<p><b>Selection of bacterial strains:</b> The <i>E.coli</i> strains used in this study were collected from outpatients with UTI in four medical centers located in 3 different cities of Russia: Moscow (2 centers), Novosibirsk (1 center) and Smolensk (1 center) in 1998. Forty five ampicillin-resistant isolates equally representing each of the 4 participating medical centers were analysed by ERIC-PCR. For 30 strains representing the distinct molecular types the presence of a TEM <font face="Symbol">b</font>-lactamase was determined by isoelectric focusing and confirmed by PCR-amplification of the respective <i>bla</i><sub>TEM</sub> gene. The amplified sequences were screened for the presence of mutations using the PCR-SSCP analysis. Mutations contributing to an unusual SSCP profile or an altered pI value of a <font face="Symbol">b</font>-lactamase were studied by direct sequencing of a PCR product.</p>
+
+<p><b>Susceptibility testing:</b> Susceptibility of <i>E.coli</i> isolates to ampicillin, gentamicin, nitrofurantoin, trimethoprim/sulphamethoxazole, nalidixic acid and ciprofloxacin was determined by standard agar dilution method on Mueller-Hinton agar (Becton Dickinson, USA) and interpreted according to the current NCCLS standards. The MICs of ticarcillin, piperacillin, cefuroxime, cefoperazone, ceftazidime, cefotaxime, cefoxitin, aztreonam and combinations of penicillins with clavulanic acid and tazobactam were additionally determined for the clinical strains and their transconjugants producing <font face="Symbol">b</font>-lactamase TEM-70. <i>E.coli</i> strains ATCC25922 and ATCC35218 were used for quality control.</p>
+
+<p><b>Typing by ERIC-PCR:</b> Template DNA was extracted from 3-4 colonies of each strain grown overnight on MacConkey agar using the InstaGene matrix (BioRad, USA). Reaction mixes were set up by adding 2<font face="Symbol">m</font>l of 25<font face="Symbol">m</font>M primer ERIC1 (5'-GTGAATCCCCAGGAGCTTACAT-3'), 2<font face="Symbol">m</font>l of template DNA and 21<font face="Symbol">m</font>l of autoclaved Milli-Q water to the 0.5ml tubes containing premixed and predispensed PCR reagents (Ready-To-Go PCR Beads; Amersham Pharmacia Biotech (APB), USA). The PCR was carried out in a PTC-200 thermocycler (MJ Research, USA) under the following conditions: initial denaturation at 94<sup>o</sup>C for 3 min followed by 35 cycles of annealing at 47<sup>o</sup>C for 1 min, elongation at 72<sup>o</sup>C for 1 min and denaturation at 94<sup>o</sup>C for 30 sec, with a final elongation step extended to 4 min. After electrophoresis in 1.3% agarose gel DNA fragments were stained with ethidium bromide and documented using a PhotoDoc-IT Link Gel Documentation System (UVP, USA). Cluster analysis of ERIC-PCR fingerprints was done using a GelCompar software (Applied Maths BVBA, Belgium) by the UPGMA method applied to densitometric tracks.</p>
+
+<p><b>Isoelectric focusing:</b> Crude sonic extracts containing <font face="Symbol">b</font>-lactamases were examined using a PhastSystem apparatus and precast IEF 5-8 pI gels (APB, USA) as previously described, and <font face="Symbol">b</font>-lactamases with known pIs (TEM-37 (pI 5.2), TEM-1 (pI 5.4), TEM-2 (pI 5.6) and TEM-3 (pI 6.3)) were used as standards.</p>
+
+<p><b>Amplification of <i>bla</i><sub>TEM</sub> genes and SSCP-analysis:</b> A pair of primers (A: 5’-ATAAAATTCTTGAAGACGAAA-3’ and B: 5’-GACAGTTACCAATGCTTAATCA-3’) was used to amplify a 1080-bp fragment that covers the entire <i>bla</i><sub>TEM</sub> gene sequence. The PCR mixture contained: 12.5mM Tris-HCl (pH 8.3), 62.5mM KCl, 2mM MgCl<sub>2</sub>, 200<font face="Symbol">m</font>M of each dNTP, 0.25<font face="Symbol">m</font>M of each primer, 1.25U AmpliTaq DNA polymerase (Perkin-Elmer, USA) and 20<font face="Symbol">m</font>l of template DNA in a total volume of 50<font face="Symbol">m</font>l. The PCR was carried out in a PTC-200 thermocycler (MJ Research, USA) under the following protocol: initial denaturation at  94<sup>o</sup>C for 2 min followed by 35 cycles of annealing at 54<sup>o</sup>C for 10 sec, elongation at 72<sup>o</sup>C for 45 sec and denaturation at 94<sup>o</sup>C for 10 sec, with a final elongation step at 72<sup>o</sup>C for 3 min. 20<font face="Symbol">m</font>l of amplified DNA was digested with either 1U <i>Taq</i>&nbsp;I and 10U <i>Pst</i>&nbsp;I or 1U <i>Taq</i>&nbsp;I and 4U <i>Ava</i>&nbsp;II restriction endonucleases (APB, USA) for 2 h at 37<sup>o</sup>C and 1 h at 65<sup>o</sup>C. Restriction fragments were then denatured to single-stranded (ssDNA) form by by mixing 2<font face="Symbol">m</font>l of digest with double volume of SSCP buffer (98% formamide, 2% glycerol, 0.05% bromphenol blue, 10mM EDTA ) and heating the mixture at 98<sup>o</sup>C for 10 min with subsequent cooling at 0<sup>o</sup>C in a thermocycler. ssDNA fragments were separated on a PhastSystem (APB, Sweden) using a PhastGel Homogeneous 12.5 system with PhastGel Native Buffer Strips. The program had three steps as follows: 1) Pre-run step at 400V, 5mA, 2W, 15<sup>o</sup>C for 70Vh; 2) Sample loading step at 400V, 1mA, 2W, 15<sup>o</sup>C for 2Vh; 3) Separation step at 400V, 5mA, 2W, 15<sup>o</sup>C for 350Vh in the case of <i>Taq</i>&nbsp;I - <i>Pst</i>&nbsp;I digests or for 230Vh in the case of <i>Taq</i>&nbsp;I - <i>Ava</i>&nbsp;II digests. The gels were stained with a PhastGel DNA Silver Staining Kit (Pharmacia Biotech, Sweden) as recommended by manufacturer.</p>
+
+<p><b>DNA sequencing:</b> Sequencing of the mutant <i>bla</i><sub>TEM</sub> genes was performed on 1080-bp PCR-products using a dideoxy-chain termination method with a Cycle Reader DNA Sequencing Kit (Fermentas, Latvia), with primers A, B and additional internal primers (5'-ATTCTCAGAATGACTTGGTTGAG-3' and .5'-TTACTGTCATGCCATCCGTAAG-3').</p>
+
+<p><b>Kinetic Analysis of <font face="Symbol">b</font>-lactamases:</b> The genes coding for <font face="Symbol">b</font>-lactamase TEM-70 in clinical isolates NS13 and SM91 were transferred by conjugation and expressed in <i>E.coli</i> C600. Kinetic parameters of TEM-70 were determined by using partially purified extracts obtained from transconjugants and compared with those of TEM-1 (<i>E.coli</i> C600, <i>bla</i><sub>TEM-1b</sub>). The complete time course of hydrolysis of benzylpenicillin, ampicillin, ticarcillin, cephalothin and cefoperazone was recorded with an Ultrospec 3000 spectrophotometer (APB, Sweden) with two different starting concentrations of each substrate. The K<sub>m</sub> and V<sub>max </sub>values were calculated using the results 3 independent measurements fitted to the Hanes plot. </p>
+
+<a name="3"></a><br>
+<h2>RESULTS</h2>
+
+<p>According to IEF, 28 isolates produced a single <font face="Symbol">b</font>-lactamase with pI 5.4, corresponding to a TEM-1 enzyme. Two strains (SM91 and NS13) isolated in different cities expressed a <font face="Symbol">b</font>-lactamase with pI 5.2 (<a href="#f1">Fig.1</a>). DNA sequencing revealed that the <i>bla</i><sub>TEM</sub> genes of the last-named isolates were identical and differed from <i>bla</i><sub>TEM-1b</sub> by a single G<sub>813</sub><img src="images/right.gif" width="14" height="9" alt="" border="0">A transition leading to a substitution Arg<sub>204</sub><img src="images/right.gif" width="14" height="9" alt="" border="0">Gln in the deduced amino acid sequence. Until now this mutation has not been described in TEM  <font face="Symbol">b</font>-lactamases and the new enzyme containing a glutamine residue at position 204 received a designation TEM-70 (<a href="#t1">Tab.1</a>). Comparative susceptibility testing of <i>E.coli</i> strains producing <font face="Symbol">b</font>-lactamases TEM-1 and TEM-70 has demonstrated that the MICs of different <font face="Symbol">b</font>-lactams, including ceftazidime, cefotaxime and inhibitor-protected penicillins, were not affected by mutation, although, the MIC of cefoperazone for <i>E.coli</i> C600 encoding TEM-70 was slightly high.(2 <font face="Symbol">m</font>g/ml) in comparison with that of the same strain producing  TEM-1.(0.5 <font face="Symbol">m</font>g/ml). The K<sub>m</sub> and relative V<sub>max</sub> values were very similar for both enzymes except for the Km value of cefoperazone (143 for TEM-70 and 205 for TEM-1).</p>
+
+<p>Another variant gene was identified by PCR-SSCP analysis in 3 unrelated strains (CH380, MST450 and MST813) producing a <font face="Symbol">b</font>-lactamase with pI 5.4 (Fig.&nbsp;<a href="#f1">1</a>,&nbsp;<a href="#f2">2</a>). As determined by sequencing, the gene was associated with P3 promotor and resembled <i>bla</i><sub>TEM-1a</sub> at nucleotides 175, 226, 317 but contained 4 silent mutations at positions 346, 436, 682 and 925 which were previously found in <i>bla</i><sub>TEM-2</sub> (<a href="#t1">Tab.&nbsp;1</a>). The new gene, therefore, encodes a TEM-1 penicillinase and could be designated <i>bla</i><sub>TEM-1d</sub>. It may be proposed, that <i>bla</i><sub>TEM-1d</sub> could result from recombination of <i>bla</i><sub>TEM-1a</sub> and <i>bla</i><sub>TEM-2</sub> between positions 317 and 346. Interestingly, the SSCP profiles and sequencing data suggested that MST813 strain carried two genes (<i>bla</i><sub>TEM-1c</sub> and <i>bla</i><sub>TEM-1d</sub>) encoding TEM-1 penicillinase.</p>
+
+<p>The nucleotide sequence data for <i>bla</i><sub>TEM-70</sub> and <i>bla</i><sub>TEM-1d</sub> have been submitted to the GenBank under accession no. AF188199 and AF188200, respectively.</p>
+
+<a name="t1"></a><br>
+<p><b>Table 1.</b> Substitutions in <i>bla</i><sub>TEM</sub> genes and derived penicillinases.</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr>
+	<th width="23%">Nucleotide no.<a href="#t1_1"><sup>1</sup></a></th>
+	<th width="7%">32</th>
+	<th width="7%">175</th>
+	<th width="7%">226</th>
+	<th width="7%">317</th>
+	<th width="7%">346</th>
+	<th width="7%">436</th>
+	<th width="7%">604</th>
+	<th width="7%">682</th>
+	<th width="7%">813</th>
+	<th width="7%">925</th>
+	<th width="7%" rowspan="2">pI</th>
+</tr>
+<tr>
+	<th width="23%">Amino acid substitution<a href="#t1_1"><sup>2</sup></a></th>
+	<th width="70%" colspan="10">
+    <table width="100%" cellpadding="5" cellspacing="0" border="0">
+    <tr>
+	    <th width="70%">Q<sub>39-</sub><br>K</th>
+    	<th width="30%">R<sub>204-</sub><br>Q</th>
+    </tr>
+    </table>
+  </th>
+</tr>
+<tr>
+	<td class="cl"><i>bla</i><sub>TEM-1a</sub></td>
+	<td class="cc">C</td>
+	<td class="cc">A</td>
+	<td class="cc">C</td>
+	<td class="cc">C</td>
+	<td class="cc">A</td>
+	<td class="cc">C</td>
+	<td class="cc">G</td>
+	<td class="cc">T</td>
+	<td class="cc">G</td>
+	<td class="cc">G</td>
+	<td class="cc">5.4</td>
+</tr>
+<tr>
+	<td class="cl"><i>bla</i><sub>TEM-1b</sub></td>
+	<td class="cc"></td>
+	<td class="cc">G</td>
+	<td class="cc">T</td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc">T</td>
+	<td class="cc">T</td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc">5.4</td>
+</tr>
+<tr>
+	<td class="cl"><i>bla</i><sub>TEM-1c</sub></td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc">T</td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc">5.4</td>
+</tr>
+<tr>
+	<td class="cl"><i>bla</i><sub>TEM-2</sub></td>
+	<td class="cc">T</td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc">A</td>
+	<td class="cc">G</td>
+	<td class="cc">T</td>
+	<td class="cc"></td>
+	<td class="cc">C</td>
+	<td class="cc"></td>
+	<td class="cc">A</td>
+	<td class="cc">5.6</td>
+</tr>
+<tr>
+	<td class="cl"><i>bla</i><sub>TEM-1d</sub><a href="#t1_1"><sup>3</sup></a></td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc">G</td>
+	<td class="cc">T</td>
+	<td class="cc"></td>
+	<td class="cc">C</td>
+	<td class="cc"></td>
+	<td class="cc">A</td>
+	<td class="cc">5.4</td>
+</tr>
+<tr>
+	<td class="cl"><i>bla</i><sub>TEM-70</sub><a href="#t1_1"><sup>3</sup></a></td>
+	<td class="cc"></td>
+	<td class="cc">G</td>
+	<td class="cc">T</td>
+	<td class="cc"></td>
+	<td class="cc"></td>
+	<td class="cc">T</td>
+	<td class="cc">T</td>
+	<td class="cc"></td>
+	<td class="cc">A</td>
+	<td class="cc"></td>
+	<td class="cc">5.2</td>
+</tr>
+</table>
+</td></tr></table>
+<a name="t1_1"></a><br>
+<p class="t8">
+<sup>1</sup> Numbering is according to Sutcliffe (1978).<br>
+<sup>2</sup> Numbering is according to Ambler et al. (1991). Q - glutamine; K - lysine; R - arginine.<br>
+<sup>3</sup> Genes identified in this study.<br>
+pI - isoelectric point of a corresponding <font face="Symbol">b</font>-lactamase.</p><br>
+
+<a name="f1"></a><br>
+<div align="center"><img src="images/p278r1.gif" width="521" height="498" alt="UPGMA clustering of ERIC-PCR fingerprints showing the distribution of mutant blaTEM genes in unrelated E.coli strains" border="0"></div>
+<p><b>Figure 1:</b> UPGMA clustering of ERIC-PCR fingerprints showing the distribution of mutant blaTEM genes in unrelated <i>E.coli</i> strains.</p>
+<p>1 Letters are used to encode the medical center from which the isolate was obtained.<br>
+2 Co-resistance is defined as an MIC in the resistant range by NCCLS criteria.<br>
+G - gentamycin, F - nitrofurantoin, T - trimethoprim/sulphamethoxazole, N - nalidixic acid, C -  ciprofloxacin.</p><br>
+
+<a name="f2"></a><br>
+<div align="center"><img src="images/p278r2.gif" width="455" height="301" alt="Selected SSCP profiles of blaTEM genes obtained with the combinations of restriction endonucleases Taq I - Pst I (A) and Taq I - Ava II (B)." border="0"></div>
+<p>Figure 2: Selected SSCP profiles of <i>bla</i><sub>TEM</sub> genes obtained with the combinations of restriction endonucleases <i>Taq</i>&nbsp;I - <i>Pst</i>&nbsp;I (A) and <i>Taq</i>&nbsp;I - <i>Ava</i>&nbsp;II (B).</p>
+
+<p>Lane 1: Standard profile of <i>bla</i><sub>TEM-1a</sub>; Lanes 2-4: SSCP profiles corresponding to the clinical isolates <i>E.coli</i> MST450, <i>E.coli</i> CH380 and <i>E.coli</i> MST813, respectively.</p>
+
+<a name="4"></a><br>
+<h2>CONCLUSIONS</h2>
+
+<p>Although, the sequences coding for TEM penicillinases were generally conserved among the <i>E.coli</i> strains used in this study, new mutant genes have been identified and even more variants may be expected in future if the appropriate genetic methods, like PSR-SSCP, will be used to screen for mutations. The identification of new parental <i>bla</i><sub>TEM</sub> genes may provide further insight into the understanding of heterogeneity and evolution of TEM-type <font face="Symbol">b</font>-lactamases.</p>
+
+<hr size="1">
+
+<br>
+<!-- begin footer -->
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tr>
+  <td style="text-align: left; vertical-align: bottom;" align="left" valign="bottom"><div class="t8">&copy; 2000-2006 IAC SSMA &middot; E-mail: <a href="mailto:website@antibiotic.ru" title="Send e-mail">website&#64;antibiotic&#46;ru</a></div></td>
+  <td colspan="2" valign="top" align="right"><font size="1"><!-- SpyLOG v2 f:0211 --><script language="javascript">
+u="u607.38.spylog.com";d=document;nv=navigator;na=nv.appName;p=1;
+bv=Math.round(parseFloat(nv.appVersion)*100);
+n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random();z="p="+p+"&rn="+rn;y="";
+y+="<a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+
+"&r="+escape(d.referrer)+"&pg="+escape(window.location.href)+"' border=0  width=88 height=31  alt='SpyLOG'>";
+y+="</a>"; d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<a href="../../../index-15.htm?f=3&p=1" target="_blank">
+<img src="../../../digits.png?p=1" alt='SpyLOG' border='0' width="88" height="31">
+</a></noscript><script language="javascript1.2"><!--
+if(!n) { d.write("--"+">"); }//--></script><!-- SpyLOG  --></font></td>
+</tr>
+</table>
+<!-- end of footer -->
+
+  </td></tr>
+</table>
+</body>
+</html>

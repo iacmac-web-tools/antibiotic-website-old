@@ -1,0 +1,54 @@
+BODY,.bkg {background-color:#F8F3E6;}
+
+BODY,P,UL,OL,TD,TH,.t10 {
+font-family:Verdana,Helvetica,Arial,sans-serif; 
+font-size:10pt; color:#330000;
+}
+
+P	{
+line-height:125%;
+margin-top:6px; margin-bottom:4px; margin-left:1px; margin-left:1px;
+}
+
+.l	{text-align:left;}
+.r	{text-align:right;}
+.c	{text-align:center;}
+.j {text-align:justify;}
+.a, .aj {text-indent:30px;}
+.aj {text-align:justify;}
+
+.header {
+margin-top:6px; margin-bottom:3px; text-align:center;
+}
+
+.brd {background-color:#997A66;}
+
+P.t8, P.c8, P.r8 {font-size:8pt; margin-top:2px; margin-bottom:2px;}
+P.t8 {text-align:left;}
+P.c8 {text-align:center;}
+P.r8 {text-align:right;}
+
+HR {color:#997A66; margin-top:1px; margin-bottom:1px;}
+blockquote {margin-top:1px; margin-bottom:1px;}
+
+UL {
+margin-top:5px; margin-bottom:3px; margin-left:10px;
+}
+OL {
+margin-top:5px; margin-bottom:3px; margin-left:16px;
+}
+LI {
+margin-top:3px; margin-bottom:3px; margin-left:15px;
+}
+
+H3 {font-family:Verdana,Arial,Helvetica,Sans-Serif; font-size:13pt; text-align:center;}
+
+H4 {font-family:Verdana,Arial,Helvetica,Sans-Serif; font-size:13pt; margin-left:1px; text-align:left;}
+
+H5 {font-family:Arial,Helvetica,Sans-Serif; font-size:12pt; font-weight:bold; color:#663333; letter-spacing:1px; text-align:center;}
+
+H6 {font-family:Arial,Helvetica,Sans-Serif; font-size:11pt; font-weight:bold; color:#663333; letter-spacing:1px; text-align:center;}
+H6.left {text-align:left; margin-left:1px; margin-bottom:4px;}
+
+TH {font-weight:normal; background-color:#F2EAD9;}
+TH.c8 {font-size:8pt;}

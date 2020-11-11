@@ -1,0 +1,448 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Антибактериальная терапия синусита у детей</title>
+<meta name="Description" content="Л.С.Страчунский, М.Р.Богомильский. Антибактериальная терапия синусита у детей">
+<meta name="keywords" content="Страчунский, Богомильский, синусит у детей">
+<script language="JavaScript1.2">
+<!--
+function btn(ind,picture) {document.images[ind].src=picture;}
+-->
+</script>
+
+<script language="JavaScript">
+<!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/rus/include/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../include/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 10px; margin-left: 2px; margin-left: 2px; text-align: justify; }
+LI {margin-left: 5px; margin-top: 6px;}
+UL {margin-top: 6px; margin-left: 15px; margin-bottom: 5px;}
+OL {margin-top: 6px; margin-left: 25px;}
+H4 {margin-left: 2px; margin-bottom: 7px;}
+TH.cl {text-align: left; vertical-align: top;}
+TH.cj {text-align: justify; vertical-align: top;}
+</style>
+</head>
+<body class="main">
+
+<center>
+<table width="750" cellpadding="0" border="0" cellspacing="5">
+  <tr><td valign="top">
+<!--navigation-->
+<map name="TopBtn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Предыдущая страница" title="Предыдущая страница">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Следующая страница" title="Следующая страница">
+<area shape="circle" coords="77,15,15" href="../../../index.htm" alt="Главная страница сайта" title="Главная страница сайта">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="Написать письмо" title="Написать письмо">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../images/buttons/topline.gif);" width="98%" height="32"><img src="../../images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Навигация" usemap="#TopBtn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+  
+<br>
+<h1>АНТИБАКТЕРИАЛЬНАЯ ТЕРАПИЯ СИНУСИТА У ДЕТЕЙ</h1>
+<br>
+
+<p><i>Л.С. Страчунский, А.Н. Богомильский</i></p>
+<p><i>&quot;Детский доктор&quot;, 2000; 1: 32-33</i></p>
+
+<br>
+<hr size="1">
+
+<br>
+<h4>Эпидемиология</h4>
+
+<p>Синусит относится к числу самых распространенных заболеваний; острый синусит является наиболее частым осложнением острой респираторной вирусной инфекции (в 5-10%) и с одинаковой частотой встречается во всех возрастных группах.</p>
+
+<br>
+<h4>Этиология</h4>
+
+<p><i>Основными возбудителями синусита являются</i> (<a href="#t1"><i>табл.&nbsp;1</i></a>):</p>
+
+<p><b>При остром синусите</b> &#150; <i>Streptococcus pneumoniae, Haemophilus influenzae и Moraxella catarrhalis</i>, реже &#150; <i>Streptococcus pyogenes, Staphylococcus aureus</i>, анаэробы;</p>
+
+<p><b>При рецидивирующем остром и обострении хронического синусита</b> &#150; спектр и соотношение возбудителей принципиально не отличаются от острого синусита;</p>
+
+<p><b>При хроническом синусите</b> &#150; возрастает значение анаэробов, так же встречаются золотистый стафилококк, пневмококк, гемофильная палочка, грамотрицательные бактерии, иногда грибы.</p>
+
+<br>
+<h4>Чувствительность возбудителей к антибиотикам</h4>
+
+<p>Чувствительность возбудителей синуситов к антибиотикам значительно варьирует в различных регионах. Общей тенденцией является нарастание резистентности пневмококков к <a href="../../../ab/013-22.shtml#pen">пенициллину</a>, <a href="../../../ab/042-47.shtml">макролидам</a> и гемофильной палочки к ампициллину и амоксициллину. У пациентов, которые получали недавно курсы ампициллина, амоксициллина или <a href="../../../ab/013-22.shtml#pen">пенициллина</a> значительно выше вероятность выделения микрофлоры, продуцирующей <font face="Symbol">b</font>-лактамазы.</p>
+
+<p>По данным, полученным у взрослых пациентов с острым синуситом в России, у <i>S.pneumoniae</i> и <i>H.influenzae</i>, выделенных при острых синуситах, сохраняется высокая чувствительность к <a href="../../../ab/013-22.shtml#aminopen">аминопенициллинам</a> и <a href="../../../ab/023-29.shtml#cs">цефалоспоринам</a>: 97,0% штаммов <i>S.pneumoniae</i> чувствительны к <a href="../../../ab/013-22.shtml#pen">пенициллину</a>, 100% &#150; к ампициллину, амоксициллину, амоксициллину/клавуланату, цефуроксиму; 100% штаммов <i>H.influenzae</i> чувствительны к амоксициллину/клавуланату; 88,9% &#150; к ампициллину и цефуроксиму.</p>
+
+<p>Основной проблемой является высокая резистентность пневмококка и гемофильной палочки к <a href="../../../ab/056-60.shtml#co-trim">ко-тримоксазолу</a>: умеренный и высокий уровень резистентности отмечен у 40,0% <i>S.pneumoniae</i> и 22,0% <i>H.influenzae</i>.</p>
+
+<br>
+<h4>Выбор антибиотиков</h4>
+
+<p><b>При острых процессах</b> в подавляющем большинстве случаев антибиотики назначают эмпирически, на основе данных о преобладающих возбудителях, их резистентности в регионе и с учетом тяжести состояния (<a href="#r1">рис.&nbsp;1</a>).</p>
+
+<p><b>При хронических процессах</b> (сохранение симптомов более 3 месяцев или наличии 6 и более рецидивов за год) перед назначением антибиотика особенно важно проведение микробиологического исследования содержимого синусов.</p> 
+
+<p>Учитывая более частое вовлечение анаэробов, предпочтение отдают амоксициллину/клавуланату вследствие его высокой антианаэробной активности.</p><br>
+
+<p><b>При легком и среднетяжелом течении</b></p>
+<p><i>Препараты выбора:</i></p>
+<ul>
+  <li>амоксициллин (только при отсутствии амоксициллина или амоксициллина/клавуланата назначается ампициллин);</li>
+  <li>амоксициллин/клавуланат</li>
+</ul>
+
+<p><i>Альтернативные препараты:</i></p>
+<ul>
+  <li><a href="../../../ab/023-29.shtml#cs">цефалоспорины</a> (цефуроксим-аксетил, цефаклор);</li>
+  <li><a href="../../../ab/042-47.shtml">макролиды</a></li>
+</ul>
+
+<p><b>При тяжелом течении</b></p>
+<ul>
+  <li><a href="../../../ab/013-22.shtml#ing_resist">ингибиторзащищенные пенициллины</a> (амоксициллин/клавуланат) парентерально;</li>
+  <li>цефалоспорины <a href="../../../ab/023-29.shtml#cs2">II</a>-<a href="../../../ab/023-29.shtml#cs3">III</a> поколения (цефуроксим, цефтриаксон, цефотаксим, цефоперазон) парентерально;</li>
+  <li>при аллергии к <a href="../../../ab/index.htm#b-lactams"><font face="Symbol">b</font>-лактамам</a>: хлорамфеникол парентерально.</li>
+</ul>
+
+<br>
+<h4>Путь введения антибиотиков</h4>
+
+<p>При легком и среднетяжелом течении терапию следует проводить <b>пероральными препаратами</b> (<a href="#t2">табл.&nbsp;2</a>).<br>
+При тяжелом течении лечение необходимо начинать с парентерального (желательно внутривенного) введения (<a href="#t2">табл.&nbsp;2</a>) и затем, по мере улучшения состояния, обычно на 3-4 день,  переходить на пероральный прием (ступенчатая терапия).</p>
+
+<br>
+<h4>Длительность терапии</h4>
+
+<p>При остром синусите &#150; в среднем проводится 7-10 дней, при обострении хронического - до 3-х недель.</p>
+
+<br>
+<h4>Типичные ошибки при проведении антибиотикотерапии:</h4>
+
+<ul>
+  <li><b>Неправильный выбор препарата</b> (без учета основных возбудителей, спектра активности антибиотика).
+  <p>Например, не следует при остром синусите назначать линкомицин (не действует на <i>H.influenzae</i>), оксациллин (малоактивен против пневмококка, не действует на <i>H.influenzae</i>), гентамицин (не действует на <i>S.pneumoniae</i> и <i>H.influenzae</i>). <a href="../../../ab/056-60.shtml#co-trim">Ко-тримоксазол</a> не может быть рекомендован к широкому применению при синусите из-за высокой резистентности к нему <i>S.pneumoniae</i> и <i>H.influenzae</i> и высокого риска развития тяжелых токсико-аллергических реакций (синдромы Стивенса-Джонсона, Лайелла). Фторхинолоны нельзя применять у детей.</p></li>
+
+  <li><b>Неверный путь введения препарата.</b>
+  <p>В амбулаторных условиях не следует вводить антибиотики внутримышечно. Основу терапии должен составлять пероральный прием. В стационаре при тяжелых формах синусита по мере улучшения состояния также следует переходить на пероральный прием (ступенчатая терапия).</p></li>
+</ul>
+
+<a name="r1"></a><br>
+<p><font size="1"><img src="images/sinus_r1.gif" width="690" height="460" border="0" alt="Рис.1. Схема антибактериальной терапии синусита"></font></p>
+<p><b>Рисунок&nbsp;1.</b> Схема антибактериальной терапии синусита</p><br>
+
+<a name="t1"></a><br>
+<p class="l"><b>Таблица&nbsp;1.</b> Этиология синусита у детей в зависимости от характера течения и возраста <br><i>(сводные данные, J.D. Cherry, A. Newman, 1998)</i>.</p>
+
+<table border="0" cellpadding="0" cellspacing="2" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr>
+  <th rowspan="2" width="28%"><b>&nbsp;</b></th>
+  <th colspan="3" width="36%"><b>Течение</b></th>
+  <th colspan="3" width="36%"><b>Возраст (лет)</b></th>
+</tr>
+<tr>
+  <th width="12%">Острое</th>
+  <th width="12%">Подострое</th>
+  <th width="12%">Хроническое</th>
+  <th width="12%">&le;&nbsp;5</th>
+  <th width="12%">6-12</th>
+  <th width="12%">&ge;&nbsp;12</th>
+</tr>
+<tr><td colspan="7" class="cl"><b><i>Аэробы</i></b></td></tr>
+<tr>
+  <td class="cl"><i>Haemophilus influenzae</i></td>
+  <td class="cc">++++</td>
+  <td class="cc">++++</td>
+  <td class="cc">++++</td>
+  <td class="cc">++++</td>
+  <td class="cc">++++</td>
+  <td class="cc">++++</td>
+</tr>
+<tr>
+  <td class="cl"><i>Streptococcus pneumoniae</i></td>
+  <td class="cc">++++</td>
+  <td class="cc">++++</td>
+  <td class="cc">++++</td>
+  <td class="cc">++++</td>
+  <td class="cc">++++</td>
+  <td class="cc">++++</td>
+</tr>
+<tr>
+  <td class="cl"><i>Moraxella catarrhalis</i></td>
+  <td class="cc">+++</td>
+  <td class="cc">++</td>
+  <td class="cc">+</td>
+  <td class="cc">+++</td>
+  <td class="cc">+</td>
+  <td class="cc">+</td>
+</tr>
+<tr>
+  <td class="cl"><i>Staphylococcus aureus</i></td>
+  <td class="cc">+</td>
+  <td class="cc">+</td>
+  <td class="cc">++</td>
+  <td class="cc">++</td>
+  <td class="cc">++</td>
+  <td class="cc">++</td>
+</tr>
+<tr>
+  <td class="cl"><i>Streptococcus pyogenes</i></td>
+  <td class="cc">++</td>
+  <td class="cc">++</td>
+  <td class="cc">++</td>
+  <td class="cc">+</td>
+  <td class="cc">++</td>
+  <td class="cc">+</td>
+</tr>
+<tr>
+  <td class="cl">Другие стрептококки</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+  <td class="cc">+</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+</tr>
+<tr>
+  <td class="cl"><i>Staphylococcus epidermidis</i></td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+  <td class="cc">+</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+  <td class="cc">+</td>
+</tr>
+<tr>
+  <td class="cl">Другие</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+</tr>
+<tr>
+  <td class="cl"><b><i>Анаэробы</i></b></td>
+  <td class="cc">+</td>
+  <td class="cc">+</td>
+  <td class="cc">++</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+  <td class="cc">++</td>
+</tr>
+<tr><td colspan="7" class="cl"><b><i>Микоплазмы</i></b></td></tr>
+<tr>
+  <td class="cl">Mycoplasma pneumoniae</td>
+  <td class="cc">+</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+</tr>
+<tr><td colspan="7" class="cl"><b><i>Другие</i></b></td></tr>
+<tr>
+  <td class="cl">L-формы</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+</tr>
+<tr>
+  <td class="cl">Микст: аэробы + анаэробы</td>
+  <td class="cc">+</td>
+  <td class="cc">+</td>
+  <td class="cc">++</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">++</td>
+</tr>
+<tr>
+  <td class="cl">Микст: <i>H.influenzae</i> + другие</td>
+  <td class="cc">+</td>
+  <td class="cc">+</td>
+  <td class="cc">++</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+  <td class="cc">++</td>
+</tr>
+<tr>
+  <td class="cl">Другие</td>
+  <td class="cc">+</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">+</td>
+  <td class="cc">+</td>
+</tr>
+</table>
+</td></tr></table>
+<br><br>
+
+<a name="t2"></a><br>
+<p><b>Таблица&nbsp;2.</b> Дозы и режимы введения антибиотиков при синусите у детей</p>
+<table border="0" cellpadding="0" cellspacing="2" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr><td colspan="3" class="cc"><b>Антибиотики для приема внутрь</b></td></tr>
+<tr>
+  <th width="33%"><b>Препарат</b></th>
+  <th width="33%"><b>Режим дозирования</b></th>
+  <th width="33%"><b>Связь с приемом пищи</b></th>
+</tr>
+<tr><td colspan="3" class="cl"><b>Препараты выбора</b></td></tr>
+<tr>
+  <td class="cl">Амоксициллин</td>
+  <td class="cc">40 мг/кг/д. в 3 пр.</td>
+  <td class="cc">Независимо от еды</td>
+</tr>
+<tr>
+  <td class="cl">Амоксициллин/ клавуланат</td>
+  <td class="cc">40 мг (по амоксициллину) /кг/д. в 3 пр.</td>
+  <td class="cc">Во время еды</td>
+</tr>
+<tr><td colspan="3" class="cl"><b>Альтернативные препараты</b></td></tr>
+<tr>
+  <td class="cl">Ампициллин</td>
+  <td class="cc">50 мг/кг/д. в 4 пр.</td>
+  <td class="cc">За 1 час до еды</td>
+</tr>
+<tr>
+  <td class="cl">Цефуроксим-аксетил</td>
+  <td class="cc">30 мг/кг/д. в 2 пр.</td>
+  <td class="cc">Во время еды</td>
+</tr>
+<tr>
+  <td class="cl">Цефаклор</td>
+  <td class="cc">40 мг/кг/д. в 3 пр.</td>
+  <td class="cc">Независимо от еды</td>
+</tr>
+<tr>
+  <td class="cl">Азитромицин</td>
+  <td class="cc">10 мг/кг/д. в 1 пр., 3 дня</td>
+  <td class="cc">За 1 час до еды</td>
+</tr>
+<tr>
+  <td class="cl">Кларитромицин</td>
+  <td class="cc">7,5 мг/кг/д. в 2 пр.</td>
+  <td class="cc">Независимо от еды</td>
+</tr>
+<tr>
+  <td class="cl">Доксициклин *</td>
+  <td class="cc">2,2 мг/кг/д. в 1 пр.</td>
+  <td class="cc">Независимо от еды</td>
+</tr>
+<tr><td colspan="3" class="cc"><b>Антибиотики для парентерального введения</b></td></tr>
+<tr>
+  <th width="33%"><b>Препарат</b></th>
+  <th colspan="2" width="67%"><b>Режим дозирования</b></th>
+</tr>
+<tr><td colspan="3" class="cl"><a href="../../../ab/023-29.shtml#cs"><b>Цефалоспорины</b></a></td></tr>
+<tr>
+  <td class="cl">Цефуроксим</td>
+  <td class="cc" colspan="2">50-100 мг/кг/д. в 3 введ., в/м, в/в</td>
+</tr>
+<tr>
+  <td class="cl">Цефтриаксон</td>
+  <td class="cc" colspan="2">50-100 мг/кг/д. в 1 введ., в/м, в/в</td>
+</tr>
+<tr>
+  <td class="cl">Цефотаксим</td>
+  <td class="cc" colspan="2">50-100 мг/кг/д. в 3 введ., в/м, в/в</td>
+</tr>
+<tr>
+  <td class="cl">Цефоперазон</td>
+  <td class="cc" colspan="2">50-100 мг/кг/д. в 2-3 введ., в/м, в/в</td>
+</tr>
+<tr>
+  <td class="cl">Цефтазидим</td>
+  <td class="cc" colspan="2">50 мг/кг/д. в 2-3 введ., в/м, в/в</td>
+</tr>
+<tr>
+  <td class="cl">Цефепим</td>
+  <td class="cc" colspan="2">50-100 мг/кг/д. в 2 введ., в/м, в/в</td>
+</tr>
+<tr><td colspan="3" class="cl"><a href="../../../ab/013-22.shtml#ing_resist"><b>Ингибиторзащищенные аминопенициллины</b></a></td></tr>
+<tr>
+  <td class="cl">Амоксициллин/ клавуланат</td>
+  <td class="cc" colspan="2">90-120 мг/кг/д. в 3-4 введ., в/в</td>
+</tr>
+<tr>
+  <td class="cl">Ампициллин/ сульбактам</td>
+  <td class="cc" colspan="2">150 мг/кг/д. в 3-4 введ., в/м, в/в</td>
+</tr>
+<tr><td colspan="3" class="cl"><b>Ингибиторзащищенные антисинегнойные пенициллины</b></td></tr>
+<tr>
+  <td class="cl">Тикарциллин/ клавуланат</td>
+  <td class="cc" colspan="2">75 мг/кг/д. в 4 введ., в/в</td>
+</tr>
+<tr>
+  <td colspan="3" class="cl"><a href="../../../ab/030-32.shtml#carbapenems"><b>Карбапенемы</b></a></td>
+</tr>
+<tr>
+  <td class="cl">Имипенем, Меропенем</td>
+  <td class="cc" colspan="2">60 мг/кг/сут в 4 введ., в/в, в/м</td>
+</tr>
+<tr><td colspan="3" class="cl"><b>Антибиотики разных групп</b></td></tr>
+<tr>
+  <td class="cl">Хлорамфеникол</td>
+  <td class="cc" colspan="2">50 мг/кг/сут в 4 введ., в/м, в/в</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p class="t8">* у детей старше 8 лет.</p><br><br>
+
+<h4>Литература</h4>
+<ol>
+<li value="1">Wald E.R. Management of acute bacterial sinusitis in children // Infections diseases and antimicrobial therapy of the ears, nose and throat. Ed. by Johnson J.T., Yu V.L. 1-st, 1997, 333-340.</li>
+</ol>
+
+<br>
+<!--footer-->
+<table border="0" cellpadding="0" cellspacing="1" width="100%"><tr>
+<td align="left" style="vertical-align:bottom;"><font class="t8">&copy; 2000-2009 <a target="_blank" href="../../../copyright.php.html">НИИАХ СГМА</a></font></td>
+
+<td colspan="2" align="right"><font size="1">
+<!--Rambler 1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../../top100.cnt.gif?335834" alt="Rambler's Top100" width="1" height="1" border="0"></a><!--/Rambler 1x1-->
+
+<!--LiveInternet 1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+';i'+escape('Жж'+document.title.substring(0,80))+';'+Math.random()+
+'" width=1 height=1 alt="">')
+//--></script><!--/LiveInternet-->
+
+<!--LiveInternet--><a href="../../../index-17.htm" target="_blank"><img src="../../../images/banners/rax.gif" border="0" width="31" height="31" title="liveinternet.ru"></a><!--/LiveInternet-->
+
+<!--TopList--><a href="http://top.list.ru/jump?from=96637" target="_blank"><img src="../../../counter-3.gif?id=96637;t=55" border="0" height="31" width="88" alt="TopList"></a><!--/TopList-->
+
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../../top100/banner-88x31-rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+</font>
+</td>
+
+</tr></table>
+<!--/footer-->
+
+<hr size="1">
+  </td></tr>
+</table>
+</center>
+</body>
+</html>

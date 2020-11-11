@@ -1,0 +1,236 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content-Language" content="ru">
+<meta http-equiv="Last-Update" content="2013-12-12">
+<meta http-equiv="Last-Modified" content="2013-12-12">
+<title>Проекты RosNet: Программа Внешнего Контроля Качества (ВКК) работы микробиологических лабораторий в России</title>
+<meta name="description" content="Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии. Программы мониторинга за антибиотикорезистентностью в России (RosNet): Программа внешнего контроля качества (ВКК) работы микробиологических лабораторий в России">
+<meta name="keywords" content="МАКМАХ, клиническая микробиология, антимикробная химиотерапия, RosNet, мониторинг, антибиотикорезистентность, внешний контроль качества, микробиологические лаборатории">
+<meta name="Language" content="Russian">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="resource-type" content="document">
+<meta name="author" content="МАКМАХ">
+<meta name="copyright" content="Copyright (c) 1998-2007 МАКМАХ">
+<meta name="classification" content="Medicine">
+<link rel="SHORTCUT ICON" type="image/x-icon" href="../../favicon.ico">
+<link rel="Home" href="../../index.htm">
+<link rel="Index" href="../../index.shtml">
+<link rel="Help" href="../info/index.htm">
+
+<link rel="StyleSheet" type="text/css" href="../../inc/style.css">
+<style type="text/css"> @import url("../../inc/style-ie.css"); </style>
+<script type="text/javascript" language="JavaScript" src="../../inc/nn.js"></script>
+</head>
+
+<body leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td bgcolor="#D6D6D6" width="30%">&nbsp;</td>
+  <td width="775">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr bgcolor="#10715D">
+  <td colspan="3"><img src="../../img/head1-ru.gif" width="775" height="32" border="0" alt="Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии"></td>
+</tr>
+<tr bgcolor="#10715D">
+  <td><img src="../../img/head2a.gif" width="39" height="29" alt="" border="0"></td>
+  <td><img src="../../img/head2b.gif" width="548" height="29" alt="" border="0"></td>
+  <td><img src="../../img/head2c.gif" width="188" height="29" alt="" border="0"></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr bgcolor="#10715D">
+  <td><img src="../../img/head3a.gif" width="25" height="101" alt="" border="0"></td>
+  <td><a href="../../index.htm" title="На главную страницу"><img src="../../img/head3b.jpg" width="97" height="101" alt="" border="0"></a></td>
+  <td background="/iacmac/img/head3c.gif" width="132"></td>
+  <td><img src="../../img/head3d.jpg" width="307" height="101" alt="" border="0"></td>
+  <td bgcolor="#F0F0F0" background="/iacmac/img/head3e.gif" width="214">
+
+    <table border="0" cellpadding="2" cellspacing="0" align="center">
+    <tr>
+      <td align="right"><img src="../../img/flag-eng.gif" width="20" height="14" alt="" border="0"></td>
+      <td><h6><a class="n" href="../../en/index-1.htm">English</a></h6></td>
+    </tr>
+    </table>
+
+    <form name="web" method="get" action="http://www.yandex.ru:8081/yandsearch" target="_blank">
+    <input type="hidden" name="serverurl" value="http://www.iacmac.ru/iacmac/"> 
+    <input type="hidden" name="server_name" value="МАКМАХ"> 
+    <input type="hidden" name="referrer1" value="http://www.iacmac.ru/iacmac/">
+    <input type="hidden" name="referrer2" value="Сайт МАКМАХ">
+    <table border="0" cellpadding="0" cellspacing="2" align="center">
+    <tr><td height="2"></td></tr>
+    <tr><td bgcolor="#10715D" height="1"></td></tr>
+    <tr><td height="2"></td></tr>
+    <tr><td><small>Поиск по сайту:</small></td></tr>
+    <tr><td><input name="text" type="text" class="text" size="16" maxlength="150" title="Введите слова для поиска" style="height:20px;">&nbsp;<input type="submit" class="button" value="Искать" style="height:20px;"></td></tr>
+    </table>
+    </form>
+  </td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr bgcolor="#10715D">
+  <td><img src="../../img/head4a.gif" width="46" height="29" alt="" border="0"></td>
+  <td><img src="../../img/head4b.gif" width="729" height="29" alt="" border="0"></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td bgcolor="#10715D"><img src="../../img/head5a.gif" width="72" height="36" alt="" border="0"></td>
+  <td bgcolor="#D8D8D8" background="/iacmac/img/head5b.gif" width="703">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr>
+    <td background="/iacmac/img/tab1.gif" width="138" align="center"><div id="tab1"><a href="../../index.htm" title="На главную страницу">МАКМАХ</a></div></td>
+<!--    <TD background="/iacmac/img/tab1.gif" width="138" align="center"><div id="tab1"><a href="/iacmac/ru/member/" title="Информация об индивидуальном членстве в МАКМАХ">Членство</a></div></TD>-->
+    <td background="/iacmac/img/tab1.gif" width="138" align="center"><div id="tab1"><a href="../confer/index.htm" title="Конференции, симпозиумы и семинары МАКМАХ">Мероприятия</a></div></td>
+    <td background="/iacmac/img/tab1.gif" width="138" align="center"><div id="tab1"><a href="../pub/index.htm" title="Публикации МАКМАХ">Публикации</a></div></td>
+    <td background="/iacmac/img/tab2.gif" width="138" align="center"><div id="tab1"><a name="rosnet">RosNet</a></div></td>
+    <td><img src="../../img/px.gif" width="1" height="36" alt="" border="0"></td>
+  </tr></table>
+  </td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td bgcolor="#10715D"><img src="../../img/head6a.gif" width="76" height="26" alt="" border="0"></td>
+  <td bgcolor="#CCE0DA" background="/iacmac/img/head6b.gif" width="699" style="padding-left:12px;"><small><a href="index.htm">RosNet</a> / ВКК</small></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr valign="top">
+  <td bgcolor="#10715D" background="/iacmac/img/head7a.gif"><img src="../../img/px.gif" width="36" height="1" alt="" border="0"></td>
+  <td bgcolor="#EFF5F4" background="/iacmac/img/head8b.gif" width="40"><img src="../../img/head7b.gif" width="40" height="75" alt="" border="0"></td>
+  <td bgcolor="#EFF5F4" width="699">
+
+  <table border="0" cellpadding="1" cellspacing="0" width="100%"><tr valign="top">
+    <td style="padding:10px;">
+
+<h1 class="h2">Программа Внешнего Контроля Качества (ВКК) работы микробиологических лабораторий в России</h1>
+<br>
+<p class="aj">Одним из основных условий обеспечения достоверности результатов любого лабораторного исследования является проведение программы гарантии качества, которая включает как внутрилабораторный контроль качества всех этапов выполнения исследования, так и внешнюю оценку качества работы лаборатории. </p>
+<p class="aj">Межрегиональной ассоциацией по клинической микробиологии и антимикробной химиотерапии (МАКМАХ) была организована и периодически проводится программа <b>В</b>нешнего <b>К</b>онтроля <b>К</b>ачества работы микробиологических лабораторий (<b>ВКК МАКМАХ</b>) Российской Федерации.</p>
+<p class="aj">Основными целями программы ВКК МАКМАХ являются повышение квалификации микробиологов, улучшение качества лабораторных исследований в клинической микробиологии.</p>
+<p class="aj">Участие лабораторий в программе ВКК МАКМАХ является добровольным, не может быть заменой обязательной программы Федеральной системы Внешней оценки качества (ФСВОК), и служит дополнительной мерой оценки профессионализма персонала лаборатории, прежде всего при обнаружении микроорганизмов, обладающих механизмами приобретённой резистентности к антибиотикам.</p>
+<p class="aj">Наиболее важной задачей программы ВКК МАКМАХ является оценка способности лабораторий выявлять такие важные с клинической точки зрения механизмы антибиотикорезистентности, как метициллинорезистентность у стафилококков, резистентность к аминогликозидам и к гликопептидным антибиотикам у энтерококков, пенициллинорезистентность у пневмококков, продукция БЛРС у штаммов энтеробактерий и т.д., что становится с каждым годом все более актуальным в связи с появлением и широким распространением резистентных микроорганизмов, как в стационарах, так и во внебольничной среде. </p>
+<p class="aj">Контрольные материалы для проведения программы ВКК МАКМАХ предоставляются лабораториям бесплатно, вся информация обрабатывается и сообщается лабораториям при строгом соблюдении условий конфиденциальности. При успешном выполнении предложенных заданий лаборатория получает документ от МАКМАХ, подтверждающий участие в программе ВКК МАКМАХ.</p>
+<a name="episode1"></a><br>
+<h3>Первый этап ВКК МАКМАХ (1998-99 гг.)</h3>
+
+<h4><i>Организаторы</i></h4>
+
+<p class="aj">Первый этап программы ВКК МАКМАХ был проведен с использованием контрольных штаммов, предоставленных Всемирной Организацией Здравоохранения (<a target="_blank" href="../../../en/home-1.html">ВОЗ</a>) и Центрами по контролю за заболеваниями (Centers for Disease Control and Prevention - <a target="_blank" href="../../../index-22.htm">CDC</a>) США в рамках программы внешнего контроля качества ВОЗ/CDC.</p>
+<h4><i>Лаборатории</i></h4>
+<p class="aj">В I&nbsp;этапе ВКК МАКМАХ приняли участие 19 микробиологических лабораторий из различных регионов России (Екатеринбург, Казань, Москва, Набережные Челны, Нижнекамск, Новосибирск, Смоленск).</p>
+<h4><i>Контрольные штаммы</i></h4>
+<p class="aj">При проведении I&nbsp;этапа ВКК МАКМАХ были использованы контрольные штаммы АТСС с известными фенотипами чувствительности <i>E.coli</i> ATCC 35922 и <i>S.aureus</i> АТСС 25923 и штаммы с неизвестными фенотипами резистентности <i>K.pneumoniae</i> WHO-1, <i>S.aureus</i> WHO-2, <i>E.faecium</i> WHO-3 и микроорганизм из семейства энтеробактерий Enteric WHO-5 (<i>E.cloacae</i>). </p>
+<h4><i>Контрольные задания</i></h4>
+<p>Первый этап программы ВКК МАКМАХ включал следующие задания: </p>
+<ol>
+  <li class="j">тестирование контрольных штаммов <i>E.coli</i> ATCC 35922 и <i>S.aureus</i> АТСС 25923 к заданным наборам антибиотиков в течение 10 последовательных дней для оценки точности определения чувствительности и воспроизводимости результатов во времени;</li>
+  <li class="j">однократное определение чувствительности к заданным наборам антибиотиков штаммов <i>K.pneumoniae</i> WHO-1, <i>S.aureus</i> WHO-2, <i>E.faecium</i> WHO-3 и Enteric (<i>E.cloacae</i>) WHO-5 для оценки точности тестирования;</li>
+  <li>идентификация микроорганизма из семейства энтеробактерий Enteric WHO-5 (<i>E.cloacae</i>).</li>
+</ol>
+<h4><i>Основные цели I этапа ВКК МАКМАХ</i></h4>
+<p class="aj">Основной целью первого этапа ВКК МАКМАХ было познакомить российские микробиологические лаборатории с международными принципами проведения программ внешней оценки качества в клинической микробиологии, обратить внимание на воспроизводимость во времени результатов тестирования стандартных контрольных штаммов АТСС (<i>E.coli</i> ATCC 35922 и <i>S.aureus</i> АТСС 25923) для определения чувствительности, а также оценить качество выявления таких клинически важных видов антибиотикорезистентности, как продукция БЛРС у штамма <i>K.pneumoniae</i> WHO-1, метициллинорезистентность у штамма <i>S.aureus</i> WHO-2, резистентность к ванкомицину и высокий уровень резистентности к стрептомицину у <i>E.faecium</i> WHO-3 и резистентность у штамма <i>E.cloacae</i> WHO-5 за счёт продукции бета-лактамаз класса&nbsp;С.</p>
+<h4><i>Результаты</i></h4>
+<p class="aj">Полученные результаты I&nbsp;этапа ВКК МАКМАХ вызвали большой практический интерес у специалистов в области клинической микробиологии и антимикробной химиотерапии и, во многом, оказались полезными для повышения качества работы лабораторий. Поэтому было принято решение продолжить проведение программы ВКК МАКМАХ в 2000&nbsp;г.</p>
+<h4><i>Публикации </i></h4>
+<p>Результаты I этапа ВКК МАКМАХ были представлены на конференциях и в журналах:</p>
+<ul>
+  <li class="j">Stetsiouk&nbsp;O., Reshedko&nbsp;G., Kretchikova&nbsp;O., Rjabkova&nbsp;E. Quality assessment (QA) of antimicrobial susceptibility testing in Russia. Clin. Microbiol. Infect., 1999; 5(3):407.</li>
+  <li class="j">Стецюк&nbsp;О.У., Решедько&nbsp;Г.К., Кречикова&nbsp;О.И., Рябкова&nbsp;Е.Л. Результаты внешнего контроля качества (ВКК) МАКМАХ в <nobr>1998-99 гг.</nobr> Клин. микробиол. антимикроб. химиотер., 2000; 2 (Приложение&nbsp;1):&nbsp;38.</li>
+  <li class="j">Страчунский&nbsp;Л.С., Стецюк&nbsp;О.У. Клиническое значение контроля качества бактериологических исследований. Клин. лаб. диагностика, 2000; 9:32.</li>
+</ul>
+
+<a name="episode2"></a><br>
+<h3>Второй этап ВКК МАКМАХ (2000-01 гг.)</h3>
+
+<h4><i>Организаторы</i></h4>
+<p class="aj">При проведении второго этапа программы ВКК МАКМАХ были использованы контрольные штаммы, предоставленные семирной Организацией Здравоохранения (ВОЗ) и Центрами по контролю за заболеваниями (Centers for Disease Control and Prevention - CDC) США в рамках программы внешнего контроля качества ВОЗ/CDC.</p>
+<h4><i>Лаборатории</i></h4>
+<p class="aj">Во II&nbsp;этапе ВКК МАКМАХ приняли участие 28 микробиологических лабораторий из различных регионов России (Владивосток, Волгоград, Воронеж, Екатеринбург, Иркутск, Казань, Красноярск, Липецк, Москва, Нижний Новгород, Набережные Челны, Новосибирск, Омск, Рязань, Санкт-Петербург, Смоленск, Ставрополь, Тольятти, Томск, Уфа, Челябинск, Ярославль).</p>
+<h4><i>Контрольные штаммы</i></h4>
+<p class="aj">При проведении II&nbsp;этапа ВКК МАКМАХ были использованы контрольные штаммы грамположительных микроорганизмов с неизвестными фенотипами резистентности <i>K.pneumoniae</i> WHO-1, <i>S.aureus</i> WHO-2, <i>E.faecium</i> WHO-3 и микроорганизм из семейства энтеробактерий Enteric WHO-5 (<i>E.cloacae</i>). </p>
+<h4><i>Контрольные задания</i></h4>
+<p class="aj">Второй этап программы ВКК МАКМАХ включал идентификацию и однократное определение чувствительности к заданным наборам антибиотиков пяти предоставленных контрольных штаммов грамположительных микроорганизмов.</p>
+<h4><i>Основные цели II этапа ВКК МАКМАХ</i></h4>
+<p class="aj">Основной целью второго этапа ВКК МАКМАХ было обратить внимание лабораторий на правильную идентификацию грамположительных микроорганизмов и выявление клинически значимых механизмов антибиотикорезистентности у этой группы возбудителей (метициллинорезистентность у стафилококков, резистентность к гликопептидным антибиотикам и высокий уровень резистентности к аминогликозидам у энтерококков).</p>
+<h4><i>Результаты</i></h4>
+<p class="aj">Полученные результаты II&nbsp;этапа ВКК МАКМАХ были представлены микробиологам во время научно-практического семинара по определению чувствительности 4&nbsp;июня 2002&nbsp;г., организованного МАКМАХ и Американским обществом по микробиологии (<a target="_blank" href="../../../index-89.htm">ASM</a>) в рамках V&nbsp;Международной конференции МАКМАХ (Москва, 4-6&nbsp;июня 2002&nbsp;г.). Обсуждение результатов II&nbsp;этапа ВКК&nbsp;МАКМАХ позволило обратить внимание микробиологов на существовавшие проблемы с качеством определения чувствительности и выявления клинически важных механизмов антибиотикорезистентности у грамположительных микроорганизмов в микробиологических лабораториях Российской Федерации, что, несомненно, послужило целям повышения квалификации специалистов и способствовало повышению качества работы лабораторий.</p>
+<h4><i>Публикации </i></h4>
+<p>Результаты II этапа ВКК МАКМАХ были представлены в публикациях:</p>
+<ul>
+  <li class="j">Стецюк&nbsp;О.У., Кречикова&nbsp;О.И., Рябкова&nbsp;Е.Л., Галкин&nbsp;Д.В., Сухорукова&nbsp;М.В. Результаты второго этапа программы внешнего контроля качества (ВКК) МАКМАХ в клинической микробиологии. Клин. лаб. диагностика, 2001; 9:26.</li>
+  <li class="j">Stetsiouk&nbsp;O.U., Rjabkova&nbsp;E.L., Galkin&nbsp;D.V., Sukhorukova&nbsp;M.V., Stratchounski&nbsp;L.S. The Results of IACMAC External Quality Assurance (EQA) Program for Identification and Antimicrobial Susceptibility Testing (AST) of Gram-Positive Bacteria in Russia. 22<sup>nd</sup>&nbsp;ICC, Amsterdam, 2001, Abstr.&nbsp;373.</li>
+</ul>
+
+<a name="episode3"></a><br>
+<h3>Третий этап ВКК МАКМАХ (2002-03 гг.)</h3>
+
+<h4><i>Организаторы</i></h4>
+<p class="aj">Третий этап ВКК МАКМАХ был проведён в сотрудничестве с Европейской системой надзора за антибиотикорезистентностью - European antimicrobial resistance surveillance system (<a target="_blank" href="../../../en/about-us/partnerships-and-networks/disease-and-laboratory-networks/ears-net.html">EARSS</a>). Штаммы для проведения данного этапа ВКК были предоставлены Институтом Пастера (Франция) и подготовлены Национальной системой внешней оценки качества Великобритании (UK&nbsp;NEQAS).</p>
+<h4><i>Лаборатории</i></h4>
+<p class="aj">В III&nbsp;этапе ВКК МАКМАХ приняли участие 45 микробиологических лабораторий из различных регионов РФ (Архангельск, Владивосток, Волгоград, Воронеж, Екатеринбург, Иркутск, Казань, Красноярск, Липецк, Москва, Нижний Новгород, Набережные Челны, Новосибирск, Омск, Пермь, Рязань, Санкт-Петербург, Смоленск, Ставрополь, Тольятти, Томск, Уфа, Челябинск, Ярославль).</p>
+<h4><i>Контрольные штаммы</i></h4>
+<p class="aj">При проведении III этапа ВКК МАКМАХ были использованы контрольные штаммы грамположительных и грамотрицательных микроорганизмов с неизвестными фенотипами резистентности U2A 1556, U2A 1557, U2A 1526, U2A 1580 и U2A 805, которые представляли собой метициллинорезистентный <i>S.aureus</i> (MRSA); чувствительный изолят <i>E.coli</i>; штамм <i>E.coli</i>, продуцирующий бета-лактамазу расширенного спектра действия (БЛРС) - CTX-M, резистентный к аминогликозидам и фторхинолонам; пенициллинорезистентный <i>S.pneumoniae</i> MLS-R и ванкомицино&shy;резистентный энтерококк (VRE) - <i>E.faecium</i>, обладающий высоким уровнем резистентности к гентамицину, соответственно.</p>
+<h4><i>Контрольные задания</i></h4>
+<p class="aj">Программа ВКК МАКМАХ В 2002-03&nbsp;гг. включала идентификацию и однократное определение чувствительности к заданным наборам антибиотиков пяти предоставленных контрольных штаммов микроорганизмов.</p>
+<h4><i>Основные цели III этапа ВКК МАКМАХ</i></h4>
+<p class="aj">Основное внимание при проведении III&nbsp;этапа ВКК МАКМАХ было уделено контролю качества определения чувствительности микроорганизмов к антибиотикам и оценке способности лабораторий выявлять клинически значимые механизмы антибиотикорезистентности (метициллинорезистентности у стафилококков, продукции БЛРС у энтеробактерий, пенициллинорезистентности у пневмококков, ванкомицинорезистентности и высокого уровня резистентности к аминогликозидам у энтерококков).</p>
+<h4><i>Результаты</i></h4>
+<p class="aj">Организаторы программы ВКК полагают, что результаты данного этапа ВКК МАКМАХ могут представлять значительный практический интерес и быть полезными при разработке мер, направленных на повышение качества работы микробиологических лабораторий. Результаты III&nbsp;этапа ВКК МАКМАХ (обобщённая информация и анализ основных ошибок, выявленных при проведении внешней оценки качества, а также Сертификат участия в Программе ВКК МАКМАХ) были предоставлены участникам данного этапа во время работы VI Международной конференции МАКМАХ &laquo;<a href="../confer/2003/0529/index.htm">Хирургические инфекции: профилактика и лечение</a>&raquo;, состоявшейся в Москве 29-30 мая 2003&nbsp;г.</p>
+<h4><i>Публикации</i></h4>
+<p class="aj">Результаты III&nbsp;этапа ВКК МАКМАХ были представлены на крупнейшей международной конференции - Междисциплинарной конференции по антимикробным агентам и химиотерапии (Interscience Conference on Antimicrobial Agents and Chemotherapy - <a target="_blank" href="http://www.icaac.org/">ICAAC</a>).</p>
+<ul>
+  <li class="j">Stеtsiouk&nbsp;O.U., Kozlov&nbsp;R.S., Galkin&nbsp;D.V., Osherov&nbsp;A.A., Stratchounski&nbsp;L.S. Russian multicenter external quality assessment (EQA) of antimicrobial susceptibility testing (AST) in 2002: Highlights of the problems. 43<sup>rd</sup> Annual. September 14-17, 2003, Chicago, USA, Abstract D-257.</li>
+</ul>
+<br>
+<p class="aj">В&nbsp;настоящее время готовится публикация результатов в журнале &laquo;Клиническая микробиология и антимикробная химиотерапия&raquo; (<a target="_blank" href="../../../index-1.htm">КМАХ</a>).</p>
+
+    </td>
+  </tr></table>
+
+<br>
+
+<div align="right" style="padding-right:10px;"><small><font class="note">Дата последнего изменения: 12.12.2013 </font></small></div>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr>
+<td align="left" valign="bottom"><small>&copy; 1998-2020 МАКМАХ</small></td>
+<td align="right">
+<!--Rambler-1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../../top100.cnt.gif?335834" alt="" width="1" height="1" border="0"></a><!--/Rambler--><!--RAX-1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';'+Math.random()+
+'" border="0" width="1" height="1" alt="">')
+//--></script><!--/RAX-->
+<!--RAX--><a target="_blank" href="../../../stat/antibiotic.ru/index.htm"><img src="../../../images/banners/rax.gif" border="0" width="31" height="31" alt="RAX.ru"></a><!--/RAX-->
+<!--Mail.ru--><a target="_blank" href="http://top.mail.ru/jump?from=96637"><img src="../../../counter-1.gif?id=96637;t=58" border="0" height="31" width="88" alt="Рейтинг@Mail.ru"></a><!--/Mail.ru--> <!-- t=55 -->
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../../images/banners/rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+</td>
+</tr></table>
+<!--/counters-->
+
+  </td>
+</tr>
+<tr bgcolor="#10715D">
+  <td colspan="3" height="1"></td>
+</tr>
+</table>
+
+  </td>
+  <td bgcolor="#10715D"><img src="../../img/px.gif" width="1" height="1" alt="" border="0"></td>
+  <td bgcolor="#D6D6D6" width="30%">&nbsp;</td>
+</tr>
+</table>
+
+</body>
+</html>

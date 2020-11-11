@@ -1,0 +1,1375 @@
+
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+
+    <link rel="stylesheet" media="screen" href="/Style/bootstrap.min.css" />
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/Style/style.css?v=6" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Duru+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+    <link rel="stylesheet" type="text/css" href="/Style/flickity.css" />
+    <link rel="stylesheet" type="text/css" href="/Style/component.css" />
+    <link rel="stylesheet" type="text/css" href="/Style/default.css" />
+    <link rel="stylesheet" type="text/css" href="/Style/common.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/Style/menu_sideslide.css" />
+
+    <script type="text/javascript" src="/Js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/Js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Js/jquery.easing-1.3.js"></script>
+    <script type="text/javascript" src="/Js/jquery.stellar.min.js"></script>
+    <script type="text/javascript" src="/Js/smoothscroll.js"></script>
+    <script type="text/javascript" src="/Js/smooth-scroll.js"></script>
+    <script type="text/javascript" src="/Js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="/Areas/Yonetim/Js/jquery.validate.min.js"></script>
+
+    
+    <link href="/Style/dropdown.css" rel="stylesheet" />
+
+    <script>
+        $(document).ready(function () {
+            $(".filter__item").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#middle").offset().top
+                }, 800);
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            var nfilm = document.getElementById("nfilm");
+            function playVid() {
+                nfilm.play();
+            };
+            function pauseVid() {
+                nfilm.pause();
+            }
+
+            if (typeof (Storage) !== "undefined") {
+                var showPopup = sessionStorage.getItem("showPopup");
+                if (showPopup == null) {
+                    sessionStorage.setItem("showPopup", "1");
+                    $('.vid-bg').addClass('bg-show');
+                    playVid();
+                }
+            }
+
+            $(".vid-bg-close").click(function () {
+                $('.vid-bg').removeClass('bg-show');
+                pauseVid();
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 0,
+                responsive: true,
+            });
+
+            smoothScroll.init({
+                speed: 1000,
+                easing: 'easeInOutCubic',
+                offset: 0,
+                updateURL: true,
+                callbackBefore: function (toggle, anchor) { },
+                callbackAfter: function (toggle, anchor) { }
+            });
+
+            $("a[data-target='#nobelModal']").click(function (ev) {
+                ev.preventDefault();
+                var target = $(this).attr("href");
+
+                $.ajax({
+                    type: "POST",
+                    cache: false,
+                    url: target,
+                    success: function (msg) {
+                        $("#nobelModal").html(msg);
+                        $("#nobelModal").modal("show");
+                    },
+                    error: function (msg, err, th) {
+                    },
+                });
+            });
+
+            // chrome smooth smoothscroll.js
+            $html = ($.browser.safari) ? $("body, html, document") : $("html, body");
+            var scrollHeight = 150;
+            if ($.client.browser == "Explorer") {
+                $('body').mousewheel(function (event, delta) {
+                    // disable native scroll
+                    if (event.preventDefault) {
+                        event.preventDefault();
+                    } else { // IE fix
+                        event.returnValue = false;
+                    };
+                    $html.stop().animate({
+                        scrollTop: $html.scrollTop() + (-delta * scrollHeight)
+                    }, 'slow');
+                });
+            }
+
+        });
+    </script>
+
+    <title>Anasayfa - Nobel Д°la&#231;</title>
+</head>
+<body>
+    
+    <div class="modal fade" id="nobelModal" tabindex="-1" role="dialog" aria-labelledby="nobelModalLabel" aria-hidden="true"></div>
+    <script>
+        $('#nobelModal').on('hidden.bs.modal', function () {
+            $(this).removeData('bs.modal');
+            $(this).html("");
+        });
+    </script>
+    
+    <div class="vid-bg">
+        <div class="vid-bg-close"><i class="fa fa-times"></i></div>
+        <div class="nobel-film">
+            <video id="nfilm" controls>
+                <source type="video/mp4" src="/Video/pandemi.mp4">
+                TarayД±cД±nД±z HTML5 video Г¶zelliДџini barД±ndД±rmД±yor.
+            </video>
+        </div>
+    </div>
+
+    <div class="menu-wrap">
+        <nav class="menu">
+            <div class="icon-list">
+                    <a href="/"><span>Anasayfa</span></a>
+                    <a href="/hakkimizda"><span>HakkД±mД±zda</span></a>
+                    <a href="/uretim-arge"><span>&#220;retim &amp; Ar-Ge</span></a>
+                    <a href="/urunlerimiz"><span>&#220;r&#252;nlerimiz</span></a>
+                    <a href="/nobel-medicus"><span>Nobel Medicus</span></a>
+                    <a href="/ofis-ve-temsilciliklerimiz"><span>Ofis ve Temsilciliklerimiz</span></a>
+                    <a href="/insan-kaynaklari"><span>Д°nsan KaynaklarД±</span></a>
+
+                    <a href="/en"><span>En</span></a>
+            </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+    </div>
+
+    <div class="content-wrap">
+        <div class="top">
+            <div style="position: relative;">
+                <div class="top-middle">
+
+                    <div class="logo-b"><a href="/" title="Ana Sayfa"><img src="/Style/logo-w.png?v=3" /></a></div>
+
+                    <div class="phone-menu-container"><button class="menu-button" id="open-button">menu</button></div>
+
+                    <div class="menu-container">
+                        <ul>
+                                <li><div><a href="/" class="full-a"></a>Anasayfa</div></li>
+                                <li><div><a href="/hakkimizda" class="full-a"></a>HakkД±mД±zda</div></li>
+                                <li><div><a href="/uretim-arge" class="full-a"></a>&#220;retim &amp; Ar-Ge</div></li>
+                                <li><div><a href="/urunlerimiz" class="full-a"></a>&#220;r&#252;nlerimiz</div></li>
+                                <li><div><a href="/nobel-medicus" class="full-a"></a>Nobel Medicus</div></li>
+                                <li><div><a href="/ofis-ve-temsilciliklerimiz" class="full-a"></a>Ofis ve Temsilciliklerimiz</div></li>
+                                <li><div><a href="/insan-kaynaklari" class="full-a"></a>Д°nsan KaynaklarД±</div></li>
+
+                                <li><div><a href="/en" class="full-a"></a>En</div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="menu-bg"></div>
+
+        
+
+
+
+
+<div class="vid">
+    <div style="position: relative; width: 100%; height: 100%" data-stellar-ratio="0.3">
+        <div class="vid-content home-vid-txt">
+            <h4>Nobel'de atД±lan her adД±m TГјrkiyeвЂ™ye ve saДџlД±Дџa bir deДџer<br />GГјcГјmГјzГј, emeДџimizi adadД±ДџД±mД±z her gГјn saДџlД±k iГ§in deДџer</h4>
+        </div>
+        <video loop="" poster="/Style/vid1.jpg" class="vid" autoplay>
+            <source type="video/mp4" src="/Video/space.mp4">
+            <source type="video/webm" src="/Video/space.webm">
+            <source type="video/ogg" src="/Video/space.ogv">
+        </video>
+    </div>
+</div>
+
+<div class="home-middle" id="middle">
+
+    <div class="bar">
+        <h5>Nobel&#39;den Haberler ve Uzman G&#246;r&#252;Еџleri</h5>
+        <div class="filter">
+            <button class="action filter__item filter__item--selected" data-filter="*" style="display:none;">Hepsini gГ¶ster</button>
+            <button class="action filter__item " data-filter=".haber"><i class="icon icon--jacket"></i><span class="action__text haber-but">Nobel&#39;den Haberler</span></button>
+            <button class="action filter__item " data-filter=".gorus"><i class="icon icon--shirt"></i><span class="action__text gorus-but">Uzman G&#246;r&#252;Еџleri</span></button>
+        </div>
+        <button class="cart" style="display: none">
+            <i class="cart__icon fa fa-shopping-cart"></i>
+            <span class="text-hidden">Shopping cart</span>
+            <span class="cart__count">0</span>
+        </button>
+    </div>
+
+    <section class="grid grid--loading">
+        <img class="grid__loader" src="/Style/grid.svg" width="60" alt="Loader image" />
+        <div class="grid__sizer"></div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/80/bir-gun-ceo"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/80/Thumb/20201103111757352.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Bir G&#252;n CEO</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/79/pandemi-anilari"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/79/Thumb/20201022140441579.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Pandemi AnД±larД±</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/78/anadolu-bobregini-dinliyor"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/78/Thumb/20201021124141160.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Anadolu B&#246;breДџini Dinliyor</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/77/alzheimer-hastaliginda-unutulmaz-destek"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/77/Thumb/20201020090848146.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Alzheimer HastalД±ДџД±nda Unutulmaz Destek</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/76/nobel-ilac-48-istanbul-muzik-festivali-ni-destekliyor"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/76/Thumb/20201016103504492.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;, 48. Д°stanbul M&#252;zik FestivaliвЂ™ni Destekliyor</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/75/eczacilik-urunleri-ihracatiвЂќnin-yildizi-yine-nobel-ilac-oldu"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/75/Thumb/20201016103401726.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>EczacД±lД±k &#220;r&#252;nleri Д°hracatД±вЂќnД±n YД±ldД±zД± Yine Nobel Д°la&#231; Oldu</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/74/nobel-ilac-turkiye-nin-en-degerli-100-markasi-icerisinde-tek-ilac-firmasi-oldu"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/74/Thumb/20201016103308945.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>NOBEL Д°LA&#199;, T&#220;RKД°YEвЂ™NД°N EN DEДћERLД° 100 MARKASI Д°&#199;ERД°SД°NDE  TEK Д°LA&#199; FД°RMASI OLDU</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/70/ozbek-turk-saglik-is-birligi-forumu"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/70/Thumb/20191230102622647.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>&#214;zbek-T&#252;rk SaДџlД±k Д°Еџ BirliДџi Forumu</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/69/anadolu-universitesi-eczacilik-fakultesi-ne-konuk-olduk"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/69/Thumb/20191129153522490.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Anadolu &#220;niversitesi EczacД±lД±k Fak&#252;ltesiвЂ™ne Konuk Olduk</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/68/ulkar-kimya-ar-ge-merkezimiz-sertifikasini-aldi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/68/Thumb/20191120141310064.jpeg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Ulkar Kimya Ar-Ge Merkezimiz SertifikasД±nД± AldД±</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/67/cerkezkoy-ticaret-ve-sanayi-odasi-is-dunyasi-odulleri"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/67/Thumb/20191002111242472.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>&#199;erkezk&#246;y Ticaret ve Sanayi OdasД± Д°Еџ D&#252;nyasД± &#214;d&#252;lleri</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/66/nobel-2019-cio-odulunun-sahibi-oldu"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/66/Thumb/20190904184726938.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel, 2019 CIO &#246;d&#252;l&#252;n&#252;n sahibi oldu</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/65/bir-gun-ceo"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/65/Thumb/20190904184007294.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Bir G&#252;n CEO</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/63/eczacilik-urunleri-ihracatinin-yildizi-nobel"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/63/Thumb/20190411124055420.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>EczacД±lД±k &#220;r&#252;nleri Д°hracatД±nД±n YД±ldД±zД± Nobel</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/62/duzce-istilli-ortaokulu-bilisim-laboratuvari-acildi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/62/Thumb/20190411123936639.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>D&#252;zce Д°stilli Ortaokulu BiliЕџim LaboratuvarД± A&#231;Д±ldД±</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/61/nobel-harvard-li-oldu"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/61/Thumb/20190411123817264.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel, HarvardвЂ™lД± Oldu</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/60/nobel-ilac-a-вЂњbest-managed-companies-turkeyвЂќ-odulu"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/60/Thumb/20181129161328946.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;вЂ™a вЂњBest Managed Companies TurkeyвЂќ &#214;d&#252;l&#252;</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/59/idc-den-nobel-e-2-odul-birden!"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/59/Thumb/20181120163907840.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>IDCвЂ™den NobelвЂ™e 2 &#214;d&#252;l Birden!</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/58/duzce-dagitim-merkezi-projemize-sap-den-вЂњgumusвЂќ-odul"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/58/Thumb/20181113100643980.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>D&#252;zce DaДџД±tД±m Merkezi Projemize SAPвЂ™den вЂњG&#252;m&#252;ЕџвЂќ &#214;d&#252;l</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/57/bilim-santrali"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/57/Thumb/20181112163706120.jpeg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Bilim Santrali</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/56/nobel-ilac-ile-marka-lansmani"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/56/Thumb/20181108121854234.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231; ile Marka LansmanД±</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/55/biyobilim-4-0-etkinligi-ana-sponsoru-olduk"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/55/Thumb/20181108121758531.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Biyobilim 4.0 EtkinliДџi Ana Sponsoru Olduk</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/54/degerli-kalpler"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/54/Thumb/20181031103520923.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>DeДџerli Kalpler</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/53/nobel-ilac-endustri-4-0-ozel-odulunu-aldi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/53/Thumb/20181030121254260.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231; End&#252;stri 4.0 &#214;zel &#214;d&#252;l&#252;n&#252; AldД±</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/52/nobel-ilac-a-tmok-tan-sukran-plaketi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/52/Thumb/20180608124425986.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;вЂ™a TMOKвЂ™tan Ећ&#252;kran Plaketi</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/51/nobel-ilac-46-istanbul-muzik-festivali-ni-destekliyor"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/51/Thumb/20180608124221705.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;, 46. Д°stanbul M&#252;zik FestivaliвЂ™ni Destekliyor</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item gorus">
+                    <div class="middle-item">
+                        <a href="/icerik/50/alerjik-rinit"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/50/Thumb/20180515105648925.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4>Uzm. Dr. Necip Kahraman</h4>
+                            <h3>Alerjik Rinit</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/49/ozbekistan-devlet-televizyonu-nu-agirladik"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/49/Thumb/20180515103315581.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>&#214;zbekistan Devlet TelevizyonuвЂ™nu AДџД±rladД±k</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/48/ozbek-turk-is-forumu-gerceklestirildi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/48/Thumb/20180503113008024.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>&#214;zbek-T&#252;rk Д°Еџ Forumu Ger&#231;ekleЕџtirildi</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/47/ikmib-&quot;2017-ikmib-ihracatin-yildizlari&quot;-odul-toreninde-nobel-ilac-&quot;eczacilik-urunleri&quot;-kategorisinde-2-oldu"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/47/Thumb/20180417101234750.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Д°KMД°B &quot;2017 Д°KMД°B Д°hracatД±n YД±ldД±zlarД±&quot; &#214;d&#252;l T&#246;reninde, Nobel Д°la&#231; &quot;EczacД±lД±k &#220;r&#252;nleri&quot; Kategorisinde 2. Oldu</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/46/nobel-ilac-belarus-un-en-fazla-buyuyen-ilac-firmasi-oldu"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/46/Thumb/20180413151648515.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;, Belarus&#39;un En Fazla B&#252;y&#252;yen Д°la&#231; FirmasД± Oldu</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/45/nobel-ilac-ve-kontinans-dernegi-isbirligi-ile-islevsel-uroloji-ve-kadin-urolojisi-robotik-cerrahi-kursu-gerceklestirildi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/45/Thumb/20180331110545656.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231; ve Kontinans DerneДџi Д°ЕџbirliДџi ile Д°Еџlevsel &#220;roloji ve KadД±n &#220;rolojisi Robotik Cerrahi Kursu Ger&#231;ekleЕџtirildi</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/44/nobel-ilac-turkiye-milli-olimpiyat-komitesi-fair-play-universiteler-kervani-nin-2018-ana-sponsoru-oldu"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/44/Thumb/20180330101009359.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;, T&#252;rkiye Milli Olimpiyat Komitesi Fair Play &#220;niversiteler KervanД±вЂ™nД±n 2018 Ana Sponsoru Oldu</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/43/sancaklar-ilkokulu-nda-nobel-ilac-in-katkilariyla-zeka-oyunlari-sinifi-acildi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/43/Thumb/20180326134438061.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Sancaklar Д°lkokulu&#39;nda Nobel Д°la&#231;&#39;Д±n KatkД±larД±yla Zeka OyunlarД± SД±nД±fД± A&#231;Д±ldД±</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/42/cio-2017-odulleri-sahiplerini-buldu-nobel-ilac-a-bir-odul-daha"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/42/Thumb/20171206115127109.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>CIO 2017 &#214;d&#252;lleri Sahiplerini Buldu: Nobel Д°la&#231;вЂ™a Bir &#214;d&#252;l Daha</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/41/nobel-ilac-inno-bio-isbirligi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/41/Thumb/20171128124615489.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;, Inno Bio Д°ЕџbirliДџi</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/40/2017-idc-teknoloji-odulleri-sahiplerini-buldu-nobel-ilac-a-iki-odul-birden"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/40/Thumb/20171126221419223.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>2017 IDC Teknoloji &#214;d&#252;lleri Sahiplerini Buldu: Nobel Д°la&#231;вЂ™a Д°ki &#214;d&#252;l Birden</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/39/nobel-ilac-tabloyu-tersine-ceviriyor"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/39/Thumb/20171116114206519.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231; Tabloyu Tersine &#199;eviriyor</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/38/innovation-network-corporation-of-japan-sirketimizi-ziyaret-etti"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/38/Thumb/20171101162952441.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Innovation Network Corporation of Japan Ећirketimizi Ziyaret Etti</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/37/bir-gun-ceo-programindaydik"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/37/Thumb/20171017101814008.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Bir G&#252;n CEO ProgramД±ndaydД±k</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item gorus">
+                    <div class="middle-item">
+                        <a href="/icerik/36/refluye-dair-bilinmeyenler"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/36/Thumb/20171003111834319.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4>Uzm. Dr. Necip Kahraman</h4>
+                            <h3>Refl&#252;ye Dair Bilinmeyenler</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/35/nobel-ilac-a-yeni-bir-odul-daha"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/35/Thumb/20170926115450160.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;вЂ™a yeni bir &#246;d&#252;l daha</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/34/nobel-ilac-in-biyoteknoloji-yatirimina-ifc-den-destek"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/34/Thumb/20170821194001251.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;вЂ™Д±n Biyoteknoloji YatД±rД±mД±na IFCвЂ™den Destek</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/33/pembe-tir-yolculugunu-tamamladi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/33/Thumb/20170615150303306.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Pembe TД±r YolculuДџunu TamamladД±</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/32/nobel-kardiyovaskuler-ekip"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/32/Thumb/20170518140402499.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Kardiyovask&#252;ler Ekip</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/31/idrar-kaciriyorsaniz-pembe-tiri-kacirmayin"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/31/Thumb/20170503121054213.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Д°drar Ka&#231;Д±rД±yorsanД±z, Pembe TД±rД± Ka&#231;Д±rmayД±n</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/30/nobel-ilac-arnavutluk-ta-2016-yilinin-en-iyi-ilac-firmasi-secildi-"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/30/Thumb/20170106160345601.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;, ArnavutlukвЂ™ta 2016 YД±lД±nД±n En Д°yi Д°la&#231; FirmasД± Se&#231;ildi.</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/29/nobel-ilac-a-uluslararasi-kurumsal-sosyal-sorumluluk-odulu"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/29/Thumb/20161228103855048.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;вЂ™a UluslararasД± Kurumsal Sosyal Sorumluluk &#214;d&#252;l&#252;</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/28/aci-kaybimiz"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/28/Thumb/20161101101414512.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>AcД± KaybД±mД±z</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/27/turkiye-alzheimer-dernegi-mersin-subesi-yasli-yasam-merkezi-nobel-in-destegi-ile-acildi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/27/Thumb/20161005111931828.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>T&#252;rkiye Alzheimer DerneДџi Mersin Ећubesi YaЕџlД± YaЕџam Merkezi NobelвЂ™in DesteДџi ile A&#231;Д±ldД±</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/26/biyobenzer-ilaclarin-yerli-olarak-gelistirilmesi-ve-uretilmesi-projesine-kabul-edildik"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/26/Thumb/20160822151639468.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Biyobenzer Д°la&#231;larД±n Yerli Olarak GeliЕџtirilmesi Ve &#220;retilmesi Projesine Kabul Edildik</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/25/nobel-ilac-t-c-ekonomi-bakanligi-tarafindan-turquality-marka-programina-kabul-edildi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/25/Thumb/20160908144940203.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;, T.C. Ekonomi BakanlД±ДџД± TarafД±ndan Turquality Marka ProgramД±na Kabul Edildi</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/24/nobel-onkoloji-hematoloji-grubu-kuruldu"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/24/Thumb/20160822154043000.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Onkoloji / Hematoloji Grubu Kuruldu</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/23/pembe-tuvalet-turkiye-de-3-bin-kadina-ulasti"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/23/Thumb/20160822154103859.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Pembe Tuvalet T&#252;rkiyeвЂ™de 3 Bin KadД±na UlaЕџtД±</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/22/mayis-ayi-ic-denetim-farkindalik-ayidir"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/22/Thumb/20160822154025796.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>MayД±s AyД±, Д°&#231; Denetim FarkД±ndalД±k AyД±dД±r</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/21/her-calisan-icin-bir-fidan"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/21/Thumb/20160822154057484.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Her &#199;alД±Еџan Д°&#231;in Bir Fidan</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/20/tuketici-nbl-fish-oil-jr-i-secti"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/20/Thumb/20160822154030656.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>T&#252;ketici NBL Fish Oil Jr.вЂ™Д± Se&#231;ti</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/19/13-liderlik-zirvesi-nde-вЂњliderlik-odullerindenвЂќ-birisi-de-nobel-ilac-a-geldi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/19/Thumb/20160822153930812.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>13. Liderlik ZirvesiвЂ™nde вЂњLiderlik &#214;d&#252;llerindenвЂќ Birisi De Nobel Д°la&#231;вЂ™a Geldi</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/18/nobel-fotograf-kulubu-nbl-2016-sergisini-acti"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/18/Thumb/20160822153910796.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel FotoДџraf Kul&#252;b&#252; (NBL) 2016 Sergisini A&#231;tД±</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/17/duzce-yesiltepe-ortaokulu-kutuphanesi-icin-kitap-topladik"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/17/Thumb/20160822153734250.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>D&#252;zce YeЕџiltepe Ortaokulu K&#252;t&#252;phanesi Д°&#231;in Kitap TopladД±k</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/16/eglen-ogren-hijyen"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/16/Thumb/20160822153649453.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>EДџlen, &#214;Дџren, Hijyen</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/14/2015-yili-ihracatin-yildizi-odulunu-aldik"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/14/Thumb/20160822153622578.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>2015 YД±lД± Д°hracatД±n YД±ldД±zД± &#214;d&#252;l&#252;n&#252; AldД±k</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/13/&quot;refluye-set&quot;-tiri-turkiye-yi-dolasti-"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/13/Thumb/20151014155517118.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>&quot;Refl&#252;ye Set&quot; TД±rД± T&#252;rkiye&#39;yi DolaЕџtД±.</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/12/nobel-ilac-50-yilini-eczacilar-ile-birlikte-kutladi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/12/Thumb/20151014154107681.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231; 50. YД±lД±nД± EczacД±lar Д°le Birlikte KutladД±</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/11/huzurevlerine-hareket-geliyor"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/11/Thumb/20151014153842712.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Huzurevlerine Hareket Geliyor</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item gorus">
+                    <div class="middle-item">
+                        <a href="/icerik/10/bilissel-davranisci-hipnoterapi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/10/Thumb/20151014152411556.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4>Prof. Dr. Atilla Soykan</h4>
+                            <h3>BiliЕџsel DavranД±Еџ&#231;Д± Hipnoterapi</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item gorus">
+                    <div class="middle-item">
+                        <a href="/icerik/9/hepatit-taramalarina-onem-vermeliyiz"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/9/Thumb/20151014151602040.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4>Prof. Dr. Sabahattin KaymakoДџlu</h4>
+                            <h3>Hepatit TaramalarД±na &#214;nem Vermeliyiz</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item gorus">
+                    <div class="middle-item">
+                        <a href="/icerik/8/diyaliz-hastalari-ve-bobrek-nakilli-hastalarda-tedavi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/8/Thumb/20151014150801071.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4>Prof. Dr. SД±la &#199;etin Akhan</h4>
+                            <h3>Diyaliz HastalarД± Ve B&#246;brek Nakilli Hastalarda Tedavi </h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item gorus">
+                    <div class="middle-item">
+                        <a href="/icerik/7/cildinizi-nemlendirin!"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/7/Thumb/20151014150132071.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4>Dr. Ecz. Birg&#252;l &#214;zden KasД±moДџullarД± </h4>
+                            <h3>Cildinizi Nemlendirin!</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item gorus">
+                    <div class="middle-item">
+                        <a href="/icerik/6/osteoartrit-ile-nasil-basa-cikilir-"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/6/Thumb/20151014145519525.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4>Do&#231;.Dr. Demirhan DIRA&#199;OДћLU</h4>
+                            <h3>Osteoartrit Д°le NasД±l BaЕџa &#199;Д±kД±lД±r?</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item gorus">
+                    <div class="middle-item">
+                        <a href="/icerik/5/vitamin-ve-mineral-takviyesine-gercekten-ihtiyac-var-mi-"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/5/Thumb/20151014144928400.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4>Ecz. Sibel &#199;OLAK</h4>
+                            <h3>Vitamin Ve Mineral Takviyesine Ger&#231;ekten Д°htiya&#231; Var MД±?</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item gorus">
+                    <div class="middle-item">
+                        <a href="/icerik/4/spor-sakatlanmalari"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/4/Thumb/20151014144105446.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4>Do&#231;. Dr. Д°. Haldun Orhun </h4>
+                            <h3>Spor SakatlanmalarД± </h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item gorus">
+                    <div class="middle-item">
+                        <a href="/icerik/3/probiyotik-ve-kadin"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/3/Thumb/20151014143454337.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4>Prof. Dr. Fatih DURMUЕћOДћLU</h4>
+                            <h3>Probiyotik Ve KadД±n</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item gorus">
+                    <div class="middle-item">
+                        <a href="/icerik/2/soguk-alginligina-limon-tadinda-cozum!"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/2/Thumb/20151014142809915.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4>Nobel Д°la&#231; &#220;r&#252;n M&#252;d&#252;r&#252; Nihan G&#246;ksal</h4>
+                            <h3>SoДџuk AlgД±nlД±ДџД±na Limon TadД±nda &#199;&#246;z&#252;m!</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+                <div class="grid__item haber">
+                    <div class="middle-item">
+                        <a href="/icerik/1/nobel-ilac-in-cin-ilac-devi-gphl-ile-buyuk-ortakligi"></a>
+                        <div class="ayrac"></div>
+                        <div class="middle-item-img">
+                            <img src="/Images/Content/1/Thumb/20151012172001646.jpg" />
+                        </div>
+                        <div class="middle-content">
+                            <h4></h4>
+                            <h3>Nobel Д°la&#231;&#39;Д±n &#199;in Д°la&#231; Devi Gphl Д°le B&#252;y&#252;k OrtaklД±ДџД±</h3>
+                        </div>
+                    </div>
+                    <button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span class="text-hidden">Add to cart</span></button>
+                </div>
+    </section>
+
+</div>
+
+
+
+        <div class="footer-container">
+
+            <div class="footer-left">
+                <p>
+                    <a href="/">Anasayfa</a> |
+                    <a href="http://bth.ttr.com.tr/firmabilgileri.aspx?mersis=0631007013800010" target="_blank">Bilgi Toplumu Hizmetleri</a> |
+                    <a href="/yan-etki-bildirimi">Yan Etki Bildirimi</a> |
+                    <a href="/kisisel-verilerin-korunmasi">KiЕџisel Verilerin KorunmasД±</a> |
+                    <a href="/iletisim" data-target="#nobelModal">Д°letiЕџim Formu</a>
+                </p>
+                <ul class="social-links">
+                    <li><a href="https://facebook.com/Nobelilac" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/NobelIac" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/nobel_ilac/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCu4JuJIROuDx6s2u9ZY6wYQ" target="_blank"><i class="fa fa fa-youtube-square" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/nobel-ilac-a-s/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                </ul>
+                <p>
+                    &#169; Copyright 2006 NOBEL Д°LA&#199; SAN. VE TД°C. A.Ећ. - T&#252;m HaklarД± SaklД±dД±r
+                <p>
+                    <strong>Merkez Ofis</strong>
+                    <br />
+                    Saray Mah. Dr. Adnan B&#252;y&#252;kdeniz Cad. No:14 &#220;mraniye 34768 Д°STANBUL
+                    <br />
+                    Tel : 0216 633 60 00 / Faks : 0216 633 60 01 / E-posta: bizeulasin@nobel.com.tr
+                </p>
+                <p>
+                    <strong>Fabrika Adresleri</strong>
+                    <br />
+                    Sancaklar Mahallesi Eski Ak&#231;akoca Cad. No: 299 81100 D&#220;ZCE
+                    <br />
+                    Tel: 0380 526 30 60 / Faks: 0380 526 30 43 / E-posta: bizeulasin@nobel.com.tr
+                    <br />
+                    <br />
+                    Organize Sanayi B&#246;lgesi Gaziosman PaЕџa Mah. Fatih BulvarД± No:9 59500 &#199;erkezk&#246;y-TekirdaДџ
+                    <br />
+                    Tel: 0282 735 17 35 / Faks: 0282 735 17 45 / E-posta: bizeulasin@nobel.com.tr
+                </p>
+                <p>
+                    <strong>Marmara Teknokent (MARTEK) Biyoteknoloji Ar-Ge Merkezi</strong>
+                    <br />
+                    T&#220;BД°TAK Gebze YerleЕџkesi Teknoloji GeliЕџtirme B&#246;lgesi Д°dari ve Kulu&#231;ka BinasД± C Blok, 1.Kat Nobel Д°la&#231; Д°&#231; KapД± No:26 Gebze / Kocaeli
+                    <br />
+                    Tel: 0262 502 30 36
+                </p>
+                <p>Bu sitedeki bilgiler, hekim veya eczacД±ya danД±ЕџmanД±n yerine ge&#231;emez.</p>
+                <p><a href="http://www.telepatiyazilim.com" target="_blank">Made By Telepati</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cookie-container">
+        <p>
+            Д°nternet sitemizde Г§erez kullanД±lmaktadД±r.
+            Г‡erezler hakkД±nda detaylД± bilgi iГ§in
+            <a href="http://www.nobel.com.tr/Style/cerez_politikasi.pdf" target="_blank">Г‡erez PolitikasД±</a>вЂ™nД± inceleyiniz.
+            Devam etmeniz halinde Г§erez kullanД±mД±na izin verdiДџinizi kabul edeceДџiz.
+        </p>
+        <a href="#" class="cookie-close">Devam</a>
+    </div>
+
+    <script>
+        var showCookiePolicy = (localStorage.getItem("showCookiePolicy") || "true") == "true";
+        if (!showCookiePolicy) {
+            $(".cookie-container").css("display", "none");
+        }
+
+        $(".cookie-container a").click(function () {
+            localStorage.setItem("showCookiePolicy", "false")
+            $(".cookie-container").css("display", "none");
+        });
+    </script>
+
+    <script src="/Js/classie.js"></script>
+    <script src="/Js/slidemenumain.js"></script>
+    <script src="/Js/isotope.pkgd.min.js"></script>
+    <script src="/Js/flickity.pkgd.min.js"></script>
+    <script src="/Js/main.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-1871753-68', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
+</html>

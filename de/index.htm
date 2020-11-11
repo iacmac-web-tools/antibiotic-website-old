@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"c88a1c0f61",applicationID:"584712660"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<link rel="shortlink" href="https://www.bayer.com/de/" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="canonical" href="https://www.bayer.com/de/" />
+<meta name="twitter:title" content="Bayer вЂ“ Globaler Unternehmensauftritt" />
+<meta name="twitter:description" content="Gesundheit fГ¶rdern und ErnГ¤hrung sichern ist das, was wir am besten kГ¶nnen und was uns am Herzen liegt." />
+<meta name="abstract" content="Gesundheit fГ¶rdern und ErnГ¤hrung sichern ist das, was wir am besten kГ¶nnen und was uns am Herzen liegt." />
+<meta name="keywords" content="Bayer, AG, Produkte, Landwirtschaft, Pflanzenschutz, Pharma, Gesundheit, Karriere, Jobs, Nachhaltigkeit, Presse, Konzern, Investoren, Aktie, Innovation, Vorstand, Aufsichtsrat, Forschung, Quartalsberichte, GeschГ¤ftsbericht, Leverkusen" />
+<meta property="og:title" content="Bayer вЂ“ Globaler Unternehmensauftritt" />
+<meta property="og:description" content="Gesundheit fГ¶rdern und ErnГ¤hrung sichern ist das, was wir am besten kГ¶nnen und was uns am Herzen liegt." />
+<meta name="twitter:image" content="https://www.bayer.com/sites/default/files/styles/original/public/2020-09/Aerial_view_Bayer_group_headquarters_in_Leverkusen_1200.jpg?itok=2HNHQ6wZ" />
+<meta name="facebook-domain-verification" content="zpbzhbwzrsgmaxqliod0gr4zhosb94" />
+<meta property="og:image" content="https://www.bayer.com/sites/default/files/styles/original/public/2020-09/Aerial_view_Bayer_group_headquarters_in_Leverkusen_1200.jpg?itok=2HNHQ6wZ" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #0091df} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>
+<link rel="alternate" type="application/rss+xml" title="Bayer-Konzernnachrichten" href="/de/rss/unternehmensnachrichten" />
+<link rel="alternate" type="application/rss+xml" title="Bayer-Presse-" und="und" Konzern-Veranstaltungen="Konzern-Veranstaltungen" href="http://www.podcast.bayer.de/module/podcast/presse.xml" />
+<link rel="alternate" type="application/rss+xml" title="Bayer-Investorenveranstaltungen" href="http://www.podcast.bayer.de/module/podcast/investoren.xml" />
+<script type="text/javascript" async="src=https://shared.bayer.com/js/mtiFontTrackingCode.js"></script>
+<meta name="format-detection" content="telephone=no" />
+<link rel="shortcut icon" href="/themes/custom/bayer_cpa/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="x-default" href="https://www.bayer.com/en" />
+<link rel="alternate" hreflang="de" href="https://www.bayer.com/de" />
+<link rel="revision" href="https://www.bayer.com/de/bayer-globaler-unternehmensauftritt" />
+
+    <title>Bayer-Globaler Unternehmensauftritt | Global</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css__bHbtMuiQzXuRt8uj4rfxy5a-cp_VQFwXFsrVKqhc_0.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_P8gCapOcdwdWCothaIppq--ypZk69J2y3qh0DYo_KqE.css" />
+<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_68SM4ho8bB0ZcSRIOfXxww9p0GUUNTz3jfoC0m24Gfw.css" />
+<link rel="stylesheet" media="all" href="/themes/custom/bayer_cpa/dist/css/bayer.min.css?qjl835" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_x-wgThm8lJujpMmgAF2g1tHD1vUW66MSUPdI6fGKm0Y.css" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+          <script type="text/javascript" src="/modules/contrib/seckit/js/seckit.document_write.js"></script>
+        <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/modules/contrib/seckit/css/seckit.no_body.css" />
+        <!-- stop SecKit protection -->
+        <noscript>
+        <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/modules/contrib/seckit/css/seckit.noscript_tag.css" />
+        <div id="seckit-noscript-tag">
+          Sorry, you need to enable JavaScript to visit this website.
+        </div>
+        </noscript></head>
+  <body class="path--node body-sidebars-none alias--bayer-globaler-unternehmensauftritt frontpage nodetype--landing_page logged-out ltr bayer">
+    <div id="skip">
+      <a class="visually-hidden focusable skip-link" href="#content">
+        Springen Sie zum Inhalt
+      </a>
+    </div>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="wrapper">
+    <!-- Header and Navbar -->
+    <header class="main-header">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="navigation-container">
+          <div class="row-wrapper">
+            <div class="navbar-header "> 
+                <div class="region region-header">
+    <div id="block-header-section" data-block-plugin-id="block_content:fe9b488a-6bd8-407a-970b-cf4eed29e672" class="block block-block-content block-block-contentfe9b488a-6bd8-407a-970b-cf4eed29e672">
+  
+    
+      
+<div  class="header-top-slogan-menu">
+      
+            <div class="text-formatted field field--name-field-header-slogan field--type-text-long field--label-hidden field__item"><p><span class="slogan-symbol">//////</span> Science for a <strong>better life</strong></p>
+
+
+</div>
+      
+<div  class="corporate-nav-wrapper">
+      
+            <div class="field field--name-field-corporate-menu field--type-entity-reference field--label-hidden field__item">
+<ul class="menu menu-level-0">
+  
+  <li class="menu-item menu-item--expanded">
+
+    
+          <a href="" class="default">TГ¤tigkeitsfelder</a>
+    
+              
+  <div class="menu_link_content menu-link-contentcorporate-navigation view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+                      <span class="icon-close"></span>
+        <div class="menu-link-contentcorporate-navigation-container">
+          <div class="menu-link-contentcorporate-navigation-wrapper">
+              <div class="default paragraph paragraph--type--teaser-card paragraph--view-mode--menu">
+          
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Pharmaceuticals</div>
+      
+      <a href="https://pharma.bayer.com/de/" /> 
+            <div class="field field--name-field-teaser-image field--type-entity-reference field--label-hidden field__item"><article>
+  
+      
+            <div class="field field--name-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/16_9_small/public/2020-06/pharmaceuticals.jpg?h=c397aecc&amp;itok=4p7Ee3aY" width="640" height="360" alt="" typeof="foaf:Image" class="image-style-_6-9-small" />
+
+
+</div>
+      
+  </article>
+</div>
+       </a>
+      
+            <div class="text-formatted field field--name-field-description field--type-text-long field--label-hidden field__item"><p>Pharmaceuticals konzentriert sich auf verschreibungspflichtige Produkte auf den Gebieten Kardiologie, Frauengesundheit, Onkologie, HГ¤matologie &amp; Ophthalmologie..</p>
+
+
+</div>
+      
+            <div class="field field--name-field-cta field--type-link field--label-hidden field__item"><span class="field-cta-wrap"><a href="https://pharma.bayer.com/de/" target="_blank">GLOBAL SITE</a></span></div>
+      
+      </div>
+  <div class="default paragraph paragraph--type--teaser-card paragraph--view-mode--menu">
+          
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Consumer Health</div>
+      
+      <a href="/de/consumer-health/consumer-health-division" /> 
+            <div class="field field--name-field-teaser-image field--type-entity-reference field--label-hidden field__item"><article>
+  
+      
+            <div class="field field--name-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/16_9_small/public/2020-06/consumer-health.jpg?h=c397aecc&amp;itok=nnBY36xD" width="640" height="360" alt="" typeof="foaf:Image" class="image-style-_6-9-small" />
+
+
+</div>
+      
+  </article>
+</div>
+       </a>
+      
+            <div class="text-formatted field field--name-field-description field--type-text-long field--label-hidden field__item"><p>Consumer Health vertreibt einige der weltweit bekanntesten rezeptfreien Arzneimittel, NahrungsergГ¤nzungs-PrГ¤parate sowie weitere Selbstmedikations-Produkte.</p>
+
+
+</div>
+      
+            <div class="field field--name-field-cta field--type-link field--label-hidden field__item"><span class="field-cta-wrap"><a href="/de/consumer-health/consumer-health-division" target="_blank">GLOBAL SITE</a></span></div>
+      
+      </div>
+  <div class="default paragraph paragraph--type--teaser-card paragraph--view-mode--menu">
+          
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Crop Science</div>
+      
+      <a href="https://www.cropscience.bayer.com/de" /> 
+            <div class="field field--name-field-teaser-image field--type-entity-reference field--label-hidden field__item"><article>
+  
+      
+            <div class="field field--name-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/16_9_small/public/2020-06/crop-science.jpg?h=c397aecc&amp;itok=XRO6lxxv" width="640" height="360" alt="" typeof="foaf:Image" class="image-style-_6-9-small" />
+
+
+</div>
+      
+  </article>
+</div>
+       </a>
+      
+            <div class="text-formatted field field--name-field-description field--type-text-long field--label-hidden field__item"><p>Crop Science ist auf den Gebieten Saatgut, Pflanzenschutz und SchГ¤dlingsbekГ¤mpfung auГџerhalb der Landwirtschaft tГ¤tig.</p>
+
+
+</div>
+      
+            <div class="field field--name-field-cta field--type-link field--label-hidden field__item"><span class="field-cta-wrap"><a href="https://www.cropscience.bayer.com/de" target="_blank">GLOBAL SITE</a></span></div>
+      
+      </div>
+
+            
+<ul class="menu menu-level-1">
+  
+  <li class="menu-item">
+
+    
+          <a href="/de/strategie/profil-und-organisation" class="default" data-drupal-link-system-path="node/1536">Profil und Organisation</a>
+    
+              
+  <div class="menu_link_content menu-link-contentcorporate-navigation view-mode-default menu-dropdown menu-dropdown-1 menu-type-default">
+                      
+            </div>
+
+      </li>
+  
+  <li class="menu-item">
+
+    
+          <a href="/sites/default/files/bayer-organizational-structure-2020-10-07.pdf" class="default">Organigramm (PDF, 324 KB)</a>
+    
+              
+  <div class="menu_link_content menu-link-contentcorporate-navigation view-mode-default menu-dropdown menu-dropdown-1 menu-type-default">
+                      
+            </div>
+
+      </li>
+</ul>
+
+          </div>
+        </div>
+            </div>
+
+      </li>
+  
+  <li class="menu-item menu-item--expanded menu-item--active-trail">
+
+    
+          <a href="/de/locations" class="meta-locations default" data-drupal-link-system-path="locations">Standorte</a>
+    
+              
+  <div class="menu_link_content menu-link-contentcorporate-navigation view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+                      <span class="icon-close"></span>
+        <div class="menu-link-contentcorporate-navigation-container">
+          <div class="menu-link-contentcorporate-navigation-wrapper">
+            
+            
+<ul class="menu menu-level-1">
+  
+  <li class="menu-item menu-item--active-trail">
+
+    
+          <a href="/de/bayer-globaler-unternehmensauftritt" class="default is-active" data-drupal-link-system-path="node/1">Bayer Global</a>
+    
+              
+  <div class="menu_link_content menu-link-contentcorporate-navigation view-mode-default menu-dropdown menu-dropdown-1 menu-type-default">
+                      
+            </div>
+
+      </li>
+  
+  <li class="menu-item">
+
+    
+          <a href="https://career.bayer.com/en/career" class="default">Karriere</a>
+    
+              
+  <div class="menu_link_content menu-link-contentcorporate-navigation view-mode-default menu-dropdown menu-dropdown-1 menu-type-default">
+                      
+            </div>
+
+      </li>
+  
+  <li class="menu-item">
+
+    
+          <a href="https://www.investor.bayer.com/en/overview/" class="default">Investoren</a>
+    
+              
+  <div class="menu_link_content menu-link-contentcorporate-navigation view-mode-default menu-dropdown menu-dropdown-1 menu-type-default">
+                      
+            </div>
+
+      </li>
+  
+  <li class="menu-item">
+
+    
+          <a href="https://media.bayer.com/baynews/baynews.nsf/id/news-overview-category-search-en#/search" class="default">Nachrichten</a>
+    
+              
+  <div class="menu_link_content menu-link-contentcorporate-navigation view-mode-default menu-dropdown menu-dropdown-1 menu-type-default">
+                      
+            </div>
+
+      </li>
+  
+  <li class="menu-item">
+
+    
+          <a href="/de/produkte/produkte-uebersicht" class="default" data-drupal-link-system-path="node/2536">Produkte</a>
+    
+              
+  <div class="menu_link_content menu-link-contentcorporate-navigation view-mode-default menu-dropdown menu-dropdown-1 menu-type-default">
+                      
+            </div>
+
+      </li>
+  
+  <li class="menu-item">
+
+    
+          <a href="/de/nachhaltigkeit" class="default" data-drupal-link-system-path="node/1186">Nachhaltigkeit</a>
+    
+              
+  <div class="menu_link_content menu-link-contentcorporate-navigation view-mode-default menu-dropdown menu-dropdown-1 menu-type-default">
+                      
+            </div>
+
+      </li>
+  
+  <li class="menu-item">
+
+    
+          <a href="/de/kontakt-us" class="cta" data-drupal-link-system-path="node/1586">Kontakt</a>
+    
+              
+  <div class="menu_link_content menu-link-contentcorporate-navigation view-mode-cta menu-dropdown menu-dropdown-1 menu-type-cta">
+                      
+            </div>
+
+      </li>
+</ul>
+
+          </div>
+        </div>
+            </div>
+
+      </li>
+  
+  <li class="menu-item">
+
+    
+          <a href="/de/kontakt-us" class="default" data-drupal-link-system-path="node/1586">Kontakt</a>
+    
+              
+  <div class="menu_link_content menu-link-contentcorporate-navigation view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+                      <span class="icon-close"></span>
+        <div class="menu-link-contentcorporate-navigation-container">
+          <div class="menu-link-contentcorporate-navigation-wrapper">
+            
+            
+          </div>
+        </div>
+            </div>
+
+      </li>
+</ul>
+</div>
+      
+            <div class="field field--name-field-language-switcher field--type-entity-reference field--label-hidden field__item"><div class="language-switcher-language-url block block-language block-language-blocklanguage-interface" id="block-language-switcher" role="navigation" data-block-plugin-id="language_block:language_interface">
+  
+    
+      <ul class="links"><li hreflang="en" data-drupal-link-system-path="&lt;front&gt;" class="en"><a href="/en/" class="language-link" hreflang="en" data-drupal-link-system-path="&lt;front&gt;">English</a></li><li hreflang="de" data-drupal-link-system-path="&lt;front&gt;" class="de is-active"><a href="/de/" class="language-link is-active" hreflang="de" data-drupal-link-system-path="&lt;front&gt;">Deutsch</a></li></ul>
+  </div>
+</div>
+      
+  </div>
+  </div>
+<div  class="header-bottom-container">
+      
+<div  class="header-bottom-wrapper">
+      
+<div  class="header-bottom-row-wrapper">
+      
+            <div class="field field--name-field-site-logo-division-name field--type-entity-reference field--label-hidden field__item"><div id="block-site-branding" data-block-plugin-id="system_branding_block" class="site-branding block block-system block-system-branding-block">
+  
+    
+              <a href="/de/" title="Startseite" rel="home" class="logo">
+            <img src="/themes/custom/bayer_cpa/logo.svg" alt="Startseite"/>
+        </a>
+        </div>
+</div>
+      
+            <div class="field field--name-field-site-name field--type-string field--label-hidden field__item">Global</div>
+      
+  </div>
+<div  class="header-bottom-inner-container">
+      
+            <div class="field field--name-field-main-menu field--type-entity-reference field--label-hidden field__item">
+  <ul class="menu menu-level-0">
+          <li class="menu-item menu-item--expanded">
+
+      
+              <a href="/de/das-ist-bayer" class="default" data-drupal-link-system-path="node/1876">Гњber Bayer</a>
+                                      
+
+<div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+            <div class="main-menu-container">
+      
+
+            <div class="field field--name-field-image-block field--type-entity-reference-revisions field--label-hidden field__item">  <div class="paragraph paragraph--type--menu-image-block paragraph--view-mode--default">
+          <a href="">
+            <div class="field field--name-field-menu-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/styles/280x160/public/2020-04/girl_color_party.jpg?h=dd503c25&amp;itok=FJPovURt" width="280" height="160" alt="girl color party" typeof="foaf:Image" class="image-style-_80x160" />
+
+
+</div>
+      </a>
+      
+            <div class="field field--name-field-menu-image-title field--type-string-long field--label-hidden field__item">Гњber Bayer</div>
+      
+            <div class="text-formatted field field--name-field-menu-image-description field--type-text-long field--label-hidden field__item"><p>Bayer ist ein weltweit tГ¤tiges Unternehmen mit Kernkompetenzen auf den Life-Science-Gebieten Gesundheit und Agrarwirtschaft.</p>
+
+
+</div>
+      
+      </div>
+</div>
+      
+            <div class="field field--name-field-sub-menu field--type-entity-reference field--label-hidden field__item">
+              <ul class="menu menu-level-0">
+                          <li class="menu-item">
+          <a href="/de/das-ist-bayer" data-drupal-link-system-path="node/1876">Гњbersicht</a>
+                  </li>
+                      <li class="menu-item has-child menu-item--expanded">
+          <a href="/de/strategie/profil-und-organisation" data-drupal-link-system-path="node/1536">Profil und Organisation</a>
+                                    <ul class="menu  menu-level-1">
+                          <li class="menu-item">
+          <a href="/de/strategie/profil-und-organisation" data-drupal-link-system-path="node/1536">Auf einen Blick</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/strategie/strategie" data-drupal-link-system-path="node/1076">Unsere Strategie</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/strategie/unsere-marke" data-drupal-link-system-path="node/1376">Unsere Marke</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/pharmaceuticals/pharmaceuticals-division" data-drupal-link-system-path="node/51">Pharmaceuticals</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/consumer-health/consumer-health-division" data-drupal-link-system-path="node/1686">Consumer Health</a>
+                  </li>
+                      <li class="menu-item has-child menu-item--expanded">
+          <a href="/de/crop-science/division-crop-science" data-drupal-link-system-path="node/256">Crop Science</a>
+                                    <ul class="menu  menu-level-2">
+                          <li class="menu-item">
+          <a href="/de/crop-science/division-crop-science" data-drupal-link-system-path="node/256">Die Zukunft der Landwirtschaft gestalten</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/crop-science/commitment-fuer-die-zukunft-der-landwirtschaft" data-drupal-link-system-path="node/946">Unsere Commitments</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/crop-science/crop-science-innovationen" data-drupal-link-system-path="node/1646">Innovation</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/crop-science/mitarbeiter-bei-crop-science" data-drupal-link-system-path="node/971">Mitarbeiter</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/crop-science/produkte-von-crop-science" data-drupal-link-system-path="node/976">Produkte</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/crop-science/lieferanten-fuer-crop-science" data-drupal-link-system-path="node/981">Lieferanten</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/crop-science/kontakt-crop-science" data-drupal-link-system-path="node/1106">Kontakt</a>
+                  </li>
+          </ul>
+  
+                  </li>
+          </ul>
+  
+                  </li>
+                      <li class="menu-item has-child menu-item--expanded">
+          <a href="/de/commitments/unsere-werte" data-drupal-link-system-path="node/956">Unsere Commitments</a>
+                                    <ul class="menu  menu-level-1">
+                          <li class="menu-item">
+          <a href="/de/commitments/unsere-werte" data-drupal-link-system-path="node/956">Unsere Werte</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/commitments/inklusion-und-diversity-bei-bayer" data-drupal-link-system-path="node/4361">Inklusion und Vielfalt</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/commitments/hoehere-massstaebe-bei-transparenz-und-nachhaltigkeit" data-drupal-link-system-path="node/56">HГ¶here MaГџstГ¤be</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/commitments/transparenz" data-drupal-link-system-path="node/1351">Transparenz</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/commitments/politische-grundsaetze-und-positionen" data-drupal-link-system-path="node/1356">Politisches Engagement</a>
+                  </li>
+          </ul>
+  
+                  </li>
+                      <li class="menu-item has-child menu-item--expanded">
+          <a href="/de/stories/gesellschaftliche-herausforderungen-und-unsere-loesungen" data-drupal-link-system-path="node/1016">Gesellschaftliche Herausforderungen</a>
+                                    <ul class="menu  menu-level-1">
+                          <li class="menu-item">
+          <a href="/de/stories/gesellschaftliche-herausforderungen-und-unsere-loesungen" data-drupal-link-system-path="node/1016">Unser Beitrag fГјr ein besseres Leben</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/stories/digital-farming-das-intelligente-feld" data-drupal-link-system-path="node/1331">Das intelligente Feld</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/stories/volkskrankheit-allergie-symptome" data-drupal-link-system-path="node/1336">Volkskrankheit Allergie</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/stories/herzinfarkt-behandeln-und-vorbeugen" data-drupal-link-system-path="node/1341">FГјr das Herz</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/stories/fit-im-alter" data-drupal-link-system-path="node/1346">Fit im Alter</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/stories/landwirtschaft-im-klimawandel" data-drupal-link-system-path="node/1506">Dem Wetter trotzen</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/stories/nachhaltige-landwirtschaft-fuer-die-zukunft" data-drupal-link-system-path="node/1511">Schrumpfende landwirtschaftliche NutzflГ¤che</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/stories/dengue-und-andere-tropenkrankheiten" data-drupal-link-system-path="node/1251">Leben mit Dengue</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/stories/landwirtschaft-und-ernaehrung-der-zukunft" data-drupal-link-system-path="node/1516">Landwirtschaft und ErnГ¤hrung der Zukunft</a>
+                  </li>
+          </ul>
+  
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/arbeiten-bei-bayer" data-drupal-link-system-path="node/1056">Mitarbeiter bei Bayer</a>
+                  </li>
+                      <li class="menu-item has-child menu-item--expanded">
+          <a href="/de/weltweit/bayer-in-aller-welt" data-drupal-link-system-path="node/1036">Bayer in aller Welt</a>
+                                    <ul class="menu  menu-level-1">
+                          <li class="menu-item">
+          <a href="/de/weltweit/bayer-in-aller-welt" data-drupal-link-system-path="node/1036">Гњbersicht</a>
+                  </li>
+                      <li class="menu-item has-child menu-item--expanded">
+          <a href="/de/weltweit/europa-nahost-afrika" data-drupal-link-system-path="node/2286">Europa, Nahost &amp; Afrika</a>
+                                    <ul class="menu  menu-level-2">
+                          <li class="menu-item">
+          <a href="/de/weltweit/deutsche-standorte" data-drupal-link-system-path="node/1391">Deutsche Standorte</a>
+                  </li>
+          </ul>
+  
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/weltweit/nordamerika" data-drupal-link-system-path="node/2341">Nordamerika</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/weltweit/asien-pazifik" data-drupal-link-system-path="node/4331">Asia/Pacific</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/weltweit/lateinamerika" data-drupal-link-system-path="node/5476">Lateinamerika</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/weltweit/bayer-in-aller-welt" data-drupal-link-system-path="node/1036">Websites weltweit</a>
+                  </li>
+          </ul>
+  
+                  </li>
+                      <li class="menu-item has-child menu-item--expanded">
+          <a href="/de/einkauf" data-drupal-link-system-path="node/1271">Einkauf</a>
+                                    <ul class="menu  menu-level-1">
+                          <li class="menu-item">
+          <a href="/de/einkauf" data-drupal-link-system-path="node/1271">Einkauf bei Bayer</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/node/1381" data-drupal-link-system-path="node/1381">Procurement Talent Brokering</a>
+                  </li>
+                      <li class="menu-item has-child menu-item--expanded">
+          <a href="/de/einkauf/unser-ansatz" data-drupal-link-system-path="node/1546">Nachhaltigkeit im Einkauf</a>
+                                    <ul class="menu  menu-level-2">
+                          <li class="menu-item">
+          <a href="/de/einkauf/unser-ansatz" data-drupal-link-system-path="node/1546">Unser Ansatz</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/einkauf/lieferanten-verhaltenskodex" data-drupal-link-system-path="node/1541">Verhaltenskodex fГјr Lieferanten</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/einkauf/industrie-initiativen" data-drupal-link-system-path="node/1596">Industrie-Initiativen</a>
+                  </li>
+          </ul>
+  
+                  </li>
+                      <li class="menu-item has-child menu-item--expanded">
+          <a href="/de/einkauf/einkaufsbedingungen" data-drupal-link-system-path="node/1116">Informationen fГјr Lieferanten</a>
+                                    <ul class="menu  menu-level-2">
+                          <li class="menu-item">
+          <a href="/de/node/1656" data-drupal-link-system-path="node/1656"> Monsanto-Akquisition</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/einkauf/einkaufsbedingungen" data-drupal-link-system-path="node/1116">Einkaufsbedingungen</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/einkauf/rechnungsstellung" data-drupal-link-system-path="node/1396">Rechnungsstellung</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/einkauf/downloads-und-links-zu-einkauf" data-drupal-link-system-path="node/1066">Downloads &amp; Links</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/node/1601" data-drupal-link-system-path="node/1601">Lieferantentag</a>
+                  </li>
+          </ul>
+  
+                  </li>
+          </ul>
+  
+                  </li>
+                      <li class="menu-item has-child menu-item--expanded">
+          <a href="/de/corporate-compliance/corporate-compliance-policy" data-drupal-link-system-path="node/1226">Corporate Compliance</a>
+                                    <ul class="menu  menu-level-1">
+                          <li class="menu-item">
+          <a href="/de/corporate-compliance/corporate-compliance-policy" data-drupal-link-system-path="node/1226">Policy</a>
+                  </li>
+                      <li class="menu-item has-child menu-item--expanded">
+          <a href="/de/corporate-compliance/zahlungen-medizinische-fachkreise" data-drupal-link-system-path="node/2521">Zuwendungen an medizinische Fachkreise</a>
+                                    <ul class="menu  menu-level-2">
+                          <li class="menu-item">
+          <a href="/de/corporate-compliance/zahlungen-medizinische-fachkreise" data-drupal-link-system-path="node/2521">Verpflichtung</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/corporate-compliance/zusammenarbeit-mit-aerzten" data-drupal-link-system-path="node/2216">Zusammenarbeit mit Г„rzten</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/corporate-compliance/efpia-transparenzkodex" data-drupal-link-system-path="node/1801">Fakten zum Transparenzkodex</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/corporate-compliance/datenberichte" data-drupal-link-system-path="node/1386">Datenberichte</a>
+                  </li>
+          </ul>
+  
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/node/1361" data-drupal-link-system-path="node/1361">CPSIA</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/corporate-compliance/informationssicherheit-it-security-cyberkriminalitaet" data-drupal-link-system-path="node/1221">IT-Sicherheit</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/corporate-compliance/datenschutzhinweise-fuer-ausgewaehlte-verarbeitungstaetigkeiten" data-drupal-link-system-path="node/2611">Datenschutzhinweise fГјr ausgewГ¤hlte VerarbeitungstГ¤tigkeiten</a>
+                  </li>
+          </ul>
+  
+                  </li>
+                      <li class="menu-item has-child menu-item--expanded">
+          <a href="/de/corporate-governance" data-drupal-link-system-path="node/1786">Corporate Governance</a>
+                                    <ul class="menu  menu-level-1">
+                          <li class="menu-item">
+          <a href="/de/corporate-governance" data-drupal-link-system-path="node/1786">Гњbersicht</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/corporate-governance/arbeitsweise-des-vorstands" data-drupal-link-system-path="node/1126">Arbeitsweise des Vorstands</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/corporate-governance/aufsichtsrat" data-drupal-link-system-path="node/1641">Aufsichtsrat</a>
+                  </li>
+                      <li class="menu-item">
+          <a href="/de/corporate-governance/meldepflichtige-wertpapiergeschaefte" data-drupal-link-system-path="node/671">ManagersвЂ

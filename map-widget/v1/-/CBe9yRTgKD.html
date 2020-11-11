@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base target="_parent" />
+        <title>map frame</title>
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+        <link rel="alternate icon" type="image/svg+xml" href="data:;base64,iVBORw0KGgo=" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+    <body>
+        <style nonce="">.map-container {position: absolute;top: 0;left: 0;bottom: 0;right: 0;overflow: hidden;}</style>
+        <a href="https:&#x2F;&#x2F;yandex.ru&#x2F;maps&#x2F;56&#x2F;chelyabinsk&#x2F;category&#x2F;hotel&#x2F;" target="_blank">Р“РѕСЃС‚РёРЅРёС†Р°</a>
+        <a href="https:&#x2F;&#x2F;yandex.ru&#x2F;maps&#x2F;org&#x2F;radisson_blu_hotel_chelyabinsk&#x2F;1201673884&#x2F;" target="_blank">Radisson Blu Hotel, Chelyabinsk</a>
+        <div class="map-container"></div>
+        <script src="https://api-maps.yandex.ru/2.1.74/?ns=ym&amp;coordorder=longlat&amp;counter_prefix=mapframe&amp;csp=true&amp;csp[version]=2.1&amp;mode=release&amp;lang=ru_RU" type="text/javascript"></script>
+        <script src="/map-widget/v1/app/all.js?v=app" type="text/javascript"></script>
+        <script type="text/javascript">
+            ym.modules
+                .define('mf.hosts', function (provide) {
+                    provide({"maps":"https://yandex.ru/maps/","mapsapi":"https://api-maps.yandex.ru/","widget":"https://api-maps.yandex.ru/services/constructor/","search":"https://api-maps.yandex.ru/services/search/","assetPath":"/map-widget/v1/app/","route":"https://api-maps.yandex.ru/services/route/"});
+                })
+                .define('mf.ua', function (provide) {
+                    provide({"BrowserEngine":"Unknown","BrowserName":"Unknown","OSFamily":"Unknown","isBrowser":false,"isMobile":false,"isTouch":false});
+                })
+                .define('mf.env', function (provide) {
+                    provide({"apiVersion":"2.1.74","tld":"ru","token":"2b30822363d9506ff9437a9b4b582394","lang":"ru","apiLocale":"ru_RU","yametrika":{"id":[44120344]}});
+                })
+                .define('mf.query', ['mf.util.parseParams'], function (provide, parseParams) {
+                    provide(parseParams('mode=search&ll=61.379539%2C55.166788&z=17&text=%D0%B3.%20%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%A2%D1%80%D1%83%D0%B4%D0%B0%2C%20179%2C%20%D0%9E%D1%82%D0%B5%D0%BB%D1%8C%20Radisson%20Blu%2C%20%D0%B7%D0%B0%D0%BB%20Galaxy%20Hall.&sll=61.379539%2C55.166899&sspn=0.014398%2C0.004459&sctx=ZAAAAAgCEAAaKAoSCQX4bvPGBUBAEU5FKowtZEtAEhIJFxBaD18m4D8RBwd7E0NyxD8iBAABAgMoBTABOO74u43bpY2C%2BQFADEgBVfyqWD9YAGoCcnVwAA%3D%3D&ol=biz&oid=1201673884&center%5B0%5D=61.379539&center%5B1%5D=55.166788&zoom=17'));
+                })
+                .define('mf.preloadedMap', function (provide) {
+                    provide();
+                });
+            ym.ready(function () {
+                ym.modules.require(['mf.main']).fail(console.error);
+            }, console.error);
+        </script>
+    </body>
+</html>

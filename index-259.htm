@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"1dcb002328",applicationID:"294029613"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<meta property="og:site_name" content="Alcon.com" />
+<link rel="shortlink" href="https://www.alcon.com/" />
+<link rel="shortcut icon" href="/themes/custom/bedrock/images/favicon/favicon.ico" />
+<link rel="canonical" href="https://www.alcon.com/" />
+<meta name="description" content="Our mission is to provide innovative vision products that enhance quality of life by helping people see better. From vision research to eye health, learn more at Alcon.com." />
+<link rel="icon" sizes="16x16" href="/themes/custom/bedrock/images/favicon/favicon-16x16.png" />
+<meta property="og:url" content="https://www.alcon.com/node/4026" />
+<meta property="og:title" content="Alcon Official Site: Developing Innovative Eye Care Treatments | Alcon.com" />
+<link rel="icon" sizes="32x32" href="/themes/custom/bedrock/images/favicon/favicon-32x32.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/bedrock/images/favicon/apple-touch-icon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<link rel="manifest" href="/themes/custom/bedrock/images/favicon/site.webmanifest" />
+<meta name="msapplication-config" content="/themes/custom/bedrock/images/favicon/browserconfig.xml" />
+<meta name="msapplication-square150x150logo" content="/themes/custom/bedrock/images/favicon/mstile-150x150.png" />
+<meta name="msapplication-square310x310logo" content="/themes/custom/bedrock/images/favicon/mstile-310x310.png" />
+<meta name="msapplication-square70x70logo" content="/themes/custom/bedrock/images/favicon/mstile-70x70.png" />
+<meta name="msapplication-wide310x150logo" content="/themes/custom/bedrock/images/favicon/mstile-310x150.png" />
+<meta name="msapplication-tilecolor" content="#da532c" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<link rel="alternate" hreflang="en" href="https://www.alcon.com/node/4026" />
+<link rel="revision" href="https://www.alcon.com/node/4026" />
+
+    <title>Alcon Official Site: Developing Innovative Eye Care Treatments | Alcon.com</title>
+    <link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/ajax-progress.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/align.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/autocomplete-loading.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/fieldgroup.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/container-inline.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/clearfix.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/details.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/hidden.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/item-list.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/js.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/nowrap.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/position-container.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/progress.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/reset-appearance.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/resize.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/sticky-header.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-counter.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-counters.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-general-info.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tabledrag.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tablesort.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tree-child.module.css?qizjls" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/extlink.css?qizjls" />
+<link rel="stylesheet" media="all" href="/modules/contrib/paragraphs/css/paragraphs.unpublished.css?qizjls" />
+<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" />
+<link rel="stylesheet" media="all" href="/themes/custom/bedrock/css/main.css?qizjls" />
+
+    
+<!--[if lte IE 8]>
+<script src="/core/assets/vendor/html5shiv/html5shiv.min.js?v=3.7.3"></script>
+<![endif]-->
+<script src="/themes/custom/bedrock/js/main.es6.js?v=8.8.8" type="module"></script>
+<script src="/themes/custom/bedrock/js/vendors~main.es5.js?v=8.8.8" nomodule="nomodule"></script>
+<script src="/themes/custom/bedrock/js/main.es5.js?v=8.8.8" nomodule="nomodule"></script>
+<script src="/themes/custom/bedrock/js/parallax.min.js?v=8.8.8"></script>
+
+
+      <!-- META SECTION -->
+      <link rel="mask-icon" href="/themes/custom/bedrock/images/favicon/safari-pinned-tab.svg" color="#143489">
+  </head>
+  <body itemscope itemtype="https://schema.org/WebPage" class="path--node body-sidebars-none frontpage nodetype--paragraphs_page logged-out">
+    <a href="#main" class="c-link c-link--skip">
+     Go to main content. Press Shift+? for keyboard-shortcuts.
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div  class="page-standard" id="pg__c">
+
+  <!-- ______________________ BRANDING _______________________ -->
+
+            <div class="region region-branding">
+    <div id="block-mainnav" data-block-plugin-id="block_content:f95443a0-ef99-47b1-abff-7f4fdadeb5f4" class="block block-block-content block-block-contentf95443a0-ef99-47b1-abff-7f4fdadeb5f4">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><header class="c-page-header c-page-header--alcon no-show-external" data-toggle-class="c-page-header--nav-visible">
+	<div class="c-page-header__max-width-wrap o-wrap o-wrap--max-width-content o-wrap--padding-side-default">
+
+		<div class="c-page-header__logo-wrap">
+			<div class="c-logo c-logo--motif-alcon" itemscope itemtype="http://schema.org/Organization">
+				<a href="/" class="c-logo__link" itemprop="url">
+					<svg class="c-logo__image">
+						<use xlink:href="/themes/custom/bedrock/images/spritemap.svg#sprite-logo-alcon"></use>
+					</svg>
+					<span class="c-logo__text u-visually-hidden" itemprop="name">Alcon Company</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="c-page-header__side-wrap o-wrap__padding-side-default">
+
+			<div class="c-page-header__toggle-wrap c-page-header__toggle-wrap--open">
+				<nav class="c-toggle" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+					<button type="button" class="c-toggle__link c-circle-button" data-js="toggle" data-toggle-target=".c-page-header">
+						<span class="c-circle-button__icon-wrap">
+							<svg class="c-circle-button__icon o-svg-icon">
+								<use xlink:href="/themes/custom/bedrock/images/spritemap.svg#sprite-menu"></use>
+							</svg>
+						</span>
+						<span class="c-circle-button__text" itemprop="name">Menu</span>
+					</button>
+
+				</nav>
+			</div>
+
+			<div id="c-page-header__nav-wrap" class="c-page-header__nav-wrap">
+
+				<div class=" c-page-header__toggle-wrap c-page-header__toggle-wrap--close">
+					<nav class="c-toggle" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+						<button type="button" class="c-toggle__link c-circle-button" data-js="toggle" data-toggle-target=".c-page-header">
+							<span class="c-circle-button__icon-wrap">
+								<svg class="c-circle-button__icon o-svg-icon">
+									<use xlink:href="/themes/custom/bedrock/images/spritemap.svg#sprite-close"></use>
+								</svg>
+							</span>
+							<span class="c-circle-button__text" itemprop="name">Close</span>
+						</button>
+					</nav>
+				</div>
+
+				<div class="c-page-header__utility-nav-wrap">
+					<nav class="c-utility-nav" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+						<a href="/international-site-directory" class="c-utility-nav__link c-circle-button" itemprop="url">
+							<span class="c-circle-button__icon-wrap">
+								<svg class="c-circle-button__icon o-svg-icon">
+									<use xlink:href="/themes/custom/bedrock/images/spritemap.svg#sprite-globe"></use>
+								</svg>
+							</span>
+							<span class="c-circle-button__text" itemprop="name">Location</span>
+						</a>
+						<a href="https://www.myalcon.com/" class="c-utility-nav__link c-circle-button" itemprop="url">
+							<span class="c-circle-button__icon-wrap">
+								<svg class="c-circle-button__icon o-svg-icon">
+									<use xlink:href="/themes/custom/bedrock/images/spritemap.svg#sprite-user"></use>
+								</svg>
+							</span>
+							<span class="c-circle-button__text" itemprop="name">MyAlcon</span>
+						</a>
+						<a href="/search/node" class="c-utility-nav__link c-circle-button" itemprop="url">
+							<span class="c-circle-button__icon-wrap">
+								<svg class="c-circle-button__icon o-svg-icon">
+									<use xlink:href="/themes/custom/bedrock/images/spritemap.svg#sprite-search"></use>
+								</svg>
+							</span>
+							<span class="c-circle-button__text" itemprop="name">Search</span>
+						</a>
+					</nav>
+				</div>
+
+				<div class="c-page-header__main-nav-wrap">
+					<nav class="c-main-nav" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+						<ul class="c-main-nav__list o-list--plain">
+							
+							<li class="c-main-nav__item">
+								<a href="https://new.myalcon.com/home/" class="c-main-nav__link" itemprop="url">
+									<span class="c-main-nav__text" itemprop="name">Patients</span>
+								</a>
+							</li>
+							<li class="c-main-nav__item c-main-nav__dropdown">
+								<div class="c-main-nav__link c-main-nav__link--dropdown">
+									<span class="c-main-nav__text" itemprop="name">Eye Care Professionals</span>
+								</div>
+								<ul class="c-main-nav__list c-main-nav__list--sub o-list o-list--plain">
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="https://new.myalcon.com/professional/" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Eye Care Professionals</span>
+										</a>
+									</li>
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="https://professional.myalcon.com/covid19-resource-center" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">U.S. COVID-19 Resource Center</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="c-main-nav__item c-main-nav__dropdown">
+								<div class="c-main-nav__link c-main-nav__link--dropdown">
+									<span class="c-main-nav__text" itemprop="name">About Alcon</span>
+								</div>
+								<ul class="c-main-nav__list c-main-nav__list--sub o-list o-list--plain">
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/about-us" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">About Alcon</span>
+										</a>
+									</li>
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/about-us#history" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Our History</span>
+										</a>
+									</li>
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/about-us#business-focus" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Our Business Focus</span>
+										</a>
+									</li>
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="https://investor.alcon.com/home/default.aspx" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Investor Relations</span>
+										</a>
+									</li>
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/about-us#media-releases" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Media Releases</span>
+										</a>
+									</li>
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/about-us/corporate-social-responsibility" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Corporate Social Responsibility</span>
+										</a>
+									</li>
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/about-us/responsible-business-practice" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Responsible Business Practices</span>
+										</a>
+									</li>
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/about-us#leadership" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Leadership</span>
+										</a>
+									</li>
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/about-us/careers" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Careers</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="c-main-nav__item c-main-nav__dropdown">
+								<div class="c-main-nav__link c-main-nav__link--dropdown">
+									<span class="c-main-nav__text" itemprop="name">Innovation</span>
+								</div>
+								<ul class="c-main-nav__list c-main-nav__list--sub o-list o-list--plain">
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/innovation" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Innovation</span>
+										</a>
+									</li>
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/innovation#products" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Sight Matters</span>
+										</a>
+									</li>
+
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/innovation#categories" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Range of Products</span>
+										</a>
+									</li>
+
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/innovation#research" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">A Pipeline for the Future</span>
+										</a>
+									</li>
+
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/innovation#ari" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Alcon Research Institute</span>
+										</a>
+									</li>
+									<li class="c-main-nav__item c-main-nav__item--sub">
+										<a href="/innovation#partnerships" class="c-main-nav__link c-main-nav__link--sub" itemprop="url">
+											<span class="c-main-nav__text" itemprop="name">Partnerships</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</header></div>
+      
+  </div>
+
+  </div>
+
+      <!-- /branding -->
+
+  <!-- ______________________ HEADER _______________________ -->
+
+          </div>
+  <!-- /header -->
+
+  <!-- ______________________ Pre content _______________________ -->
+    
+  <!-- ______________________ MAIN _______________________ -->
+
+  <main id="main" itemprop="mainContentOfPage">
+        <!-- /sidebar-first -->
+
+    <section id="content">
+
+      
+      <div id="content-area">
+          <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>
+<article  role="article" about="/node/4026" class="entity--type-node node node--type-paragraphs-page node--view-mode-full">
+
+  
+  <div class="content">
+    
+      <div class="field field--name-field-paragraph field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field field--name-field-paragraph field--type-entity-reference-revisions field--label-hidden field__item">  <div class="paragraph paragraph--type--raw-html-paragraph paragraph--view-mode--default">
+          
+            <div class="field field--name-field-raw-html field--type-text-long field--label-hidden field__item"><style>
+@media (min-width: 769px) {
+.c-page-header--alcon::after {
+    height: 12rem;
+}
+}
+</style>
+<!-- HERO -->
+<div class="c-curve-hero c-curve-hero--size-16-9">
+  <!-- HERO TOP -->
+  <div class="c-curve-hero__top">
+    <div class="c-curve-hero__top-background">
+      <!-- CURVE HERO BACKGROUND VIDEO -->
+<div class="c-curve-hero__video-container">
+				<video autoplay loop muted playsinline>
+					<source src="/sites/g/files/rbvwei496/files/2020-08/Evergreen%20Campaign_whitebg.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+      <!-- END: CURVE HERO BACKGROUND VIDEO -->
+      <!-- CURVE HERO BACKGROUND GRAPHIC -->
+      <!-- END: CURVE HERO BACKGROUND GRAPHIC -->
+    </div>
+  </div><!-- END: HERO TOP -->
+  <!-- HERO BOTTOM - OPTIONAL -->
+  <div class="c-curve-hero__bottom">
+    <div class="c-curve-hero__bottom-content o-wrap--max-width-content o-wrap--padding-side-default">
+      <p class="c-curve-hero__bottom-paragraph o-paragraph o-paragraph--size-hero">
+         We aspire to lead the world in innovating life-changing vision and eye care products because when people see brilliantly, they live brilliantly
+      </p>
+    </div>
+    <div class="c-curve-hero__bottom-background">
+      <!-- CURVE HERO BACKGROUND IMAGE -->
+      <!-- END: CURVE HERO BACKGROUND IMAGE -->
+      <!-- CURVE HERO BACKGROUND GRAPHIC -->
+      <svg class="c-curve-hero__bottom-background-graphic lightshow lightshow--still" viewBox="0 0 1460 410" type="image/svg+xml">
+        <use xlink:href="/themes/custom/bedrock/images/spritemap.svg#sprite-lightshow" class="lightshow-use"></use>
+      </svg>
+      <!-- END: CURVE HERO BACKGROUND GRAPHIC -->
+    </div>
+  </div><!-- END: HERO BOTTOM - OPTIONAL -->
+</div><!-- END: HERO -->
+</div>
+      
+      </div>
+</div>
+              <div class="field field--name-field-paragraph field--type-entity-reference-revisions field--label-hidden field__item">  <div class="paragraph paragraph--type--raw-html-paragraph paragraph--view-mode--default">
+          
+            <div class="field field--name-field-raw-html field--type-text-long field--label-hidden field__item"><div class="o-wrap--max-width-content-wide o-wrap--padding-side-default">
+			<div class="c-banner">
+				<div class="c-banner__people c-banner__s-tiny">
+					<div class="c-banner__person">
+						<div class="c-banner__frame">
+							<a href="/about-us/corporate-social-responsibility#report" class="c-banner__photo-link" style="padding: 0;">
+<img class="c-banner__photo" src="/sites/g/files/rbvwei496/files/2020-07/csr-1.jpg" alt="Alcon Corporate Responsibility" />
+</a>
+						</div>
+						
+					</div>
+				</div>
+				<div class="c-banner__content c-banner__s-medium">
+					<div class="c-banner__headline" style="text-align: center;font-size: 1.675rem;max-width: 35rem;">Alcon Publishes First<br>
+                                        Corporate Responsibility Report</div>
+					<a href="/media-release/alcon-issues-first-corporate-responsibility-report-independent-company" class="c-button c-banner__button  c-button--size-small">Learn more</a>
+				</div>
+				<div class="c-banner__people c-banner__s-tiny">
+					<div class="c-banner__person">
+<a href="/sites/g/files/rbvwei496/files/2020-07/Argyle_ESG_Report_FINAL-publication.pdf" class="c-banner__photo-link" style="padding: 0;">
+						<div class="c-banner__frame">
+							<img class="c-banner__photo" src="/sites/g/files/rbvwei496/files/2020-07/ACR-2.jpg" alt="Alcon 2019 Corporate Responsibility Report" />
+						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+      
+      </div>
+</div>
+              <div class="field field--name-field-paragraph field--type-entity-reference-revisions field--label-hidden field__item"><section class="c-category-pillar c-category-pillar--alcon">
+  <ul class="c-category-pillar__container">
+          <li class="c-category-pillar__item-container">
+        <a href="/innovation#products">
+          <div class="c-category-pillar__item" style="background-image: url('/sites/g/files/rbvwei496/files/2019-04/Sight-large.png')">
+            <div class="c-category-pillar__item-title">Sight</div>
+          </div>
+        </a>
+      </li>
+          <li class="c-category-pillar__item-container">
+        <a href="/innovation#research">
+          <div class="c-category-pillar__item" style="background-image: url('/sites/g/files/rbvwei496/files/2019-04/Inovation-large.png')">
+            <div class="c-category-pillar__item-title">Innovation</div>
+          </div>
+        </a>
+      </li>
+          <li class="c-category-pillar__item-container">
+        <a href="/about-us/corporate-social-responsibility">
+          <div class="c-category-pillar__item" style="background-image: url('/sites/g/files/rbvwei496/files/2019-04/EyeHealth-large.png')">
+            <div class="c-category-pillar__item-title">Eye Health for Everyone</div>
+          </div>
+        </a>
+      </li>
+      </ul>
+</section></div>
+              <div class="field field--name-field-paragraph field--type-entity-reference-revisions field--label-hidden field__item"><section class="c-video-deck c-video-deck--alcon" >
+  <div class="c-video-deck__bg-wrap">
+      </div>
+  <div class="c-video-deck__content-wrap o-wrap--max-width-xlarge o-wrap--padding-side-large">
+    <div class="c-video-deck__video-wrap">
+      <!-- VIDEO DECK -->
+      <div class="c-video">
+        
+
+    <iframe allowFullScreen="true" frameborder="0" height="360" mozAllowFullScreen="true" src="https://embed.ustudio.com/embed/DfNXVDhljjdY/UnArImBpyybH" webkitAllowFullScreen="true" width="640"></iframe>
+    
+      </div>
+    </div>
+    <h2 class="c-video-deck__heading o-heading--size-1" itemprop="headline">
+      
+    </h2>
+    <div class="c-video-deck__text o-paragraph o-paragraph--size-default" itemprop="description">
+      
+    </div>
+      </div>
+</section>
+</div>
+              <div class="field field--name-field-paragraph field--type-entity-reference-revisions field--label-hidden field__item">  <div class="paragraph paragraph--type--raw-html-paragraph paragraph--view-mode--default">
+          
+            <div class="field field--name-field-raw-html field--type-text-long field--label-hidden field__item"><div class="c-careers-deck">
+<div class="c-careers-deck__bg-wrap"><img alt="Transparent background-image" class="c-careers-deck__bgimg e-image--object-fit" src="/sites/g/files/rbvwei496/files/2019-03/careers.png" /></div>
+
+<div class="c-careers-deck__content-wrap o-wrap--max-width-xlarge o-wrap--padding-side-default">
+<h2 class="c-careers-deck__heading o-heading--size-2" itemprop="headline">Get a Career at Alcon</h2>
+
+<p class="c-careers-deck__text o-paragraph o-paragraph--size-default" itemprop="description">A job at Alcon offers an opportunity to change the world for the better.<br />
+Explore your opportunities.</p>
+<a class="c-careers-deck__button c-button c-button--theme-dark" href="/about-us/careers" itemprop="url"><span class="c-button__text">CAREERS AT ALCON</span> </a>
+
+<div class="c-careers-deck__floating-wrap"><img alt="Floating image" class="c-careers-deck__floating-img e-image--object-fit" src="/sites/g/files/rbvwei496/files/2019-03/careers-phone.png" /></div>
+</div>
+</div>
+</div>
+      
+      </div>
+</div>
+          </div>
+  
+  </div>
+
+<!-- /content -->
+
+  
+  
+  
+</article>
+<!-- /article #node -->
+
+  </div>
+
+      </div>
+
+      
+
+    </section>
+    <!-- /content-inner /content -->
+
+        <!-- /sidebar-first -->
+
+  </main>
+  <!-- /main -->
+
+  <!-- ______________________ Post content _______________________ -->
+
+      <!-- ______________________ FOOTER _______________________ -->
+
+          <div class="region region-footer">
+    <div id="block-alconjobsearch-2" data-block-plugin-id="alcon_job_search" class="block block-alcon-jobs block-alcon-job-search">
+  
+    
+      
+  </div>
+<div id="block-footer" data-block-plugin-id="block_content:991e3387-dc8b-428f-bcb0-88a6cc388a0e" class="block block-block-content block-block-content991e3387-dc8b-428f-bcb0-88a6cc388a0e">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><footer class="c-alcon-footer no-show-external">
+    <div class="o-wrap o-wrap--max-width-large o-wrap--padding-side-default">
+      <div class="c-alcon-footer__nav-wrap">
+        <nav class="c-alcon-footer__nav" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+          <a href="/contact-us" class="c-alcon-footer__nav-link" itemprop="url">
+            <span class="c-alcon-footer__nav-text" itemprop="name">Contact us</span>
+          </a>
+        </nav>
+      </div>
+      <div class="c-alcon-footer__social-wrap">
+        <ul class="c-alcon-footer__social-list">
+          <li class="c-alcon-footer__social-item">
+            <a href="https://www.facebook.com/AlconEyeCare/" title="Facebook" class="c-alcon-footer__social-link" target="_blank">
+              <svg class="c-alcon-footer__social-image">
+                <use xlink:href="/themes/custom/bedrock/images/spritemap.svg#sprite-facebook-circled"></use>
+              </svg>
+              <span class="c-alcon-footer__social-text u-visually-hidden">
+                Facebook
+              </span>
+            </a>
+          </li>
+          <li class="c-alcon-footer__social-item">
+            <a href="https://www.linkedin.com/company/alcon/" title="LinkedIn" class="c-alcon-footer__social-link" target="_blank">
+              <svg class="c-alcon-footer__social-image">
+                <use xlink:href="/themes/custom/bedrock/images/spritemap.svg#sprite-linkedin-circled"></use>
+              </svg>
+              <span class="c-alcon-footer__social-text u-visually-hidden">
+                LinkedIn
+              </span>
+            </a>
+          </li>
+          <li class="c-alcon-footer__social-item">
+            <a href="https://www.youtube.com/channel/UCN_Zj_knZ6q85W8Oxl1nTUA/videos?disable_polymer=1" title="YouTube" class="c-alcon-footer__social-link">
+              <svg class="c-alcon-footer__social-image">
+                <use xlink:href="/themes/custom/bedrock/images/spritemap.svg#sprite-youtube-circled"></use>
+              </svg>
+              <span class="c-alcon-footer__social-text u-visually-hidden">
+                YouTube
+              </span>
+            </a>
+          </li>
+          <li class="c-alcon-footer__social-item">
+            <a href="https://www.instagram.com/alconlife" title="Instagram" class="c-alcon-footer__social-link">
+              <svg class="c-alcon-footer__social-image">
+                <use xlink:href="/themes/custom/bedrock/images/spritemap.svg#sprite-instagram-circled"></use>
+              </svg>
+              <span class="c-alcon-footer__social-text u-visually-hidden">
+                Instagram
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="c-alcon-footer__tagline-wrap">
+        <p class="c-alcon-footer__tagline o-heading o-heading--size-2">
+          See Brilliantly
+        </p>
+      </div>
+      <div class="c-alcon-footer__legal-wrap">
+        <nav class="c-alcon-footer__legal-nav" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+          <ul class="c-alcon-footer__legal-list">
+            <li class="c-alcon-footer__legal-item">
+              <a href="/privacy-policy" class="c-alcon-footer__legal-link" itemprop="url">
+                <span class="c-alcon-footer__legal-text" itemprop="name">Privacy Policy</span></a>
+            </li>
+            <li class="c-alcon-footer__legal-item">
+              <a href="/cookie-notice" class="c-alcon-footer__legal-link" itemprop="url">
+                <span class="c-alcon-footer__legal-text" itemprop="name">Cookie Notice</span></a>
+            </li>
+            <li class="c-alcon-footer__legal-item">
+              <a href="/terms-use" class="c-alcon-footer__legal-link" itemprop="url">
+                <span class="c-alcon-footer__legal-text" itemprop="name">Terms of Use</span></a>
+            </li>
+              <li class="c-alcon-footer__legal-item">
+                <a href="https://investor.alcon.com/" class="c-alcon-footer__legal-link" itemprop="url">
+                  <span class="c-alcon-footer__legal-text" itemprop="name">Investors</span></a>
+              </li>
+              <li class="c-alcon-footer__legal-item">
+                <a href="/site-map" class="c-alcon-footer__legal-link" itemprop="url">
+                  <span class="c-alcon-footer__legal-text" itemprop="name">Site Map</span></a>
+              </li>
+<li class="c-alcon-footer__legal-item" style="border-left: none;">
+              <a href="/california-resident-privacy-request" class="c-alcon-footer__legal-link" itemprop="url">
+                <span class="c-alcon-footer__legal-text" itemprop="name">California Resident? Do Not Sell My Personal Information</span></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <svg class="lightshow c-alcon-footer__lightshow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 410">
+      <circle class="lightshow__item" cx="30" cy="30" r="30"/>
+      <circle class="lightshow__item lightshow__item--animation lightshow__item--delay9" cx="240" cy="30" r="30"/>
+      <circle class="lightshow__item" cx="380" cy="30" r="30"/>
+      <circle class="lightshow__item lightshow__item--animation lightshow__item--delay8" cx="1150" cy="30" r="30"/>
+      <circle class="lightshow__item" cx="1430" cy="30" r="30"/>
+      <circle class="lightshow__item lightshow__item--animation lightshow__item--delay6" cx="30" cy="100" r="30"/>
+      <circle class="lightshow__item" cx="380" cy="100" r="30"/>
+      <circle class="lightshow__item lightshow__item--animation lightshow__item--delay10" cx="730" cy="100" r="30"/>
+      <circle class="lightshow__item" cx="1010" cy="100" r="30"/>
+      <circle class="lightshow__item" cx="1220" cy="100" r="30"/>
+      <circle class="lightshow__item lightshow__item--animation lightshow__item--delay3" cx="1430" cy="100" r="30"/>
+      <g>
+        <circle class="lightshow__item" cx="30" cy="170" r="30"/>
+        <circle class="lightshow__item" cx="100" cy="170" r="30"/>
+        <circle class="lightshow__item" cx="240" cy="170" r="30"/>
+        <circle class="lightshow__item" cx="380" cy="170" r="30"/>
+        <circle class="lightshow__item" cx="450" cy="170" r="30"/>
+        <circle class="lightshow__item lightshow__item--animation lightshow__item--delay5" cx="520" cy="170" r="30"/>
+        <circle class="lightshow__item" cx="660" cy="170" r="30"/>
+        <circle class="lightshow__item" cx="800" cy="170" r="30"/>
+        <circle class="lightshow__item" cx="870" cy="170" r="30"/>
+        <circle class="lightshow__item lightshow__item--animation lightshow__item--delay11" cx="1010" cy="170" r="30"/>
+        <circle class="lightshow__item" cx="1360" cy="170" r="30"/>
+      </g>
+      <g>
+        <circle class="lightshow__item" cx="30" cy="240" r="30"/>
+        <circle class="lightshow__item" cx="170" cy="240" r="30"/>
+        <circle class="lightshow__item lightshow__item--animation lightshow__item--delay2" cx="240" cy="240" r="30"/>
+        <circle class="lightshow__item" cx="310" cy="240" r="30"/>
+        <circle class="lightshow__item" cx="590" cy="240" r="30"/>
+        <circle class="lightshow__item" cx="660" cy="240" r="30"/>
+        <circle class="lightshow__item" cx="730" cy="240" r="30"/>
+        <circle class="lightshow__item lightshow__item--animation lightshow__item--delay1" cx="800" cy="240" r="30"/>
+        <circle class="lightshow__item" cx="940" cy="240" r="30"/>
+        <circle class="lightshow__item" cx="1080" cy="240" r="30"/>
+        <circle class="lightshow__item lightshow__item--animation lightshow__item--delay12" cx="1220" cy="240" r="30"/>
+        <circle class="lightshow__item" cx="1360" cy="240" r="30"/>
+        <circle class="lightshow__item" cx="1430" cy="240" r="30"/>
+      </g>
+      <g>
+        <circle class="lightshow__item lightshow__item--animation lightshow__item--delay13" cx="100" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="170" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="310" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="380" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="520" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="660" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="730" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="800" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="940" cy="310" r="30"/>
+        <circle class="lightshow__item lightshow__item--animation lightshow__item--delay4" cx="1010" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="1080" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="1220" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="1290" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="1360" cy="310" r="30"/>
+        <circle class="lightshow__item" cx="1430" cy="310" r="30"/>
+      </g>
+      <g>
+        <circle class="lightshow__item" cx="30" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="100" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="170" cy="380" r="30"/>
+        <circle class="lightshow__item lightshow__item--animation lightshow__item--delay14" cx="240" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="310" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="380" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="450" cy="380" r="30"/>
+        <circle class="lightshow__item lightshow__item--animation lightshow__item--delay7" cx="520" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="590" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="660" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="730" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="800" cy="380" r="30"/>
+        <circle class="lightshow__item lightshow__item--animation lightshow__item--delay15" cx="870" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="940" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="1010" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="1080" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="1150" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="1220" cy="380" r="30"/>
+        <circle class="lightshow__item lightshow__item--animation lightshow__item--delay16" cx="1290" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="1360" cy="380" r="30"/>
+        <circle class="lightshow__item" cx="1430" cy="380" r="30"/>
+      </g>
+    </svg>
+</footer></div>
+      
+  </div>
+
+  </div>
+
+    <!-- /page -->
+</div>
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/4026","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"tealiumiq":{"tealiumiq":{"utagurl":"\/\/tags.tiqcdn.com\/utag\/alcon\/alcon\/prod\/utag.js","async":true,"utagData":{"page_url":"https:\/\/www.alcon.com\/node\/4026","page_name":"Home"}}},"data":{"extlink":{"extTarget":false,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"0","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"0","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":null}},"novartis_job_search":{"default_country":"All","default_division":"Alcon","default_function":"All","default_keyword":"","us_disclaimer_enabled":"1","us_disclaimer_text":"|Career Opportunities in Ireland, UK, North America, Central America, South America, Caribbean, Asia, Australia and New Zealand"},"ajax":[],"user":{"uid":0,"permissionsHash":"3c558495a0efb698bda53abea11ee80157cbc7e5a3cec523dd83f90f61ad4d9a"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.4.1"></script>
+<script src="/core/assets/vendor/jquery/jquery-htmlprefilter-3.5.0.js?v=3.4.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.0"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=8.8.8"></script>
+<script src="/core/misc/drupal.js?v=8.8.8"></script>
+<script src="/core/misc/drupal.init.js?v=8.8.8"></script>
+<script src="/modules/contrib/tealiumiq/js/tealiumiq_async.js?v=1.x"></script>
+<script src="/modules/contrib/extlink/extlink.js?v=8.8.8"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"1dcb002328","applicationID":"294029613","transactionName":"bl0DbUVVDRZXU0cPVlcXIFpDXQwLGUBSAVxmWwBaX1E=","queueTime":0,"applicationTime":39,"atts":"QhoAGw1PHhg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

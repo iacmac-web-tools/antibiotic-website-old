@@ -1,0 +1,59 @@
+BODY.main	{background-color: #F4F4F4; font-family: Verdana,Helvetica,Arial,Sans-Serif; font-size: 10pt; color: #004750; margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; }
+
+HR {color:#888888; margin-top: 0px; margin-bottom: 0px;}
+
+blockquote {margin-top: 1px; margin-bottom: 1px;}
+
+H1 {font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16pt; font-weight: bold; color: #042A90; text-align: center; letter-spacing: 2px;}
+
+H2 {font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 14pt; font-weight: bold; color: #042A90; text-align: center; letter-spacing: 1px;}
+
+H3 {font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 13pt; font-weight: bold; color: #042A90; text-align: center; letter-spacing: 1px;}
+
+H4 {font-family: Verdana,Arial,Helvetica,Sans-Serif; font-size: 13pt; font-weight: bold; color: #042A90; letter-spacing: 1px; text-align: left; margin-top: 20px; margin-bottom: 12px; margin-left: 2px;}
+
+H5 {font-family: Arial,Verdana,Helvetica,Sans-Serif; font-size: 13pt; font-weight: bold; color: #042A90; letter-spacing: 1px; text-align: left; margin-top: 24px; margin-bottom: 12px; margin-left: 2px;}
+
+H6 {font-family: Arial,Verdana,Helvetica,Sans-Serif; font-size: 11pt; font-weight: bold; color: #004566; letter-spacing: 1px; text-align: left; margin-top: 24px; margin-bottom: 4px; margin-left: 2px;}
+
+P	{font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 10pt; color: #004750; line-height: 125%; margin-top: 10px; margin-bottom: 3px; margin-left: 2px; margin-right: 3px; }
+
+P.left {text-align: left;}
+P.center {text-align: center;}
+P.right {text-align: right;}
+P.c8 {font-size: 8pt; text-align: center; margin-top: 3px;}
+P.t8 {font-size: 8pt; text-align: left; margin-top: 3px;}
+
+P.head1 {font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 13pt; font-weight: bold; color: #042A90; text-align: center; letter-spacing: 1px; margin-top: 5px; margin-bottom: 5px;}
+
+P.head2 {font-family: Arial,Verdana,Helvetica,Sans-Serif; font-size: 11pt; font-weight: bold; color: #042A90; text-align: center; letter-spacing: 1px; margin-top: 5px; margin-bottom: 2px;}
+
+.t8 {font-size: 8pt;}
+.t9 {font-size: 9pt;}
+.lt {font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16pt; font-weight: bold; color: #042A90; text-align: center;}
+.dr {font-family: Arial,Verdana,Helvetica,Sans-Serif; font-size: 11pt; font-weight: bold; color: #042A90;}
+
+OL {font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 10pt; color: #004750; margin-top: 5px; margin-left: 15px;}
+
+UL {font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 10pt; color: #004750; margin-top: 5px; margin-left: 15px;}
+
+LI {margin-top: 8px; margin-bottom: 1px; margin-left: 15px;}
+
+TD {font-family: Verdana,Helvetica,Arial,Sans-Serif; font-size: 10pt; color: #004750; background-color: #F4F4F4; vertical-align: top;}
+
+TD.border {background-color: #00848C;}
+
+TD.small {font-family: Verdana,Helvetica,Arial,Sans-Serif; font-size: 8pt;}
+
+TD.cl {background-color: #F4F4F4;}
+TD.cc {text-align: center; background-color: #F4F4F4;}
+
+TD.j {font-family: Arial,Verdana,Helvetica,Sans-Serif; font-size: 12pt; text-align: center;}
+
+TH {font-family: Verdana,Helvetica,Arial,Sans-Serif; font-size: 10pt; font-style: normal; font-weight: normal; color: #004750; background-color: #B8DBDB; }
+
+A:link {color: #0066CC; text-decoration: none;}
+A:visited {color: #0066DD; text-decoration: none;}
+A:hover {color: #0033FF; text-decoration: underline;}
+
+

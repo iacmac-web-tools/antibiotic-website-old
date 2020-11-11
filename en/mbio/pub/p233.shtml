@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>M. EDELSTEIN, M. SUVOROV, I. EDELSTEIN, R. KOZLOV - Differentiation of SHV-Type beta-lactamases by REF-SSCP Analysis of Entire BLAshv Gene Sequence</title>
+<meta name="description" content="Differentiation of SHV-Type beta-lactamases by REF-SSCP Analysis of Entire BLAshv Gene Sequence">
+<meta name="keywords" content="differentiation, SHV-Type, beta-lactamases, REF-SSCP,  bla, SHV, gene sequence, M. Edelstein, M. Suvorov, I. Edelstein, R. Kozlov">
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript"> <!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/en/inc/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../inc/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 10px; margin-left: 10px; text-align: justify;}
+LI {margin-top: 8px; margin-left: 15px; text-align: justify;}
+H4 {margin-left: 10px;}
+H5 {font-size: 11pt}
+H5.l {text-align: left;}
+</style>
+</head>
+
+<body class="main">
+
+<table width="750" cellpadding="0" border="0" cellspacing="5">
+<tr>
+  <th width="150" valign="top">
+
+  <table border="0" cellpadding="5" cellspacing="0" width="100%">
+    <tr><td>
+<p class="m10"><b>Molecular Microbiology</b></p>
+<hr size="1" style="color: #D0C0AC;">
+<p class="m8">Selected poster presentations</p>
+
+
+    </td></tr>
+  </table>
+  
+
+  </th><td valign="top">
+<!--navigation-->
+<map name="TopBtnEn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Previous page" title="Previous page">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Next page" title="Next page">
+<area shape="circle" coords="77,15,15" href="../../index-1.htm" alt="Main page" title="Main page">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="E-Mail" title="E-Mail">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../../rus/images/buttons/topline.gif);" width="98%" height="32"><img src="../../../rus/images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../../rus/images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Navigation" usemap="#TopBtnEn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+
+<h2><a name="top"></a>10<sup>th</sup> European Congress of Clinical Microbiology and Infectious Diseases</h2>
+<h5><i>28-31 May, 2000, Stockholm, Sweden</i><br>
+<b>Poster # P233:10/4</b></h5>
+
+<h1>Differentiation of SHV-Type <font face="Symbol">b</font>-lactamases<br>by REF-SSCP Analysis of<br>Entire <i>bla</i><sub>SHV</sub> Gene Sequence</h1>
+
+<h5><i>M.&nbsp;EDELSTEIN, M.&nbsp;SUVOROV, I.&nbsp;EDELSTEIN, R.&nbsp;KOZLOV</i></h5>
+
+<h5 class="l"><i>Institute of Antimicrobial Chemotherapy, Smolensk, Russia</i></h5>
+
+<p style="text-align:right; font-size:8pt"><a href="../../pdfs/p233.pdf">The PDF format poster (1.37 mb) <img src="../../images/pdf.gif" width="16" height="16" alt="" border="0"></a></p>
+
+<hr size="1">
+
+<a name="1"></a><br>
+<h2>BACKGROUND AND OBJECTIVES</h2>
+
+<p>The SHV-type <font face="Symbol">b</font>-lactamases are often found in <i>Enterobacteriaceae</i> species and are almost ubiquitous in strains of <i>Klebsiella pneumoniae</i>. SHV-1 is the commonest enzyme that confers resistance to anti-gram-negative-bacterium penicillins and narrow-spectrum cephalosporins in klebsiellae. Other members of the SHV-family are mostly distinguished by their extended substrate specificity that include newer cephalosporins and monobactams. The detection and differentiation of SHV extended-spectrum <font face="Symbol">b</font>-lactamases (SHV-ESBLs) produced by clinical isolates is, therefore, an important issue of epidemiologic surveys.</p>
+
+<p>Although, isoelectric focusing (IEF) has become traditional for characterisation of <font face="Symbol">b</font>-lactamases, this approach can not distinguish between SHV-1 and several SHV-ESBLs, including SHV-2, SHV-6 and SHV-7, since these enzymes have the same isoelectric point (pI 7.6). More recently two PCR-based techniques have been applied for rapid genetic characterisation of SHV <font face="Symbol">b</font>-lactamases. The method of restriction endonuclease fingerprinting (REF) with <i>Nhe</i> I (reffered to as PCR/<i>Nhe</i> I test) allows for detection of single mutation Gly<sub>238</sub> Ser known to distinguish the majority of SHV-ESBLs from SHV-1 (Nuesch-Inderbinen MT, et al. (1996) Eur J Clin Microbiol Infect Dis, 15, 399-401). The single-strand conformational polymorphism (SSCP) technique permits the detection of different mutations in SHV-variants but has been used for only a fragment of the gene (M'Zali FH, et al. (1996) J Antimicrob Chemother, 37:4, 797-802). We have combined two approaches to develop a REF-SSCP method for analysis of entire bla<sub>SHV</sub> gene sequence.</p>
+
+<a name="2"></a><br>
+<h2>METHODS</h2>
+
+<p><b>Bacterial strains:</b> The six strains carrying the reference bla<sub>SHV</sub> genes were: <i>E.coli</i> J53 (R1010) encoding SHV-1, <i>E.coli</i> J53 (pMG229) encoding SHV-2, <i>E.coli</i> J53 (pUD18) encoding SHV-3, <i>E.coli</i> J53 (pUD21) encoding SHV-4, <i>E.coli</i> J53 (pAFF2) encoding SHV-5 and <i>E.coli</i> J53 producing SHV-6. Clinical strains of <i>K.pneumoniae</i> (39SRH, 41SRH, 85SRH, 87SRH, 98SRH, 101SRH) isolated from ICU patients at the Smolensk Regional Hospital over the period of two years, and expressing a phenotype of resistance consistent with an ESBL-production were also used in this study.</p>
+
+<p><b>Amplification by PCR:</b> Bacterial strains were grown overnight on MacConkey agar at 35<sup>o</sup>C. The DNA was extracted using the InstaGene matrix (BioRad, USA) in accordance with manufacturer’s recommendations. A pair of primers (5’-GCC CGG GTT ATT CTT ATT TGT CGC-3’ and 5’-TCT TTC CGA TGC CGC CGC CAG TCA-3’), previously described by M.T. Nuesch-Inderbinen et al., was used to amplify a 1016-bp fragment that covers the entire bla<sub>SHV</sub> gene sequence. The PCR was set up in Ready-To-Go PCR Bead format (Amersham Pharmacia Biotech, USA) providing the following composition of reaction mixture: 10mM Tris-HCl (pH 9.0), 50mM KCl, 1.5mM MgCl<sub>2</sub> , 200&micro;M of each dNTP and 1.5U of Taq-polymerase after addition of primers (12.5 pmoles each), 10&micro;l of template DNA and water to a final volume of 25&micro;l. The amplification was carried out in PTC-200 thermocycler (MJ Research, USA) with initial denaturation step at 94<sup>o</sup>C for 2 min followed by 30 cycles of denaturation at 94<sup>o</sup>C for 30 sec, annealing at 69<sup>o</sup>C for 30 sec and elongation at 72<sup>o</sup>C for 45 sec. The final elongation step was extended to 3 min at 72<sup>o</sup>C.</p>
+
+<p><b>REF-SSCP analysis:</b> Eight microliters of the amplification product was simultaneously digested with 3 U <i>BsaO</i> I and 3 U <i>Nhe</i> I restriction endonucleases (Promega, USA) in a Multi-Core Buffer (25mM Tris acetate (pH 7.8), 100mM KCl, 10mM magnesium acetate and 1mM DTT) for 2 h at 37<sup>o</sup>C and 1 h at 50<sup>o</sup>C.</p>
+
+<p>The digested amplicon was then denatured to yield single-stranded (ss) DNA fragments by mixing 2&micro;l of digestion product with a double volume of denaturing solution (98% formamide, 2% glycerol, 0.05% bromphenol blue, 5M urea
+and 10mM EDTA ). The mixture was then heated at 98<sup>o</sup>C for 10-min and rapidly cooled down to 0<sup>o</sup>C in a thermocycler. The ssDNA fragments were separated on a PhastSystem (Pharmacia Biotech, Sweden) using a PhastGels homogeneous 12.5 and Native Buffer Strips. The program had three steps as follows:</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="600"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr>
+	<td class="cl">Pre-run Step 1:</td>
+	<td class="cc">400V</td>
+	<td class="cc">5mA</td>
+	<td class="cc">2W</td>
+	<td class="cc">15<sup>o</sup>C</td>
+	<td class="cc">70Vh</td>
+</tr>
+<tr>
+	<td class="cl">Sample loading Step 2:</td>
+	<td class="cc">400V</td>
+	<td class="cc">1mA</td>
+	<td class="cc">2W</td>
+	<td class="cc">15<sup>o</sup>C</td>
+	<td class="cc">2Vh</td>
+</tr>
+<tr>
+	<td class="cl">Separation Step 3:</td>
+	<td class="cc">400V</td>
+	<td class="cc">5mA</td>
+	<td class="cc">2W</td>
+	<td class="cc">15<sup>o</sup>C</td>
+	<td class="cc">200Vh</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p>The gels were stained with the PhastGel DNA Silver Staining Kit (Pharmacia Biotech, Sweden) as recommended by manufacturer.</p>
+
+<a name="3"></a><br>
+<h2>RESULTS</h2>
+
+<p>Using the SHV-specific primers and described conditions of PCR a single DNA fragment of expected size (1016-bp) was amplified from all the strains used in this study. Upon REF-SSCP analysis each of the six representative <i>E.coli</i> strains carrying the genes for known SHV <font face="Symbol">b</font>-lactamases produced a unique electrophoretic profile (<a href="#fig_3">Fig. 3a</a>). Two informative components of REF-SSCP analysis contributed to the successful differentiation:</p>
+
+<ol>
+	<li value="1">the gain of a single <i>Nhe</i> I recognition site (G CTAGC) in the genes for <font face="Symbol">b</font>-lactamases SHV-2 through SHV-5
+(<i>informative restriction component</i>)</li>
+	<li value="2">the sequence-dependent mobility of <i>BsaO</i> I - <i>Nhe</i> I restriction fragments separated as single-stranded DNA conformers under non-denaturing electrophoresis conditions (<i>SSCP component</i>).</li>
+</ol>
+
+<p>Although, the differential digestion with <i>Nhe</i> I was originally described as a method for detection of SHV-ESBL, the SHV-6 represents an example of naturally found extended-spectrum <font face="Symbol">b</font>-lactamase that can not be detected by this approach (<a href="#fig_1">Fig. 1</a>). It is, therefore, especially important that the SHV-6 was distinguished from SHV-1 by REF-SSCP analysis. While the <i>Nhe</i> I allowed the detection of most frequently occurred
+transition at the Gly(Ser)-238 codon, the <i>BsaO</i> I endonuclease was used to divide the ~1-kb amplification product into the four fragments suitable for analysis by SSCP (Fig. <a href="#fig_1">1</a>, <a href="#fig_2">2</a>). The uniform distribution of the key point mutations among these fragments facilitated the distinction of the reference bla<sub>SHV</sub> genes by SSCP.</p>
+
+<p>&nbsp;</p>
+<a name="fig_1"></a>
+<p><b>Figure 1:</b> Diagram of a 1016-bp PCR product, showing the positions of <i>BsaO</i> I and <i>Nhe</i> I restriction sites, and point mutations responsible for the key aminoacid substitutions in SHV <font face="Symbol">b</font>-lactamases.</p>
+<br><br>
+<div align="center"><img src="images/p233r1.gif" width="776" height="263" alt="Diagram of a 1016-bp PCR product, showing the positions of BsaO I and Nhe I restriction sites, and point mutations responsible for the key aminoacid substitutions in SHV b-lactamases." border="0"></div>
+<br><br>
+
+<a name="fig_2"></a>
+<div align="center"><img src="images/p233r2.gif" width="396" height="375" alt="Agarose gel electrophoresis of blaSHV-1 and blaSHV-2 amplification products and their restriction enzyme digests." border="0"></div><br>
+<p><b>Figure 2:</b> Agarose gel electrophoresis of bla<sub>SHV-1</sub> and bla<sub>SHV-2</sub> amplification products and their restriction enzyme digests.<br><br>
+M - molecular weight marker (pUC18-<i>Hae</i> III)<br> 
+Lanes 1-2: undigested PCR-products;<br>
+Lanes 3-4: differential digestion with <i>Nhe</i> I;<br>
+Lanes 5-6: digestion with <i>BsaO</i> I;<br>
+Lanes 7-8: double digestion with <i>BsaO</i> I and <i>Nhe</i> I.<br>
+Odd lanes - bla<sub>SHV-1</sub>, even lanes - bla<sub>SHV-2</sub>.</p>
+<br>
+
+<p>To test the applicability of this technique for identification of unknown <font face="Symbol">b</font>-lactamases, clinical isolates of <i>K.pneumoniae</i> were also included in this study. Phenotypically, these isolates produced an ESBL (as
+suggested from high MICs of aminothiazolyl cephalosporins and results of disk synergy test between ceftazidime and clavulanic acid). The type of ESBL could not be defined on the bases of isoelectric focusing since all isolates and their respective transconjugants revealed the same profile two <font face="Symbol">b</font>-lactamases focused at pI 5.4 and 7.6. REF-SSCP analysis of 5 isolates showed a pattern of bands identical to the reference strain encoding SHV-2 (<a href="#fig_3">Fig. 3b</a>). One profile indicated the presence of bla<sub>SHV-1</sub> and bla<sub>SHV-2</sub> in a single isolate (<i>K.pneumoniae</i> 87SRH). Because of the widespread occurrence of <i>K.pneumoniae</i> strains harbouring more than one b-lactamase the ability of REF-SSCP to identify an SHV-ESBL in the presence of TEM-1 and, more importantly, SHV-1 penicillinase should be especially noted.</p>
+
+<p>&nbsp;</p>
+<a name="fig_3"></a>
+<p><b>Figure 3:</b> REF-SSCP profiles of the genes encoding known SHV variants (<b>A</b>) and previously uncharacterised <font face="Symbol">b</font>-lactamases produced by clinical isolates of <i>K.pneumoniae</i> (<b>B</b>).</p>
+<p style="text-align:center"><img src="images/p233r3.gif" width="745" height="407" alt="" border="0"></p>
+<p>&nbsp;</p>
+
+<a name="4"></a><br>
+<h2>CONCLUSION</h2>
+
+<p>Our study has demonstrated that the REF-SSCP technique permits rapid and sensitive detection of mutations in the genes for SHV-ESBLs and can be applied to the characterisation of unknown <font face="Symbol">b</font>-lactamases in clinical isolates.</p>
+
+<a name="5"></a><br>
+<h2>ACKNOWLEGEMENT</h2>
+
+<p> We are very grateful to Prof. George A. Jacoby (Lachey Clinic, Burlington, MA, USA) and Dr. Luis Martinez Martinez (School of Medicine, University of Seville, Spain) for providing the strains with known SHV-type <font face="Symbol">b</font>-lactamases.</p>
+
+<hr size="1">
+
+<br>
+<!-- begin footer -->
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tr>
+  <td style="text-align: left; vertical-align: bottom;" align="left" valign="bottom"><div class="t8">&copy; 2000-2006 IAC SSMA &middot; E-mail: <a href="mailto:website@antibiotic.ru" title="Send e-mail">website&#64;antibiotic&#46;ru</a></div></td>
+  <td colspan="2" valign="top" align="right"><font size="1"><!-- SpyLOG v2 f:0211 --><script language="javascript">
+u="u607.38.spylog.com";d=document;nv=navigator;na=nv.appName;p=1;
+bv=Math.round(parseFloat(nv.appVersion)*100);
+n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random();z="p="+p+"&rn="+rn;y="";
+y+="<a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+
+"&r="+escape(d.referrer)+"&pg="+escape(window.location.href)+"' border=0  width=88 height=31  alt='SpyLOG'>";
+y+="</a>"; d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<a href="../../../index-15.htm?f=3&p=1" target="_blank">
+<img src="../../../digits.png?p=1" alt='SpyLOG' border='0' width="88" height="31">
+</a></noscript><script language="javascript1.2"><!--
+if(!n) { d.write("--"+">"); }//--></script><!-- SpyLOG  --></font></td>
+</tr>
+</table>
+<!-- end of footer -->
+
+  </td></tr>
+</table>
+</body>
+</html>

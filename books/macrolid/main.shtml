@@ -1,0 +1,266 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Страчунский Л.С., Козлов С.Н. Макролиды в современной клинической практике</title>
+<meta name="description" content="Страчунский Л.С., Козлов С.Н. Макролиды в современной клинической практике.">
+<meta name="keywords" content="Страчунский, Козлов, макролиды">
+<link rel="StyleSheet" type="text/css" href="include/mcl.css">
+<style type="text/css">
+P	{text-align: left; margin-top: 5px; margin-bottom: 2px; margin-left: 3px; margin-right: 3px;}
+UL {margin-top: 2px; margin-bottom: 3px; margin-left: 25px;}
+LI {margin-top: 3px; margin-left: 10px;}
+</style>
+</head>
+
+<body class="main">
+
+<h3>СОДЕРЖАНИЕ</h3>
+
+<p><a href="mcld00.shtml"><b>Предисловие</b></a></p>
+<p><a href="mclabbr.shtml"><b>Используемые сокращения</b></a></p>
+<p><a href="mcld01.shtml"><b>Введение</b></a></p>
+<br>
+<p>Раздел I.&nbsp;<a href="mcld02.shtml"><b>ОБЩАЯ ХАРАКТЕРИСТИКА МАКРОЛИДОВ</b></a></p>
+<ul>
+  <p><a href="mcld02.shtml">Классификация</a></p>
+  <p><a href="mcld02.shtml#p2">Механизм и характер действия</a></p>
+  <p><a href="mcld02.shtml#p3">Факторы, влияющие на антимикробную активность</a></p>
+  <p><a href="mcld02.shtml#p4">Определение чувствительности микрофлоры к макролидам</a></p>
+  <p><a href="mcld02.shtml#p5">Спектр антимикробной активности</a></p>
+  <p><a href="mcld02.shtml#p6">Активность против пиогенных кокков</a></p>
+  <p><a href="mcld02.shtml#p7">Активность против грамотрицательных бактерий</a></p>
+  <p><a href="mcld02.shtml#p8">Активность против внутриклеточных возбудителей</a></p>
+  <p><a href="mcld02.shtml#p9">Активность против простейших и атипичных микобактерий</a></p>
+  <p><a href="mcld02.shtml#p10">Активность против другой микрофлоры</a></p>
+  
+  <p><a href="mcld03.shtml">Резистентность микрофлоры к макролидам</a></p>
+  <ul>
+    <p><a href="mcld03.shtml">Механизмы резистентности</a></p>
+    <p><a href="mcld03.shtml#p0_2">Эпидемиология резистентности</a></p>
+  </ul>
+  <p><a href="mcld03.shtml#p1">Постантибиотический эффект</a></p>
+  <p><a href="mcld03.shtml#p2">Влияние на бактериальные биопленки</a></p>
+  <p><a href="mcld03.shtml#p3">Влияние на функцию нейтрофилов</a></p>
+  <p><a href="mcld03.shtml#p4">Неантибактериальная активность макролидов</a></p>
+  <ul>
+    <p><a href="mcld03.shtml#p4_1">Противовоспалительное действие</a></p>
+	  <p><a href="mcld03.shtml#p4_2">Прокинетический эффект</a></p>
+  </ul>
+  <p><a href="mcld03.shtml#p5">Фармакокинетика</a></p>
+  <ul>
+    <p><a href="mcld03.shtml#p5_1">Общая схема</a></p>
+  	<p><a href="mcld03.shtml#p5_2">Всасывание</a></p>
+	  <p><a href="mcld03.shtml#p5_3">Концентрация в крови</a></p>
+  	<p><a href="mcld03.shtml#p5_4">Связывание с белками</a></p>
+	  <p><a href="mcld03.shtml#p5_5">Распределение</a></p>
+  	<p><a href="mcld03.shtml#p5_6">Метаболизм и экскреция</a></p>
+  </ul>
+  <p><a href="mcld04.shtml">Нежелательные реакции</a></p>
+  <p><a href="mcld04.shtml#p1">Лекарственные взаимодействия</a></p>
+  <p><a href="mcld05.shtml">Клиническое применение</a></p>
+  <ul>
+    <p><a href="mcld05.shtml#p5_1">Инфекции дыхательных путей</a></p>
+    <p><a href="mcld05.shtml#p5_2">Инфекции кожи и мягких тканей</a></p>
+	  <p><a href="mcld05.shtml#p5_3">Инфекции, передающиеся половым путем</a></p>
+  	<p><a href="mcld05.shtml#p5_4">Кампилобактериоз</a></p>
+	  <p><a href="mcld05.shtml#p5_5">Криптоспоридиоз</a></p>
+  	<p><a href="mcld05.shtml#p5_6">Токсоплазмоз</a></p>
+	  <p><a href="mcld05.shtml#p5_7">Микобактериоз</a></p>
+  	<p><a href="mcld05.shtml#p5_8">Клещевой боррелиоз</a></p>
+	  <p><a href="mcld05.shtml#p5_9">Ородентальные инфекции</a></p>
+  	<p><a href="mcld05.shtml#p5_10">Геликобактериоз</a></p>
+	  <p><a href="mcld05.shtml#p5_11">Атеросклероз</a></p>
+  	<p><a href="mcld05.shtml#p5_12">Бронхиальная астма</a></p>
+	  <p><a href="mcld05.shtml#p5_13">Саркоидоз</a></p>
+  	<p><a href="mcld05.shtml#p5_14">Профилактическое применение</a></p>
+  </ul>
+</ul>
+<br>
+
+<p>II.&nbsp;<a href="mcld06.shtml"><b>ХАРАКТЕРИСТИКА ОТДЕЛЬНЫХ ПРЕПАРАТОВ</b></a><br></p>
+
+<ul>
+  <p><a href="mcld06.shtml#p6_1"><b>14-членные макролиды</b></a></p>
+  <p><a href="mcld06.shtml#p6_2"><i>Эритромицин</i></a></p>
+  <ul>
+    <p><a href="mcld06.shtml#p61_1">Спектр антимикробной активности</a></p>
+	  <p><a href="mcld06.shtml#p62_2">Постантибиотический эффект</a></p>
+  	<p><a href="mcld06.shtml#p63_3">Фармакокинетика</a></p>
+	  <p><a href="mcld06.shtml#p64_4">Нежелательные реакции</a></p>
+  	<p><a href="mcld06.shtml#p65_5">Лекарственные взаимодействия</a></p>
+	  <p><a href="mcld06.shtml#p66_6">Клиническое применение</a></p>
+  	<p><a href="mcld06.shtml#p67_7">Противопоказания и меры предосторожности</a></p>
+	  <p><a href="mcld06.shtml#p68_8">Формы выпуска и дозировка</a></p>
+  	<p><a href="mcld06.shtml#p69_9">Новые препараты эритромицина</a></p>
+	  <p><a href="mcld06.shtml#p610_10">Резюме</a></p>
+  </ul><br>
+  <p><a href="mcld07.shtml"><i>Олеандомицин</i></a></p>
+  <ul>
+    <p><a href="mcld07.shtml#p7_1">Антимикробная активность</a></p>
+	  <p><a href="mcld07.shtml#p7_2">Фармакокинетика</a></p>
+  	<p><a href="mcld07.shtml#p7_3">Нежелательные реакции</a></p>
+	  <p><a href="mcld07.shtml#p7_4">Лекарственные взаимодействия</a></p>
+  	<p><a href="mcld07.shtml#p7_5">Клиническое применение</a></p>
+	  <p><a href="mcld07.shtml#p7_6">Формы выпуска и дозировка</a></p>
+  	<p><a href="mcld07.shtml#p7_7">Резюме</a></p>
+  </ul><br>
+  <p><a href="mcld07.shtml#p71"><i>Рокситромицин</i></a></p>
+  <ul>
+    <p><a href="mcld07.shtml#p71_1">Особенности антибактериального действия</a></p>
+  	<p><a href="mcld07.shtml#p71_2">Спектр активности</a></p>
+	  <p><a href="mcld07.shtml#p71_3">Резистентность микрофлоры</a></p>
+  	<p><a href="mcld07.shtml#p71_4">Постантибиотический эффект</a></p>
+	  <p><a href="mcld07.shtml#p71_5">Влияние на нейтрофилы</a></p>
+  	<p><a href="mcld07.shtml#p71_6">Противовоспалительное действие</a></p>
+	  <p><a href="mcld07.shtml#p71_7">Фармакокинетика</a></p>
+  	<p><a href="mcld07.shtml#p71_8">Нежелательные реакции</a></p>
+	  <p><a href="mcld07.shtml#p71_9">Лекарственные взаимодействия</a></p>
+  	<p><a href="mcld07.shtml#p71_10">Клиническое применение</a></p>
+	  <p><a href="mcld07.shtml#p71_11">Противопоказания и меры предосторожности</a></p>
+  	<p><a href="mcld07.shtml#p71_12">Формы выпуска и дозировка</a></p>
+	  <p><a href="mcld07.shtml#p71_13">Резюме</a></p>
+  </ul><br>
+  <p><a href="mcld08.shtml"><i>Кларитромицин</i></a></p>
+  <ul>
+    <p><a href="mcld08.shtml#p8_1">Особенности антибактериального действия</a></p>
+  	<p><a href="mcld08.shtml#p8_2">Спектр активности</a></p>
+	  <p><a href="mcld08.shtml#p8_3">Постантибиотический эффект</a></p>
+  	<p><a href="mcld08.shtml#p8_4">Иммунотропная активность</a></p>
+	  <p><a href="mcld08.shtml#p8_5">Противовоспалительное действие</a></p>
+  	<p><a href="mcld08.shtml#p8_6">Фармакокинетика</a></p>
+	  <p><a href="mcld08.shtml#p8_7">Нежелательные реакции</a></p>
+  	<p><a href="mcld08.shtml#p8_8">Лекарственные взаимодействия</a></p>
+	  <p><a href="mcld08.shtml#p8_9">Клиническое применение</a></p>
+  	<p><a href="mcld08.shtml#p8_10">Противопоказания и меры предосторожности</a></p>
+	  <p><a href="mcld08.shtml#p8_11">Формы выпуска и дозировка</a></p>
+  	<p><a href="mcld08.shtml#p8_12">Резюме</a></p>
+  </ul><br>
+  <p><a href="mcld09.shtml"><i>Диритромицин</i></a></p>
+  <ul>
+    <p><a href="mcld09.shtml#p9_1">Особенности антибактериального действия</a></p>
+  	<p><a href="mcld09.shtml#p9_2">Спектр активности</a></p>
+	  <p><a href="mcld09.shtml#p9_3">Иммунотропная активность</a></p>
+  	<p><a href="mcld09.shtml#p9_4">Фармакокинетика</a></p>
+	  <p><a href="mcld09.shtml#p9_5">Нежелательные реакции</a></p>
+  	<p><a href="mcld09.shtml#p9_6">Лекарственные взаимодействия</a></p>
+	  <p><a href="mcld09.shtml#p9_7">Клиническое применение</a></p>
+  	<p><a href="mcld09.shtml#p9_8">Противопоказания и меры предосторожности</a></p>
+	  <p><a href="mcld09.shtml#p9_9">Формы выпуска и дозировка</a></p>
+  	<p><a href="mcld09.shtml#p9_10">Резюме</a></p>
+  </ul><br>
+  <p><a href="mcld09.shtml#91"><i>Флуритромицин</i></a></p>
+  <p><a href="mcld09.shtml#92"><i>Кетолиды</i></a></p><br>
+  
+  <p><a href="mcld10.shtml"><b>15-членные препараты - азалиды</b></a></p>
+  <p><a href="mcld10.shtml#10"><i>Азитромицин</i></a></p>
+  <ul>
+    <p><a href="mcld10.shtml#p10_1">Особенности антибактериального действия</a></p>
+  	<p><a href="mcld10.shtml#p10_2">Спектр активности</a></p>
+	  <p><a href="mcld10.shtml#p10_3">Постантибиотический эффект</a></p>
+  	<p><a href="mcld10.shtml#p10_4">Влияние на нейтрофилы</a></p>
+	  <p><a href="mcld10.shtml#p10_5">Фармакокинетика</a></p>
+  	<p><a href="mcld10.shtml#p10_6">Нежелательные реакции</a></p>
+	  <p><a href="mcld10.shtml#p10_7">Лекарственные взаимодействия</a></p>
+  	<p><a href="mcld10.shtml#p10_8">Клиническое применение</a></p>
+	  <p><a href="mcld10.shtml#p10_9">Противопоказания и меры предосторожности</a></p>
+  	<p><a href="mcld10.shtml#p10_10">Формы выпуска и дозировка</a></p>
+	  <p><a href="mcld10.shtml#p10_11">Резюме</a></p>
+  </ul><br>
+  
+  <p><a href="mcld11.shtml"><b>16-членные макролиды</b></a></p>
+  <p><a href="mcld11.shtml#10"><i>Спирамицин</i></a></p>
+  <ul>
+    <p><a href="mcld11.shtml#p11_1">Особенности антибактериального действия</a></p>
+  	<p><a href="mcld11.shtml#p11_2">Спектр активности</a></p>
+	  <p><a href="mcld11.shtml#p11_3">&quot;Парадокс спирамицина&quot;</a></p>
+  	<p><a href="mcld11.shtml#p11_4">Резистентность микрофлоры</a></p>
+	  <p><a href="mcld11.shtml#p11_5">Фармакокинетика</a></p>
+  	<p><a href="mcld11.shtml#p11_6">Нежелательные реакции</a></p>
+	  <p><a href="mcld11.shtml#p11_7">Лекарственные взаимодействия</a></p>
+  	<p><a href="mcld11.shtml#p11_8">Клиническое применение</a></p>
+	  <p><a href="mcld11.shtml#p11_9">Противопоказания и меры предосторожности</a></p>
+  	<p><a href="mcld11.shtml#p11_10">Формы выпуска и дозировка</a></p>
+	  <p><a href="mcld11.shtml#p11_11">Резюме</a></p>
+  </ul><br>
+  
+  <p><a href="mcld12.shtml"><i>Мидекамицин, мидекамицина ацетат</i></a></p>
+  <ul>
+    <p><a href="mcld12.shtml#p12_1">Спектр активности</a></p>
+  	<p><a href="mcld12.shtml#p12_2">Постантибиотический эффект</a></p>
+	  <p><a href="mcld12.shtml#p12_3">Иммунотропное действие</a></p>
+  	<p><a href="mcld12.shtml#p12_4">Фармакокинетика</a></p>
+	  <p><a href="mcld12.shtml#p12_5">Нежелательные реакции</a></p>
+  	<p><a href="mcld12.shtml#p12_6">Лекарственные взаимодействия</a></p>
+	  <p><a href="mcld12.shtml#p12_7">Клиническое применение</a></p>
+  	<p><a href="mcld12.shtml#p12_8">Противопоказания и меры предосторожности</a></p>
+	  <p><a href="mcld12.shtml#p12_9">Формы выпуска и дозировка</a></p>
+  	<p><a href="mcld12.shtml#p12_10">Резюме</a></p>
+  </ul><br>
+  
+  <p><a href="mcld12.shtml#121"><i>Джосамицин</i></a></p>
+  <ul>
+    <p><a href="mcld12.shtml#p121_1">Спектр активности</a></p>
+  	<p><a href="mcld12.shtml#p121_2">Резистентность микрофлоры</a></p>
+	  <p><a href="mcld12.shtml#p121_3">Влияние на нейтрофилы</a></p>
+  	<p><a href="mcld12.shtml#p121_4">Фармакокинетика</a></p>
+	  <p><a href="mcld12.shtml#p121_5">Нежелательные реакции</a></p>
+  	<p><a href="mcld12.shtml#p121_6">Лекарственные взаимодействия</a></p>
+	  <p><a href="mcld12.shtml#p121_7">Клиническое применение</a></p>
+  	<p><a href="mcld12.shtml#p121_8">Противопоказания и меры предосторожности</a></p>
+	  <p><a href="mcld12.shtml#p121_9">Формы выпуска и дозировка</a></p>
+  	<p><a href="mcld12.shtml#p121_10">Резюме</a></p>
+  </ul>
+  <p><a href="mcld12.shtml#122"><i>Рокитамицин</i></a></p><br>
+</ul>
+
+<p><a href="mcld13.shtml"><b>ЗАКЛЮЧЕНИЕ</b></a></p><br>
+<p><a href="mcld14.shtml"><b>Приложение</b></a></p>
+<ul>
+  <p>&nbsp;I. <a href="mcld14.shtml#p1_1">Коммерческие диски с макролидами</a></p>
+	<p>II. <a href="mcld14.shtml#p1_2">Критерии интерпретации чувствительности</a></p>
+</ul><br>
+
+<p><font style="color: #0066CC;"><b>Список литературы:</b></font>&nbsp;<a href="mcliter1.shtml">[1-160]</a>&nbsp;<a href="mcliter2.shtml">[161-320]</a>&nbsp;<a href="mcliter3.shtml">[321-480]</a>&nbsp;<a href="mcliter4.shtml">[481-643]</a></p><br>
+    
+<p><font style="color: #0066CC;"><b>Предметный указатель</b></font></p>
+<ul>
+  <p>I. <a href="mcpredm1.shtml">Препараты и заболевания:</a> <a href="mcpredm1.shtml">[А-Д]</a>&nbsp;<a href="mcpredm2.shtml">[З-К]</a>&nbsp;<a href="mcpredm3.shtml">[Л-П]</a>&nbsp;<a href="mcpredm4.shtml">[Р-У]</a>&nbsp;<a href="mcpredm5.shtml">[Ф-Я]</a></p>
+</ul>
+
+
+<br><br>
+<hr size="2" noshade="">
+<p class="t8"><b>УДК 616</b></p><br>
+<p class="t8" style="text-align: justify;">В книге представлены современные подходы к клиническому применению макролидов, занимающих одну из ведущих позиций среди антибиотиков, исходя из их микробиологических, фармако-кинетических и фармакодинамических свойств. Рассматривается общая характеристика класса и особенности отдельных препаратов, имеющие наиболее существенное практическое значение. Книга рассчитана на терапевтов, педиатров, оториноларингологов, дерматовенерологов, клинических фармакологов, клинических микробиологов.</p>
+<br>
+<p class="t8"><b>ISBN 5-88590-837-0</b></p>
+<p class="t8">&copy; Л.С. Страчунский, С.Н. Козлов <br>&copy; Смоленская государственная медицинская академия</p>
+<br>
+<!--counters-->
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<tr>
+  <td align="left" valign="bottom" style="vertical-align:bottom;"><font class="t8">&copy; 2000-2007 <a target="_blank" href="../../copyright.php.html">НИИАХ СГМА</a></font></td>
+  <td align="right">
+<!--Rambler 1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../top100.cnt.gif?335834" alt="Rambler's Top100" width="1" height="1" border="0"></a><!--/Rambler 1x1-->
+
+<!--TopList--><a target="_top" href="http://top.list.ru/jump?from=96637"><img src="../../counter-1.gif?id=96637;t=58" border="0" height="31" width="88" alt="TopList"></a><!--/TopList-->
+
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../top100/banner-88x31-rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+
+<br><!--RAX--><script language="JavaScript"><!--
+document.write('<a href="http://www.rax.ru/click" '+
+'target=_blank><img src="http://counter.yadro.ru/hit?t26.11;r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';'+Math.random()+
+'" alt="rax.ru: показано число посетителей за сегодн\я" '+
+'border=0 width=88 height=15></a>')//--></script><!--/RAX-->
+  </td>
+</tr>
+</table>
+<!--/counters-->
+
+
+</body>
+</html>

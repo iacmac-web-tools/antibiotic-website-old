@@ -1,0 +1,164 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Глюкокортикоидные препараты</title>
+<meta name="description" content="Л.С.Страчунский, С.Н.Козлов. Глюкокортикоидные препараты. Методическиое пособие.">
+<meta name="keywords" content="глюкокортикоидные препараты, глюкокортикоиды, Страчунский, Козлов, кортизон, гидрокортизон, преднизолон, преднизон, метилпреднизолон, триамцинолон, дексаметазон, бетаметазон, беклометазон, флунизолид, будезонид, флутиказон, литература">
+<script language="JavaScript1.2">
+<!--
+function btn(ind,picture) {document.images[ind].src=picture;}
+-->
+</script>
+
+<script language="JavaScript">
+<!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/rus/include/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../../include/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 10px; margin-left: 2px; margin-left: 2px; text-align: justify; }
+LI {margin-left: 5px; margin-top: 6px;}
+UL {margin-top: 6px; margin-left: 13px; margin-bottom: 5px;}
+OL {margin-top: 6px; margin-left: 20px;}
+H4 {margin-left: 2px; margin-bottom: 7px;}
+TD.sm {font-size: 8pt; color: #581818; vertical-align: top; line-height: 125%; }
+</style>
+</head>
+<body class="main">
+
+<center>
+<table width="740" cellpadding="0" border="0" cellspacing="0">
+  <tr><td>
+<!--navigation-->
+<map name="TopBtn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Предыдущая страница" title="Предыдущая страница">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Следующая страница" title="Следующая страница">
+<area shape="circle" coords="77,15,15" href="../../../../index.htm" alt="Главная страница сайта" title="Главная страница сайта">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="Написать письмо" title="Написать письмо">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../../images/buttons/topline.gif);" width="98%" height="32"><img src="../../../images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../../images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Навигация" usemap="#TopBtn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+<p class="c"><b>Смоленская государственная медицинская академия<br>
+Кафедра клинической фармакологии и антимикробной химиотерапии</b></p>
+<br>
+<h2>ГЛЮКОКОРТИКОИДНЫЕ ПРЕПАРАТЫ</h2>
+
+<p class="c"><b>методическое пособие</b></p>
+
+<hr size="1">
+<table border="0" cellpadding="5" cellspacing="0" align="center">
+	<tr><td class="sm" rowspan="4" valign="top">
+<a href="index.shtml#sod">Содержание</a></td>
+	</tr><tr><td class="sm" valign="top">
+<a href="01.shtml#g1">Предисловие</a><br>
+<a href="01.shtml#g2">Введение</a><br>
+<a href="01.shtml#g3">Фармакодинамика</a><br>
+<a href="01.shtml#g4">Фармакокинетика</a><br></td>
+  <td class="sm" valign="top">
+<a href="01.shtml#g5">Нежелательные реакции</a><br>
+<a href="01.shtml#g8">Общие показания к назначению</a><br>
+<a href="01.shtml#g9">Противопоказания</a><br>
+<a href="02.shtml#g10">Характеристика препаратов</a><br></td>
+  <td class="sm" valign="top">
+<a href="03.shtml#g11">Принципы длительной терапии</a><br>
+<a href="03.shtml#g12">Хронотерапевтический&nbsp;подход</a><br>
+<a href="03.shtml#g13">Альтернирующая терапия</a><br>
+<a href="03.shtml#g14">Пульс&ndash;терапия</a><br></td></tr>
+	<tr><td class="sm" colspan="2" valign="top">
+<a href="04.shtml#g15">Особенности применения при некоторых заболеваниях</a><br>
+<a href="04.shtml#g16">Особенности назначения у беременных и кормящих</a><br>
+<a href="05.shtml#g17">Местное применение</a><br>
+<a href="05.shtml#g18">Ингаляционное введение</a><br>
+<a href="06.shtml#g20">Интра&#150; и периартикулярное введение</a><br>
+  </td><td class="sm" valign="top">  
+<a href="07.shtml#g21">Применение в дерматологии</a><br>
+<a href="07.shtml#g22">Применение в офтальмологии<br> и оториноларингологии</a><br><br>
+<a href="08.shtml">Список литературы</a><br></td></tr>
+</table>
+<hr size="1">
+
+
+<a name="g23"></a><br>
+<h3>СПИСОК ЛИТЕРАТУРЫ</h3>
+
+<ol>
+<a name="#1"></a><br>
+<li>Cohn D., Tomkins R., Nichols W. Glucocorticoids in the management of vasculitis &#150; a double edged sword? // J. Rheumatol., 1988, 15: 1181-1183.</li>
+<a name="#2"></a><br>
+<li>Recommendations for the prevention and treatment of glucocorticoid-induced osteoporosis. American college of reumatology task force on osteoporosis guidelines // Artritis &amp; Reumatism, 1996, 39:
+1791-1801.</li>
+<a name="#3"></a><br>
+<li>Boumpas D.T., Chrousos G.P., Wilder R.L., Cupps T.R. Glucocorticoid therapy for immune-mediated diseases: basic and clinical correlates // Ann. Int. Med., 1993, 119: 1198-1208.</li>
+<a name="#4"></a><br>
+<li>Avery's Drug Treatment &#150; Principles and practice of clinical pharmacology and therapeutics. 3rd ed. Speight T.M. (Ed.). Manchester etc. ADIS Press. 1987.</li>
+<a name="#5"></a><br>
+<li>Beck R.W., Cleary P.A., Anderson M.M. et al. A randomized, controlled trial of corticosteroids in the treatment of acute optic neuritis // N. Engl. J. Med., 1992, 326: 581-588.</li>
+<a name="#6"></a><br>
+<li>Drugs for acute spinal cord // The Medical Letter, 1993, 35: 72-73.</li>
+<a name="#7"></a><br>
+<li>Насонов Е.Л., Иванова M.M., Панин Д.И. Глюкокортикоиды в ревматологии: опыт использования Солю-Медрола // Клин. фармак. и фармакотер., 1994, 3, 46-49.</li>
+<a name="#8"></a><br>
+<li>Applied Therapeutics: The clinical use of drugs. 6th ed. Young L.Y., Koda-Kimble M.A. (Eds). Vancouver. 1995.</li>
+<a name="#9"></a><br>
+<li>McGovan J.E., Chesney P.J., Crossley K.B. et al. Guidelines for the use of systemic glucocorticosteroids in the management of selected infections //J. Infect. Dis., 1992, 165: 1-13.</li>
+<a name="#10"></a><br>
+<li>Quagliarello V.J., Scheld W.M. Treatment of bacterial miningitis // N. Engl. J. Med., 1997, 336: 708-716.</li>
+<a name="#11"></a><br>
+<li>Hanauer S.B. Inflammatory bowel disease // N. Engl. J. Med., 1996, 334: 841-848.</li>
+<a name="#12"></a><br>
+<li>Sachar D.B. Budesonide for inflammatory disease - is it a magic bullet? // N. Engl. J. Med., 1994, 331: 873-874.</li>
+<a name="#13"></a><br>
+<li>Drazen J.M., Israel E. Treating mild asthma - when are inhaled steroides indicated? // N. Engl. J. Med., 1994, 331: 739-741.</li>
+<a name="#14"></a><br>
+<li>Articular and periarticular corticosteroids injections // Drug Therapeut. Bull., 1995, 33: 67-70.</li>
+<a name="#15"></a><br>
+<li> Caldwell J.R. Intra-articular corticosteroids. Guide to selections and indications for use // Drugs, 1996, 52: 507-514.</li>
+</ol>
+
+<br>
+<!--footer-->
+<table border="0" cellpadding="0" cellspacing="1" width="100%"><tr>
+<td align="left" style="vertical-align:bottom;"><font class="t8">&copy; 2000-2009 <a target="_blank" href="../../../../copyright.php.html">НИИАХ СГМА</a></font></td>
+
+<td colspan="2" align="right"><font size="1">
+<!--Rambler 1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../../../top100.cnt.gif?335834" alt="Rambler's Top100" width="1" height="1" border="0"></a><!--/Rambler 1x1-->
+
+<!--LiveInternet 1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+';i'+escape('Жж'+document.title.substring(0,80))+';'+Math.random()+
+'" width=1 height=1 alt="">')
+//--></script><!--/LiveInternet-->
+
+<!--LiveInternet--><a href="../../../../index-17.htm" target="_blank"><img src="../../../../images/banners/rax.gif" border="0" width="31" height="31" title="liveinternet.ru"></a><!--/LiveInternet-->
+
+<!--TopList--><a href="http://top.list.ru/jump?from=96637" target="_blank"><img src="../../../../counter-3.gif?id=96637;t=55" border="0" height="31" width="88" alt="TopList"></a><!--/TopList-->
+
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../../../top100/banner-88x31-rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+</font>
+</td>
+
+</tr></table>
+<!--/footer-->
+
+<hr size="1">
+  </td></tr>
+</table>
+</center>
+</body>
+</html>

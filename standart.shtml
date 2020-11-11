@@ -1,0 +1,563 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+
+<title>ГНЦК. Информационные листки для пациентов.</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+
+		
+		
+		<script src="scripts/mootools-1.2.1-core-yc.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="inc/menu.js"></script>
+<link href="general.css" type=text/css rel=stylesheet>
+<link href="menu.css" type=text/css rel=stylesheet>
+<link href="gallery.css" type=text/css rel=stylesheet>
+<script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>
+<script type="text/javascript">
+	hs.graphicsDir = 'highslide/graphics/';
+	hs.align = 'center';
+	hs.transitions = ['expand', 'crossfade'];
+	hs.outlineType = 'rounded-white';
+	hs.fadeInOut = true;
+	hs.dimmingOpacity = 0.50;
+
+	// Add the controlbar
+	if (hs.addSlideshow) hs.addSlideshow({
+		//slideshowGroup: 'group1',
+		interval: 5000,
+		repeat: false,
+		useControls: true,
+		fixedControls: false,
+		overlayOptions: {
+			opacity: 1,
+			position: 'top right',
+			hideOnMouseOut: false
+		}
+	});
+</script>
+
+</head>
+<body>
+<center>
+
+<!-- Head -->
+
+<div class="head">
+
+		<script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+	<!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" type=text/css rel=stylesheet> -->
+	
+	<div id="infobardm">
+	<table cellpadding="5" cellspacing="0" width="100%">
+	<tr>
+	<td nowrap="nowrap"><div class="eye">Размер шрифта: <a onclick="dmfunctsizeone();" class="dmchangea1" style="background-color : #D5E8FA;">A</a> <a onclick="dmfunctsizetwo();" class="dmchangea2">A</a> <a onclick="dmfunctsizethree();" class="dmchangea3">A</a></div></td>
+	<td nowrap="nowrap"><div class="eye">Цвет сайта <a onclick="dmcolor1();" class="dmcolor1">Ц</a> <a onclick="dmcolor2();" class="dmcolor2">Ц</a> <a onclick="dmcolor3();" class="dmcolor3">Ц</a></div></td>
+	<td nowrap="nowrap"><div class="eye">Изображения <a onclick="dmdisableimage();" class="dmdisableimage">Выкл.</a> <a onclick="dmenableimage();" class="dmenableimage">Вкл.</a></div></td>
+	<td nowrap="nowrap"><a onclick="dmreset();" class="dmcolor4"><i class="fa fa-eye-slash" aria-hidden="true"></i>обычная версия сайта</a></td>
+	</tr>
+	</table>
+	</div>
+	
+	<div class="edu"><a href="../../sveden/">Сведения об образовательной организации</a></div>
+	
+	<div class="dis"><a href="/standart.shtml" onclick="dmuGostSettings();" id="enableuGost"><span class="sscf-popup" aria-hidden="true">Режим для слабовидящих</span></a></div>
+
+	<div class="rec"><h1>«САЙТ НАХОДИТСЯ НА РЕКОНСТРУКЦИИ ПРИНОСИМ СВОИ ИЗВИНЕНИЯ ЗА ВРЕМЕННЫЕ НЕУДОБСТВА»</h1></div>
+	
+	<div class="logo"><a href="../../"><img src="../../img/logo.gif" width="88" height="70" alt=""></a></div>
+	
+	<div class="name"><h5>Государственный Научный<br>Центр Колопроктологии</h5></div>
+	
+	<div class="name_alt"><h5>Ассоциация Колопроктологов<br>России</h5></div>
+	
+	<div class="logo_alt"><a href="../../assocyaciya_koloproktologov.shtml"><img src="../../img/logo_alt.gif" alt="" width="110" height="70" border="0"></a></div>
+	
+		
+				
+			<ul id="nav">
+				<li class="li_toplevel"><a href="../../" class="menured">На Главную</a></li>
+				<li class="li_toplevel"><a href="#null" class="menublue">О Нас</a>
+					<ul>
+						<li><a href="../../novosti.shtml" class="a_seconglevel">Новости ГНЦК</a></li>
+						<li><a href="../../history.shtml" class="a_seconglevel">История центра</a></li>
+						<li><a href="../../rukovoditel.shtml" class="a_seconglevel">Руководитель</a></li>
+						<li><a href="../../administration.shtml" class="a_seconglevel">Администрация</a></li>
+						<li><a href="../../sotrudniki.shtml" class="a_seconglevel">Сотрудники</a></li>
+
+						<li><a href="../../corrumpere.shtml" class="a_seconglevel">О противодействии коррупции</a></li>
+
+						<li><a href="../../sveden/" class="a_seconglevel">Сведения об образовательной организации</a></li>
+						<li><a href="../../profcom.shtml" class="a_seconglevel">Профсоюзная организация</a></li>
+						<li><a href="../../rekvizity.shtml" class="a_seconglevel">Карточка учета предприятия</a></li>
+						<li><a href="../../our_partners.shtml" class="a_seconglevel">Сотрудничество</a></li>
+
+						<li><a href="../../fz_44.shtml" class="a_seconglevel">ФЗ-44</a></li>
+						<li><a href="../../fz_223.shtml" class="a_seconglevel">ФЗ-223</a></li>
+
+						<li><a href="../../uchetnaja_politika.shtml" class="a_seconglevel">Информация об учетной политике учреждения</a></li>
+
+						<li><a href="http://medical-science.ru/" class="a_seconglevel">Портал «Медицинская наука»</a></li>
+					</ul>
+				</li>
+				<li class="li_toplevel"><a href="#null" class="menugreen">Отделения</a>
+					<ul>
+						<li><a href="../../hospital.shtml" class="a_seconglevel">Поликлиника</a></li>
+						<li><a href="../../endoskopiya.shtml" class="a_seconglevel">Эндоскопия</a></li>
+						<li><a href="../../radiodiagnostics.shtml" class="a_seconglevel">Отдел рентгенодиагностики, компьютерной и магнитно-резонансной томографии</a></li>
+						<li><a href="../../ultrasound.shtml" class="a_seconglevel">Отдел ультразвуковой диагностики</a></li>
+						<li><a href="../../pathophysiology.shtml" class="a_seconglevel">Клиническая патофизиология</a></li>
+						
+						<li><a href="../../biochemical_laboratory.shtml" class="a_seconglevel">Клинико-диагностическая лаборатория</a></li>
+						<li><a href="../../coloproctology.shtml" class="a_seconglevel">Общая колопроктология</a></li>
+						<li><a href="../../laparoscopic_coloproctology.shtml" class="a_seconglevel">Общая и реконструктивная колопроктология</a></li>
+						<li><a href="../../chemotherapy.shtml" class="a_seconglevel">Онкопроктология и кабинет химиотерапии</a></li>
+						<li><a href="../../hirurgiya_obodochnoy_kishki.shtml" class="a_seconglevel">Отдел онкологии и хирургии ободочной кишки</a></li>
+						
+<li><a href="../../rehabilitation.shtml" class="a_seconglevel">Отделение реабилитации</a></li>
+
+<li><a href="../../genetics.shtml" class="a_seconglevel">Отдел лабораторной генетики</a></li>
+
+<li><a href="../../gastroenterologiya.shtml" class="a_seconglevel">Гастроэнтерология</a></li>
+						
+						<li><a href="../../anaesthesiology.shtml" class="a_seconglevel">Анестезиология и реанимация</a></li>
+						<li><a href="../../oper_block.shtml" class="a_seconglevel">Операционный блок</a></li>
+						
+						<li><a href="../../onofkp.shtml" class="a_seconglevel">ОНФКП</a></li>
+						
+						
+						
+						<li><a href="../../patomorphology.shtml" class="a_seconglevel">Лаборатория патоморфологии</a></li>
+						
+						<li><a href="../../microbiology.shtml" class="a_seconglevel">Микробиология</a></li>
+						<li><a href="../../consultant.shtml" class="a_seconglevel">Консультанты</a></li>
+					</ul>
+				</li>
+				<li class="li_toplevel"><a href="#null" class="menufuchsia">Пациентам</a>
+					<ul>
+						<li><a href="../../price.shtml" class="a_seconglevel">Цены</a></li>
+						
+						<li><a href="../../pd.shtml" class="a_seconglevel">Правоустанавливающие документы</a></li>
+						
+						<li><a href="../../information_sheet.shtml" class="a_seconglevel">Информационные листки для пациентов</a></li>
+						
+						<li><a href="../../reference_book.shtml" class="a_seconglevel">Справочник болезней толстой кишки</a></li>
+
+						<li><a href="../../oformlenie_med_dokumentov.shtml" class="a_seconglevel">Оформление медицинской документации</a></li>
+
+						<li><a href="../../video_patient.shtml" class="a_seconglevel">Видео</a></li>
+
+						<li><a href="../../location.shtml" class="a_seconglevel">Как добраться?</a></li>
+						<li><a href="../../faq.shtml" class="a_seconglevel">Часто задаваемые вопросы</a></li>
+						<li><a href="../../otzyvy.shtml" class="a_seconglevel">Книга отзывов</a></li>
+					</ul>
+				</li>
+				<li class="li_toplevel"><a href="#null" class="menudarkblue">Специалистам</a>
+					<ul>
+						
+<li><a href="../../liec.shtml" class="a_seconglevel">ЛНЭК</a></li>						
+<li><a href="../../standart.shtml" class="a_seconglevel">Стандарты медицинской помощи</a></li>
+						<li><a href="../../recommendation.shtml" class="a_seconglevel">Клинические рекомендации</a></li>
+						
+						<li><a href="../../nd.shtml" class="a_seconglevel">Нормативные документы</a></li>
+						
+						<li><a href="../../assocyaciya_koloproktologov.shtml" class="a_seconglevel">Ассоциация Колопроктологов России</a></li>
+						<li><a href="../../zhurnal_koloproktologii.shtml" class="a_seconglevel">Журнал «Колопроктология»</a></li>
+						<li><a href="../../conference.shtml" class="a_seconglevel">Симпозиумы и конгрессы</a></li>
+
+						<li><a href="../../conference_history.shtml" class="a_seconglevel">Архив проведенных симпозиумов и конгрессов</a></li>
+
+						
+						<li><a href="../../department.shtml" class="a_seconglevel">Кафедра колопроктологии РМАПО</a></li>
+						<li><a href="../../dissertation_council.shtml" class="a_seconglevel">Диссертационный совет</a></li>
+						
+						<li><a href="../../dissertation.shtml" class="a_seconglevel">Диссертации ГНЦК</a></li>
+						
+						
+						<li><a href="../../video.shtml" class="a_seconglevel">Видео</a></li>
+						<li><a href="../../literature.shtml" class="a_seconglevel">Литература</a></li>
+						
+						<li><a href="../../vacancy.shtml" class="a_seconglevel">Вакансии в ГНЦК</a></li>
+					</ul>
+				</li>
+			</ul>
+		
+	
+</div>
+<!-- Close Head -->
+
+<!-- Content -->
+
+<div class="middle">
+	<div class="pad">
+	
+			<table cellpadding="0" cellspacing="0" class="common">
+			<tr>
+			
+			<td class="leftColl">
+				
+				<div class="preview">
+					<div class="name_3"><h3>Справочник:</h3>
+						<div class="frame">
+						<ul style="margin : 0px 0px 10px 15px; padding : 0px;">
+
+			<li> <a href="../../reference_analnaya_treschina.shtml" style="font-size : 10px;">Анальная трещина</a>
+			<li> <a href="../../reference_anomalii_razvitiya.shtml" style="font-size : 10px;">Аномалии развития толстой кишки</a>
+			<li> <a href="../../reference_bolezn_krona.shtml" style="font-size : 10px;">Болезнь Крона</a>
+			<li> <a href="../../reference_vypadenie_pryamoy_kishki.shtml" style="font-size : 10px;">Выпадение прямой кишки</a>
+			<li> <a href="../../reference_gemorroy.shtml" style="font-size : 10px;">Геморрой</a>
+			<li> <a href="../../reference_divertilulyarnaya_bolezn.shtml" style="font-size : 10px;">Дивертикулярная болезнь</a>
+			<li> <a href="../../reference_ishshem_kolit.shtml" style="font-size : 10px;">Ишемический колит</a>
+
+			<li> <a href="../../reference_stoma.shtml" style="font-size : 10px;">Кишечные стомы</a>
+
+			<li> <a href="../../reference_nep_rak.shtml" style="font-size : 10px;">Наследственный неполипозный рак толстой кишки</a>
+
+			<li> <a href="../../reference_nedostatochnost_sf.shtml" style="font-size : 10px;">Недостаточность анального сфинктера</a>
+			<li> <a href="../../reference_opuholi_tolstoy_kishki.shtml" style="font-size : 10px;">Неэпителиальные опухоли толстой кишки</a>
+			<li> <a href="../../reference_kondilomy.shtml" style="font-size : 10px;">Остроконечные кондиломы</a>
+			<li> <a href="../../reference_paroproktit.shtml" style="font-size : 10px;">Острый парапроктит</a>
+			<li> <a href="../../reference_polipy.shtml" style="font-size : 10px;">Полипы толстой кишки</a>
+			<li> <a href="../../reference_rak_kanala.shtml" style="font-size : 10px;">Рак анального канала</a>
+
+			<li> <a href="../../reference_rak_pryamoy_kishki.shtml" style="font-size : 10px;">Рак прямой кишки</a>
+
+<li> <a href="../../reference_rak_obodochnoj_kishki.shtml" style="font-size : 10px;">Рак ободочной кишки</a>
+<li> <a href="../../reference_rect_sv.shtml" style="font-size : 10px;">Ректовагинальные свищи</a>
+<li> <a href="../../reference_rectocele.shtml" style="font-size : 10px;">Ректоцеле</a>
+<li> <a href="../../reference_sem_aden.shtml" style="font-size : 10px;">Семейный аденоматоз</a>
+<li> <a href="../../reference_sindrom_razd_kishechnika.shtml" style="font-size : 10px;">Синдром раздраженного кишечника</a>
+<li> <a href="../../reference_hron_parap.shtml" style="font-size : 10px;">Хронический парапроктит</a>
+<li> <a href="../../reference_endomitrioz.shtml" style="font-size : 10px;">Эндометриоз толстой кишки</a>
+<li> <a href="../../reference_epit_hod.shtml" style="font-size : 10px;">Эпителиальный копчиковый ход</a>
+<li> <a href="../../reference_kolit.shtml" style="font-size : 10px;">Язвенный колит</a>			
+
+						</ul>
+						
+						</div>
+					</div>
+				</div>
+				
+				<div class="preview">
+					<div class="name_2"><h3>Контакты</h3>
+						<div class="frame">
+						
+						
+						<p style="padding-bottom : 5px;"><strong>Адрес:</strong></p>
+						<span style="color : #D83939;">123423, Москва,<br>
+						ул. Саляма Адиля 2</span>
+						<br><br>
+						<p style="padding-bottom : 5px;"><strong>Телефон для записи на прием к врачу поликлиники:</strong></p>
+						<span style="color : #D83939;">8 (499) 642-54-40</span><br>
+						<span style="font-size : 10px;">с 9:00 до 20:00</span><br><br>
+
+						<p style="padding-bottom : 5px;"><strong>Телефон для записи на амбулаторные исследования (регистратура):</strong></p>
+						<span style="color : #D83939;">8 (499) 199-84-62</span><br>
+						<span style="font-size : 10px;">пн.-пт. с 9.00 до 16.00</span><br><br>
+
+						<p style="padding-bottom : 5px;"><strong>Лечение анальной трещины инновационными малоинвазивными методами (ботулотоксин и т.д.).
+						Телефон для записи на прием к к.м.н<br>Жаркову Е.Е.:</strong></p>
+						<span style="color : #D83939;">8 (903) 968-97-39</span><br><br>
+
+						<p style="padding-bottom : 5px;"><strong>Телефон для записи онкологических больных на платную консультацию к проф. Е.Г Рыбакову и д.м.н. С.В. Чернышову:<br></strong></p>
+						<span style="color : #D83939;">8 (915) 452-59-59</span><br><br>
+
+						<p style="padding-bottom : 5px;"><strong>Ведущие специалисты в стране в лечении полипоза (предраковое заболевание), пресакральных тератом малого таза.<br>Проф. д.м.н. Кузьминов А. М.</strong></p>
+						<span style="color : #D83939;">8 (499) 199-65-34</span>
+						<p style="padding-bottom : 5px;"><strong>Вышегородцев Д. В.</strong></p>
+						<span style="color : #D83939;">8 (916) 613-79-66</span><br><br>
+
+						<p style="padding-bottom : 5px;"><strong>Послеродовые деформации промежности, ректоцел, недержание, HAL/RAR c УЗИ навигацией.<br>д.м.н. Титов А.Ю.</strong></p>
+						<span style="color : #D83939;">8 (903) 293-32-91</span><br><br>
+
+												<p style="padding-bottom : 5px;"><strong>Ректовагинальные свищи<br>к.м.н. Мудров А.А.</strong></p>
+						<span style="color : #D83939;">8 (963) 131-88-88</span><br><br>
+						
+						<p style="padding-bottom : 5px;"><strong>Лазерные технологии: Геморрой, прямокишечные свищи. Костарев И.В.</strong></p>
+						<span style="color : #D83939;">8 (903) 610-70-61</span><br><br>
+						
+						<p style="padding-bottom : 5px;"><strong>Лечение метастатического поражения печени при колоректальном раке.<br>к.м.н. Пономаренко А.А. </strong></p>
+						<span style="color : #D83939;">8 (926) 462-37-31</span><br><br>
+						
+						<p style="padding-bottom : 5px;"><strong>Уникальные молекулярно-генетические исследования при раке толстой кишки.<br>д.м.н. Цуканов А.С.</strong></p>
+						<span style="color : #D83939;">8 (916) 756-39-57</span><br><br>
+											
+						<strong>Схема проезда:</strong></p>
+						
+						<a target="_blank" href="http://maps.google.com/maps/ms?hl=ru&ie=UTF8&msa=0&msid=113582537413528930083.00047d46eb8ba48c686de&ll=55.77145,37.466136&spn=0.006276,0.01929&z=16"><img src="../../img/map.gif" width="166" height="108" alt=""  style="margin-bottom : 3px;"></a>
+						
+						</div>
+					</div>
+				</div>
+				
+				<!-- <div class="preview">
+					<div class="name_1"><h3>Поиск</h3>
+						<div class="frame">
+						<p style="margin-bottom : 5px;">Искать на сайте:</p>
+						<img src="img/search.jpg" alt="" />
+						
+						
+						</div>
+					</div>
+				</div> -->
+				
+			</td>
+			
+			<td class="centrColl">
+			
+			<h1 style="margin-bottom : 5px;">Стандарты медицинской помощи</h1>
+			
+			
+
+<ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li style="margin-bottom : 5px;"> <a href="standart/abscess.xls" target="_blank">Стандарт медицинской помощи при абсцессе  заднего прохода и  прямой кишки.</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/analcan.xls" target="_blank">Стандарт медицинской помощи больным со злокачественными новообразованиями анального канала</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/anpol.xls" target="_blank">Стандарт медицинской помощи при анальном полипе.</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/btvx.xls" target="_blank">Стандарт оказания специализированной медицинской помощи пациентам с воспалительными заболеваниями кишечника, получающим другие виды химиотерапии (применение генно-инженерных биологических препаратов)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/cro.xls" target="_blank">Стандарт специализированной медицинской помощи больным со злокачественным новообразованием прямой кишки I стадии (Т1-2N0М0)  в стационарных условиях</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/croa.xls" target="_blank">Стандарт специализированной медицинской помощи больным со злокачественным новообразованием прямой кишки II стадии (Т3-4N0М0)  в стационарных условиях</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/crob.xls" target="_blank">Стандарт специализированной медицинской помощи больным со злокачественным новообразованием прямой кишки III стадии (Т1-4N1-2М0)  в стационарных условиях</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/croc.xls" target="_blank">Стандарт специализированной медицинской помощи больным со злокачественным новообразованием прямой кишки IV стадии (Т1-4N1-2М1)  в стационарных условиях</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/crod.xls" target="_blank">Стандарт медицинской помощи больным со злокачественными новообразованиями прямой кишки I стадия (Т1-2N0М0) (хирургическое лечение)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/croe.xls" target="_blank">Стандарт медицинской помощи больным со злокачественными новообразованиями прямой кишки II и III стадия (Т3-4N0М0; Т1-4N1-2М0) (хирургическое лечение)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/crof.xls" target="_blank">Стандарт медицинской помощи больным со злокачественными новообразованиями прямой кишки IV стадия (Т1-4N1-2М1) (хирургическое лечение)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/crog.xls" target="_blank">Стандарт медицинской помощи больным со злокачественными новообразованиями прямой кишки II-IV стадии (Т3N0М0, Т4N0М0, Т1-2N1М0, Т3-4N1М0</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/croh.xls" target="_blank">Стандарт медицинской помощи больным со злокачественными новообразованиями прямой кишки 0 - I стадии (Тis, Т1N0М0, Т2N0М0) (эндоскопическое лечение радикальное)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/croj.xls" target="_blank">Стандарт медицинской помощи больным со злокачественными новообразованиями прямой кишки 0 - I (Тis, Т1N0М0, Т2N0М0) стадии (эндоскопическое лечение радикальное)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/crok.xls" target="_blank">Стандарт медицинской помощи больным со злокачественными новообразованиями прямой кишки I (Т1-2N0М0) стадии (хирургическое лечение)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/crol.xls" target="_blank">Стандарт медицинской помощи больным со злокачественными новообразованиями прямой кишки II - III (Т3-4N0М0; Т1-4N1-2М0) стадии (хирургическое лечение)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/crom.xls" target="_blank">Стандарт медицинской помощи больным со злокачественными новообразованиями прямой кишки II-IV (Т3N0М0, Т4N0М0, Т1-2N1М0, Т3-4N1М0, Т1-4N2М0, Т1-4N0-2М1) стадии (эндоскопическое лечение паллиативное)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/crop.xls" target="_blank">Стандарт медицинской помощи больным со злокачественными новообразованиями прямой кишки IV (Т1-4N1-2М1) стадии (хирургическое лечение)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/croisa.xls" target="_blank">Стандарт медицинской помощи больным с новообразованиями insitu прямой кишки (радикальное эндоскопическое лечение)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/croisb.xls" target="_blank">Стандарт медицинской помощи больным с доброкачественными новообразованиями прямой кишки (эндоскопическое лечение)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/is.xls" target="_blank">Стандарт медицинской помощи больным с наличием илеостомы</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/cs.xls" target="_blank">Стандарт медицинской помощи больным с наличием колостомы</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/bka.xls" target="_blank">Стандарт амбулаторной медицинской помощи больным с  болезнью Крона</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/bks.xls" target="_blank">Стандарт специализированной медицинской помощи больным болезнью Крона</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/crk.xls" target="_blank">Стандарт специализированной медицинской помощи больным с дисбиотическими изменениями кала (дисбактериозом, синдромом избыточного бактериального роста)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/zapor.xls" target="_blank">Стандарт специализированной медицинской помощи больным с запором</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/intell.xls" target="_blank">Стандарт медицинской помощи больным с инородными телами прямой кишки.</a>	
+	
+<li style="margin-bottom : 5px;"> <a href="standart/presc.xls" target="_blank">Стандарт медицинской помощи при пресакральных кистах.</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/polpk.xls" target="_blank">Стандарт медицинской помощи при  полипе прямой кишки.</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/pmk.xls" target="_blank">Стандарт оказания специализированной медицинской помощи пациентам с псевдомембранозным колитом</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/satk.xls" target="_blank">Стандарт медицинской помощи больным семейным аденоматозом толстой кишки.Илеостома по Бруку.</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/satka.xls" target="_blank">Стандарт медицинской помощи больным семейным аденоматозом толстой кишки.</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/satkb.xls" target="_blank">Стандарт медицинской помощи больным семейным аденоматозом толстой кишки.РЕЗ</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/srkd.xlsx" target="_blank">Стандарт специализированной медицинской помощи больным с синдромом раздраженного кишечника с диареей</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/srkz.xlsx" target="_blank">Стандарт специализированной медицинской помощи больным с синдромом раздраженного кишечника с запором</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/skrin.xls" target="_blank">Стандарт специального скринингового обследования с целью выявления больных со злокачественными новообразованиями ЖКТ</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/gemny.xls" target="_blank">Стандарт специализированной медицинской помощи больным с геморроем без осложнений неуточненного</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/gemosl.xls" target="_blank">Стандарт специализированной медицинской помощи больным с геморроем с другими осложнениями неуточненного</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/angd.xls" target="_blank">Cтандарт медицинской помощи больным с ангиодисплазией толстой кишки</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/vupad.xls" target="_blank">Стандарт специализированной медицинской помощи больным с выпадением прямой кишки</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/gem.xls" target="_blank">Стандарт специализированной медицинской помощи больным с геморроем</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/gemi.xls" target="_blank">Стандарт специализированной медицинской помощи больным с геморроем. I 84.2</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/gemir.xls" target="_blank">Стандарт специализированной медицинской помощи больным с геморроем. I 84</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/gemvnu.xls" target="_blank">Стандарт специализированной медицинской помощи больным с внутренним геморроем</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/gemtro.xls" target="_blank">Стандарт специализированной медицинской помощи больным с геморроем (тромбированный узел)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/girsh.xls" target="_blank">Cтандарт медицинской помощи больным с болезнью гиршпрунга</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/divb.xls" target="_blank">Стандарт медицинской помощи больным с дивертикулярной болезнью (хирургическое лечение)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/dnooc.xls" target="_blank">Стандарт медицинской помощи больным с доброкачественными новообразованиями ободочной кишки (хирургическое лечение)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/dolcol.xls" target="_blank">Стандарт медицинской помощи больным с долихоколон (хирургическое лечение)</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/percon.xls" target="_blank">Стандарт специализированной медицинской помощи больным с перианальными кондиломами</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/idimcon.xls" target="_blank">Cтандарт медицинской помощи больным с идиопатическим мегаколоном</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/gemnar.xls" target="_blank">Стандарт специализированной медицинской помощи больным с наружным геморроем без осложнений</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/gemnaro.xls" target="_blank">Стандарт специализированной медицинской помощи больным с наружным геморроем с другими осложнениями</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/gemntr.xls" target="_blank">Стандарт специализированной медицинской помощи больным с наружным тромбированным геморроем</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/nederz.xls" target="_blank">Стандарт специализированной медицинской помощи больным с недержанием кишечного содержимого</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/nac.xls" target="_blank">Стандарт специализированной медицинской помощи больным с недостаточностью анального сфинктера</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/gemkm.xls" target="_blank">Стандарт специализированной медицинской помощи больным с остаточными геморроидальными кожными метками</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/treshhh.xls" target="_blank">Стандарт специализированной медицинской помощи больным с острой трещиной</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/cviwpk.xls" target="_blank">Стандарт специализированной медицинской помощи больным с прямокишечным свищём</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/rvcviw.xls" target="_blank">Стандарт специализированной медицинской помощи больным со свищем влагалищно-прямокишечным</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/rectoc.xls" target="_blank">Стандарт специализированной медицинской помощи больным с ректоцеле</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/cviwzpr.xls" target="_blank">Стандарт специализированной медицинской помощи больным со свищем заднего прохода</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/xrtreh.xls" target="_blank">Стандарт специализированной медицинской помощи больным с хронической анальной трещиной</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/yazvapk.xls" target="_blank">Стандарт специализированной медицинской помощи больным с язвой прямой кишки и анального канала</a>	
+<li style="margin-bottom : 5px;"> <a href="standart/funkdi.xls" target="_blank">Стандарт специализированной медицинской помощи больным с функциональной диареей</a>
+	
+<li style="margin-bottom : 5px;"> <a href="standart/ekx.xls" target="_blank">Стандарт медицинской помощи при эпителиальном копчиковом ходе.</a>	
+
+<li style="margin-bottom : 5px;"> <a href="standart/yazcola.xls" target="_blank">Стандарт амбулаторной медицинской помощи больным с язвенным колитом</a>	
+
+<li style="margin-bottom : 5px;"> <a href="standart/yascols.xls" target="_blank">Стандарт специализированной медицинской помощи больным язвенным колитом</a>	
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			<hr>
+			
+			<a href="http://get.adobe.com/reader/?promoid=BUIGO" target="_blank"><img src="img/get_adobe_reader.png" width="158" height="39" alt="" /></a>
+			
+			</td>
+			<td class="rightColl">
+			
+			<div class="preview">
+					<div class="name_2"><h3>Новости</h3>
+						<div class="frame">
+						
+
+
+
+	
+
+					<div style="background : url('../../img/news_bg.gif') no-repeat right bottom; padding-bottom : 35px;">
+
+<p style="padding-bottom : 7px;"><span style="color: #D94545; font-size: 9px;">25/09/2019</span><br>
+						<strong><em style="color: #D94545;">Уважаемые коллеги!</em></strong><br>
+						<a href="../../dissertation_mtvralashvili.shtml" style="color: #575757; font-size: 11px;">Для ознакомления опублиоквана диссертации Мтвралашвили Д. А. на соискание ученой степени кандидата медицинских наук 
+<strong>"Эндоскопическая диссекция в подслизистом слое эпителиальных новообразований правых отделов ободочной кишки."</strong>.</a></p>
+
+
+<p style="padding-bottom : 7px;"><span style="color: #D94545; font-size: 9px;">19/08/2019</span><br>
+						<strong><em style="color: #D94545;">Уважаемые коллеги!</em></strong><br>
+						<a href="../../dissertation_lantcov.shtml" style="color: #575757; font-size: 11px;">Для ознакомления опублиоквана диссертации Ланцова И. С. на соискание ученой степени кандидата медицинских наук <strong>"СРАВНЕНИЕ РАЗЛИЧНЫХ СПОСОБОВ ЛИКВИДАЦИИ ПЕТЛЕВОЙ ИЛЕОСТОМЫ."</strong>.</a></p>
+
+<p style="padding-bottom : 7px;"><span style="color: #D94545; font-size: 9px;">13/06/2019</span><br>
+						<strong><em style="color: #D94545;">Уважаемые коллеги!</em></strong><br>
+						<a href="../../dissertation_semenov.shtml" style="color: #575757; font-size: 11px;">Для ознакомления опублиоквана диссертации Семёнова  Д.А. на соискание ученой степени кандидата медицинских наук <strong>"ОСОБЕННОСТИ ДИАГНОСТИКИ И ЛЕЧЕНИЯ СИНДРОМА ЛИНЧА."</strong>.</a></p>
+
+<p style="padding-bottom : 7px;"><hr><span style="font-size: 11px;"><strong style="color: #D94545;">Уважаемые коллеги!<br></strong>
+<a href="http://akr-online.ru/press/news/profstandart_vrachkoloproktolog/" style="color: #575757; font-size: 11px;" target="_blank">На сайте Ассоциации колопроктологов России представлен проект профстандарта <strong>"врач-колопроктолог"</strong></a></p>
+
+<p style="padding-bottom : 7px;"><hr><span style="font-size: 11px;"><strong style="color: #D94545;">Уважаемые коллеги!<br></strong>
+<a href="../../recommendation.shtml" style="color: #575757; font-size: 11px;">На нашем сайте представлены <strong>клинические рекомендации по диагностике и лечению колопроктологических заболеваний</a></p>
+
+						</div>
+						
+						</div>
+					</div>
+				</div>
+			
+			</td>
+			</tr>
+			</table>
+	
+	</div>
+</div>
+
+<!-- Close Content -->
+
+<!-- Bottom -->
+
+<div class="bottom">
+
+	<div class="post"><h5>Наш адрес:<br><br><span>123423, Москва,<br>ул. Саляма Адиля 2</span></h5></div>
+	
+	<div class="time"><h5>Часы приема сотрудников поликлиники:<br><br><span>Пн-Пт с 8:00 до 20:00<br>Сб с 9:00 до 15:00</span><br>(в соответствии с графиком)</h5></div>
+
+	<div class="time1"><h5><a href="../../inpatient.shtml">График работы сотрудников<br>стационарных отделений</a></h5></div>
+	
+	<div class="counters">
+	
+	<!-- Google -->
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-12795853-1");
+	pageTracker._trackPageview();
+	} catch(err) {}</script>
+	<!-- Google -->
+	
+	<!-- Yandex.Metrika counter -->
+
+<div style="display:none;"><script type="text/javascript">
+
+(function(w, c) {
+
+    (w[c] = w[c] || []).push(function() {
+
+        try {
+
+            w.yaCounter9737560 = new Ya.Metrika({id:9737560, enableAll: true, webvisor:true});
+
+        }
+
+        catch(e) { }
+
+    });
+
+})(window, "yandex_metrika_callbacks");
+
+</script></div>
+
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript" defer="defer"></script>
+
+<noscript><div><img src="//mc.yandex.ru/watch/9737560" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+<!-- /Yandex.Metrika counter -->
+	
+	<!--LiveInternet counter--><script type="text/javascript"><!--
+	document.write("<a href='http://www.liveinternet.ru/click' "+
+	"target=_blank><img src='//counter.yadro.ru/hit?t44.2;r"+
+	escape(document.referrer)+((typeof(screen)=="undefined")?"":
+	";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+	screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+	";"+Math.random()+
+	"' alt='' title='LiveInternet' "+
+	"border='0' width='31' height='31'><\/a>")
+	//--></script><!--/LiveInternet-->
+	
+	</div>
+	
+	<div class="copy">
+	<span style="font-size : 10px;"><a href="../../sitemap.shtml">Карта сайта</a><br>&copy; ГНЦК 2011&nbsp;&nbsp;&nbsp;</span>
+	</div>
+	
+</div>
+<script type="text/javascript" src="/js/ugost11.js"></script>
+
+<!-- Close Bottom -->
+</center>
+</body></html>

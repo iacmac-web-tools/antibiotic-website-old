@@ -1,0 +1,464 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Антибактериальная терапия внебольничной пневмонии у детей</title>
+<meta name="Description" content="Л.С.Страчунский, Л.П. Жаркова. Антибактериальная терапия внебольничной пневмонии у детей">
+<meta name="keywords" content="Страчунский, Жаркова, антибактериальная терапия, внебольничная пневмония у детей">
+<script language="JavaScript1.2">
+<!--
+function btn(ind,picture) {document.images[ind].src=picture;}
+-->
+</script>
+
+<script language="JavaScript">
+<!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/rus/include/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../include/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 10px; margin-left: 2px; margin-left: 2px; text-align: justify; }
+LI {margin-left: 5px; margin-top: 6px;}
+UL {margin-top: 6px; margin-left: 15px; margin-bottom: 5px;}
+OL {margin-top: 6px; margin-left: 25px;}
+H4 {margin-left: 2px; margin-bottom: 7px;}
+</style>
+</head>
+<body class="main">
+
+<center>
+<table width="750" cellpadding="0" border="0" cellspacing="5">
+  <tr><td valign="top">
+<!--navigation-->
+<map name="TopBtn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Предыдущая страница" title="Предыдущая страница">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Следующая страница" title="Следующая страница">
+<area shape="circle" coords="77,15,15" href="../../../index.htm" alt="Главная страница сайта" title="Главная страница сайта">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="Написать письмо" title="Написать письмо">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../images/buttons/topline.gif);" width="98%" height="32"><img src="../../images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Навигация" usemap="#TopBtn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+  
+<br>
+<h1>АНТИБАКТЕРИАЛЬНАЯ ТЕРАПИЯ<br>ВНЕБОЛЬНИЧНОЙ ПНЕВМОНИИ У ДЕТЕЙ</h1>
+<br>
+
+<p><i>Л.С. Страчунский, Л.П. Жаркова</i></p>
+
+<br>
+<hr size="1">
+
+<p>Пневмония &#150; одно из наиболее cерьезных заболеваний у детей, особенно первых лет жизни. Как и у взрослых, в настоящее время пневмонию у детей разделяют на развившуюся во внебольничных условиях (<b>внебольничная пневмония</b>) и развившуюся в стационаре (<b>нозокомиальная, госпитальная пневмония</b>). Внебольничная пневмония (ВП) в зависимости от степени тяжести, возраста ребенка, фоновых заболеваний может лечиться как на дому, так и в стационаре. Особую категорию составляют случаи ВП, требующие терапии в отделениях реанимации и интенсивной терапии. В настоящей лекции рассматривается ВП, развившаяся у ранее здоровых детей.</p>
+
+<br>
+<h4>Этиология и выбор антибактериальных препаратов</h4>
+
+<p>Во многих возрастных группах лидирующей причиной ВП являются вирусы, однако, несмотря на это <b>всем детям с пневмонией назначают антибиотики</b>, так как доступные практикующему врачу методы исследования не позволяют достаточно быстро и точно дифференцировать этиологию заболевания. К тому же во многих случаях вирусная пневмония переходит в вирусно-бактериальную.Основу терапии ВП пневмонии составляют <a href="../../../ab/index.htm#b-lactams"><font face="Symbol">b</font>-лактамы</a> (амоксициллин, амоксициллин/клавуланат, цефалоспорины <a href="../../../ab/023-29.shtml#cs2">II</a>-<a href="../../../ab/023-29.shtml#cs3">III</a> поколения) и <a href="../../../ab/042-47.shtml">макролиды</a>. Неэффективность начальной терапии <a href="../../../ab/index.htm#b-lactams"><font face="Symbol">b</font>-лактамами</a>, может говорить как о резистентности микрофлоры, так и об &quot;атипичной&quot; этиологии ВП (<i>Myсoplasma pneumoniae, Clamydophila pneumoniae</i>). Дозы антибиотиков приведены в <a href="#t1">Таблице&nbsp;1</a>.</p><br>
+
+<table border="0" cellpadding="0" cellspacing="3" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr align="center">
+  <th width="10%">Возраст</th>
+  <th width="30%">Наиболее частые возбудители</th>
+  <th width="30%">Препарат выбора</th>
+  <th width="30%">Альтернативный препарат</th>
+</tr>
+<tr>
+  <th>Новорожденные</th>
+  <td class="cl">Стрептококк группы B,<br> <i>Enterobacteriaceae</i> (<i>E.coli</i> и др.)</td>
+  <td class="cl">АМП + АГ (в т.ч. при листериозе), АМО/КК или АМП/СУЛ <u>+</u> АГ</td>
+  <td class="cl">Цефотаксим <u>+</u> АГ <u>+</u> АМП</td>
+</tr>
+<tr>
+  <th>1 - 3 мес</th>
+  <td class="cl">Вирусы, <i>Enterobacteriaceae</i> (<i>E.coli</i> и др.), <i>H.influenzae, C.trachomatis, S.aureus</i></td>
+  <td class="cl">АМО/КК, АМП/СУЛ, АМП <u>+</u> <a href="../../../ab/042-47.shtml">Макролид</a></td>
+  <td class="cl">ЦС II-III</td>
+</tr>
+<tr>
+  <th>3 мес - 5 лет</th>
+  <td class="cl">Вирусы, <i>S.pneumoniae, H.influenzae</i></td>
+  <td class="cl">Внутрь: АМО, АМО/КК, <a href="../../../ab/042-47.shtml">Макролид</a></td>
+  <td class="cl">Внутрь: ЦС-II, Эритромицин. Парентерально: АМП, ЦС II-III</td>
+</tr>
+<tr>
+  <th>&gt; 5 лет</th>
+  <td class="cl"><i>S.pneumoniae, M.pneumoniae, C.pneumoniae</i></td>
+  <td class="cl">Внутрь: АМО, <a href="../../../ab/042-47.shtml">Макролид</a></td>
+  <td class="cl">Внутрь: АМО/КК, ЦС-II Парентерально: <a href="../../../ab/013-22.shtml#pen">Пенициллин</a>, ЦС II-III, <a href="../../../ab/050-51.shtml">Линкосамид</a></td>
+</tr>
+<tr>
+  <th>Осложненная ВП (плеврит, деструкция)</th>
+  <td class="cl"><i>S.pneumoniae, H.influenzae, Enterobacteriaceae, S.aureus</i></td>
+  <td class="cl">Парентерально: АМО/КК, АМП/СУЛ</td>
+  <td class="cl">Парентерально: ЦС II-IV, Цефазолин + АГ, <a href="../../../ab/050-51.shtml">Линкосамид</a> + АГ, <a href="../../../ab/030-32.shtml#carbapenems">Карбапенем</a></td>
+</tr>
+</table>
+</td></tr></table>
+
+<p class="t8"><b>АГ</b>&nbsp;&#150; аминогликозиды; <b>АМП</b>&nbsp;&#150; ампициллин; <b>АМО</b>&nbsp;&#150; амоксициллин; <b>КК</b>&nbsp;&#150; клавулановая кислота; <b>СУЛ</b>&nbsp;&#150; сульбактам;<br>
+<b>ЦС</b>: II-IV&nbsp;&#150; цефалоспорины II-IV поколений, II&nbsp;&#150; цефуроксим, III&nbsp;&#150; цефотаксим, цефтриаксон, цефоперазон, IV&nbsp;&#150; цефепим.</p>
+
+<br>
+<h4>Чувствительность возбудителей к антибиотикам</h4>
+
+<p><i>S.pneumoniae:</i> в России большинство штаммов чувствительны к <a href="../../../ab/013-22.shtml#pen">пенициллину</a>, что позволяет использовать при лечении ВП амоксициллин и <a href="../../../ab/023-29.shtml#cs">цефалоспорины</a>. К <a href="../../../ab/056-60.shtml#co-trim">ко-тримоксазолу</a> более 1/3 штаммов пневмококка устойчивы. <b>Пневмококки полностью устойчивы к гентамицину и другим <a href="../../../ab/033-37.shtml">аминогликозидам</a>, поэтому терапия ВП антибиотиками данной группы в амбулаторных условиях недопустима.</b></p> 
+
+<p><i>S.руоgеnеs</i>, Стрептококк группы B (<i>S.agalactiae</i>) всегда чувствительны к <a href="../../../ab/013-22.shtml#pen">пенициллинам</a> и <a href="../../../ab/023-29.shtml#cs">цефалоспоринам</a>.</p>
+
+<p><i>Н.influenzае:</i> большинство штаммов чувствительны к <a href="../../../ab/013-22.shtml#aminopen">аминопенициллинам</a> (АМО, АМП), азитромицину, ЦС <a href="../../../ab/023-29.shtml#cs2">II</a>-<a href="../../../ab/023-29.shtml#cs4">IV</a>. Резистентность к <a href="../../../ab/013-22.shtml#aminopen">аминопенициллинам</a> обусловлена продукцией <font face="Symbol">b</font>-лактамаз, но при этом сохраняется высокая чувствительность к АМО/КК и ЦС II-IV.</p>
+
+<p><i>Стафилококки:</i> сохраняется чувствительность внебольничных штаммов к оксациллину, <a href="../../../ab/013-22.shtml#ing_resist">ингибиторозащищенным пенициллинам</a>, <a href="../../../ab/050-51.shtml">линкосамидам</a>, <a href="../../../ab/023-29.shtml#cs">цефалоспоринам</a>.</p>
+
+<p><i>Грамотрицательные бактерии</i> из семейства <i>Enterobacteriaceae</i> (<i>E.coli</i> и др.) чаще всего резистетны к <a href="../../../ab/013-22.shtml#aminopen">аминопенициллинам</a>, при подозрении на эти возбудители следует отдавать предпочтение ингибиторозащищенным <a href="../../../ab/013-22.shtml#aminopen">аминопенициллинам</a> (АМО/КК, АМП/СУЛ) или <a href="../../../ab/023-29.shtml#cs3">ЦС-III</a>.</p>
+
+<p><i>Атипичные возбудители</i> &#150; хламидии (<i>С.trachomatis, С.pneumoniae</i>) и микоплазмы (<i>M.pneumoniae</i>) &#150; всегда чувствительны к <a href="../../../ab/042-47.shtml">макролидам</a> и <a href="../../../ab/047-49.shtml">тетрациклинам</a>.</p>
+
+<br>
+<h4>Путь введения антибиотиков</h4>
+
+<p>Неосложненные пневмонии, особенно в амбулаторных условиях: предпочтительно введение внутрь. При парентеральном введении препаратов по достижении эффекта следует перейти на пероральное введение антибиотика (<b>ступенчатая терапия</b>).</p>
+
+<br>
+<h4>Длительность терапии</h4>
+
+<p>При адекватном выборе антибиотика и быстром наступлении эффекта бывает достаточно 7-10 дней. При ВП, вызванных атипичными возбудителями <a href="../../../ab/042-47.shtml">макролиды</a> применяют в течение 14 дней.</p><br>
+
+<table border="0" cellpadding="0" cellspacing="3" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr align="center">
+  <th>Типичные ошибки</th>
+  <th>Комментарии</th>
+</tr>
+<tr><td colspan="2" class="cc"><i>Выбор препарата</i></td></tr>
+<tr>
+  <td class="cl">Гентамицин</td>
+  <td class="cl">Аминогликозиды неактивны в отношении пневмококка</td>
+</tr>
+<tr>
+  <td class="cl">Ампициллин внутрь</td>
+  <td class="cl">Низкая биодоступность при приеме внутрь</td>
+</tr>
+<tr>
+  <td class="cl">Ко-тримоксазол</td>
+  <td class="cl">Высокая резистентных <i>S.pneumoniae</i> и <i>H.influenzae</i>, частые кожные аллергические реакции, наличие более безопасных препаратов</td>
+</tr>
+<tr>
+  <td class="cl">Фторхинолоны</td>
+  <td class="cl">Детям противопоказаны</td>
+</tr>
+<tr>
+  <td class="cl">Сочетание антибиотиков с нистатином и/или антигистаминными препаратами</td>
+  <td class="cl">Отсутствие доказательств профилактической эффективности, необоснованные затраты</td>
+</tr>
+<tr><td colspan="2" class="cc"><i>Длительность терапии</i></td></tr>
+<tr>
+  <td class="cl">Частая смена антибиотиков в лечении, из-за &quot;опасности&quot; развития резистентности</td>
+  <td class="cl">Показания для замены антибиотиков:
+<ul><li>клиническая неэффективность, о которой можно судить через 48-72 ч терапии;</li>
+<li>развитие тяжелых нежелательных явлений, требующих отмены антибиотика;</li>
+<li>высокая потенциальная токсичность антибиотика (<a href="../../../ab/033-37.shtml">аминогликозиды</a>), ограничивающая длительность его применения.</li></ul></td>
+</tr>
+<tr>
+  <td class="cl">Антибиотикотерапия до полного исчезновения рентгенологических и/или лабораторных изменений</td>
+  <td class="cl">Основным критерием отмены антибиотиков является регресс клинических симптомов. Сохранение отдельных лабораторных и/или рентгенологических изменений не является основанием к продолжению антибиотикотерапии</td>
+</tr>
+</table>
+</td></tr></table>
+
+<a name="t1"></a><br>
+<p><b>Таблица&nbsp;1. </b>Дозы антибиотиков для лечения внебольничной пневмонии у детей.</p> 
+<table border="0" cellpadding="0" cellspacing="3" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr>
+  <th rowspan="2" width="15%">Препарат</th>
+  <th colspan="2" width="30%">Суточная доза внутрь</th>
+  <th rowspan="2" width="5%">Кратность приема</th>
+  <th colspan="2" width="30%">Суточная доза парентерально</th>
+  <th rowspan="2" width="20%">Кратность, способ введения</th>
+</tr>
+<tr>
+  <th width="15%">1&nbsp;мес - 12&nbsp;лет</th>
+  <th width="15%">&gt;12 лет</th>
+  <th width="15%">1&nbsp;мес - 12&nbsp;лет</th>
+  <th width="15%">&gt;&nbsp;12 лет</th>
+</tr>
+<tr><td colspan="7" class="cc"><a href="../../../ab/013-22.shtml#pen"><b>ПЕНИЦИЛЛИНЫ</b></a></td></tr>
+<tr>
+  <td class="cl">Бензилпенициллин</td>
+  <td colspan="3" class="cc">&mdash;</td>
+  <td class="cl">50-100 тыс. ЕД/кг/сут</td>
+  <td class="cl">4-12 млн. ЕД/сут</td>
+  <td class="cl">в 4 введения в/в, в/м</td>
+</tr>
+<tr>
+  <td class="cl">Ампициллин</td>
+  <td class="cl">30-50<br> мг/кг/сут<a href="#m">*</a></td>
+  <td class="cl">2-4 г/сут<a href="#m">*</a></td>
+  <td class="cl">в 4 приема за 1 ч до еды</td>
+  <td class="cl">50-100 мг/кг/сут</td>
+  <td class="cl">2-8 г/сут</td>
+  <td class="cl">в 4 введения в/в, в/м</td>
+</tr>
+<tr>
+  <td class="cl">Амоксициллин</td>
+  <td class="cl">30-60 мг/кг/сут</td>
+  <td class="cl">1,5 г/сут</td>
+  <td class="cl">в 3 приема</td>
+  <td class="cl">&nbsp;</td>
+  <td class="cl">&nbsp;</td>
+  <td class="cl">&nbsp;</td>
+</tr>
+<tr>
+  <td class="cl">Оксациллин </td>
+  <td class="cl">40-60 мг/кг/сут<a href="#m">**</a> (не более 1,5 г/сут)</td>
+  <td class="cl">2 г/сут<a href="#m">**</a></td>
+  <td class="cl">в 3-4 приема </td>
+  <td class="cl">200-300 мг/кг/сут</td>
+  <td class="cl">4-12 г/сут</td>
+  <td class="cl">в 4-6 введений в/в, в/м</td>
+</tr>
+<tr><td colspan="7" class="cc"><a href="../../../ab/013-22.shtml#ing_resist"><b>ИНГИБИТОРОЗАЩИЩЕННЫЕ ПЕНИЦИЛЛИНЫ</b></a></td></tr>
+<tr>
+  <td class="cl">Амоксициллин/ клавуланат</td>
+  <td class="cl">20-40  (по амоксициллину) мг/кг/сут</td>
+  <td class="cl">1,5 (по амоксициллину) г/сут</td>
+  <td class="cl">в 3 приема, во время еды</td>
+  <td class="cl">разоваядоза 30 мг/кг </td>
+  <td class="cl">3,6-4,8 г/сут</td>
+  <td class="cl">только в/в, до 3 мес в 3 введения, более старшим в 3-4 введения</td>
+</tr>
+<tr>
+  <td class="cl">Ампициллин/ сульбактам</td>
+  <td class="cl">50 мг/кг/сут</td>
+  <td class="cl">1,5 г/сут</td>
+  <td class="cl">в 2 приема</td>
+  <td class="cl">150 мг/кг/сут</td>
+  <td class="cl">6-12 г/сут</td>
+  <td class="cl">в 3-4 введения в/в, в/м</td>
+</tr>
+<tr><td colspan="7" class="cc"><a href="../../../ab/023-29.shtml#cs"><b>ЦЕФАЛОСПОРИНЫ</b></a></td></tr>
+<tr>
+  <td class="cl">Цефазолин</td>
+  <td colspan="3" class="cc">&mdash;</td>
+  <td class="cl">50-100 мг/кг/сут</td>
+  <td class="cl">3-6 г/сут</td>
+  <td class="cl">в 2-3 введения в/в, в/м</td>
+</tr>
+<tr>
+  <td class="cl">Цефуроксим</td>
+  <td class="cl">30-40 мг/кг/сут</td>
+  <td class="cl">0,5-1,0 г/сут</td>
+  <td class="cl">в 2 приема, во время еды</td>
+  <td class="cl">50-100 мг/кг/сут</td>
+  <td class="cl">2,25-4,5 г/сут</td>
+  <td class="cl">в 3- введения в/в, в/м</td>
+</tr>
+<tr>
+  <td class="cl">Цефотаксим</td>
+  <td colspan="3" class="cc">&mdash;</td>
+  <td class="cl">50-100 мг/кг/сут</td>
+  <td class="cl">3-6 г/сут</td>
+  <td class="cl">в 2-3 введения в/в, в/м</td>
+</tr>
+<tr>
+  <td class="cl">Цефоперазон</td>
+  <td colspan="3" class="cc">&mdash;</td>
+  <td class="cl">50-100 мг/кг/сут</td>
+  <td class="cl">4-6 г/сут</td>
+  <td class="cl">в 2 введения в/в, в/м</td>
+</tr>
+<tr>
+  <td class="cl">Цефтриаксон</td>
+  <td colspan="3" class="cc">&mdash;</td>
+  <td class="cl">50-75 мг/кг/сут</td>
+  <td class="cl">1-2 г/сут</td>
+  <td class="cl">в 1 введение в/в, в/м</td>
+</tr>
+<tr>
+  <td class="cl">Цефепим</td>
+  <td colspan="3" class="cc">&mdash;</td>
+  <td class="cl">50-100 мг/кг/сут</td>
+  <td class="cl">2-4 г/сут</td>
+  <td class="cl">в 2 введения в/в, в/м</td>
+</tr>
+<tr><td colspan="7" class="cc"><a href="../../../ab/030-32.shtml#carbapenems"><b>КАРБАПЕНЕМЫ</b></a></td></tr>
+<tr>
+  <td class="cl">Имипенем</td>
+  <td colspan="3" class="cc">&mdash;</td>
+  <td class="cl">60-100 мг/кг/сут</td>
+  <td class="cl">2 г/сут</td>
+  <td class="cl">в 3-4 введения в/в</td>
+</tr>
+<tr>
+  <td class="cl">Меропенем</td>
+  <td colspan="3" class="cc">&mdash;</td>
+  <td class="cl">60 мг/кг/сут</td>
+  <td class="cl">2 г/сут</td>
+  <td class="cl">в 3-4 введения в/в, в/м</td>
+</tr>
+<tr><td colspan="7" class="cc"><a href="../../../ab/033-37.shtml"><b>АМИНОГЛИКОЗИДЫ</b></a></td></tr>
+<tr>
+  <td class="cl">Гентамицин</td>
+  <td colspan="3" class="cc">&mdash;</td>
+  <td class="cl">6 мг/кг/сут</td>
+  <td class="cl">6 мг/кг/сут</td>
+  <td class="cl">в 1 введение в/в, в/м</td>
+</tr>
+<tr>
+  <td class="cl">Нетилмицин</td>
+  <td colspan="3" class="cc">&mdash;</td>
+  <td class="cl">6 мг/кг/сут</td>
+  <td class="cl">6 мг/кг/сут</td>
+  <td class="cl">в 1 введение в/в, в/м</td>
+</tr>
+<tr>
+  <td class="cl">Амикацин</td>
+  <td colspan="3" class="cc">&mdash;</td>
+  <td class="cl">15-20 мг/кг/сут</td>
+  <td class="cl">15-20 мг/кг/сут</td>
+  <td class="cl">в 1 введение в/в, в/м</td>
+</tr>
+<tr><td colspan="7" class="cc"><a href="../../../ab/042-47.shtml"><b>МАКРОЛИДЫ</b></a></td></tr>
+<tr>
+  <td class="cl">Эритромицин</td>
+  <td class="cl">40-50 мг/кг/сут</td>
+  <td class="cl">1-2 г/сут</td>
+  <td class="cl">в 3-4 приема натощак</td>
+  <td class="cl">40-50 мг/кг/сут</td>
+  <td class="cl">2-4 г/сут</td>
+  <td class="cl">в 3-4 введения в/в</td>
+</tr>
+<tr>
+  <td class="cl">Мидекамицин</td>
+  <td class="cl">30-50 мг/кг/сут</td>
+  <td class="cl">1,2 г/сут</td>
+  <td class="cl">в 3 приема</td>
+  <td colspan="3" class="cc">&mdash;</td>
+</tr>
+<tr>
+  <td class="cl">Спирамицин</td>
+  <td class="cl">150 000 ЕД/кг/сут</td>
+  <td class="cl">1,5-3,0 млн ЕД/сут</td>
+  <td class="cl">в 2-3 приема</td>
+  <td class="cc">&mdash;</td>
+  <td class="cl">4,5-9 млн ЕД/сут</td>
+  <td class="cl">в 2 введения в/в</td>
+</tr>
+<tr>
+  <td class="cl">Рокситромицин</td>
+  <td class="cl">8 мг/кг/сут</td>
+  <td class="cl">0,3 г/сут</td>
+  <td class="cl">в 2 приема</td>
+  <td colspan="3" class="cc">&mdash;</td>
+</tr>
+<tr>
+  <td rowspan="2" class="cl">Азитромицин</td>
+  <td class="cl">3-дневный курс: 10 мг/кг/сут или</td>
+  <td class="cl">0,5 г/сут</td>
+  <td class="cl" rowspan="2">в 1 прием</td>
+  <td colspan="3" rowspan="2" class="cc">&mdash;</td>
+</tr>
+<tr>
+  <td class="cl">5-дневный курс: 10 мг/кг в 1-й день, затем по 5 мг/кг</td>
+  <td class="cl">0,5 г/сут в 1-й день, затем по 0,25 г/сут</td>
+</tr>
+<tr>
+  <td class="cl">Кларитромицин</td>
+  <td class="cl">15 мг/кг/сут</td>
+  <td class="cl">0,5-1,0 г/сут</td>
+  <td class="cl">в 2 приема</td>
+  <td class="cc">&mdash;</td>
+  <td class="cl">1,0 г/сут</td>
+  <td class="cl">в 2 введения в/в</td>
+</tr>
+<tr><td colspan="7" class="cc"><a href="../../../ab/050-51.shtml"><b>ЛИНКОСАМИДЫ</b></a>&nbsp;<a href="#m"><b>**</b></a></td></tr>
+<tr>
+  <td class="cl">Линкомицин</td>
+  <td class="cl">30-60 мг/кг/сут</td>
+  <td class="cl">1,0-2,0 г/сут</td>
+  <td class="cl">в 3-4 приема</td>
+  <td class="cl">10-20 мг/кг/сут</td>
+  <td class="cl">1,2 г/сут</td>
+  <td class="cl">в 2-3 введения в/в, в/м</td>
+</tr>
+<tr>
+  <td class="cl">Клиндамицин</td>
+  <td class="cl">10-25 мг/кг/сут</td>
+  <td class="cl">0,6-1,8 г/сут</td>
+  <td class="cl">в 3-4 приема </td>
+  <td class="cl">10-40 мг/кг/сут</td>
+  <td class="cl">1,8-2,4 г/сут</td>
+  <td class="cl">в 3-4 введения в/в, в/м</td>
+</tr>
+<tr><td colspan="7" class="cc"><a href="../../../ab/047-49.shtml"><b>ТЕТРАЦИКЛИНЫ</b></a></td></tr>
+<tr>
+  <td class="cl">Доксициклин</td>
+  <td class="cc">&mdash;</td>
+  <td class="cl">0,2 г/сут</td>
+  <td class="cl">в 1-2 приема</td>
+  <td class="cc">&mdash;</td>
+  <td class="cl">0,2 г/сут</td>
+  <td class="cl">в 1-2 введения в/в</td>
+</tr>
+</table>
+</td></tr></table>
+
+<a name="m"></a>
+<p class="t8">*&nbsp; &#150; внутрь можно применять только при отсутствии амоксициллина.<br>
+** &#150; низкая биодоступность, внутрь лучше не применять.</p>
+
+<br><br>
+<h4>Литература</h4>
+<ol>
+<li value="1">Антибактериальная терапия. Практическое руководство. Под редакцией Л.С.&nbsp;Страчунского, Ю.Б.&nbsp;Белоусова, С.Н.&nbsp;Козлова; Москва, 2000.</li>
+<li value="2">Антибактериальная терапия пневмонии у детей. Пособие для врачей. Клиническая микробиология и антимикробная химиотерапия 2000; 2(1): 77-87.</li>
+<li value="3">Medicines for children. Royal College of Paediatrics and Child Health. London, 1999.</li>
+</ol>
+
+<br>
+<!--footer-->
+<table border="0" cellpadding="0" cellspacing="1" width="100%"><tr>
+<td align="left" style="vertical-align:bottom;"><font class="t8">&copy; 2000-2009 <a target="_blank" href="../../../copyright.php.html">НИИАХ СГМА</a></font></td>
+
+<td colspan="2" align="right"><font size="1">
+<!--Rambler 1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../../top100.cnt.gif?335834" alt="Rambler's Top100" width="1" height="1" border="0"></a><!--/Rambler 1x1-->
+
+<!--LiveInternet 1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+';i'+escape('Жж'+document.title.substring(0,80))+';'+Math.random()+
+'" width=1 height=1 alt="">')
+//--></script><!--/LiveInternet-->
+
+<!--LiveInternet--><a href="../../../index-17.htm" target="_blank"><img src="../../../images/banners/rax.gif" border="0" width="31" height="31" title="liveinternet.ru"></a><!--/LiveInternet-->
+
+<!--TopList--><a href="http://top.list.ru/jump?from=96637" target="_blank"><img src="../../../counter-3.gif?id=96637;t=55" border="0" height="31" width="88" alt="TopList"></a><!--/TopList-->
+
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../../top100/banner-88x31-rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+</font>
+</td>
+
+</tr></table>
+<!--/footer-->
+
+<hr size="1">
+  </td></tr>
+</table>
+</center>
+</body>
+</html>

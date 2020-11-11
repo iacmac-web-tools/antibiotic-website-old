@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<head>
+<title> РљСѓРїРёС‚СЊ РєРІР°СЂС‚РёСЂСѓ, РїСЂРѕРґР°Р¶Р° РєРІР°СЂС‚РёСЂ. РџРѕСЂС‚Р°Р» Рѕ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+<link rel="shortcut icon" href="/favicon.png" type="image/x-icon"></link>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link type="text/css" href="/css/style.css" rel="stylesheet" media="screen" />
+	
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+<script type="text/javascript" src="/js/blk.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+<script type="text/javascript" src="/js/jquery.easing.js"></script>
+<script type="text/javascript" src="/js/slider.js"></script>
+<script type="text/javascript" src="/js/script1.js"></script>
+
+<!-- Р’СЃРїР»С‹РІР°СЋС‰Р°СЏ РѕР±СЂР°С‚РЅР°СЏ СЃРІСЏР·СЊ-->
+<link rel="stylesheet" href="/css/contactable.css" type="text/css" />
+<script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/js/jquery.contactable.js"></script>
+<script type="text/javascript">$(function(){$('#contactable').contactable();});</script>
+<!-- Р’СЃРїР»С‹РІР°СЋС‰Р°СЏ РѕР±СЂР°С‚РЅР°СЏ СЃРІСЏР·СЊ--><script type="text/javascript">
+        $(document).ready( function(){
+            var buttons = {
+                previous:$('#jslidernews2 .button-previous') ,
+                next:$('#jslidernews2 .button-next')
+            };
+            $('#jslidernews2').lofJSidernews({
+				interval:4000,
+				navPosition			: 'horizontal',
+				easing:'easeInOutQuad',
+				duration:1200,
+				auto:true,
+				mainWidth:877,
+				mainHeight:320,
+				navigatorHeight		: 18,
+				navigatorWidth		: 18,
+				maxItemDisplay:10,
+				buttons:buttons
+            });
+        });
+    </script>
+	<link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+</head>
+<body class="" contenteditable="false">
+	<style>
+		#popup-window{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			padding: 20px;
+			background-color: #fff;
+			color: #000;
+			display: none;
+			z-index: 9999;
+		}
+	</style>
+
+	<div id="popup-window">
+		<form method="POST" action="">
+			РўРµР»РµС„РѕРЅ: <input type="text" id="popup-phone">
+			РЎРѕРѕР±С‰РµРЅРёРµ: <input type="text" id="popup-msg">
+			<input type="button" value="РћС‚РїСЂР°РІРёС‚СЊ" onclick="send_popup()">
+		</form>
+	</div>
+
+	<script type="text/javascript">
+		$("body").mouseleave(function(event) {
+		  show_popup();
+		  $("body").off("mouseleave");
+		});
+	</script>
+
+	<script type="text/javascript">
+		function send_popup() {
+			phone = $("#popup-phone").val();
+			msg = $("#popup-msg").val();
+
+			if(phone){
+				$.post(
+					"popup-window-ajax.php",
+					{phone: phone, msg: msg, send_popup: 1},
+					function(data) {
+						if(data){
+							alert("Р’Р°С€Рµ СЃРѕРѕР±С‰РµРЅРёРµ РѕС‚РїСЂР°РІР»РµРЅРѕ");
+						}
+				});
+			} else {
+				alert("Р’РІРµРґРёС‚Рµ С‚РµР»РµС„РѕРЅ");
+			}
+			$('#popup-window').css('opacity', '0');
+		}
+
+		function show_popup() {
+			$("#popup-window").show();
+			var d = new Date();
+			d.setTime(d.getTime() + (1*24*60*60*1000));
+			var expires = "expires="+ d.toUTCString();
+			document.cookie = 'popup_window' + "=" + 1 + ";" + expires + ";path=/";
+		}
+	</script>
+<div id="contactable"></div>
+<!--Р‘С‹СЃС‚СЂР°СЏ СЃРІСЏР·СЊ-->
+<div id="panel"></div>
+<div class="container-fluid">
+  <div class="row">
+    <header class="header">
+      <div class="header-top">
+        <div class="container">
+          <div class="header__lang"> </div>
+          <ul class="header__top-nav">
+            <li class="header__top-nav__item has-dropdown"><a class="header__top-nav__link" href="/sotrudnichestvo/">РЎРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІРѕ</a></li>
+                       <li class="header__top-nav__item"><a class="header__top-nav__link" href="/kontakty/">РљРѕРЅС‚Р°РєС‚С‹</a></li>
+          </ul>
+          <div class="header-top__login-box"> </div>
+          <div class="header-top__info"> <a href="#obr-z" class="header__master-link">Р—Р°РєР°Р·Р°С‚СЊ Р·РІРѕРЅРѕРє</a> </div>
+        </div>
+      </div>
+
+      <!--РњРµРЅСЋ РІРµСЂС…РЅРµРµ-->
+<nav class="b-header_mainmenu container clearfix">
+        <ul>
+          <li class="">
+            <div class="parent"><a href="/dveri/">Р”РІРµСЂРё</a>
+
+            </div>
+          </li>
+          <li class="">
+            <div class="parent"><a href="/kvartiry/">РљРІР°СЂС‚РёСЂС‹</a>
+
+            </div>
+          </li>
+          <li class="">
+            <div class="parent"><a href="/doma/">Р”РѕРјР°</a>
+
+            </div>
+          </li>
+          <li class="">
+            <div class="parent"><a href="/nedvizimost/">РќРµРґРІРёР¶РёРјРѕСЃС‚СЊ</a>
+
+            </div>
+          </li>
+ 
+        </ul>
+      </nav>
+      <!--РњРµРЅСЋ РІРµСЂС…РЅРµРµ-->
+    </header>
+    <div class="content">
+      <div class="container">
+        <div class="interior">
+          <div class="row">
+            <div class="listing-wrapper">
+              
+              <div class="col-md-9 mob-cont">
+                <div class="row">
+
+                  <div class="clear"></div>
+                  <!-----------------------------------РљРѕРЅС‚РµРЅС‚--------------------------------->
+                   
+                    <div class="page-title">
+                      <h1>РђСЂРµРЅРґР° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё</h1>
+                               </div>
+<p>РђСЂРµРЅРґР° РєРѕРјРјРµСЂС‡РµСЃРєРѕР№ РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё СЃРµР№С‡Р°СЃ РїРѕС‡С‚Рё РЅРёС‡РµРј РЅРµ РѕРіСЂР°РЅРёС‡РµРЅР°, РїРѕСЃРєРѕР»СЊРєСѓ СЂС‹РЅРѕРє РіРѕС‚РѕРІ РїСЂРµРґР»РѕР¶РёС‚СЊ РјРЅРѕР¶РµСЃС‚РІРѕ РІР°СЂРёР°РЅС‚РѕРІ.</p>
+
+<img src="/images/arenda-nedvizhimosti.jpg" alt="РђСЂРµРЅРґР° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё" title="РђСЂРµРЅРґР° РЅРµРґРІРёР¶РёРјРѕСЃС‚Рё" width="100%">
+
+<p>РђСЂРµРЅРґРѕРІР°С‚СЊ РєРѕРјРјРµСЂС‡РµСЃРєСѓСЋ РЅРµРґРІРёР¶РёРјРѕСЃС‚СЊ РѕС‚ СЃРѕР±СЃС‚РІРµРЅРЅРёРєР° вЂ“ Р·Р°РґР°С‡Р° РЅРµРїСЂРѕСЃС‚Р°СЏ, РЅРѕ РµРµ СЂРµС€РµРЅРёРµ С‚РѕРіРѕ СЃС‚РѕРёС‚, РІРµРґСЊ РІ СЌС‚РѕРј СЃР»СѓС‡Р°Рµ Р°СЂРµРЅРґР°С‚РѕСЂ РёРјРµРµС‚ Р±РѕР»СЊС€РёРµ РїСЂРµРёРјСѓС‰РµСЃС‚РІР°. РЎР°РјРѕРµ РіР»Р°РІРЅРѕРµ вЂ“ СЌС‚Рѕ РїСЂРёРІР»РµРєР°С‚РµР»СЊРЅРѕСЃС‚СЊ Р°СЂРµРЅРґРЅРѕР№ СЃС‚Р°РІРєРё. РљСЂРѕРјРµ С‚РѕРіРѕ, РІ Р±РѕР»СЊС€РёРЅСЃС‚РІРµ СЃР»СѓС‡Р°РµРІ СЌС‚Рѕ СѓРґРѕР±РЅРѕРµ РјРµСЃС‚РѕСЂР°СЃРїРѕР»РѕР¶РµРЅРёРµ Рё СѓР¶Рµ РѕР±Р¶РёС‚РѕР№ СЂР°Р№РѕРЅ. Р­С‚Рѕ Р·РЅР°С‡РёС‚, С‡С‚Рѕ Сѓ РІР°СЃ СѓР¶Рµ РµСЃС‚СЊ РїРѕС‚РµРЅС†РёР°Р»СЊРЅС‹Рµ РєР»РёРµРЅС‚С‹.</p>
+
+
+<h2>РђСЂРµРЅРґР° РїРѕРјРµС‰РµРЅРёР№ СЃРІРѕР±РѕРґРЅРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ</h2>
+
+<p>Р”Р°РІР°Р№С‚Рµ СЂР°СЃСЃРјРѕС‚СЂРёРј С‚Р°РєРѕР№ СЃРµРіРјРµРЅС‚ СЂС‹РЅРєР°, РєР°Рє Р°СЂРµРЅРґР° РїРѕРјРµС‰РµРЅРёР№ СЃРІРѕР±РѕРґРЅРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ.</p>
+<img src="/images/arenda-pomescheniy.jpg" alt="РђСЂРµРЅРґР° РїРѕРјРµС‰РµРЅРёР№ СЃРІРѕР±РѕРґРЅРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ" title="РђСЂРµРЅРґР° РїРѕРјРµС‰РµРЅРёР№ СЃРІРѕР±РѕРґРЅРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ" width="100%">
+<p>РљР°Рє РІРёРґРЅРѕ СѓР¶Рµ РёР· РЅР°Р·РІР°РЅРёСЏ, С†РµР»РµРІРѕРµ РЅР°Р·РЅР°С‡РµРЅРёРµ С‚Р°РєРёС… РїРѕРјРµС‰РµРЅРёР№ РЅРµ РѕРїСЂРµРґРµР»РµРЅРѕ. Р­С‚Рѕ Р·РЅР°С‡РёС‚, С‡С‚Рѕ РїРѕРјРµС‰РµРЅРёСЏ СЃРІРѕР±РѕРґРЅРѕРіРѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ РјРѕРіСѓС‚ Р±С‹С‚СЊ РёСЃРїРѕР»СЊР·РѕРІР°РЅС‹ СЃ СЂР°Р·РЅРѕР№ С†РµР»СЊСЋ.</p>
+
+<p>РќРѕ РІСЃРµ Р»Рё С‚Р°Рє РїСЂРѕСЃС‚Рѕ, РєР°Рє РєР°Р¶РµС‚СЃСЏ? Р•СЃР»Рё СЌС‚Рё РїРѕРјРµС‰РµРЅРёСЏ С‚Р°РєРёРµ РїСЂРёРІР»РµРєР°С‚РµР»СЊРЅС‹Рµ, С‚Рѕ РїРѕС‡РµРјСѓ РјРЅРѕРіРёРµ РёР· РЅРёС… РїСѓСЃС‚СѓСЋС‚ С‚Р°Рє РґРѕР»РіРѕ? РћРЅРё РјРѕРіСѓС‚ РЅР°С…РѕРґРёС‚СЊСЃСЏ РІ СЌРєСЃРїРѕР·РёС†РёРё РјРЅРѕРіРѕ РІСЂРµРјРµРЅРё, РїСЂРµР¶РґРµ С‡РµРј РЅР°Р№РґРµС‚СЃСЏ Р¶РµР»Р°СЋС‰РёР№ Р°СЂРµРЅРґРѕРІР°С‚СЊ СЌС‚Рё РїРѕРјРµС‰РµРЅРёСЏ. Р

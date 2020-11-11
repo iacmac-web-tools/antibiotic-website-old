@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Antimicrobial Resistance</title>
+<meta name="description" content="General Information">
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript"> <!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/en/inc/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../inc/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top:10px; margin-left:6px; }
+LI {margin-top:8px; margin-left:15px; }
+H4 {margin-left:6px;}
+H5 {font-size:11pt; text-align:left; margin-left:6px; margin-bottom:6px;}
+</style>
+</head>
+<body class="main">
+
+<table width="750" cellpadding="0" border="0" cellspacing="5">
+<tr>
+  <th width="150" valign="top">
+
+  <table border="0" cellpadding="2" cellspacing="0" width="100%">
+    <tr><td>
+<p class="m10"><b>Antimicrobial Resistance</b></p>
+<hr size="1" style="color: #D0C0AC;">
+<p class="m8"><a href="index.shtml#rus">Antimicrobial Resistance in Russia</a></p>
+<p class="m8"><a href="index.shtml#pub">Publications</a></p>
+<p class="m8"><a href="links.shtml">References</a></p>
+
+    </td></tr>
+  </table>
+  
+
+  </th><td valign="top">
+<!--navigation-->
+<map name="TopBtnEn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Previous page" title="Previous page">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Next page" title="Next page">
+<area shape="circle" coords="77,15,15" href="../index-1.htm" alt="Main page" title="Main page">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="E-Mail" title="E-Mail">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../rus/images/buttons/topline.gif);" width="98%" height="32"><img src="../../rus/images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../rus/images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Navigation" usemap="#TopBtnEn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+  
+<h1>Antimicrobial Resistance</h1>
+<hr size="1">
+
+<a name="rus"></a><br>
+<h4>Antimicrobial Resistance in Russia</h4>
+
+<ul>
+<li><a href="pub/arrussia.shtml">Antimicrobial resistance in Russia</a></li>
+</ul>
+
+
+<a name="pub"></a><br>
+<h4>Publications</h4>
+
+<p><a href="pub/aerobic.shtml">Antimicrobial Resistance Patterns Among Aerobic Gram-Negative Bacilli Isolated from Patients in Intensive Care Units: Results of Multicentre Study in Russia</a> 
+<br><i>L.&nbsp;Stratchounski, R.&nbsp;Kozlov, G.&nbsp;Rechedko, O.&nbsp;Stetsiouk, E.&nbsp;Chavrikova</i>
+<br>&laquo;Clinical Microbiology and Infection&raquo;, 1998; 9 (4): 497-507</p>
+<p class="r"><i>reprinted with permission from the journal &laquo;Clinical Microbiology and Infection&raquo;</i></p>
+<br><br>
+
+<p><b>43<sup>rd</sup> Interscience Conference on Antimicrobial Agents and Chemotherapy</b><br> (September 14-17, 2003, Chicago, IL)</p>
+<ul>
+<li>Russian Multicenter external quality control assessment (EQA) of antimicribial susceptibility testing (AST) in 2002: Highlights of the problems<br> <i>O.U. Stetsiouk, R.S. Kozlov, D.V. Galkin, A.A.&nbsp;Osherov, L.S.&nbsp;Stratchounski</i><br> <font class="t8"><img src="../../images/icons/pdf.gif" width="16" height="16" alt="" border="0"> <a target="_blank" href="../../files/pdf/en/icaac2003-1.pdf" title="Download (2.26 Mb)">The PDF format poster</a> (2.26 Mb)</font> &nbsp; <font color="Red"><i>(new)</i></font></li>
+</ul><br>
+
+<p><b>1<sup>st</sup> FEMS Congress of European Microbiologists</b><br> (June 29 - July 3, Ljubljana, Slovenia)</p>
+<ul>
+	<li>Susceptibility of toxigenic and non-toxigenic corynebacterium diphtheriae isolated in 1997-2002 to commonly prescribed antimicrobials: A cause for concern?<br> <i>R.S. Kozlov, M. Warner, C. Kelly, M. Sukhorukova, A. Efstratiou</i><br> <font class="t8"><img src="../../images/icons/pdf.gif" width="16" height="16" alt="" border="0"> <a target="_blank" href="../../files/pdf/en/fems1-ljubljana-1.pdf">The PDF format poster (774 kb) </a></font></li>
+	<li>Current state of antimicrobial resistance of <i>S.Pyogenes</i> (GAS) in Russia: Results of prospective multicenter study (PeHASus-I, Phase&nbsp;&laquo;B&raquo;)<br> <i>O.V. Sivaja, R.S. Kozlov, L.S. Stratchounski, PeHASus Study Group</i><br> <font class="t8"><img src="../../images/icons/pdf.gif" width="16" height="16" alt="" border="0"> <a target="_blank" href="../../files/pdf/en/fems1-ljubljana-2.pdf">The PDF format poster (929 kb)</a></font></li>
+	<li>Monitoring of antimicrobial resistance of nasopharyngeal <i>Streptococcus pneumoniae</i> in children from orphanages in Russia: Results of spars study<br> <i>R.S. Kozlov, P.C. Appelbaum, K. Kosowska, O.I. Kretchikova, J.A. Poupard, L.S.&nbsp;Stratchounski</i><br> <font class="t8"><img src="../../images/icons/pdf.gif" width="16" height="16" alt="" border="0"> <a target="_blank" href="../../files/pdf/en/fems1-ljubljana-3.pdf">The PDF format poster (637 kb)</a></font></li>
+</ul><br>
+
+<p><b>13<sup>th</sup> European Congress of Clinical Microbiology and
+Infectious Diseases (ESCMID)</b> (10-13 May, 2003, Glasgow, UK)</p> 
+<ul>
+  <li>Antimicrobial susceptibility (AS) of bacteria causing complicated intra-abdominal infections (CIAI)<br> <i>O.&nbsp;Stetsiouk, D.&nbsp;Galkin, E.&nbsp;Ryabkova, O.&nbsp;Kretchikova, L.&nbsp;Stratchounski</i><br> <font class="t8"><img src="../../images/icons/pdf.gif" width="16" height="16" alt="" border="0"> <a target="_blank" href="../../files/pdf/en/eccmid_asbcciai.pdf">The PDF format poster (227 kb)</a></font></li>
+  <li>Antimicrobial resistance of nosocomial strains of <i>Enterococcus</i> spp. in Russia<br> <i>A.&nbsp;Dekhnich, I.&nbsp;Edelstain, A.&nbsp;Narezkina, L.&nbsp;Stratchounski</i><br> <font class="t8"><img src="../../images/icons/pdf.gif" width="16" height="16" alt="" border="0"> <a target="_blank" href="../../files/pdf/en/eccmid_arnsesru.pdf">The PDF format poster (320 kb)</a></font></li>
+  <li>The characteristics of aminoglycosides resistance in nosocomial gram-negative strains in Russia<br> <i>G. Reshedko</i><br> <font class="t8"><img src="../../images/icons/pdf.gif" width="16" height="16" alt="" border="0"> <a target="_blank" href="../../files/pdf/en/eccmid_carngnsr.pdf">The PDF format poster (134 kb)</a></font></li>
+  <li>Current state of antimicrobial resistance of <i>S.pneumoniae</i> in Russia: Results of prospective multicenter study (PeHASus-I, phase&nbsp;&laquo;B&raquo;)<br> <i>R.S.&nbsp;Kozlov, O.V.&nbsp;Sivaja, O.I.&nbsp;Kretchikova, E.D.&nbsp;Agapova, L.I.&nbsp;Ahmetova, M.E.&nbsp;Furletova, L.V.&nbsp;Gudkova, E.N.&nbsp;Gugutsidse, R.R.&nbsp;Egorova, V.N.&nbsp;Ilyina, L.K.&nbsp;Katosova, F.K.&nbsp;Manerov, N.E.&nbsp;Marusina, I.G.&nbsp;Multich, G.I.&nbsp;Nechaeva, N.M.&nbsp;Nurtdinova, E.A.&nbsp;Ortenberg, S.H.&nbsp;Paljutin, I.V.&nbsp;Smirnov, E.V.&nbsp;Schetinin, S.M.&nbsp;Shturmina, G.Ya.&nbsp;Tseneva, L.S.&nbsp;Stratchounski</i><br> <font class="t8"><img src="../../images/icons/pdf.gif" width="16" height="16" alt="" border="0"> <a target="_blank" href="../../files/pdf/en/eccmid_pehasus1.pdf">The PDF format poster (327 kb)</a></font></li>
+</ul><br>
+
+<p><b>42<sup>nd</sup> Interscience Conference on Antimicrobial Agents and Chemotherapy</b><br> (27-30 September, 2002, San Diego, CA, USA)</p>
+<ul>
+  <li><a href="pub/g1469.shtml">Resistance of E.coli isolated from children with community-acquired urinary tract infections (CAUTIs) in Russia: Results of multicenter study &quot;ARMID&quot;</a><br><i>L.&nbsp;Stratchounski, A.&nbsp;Shevelev, N.&nbsp;Korovina, I.&nbsp;Edelstein, L.&nbsp;Kozlova, S.&nbsp;Zorkin, L.&nbsp;Katosova, A.&nbsp;Papajan, N.&nbsp;Marusina, A.&nbsp;Vjalkova, E.&nbsp;Agapova</i></li>
+</ul>
+
+<p><b>4<sup>th</sup> European Congress of Chemotherapy and Infection</b><br> (4–7 May 2002, Paris, France)</p>
+<ul>
+  <li><a href="pub/pm221.shtml">Activity of linezolid against nosocomial strains of <i>Staphylococcus aureus</i> in Russia: results of multicenter study</a><br> <i>V.A.&nbsp;Kretchikov, A.V.&nbsp;Dekhnich, L.S.&nbsp;Stratchounski</i></li>
+  <li><a href="pub/ps102.shtml">Comparative activity of quinolones against nosocomial <i>Staphylococcus&nbsp;aureus</i>: the&nbsp;results of multicenter study in Russia</a><br> <i>V.A.&nbsp;Kretchikov, A.V.&nbsp;Dekhnich, L.S.&nbsp;Stratchounski</i></li>
+  <li><a href="pub/pm189.shtml">Mechanism of resistance to aminoglycosides (amg) <i>E.coli</i> isolated from children with community-acquired urynary tract infections</a><br> <i>A.&nbsp;Shevelev, G.&nbsp;Reshedko, I.&nbsp;Edelstein, L.&nbsp;Kozlova, N.&nbsp;Korovina, S.&nbsp;Zorkin,  L.&nbsp;Katosova, A.&nbsp;Papajan, N.&nbsp;Marusina, L.&nbsp;Ahmetova, A.&nbsp;Vjalkova, E.&nbsp;Agapova, B.&nbsp;Fokina</i></li>
+  <li><a href="pub/raf.shtml">Prevalence of active chronic hepatitis&nbsp;B among the HBsAg-carriers in Smolensk, Russia</a><br> <i>V.&nbsp;Rafalski, N.&nbsp;Sudilovskaya, E.&nbsp;Karakina</i></li>
+</ul>
+
+<p><b>12<sup>th</sup> European Congress of Clinical Microbiology and Infectious Diseases</b><br> (24-27 April 2002, Milan, Italy)</p>
+<ul>
+  <li><a href="pub/p1145.shtml">Comparative Activity Of Old And New Quinolones Against Nosocomial <i>Staphylococcus&nbsp;Aureus</i></a><br> <i>V.&nbsp;Kretchikov, A.&nbsp;Dekhnich, L.&nbsp;Stratchounski</i></li>
+  <li><a href="pub/ecdgrtdinco.shtml">The European Commission DG RTD INCO Copernicus programme: an example of successful collaboration between countries of Eastern and Western Europe</a><br> <i>R.S.&nbsp;Kozlov, C.&nbsp;Andronescu, S.A.&nbsp;Gabrielian, T.G.&nbsp;Glushkevich, P.A.D.&nbsp;Grimont, V.E.&nbsp;Kim, I.K.&nbsp;Mazurova, I.&nbsp;Selga, L.P.&nbsp;Titov, G.Ya.&nbsp;Tseneva1, A.&nbsp;Efstratiou</i></li>
+  <li><a href="pub/p481.shtml">Prevalence of methicillin-resistant <i>Staphylococcus aureus</i> in different regions of Russia: results of multicenter study</a><br> <i>A.&nbsp;Narezkina, I.&nbsp;Edelstein, A.&nbsp;Dekhnich, L.&nbsp;Stratchounski, M.&nbsp;Pimkin, I.&nbsp;Palagin</i></li>
+  <li><a href="pub/p1413.shtml"><i>In vitro</i> activity of cefoperazone/sulbactam vs amoxicillin/clavulanic acid and piperacillin/tazobactam against extended spectrum <font face="Symbol">b</font>-lactamase (ESBL)-producing strains of <i>Escherichia coli</i> and <i>Klebsiella pneumoniae</i></a><br> <i>L.&nbsp;Stratchounski, I.&nbsp;Edelstein, A.&nbsp;Narezkina, M.&nbsp;Edelstein, M.&nbsp;Pimkin</i></li>
+</ul>
+
+<p><b>6<sup>th</sup> International Conference on the Macrolides, Azalides, Streptogramins, Ketolides and Oxazolidinones</b><br> (23-25 January, 2002, Bologna, Italy)</p>
+<ul>
+  <li><a href="pub/0201it0311.shtml">Activity of Macrolides, Clindamycin and Quinupristin/Dalfopristin Against Clinical Strains of <i>S.pneumoniae</i> Isolated from Children with Community-Acquired Respiratory Tract Infections (Carti)</a><br><i>L.&nbsp;Stratchounski, R.&nbsp;Kozlov, T.&nbsp;Bogdanovitch, O.&nbsp;Sivaja</i></li>
+  <li><a href="pub/0201it0313.shtml">Comparative Activity of Lincomycin and Clindamycin Against <i>Staphylococcus aureus</i> Isolated from Hospitalized Patients</a><br><i>V.&nbsp;Kretchikov, A.&nbsp;Dekhnich, I.&nbsp;Edelstein, A.&nbsp;Narezkina, M.&nbsp;Pimkin</i></li>
+</ul>  
+
+<p><b>41<sup>st</sup> Interscience Conference on Antimicrobial Agents and Chemotherapy</b><br> (16-19 December, 2001, Chicago, USA)</p>
+<ul>
+  <li><a href="pub/p007-67.shtml">Results of Russian Country-wide Surveillance of Antimicrobial Resistance of Nosocomial Gram-negative Bacteria (Ngnb) from 28 Intensive Care Units (ICUs)</a><br><i>L.&nbsp;Stratchounski, G.&nbsp;Reshedko, O.&nbsp;Stetsiouk, O.&nbsp;Kretchikova, E.&nbsp;Riabkova</i></li>
+</ul>
+
+<p><b>22<sup>th</sup> International Congress of Chemotherapy</b><br> (30 June - 3 July, 2001, Amsterdam, The Netherlands)</p>
+<ul>
+  <li><a href="pub/eqa.shtml">The Results of IACMAC External Quality Assurance (Eqa) Program for Identification and Antimicrobial Susceptibility Testing (Ast) of Gram-Positive Bacteria In Russia</a><br><i>O.&nbsp;Stetsiouk, E.&nbsp;Rjabkova, D.&nbsp;Galkin, M.&nbsp;Sukchorukova, L.&nbsp;Stratchounski</i></li>
+  <li><a href="pub/443.shtml">Activity of Old and New Fluoroquinolones against Nosocomial Methicillin-Resistant <i>Staphylococcus aureus</i> from a Trauma Hospital</a><br><i>V.&nbsp;Kretchikov, A.&nbsp;Dekhnitch, S.&nbsp;Pylayeva, G.&nbsp;Kochekov, R.&nbsp;Kozlov</i></li>
+</ul>
+
+<p><b>40<sup>th</sup> Interscience Conference on Antimicrobial Agents and Chemotherapy</b><br> (17-20 September, 2000, Toronto, Ontario, Canada)</p>
+<ul>
+  <li><a href="pub/1214.shtml">High prevalence of resistance in shigellae in European part of Russia</a><br><i>L.&nbsp;Stratchounski, O.&nbsp;Kretchikova, M.&nbsp;Sukchorukova, A.&nbsp;Ivanov, A.&nbsp;Dekhnitch</i></li>
+</ul>
+
+<p><b>21<sup>th</sup> International Congress of Chemotherapy</b><br> (4-7 July, 1999, Birmingham, UK)</p>
+<ul>
+  <li><a href="pub/p188.shtml">Resistance to antibiotics in <i>Neisseria gonorrhoeae</i> in Russia: There is something to worry about</a><br><i>S.&nbsp;Sekhin, L.&nbsp;Stratchounski</i></li>
+</ul>
+
+<p><b>European Congress of Chemotherapy</b><br> (10-13 May, 1998, Hamburg, Germany)</p>
+<ul>
+  <li><a href="pub/bogd.shtml">Antimicrobial resistance in nosocomial strains of <i>Acinetobacter</i> spp. isolated in ICUs in Russia</a><br><i>T.&nbsp;Bogdanovich, O.&nbsp;Stetsiouk, G.&nbsp;Reshedko, S.&nbsp;Sekhin</i></li>
+  <li><a href="pub/163.shtml">Antibiotic resistance of enterococci isolated from premature born infants</a><br><i>A.&nbsp;Dekhnitch, O.&nbsp;Kretchikova, R.&nbsp;Kozlov, L.&nbsp;Stratchounski</i></li>
+</ul>
+
+<p><b>9<sup>th</sup> European Congress of Clinical Microbiology and Infectious Diseases</b><br> (21-25 March, 1999, Berlin, Germany)</p>
+<ul>
+  <li><a href="pub/p0109.shtml">Comparison of Oxacillin-Supplemented AGV Agar and Mueller-Hinton Agar for Detection of Methicillin-Resistance in <i>Staphylococcus aureus</i></a><br><i>A.&nbsp;Dekhnitch, O.&nbsp;Kretchikova, O.&nbsp;Stetsiouk, S.&nbsp;Sekhin, L.&nbsp;Stratchounski</i></li>
+  <li><a href="pub/p0581.shtml">Nasopharyngeal Carriage Rate and Susceptibility of <i>Haemophilus influenzae</i> to Antimicrobials in Central Part of Russia</a><br><i>O.&nbsp;Kretchikova, G.&nbsp;Reshedko, O.&nbsp;Stetsiouk, O.&nbsp;Egorova, T.&nbsp;Bogdanovich, L.&nbsp;Stratchounski</i></li>
+  <li><a href="pub/p1196.shtml">Quality Assessment (QA) of Antimicrobial Susceptibility Testing in Russia</a><br><i>O.&nbsp;Stetsiouk, G.&nbsp;Reshedko, O.&nbsp;Kretchikova, E.&nbsp;Rjabkova</i></li>
+  <li><a href="pub/p0786.shtml">Tissue Concentrations of Cefuroxime During Preoperative Antibiotic Prophylaxis in Abdominal Surgery</a><br><i>V.&nbsp;Pleshkov, L.&nbsp;Stratchounski, A.&nbsp;Muckonin, N.&nbsp;Sudilovskaya, N.&nbsp;Lebedeva</i></li>
+  <li><a href="pub/p718.shtml">Community-Acquired Sinusitis: Pathogens and Their Antimicrobial Susceptibility</a><br><i>I.&nbsp;Otvagin, E.&nbsp;Kamanin, S.&nbsp;Demko, E.&nbsp;Voronov, S.&nbsp;Chubarova, S.&nbsp;Schevkov, L.&nbsp;Necrasova</i></li>
+  <li><a href="pub/p1034.shtml">Antimicrobial Resistance in Nosocomial Strains of <i>Enterobacter</i> spp. Isolated in Intensive Care Units (ICUs) in Russia: Results of Multicentre Study</a><br><i>R.&nbsp;Kozlov, O.&nbsp;Stetsiouk, G.&nbsp;Reshedko, L.&nbsp;Ritchic, T.&nbsp;Avdeeva, T.&nbsp;Shebnicova, L.&nbsp;Stratchounski</i></li>
+  <li><a href="pub/0821.shtml">M-Lab System - a new tool for automation of microbiological data collection, analysis and storage</a><br><i>B.&nbsp;Makushkin, A.&nbsp;Dekhnitch, L.&nbsp;Stratchounski</i></li>
+  <li><a href="pub/p0344.shtml">Antimicrobial Resistance Patterns of Gram-negative Urinary Tract Pathogens Isolated from Outpatients in Russia</a><br><i>L.&nbsp;Stratchounski, E.&nbsp;Abrarova, I.&nbsp;Edelstein, M.&nbsp;Suvorov, G.&nbsp;Reshedko, O.&nbsp;Kretchikova, V.&nbsp;Iljina, E.&nbsp;Gugutsidze, N.&nbsp;Furletova, N.&nbsp;Petrochenkova</i></li>
+</ul>
+
+<p><b>38<sup>th</sup> Interscience Conference on Antimicrobial Agents and Chemotherapy</b><br> (24-27 September, 1998, San Diego, USA)</p>
+<ul>
+  <li><a href="pub/e092.shtml">Evaluation of <i>In&nbsp;Vitro</i> Activities of Cefepime and Other <font face="Symbol">b</font>-lactams against Nosocomial Enterobacteriaceae with Respect to Their <font face="Symbol">b</font>-lactamase Patterns in 8&nbsp;Russian Hospitals</a><br><i>L.&nbsp;Stratchounski, M.&nbsp;Edelstein, O.&nbsp;Stetsiouk, G.&nbsp;Reshedko</i></li>
+</ul>
+
+<p><b>20<sup>th</sup> International Congress of Chemotherapy</b><br>
+(29 June – 3 July, 1997, Sydney, Australia)</p>
+<ul>
+  <li><a href="pub/po01-4201.shtml">Interpretation of Results of ESBL Detection Using E-test<sup>&reg;</sup> Needs in Consensus</a><br><i>L.&nbsp;Stratchounski, M.&nbsp;Edelstein, R.&nbsp;Kozlov</i></li>
+</ul>
+
+<br>
+<!-- begin footer -->
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tr>
+  <td style="text-align: left; vertical-align: bottom;" align="left" valign="bottom"><div class="t8">&copy; 2000-2006 IAC SSMA &middot; E-mail: <a href="mailto:website@antibiotic.ru" title="Send e-mail">website&#64;antibiotic&#46;ru</a></div></td>
+  <td colspan="2" valign="top" align="right"><font size="1"><!-- SpyLOG v2 f:0211 --><script language="javascript">
+u="u607.38.spylog.com";d=document;nv=navigator;na=nv.appName;p=1;
+bv=Math.round(parseFloat(nv.appVersion)*100);
+n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random();z="p="+p+"&rn="+rn;y="";
+y+="<a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+
+"&r="+escape(d.referrer)+"&pg="+escape(window.location.href)+"' border=0  width=88 height=31  alt='SpyLOG'>";
+y+="</a>"; d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<a href="../../index-15.htm?f=3&p=1" target="_blank">
+<img src="../../digits.png?p=1" alt='SpyLOG' border='0' width="88" height="31">
+</a></noscript><script language="javascript1.2"><!--
+if(!n) { d.write("--"+">"); }//--></script><!-- SpyLOG  --></font></td>
+</tr>
+</table>
+<!-- end of footer -->
+
+<hr size="1">
+  </td></tr>
+</table>
+</body>
+</html>

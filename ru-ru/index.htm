@@ -1,0 +1,804 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="ru-RU">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"de4d5b2b97","applicationID":"435874581","transactionName":"NFEHbRMFXERTVEdbCg0bKG8iS2BSXFNWQCgVVyZWDxBAWF5bVkBKK1sIXA==","queueTime":0,"applicationTime":1002,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"de4d5b2b97",applicationID:"435874581"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+        <link rel="icon" type="image/png" href="/gsk-favicon.ico" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-icon-57x57px.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-icon-72x72px.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-icon-114x114px.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-icon-144x144px.png" />
+
+    <meta name="description" content="" />
+    <title>Р“Р»Р°РІРЅР°СЏ | GSK Р РѕСЃСЃРёСЏ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    
+
+    <link rel="stylesheet" href="/assets/css/flag-sprites.css" />
+    <script src="/assets/js/min/script-loader.min.js"></script>
+    
+
+
+
+    
+
+    
+
+
+
+
+    
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Р“Р»Р°РІРЅР°СЏ | GSK Р РѕСЃСЃРёСЏ" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://ru.gsk.com" />
+    <meta property="og:description" content="" />
+
+    <meta property="og:image" content="http://ru.gsk.com/media/622928/coronavirus_multi_00.jpg?width=1024&amp;quality=60&amp;mode=crop" />
+    <meta name="page-image" content="http://ru.gsk.com/media/622928/coronavirus_multi_00.jpg?height=420&amp;width=630&amp;quality=60&amp;mode=crop" />
+
+    <meta name="site-section" content="Р“Р»Р°РІРЅР°СЏ" />
+
+    <!-- End Open Graph Tags -->
+    
+    
+
+
+
+
+</head>
+<body>
+    
+
+
+    
+
+<script type="text/javascript">  (function(a,b,c,d){     a='//tags.tiqcdn.com/utag/gsk/profile-rx-ru/prod/utag.js' ; b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);  })();  </script>
+    
+    
+
+
+
+    <a href="#content" class="visually-hidden">Skip to Content</a> <a href="#searchBox" class="visually-hidden">Skip to Search</a>
+
+
+
+    <div id="wrapper" class="clearfix">
+
+        <header id="header">
+            
+
+<div id="logo">
+    <a href="/ru-ru/">
+        <img src="/assets/img/gsk-logo.png?width=94" alt="GSK Logo linking to the homepage" width="94" height="81" />
+    </a>
+</div>
+
+            <div id="toolbar">
+                
+                
+
+
+
+                
+
+                
+
+                
+
+
+	<!-- Country cache pulled from feed url -->
+        <div id="countrySelector">
+            <a href="#" title="Market selector" accesskey="c"> 
+                <span id="selectedCountry">Russia (RU)</span>
+                <span class="icon-gsk-downarrow"></span>
+                <span class="sprite sprite-Russia"></span>
+            </a>
+            <div class="country-overlay">
+                <div class="region-container no-toggle">
+                    <div class="regions">
+                            <div class="region-heading">Р’С‹Р±РµСЂРµС‚Рµ СЂРµРіРёРѕРЅ</div>
+                        <ul>
+                                    <li>
+                                        <a href="#">Africa</a>
+                                            <div class="region one-col">
+        <div class="countries">
+                <ul>
+            <li>
+                    <span class="sprite-small sprite-Algeria"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/algeria/" target="_blank" title="Algeria (EN)">Algeria (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Kenya"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/kenya" target="_blank" title="Kenya (EN)">Kenya (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Morocco"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/morocco" target="_blank" title="Morocco (EN)">Morocco (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Nigeria"></span>
+                <a href="http://ng.gsk.com/" target="_blank" title="Nigeria (EN)">Nigeria (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-South-Africa"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/south-africa" target="_blank" title="South Africa (EN)">South Africa (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Tunisia"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/tunisia" target="_blank" title="Tunisia (EN)">Tunisia (EN)</a>
+            </li>
+    </ul>
+
+        </div>
+    </div>
+
+                                    </li>
+                                    <li>
+                                        <a href="#">Asia &amp; the Middle East</a>
+                                            <div class="region">
+        <div class="countries">
+                <ul>
+            <li>
+                    <span class="sprite-small sprite-Bangladesh"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/bangladesh" target="_blank" title="Bangladesh (EN)">Bangladesh (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Cambodia"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/cambodia" target="_blank" title="Cambodia (EN)">Cambodia (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-China-(Mainland)"></span>
+                <a href="http://www.gsk-china.com/zh-cn/" target="_blank" title="China (Mainland) (ZH/EN)">China (Mainland) (ZH/EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Egypt"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/egypt" target="_blank" title="Egypt (EN/AR)">Egypt (EN/AR)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Hong-Kong-and-Macau"></span>
+                <a href="http://hk.gsk.com/en-gb/" target="_blank" title="Hong Kong and Macau (EN/ZH)">Hong Kong and Macau (EN/ZH)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-India"></span>
+                <a href="http://india-pharma.gsk.com/" target="_blank" title="India (EN)">India (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Indonesia"></span>
+                <a href="https://www.gsk.com/en-gb/contact-us/worldwide/indonesia/" target="_blank" title="Indonesia (EN)">Indonesia (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Israel"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/israel" target="_blank" title="Israel (EN)">Israel (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Japan"></span>
+                <a href="http://jp.gsk.com/" target="_blank" title="Japan (JP)">Japan (JP)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Kazakhstan"></span>
+                <a href="http://kz.gsk.com/" target="_blank" title="Kazakhstan (RU)">Kazakhstan (RU)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-South-Korea"></span>
+                <a href="http://kr.gsk.com/" target="_blank" title="Korea (KO)">Korea (KO)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Malaysia"></span>
+                <a href="http://my.gsk.com" target="_blank" title="Malaysia (EN)">Malaysia (EN)</a>
+            </li>
+    </ul>
+
+                <ul>
+            <li>
+                    <span class="sprite-small sprite-Myanmar"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/myanmar" target="_blank" title="Myanmar (EN)">Myanmar (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Pakistan"></span>
+                <a href="http://pk.gsk.com/" target="_blank" title="Pakistan (EN/UR)">Pakistan (EN/UR)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Philippines"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/philippines" target="_blank" title="Philippines (EN)">Philippines (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Saudi-Arabia"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/saudi-arabia" target="_blank" title="Saudi Arabia (EN)">Saudi Arabia (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Singapore"></span>
+                <a href="https://www.gsk.com/en-gb/contact-us/worldwide/singapore/" target="_blank" title="Singapore (EN)">Singapore (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Sri-Lanka"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/sri-lanka" target="_blank" title="Sri Lanka (EN)">Sri Lanka (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Taiwan"></span>
+                <a href="http://tw.gsk.com/" target="_blank" title="Taiwan (ZH)">Taiwan (ZH)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Thailand"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/thailand" target="_blank" title="Thailand (EN)">Thailand (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Turkey"></span>
+                <a href="http://tr.gsk.com/" target="_blank" title="Turkey (TR)">Turkey (TR)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-United-Arab-Emirates"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/united-arab-emirates" target="_blank" title="United Arab Emirates (EN)">United Arab Emirates (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Vietnam"></span>
+                <a href="https://www.gsk.com/en-gb/contact-us/worldwide/vietnam/" target="_blank" title="Vietnam (EN)">Vietnam (EN)</a>
+            </li>
+    </ul>
+
+        </div>
+    </div>
+
+                                    </li>
+                                    <li>
+                                        <a href="#">Australasia</a>
+                                            <div class="region one-col">
+        <div class="countries">
+                <ul>
+            <li>
+                    <span class="sprite-small sprite-Australia"></span>
+                <a href="http://au.gsk.com/" target="_blank" title="Australia (EN)">Australia (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-New-Zealand"></span>
+                <a href="http://nz.gsk.com/" target="_blank" title="New Zealand (EN)">New Zealand (EN)</a>
+            </li>
+    </ul>
+
+        </div>
+    </div>
+
+                                    </li>
+                                    <li>
+                                        <a href="#">Europe</a>
+                                            <div class="region">
+        <div class="countries">
+                <ul>
+            <li>
+                    <span class="sprite-small sprite-Albania"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/albania/" target="_blank" title="Albania (EN)">Albania (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Austria"></span>
+                <a href="http://at.gsk.com/" target="_blank" title="Austria (DE)">Austria (DE)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Belarus"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/belarus" target="_blank" title="Belarus (EN)">Belarus (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Belgium"></span>
+                <a href="http://be.gsk.com/fr/" target="_blank" title="Belgium (FR/NL/EN)">Belgium (FR/NL/EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Bosnia-and-Herzegovina"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/bosnia-herz" target="_blank" title="Bosnia and Herzegovina (EN)">Bosnia and Herzegovina (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Bulgaria"></span>
+                <a href="http://bg.gsk.com/" target="_blank" title="Bulgaria (BG)">Bulgaria (BG)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Croatia"></span>
+                <a href="https://www.gsk.com/en-gb/contact-us/worldwide/croatia/" target="_blank" title="Croatia (EN)">Croatia (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Cyprus"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/cyprus" target="_blank" title="Cyprus (EN)">Cyprus (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Czech-Republic"></span>
+                <a href="http://cz.gsk.com/" target="_blank" title="Czech Republic (CS)">Czech Republic (CS)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Denmark"></span>
+                <a href="http://dk.gsk.com/" target="_blank" title="Denmark (DA)">Denmark (DA)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Estonia"></span>
+                <a href="https://www.gsk.com/en-gb/contact-us/worldwide/estonia/" target="_blank" title="Estonia (EN)">Estonia (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Finland"></span>
+                <a href="http://fi.gsk.com/" target="_blank" title="Finland (FI)">Finland (FI)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-France"></span>
+                <a href="http://fr.gsk.com/" target="_blank" title="France (FR)">France (FR)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Germany"></span>
+                <a href="http://de.gsk.com/" target="_blank" title="Germany (DE)">Germany (DE)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Greece"></span>
+                <a href="http://gr.gsk.com" target="_blank" title="Greece (EL)">Greece (EL)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Hungary"></span>
+                <a href="http://hu.gsk.com/" target="_blank" title="Hungary (HU)">Hungary (HU)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Ireland"></span>
+                <a href="http://ie.gsk.com/" target="_blank" title="Ireland (EN)">Ireland (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Italy"></span>
+                <a href="https://www.gsk.it/" target="_blank" title="Italy (IT)">Italy (IT)</a>
+            </li>
+    </ul>
+
+                <ul>
+            <li>
+                    <span class="sprite-small sprite-Latvia"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/latvia" target="_blank" title="Latvia (EN)">Latvia (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Lithuania"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/lithuania" target="_blank" title="Lithuania (EN)">Lithuania (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Luxembourg"></span>
+                <a href="http://be.gsk.com/" target="_blank" title="Luxembourg (FR/NL/EN)">Luxembourg (FR/NL/EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Macedonia"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/macedonia" target="_blank" title="Macedonia (EN)">Macedonia (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Malta"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/malta" target="_blank" title="Malta (EN)">Malta (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Netherlands"></span>
+                <a href="http://nl.gsk.com/" target="_blank" title="Netherlands (NL)">Netherlands (NL)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Norway"></span>
+                <a href="http://no.gsk.com/" target="_blank" title="Norway (NB)">Norway (NB)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Poland"></span>
+                <a href="http://pl.gsk.com" target="_blank" title="Poland (PL)">Poland (PL)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Portugal"></span>
+                <a href="https://pt.gsk.com" target="_blank" title="Portugal (PT)">Portugal (PT)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Romania"></span>
+                <a href="http://ro.gsk.com/" target="_blank" title="Romania (RO)">Romania (RO)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Russia"></span>
+                <a href="http://ru.gsk.com/" title="Russia (RU)">Russia (RU)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Serbia"></span>
+                <a href="http://rs.gsk.com" target="_blank" title="Serbia (SR)">Serbia (SR)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Slovakia"></span>
+                <a href="http://sk.gsk.com/" target="_blank" title="Slovakia (SK)">Slovakia (SK)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Slovenia"></span>
+                <a href="https://www.gsk.com/en-gb/contact-us/worldwide/slovenia/" target="_blank" title="Slovenia (SL)">Slovenia (SL)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Spain"></span>
+                <a href="http://es.gsk.com/" target="_blank" title="Spain (ES)">Spain (ES)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Sweden"></span>
+                <a href="http://se.gsk.com/" target="_blank" title="Sweden (SV)">Sweden (SV)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Switzerland"></span>
+                <a href="http://www.glaxosmithkline.ch/de-ch/" target="_blank" title="Switzerland (DE/FR)">Switzerland (DE/FR)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Ukraine"></span>
+                <a href="http://ua.gsk.com/" target="_blank" title="Ukraine (UK)">Ukraine (UK)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-United-Kingdom"></span>
+                <a href="http://uk.gsk.com" target="_blank" title="United Kingdom (EN)">United Kingdom (EN)</a>
+            </li>
+    </ul>
+
+        </div>
+    </div>
+
+                                    </li>
+                                    <li>
+                                        <a href="#">North America</a>
+                                            <div class="region one-col">
+        <div class="countries">
+                <ul>
+            <li>
+                    <span class="sprite-small sprite-Canada"></span>
+                <a href="http://ca.gsk.com/en-ca/" target="_blank" title="Canada (EN/FR)">Canada (EN/FR)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Mexico"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/mexico" target="_blank" title="Mexico (EN)">Mexico (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-United-States"></span>
+                <a href="http://us.gsk.com/" target="_blank" title="United States (EN)">United States (EN)</a>
+            </li>
+    </ul>
+
+        </div>
+    </div>
+
+                                    </li>
+                                    <li>
+                                        <a href="#">South &amp; Central America</a>
+                                            <div class="region">
+        <div class="countries">
+                <ul>
+            <li>
+                    <span class="sprite-small sprite-Argentina"></span>
+                <a href="http://ar.gsk.com/" target="_blank" title="Argentina (ES)">Argentina (ES)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Brazil"></span>
+                <a href="http://br.gsk.com/" target="_blank" title="Brazil (PT)">Brazil (PT)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Caribbean-Islands"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/caribbean-islands" target="_blank" title="Caribbean Islands (EN)">Caribbean Islands (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Chile"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/chile" target="_blank" title="Chile (EN)">Chile (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Colombia"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/colombia" target="_blank" title="Colombia (EN/ES)">Colombia (EN/ES)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Costa-Rica"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/costa-rica" target="_blank" title="Costa Rica (EN)">Costa Rica (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Dominican-Republic"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/dominican-republic" target="_blank" title="Dominican Republic (EN)">Dominican Republic (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Ecuador"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/ecuador" target="_blank" title="Ecuador (EN)">Ecuador (EN)</a>
+            </li>
+    </ul>
+
+                <ul>
+            <li>
+                    <span class="sprite-small sprite-El-Salvador"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/el-salvador" target="_blank" title="El Salvador (EN)">El Salvador (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Guatemala"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/guatemala" target="_blank" title="Guatemala (EN)">Guatemala (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Honduras"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/honduras" target="_blank" title="Honduras (EN)">Honduras (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Jamaica"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/jamaica" target="_blank" title="Jamaica (EN)">Jamaica (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Panama"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/panama" target="_blank" title="Panama (EN/ES)">Panama (EN/ES)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Peru"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/peru" target="_blank" title="Peru (EN)">Peru (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Trinidad-and-Tobago"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/trinidad-tobago" target="_blank" title="Trinidad &amp; Tobago (EN)">Trinidad &amp; Tobago (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Uruguay"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/uruguay" target="_blank" title="Uruguay (EN)">Uruguay (EN)</a>
+            </li>
+            <li>
+                    <span class="sprite-small sprite-Venezuela"></span>
+                <a href="http://www.gsk.com/en-gb/contact-us/worldwide/venezuela" target="_blank" title="Venezuela (EN)">Venezuela (EN)</a>
+            </li>
+    </ul>
+
+        </div>
+    </div>
+
+                                    </li>
+                        </ul>
+                        <a href="http://www.gsk.com/" class="global-link"> <span>www.gsk.com</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+                
+
+
+<div id="searchBox">
+
+            <form action="/ru-ru/РїРѕРёСЃРє/">
+                <input type="search" id="searchField" name="q" placeholder="РџРѕРёСЃРє" title="РџРѕРёСЃРє" />
+                <button id="searchButton" type="submit" class="icon-gsk-search">РџРѕРёСЃРє</button>
+            </form>
+</div>
+
+            </div>
+            
+	<ul id="audienceNav">
+	<li class="audience">
+		<a href="/ru-ru/media/">РњРµРґРёР°</a>
+
+
+
+	</li>
+	<li class="audience">
+		<a href="/ru-ru/consumers/">РџРѕС‚СЂРµР±РёС‚РµР»Рё</a>
+
+
+
+	</li>
+	<li class="audience hasChildren">
+		<a href="/ru-ru/healthcare-professionals/">Р Р°Р±РѕС‚РЅРёРєРё Р·РґСЂР°РІРѕРѕС…СЂР°РЅРµРЅРёСЏ</a>
+
+			<ul class="level-1">
+				<li class="section-link">
+					<a href="/ru-ru/healthcare-professionals/">Р Р°Р±РѕС‚РЅРёРєРё Р·РґСЂР°РІРѕРѕС…СЂР°РЅРµРЅРёСЏ</a>
+				</li>
+	<li class="audience">
+		<a href="/ru-ru/healthcare-professionals/СЃРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІРѕ-СЃ-РІСЂР°С‡Р°РјРё-Рё-РїР°С†РёРµРЅС‚Р°РјРё-РІ-СЂР°РјРєР°С…-РєР»РёРЅРёС‡РµСЃРєРёС…-РёСЃСЃР»РµРґРѕРІР°РЅРёР№/">РЎРѕС‚СЂСѓРґРЅРёС‡РµСЃС‚РІРѕ СЃ РІСЂР°С‡Р°РјРё Рё РїР°С†РёРµРЅС‚Р°РјРё РІ СЂР°РјРєР°С… РєР»РёРЅРёС‡РµСЃРєРёС… РёСЃСЃР»РµРґРѕРІР°РЅРёР№</a>
+
+
+
+	</li>
+	<li class="audience">
+		<a href="/ru-ru/healthcare-professionals/disclosure/">Р Р°СЃРєСЂС‹С‚РёРµ РёРЅС„РѕСЂРјР°С†РёРё</a>
+
+
+
+	</li>
+	<li class="audience">
+		<a href="/ru-ru/healthcare-professionals/gsk-events/">РњРµСЂРѕРїСЂРёСЏС‚РёСЏ GSK</a>
+
+
+
+	</li>
+	<li class="audience">
+		<a href="/ru-ru/healthcare-professionals/hcp-engagement-2018/">Р’Р·Р°РёРјРѕРґРµР№СЃС‚РІРёРµ СЃ СЂР°Р±РѕС‚РЅРёРєР°РјРё Р·РґСЂР°РІРѕРѕС…СЂР°РЅРµРЅРёСЏ, РёРјРµСЋС‰РёРјРё РїСЂР°РІРѕ РЅР°Р·РЅР°С‡Р°С‚СЊ СЂРµС†РµРїС‚СѓСЂРЅС‹Рµ РїСЂРµРїР°СЂР°С‚С‹</a>
+
+
+
+	</li>
+			</ul>
+
+
+	</li>
+	<li class="audience hasChildren">
+		<a href="/ru-ru/contacts/">РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ</a>
+
+			<ul class="level-1">
+				<li class="section-link">
+					<a href="/ru-ru/contacts/">РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ</a>
+				</li>
+	<li class="audience">
+		<a href="/ru-ru/contacts/gsk-offices/">РћС„РёСЃС‹ GSK</a>
+
+
+
+	</li>
+	<li class="audience">
+		<a href="/ru-ru/contacts/media-contacts/">РљРѕРЅС‚Р°РєС‚С‹ РґР»СЏ СЃСЂРµРґСЃС‚РІ РјР°СЃСЃРѕРІРѕР№ РёРЅС„РѕСЂРјР°С†РёРё</a>
+
+
+
+	</li>
+	<li class="audience">
+		<a href="/ru-ru/contacts/Р·Р°РїСЂРѕСЃ-РјРµРґРёС†РёРЅСЃРєРѕР№-РёРЅС„РѕСЂРјР°С†РёРё-Рё-СЃРѕРѕР±С‰РµРЅРёСЏ-Рѕ-РЅРµР¶РµР»Р°С‚РµР»СЊРЅС‹С…-СЏРІР»РµРЅРёСЏС…/">Р—Р°РїСЂРѕСЃ РјРµРґРёС†РёРЅСЃРєРѕР№ РёРЅС„РѕСЂРјР°С†РёРё Рё СЃРѕРѕР±С‰РµРЅРёСЏ Рѕ РЅРµР¶РµР»Р°С‚РµР»СЊРЅС‹С… СЏРІР»РµРЅРёСЏС…</a>
+
+
+
+	</li>
+			</ul>
+
+
+	</li>
+			</ul>
+
+
+
+
+            
+
+
+<a id="mobileNav" class="icon-menu" href="#"><span></span></a>
+
+<nav id="primaryNav" class=" ">
+    <ul id="primaryNavMenu">
+            <li class=" hasMegaNav hasChildren">
+                <a class="icon-gsk-circle-info" href="/ru-ru/our-company/" title="РќР°С€Р° РєРѕРјРїР°РЅРёСЏ">
+                    <div class="underline">РќР°С€Р° РєРѕРјРїР°РЅРёСЏ</div>
+                </a>
+
+                    <ul class="level-1">
+                        <li class="section-link">
+                            <a href="/ru-ru/our-company/" title="РќР°С€Р° РєРѕРјРїР°РЅРёСЏ">РќР°С€Р° РєРѕРјРїР°РЅРёСЏ</a>
+                        </li>
+            <li class="">
+                <a href="/ru-ru/our-company/our-products/" title="РќР°С€Рё РїСЂРѕРґСѓРєС‚С‹">
+                    <div class="underline">РќР°С€Рё РїСЂРѕРґСѓРєС‚С‹</div>
+                </a>
+
+                            </li>
+            <li class="">
+                <a href="/ru-ru/our-company/gsk-in-russia/" title="GSK РІ Р РѕСЃСЃРёРё">
+                    <div class="underline">GSK РІ Р РѕСЃСЃРёРё</div>
+                </a>
+
+                            </li>
+            <li class="">
+                <a href="/ru-ru/our-company/codes-and-standards/" title="РџРѕР»РёС‚РёРєРё, РєРѕРґРµРєСЃС‹ Рё СЃС‚Р°РЅРґР°СЂС‚С‹">
+                    <div class="underline">РџРѕР»РёС‚РёРєРё, РєРѕРґРµРєСЃС‹ Рё СЃС‚Р°РЅРґР°СЂС‚С‹</div>
+                </a>
+
+                            </li>
+                    </ul>
+                        <div class="mega-nav-wrapper">
+            <div class="mega-nav">
+                <div class="featured-nav">
+                    <ul>
+                            <li>
+                                <a href="/ru-ru/our-company/our-products/">
+                                    <h3>РќР°С€Рё РїСЂРѕРґСѓРєС‚С‹</h3>
+                                    <p>
+                                        РњС‹ СЂР°Р·СЂР°Р±Р°С‚С‹РІР°РµРј Рё РїСЂРѕРёР·РІРѕРґРёРј СЂРµС†РµРїС‚СѓСЂРЅС‹Рµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹Рµ РїСЂРµРїР°СЂР°С‚С‹, РІР°РєС†РёРЅС‹, Р±РµР·СЂРµС†РµРїС‚СѓСЂРЅС‹Рµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹Рµ РїСЂРµРїР°СЂР°С‚С‹ Рё С‚РѕРІР°СЂС‹ РґР»СЏ Р·РґРѕСЂРѕРІСЊСЏ.
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru-ru/our-company/gsk-in-russia/">
+                                    <h3>GSK РІ Р РѕСЃСЃРёРё</h3>
+                                    <p>
+                                        РџСЂРѕРґСѓРєС‚С‹ GSK РёР·РІРµСЃС‚РЅС‹ РІ Р РѕСЃСЃРёРё СЃ 1989 Рі. РЎРµРіРѕРґРЅСЏ РІ Р РѕСЃСЃРёРё РїСЂРµРґСЃС‚Р°РІР»РµРЅС‹ РІСЃРµ РєР»СЋС‡РµРІС‹Рµ Р±РёР·РЅРµСЃС‹ GSK. Р’ РєРѕРјРїР°РЅРёРё СЂР°Р±РѕС‚Р°РµС‚ Р±РѕР»РµРµ 1000 С‡РµР»РѕРІРµРє.
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru-ru/our-company/codes-and-standards/">
+                                    <h3>РџРѕР»РёС‚РёРєРё, РєРѕРґРµРєСЃС‹ Рё СЃС‚Р°РЅРґР°СЂС‚С‹</h3>
+                                    <p>
+                                        РќР°С€Рё РїСЂРёРЅС†РёРїС‹, РїСЂР°РІРёР»Р° Рё РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР° РёР·Р»РѕР¶РµРЅС‹ РІ РїРѕР»РёС‚РёРєР°С…, РєРѕРґРµРєСЃР°С… Рё СЃС‚Р°РЅРґР°СЂС‚Р°С…, РєРѕС‚РѕСЂС‹РјРё GSK СЂСѓРєРѕРІРѕРґСЃС‚РІСѓРµС‚СЃСЏ РІ СЃРІРѕРµР№ СЂР°Р±РѕС‚Рµ
+                                    </p>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+            </li>
+            <li class=" hasMegaNav hasChildren">
+                <a class="icon-gsk-pill" href="/ru-ru/products/" title="РџСЂРѕРґСѓРєС‚С‹">
+                    <div class="underline">РџСЂРѕРґСѓРєС‚С‹</div>
+                </a>
+
+                    <ul class="level-1">
+                        <li class="section-link">
+                            <a href="/ru-ru/products/" title="РџСЂРѕРґСѓРєС‚С‹">РџСЂРѕРґСѓРєС‚С‹</a>
+                        </li>
+            <li class="">
+                <a class="icon-meds" href="/ru-ru/products/rx/" title="Р РµС†РµРїС‚СѓСЂРЅС‹Рµ РїСЂРµРїР°СЂР°С‚С‹">
+                    <div class="underline">Р РµС†РµРїС‚СѓСЂРЅС‹Рµ РїСЂРµРїР°СЂР°С‚С‹</div>
+                </a>
+
+                            </li>
+            <li class="">
+                <a class="icon-gsk-syringe" href="/ru-ru/products/vaccines/" title="Р’Р°РєС†РёРЅС‹">
+                    <div class="underline">Р’Р°РєС†РёРЅС‹</div>
+                </a>
+
+                            </li>
+            <li class="">
+                <a class="icon-gsk-heart" href="/ru-ru/products/cx/" title="Р‘РµР·СЂРµС†РµРїС‚СѓСЂРЅС‹Рµ РїСЂРµРїР°СЂР°С‚С‹ Рё РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРёРµ С‚РѕРІР°СЂС‹ РґР»СЏ Р·РґРѕСЂРѕРІСЊСЏ">
+                    <div class="underline">Р‘РµР·СЂРµС†РµРїС‚СѓСЂРЅС‹Рµ РїСЂРµРїР°СЂР°С‚С‹ Рё РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРёРµ С‚РѕРІР°СЂС‹ РґР»СЏ Р·РґРѕСЂРѕРІСЊСЏ</div>
+                </a>
+
+                            </li>
+                    </ul>
+                        <div class="mega-nav-wrapper">
+            <div class="mega-nav">
+                <div class="featured-nav">
+                    <ul>
+                            <li>
+                                <a href="/ru-ru/products/rx/">
+                                    <h3>Р РµС†РµРїС‚СѓСЂРЅС‹Рµ РїСЂРµРїР°СЂР°С‚С‹</h3>
+                                    <p>
+                                        Р РµС†РµРїС‚СѓСЂРЅС‹Рµ Р»РµРєР°СЂСЃС‚РІРµРЅРЅС‹Рµ РїСЂРµРїР°СЂР°С‚С‹ GSK РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅС‹ РґР»СЏ Р»РµС‡РµРЅРёСЏ С€РёСЂРѕРєРѕРіРѕ СЃРїРµРєС‚СЂР° РѕСЃС‚СЂС‹С… Рё С…СЂРѕРЅРёС‡РµСЃРєРёС… Р·Р°Р±РѕР»РµРІР°РЅРёР№. РќР°С€Рё РёСЃСЃР»РµРґРѕРІР°РЅРёСЏ Рё СЂР°Р·СЂР°Р±РѕС‚РєРё СЃРѕСЃСЂРµРґРѕС‚РѕС‡РµРЅС‹ РІ РѕР±Р»Р°СЃС‚Рё РіРµРЅРµС‚РёРєРё, РёСЃСЃР»РµРґРѕРІР°РЅРёР№ РёРјРјСѓРЅРЅРѕР№ СЃРёСЃС‚РµРјС‹ Рё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РїРѕСЃР»РµРґРЅРёС… С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёС… РґРѕСЃС‚РёР¶РµРЅРёР№ РґР»СЏ Р»РµС‡РµРЅРёСЏ Р±РѕР»РµР·РЅРµР№.
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru-ru/products/vaccines/">
+                                    <h3>Р’Р°РєС†РёРЅС‹</h3>
+                                    <p>
+                                        РџРѕСЂС‚С„РµР»СЊ GSK РІРєР»СЋС‡Р°РµС‚ РІ СЃРµР±СЏ Р±РѕР»РµРµ 30 РїРµРґРёР°С‚СЂРёС‡РµСЃРєРёС… Рё РІР·СЂРѕСЃР»С‹С… РІР°РєС†РёРЅ, РєРѕС‚РѕСЂС‹Рµ РїРѕРјРѕРіР°СЋС‚ Р·Р°С‰РёС‚РёС‚СЊ Р»СЋРґРµР№ РѕС‚ 21 Р·Р°Р±РѕР»РµРІР°РЅРёСЏ. Р’ Р РѕСЃСЃРёРё Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅРѕ 14 РїРµРґРёР°С‚СЂРёС‡РµСЃРєРёС… Рё РІР·СЂРѕСЃР»С‹С… РІР°РєС†РёРЅ GSK.
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/ru-ru/products/cx/">
+                                    <h3>Р‘РµР·СЂРµС†РµРїС‚СѓСЂРЅС‹Рµ РїСЂРµРїР°СЂР°С‚С‹ Рё РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРёРµ С‚РѕРІР°СЂС‹ РґР»СЏ Р·РґРѕСЂРѕРІСЊСЏ</h3>
+                                    <p>
+                                        РќР°С€Рё Р±РµР·СЂРµС†РµРїС‚СѓСЂРЅС‹Рµ РїСЂРµРїР°СЂР°С‚С‹ Рё РїРѕС‚СЂРµР±РёС‚РµР»СЊСЃРєРёРµ С‚РѕРІР°СЂС‹ РґР»СЏ Р·РґРѕСЂРѕРІСЊСЏ РґРѕСЃС‚СѓРїРЅС‹ Р±РѕР»РµРµ С‡РµРј РІ 100 СЃС‚СЂР°РЅР°С… РјРёСЂР°.
+                                    </p>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+            </li>
+            <li class=" hasMegaNav hasChildren">
+                <a class="icon-gsk-businesswoman" href="/ru-ru/РєР°СЂСЊРµСЂР°/" title="РљР°СЂСЊРµСЂР°">
+                    <div class="underline">РљР°СЂСЊРµСЂР°</div>
+                </a>
+
+                    <ul class="level-1">
+                        <li class="section-link">
+                            <a href="/ru-ru/РєР°СЂСЊРµСЂР°/" title="РљР°СЂСЊРµСЂР°">РљР°СЂСЊРµСЂР°</a>
+                        </li>
+            <li class="">
+                <a href="/ru-ru/РєР°СЂСЊРµСЂР°/search-jobs-and-apply/" title="РџРѕРёСЃРє РІР°РєР°РЅСЃРёР№">
+                    <div class="underline">РџРѕРёСЃРє РІР°РєР°РЅСЃРёР№</div>
+                </a>
+
+                            </li>
+            <li class=" hasChildren">
+                <a href="/ru-ru/РєР°СЂСЊРµСЂР°/РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё-РґР»СЏ-РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»РѕРІ/" title="Р’РѕР·РјРѕР¶РЅРѕСЃС‚Рё РґР»СЏ РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»РѕРІ">
+                    <div class="underline">Р’РѕР·РјРѕР¶РЅРѕСЃС‚Рё РґР»СЏ РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»РѕРІ</div>
+                </a>
+
+                    <ul class="level-2">
+                        <li class="section-link">
+                            <a href="/ru-ru/РєР°СЂСЊРµСЂР°/РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё-РґР»СЏ-РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»РѕРІ/" title="Р’РѕР·РјРѕР¶РЅРѕСЃС‚Рё РґР»СЏ РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»РѕРІ">Р’РѕР·РјРѕР¶РЅРѕСЃС‚Рё РґР»СЏ РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»РѕРІ</a>
+                        </li>
+            <li class="">
+                <a href="/ru-ru/РєР°СЂСЊРµСЂР°/РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё-РґР»СЏ-РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»РѕРІ/РёСЃСЃР»РµРґРѕРІР°РЅРёСЏ-Рё-СЂР°Р·СЂР°Р±РѕС‚РєРё/" title="Р

@@ -1,0 +1,15 @@
+P {margin-top:8px; margin-top:3px; margin-left:1px; margin-right:1px;}
+H3 {margin-top:6px; margin-bottom:6px;}
+H4 {margin-top:18px; margin-bottom:10px;}
+H5,H6 {font-family:Arial,Verdana,Sans-Serif; font-size:11pt; font-weight:bold; color:#663333; letter-spacing:1px; text-align:left; margin-top:5px; margin-bottom:5px;}
+H4,H5 {text-align:left; margin-left:1px;}
+H6 {text-align:center;}
+UL {margin-top:4px; margin-left:10px;}
+LI {margin-top:8px; margin-left:10px; line-height:125%;}
+.l {text-align:left;}
+.r {text-align:right;}
+.c {text-align:center;}
+.par1 {font-family:Verdana,Arial,Sans-Serif; font-size:14pt; font-weight:bold; letter-spacing: 1px; margin-top:-27px; margin-left:-6px; text-align:center; }
+.par2 {font-family:Verdana,Arial,Sans-Serif; font-size:14pt; font-weight:bold; letter-spacing:1px; margin-top:1px; margin-left:1px; text-align:center;}
+.brd {background-color:#CC9988;}
+blockquote {margin-top:1px; margin-bottom:1px;}

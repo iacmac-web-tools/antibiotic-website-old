@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+
+        
+        <title>Biocodex</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="fragment" content="!">
+
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/popin_dialog.css">
+
+        <style type="text/css">
+            #preloader{
+                /*background :url('/images/overlay.png') repeat 0 0;*/
+                background-color: #FFF;
+                position :absolute ;
+                top  : 0;
+                bottom : 0;
+                left : 0;
+                right  : 0;
+                z-index  : 999999;
+                opacity :  1 ;
+                visibility : visible ;
+            }
+            #preloader .skip-link{
+                color: #92bb50;
+                font-size : 18px;
+                text-transform: uppercase;
+                text-align: center;
+                /*display: none;*/
+                padding-bottom: 0px;
+                border-bottom: 2px solid #92bb50;
+                text-decoration : none;
+            }
+            #preloader .skip-link-wrap{
+                position: absolute;
+                text-align: center;
+                bottom: 8%;
+                left: 0;
+                right: 0;
+            }
+            #preloader img{
+                /*background  :url('/images/preloader-global.gif') no-repeat center center ;*/
+                position : absolute;
+                left : 50%;
+                top : 50%;
+                margin-left : -79px ;
+                margin-top : -79px ;
+                text-align : center ;
+                width  :158px ;
+                height :158px ;
+            }
+
+            /* apply gray on backgroud image */
+            .grayscale {
+                /* Firefox 10+, Firefox on Android */
+                filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+                /* IE 6-9 */
+                filter: gray;
+                /*
+                Chrome 19+, Safari 6+, Safari 6+ iOS, Opera 15+
+                */
+                -webkit-filter: grayscale(100%);
+            }
+
+            /*IE7*/
+            .chromeframe{
+                position: absolute;
+                width: 700px;
+                height: 150px;
+                top : 50%;
+                left: 50%;
+                margin-left: -350px;
+                margin-top: -75px;
+                background: #eee;
+                border : 3px solid #888;
+                text-align: center;
+                padding: 10px;
+                font-size: 20px;
+            }
+            .chromeframe a{
+                text-decoration: none;
+                color : #B41E8E;
+            }
+            .chromeframe a:hover{
+                text-decoration: underline;
+            }
+
+        </style>
+        <!--[if lte IE 7]>
+        <style type="text/css">
+        #preloader span, #popinNotSuportABLE span{
+                visibility:hidden !important;
+                opacity:0 !important;
+                display:none !important;
+        }
+        #preloader{
+                display:none !important;
+        }
+        </style>
+        <![endif]-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" src="/tarteaucitron/tarteaucitron.js"></script>
+
+        <script type="text/javascript">
+tarteaucitron.init({
+	    	    "privacyUrl": "", /* Privacy policy url */
+
+	    "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+	    "cookieName": "tartaucitron", /* Cookie name */
+
+	    "orientation": "bottom", /* Banner position (top - bottom) */
+	    "showAlertSmall": true, /* Show the small banner on bottom right */
+	    "cookieslist": true, /* Show the cookie list */
+
+	    "adblocker": false, /* Show a Warning if an adblocker is detected */
+	    "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
+	    "highPrivacy": false, /* Disable auto consent */
+	    "handleBrowserDNTRequest": false, /* If Do Not Track == 1, accept all */
+    
+	    "removeCredit": true, /* Remove credit link */
+	    "moreInfoLink": true /* Show more info link */
+
+	    //"cookieDomain": ".my-multisite-domaine.fr" /* Shared cookie for subdomain */
+	});
+        </script>
+
+
+		<!-- Google Analytics -->
+        <script>
+
+		tarteaucitron.user.analyticsUa = 'UA-45282242-20';
+		tarteaucitron.user.analyticsMore = function () { /* add here your optionnal ga.push() */ };
+		(tarteaucitron.job = tarteaucitron.job || []).push('analytics');
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                            m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+                ga('create', 'UA-45282242-20', 'auto');
+                ga('send', 'pageview');
+        </script>
+			        <script type="text/javascript">
+            countryList = [{"taxonomy_term_data_name":"USA","taxonomy_term_data_vid":"7","tid":"374","taxonomy_vocabulary_machine_name":"country","views_php_2":"\u0421\u0428\u0410","views_php_3":"\u0421\u0428\u0410"},{"taxonomy_term_data_name":"Ukraine","taxonomy_term_data_vid":"7","tid":"421","taxonomy_vocabulary_machine_name":"country","views_php_2":"\u0423\u043a\u0440\u0430\u0438\u043d\u0430","views_php_3":"\u0423\u043a\u0440\u0430\u0438\u043d\u0430"},{"taxonomy_term_data_name":"Turquie","taxonomy_term_data_vid":"7","tid":"373","taxonomy_vocabulary_machine_name":"country","views_php_2":"\u0422\u0443\u0440\u0446\u0438\u044f","views_php_3":"\u0422\u0443\u0440\u0446\u0438\u044f"},{"taxonomy_term_data_name":"France","taxonomy_term_data_vid":"7","tid":"370","taxonomy_vocabulary_machine_name":"country","views_php_2":"\u0424\u0440\u0430\u043d\u0446\u0438\u044f","views_php_3":"\u0424\u0440\u0430\u043d\u0446\u0438\u044f"},{"taxonomy_term_data_name":"Canada","taxonomy_term_data_vid":"7","tid":"369","taxonomy_vocabulary_machine_name":"country","views_php_2":"\u041a\u0430\u043d\u0430\u0434\u0430","views_php_3":"\u041a\u0430\u043d\u0430\u0434\u0430"},{"taxonomy_term_data_name":"Maroc","taxonomy_term_data_vid":"7","tid":"371","taxonomy_vocabulary_machine_name":"country","views_php_2":"\u041c\u0430\u0440\u043e\u043a\u043a\u043e","views_php_3":"\u041c\u0430\u0440\u043e\u043a\u043a\u043e"},{"taxonomy_term_data_name":"Mexico","taxonomy_term_data_vid":"7","tid":"419","taxonomy_vocabulary_machine_name":"country","views_php_2":"\u041c\u0435\u043a\u0441\u0438\u043a\u0430","views_php_3":"\u041c\u0435\u043a\u0441\u0438\u043a\u0430"},{"taxonomy_term_data_name":"Russie","taxonomy_term_data_vid":"7","tid":"372","taxonomy_vocabulary_machine_name":"country","views_php_2":"\u0420\u043e\u0441\u0441\u0438\u044f","views_php_3":"\u0420\u043e\u0441\u0441\u0438\u044f"},{"taxonomy_term_data_name":"Nordics & Baltics","taxonomy_term_data_vid":"7","tid":"425","taxonomy_vocabulary_machine_name":"country","views_php_2":"Nordics & Baltics","views_php_3":"Nordics & Baltics"},{"taxonomy_term_data_name":"Benelux","taxonomy_term_data_vid":"7","tid":"368","taxonomy_vocabulary_machine_name":"country","views_php_2":"\u0421\u0442\u0440\u0430\u043d\u044b \u0411\u0435\u043d\u0438\u043b\u044e\u043a\u0441\u0430","views_php_3":"\u0421\u0442\u0440\u0430\u043d\u044b \u0411\u0435\u043d\u0438\u043b\u044e\u043a\u0441\u0430"}];
+            sectorList = [{"taxonomy_term_data_name":"Administratif","taxonomy_term_data_vid":"3","tid":"350","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430","views_php_3":"\u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430"},{"taxonomy_term_data_name":"Affaires M\u00e9dicales et Formation","taxonomy_term_data_vid":"3","tid":"361","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b \u0438 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435","views_php_3":"\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b \u0438 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435"},{"taxonomy_term_data_name":"Affaires pharmaceutiques","taxonomy_term_data_vid":"3","tid":"363","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u0424\u0430\u0440\u043c\u0430\u0446\u0435\u0432\u0442\u0438\u043a\u0430","views_php_3":"\u0424\u0430\u0440\u043c\u0430\u0446\u0435\u0432\u0442\u0438\u043a\u0430"},{"taxonomy_term_data_name":"Approvisionnement","taxonomy_term_data_vid":"3","tid":"365","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u041f\u043e\u0441\u0442\u0430\u0432\u043a\u0438","views_php_3":"\u041f\u043e\u0441\u0442\u0430\u0432\u043a\u0438"},{"taxonomy_term_data_name":"Assurance Qualit\u00e9 \/ Contr\u00f4le Qualit\u00e9","taxonomy_term_data_vid":"3","tid":"351","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u041a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430","views_php_3":"\u041a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430"},{"taxonomy_term_data_name":"Autres","taxonomy_term_data_vid":"3","tid":"367","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u0414\u0440\u0443\u0433\u043e\u0435","views_php_3":"\u0414\u0440\u0443\u0433\u043e\u0435"},{"taxonomy_term_data_name":"D\u00e9partement Chimie","taxonomy_term_data_vid":"3","tid":"352","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u0425\u0438\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438","views_php_3":"\u0425\u0438\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438"},{"taxonomy_term_data_name":"Etudes Cliniques","taxonomy_term_data_vid":"3","tid":"353","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u041a\u043b\u0438\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f","views_php_3":"\u041a\u043b\u0438\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f"},{"taxonomy_term_data_name":"Etudes de march\u00e9","taxonomy_term_data_vid":"3","tid":"359","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u0418\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0440\u044b\u043d\u043a\u0430","views_php_3":"\u0418\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0440\u044b\u043d\u043a\u0430"},{"taxonomy_term_data_name":"Finance","taxonomy_term_data_vid":"3","tid":"354","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u0424\u0438\u043d\u0430\u043d\u0441\u044b","views_php_3":"\u0424\u0438\u043d\u0430\u043d\u0441\u044b"},{"taxonomy_term_data_name":"International","taxonomy_term_data_vid":"3","tid":"356","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044f","views_php_3":"\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044f"},{"taxonomy_term_data_name":"IT","taxonomy_term_data_vid":"3","tid":"357","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u044b\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438","views_php_3":"\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u044b\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438"},{"taxonomy_term_data_name":"Marketing","taxonomy_term_data_vid":"3","tid":"360","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u041c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433","views_php_3":"\u041c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433"},{"taxonomy_term_data_name":"Microbiologie","taxonomy_term_data_vid":"3","tid":"366","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u041c\u0438\u043a\u0440\u043e\u0431\u0438\u043e\u043b\u043e\u0433\u0438\u044f","views_php_3":"\u041c\u0438\u043a\u0440\u043e\u0431\u0438\u043e\u043b\u043e\u0433\u0438\u044f"},{"taxonomy_term_data_name":"Pharmacologie","taxonomy_term_data_vid":"3","tid":"362","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u0424\u0430\u0440\u043c\u0430\u043a\u043e\u043b\u043e\u0433\u0438\u044f","views_php_3":"\u0424\u0430\u0440\u043c\u0430\u043a\u043e\u043b\u043e\u0433\u0438\u044f"},{"taxonomy_term_data_name":"Production","taxonomy_term_data_vid":"3","tid":"358","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e","views_php_3":"\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e"},{"taxonomy_term_data_name":"Ressources Humaines","taxonomy_term_data_vid":"3","tid":"355","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u043e\u043c","views_php_3":"\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u043e\u043c"},{"taxonomy_term_data_name":"Ventes","taxonomy_term_data_vid":"3","tid":"364","taxonomy_vocabulary_machine_name":"sector","views_php_2":"\u041f\u0440\u043e\u0434\u0430\u0436\u0438","views_php_3":"\u041f\u0440\u043e\u0434\u0430\u0436\u0438"}];
+            language_array = ["ru","en"];
+            current_language = "ru";
+            intro = [{"node_created":"1395706480","views_php_0":{"value":"0"}}];
+            imagehome = [{"nid":"23","node_created":"1395706480","field_data_field_image_home_node_entity_type":"node","_field_data":{"nid":{"entity_type":"node","entity":{"vid":"23","uid":"14","title":"Variables","log":"","status":"1","comment":"0","promote":"0","sticky":"0","vuuid":"964c4370-b3df-4d35-8bec-5847c049e033","nid":"23","type":"translate_variables","language":"und","created":"1395706480","changed":"1598006001","tnid":"0","translate":"0","uuid":"a94b8acf-01aa-4b9c-816f-dd6751c150a4","revision_timestamp":"1598006001","revision_uid":"1","field_variable_collection":{"und":[{"value":"7292","revision_id":"14281"},{"value":"7293","revision_id":"14283"},{"value":"7294","revision_id":"14285"},{"value":"7295","revision_id":"14287"},{"value":"7296","revision_id":"14289"},{"value":"7297","revision_id":"14291"},{"value":"7298","revision_id":"14293"},{"value":"7299","revision_id":"14295"},{"value":"7300","revision_id":"14297"},{"value":"7301","revision_id":"14299"},{"value":"7302","revision_id":"14301"},{"value":"7303","revision_id":"14303"},{"value":"7304","revision_id":"14305"},{"value":"7305","revision_id":"14307"},{"value":"7306","revision_id":"14309"},{"value":"7307","revision_id":"14311"},{"value":"7308","revision_id":"14313"},{"value":"7309","revision_id":"14315"},{"value":"7310","revision_id":"14317"},{"value":"7311","revision_id":"14319"},{"value":"7312","revision_id":"14321"},{"value":"7313","revision_id":"14323"},{"value":"7314","revision_id":"14325"},{"value":"7315","revision_id":"14327"},{"value":"7316","revision_id":"14329"},{"value":"7317","revision_id":"14331"},{"value":"7318","revision_id":"14333"},{"value":"7319","revision_id":"14335"},{"value":"7320","revision_id":"14337"},{"value":"7321","revision_id":"14339"},{"value":"7322","revision_id":"14341"},{"value":"7323","revision_id":"14343"},{"value":"7324","revision_id":"14345"},{"value":"7325","revision_id":"14347"},{"value":"7326","revision_id":"14349"},{"value":"7327","revision_id":"14351"},{"value":"7328","revision_id":"14353"},{"value":"7329","revision_id":"14355"},{"value":"7330","revision_id":"14357"},{"value":"7331","revision_id":"14359"},{"value":"7332","revision_id":"14361"},{"value":"7333","revision_id":"14363"},{"value":"7334","revision_id":"14365"},{"value":"7335","revision_id":"14367"},{"value":"7336","revision_id":"14369"},{"value":"7337","revision_id":"14371"},{"value":"7338","revision_id":"14373"},{"value":"7339","revision_id":"14375"},{"value":"7340","revision_id":"14377"},{"value":"7341","revision_id":"14379"},{"value":"7342","revision_id":"14381"},{"value":"7343","revision_id":"14383"},{"value":"7344","revision_id":"14385"},{"value":"7345","revision_id":"14387"},{"value":"7346","revision_id":"14388"}]},"field_activate_video":{"und":[{"value":"0"}]},"field_image_home":{"und":[{"fid":"82","uid":"14","filename":"home.jpg","uri":"public:\/\/home_1.jpg","filemime":"image\/jpeg","filesize":"41811","status":"1","timestamp":"1421234174","uuid":"bcdd1998-f61f-4d86-b016-0a17759978e1","rdf_mapping":[],"alt":"","title":"","width":"788","height":"485"}]},"rdf_mapping":{"rdftype":["sioc:Item","foaf:Document"],"title":{"predicates":["dc:title"]},"created":{"predicates":["dc:date","dc:created"],"datatype":"xsd:dateTime","callback":"date_iso8601"},"changed":{"predicates":["dc:modified"],"datatype":"xsd:dateTime","callback":"date_iso8601"},"body":{"predicates":["content:encoded"]},"uid":{"predicates":["sioc:has_creator"],"type":"rel"},"name":{"predicates":["foaf:name"]},"comment_count":{"predicates":["sioc:num_replies"],"datatype":"xsd:integer"},"last_activity":{"predicates":["sioc:last_activity_date"],"datatype":"xsd:dateTime","callback":"date_iso8601"}},"path":{"pathauto":"1"},"domains":{"1":"1","2":"2","3":"3","4":"4","6":"6","7":"7","8":"8","9":"9","10":"10","11":"11","12":"12","13":"13","14":"14","15":"15","16":"16","17":"17","18":"18","19":"19"},"domain_site":true,"subdomains":["Tous les sites affili\u00e9s","admin.biocodex.com","www.biocodex.com","www.biocodex.fr","www.biocodex.ma","admin-ma.biocodex.com","www.biocodex.be","admin-be.biocodex.com","www.biocodex.ca","admin-ca.biocodex.com","ru.biocodex.com","admin-ru.biocodex.com","www.biocodex.com.tr","admin-tr.biocodex.com","www.biocodex.us","admin-us.biocodex.com","ua.biocodex.com","www.biocodex.mx","www.biocodex.fi"],"domain_source":"-5","name":"admin","picture":"0","data":"b:0;"}}},"field_field_image_home":[{"rendered":{"fid":"82","uid":"14","filename":"home.jpg","uri":"public:\/\/home_1.jpg","filemime":"image\/jpeg","filesize":"41811","status":"1","timestamp":"1421234174","uuid":"bcdd1998-f61f-4d86-b016-0a17759978e1","rdf_mapping":[],"alt":"","title":"","width":"788","height":"485","#access":true},"raw":{"fid":"82","uid":"14","filename":"home.jpg","uri":"public:\/\/home_1.jpg","filemime":"image\/jpeg","filesize":"41811","status":"1","timestamp":"1421234174","uuid":"bcdd1998-f61f-4d86-b016-0a17759978e1","rdf_mapping":[],"alt":"","title":"","width":"788","height":"485"}}]}];
+//		window.vars = //;
+        </script>
+        <script type="text/javascript">
+            window.Config = {
+                flagDev: false,
+            };
+            window.lng = "en";
+            window.useProxy = false;
+            window.Urls = {
+                // TODO :  PAR DRUPAL FAUT METTRE LE BASE URL DIRECTEMENT
+                serviceUrl: (Config.flagDev) ? 'http://main.biocodex.lapreprod.com' : 'https://ru.biocodex.com',
+                downloader: (Config.flagDev ? 'http://main.biocodex.lapreprod.com/sites/all/themes/biocodex' : 'http://main.biocodex.com') + '/downloader.php?file=',
+                slugUrls: '/backbone/rest/front',
+                newsAjax: '/backbone/rest/last_news',
+                listnews: '/backbone/rest/news_list',
+                lastnews: '/backbone/rest/last_element',
+                paysList: '/backbone/rest/country',
+                sectorList: '/backbone/rest/sector',
+                node: '/backbone/rest/node/',
+                subpage: '/backbone/rest/collection?item_id=',
+                alloffres: '/backbone/rest/jobs?country=all&sector=all',
+                offresId: '/backbone/rest/jobs?country=_country_&sector=_sector_',
+                products: '/backbone/rest/products',
+                vars: '/backbone/rest/var',
+                contactdata: '/backbone/rest/webform',
+                contactsubmit: '/sites/mailer.php',
+                dialogtdata : '/backbone/rest/webform_contact_reg',
+                dialogsubmit  : '/sites/mailer_dialog.php',
+            }
+            var narray = window.Urls.serviceUrl.split('.'),
+                    todelete = narray.shift();
+            window.baseURLNatif = Urls.serviceUrl.replace(todelete, '');
+            baseURLNatif = baseURLNatif.substr(1)
+        </script>
+		<script type="text/javascript">
+            window.Config = {
+                flagDev: false,
+            };
+            window.lng = "en";
+            window.useProxy = false;
+            window.Urls = {
+                // TODO :  PAR DRUPAL FAUT METTRE LE BASE URL DIRECTEMENT
+                serviceUrl: (Config.flagDev) ? 'http://main.biocodex.lapreprod.com' : 'https://ru.biocodex.com',
+                downloader: (Config.flagDev ? 'http://main.biocodex.lapreprod.com/sites/all/themes/biocodex' : 'http://main.biocodex.com') + '/downloader.php?file=',
+                slugUrls: '/backbone/rest/front',
+                newsAjax: '/backbone/rest/last_news',
+                listnews: '/backbone/rest/news_list',
+                lastnews: '/backbone/rest/last_element',
+                paysList: '/backbone/rest/country',
+                sectorList: '/backbone/rest/sector',
+                node: '/backbone/rest/node/',
+                subpage: '/backbone/rest/collection?item_id=',
+                alloffres: '/backbone/rest/jobs?country=all&sector=all',
+                offresId: '/backbone/rest/jobs?country=_country_&sector=_sector_',
+                products: '/backbone/rest/products',
+                vars: '/backbone/rest/var',
+                contactdata: '/backbone/rest/webform',
+                contactsubmit: '/sites/mailer.php',
+                dialogtdata : '/backbone/rest/webform_contact_reg',
+                dialogsubmit  : '/sites/mailer_dialog.php',
+            }
+            var narray = window.Urls.serviceUrl.split('.'),
+                    todelete = narray.shift();
+            window.baseURLNatif = Urls.serviceUrl.replace(todelete, '');
+            baseURLNatif = baseURLNatif.substr(1)
+        </script>
+		<!--[if gte IE 8]><!-->
+        <script type="text/javascript" src="/js/vendor/jquery.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+<!--        <script type="text/javascript" src="/js/popin_dialog.js"></script>-->
+        <!--<![endif]-->
+    </head>
+    <body>
+        <div id="total"></div>
+        <div id="preloader">
+            <div class="skip-link-wrap">
+                <a class="skip-link" href="#" title="" data-enable="true"></a>
+            </div>
+            <img src="/images/preloader-global.gif">
+        </div>
+        <!--[if lt IE 8]>
+                <div class="chromeframe">
+                        <img src="/images/biocodex.png" alt="">
+                        <p>You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+                </div>
+        <![endif]-->
+
+        <div id="login" style="display:none;">    <div class="region region-content">
+    <div id="node-125" class="node node-basicpage clearfix" about="/?q=ru/biocodex" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content="Biocodex" class="rdf-meta element-hidden"></span>
+  
+  <div class="content">
+    <div class="form-item form-type-item">
+  <label>РЇР·С‹Рє </label>
+ РќРµРѕРїСЂРµРґРµР»РµРЅРЅС‹Р№
+</div>
+  </div>
+
+  
+  
+</div>
+  </div>
+ </div>
+    </body>
+</html>

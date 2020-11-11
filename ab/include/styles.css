@@ -1,0 +1,289 @@
+a.text_an { FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: 18px; color: #FFFFFF; text-decoration: none; font-weight: bold; vertical-align: bottom }
+
+a.text_an:hover { FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: 18px; color: #FF9900; text-decoration: none; font-weight: bold; vertical-align: bottom ; background-color: #5E2385}
+
+td.text_ruk {  font-family: Verdana; font-size: 19px; line-height: 19px; color: #FFFFFF; text-decoration: none; text-indent: 25px; word-spacing: 3px; font-weight: normal}
+td.text_ter { font-family: Verdana; font-size: 14px; line-height: 14px; color: #FFFFFF; text-decoration: none; text-indent: 27px; text-align: justify ; letter-spacing: 1px}
+
+.text_avt {  FONT-FAMILY: Verdana,Arial,Geneva,Helvetica,sans-serif; font-size: 13px; line-height: 13px; color: #FFFFFF; text-decoration: none; height: 10px}
+
+
+.Copy { FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif; font-size: 11px; line-height: 11px; color: #000000; text-decoration: none; height: 30px}
+
+BODY,P,UL,OL,LI,.author {font-family:Verdana,Arial,Geneva,Helvetica,sans-serif;}
+
+BODY,P,TABLE,TR,TD,TH,UL,OL,LI {font-size:13px; color:#111111;}
+
+BODY {margin-top:10px; margin-bottom:10px; margin-left:20px; margin-right:20px; background-color:#FFFFFF;}
+H6 {font-weight:bold; color:662A84;}
+H6 {font-family:Arial, Helvetica, sans-serif; font-size:15px; margin-bottom:5px;}
+
+blockquote {margin-top:1px; margin-bottom:1px; margin-left:32px;}
+
+HR {margin-top:1px; margin-bottom:1px;}
+
+H1 {font-size:22px; text-align:center; letter-spacing:1px;}
+
+H2 {font-size:20px; text-align:left;}
+
+H3 {font-size:17px; text-align:left;}
+
+H4 {font-size:17px; text-align:center;}
+
+H5 {text-align:left;}
+H6 {text-align:center;}
+
+P {line-height:125%; margin-top:10px; margin-bottom:4px; margin-left:0px; margin-right:0px; text-align:justify;}
+P.n {text-indent:0px;}
+
+OL {margin-top:5px; margin-left:15px;}
+
+UL {margin-top:5px; margin-left:15px;}
+
+LI {margin-top:8px; margin-bottom:1px; margin-left:10px;}
+
+TR {vertical-align:top;}
+
+TH {color:white; font-weight:normal; text-align:center; background-color:#692B88;}
+
+TD {;}
+TD.bc {text-align:center; background-color:#E8D3F1;}
+
+.a {text-indent:32px;}
+.l {text-align:left}
+.c {text-align:center;}
+.r {text-align:right;}
+
+A:link {color:#56017E; text-decoration:none;}
+A:visited {color:#56017E; text-decoration:none;}
+A:hover {color:#7D33A2; text-decoration: underline;}
+
+.tx1 {font-family:Arial Black,Arial; color:#042A94; font-size:32px; font-weight:normal; letter-spacing:2px; text-align:center; margin-top:5px; margin-bottom:1px;}
+.tx2 {font-family:Arial Black,Arial; color:#042A94; font-size:22px; font-weight:normal; letter-spacing:2px; text-align:center; margin-top:-5px; margin-bottom:3px;}
+
+.small {font-size:8pt;}
+.t8 {font-size:8pt;}
+.c8 {font-size:8pt; text-align:center;}
+.sym {font-family:Symbol;}
+
+body {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 13px}
+
+
+.men {position: absolute; 
+left: 0; 
+top: 153px; 
+background-color: #A9ABBC; 
+border: 0px #000 solid; 
+width: 20%; 
+height: 24px;
+overflow: hidden; 
+text-align: left; 
+voice-family: "\"}\""; 
+voice-family: inherit; 
+width:20%; 
+} 
+html>body .menDIV { 
+width:20%; 
+} 
+
+.men1 {position: absolute; 
+left: 0; 
+top: 153px; 
+background-color: #A9ABBC; 
+border: 0px #000 solid; 
+width: 20%; 
+height: auto; 
+overflow: visible; 
+text-align: left; 
+voice-family: "\"}\""; 
+voice-family: inherit; 
+width:20%; 
+} 
+html>body .men1DIV { 
+width:20%; 
+}
+
+.men2 {position: absolute; 
+left: 20%; 
+top: 153px; 
+background-color: #A9ABBC; 
+border: 0px #000 solid; 
+width: 20%; 
+height: 24px;
+overflow: hidden; 
+text-align: left; 
+voice-family: "\"; text-indent: 5pt}\""; 
+voice-family: inherit; 
+width:20%; 
+} 
+html>body .men2DIV { 
+width:20%; 
+} 
+
+.men22 {position: absolute; 
+left: 20%; 
+top: 153px; 
+background-color: #A9ABBC; 
+border: 0px #000000 none; 
+width: 20%; 
+height: auto; 
+overflow: visible; 
+text-align: left; 
+voice-family: "\"; text-indent: 5pt; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px; color: #FFFFFF}\""; 
+voice-family: inherit; 
+width:20%; 
+} 
+html>body .men22DIV { 
+width:20%; 
+}
+
+.men3 {position: absolute; 
+left: 40%; 
+top: 153px; 
+background-color: #A9ABBC; 
+border: 0px #000 solid; 
+width: 20%; 
+height: 24px;
+overflow: hidden; 
+text-align: left; 
+voice-family: "\"}\""; 
+voice-family: inherit; 
+width:20%; 
+} 
+html>body .men3DIV { 
+width:20%; 
+} 
+
+.men33 {position: absolute; 
+left: 40%; 
+top: 153px; 
+background-color: #A9ABBC; 
+border: 0px #000 solid; 
+width: 20%; 
+height: auto; 
+overflow: visible; 
+text-align: left; 
+voice-family: "\"}\""; 
+voice-family: inherit; 
+width:20%; 
+} 
+html>body .men33DIV { 
+width:20%; 
+} 
+
+.men4 {position: absolute; 
+left: 60%; 
+top: 153px; 
+background-color: #A9ABBC; 
+border: 0px #000 solid; 
+width: 20%; 
+height: 24px;
+overflow: hidden; 
+text-align: left; 
+voice-family: "\"}\""; 
+voice-family: inherit; 
+width:20%; 
+} 
+html>body .men4DIV { 
+width:20%; 
+} 
+
+.men44 {position: absolute; 
+left: 60%; 
+top: 153px; 
+
+background-color: #A9ABBC; 
+border: 0px #000 solid; 
+width: 20%; 
+height: auto; 
+overflow: visible; 
+text-align: left; 
+voice-family: "\"}\""; 
+voice-family: inherit; 
+width:20%; 
+} 
+html>body .men44DIV { 
+width:20%; 
+} 
+.men5 {position: absolute; 
+top: 153px; 
+
+background-color: #A9ABBC; 
+border: 0px #000 solid; 
+height: 24px;
+overflow: hidden; 
+text-align: left; 
+voice-family: "\"; clip:     rect(   )}\""; 
+voice-family: inherit; 
+width:20%; 
+} 
+html>body .men5DIV { 
+width:20%; 
+} 
+
+.men55 {position: absolute; 
+top: 153px; 
+background-color: #A9ABBC; 
+border: 0px #000 solid; 
+height: auto; 
+overflow: visible; 
+text-align: left; 
+voice-family: "\"; clip:    rect(   )}\""; 
+voice-family: inherit; 
+width:20%; 
+} 
+html>body .men55DIV { 
+width:20%; 
+} 
+
+#cont {position: absolute; 
+top: 153px; 
+background-color: #CCCCCC; 
+border: 1px solid #fff; 
+width: 100%; 
+height: 24px; 
+text-align: left; 
+; background-position: center; clip:  rect(   )
+} 
+
+A.m {display: block; 
+background-color:#A9ABBC; 
+height: auto; 
+color:#000000; 
+FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif, sans-serif; 
+FONT-SIZE: 11px; 
+text-decoration: none; 
+text-align: left; 
+padding: 4px 4px 8px 15px; 
+voice-family: "\"; font-weight: 500; border: #532783 solid; border-width: 0px 0px 1px 1px}\""; 
+voice-family: inherit; 
+} 
+html>body A.m { 
+} 
+
+A.m:hover { 
+display: block; 
+background-color:#CBB6EF; 
+color:#000000; 
+; border-color: black black #532783 #532783
+; FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif; font-size: 11px
+; text-align: left; padding-bottom: 8px
+; clip:  rect(   15px); padding-top: 4px; padding-right: 4px; padding-left: 15px; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px
+; font-weight: 400
+} 
+
+H1 { font-family:Verdana, Arial, Geneva, Helvetica, sans-serif; } 
+H1 { font-weight:bold; color:662A84; } H2 { font-family:Verdana, Arial, Geneva, Helvetica, sans-serif; } H2 { font-weight:bold; color:662A84; } H3 { font-family:Verdana, Arial, Geneva, Helvetica, sans-serif; } H3 { font-weight:bold; color:662A84; } H4 { font-family:Verdana, Arial, Geneva, Helvetica, sans-serif; } H4 { font-weight:bold; color:662A84; } 
+H5 { font-family:Arial, Helvetica, sans-serif; font-size:15px; margin-bottom:5px; } H5 { font-weight:bold; color:662A84; } TABLE { font-family:Verdana, Arial, Geneva, Helvetica, sans-serif; } TD { font-family:Verdana, Arial, Geneva, Helvetica, sans-serif; } TH { font-family:Verdana, Arial, Geneva, Helvetica, sans-serif; } TR { font-family:Verdana, Arial, Geneva, Helvetica, sans-serif; } td.ttt {  background-position: right bottom}
+
+
+.mm {position: absolute;  
+border: 0px #000 solid; 
+overflow: hidden; 
+text-align: left; 
+FONT-FAMILY: Verdana; 
+voice-family: "\"}\""; 
+voice-family: inherit; 
+} 
+html>body .mmDIV { 
+} 

@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--[if lt IE 7]><html xmlns="http://www.w3.org/1999/xhtml" class="lt-ie10 lt-ie9 lt-ie8 lt-ie7" xml:lang="en" lang="en"><![endif]-->
+<!--[if IE 7]><html xmlns="http://www.w3.org/1999/xhtml" class="lt-ie10 lt-ie9 lt-ie8" xml:lang="en" lang="en"><![endif]-->
+<!--[if IE 8]><html xmlns="http://www.w3.org/1999/xhtml" class="lt-ie10 lt-ie9" xml:lang="en" lang="en"><![endif]-->
+<!--[if IE 9]><html xmlns="http://www.w3.org/1999/xhtml" class="lt-ie10" xml:lang="en" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!--<![endif]-->
+<head>
+  <title>Krka, d. d., Novo mesto</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="Krka, d. d., Novo mesto" /><meta name="keywords" content="pharmaceuticals, other products, about krka, for investors, employment in krka, media centre" />
+  <meta http-equiv="imagetoolbar" content="no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="google-site-verification" content="j_u1FAIkBB6Sdjb2Rb0T9xQT1a0aTTBcX2i7P_CZ3H0" />
+  <link type="text/css" rel="stylesheet" media="screen,projection" href="/_inc/js/fancybox/2.1/jquery.fancybox.css">
+  <link type="text/css" rel="stylesheet" media="screen,projection" href="/inc/v-1/css/default.css?dc=2020">
+  
+  <link type="text/css" rel="stylesheet" media="screen,projection" href="/inc/v-1/css/responsive.css?dc=202011p">
+  
+  <link type="text/css" rel="stylesheet" media="screen,projection" href="/_inc/cookie/krka/cookie.css">
+  <link type="text/css" rel="stylesheet" media="print" href="/inc/v-1/css/print.css?dc=20131024" />
+  <link type="image/ico" rel="icon" href="/favicon.ico" />
+  <link type="image/ico" rel="image/x-icon" href="/favicon.ico" />
+  <!--[if !IE]><!--><script>if(/*@cc_on!@*/false){document.documentElement.className+=' ie10';}</script><!--<![endif]-->
+  <script type="text/javascript">
+    // prevodi fancybox
+    var g_lang_S = 'en';
+    var g_lang_I = '1';
+    var g_jezik_S = 'en';
+    var g_fedlog_B = true;
+    var krkaFiniLocale = ( g_jezik_S === 'si' ) ? 'de' : 'en';
+    var krkaFiniErrMsg = 'ЕЅal je priЕЎlo do napake';
+    
+    var krkaFiniTblHead = '<thead><tr><th class="date">Date</th><th class="rate">Close Price</th><th class="change">% Change</th><th class="volume">Volume</th><th class="volumeEur">Turnover in 000 в‚¬</th></tr></thead>';
+    var krkaFancyboxClose = 'Close';
+  </script>
+  <!--[if lte IE 8]><script type="text/javascript" src="/inc/v-1/js/excanvas.min.js"></script><![endif]-->
+  <script type="text/javascript" src="/inc/v-1/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.jqModal.min.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.date_input.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.date_input_en.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.imageSlider.js?dc=201604"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.textbox_hint.js"></script>
+  <script type="text/javascript" src="/_inc/js/fancybox/2.1/jquery.fancybox.min.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.nivo.slider-3.2.min.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.easyResponsiveTabs.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/js.js?dc=202010s2"></script>
+  <!-- finance -->
+  <script type="text/javascript" src="/inc/v-1/js/jquery.flot.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.flot.pie.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jshashtable.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.numberformatter-1.2.2.js"></script>
+  <!-- /finance -->
+
+
+
+  <script src="/inc/v-1/js/bicubicInterpolation.js"></script>
+  <script>
+      function detectIE() {
+        var ua = window.navigator.userAgent;
+
+        var msie = ua.indexOf('MSIE ');
+        if (msie > 0) {
+          // IE 10 or older => return version number
+          return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+        }
+
+        var trident = ua.indexOf('Trident/');
+        if (trident > 0) {
+          // IE 11 => return version number
+          var rv = ua.indexOf('rv:');
+          return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+        }
+
+        var edge = ua.indexOf('Edge/');
+        if (edge > 0) {
+          // Edge (IE 12+) => return version number
+          return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+        }
+
+        // other browser
+        return false;
+      }
+
+      $(function() {
+          var ie =  detectIE();
+          if ( ie >= 9 ) {
+              $('div#content img').each(function() {
+                  var s = $(this).attr('src');
+                  // s = s.replace(/\/__100\//i, '/__original/').replace(/\/__200\//i, '/__original/');
+                  // $(this).attr('src', s);
+                  if ( s.indexOf('/__800/') > 0 || s.indexOf('/__original/') > 0 ) {
+                      $(this).bicubicImgInterpolation({
+                          crossOrigin: 'anonymous' //otherwise browser security error is triggered
+                      })
+                  }
+              });
+              /*
+              $('div#content img').bicubicImgInterpolation({
+                  crossOrigin: 'anonymous' //otherwise browser security error is triggered
+              });
+              */
+          }
+      });
+  </script>
+
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1548882-2']);
+    _gaq.push(['_gat._anonymizeIp']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body class="en front en-front">
+    <div id="site" class="site">
+        <!-- top options -->
+        <div id="top-options">
+          <select class="language"><option value="">Choose country</option><option value="https://www.krka.biz/sl/">Slovenia</option><option value="https://www.krka.biz/en/">Global - English</option><option value="https://www.krka.biz/at/">Austria</option><option value="https://www.krka.biz/by/">Belarus</option><option value="https://www.krka.biz/bn/">Belgium</option><option value="https://www.krka.biz/ba/">Bosnia and Herzegovina</option><option value="https://www.krka.biz/bg/">Bulgaria</option><option value="https://www.krka.biz/hr/">Croatia</option><option value="https://www.krka.biz/cz/">Czech Republic</option><option value="https://www.krka.biz/ee/">Estonia</option><option value="https://www.krka.biz/fi/">Finland</option><option value="https://www.krka.biz/fr/">France</option><option value="http://www.tad.de/de/">Germany</option><option value="https://www.krka.biz/hu/">Hungary</option><option value="https://www.krka.biz/ie/">Ireland</option><option value="https://www.krka.biz/it/">Italy</option><option value="https://www.krka.biz/lv/">Latvia</option><option value="https://www.krka.biz/lt/">Lithuania</option><option value="https://www.krka.biz/mk/">North Macedonia</option><option value="https://www.krka.biz/pl/">Poland</option><option value="https://www.krka.biz/pt/">Portugal</option><option value="https://www.krka.biz/ro/">Romania</option><option value="https://www.krka.biz/ru/">Russian Federation</option><option value="https://www.krka.biz/rs/">Serbia</option><option value="https://www.krka.biz/sk/">Slovakia</option><option value="https://www.krka.com.es/es/">Spain</option><option value="https://www.krka.biz/se/">Sweden</option><option value="https://www.krka.biz/uk/">United Kingdom</option><option value="https://www.krka.biz/ua/">Ukraine</option><select>
+            <ul><li><a href="/en/about-krka/getting-in-touch/">Contact us</a></li>
+<li><a href="/en/about-krka/krka-websites/">For employees</a></li>
+<li><a href="https://partners.extranet.krka.biz/">For partners</a></li>
+<li><a href="/en/for-professional-public/">For professional public</a></li>
+
+            </ul>
+          
+        </div>
+        <!-- /top options -->
+        <!-- header -->
+        <div id="header">
+            <h2 class="logo"><a href="/en/"><img src="/img/v-1/logo-krka.png" alt="Krka, d. d."></a></h2>
+            <div class="login">
+<a href="" class="login-window"><span>Log in</span>For professional public</a>
+</div>
+
+            <div class="search">
+                
+                <form method="get" action="/en/search/" id="id-frmiskanje">
+                    <fieldset>
+                        <input type="text" size="20" id="search" name="q" value="" title="Search" />
+                        <button type="submit">Search</button>
+                    </fieldset>
+                </form>
+            </div>
+            
+        </div>
+        <!-- /header -->
+        <!-- navigation -->
+        <div id="main-navigation">
+          
+            <a class="x-nav"><span>&nbsp;</span></a>
+            <ul>
+<li class="active"><a href="/en/">Home</a></li>
+<li id="k-mnu-11"><a href="/en/pharmaceuticals-and-other-products/">Pharmaceuticals and other products</a></li>
+<li id="k-mnu-12"><a href="/en/for-investors/">For investors</a></li>
+<li id="k-mnu-13"><a href="/en/employment-in-krka/">Employment in Krka</a></li>
+<li id="k-mnu-14"><a href="/en/media-centre/">Media centre</a></li>
+<li id="k-mnu-16"><a href="/en/about-krka/">About Krka</a></li>
+</ul>
+
+        </div>
+        
+        <!-- /navigation -->
+        <div class="cf banner-2019"><div class="wrap"><p>Krka is one of the worldвЂ™s leading generic pharmaceutical companies. <br>Our medicines are used to treat more than 45 million patients every day in over 70 markets. <br>It has over 12,000 employees.</p><p><a class="btn" href="/en/about-krka/">Explore</a></p></div></div>
+        <!-- content -->
+        <div id="body">
+        <div class="half">
+<div class="x-split">
+<div class="units">
+<h2>Krka business network</h2>
+<div class="units-form">
+<form name="frmdrzave2" method="post" action="/en/about-krka/krka-business-network/companies/">
+<fieldset>
+<select name="drzave2" id="id_kombo_drzave2" onchange="this.form.submit();" >
+<option value="">All companies</option>
+<option value="36">Austria</option>
+<option value="405">Belgium</option>
+<option value="42">Bosnia and Herzegovina</option>
+<option value="41">Bulgaria</option>
+<option value="50">China</option>
+<option value="11">Croatia</option>
+<option value="43">Czech Republic</option>
+<option value="428">Finland</option>
+<option value="165">France</option>
+<option value="56">Germany</option>
+<option value="477">Greece</option>
+<option value="54">Hungary</option>
+<option value="48">Ireland</option>
+<option value="83">Italy</option>
+<option value="49">Kazakhstan</option>
+<option value="52">Latvia</option>
+<option value="53">Lithuania</option>
+<option value="55">North Macedonia</option>
+<option value="58">Poland</option>
+<option value="59">Portugal</option>
+<option value="60">Romania</option>
+<option value="61">Russian Federation</option>
+<option value="64">Serbia</option>
+<option value="62">Slovakia</option>
+<option value="63">Slovenia</option>
+<option value="65">Spain</option>
+<option value="66">Sweden</option>
+<option value="68">Ukraine</option>
+<option value="433">United Kingdom</option>
+<option value="70">USA</option>
+</select>
+</fieldset>
+</form>
+<form name="frmdrzave1" method="post" action="/en/about-krka/krka-business-network/representative-offices-abroad/">
+<fieldset>
+<select name="drzave1" id="id_kombo_drzave1" onchange="this.form.submit();" >
+<option value="">All representative offices</option>
+<option value="37">Albania</option>
+<option value="38">Armenia</option>
+<option value="39">Azerbaijan</option>
+<option value="40">Belarus</option>
+<option value="42">Bosnia and Herzegovina</option>
+<option value="50">China</option>
+<option value="44">Estonia</option>
+<option value="45">Georgia</option>
+<option value="47">India</option>
+<option value="51">Kosovo</option>
+<option value="86">Kyrgyz Republic</option>
+<option value="71">Moldova</option>
+<option value="72">Mongolia</option>
+<option value="450">Montenegro</option>
+<option value="61">Russian Federation</option>
+<option value="355">Turkmenistan</option>
+<option value="68">Ukraine</option>
+<option value="69">Uzbekistan</option>
+</select>
+</fieldset>
+</form>
+</div>
+</div>
+<div class="investments">
+<h2><span>For investors</span></h2>
+<div class="stock">
+<div class="chart">
+<div class="stockChart" id="stockChartHP"></div>
+</div>
+<div id="stockData" class="data">
+<p>
+<span class="code">KRKG</span>
+<span class="value">&mdash;</span>
+<span class="change">&mdash;</span><span id="arrow">&mdash;</span>
+</p>
+<span class="date">&hellip;</span>
+<p style="font-size:11px;margin-top:-10px;">Data delayed by 15 minutes due to technical difficulties of Ljubljana Stock Exchange is not working right now</p>
+<ul>
+<li class="history"><a href="/en/for-investors/share-trading/table/">Historical trading information</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jobs">
+
+<h2>Employment in Krka</h2>
+<div class="photo"><img src="/media/pic/en/employment/2019/__220/employment.jpg" alt="Employment" /></div>
+<div class="cms"><p>We value knowledge and promote creativity. We offer our employees optimal working conditions and opportunities for their development.</p>
+</div>
+<ul class="link-list">
+<li><a href="/en/employment-in-krka/why-work-for-krka/">Why work for Krka?</a></li>
+</ul>
+</div>
+<div class="responsibility">
+<h2>Social responsibility</h2>
+<div class="cms"><p>We have been taking responsibility for our broader community and for maintaining a healthy environment since 1954.</p>
+</div>
+<ul class="link-list">
+<li><a href="/en/about-krka/social-responsibility/week-of-charity-and-volunteering/">Krka's Week of Charity and Volunteering</a></li>
+<li><a href="/en/about-krka/social-responsibility/environment-protection/">Environmental protection</a></li>
+<li><a href="/en/about-krka/social-responsibility/sponsorship-and-donations/">Sponsorships and donations</a></li>
+</ul>
+</div>
+<div class="resort">
+<h2>Terme Krka</h2>
+<div class="photo"><img src="/media/pic/en/about_krka/2019/__220/terme_dolenjske_t.jpg" alt="Terme Krka" /></div>
+<div class="cms"><p><span>It may seem small, but SloveniaвЂ™s greatness comes in inspiring details.&nbsp;</span><span>Terme Krka, a member company of the Krka Group, is one of the leading tourism companies in the country.</span></p>
+</div>
+<ul class="link-list">
+<li><a href="https://www.terme-krka.com/us/en/home/" target="_blank">Terme Krka</a></li>
+<li><a href="https://www.terme-krka.com/us/en/destinations/" target="_blank">Destinations</a></li>
+</ul>
+</div>
+</div>
+<div class="half right">
+<div class="krka">
+<h2>Products</h2>
+<div class="photo"><img src="/media/pic/en/pharmaceuticals/2019/__220/products_2.jpg" alt="Products" /></div>
+<div class="cms"><p>Krka&rsquo;s basic line of business is the production and sale of prescription pharmaceuticals, non-prescription products and animal health products.</p>
+</div>
+<ul class="link-list">
+<li><a href="/en/pharmaceuticals-and-other-products/prescription-pharmaceuticals/">Prescription pharmaceuticals</a></li>
+<li><a href="/en/pharmaceuticals-and-other-products/non-prescription-products/">Non-prescription products</a></li>
+<li><a href="/en/pharmaceuticals-and-other-products/animal-health-products/">Animal health products</a></li>
+</ul>
+</div>
+<div class="covid">
+<h2>Coronavirus</h2>
+<div class="photo"><a href="/en/about-krka/coronavirus/"><img src="/media/pic/en/about_krka/2020/__220/2020-corona-banner-220x87-en.jpg" alt="Coronavirus" /></a></div>
+<div class="cms"><p>We are continuing our efforts to contain the spread of coronavirus and ensure uninterrupted production of medicinal products</p>
+</div>
+
+</div>
+<div class="kmf"><h2>Clinically proven</h2><a class="ad-kmf" href="/en/for-professional-public/"><img src="/img/v-1/kmf-ad-EN-2017.gif" alt="Looking for clinical evidence? Clinically proven"></a></div>
+<div class="publications">
+<h2>Publications</h2>
+<div class="photo"><a href="/en/about-krka/company-presentation/publications/"><img src="/media/pic/en/about_krka/2019/__220/publications.jpg" alt="publications" /></a></div>
+<ul class="link-list">
+<li><a href="/en/about-krka/company-presentation/publications/">Company Identity brochure.</a></li>
+</ul>
+</div>
+<div class="news">
+<h2><span>News</span></h2>
+<ul><li>
+<h3><a href="/en/media-centre/news/dear-pharmacists-thank-you-for-your-support/11878/">Dear pharmacists, thank you for your support</a></h3>
+</li>
+<li>
+<h3><a href="/en/media-centre/news/lets-talk-about-dementia/11872/">LetвЂ™s talk about dementia</a></h3>
+</li>
+<li>
+<h3><a href="/en/media-centre/news/krka-reports-on-2020-semi-annual-business-results/11852/">Krka Reports on 2020 Semi-annual Business Results</a></h3>
+</li>
+</ul>
+</div>
+</div>
+<div class="block contact"><h3>Krka, d. d., Novo mesto</h3><address><br />Е marjeЕЎka cesta 6 <br />8501 Novo mesto <br />Slovenia <br /><a href="/en/media-centre/photo-and-video-archive/video-how-to-get-to-krka-s-hq/">Video: How to get to Krka's HQ</a></address>
+<dl>
+<dt>Phone</dt>
+<dd>+386 7 331 21 11</dd>
+<dt>Fax</dt>
+<dd>+386 7 332 15 37</dd>
+<dt>E-mail</dt>
+<dd class="email_dd"><a href="mailto:info@krka.biz">info@krka.biz</a></dd>
+<dt>&nbsp;</dt>
+<dd class="email_dd"><a href="http://www.krka.biz">www.krka.biz</a></dd>
+</dl></div>
+        </div>
+        <!-- /content -->
+        <!-- footer -->
+        <div id="footer">
+          
+          <div class="links">
+            <p><a class="icon linkedin" href="https://www.linkedin.com/company/krka" title="Linkedin" target="_blank">Linkedin</a><a class="icon youtube" href="https://www.youtube.com/channel/UCETUu5sc9MhCvIbGmJOt7JA" title="YouTube" target="_blank">YouTube</a><a class="icon instagram" href="https://www.instagram.com/krkaofficial/" title="Instagram" target="_blank">Instagram</a></p><p><a href="/en/about-krka/company-presentation/legal-notices/">Legal notices</a> | <a href="/en/about-krka/integrity-and-compliance/personal-data-protection/">Personal data protection</a> <br>All rights reserved. Krka, tovarna zdravil, d. d., Novo mesto</p>
+          </div>
+          <ul class="partners"><li><a href="https://www.terme-krka.com"><img src="/img/v-1/footer/terme-krka.jpg" alt="Terme Krka" /></a></li>
+
+          </ul>
+          
+        </div>
+        <!--a id="inline" href="#ny-greeting" class="hidden"></a>
+        <div id="ny-greeting">
+            <div id="ny-floater" class="hidden"></div>
+        </div-->
+        <!-- /footer -->
+    
+    </div>
+    <div class="cookie-wrap cookie-wrap-bottom-relative">
+<div class="cookie-text">
+<p>Our website uses cookies. By using this website you agree to our use of cookies. For more information on cookies click <a href="/en/about-krka/company-presentation/legal-notices/#cookies">here</a>.</p>
+</div>
+</div>
+
+    <script type="text/javascript" src="/_inc/js/ganalytics.js"></script>
+</body>
+</html>

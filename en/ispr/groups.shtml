@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>Interregional Society of Pharmacoepidemiological Researches</title>
+<meta name="description" content="Interregional Society of Pharmacoepidemiological Researches">
+<meta name="keywords" content="pharmacoepidemiology, drug use, pharmacy">
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript"> <!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/en/inc/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../inc/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 8px; margin-left: 10px; text-align: justify;}
+LI {margin-left: 5px; margin-top: 6px;}
+UL {margin-top: 6px; margin-left: 15px;}
+OL {margin-top: 6px; margin-left: 20px;}
+H4 {margin-left: 2px; margin-bottom: 8px;}
+</style>
+</head>
+
+<body class="main">
+
+<table width="750" cellpadding="0" border="0" cellspacing="5">
+<tr>
+  <th width="140" valign="top">
+
+  <table border="0" cellpadding="5" cellspacing="0" width="100%">
+    <tr><td><br>
+<div align="center"><img src="../images/logo/ispr.gif" width="84" height="73" alt="" border="0"></div>
+<p style="text-align: center; font-size: 7pt; font-style: bold">Interregional Society of Pharmacoepidemiological Researches</p>
+<hr size="1">
+<p class="m8"><a href="index.shtml">General Information</a></p>
+<p class="m8"><a href="groups.shtml">Working Groups</a></p>
+<p class="m8"><a href="researches.shtml">Current Projects</a></p>
+<p class="m8" style="line-height: 150%;">Publications:<br>
+• <a href="public.shtml">Posters</a><br>
+• <a href="public.shtml#abstr">Abstracts</a></p>
+
+    </td></tr>
+  </table>
+  
+  </th><td valign="top">
+<!--navigation-->
+<map name="TopBtnEn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Previous page" title="Previous page">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Next page" title="Next page">
+<area shape="circle" coords="77,15,15" href="../index-1.htm" alt="Main page" title="Main page">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="E-Mail" title="E-Mail">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../rus/images/buttons/topline.gif);" width="98%" height="32"><img src="../../rus/images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../rus/images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Navigation" usemap="#TopBtnEn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+
+<h1>Working groups</h1>
+<hr size="1">
+
+<a><br>
+<h2>Pharmacoepidemiology of antimicrobials</h2>
+<table border="0" cellpadding="5" cellspacing="2">
+	<tr>
+		<td nowrap="">Head of the working group</td>
+		<td><b>Prof. L.S. Stratchounski</b>, MD, Director of the Institute of Antimicrobial Chemotherapy, the head of the Clinical Pharmacology Department of the Smolensk State Medical Academy</td>
+	</tr>
+	<tr>
+		<td nowrap="">Contact information</td>
+		<td><b>Mailing address:</b> PO box 5, Smolensk, 214019, Russia<br> <b>Tel.:</b>&nbsp;+7&nbsp;4812&nbsp;611327,&nbsp;611301<br><b>Fax:</b>&nbsp;+7&nbsp;4812&nbsp;611294<br><b>E-mail:</b>&nbsp;<a href="mailto:str@antibiotic.ru">str@antibiotic.ru</a></td>
+	</tr>
+</table>
+
+<a><br>
+<h2>Pharmacoepidemiological researches in pediatrics</h2>
+<table border="0" cellpadding="5" cellspacing="2">
+	<tr>
+		<td nowrap="">Head of the working group</td>
+		<td><b>Prof. I.V. Smolenov</b> - Clinical Pharmacology Department of the Volgograd State Medical Academy</td>
+	</tr>
+	<tr>
+		<td nowrap="">Contact information</td>
+		<td><b>Mailing address:</b> 1, Pavshikh Bortsov Square, Volgograd, 400066, Russia<br> <b>Tel.:</b>&nbsp;+7&nbsp;8442&nbsp;433060,&nbsp;376824<br><b>E-mail:&nbsp;</b><a href="mailto:siv@antibiotic.ru">siv@avtlg.ru</a></td>
+	</tr>
+</table>
+
+
+<a><br>
+<h2>Pharmacoepidemiology of psychotropic drugs</h2>
+<table border="0" cellpadding="5" cellspacing="2">
+	<tr>
+		<td nowrap="">Head of the working group</td>
+		<td><b>Prof. L.E. Ziganshina</b> - Clinical Pharmacology Department of the Kazan Medical Academy</td>
+	</tr>
+	<tr>
+		<td nowrap="">Contact information</td>
+		<td><b>Mailing address:</b> 49, Butlerov Street, Kazan, 420012, Russia<br> <b>E-mail:</b>&nbsp;<a href="mailto:airatz@auz.ksn.ru">airatz@auz.ksn.ru</a></td>
+	</tr>
+</table>
+
+<br>
+<!-- begin footer -->
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tr>
+  <td style="text-align: left; vertical-align: bottom;" align="left" valign="bottom"><div class="t8">&copy; 2000-2006 IAC SSMA &middot; E-mail: <a href="mailto:website@antibiotic.ru" title="Send e-mail">website&#64;antibiotic&#46;ru</a></div></td>
+  <td colspan="2" valign="top" align="right"><font size="1"><!-- SpyLOG v2 f:0211 --><script language="javascript">
+u="u607.38.spylog.com";d=document;nv=navigator;na=nv.appName;p=1;
+bv=Math.round(parseFloat(nv.appVersion)*100);
+n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random();z="p="+p+"&rn="+rn;y="";
+y+="<a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+
+"&r="+escape(d.referrer)+"&pg="+escape(window.location.href)+"' border=0  width=88 height=31  alt='SpyLOG'>";
+y+="</a>"; d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<a href="../../index-15.htm?f=3&p=1" target="_blank">
+<img src="../../digits.png?p=1" alt='SpyLOG' border='0' width="88" height="31">
+</a></noscript><script language="javascript1.2"><!--
+if(!n) { d.write("--"+">"); }//--></script><!-- SpyLOG  --></font></td>
+</tr>
+</table>
+<!-- end of footer -->
+
+<hr size="1">
+  </a></td></tr>
+</table>
+</body>
+</html>

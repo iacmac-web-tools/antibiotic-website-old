@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Welcome to nginx!</title>
+</head>
+<body bgcolor="white" text="black">
+<center><h1>Welcome to nginx!</h1>
+<p>Host www.consilium-medicum.com is not available now.</p>
+<p>Please proceed to <a href="http://www.host.ru/">http://www.host.ru/</a></p>
+</center>
+</body>
+</html>
+

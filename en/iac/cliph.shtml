@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>Department of Clinical Pharmacology</title>
+<meta name="description" content="Department of Clinical Pharmacology">
+<meta name="keywords" content="antibiotic, chemotherapy, resistance">
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript"> <!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/en/inc/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../inc/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top:8px; margin-left:10px; text-align:justify;}
+LI {margin-top:7px; margin-left:15px; }
+UL {margin-top:6px; margin-left:15px; }
+OL {margin-top:6px; margin-left:20px; }
+H4 {margin-left:2px; margin-bottom:8px; }
+H5 {font-size:12pt; text-align:left; margin-left:10px; margin-bottom:6px; }
+.d8 {font-size:8pt; color:#808080;}
+</style>
+
+</head>
+
+<body class="main">
+
+<table width="750" cellpadding="0" cellspacing="5" border="0">
+  <tr>
+  <th width="170" valign="top">
+
+  <table border="0" cellpadding="2" cellspacing="0" width="100%">
+  <tr><td><br><p class="m8"><a class="nc" href="cliph.shtml">Department of Clinical Pharmacology</a></p>
+<hr size="1" style="color:#D0C0AC;">
+<p class="m8">Research Services</p>
+<ul>
+  <p class="m8"><a href="cliph.shtml#clin_research">Clinical Trials Group</a></p>
+  <p class="m8"><a href="cliph.shtml#clin_micro">Clinical Microbiology Group</a></p>
+  <p class="m8"><a href="cliph.shtml#pharmac">Pharmacoeconomy and Pharmacoepidemiology Group</a></p>
+  <p class="m8"><a href="cliph.shtml#mmbio">Molecular Microbiology Laboratory</a></p>
+</ul>
+</td></tr>
+  </table>
+  </th>
+
+  <td valign="top">
+<!--navigation-->
+<map name="TopBtnEn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Previous page" title="Previous page">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Next page" title="Next page">
+<area shape="circle" coords="77,15,15" href="../index-1.htm" alt="Main page" title="Main page">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="E-Mail" title="E-Mail">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../rus/images/buttons/topline.gif);" width="98%" height="32"><img src="../../rus/images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../rus/images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Navigation" usemap="#TopBtnEn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+
+<a name="main"></a>
+<h1>Department of Clinical Pharmacology</h1>
+<hr size="1">
+
+<p class="a">Department of Clinical Pharmacology was founded in 1986 in Smolensk State Medical Academy.</p>
+<p class="a">The Department is situated in Smolensk Regional Hospital and cooperates with other medical institutions of Smolensk and Microbiological Laboratory of the Smolensk Regional Center for Sanitary and Epidemiological Control.</p>
+<p class="a">Based in the Smolensk Regional Clinical Hospital (1,425 beds), the Department is closely affiliated to all facilities of modern teaching hospital. Moreover, our experience of close collaboration with leading medical centres in Moscow, St.&nbsp;Petersburg, Ekaterinburg, Kazan, Krasnodar, Krasnojarsk, N.Novgorod, Novosibirsk, Riazan, Tomsk, Volgograd makes these facilities available for multicentre studies. </p>
+<p class="a">In 2000 <a href="../scmhar/index.htm">Scientific Center of the Ministry of Health of the Russian Federation of Monitoring Antimicrobial Resistance</a> was founded on the basis of the Department</p>
+<br><br>
+<hr size="1">
+
+<a name="clin_research"></a><br>
+<h2>Clinical Trials Group</h2>
+
+<p class="a">The Institute of Antimicrobial Chemotherapy is currently actively involved in phases II-IV of clinical trials and is the integral part of the Site Management Organization of Clinical Trials Centers.</p>
+<p class="a">The Independent Ethical Committee (IEC) of Smolensk State Medical Academy which was founded in 1992 is one of the oldest IECs in Russia. All specialists taking part in the trials have been trained on different courses on <i>Good Clinical Practice</i> (GCP) in Russia and abroad.</p>
+<p class="a">The most important principle of work of IAC is to follow the standards of GCP. <i>Standard Operation Procedures</i> (SOP) developed in the Institute co-ordinates with ICH Harmonised Tripartite Guidelines and Russian guidelines.</p>
+
+<br>
+<hr size="1">
+
+<a name="clin_micro"></a>
+<h2>Clinical Microbiology Group</h2>
+
+<h5>Main Topics of Research Projects</h5>
+<ul>
+	<li>Epidemiology and mechanism of antimicrobial resistance of <i>Streptococcus pneumoniae</i> and <i>Streptococcus pyogenes</i></li>
+	<li>Antimicrobial resistance of <i>Neisseria gonorrhoeae</i> and <i>Haemophilus influenzae</i></li>
+	<li>Epidemiology and mechanisms of resistance of gram-negative nosocomial bacteria to <font face="Symbol">b</font>-lactams and aminoglycosides</li>
+	<li>Prevalence and antibiotic resistance of <i>S.aureus</i> and <i>Enterococcus</i> spp.</li>
+	<li>Diagnostics of <i>Chlamydophila pneumoniae</i>-associated infections</li>
+	<li>External Quality Assurance Programs</li>
+</ul>
+
+<h5>External Quality Assurance</h5>
+
+<p>The microbiological laboratory of the Department continuously participates in the International External Quality Assurance Programs:</p>
+<ul>
+	<li>UK National External Quality Assessment Scheme for Microbiology - NEQAS (United Kingdom), from 1994 to 1997</li>
+	<li>Institut fur Standardisierung und Documentation im medizinischen Laboratorium - INSTAND (Germany), from 1995</li>
+	<li>WHO and CDC Quality Control and Proficiency Testing, from 1995 to 1998</li>
+	<li>Federal Centre External Quality Assurance, Russia, from 1999</li>
+</ul>
+<p>All laboratory procedures, data management, analysis and reporting are carried out according to the Good Laboratory Practice (GLP) and NCCLS standards.</p>
+<p>Microbiological data are analysed using custom-designed developed M-Lab System and also by SAS and WHONET softwares.</p>
+
+<h5>Laboratory Facilities</h5>
+
+<p>The Laboratory is a custom-designed, well-equipped facility for a full range of microbiological procedures, including isolation, identification, susceptibility testing (agar and broth dilution, disc diffusion, Etests).</p>
+<p>In addition, collection of more than 20,000 pathogens from different parts of Russia are available for retrospective testing at the IAC.</p>
+
+<h5>Transportation of Clinical Samples and Specimens</h5>
+
+<p>Our couriers in Moscow provide for transporting the clinical samples and specimens from different parts of Russia. Normally it takes 5-6 hours to get samples from Moscow to Smolensk.</p>
+
+
+<h5>Participation in Clinical Trials</h5>
+
+<p>Microbiological support of the phase II-IV of clinical trials of antimicrobial drugs, sponsored by:</p>
+
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+<tr>
+  <td><ul>
+  <li>Bristol-Myers Squibb</li>
+  <li>Eli Lilly</li>
+  <li>GlaxoWellcome</li>
+  <li>Heinrich Mack</li>
+  <li>Hoechst Marion Roussel</li>
+  <li>KRKA</li>
+  <li>Merck Sharp &amp; Dohme Idea</li>
+</ul></td>
+  <td width="30">&nbsp;</td>
+  <td><ul>
+  <li>Pfizer</li>
+  <li>Pharmacia &amp; Upjohn</li>
+  <li>Rhone-Poulenc Rorer</li>
+  <li>Pliva</li>
+  <li>Sankyo</li>
+  <li>Schering-Plough</li>
+</ul></td>
+</tr>
+</table>
+
+<h5>Participation in the International Surveillance Programs</h5>
+
+<ul>
+	<li>Multicentre Survey of b-lactamase Production and Susceptibility Patterns (1990)</li>
+	<li>Prevalence of Antibiotic Resistance in Europe (1990)</li>
+	<li>International Surveillance of Pneumococci Resistant to Penicillin and Other Antimicrobial Agents (1993-1994)</li>
+	<li>ARTEMIS project (1998)</li>
+	<li>MICROMAX project (1998-1999)</li>
+	<li>Pneumococci Resistance Study (1999)</li>
+	<li>SENTRY Global Antimicrobial Resistance Network (2001-ongoing)</li>
+	<li>BASKETT study (2001-2002)</li>
+	<li>PROTEKT study (2002)</li>
+</ul>
+
+<hr size="1">
+
+<a name="pharmac"></a><br>
+<h2>Pharmacoeconomy and Pharmacoepidemiology Group</h2>
+
+<h5>Pharmacoeconomic Research</h5>
+<ul>
+	<li>Cost-minimization analysis of cefamandole and tobramycin <i>vs</i> standard therapy in the treatment of patients with local appendicular peritonitis (1996)</li>
+	<li>Cost-minimization analysis of cefuroxime sodium <i>vs</i> sequential therapy cefuroxime sodium cefuroxime axetil in the treatment of patients with community-acquired pneumonia (1997)</li>
+	<li>Cost analysis of various regimes of antibacterials in the treatment of infectious diseases (1996)</li>
+	<li>Decision analysis of acute tonsillopharyngitis management in Russian children (1999)</li>
+	<li>Cost/effectiveness analysis of miniVital automated system vs routine microbiological procedures for blood cultures from hospitalised patients (2002-current)</li>
+</ul>
+
+
+<h5>Pharmacoepidemiological Research</h5>
+<ul>
+	<li>Antimicrobial prescribing in children with URTIs (Upper Respiratory Tract Infections) in Moscow, Smolensk, Yartsevo (1996-1997)</li>
+	<li>Multicenter retrospective study &laquo;Patterns of drugs prescribing in adult out-patients with community-acquired pneumonia and acute exacerbation of chronic bronchitis in Russia&raquo; (1998-2000)</li>
+	<li>Multicenter study &laquo;Drug usage in outpatient children in 5 different regions of Russia&raquo; (CHILDURG study, 1998-2000)</li>
+	<li>GPs' knowledge of the Lower Respiratory Tract Infections Management in outpatients adults: GPs survey (2000-2002)</li>
+	<li>The Inventory of Antibiotics in Home Medicine Cabinet (2000-2002) </li>
+	<li>Patterns of drugs prescribing in adults with acute tonsillitis (FAETON, 2001-2002)</li>
+	<li>Patterns of drugs prescribing in adults with acute sinusitis (FARMASIN, 2002-current)</li>
+	<li>Patterns of drugs prescribing in adults with acute otitis media (OSTROV, 2002-current)</li>
+</ul>
+
+<h5>Russian Chapter of International Society for Pharmacoeconomics and Outcomes Research (RC-ISPOR)</h5>
+<p>Department of Clinical Pharmacology and Antimicrobial Chemotherapy was one of the initiators Russian Chapter of International Society for Pharmacoeconomics and Outcomes Research (RC-ISPOR).</p>
+
+<br>
+<hr size="1">
+
+<a name="mmbio"></a><br>
+<h2>Molecular Microbiology Laboratory</h2>
+
+<h5>Principal fields of investigation</h5>
+<ul>
+  <li>Mechanisms of resistance to beta-lactam antibiotics:<br>
+-	Resistance to penicillins and cephalosporins in <i>Enterobacteriaceae</i><br>
+-	Identification and typing of extended-spectrum beta-lactamases (ESBLs)</li>
+  <li>Molecular typing of gram-negative and gram-positive organisms by ERIC (REP)-PCR, RAPD</li>
+  <li>Molecular epidemiology of ESBL-producing organisms</li>
+  <li>PCR-detection and differentiation of <i>Chlamydiaceae</i>:<br>
+- Identification of <i>Chlamydiaceae</i> species by electrophoretic separation of PCR products in the presence of Bisbenzimide-PEG<br>
+- Real-time PCR detection and differentiation using melting curve analysis or TaqMan assay.</li>
+</ul>
+
+<br><p class="d8">Updated: Dec 14, 2002</p>
+<!-- begin footer -->
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tr>
+  <td style="text-align: left; vertical-align: bottom;" align="left" valign="bottom"><div class="t8">&copy; 2000-2006 IAC SSMA &middot; E-mail: <a href="mailto:website@antibiotic.ru" title="Send e-mail">website&#64;antibiotic&#46;ru</a></div></td>
+  <td colspan="2" valign="top" align="right"><font size="1"><!-- SpyLOG v2 f:0211 --><script language="javascript">
+u="u607.38.spylog.com";d=document;nv=navigator;na=nv.appName;p=1;
+bv=Math.round(parseFloat(nv.appVersion)*100);
+n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random();z="p="+p+"&rn="+rn;y="";
+y+="<a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+
+"&r="+escape(d.referrer)+"&pg="+escape(window.location.href)+"' border=0  width=88 height=31  alt='SpyLOG'>";
+y+="</a>"; d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<a href="../../index-15.htm?f=3&p=1" target="_blank">
+<img src="../../digits.png?p=1" alt='SpyLOG' border='0' width="88" height="31">
+</a></noscript><script language="javascript1.2"><!--
+if(!n) { d.write("--"+">"); }//--></script><!-- SpyLOG  --></font></td>
+</tr>
+</table>
+<!-- end of footer -->
+
+  </td></tr>
+</table>
+</body>
+</html>

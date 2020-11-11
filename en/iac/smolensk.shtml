@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>About Smolensk</title>
+<meta name="description" content="About Smolensk">
+<meta name="keywords" content="Smolensk">
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript"> <!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/en/inc/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../inc/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 8px; margin-left: 10px; text-align: justify;}
+LI {margin-top: 7px; margin-left: 15px; }
+UL {margin-top: 6px; margin-left: 15px; }
+OL {margin-top: 6px; margin-left: 20px; }
+H4 {margin-left: 2px; margin-bottom: 8px; }
+</style>
+</head>
+
+<body class="main">
+
+<table width="750" cellpadding="0" cellspacing="5" border="0">
+  <tr>
+  <th width="170" valign="top">
+
+  <table border="0" cellpadding="2" cellspacing="0" width="100%">
+    <tr><td><br>
+<p class="m8"><a class="nc" href="index.shtml">Institute of Antimicrobial Chemotherapy (IAC)</a></p>
+<hr size="1" style="color:#D0C0AC;">
+<ul>
+  <p class="m8"><a href="smolensk.shtml">About Smolensk</a></p>
+  <p class="m8"><a href="smolensk.shtml#ssma">Smolensk state<br> Medical Academy</a></p>
+  <p class="m8"><a href="index.shtml">Institute</a></p>
+  <p class="m8"><a href="index.shtml#training">Education and Training</a></p>
+  <p class="m8"><a href="index.shtml#clinbaza">Clinical Basis</a></p>
+  <p class="m8"><a href="index.shtml#structure">Structure of IAC</a></p>
+  <p class="m8"><a href="index.shtml#laborbaz">Laboratory Basis</a></p>
+</ul>
+
+    </td></tr>
+  </table>
+  </th>
+
+  <td valign="top">
+<!--navigation-->
+<map name="TopBtnEn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Previous page" title="Previous page">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Next page" title="Next page">
+<area shape="circle" coords="77,15,15" href="../index-1.htm" alt="Main page" title="Main page">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="E-Mail" title="E-Mail">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../rus/images/buttons/topline.gif);" width="98%" height="32"><img src="../../rus/images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../rus/images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Navigation" usemap="#TopBtnEn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+
+<a name="main"></a>
+<h1>Smolensk &#150; Key to Russia</h1>
+<hr size="1">
+
+<p class="a">Institute of Antimicrobial Chemotherapy is located in Smolensk, one of the oldest Russian cities. Being situated on the western border of Russia, Smolensk is 419 kilometres away from Moscow. The Smolensk Region, which has a population of 1,034,000 inhabitants, is situated on Smolensk-Moscow eminence on the west of Eastern European plain and has a territory of 49,798 square kilometres. Four hundred and sixty three kilometres is the state borders of Russian Federation with Belarus. Smolensk had risen at the riverhead of the Dnepr, on the commercial ways connecting Baltic countries with the Black Sea on the one hand and Moscow with the central and Western Europe on the other. That is why Smolensk is called &laquo;the key town&raquo;.</p>
+
+<div align="center"><img src="../images/russia.gif" width="480" height="312" border="0" alt="Russia"></div>
+
+<p class="a">A convenient transport communication between Smolensk and Moscow is due to the fact that Smolensk is located on the lively railway and highways, connecting the Russian capital with Belarus, Baltic and Central Europe countries. It takes 5 to 6 hours to get from Smolensk to Moscow by train or 4-5 hours by car.</p>
+
+<p class="a">Smolensk was one of the first cities to have been found in old Russ. It is older than Moscow and contemporary with Kiev and Novgorod. Fabulous history of Smolensk is in part the history of all Russia. In 882 Smolensk entered into Kievskaya Rus and it was an active participant in trade and military campaigns of the Ancient Russia. In 12th century Smolensk reached the highest degree of its development and it became the most important strategic centre of Russ and a reliable fort post of the state. This ancient city often served as a shield for the Russian state. On many occasions Smolensk was the first to rise to the country's defence, repulsing and routing the enemy. During 1609-1611 Smolensk suffered from the polish invasion, when after 12-month siege it was seized by Poland and returned to Russia only according to the Peace Treaty of Andrussov. In summer of 1708 Smolensk rose on the way of the troops of Swedish King Carl the 12 who were striving to Moscow. The battle under Smolensk in August 4 - 5th during the Patriotic war of 1812 disturbed the plan of Napoleon to destroy Russia. On the territory of Smolensk the French army was finally destroyed after its retreat from Moscow. M.I.&nbsp;Kutuzov received the title of Prince of Smolensk. There were the fierce battles against the fascist army in July - September 1941 and this helped a lot to detain the enemy's attack on Moscow for more than 2,5 months. The battle under Smolensk in 1941 was the greatest battle of the initial period of war. During the occupation (July&nbsp;16, 1941 - September&nbsp;25, 1943) the movement of the Resistance was activated. More than 63 thousand people participated in it. Within the Great Patriotic war Smolensk was destroyed over 93%. Many times demolished by the enemies Smolensk has been raised again and again from the ruins and ashes.</p>
+
+<p class="a">Smolensk has lived through many centuries, and it is reflected in numerous historical monuments. One of them is the City Fortress wall erected in 16th century by the famous architect Fyodor S.&nbsp;Kon. The length of it was 6.5&nbsp;km, the width of about 4-6 meters, the height - 12-16 meters. By the quantity of towers (there are only 18 of them right now), by its monumental and picturesque appearance the City Fortress wall has no similar examples in the Russian architecture.</p>
+
+<p class="a">The oldest church of Smolensk is the church of St.&nbsp;Peter and St.&nbsp;Paul, the prominent example of outstanding monuments of the Russian architecture of 12<sup>th</sup> century. There are also two more churches of that period of time - the Church of Ioan Bogoslov and the Church of Mikhail Archangel. The leading place in the general panorama of the city belongs to the Assumption Cathedral (1677-1679), which was completed by A.I.&nbsp;Shnedel in 1740.</p>
+
+<p class="a">The numerous monuments are devoted to the events of the Patriotic War of 1812. The most remarkable of them is the Monument with Eagles, which was created in 1912 by N.S.&nbsp;Shuzman for the celebration of the 100<sup>th</sup> anniversary of war and is situated in the Square of Memory. One can see the Eternal fire there, the symbol of our memory. The monument of the Grieving mother, the Barrow of Immortality is the remarkable memorial complex, which was founded on the place of the former concentration camp in memory to those who died during the Great Patriotic war of 1941-1945.</p>
+
+<p class="a">The Smolensk Region is the birthplace of many prominent people: the talented composer M.I.&nbsp;Glinka, the outstanding explorer N.M.&nbsp;Przhevalsky, the famous Russian admiral P.S.&nbsp;Nakhimov, the soil scientist V.V. Dokuchayev, the great sculptor S.T.&nbsp;Konyonkov, prominent writer A.S.&nbsp;Griboedov and the world first cosmonaut Y.A.&nbsp;Gagarin.</p>
+
+<p class="a">Smolensk today is the city with 322,000 inhabitants, and among the most important industrial centres of Russia, keeping pace with time. Smolensk is famous for its diamond-cutting factory &laquo;Kristall&raquo;, which production is exported to all over the world and is a part of world-famous Diamond Fund. Other significant industries worth emphasizing are instrument making and engineering, linen and printing industries.</p>
+
+<p class="a">In addition, Smolensk is one of the biggest cultural centres. In the city there are 8 children's musical schools where study over 2700 children; the children's art school, 20 libraries, the art gallery and a lot of museums, which exhibitions are devoted to Smolensk's great history and rich culture. The oldest institute of the culture is the Smolensk State Theatre of Drama, which repertoire includes the plays of Russian and foreign classic. City has a great importance from the point of view of higher education, a plenty of well-known thorough academies and universities graduating students in different branches of science.</p>
+
+<p class="a">Old houses, remarkable monuments, luxurious ancient churches, amazing grandeur of fortress walls, wonderful green parks, magnificent sceneries and landscapes - all these give the city its inimitable atmosphere, its enjoyable beauty. City is growing, modern houses are instantly building, new manufactures are quickly developing, shops, cinemas and a vast variety of other entertainment centres are coming into the open, making Smolensk more attractive day by day. </p>
+
+<p class="a">So, there are many reasons to come to Smolensk!</p>
+
+<a name="ssma"></a><br>
+<h3>SMOLENSK STATE MEDICAL ACADEMY</h3>
+
+<p class="a">The Smolensk State Medical Academy was founded in 1924. By today with General Medicine, Pediatric, Dentistry, Foreign Students and Postgraduate faculties it has become one of the leading high medical schools of Russia with more than 3,000 students and 500 specialists graduating every year.</p>
+<p class="a">Rector of the Academy - Professor Vladimir G Pleshkov.</p>
+
+<br>
+<!-- begin footer -->
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tr>
+  <td style="text-align: left; vertical-align: bottom;" align="left" valign="bottom"><div class="t8">&copy; 2000-2006 IAC SSMA &middot; E-mail: <a href="mailto:website@antibiotic.ru" title="Send e-mail">website&#64;antibiotic&#46;ru</a></div></td>
+  <td colspan="2" valign="top" align="right"><font size="1"><!-- SpyLOG v2 f:0211 --><script language="javascript">
+u="u607.38.spylog.com";d=document;nv=navigator;na=nv.appName;p=1;
+bv=Math.round(parseFloat(nv.appVersion)*100);
+n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random();z="p="+p+"&rn="+rn;y="";
+y+="<a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+
+"&r="+escape(d.referrer)+"&pg="+escape(window.location.href)+"' border=0  width=88 height=31  alt='SpyLOG'>";
+y+="</a>"; d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<a href="../../index-15.htm?f=3&p=1" target="_blank">
+<img src="../../digits.png?p=1" alt='SpyLOG' border='0' width="88" height="31">
+</a></noscript><script language="javascript1.2"><!--
+if(!n) { d.write("--"+">"); }//--></script><!-- SpyLOG  --></font></td>
+</tr>
+</table>
+<!-- end of footer -->
+
+  </td></tr>
+</table>
+</body>
+</html>

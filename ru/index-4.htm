@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--[if lt IE 7]><html xmlns="http://www.w3.org/1999/xhtml" class="lt-ie10 lt-ie9 lt-ie8 lt-ie7" xml:lang="ru" lang="ru"><![endif]-->
+<!--[if IE 7]><html xmlns="http://www.w3.org/1999/xhtml" class="lt-ie10 lt-ie9 lt-ie8" xml:lang="ru" lang="ru"><![endif]-->
+<!--[if IE 8]><html xmlns="http://www.w3.org/1999/xhtml" class="lt-ie10 lt-ie9" xml:lang="ru" lang="ru"><![endif]-->
+<!--[if IE 9]><html xmlns="http://www.w3.org/1999/xhtml" class="lt-ie10" xml:lang="ru" lang="ru"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru"><!--<![endif]-->
+<head>
+  <title>РљР РљРђ</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="РќР°С€Рµ Р±СѓРґСѓС‰РµРµ вЂ“ СѓРєСЂРµРїР»РµРЅРёРµ РїРѕР·РёС†РёР№ РљР РљРђ, РєР°Рє РѕРґРЅРѕР№ РёР· РІРµРґСѓС‰РёС… РґР¶РµРЅРµСЂРёРєРѕРІС‹С… С„Р°СЂРјР°С†РµРІС‚РёС‡РµСЃРєРёС… РєРѕРјРїР°РЅРёР№ РІ РјРёСЂРµ." /><meta name="keywords" content="РџСЂРѕРґСѓРєС†РёСЏ РљР РљРђ, РљР°СЂСЊРµСЂР°, РњРµРґРёР° С†РµРЅС‚СЂ, Рћ РљР РљРђ, РљРѕРјРїР°РЅРёСЏ РљР РљРђ РІ Р РѕСЃСЃРёРё" />
+  <meta http-equiv="imagetoolbar" content="no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="google-site-verification" content="j_u1FAIkBB6Sdjb2Rb0T9xQT1a0aTTBcX2i7P_CZ3H0" />
+  <link type="text/css" rel="stylesheet" media="screen,projection" href="/_inc/js/fancybox/2.1/jquery.fancybox.css">
+  <link type="text/css" rel="stylesheet" media="screen,projection" href="/inc/v-1/css/default.css?dc=2020">
+  
+  <link type="text/css" rel="stylesheet" media="screen,projection" href="/inc/v-1/css/responsive.css?dc=202011p">
+  
+  <link type="text/css" rel="stylesheet" media="screen,projection" href="/_inc/cookie/krka/cookie.css">
+  <link type="text/css" rel="stylesheet" media="print" href="/inc/v-1/css/print.css?dc=20131024" />
+  <link type="image/ico" rel="icon" href="/favicon.ico" />
+  <link type="image/ico" rel="image/x-icon" href="/favicon.ico" />
+  <!--[if !IE]><!--><script>if(/*@cc_on!@*/false){document.documentElement.className+=' ie10';}</script><!--<![endif]-->
+  <script type="text/javascript">
+    // prevodi fancybox
+    var g_lang_S = 'ru';
+    var g_lang_I = '2';
+    var g_jezik_S = 'ru';
+    var g_fedlog_B = false;
+    var krkaFiniLocale = ( g_jezik_S === 'si' ) ? 'de' : 'en';
+    var krkaFiniErrMsg = 'ЕЅal je priЕЎlo do napake';
+    
+    var krkaFiniTblHead = '<thead><tr><th class="date"></th><th class="rate"></th><th class="change"></th><th class="volume"></th><th class="volumeEur"></th></tr></thead>';
+    var krkaFancyboxClose = 'Close';
+  </script>
+  <!--[if lte IE 8]><script type="text/javascript" src="/inc/v-1/js/excanvas.min.js"></script><![endif]-->
+  <script type="text/javascript" src="/inc/v-1/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.jqModal.min.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.date_input.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.imageSlider.js?dc=201604"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.textbox_hint.js"></script>
+  <script type="text/javascript" src="/_inc/js/fancybox/2.1/jquery.fancybox.min.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.nivo.slider-3.2.min.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.easyResponsiveTabs.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/js.js?dc=202010s2"></script>
+  <!-- finance -->
+  <script type="text/javascript" src="/inc/v-1/js/jquery.flot.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.flot.pie.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jshashtable.js"></script>
+  <script type="text/javascript" src="/inc/v-1/js/jquery.numberformatter-1.2.2.js"></script>
+  <!-- /finance -->
+
+
+
+  <script src="/inc/v-1/js/bicubicInterpolation.js"></script>
+  <script>
+      function detectIE() {
+        var ua = window.navigator.userAgent;
+
+        var msie = ua.indexOf('MSIE ');
+        if (msie > 0) {
+          // IE 10 or older => return version number
+          return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+        }
+
+        var trident = ua.indexOf('Trident/');
+        if (trident > 0) {
+          // IE 11 => return version number
+          var rv = ua.indexOf('rv:');
+          return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+        }
+
+        var edge = ua.indexOf('Edge/');
+        if (edge > 0) {
+          // Edge (IE 12+) => return version number
+          return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+        }
+
+        // other browser
+        return false;
+      }
+
+      $(function() {
+          var ie =  detectIE();
+          if ( ie >= 9 ) {
+              $('div#content img').each(function() {
+                  var s = $(this).attr('src');
+                  // s = s.replace(/\/__100\//i, '/__original/').replace(/\/__200\//i, '/__original/');
+                  // $(this).attr('src', s);
+                  if ( s.indexOf('/__800/') > 0 || s.indexOf('/__original/') > 0 ) {
+                      $(this).bicubicImgInterpolation({
+                          crossOrigin: 'anonymous' //otherwise browser security error is triggered
+                      })
+                  }
+              });
+              /*
+              $('div#content img').bicubicImgInterpolation({
+                  crossOrigin: 'anonymous' //otherwise browser security error is triggered
+              });
+              */
+          }
+      });
+  </script>
+
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1548882-2']);
+    _gaq.push(['_gat._anonymizeIp']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body class="ru front ru-front">
+    <div id="site" class="site">
+        <!-- top options -->
+        <div id="top-options">
+          <select class="language"><option value="">Р’С‹Р±СЂР°С‚СЊ СЃС‚СЂР°РЅСѓ</option><option value="https://www.krka.biz/sl/">Slovenia</option><option value="https://www.krka.biz/en/">Global - English</option><option value="https://www.krka.biz/at/">Austria</option><option value="https://www.krka.biz/by/">Belarus</option><option value="https://www.krka.biz/bn/">Belgium</option><option value="https://www.krka.biz/ba/">Bosnia and Herzegovina</option><option value="https://www.krka.biz/bg/">Bulgaria</option><option value="https://www.krka.biz/hr/">Croatia</option><option value="https://www.krka.biz/cz/">Czech Republic</option><option value="https://www.krka.biz/ee/">Estonia</option><option value="https://www.krka.biz/fi/">Finland</option><option value="https://www.krka.biz/fr/">France</option><option value="http://www.tad.de/de/">Germany</option><option value="https://www.krka.biz/hu/">Hungary</option><option value="https://www.krka.biz/ie/">Ireland</option><option value="https://www.krka.biz/it/">Italy</option><option value="https://www.krka.biz/lv/">Latvia</option><option value="https://www.krka.biz/lt/">Lithuania</option><option value="https://www.krka.biz/mk/">North Macedonia</option><option value="https://www.krka.biz/pl/">Poland</option><option value="https://www.krka.biz/pt/">Portugal</option><option value="https://www.krka.biz/ro/">Romania</option><option value="https://www.krka.biz/ru/">Russian Federation</option><option value="https://www.krka.biz/rs/">Serbia</option><option value="https://www.krka.biz/sk/">Slovakia</option><option value="https://www.krka.com.es/es/">Spain</option><option value="https://www.krka.biz/se/">Sweden</option><option value="https://www.krka.biz/uk/">United Kingdom</option><option value="https://www.krka.biz/ua/">Ukraine</option><select>
+            <ul><li><a href="/ru/krka-v-rossii/kontakty/">Р—Р°РґР°С‚СЊ РІРѕРїСЂРѕСЃ</a></li>
+<li><a href="/en/about-krka/krka-websites/">Р”Р»СЏ СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ</a></li>
+<li><a href="https://partners.extranet.krka.biz/">Р”Р»СЏ РїР°СЂС‚РЅРµСЂРѕРІ</a></li>
+
+            </ul>
+          
+        </div>
+        <!-- /top options -->
+        <!-- header -->
+        <div id="header">
+            <h2 class="logo"><a href="/ru/"><img src="/img/v-1/logo-krka.png" alt="Krka, d. d."></a></h2>
+            
+            <div class="search">
+                
+                <form method="get" action="/ru/poisk/" id="id-frmiskanje">
+                    <fieldset>
+                        <input type="text" size="20" id="search" name="q" value="" title="РџРѕРёСЃРє" />
+                        <button type="submit">РџРѕРёСЃРє</button>
+                    </fieldset>
+                </form>
+            </div>
+            
+        </div>
+        <!-- /header -->
+        <!-- navigation -->
+        <div id="main-navigation">
+          
+            <a class="x-nav"><span>&nbsp;</span></a>
+            <ul>
+<li class="active"><a href="/ru/">Р“Р»Р°РІРЅР°СЏ СЃС‚СЂР°РЅРёС†Р°</a></li>
+<li id="k-mnu-11"><a href="/ru/produktsiya-krka/">РџСЂРѕРґСѓРєС†РёСЏ РљР РљРђ</a></li>
+<li id="k-mnu-12"><a href="/ru/rabota-v-krka/">РљР°СЂСЊРµСЂР°</a></li>
+<li id="k-mnu-13"><a href="/ru/media-tsentr/">РњРµРґРёР°-С†РµРЅС‚СЂ</a></li>
+<li id="k-mnu-14"><a href="/ru/o-krke/">Рћ РљР РљРђ</a></li>
+<li id="k-mnu-15"><a href="/ru/krka-v-rossii/">РљР РљРђ РІ Р РѕСЃСЃРёРё</a></li>
+</ul>
+
+        </div>
+        
+        <!-- /navigation -->
+        <div class="cf banner-2019"><div class="wrap"><p>РљР РљРђ РІС…РѕРґРёС‚ РІ С‡РёСЃР»Рѕ РІРµРґСѓС‰РёС… С„Р°СЂРјР°С†РµРІС‚РёС‡РµСЃРєРёС… РєРѕРјРїР°РЅРёР№ вЂ“ РїСЂРѕРёР·РІРѕРґРёС‚РµР»РµР№ РґР¶РµРЅРµСЂРёРєРѕРІ РІ РјРёСЂРµ <br>РєР°Р¶РґС‹Р№ РґРµРЅСЊ РїСЂРµРїР°СЂР°С‚С‹ РєРѕРјРїР°РЅРёРё РљР РљРђ РїСЂРёРЅРёРјР°СЋС‚ 45 РјРёР»Р»РёРѕРЅРѕРІ РїР°С†РёРµРЅС‚РѕРІ РІ Р±РѕР»РµРµ С‡РµРј 70 СЃС‚СЂР°РЅР°С… РјРёСЂР° <br>РљР РљРђ РЅР°СЃС‡РёС‚С‹РІР°РµС‚  Р±РѕР»РµРµ 12 000 СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ</p><p><a class="btn" href="/ru/o-krke/">РџРѕРґСЂРѕР±РЅРµРµ</a></p></div></div>
+        <!-- content -->
+        <div id="body">
+        <div class="half">
+<div class="x-split">
+<div class="tab-r tab-content medications">
+<h2><span>РџСЂРѕРґСѓРєС†РёСЏ РљР РљРђ</span></h2>
+<ul class="resp-tabs-list tab home">
+<li id="tab-OTC">Р‘РµР·СЂРµС†РµРїС‚СѓСЂРЅР°СЏ <br />РїСЂРѕРґСѓРєС†РёСЏ</li>
+<li id="tab-RX">Р РµС†РµРїС‚СѓСЂРЅС‹Рµ <br />РїСЂРµРїР°СЂР°С‚С‹</li>
+<li id="tab-VET">Р’РµС‚РµСЂРёРЅР°СЂРЅР°СЏ <br />РїСЂРѕРґСѓРєС†РёСЏ</li>
+</ul>
+<div class="resp-tabs-container">
+<h2 class="resp-accordion" role="tab"></h2>
+<div>
+<div class="ic">
+<div class="photo"><a href="http://www.krka.ru/ru/produktsiya-krka/bezretsepturnyye-preparaty/fliebavien-r-500-mgh/12174/" target="_blank"><img src="/media/pic/ru/lekarstvennyye_sredstva/2017/__220/flebaven_thumb_home.png" alt="" /></a></div>
+<form method="post" action="/ru/produktsiya-krka/bezretsepturnyye-preparaty/">
+<fieldset>
+<select name="zdravila_OTC" id="id_kombo_zdravila_OTC">
+<option value="">РџРѕРёСЃРє РїРѕ Р°Р»С„Р°РІРёС‚Сѓ</option>
+<option value="bilobil-40-mg-kapsuly/1697/">Р‘РёР»РѕР±РёР»В® 40 РјРі, РєР°РїСЃСѓР»С‹ в„–60</option>
+<option value="bilobil-fortie-80-mg-kapsuly/1904/">Р‘РёР»РѕР±РёР»В® Р¤РѕСЂС‚Рµ 80 РјРі, РєР°РїСЃСѓР»С‹ в„–20, в„–60</option>
+<option value="ghierbion-piervotsviet/2017/">Р“РµСЂР±РёРѕРЅ СЃРёСЂРѕРї РїРµСЂРІРѕС†РІРµС‚Р°</option>
+<option value="ghierbion-plyusch/12548/">Р“РµСЂР±РёРѕРЅ СЃРёСЂРѕРї РїР»СЋС‰Р°</option>
+<option value="ghierbion-podorozhnik/2016/">Р“РµСЂР±РёРѕРЅ СЃРёСЂРѕРї РїРѕРґРѕСЂРѕР¶РЅРёРєР°</option>
+<option value="duovit-d-zh-30-60/2029/">Р”СѓРѕРІРёС‚ РґР»СЏ Р¶РµРЅС‰РёРЅВ *</option>
+<option value="duovit-d-m-30-60/2028/">Р”СѓРѕРІРёС‚ РґР»СЏ РјСѓР¶С‡РёРЅВ *</option>
+<option value="duovit-drazhie-40/2027/">Р”СѓРѕРІРёС‚ РґСЂР°Р¶Рµ  в„–40</option>
+<option value="kal-tsinova-tablietki-fruktovyie-zhievatiel-nyie/1907/">РљР°Р»СЊС†РёРЅРѕРІР°, С‚Р°Р±Р»РµС‚РєРё С„СЂСѓРєС‚РѕРІС‹Рµ, Р¶РµРІР°С‚РµР»СЊРЅС‹Рµ</option>
+<option value="kontrdiar/13826/">РљРѕРЅС‚СЂР”РёР°СЂ</option>
+<option value="kontrdiar-200mgh-5ml-90ml/14145/">РљРѕРЅС‚СЂР”РёР°СЂ 200РјРі/5РјР» 90РјР»</option>
+<option value="maghniesol/12777/">РњР°РіРЅРµСЃРѕР»</option>
+<option value="makrovit/2052/">РњР°РєСЂРѕРІРёС‚</option>
+<option value="nalghiezin/2040/">РќР°Р»РіРµР·РёРЅВ® С‚Р°Р±Р». 275 РјРі в„–10, в„–20</option>
+<option value="orsotien-r-slim-60-mgh-kapsuly/1989/">РћСЂСЃРѕС‚РµРЅВ® РЎР»РёРј, РєР°РїСЃСѓР»С‹, 60 РјРі</option>
+<option value="panatus-fortie/12549/">РџР°РЅР°С‚СѓСЃ С„РѕСЂС‚Рµ, СЃРёСЂРѕРї</option>
+<option value="panatus/12550/">РџР°РЅР°С‚СѓСЃ, С‚Р°Р±Р». 20 РјРі</option>
+<option value="panatus-forte-50mg/12551/">РџР°РЅР°С‚СѓСЃВ® С„РѕСЂС‚Рµ, С‚Р°Р±Р»РµС‚РєРё, РїРѕРєСЂС‹С‚С‹Рµ РїР»РµРЅРѕС‡РЅРѕР№ РѕР±РѕР»РѕС‡РєРѕР№, 50 РјРі</option>
+<option value="panzinorm-10000/2018/">РџР°РЅР·РёРЅРѕСЂРј 10000</option>
+<option value="panzinorm-20000/2019/">РџР°РЅР·РёРЅРѕСЂРј 20000</option>
+<option value="pikovit-d-30/2986/">РџРёРєРѕРІРёС‚ в„– 30</option>
+<option value="pikovit-plius-27/2025/">РџРёРєРѕРІРёС‚ РџР»СЋСЃ в„–27В *</option>
+<option value="pikovit-sirop-150-ml/2020/">РџРёРєРѕРІРёС‚ СЃРёСЂРѕРї 150 РјР»</option>
+<option value="pikovit-tabl-p-o-30-60-d/2023/">РџРёРєРѕРІРёС‚ С‚Р°Р±Р». Рї/Рѕ   в„–30, в„–60</option>
+<option value="pikovit-fortie-30/2026/">РџРёРєРѕРІРёС‚ Р¤РѕСЂС‚Рµ в„–30</option>
+<option value="pikovit-iunik/9303/">РџРёРєРѕРІРёС‚ Р®РЅРёРє в„–27, в„–54</option>
+<option value="rutatsid/2044/">Р СѓС‚Р°С†РёРґ</option>
+<option value="sieptanazal/10131/">РЎРµРїС‚Р°РќР°Р·Р°Р»В® РґР»СЏ РІР·СЂРѕСЃР»С‹С…</option>
+<option value="">РЎРµРїС‚Р°РќР°Р·Р°Р»В® РґР»СЏ РґРµС‚РµР№</option>
+<option value="sieptolietie-r-total-limon-i-buzina/13824/">РЎРµРїС‚РѕР»РµС‚РµВ® С‚РѕС‚Р°Р» Р›РёРјРѕРЅ Рё Р±СѓР·РёРЅР°</option>
+<option value="sieptolietie-r-total-limon-i-med/13825/">РЎРµРїС‚РѕР»РµС‚РµВ® С‚РѕС‚Р°Р» Р›РёРјРѕРЅ Рё РјРµРґ</option>
+<option value="sieptolietie-r-total-spriei/12643/">РЎРµРїС‚РѕР»РµС‚РµВ® С‚РѕС‚Р°Р» СЃРїСЂРµР№</option>
+<option value="sieptolietie-r-total/10130/">РЎРµРїС‚РѕР»РµС‚РµВ® С‚РѕС‚Р°Р» СЌРІРєР°Р»РёРїС‚</option>
+<option value="spazmoniet/2042/">РЎРїР°Р·РјРѕРЅРµС‚</option>
+<option value="spazmoniet-fortie/2043/">РЎРїР°Р·РјРѕРЅРµС‚ Р¤РѕСЂС‚Рµ</option>
+<option value="triovit-kapsuly-30/2053/">РўСЂРёРѕРІРёС‚, РєР°РїСЃСѓР»С‹ в„–30.</option>
+<option value="ul-kavis-tablietki-pokrytyie-plienochnoi-obolochkoi-120-mgh/10388/">РЈР»СЊРєР°РІРёСЃВ® С‚Р°Р±Р»РµС‚РєРё, РїРѕРєСЂС‹С‚С‹Рµ РїР»РµРЅРѕС‡РЅРѕР№ РѕР±РѕР»РѕС‡РєРѕР№, 120 РјРі в„–28, в„–64, в„–112</option>
+<option value="ul-top-r/2002/">РЈР»СЊС‚РѕРїВ®, РєР°РїСЃСѓР»С‹, 10 РјРі Рё 40 РјРі</option>
+<option value="fitoval-dlia-povriezhdiennykh-volos-shampun/2036/">Р¤РёС‚РѕРІР°Р» РґР»СЏ РїРѕРІСЂРµР¶РґРµРЅРЅС‹С… РІРѕР»РѕСЃ С€Р°РјРїСѓРЅСЊ</option>
+<option value="fitoval-kapsuly/2030/">Р¤РёС‚РѕРІР°Р» РєР°РїСЃСѓР»С‹ *</option>
+<option value="fitoval-protiv-vypadieniia-volos-los-on/2034/">Р¤РёС‚РѕРІР°Р» РїСЂРѕС‚РёРІ РІС‹РїР°РґРµРЅРёСЏ РІРѕР»РѕСЃ Р»РѕСЃСЊРѕРЅ</option>
+<option value="fitoval-protiv-vypadieniia-volos-shampun/2033/">Р¤РёС‚РѕРІР°Р» РїСЂРѕС‚РёРІ РІС‹РїР°РґРµРЅРёСЏ РІРѕР»РѕСЃ С€Р°РјРїСѓРЅСЊ</option>
+<option value="fitoval-protiv-pierkhoti-intiensivnyi-ukhod-shampun/2031/">Р¤РёС‚РѕРІР°Р» РїСЂРѕС‚РёРІ РїРµСЂС…РѕС‚Рё Р

@@ -1,0 +1,106 @@
+BODY,P,TD,TH,OL,UL,LI {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:10pt; color:#222222;}
+
+BODY {background-color:#FFFFFF; margin-top:10px; margin-bottom:5px; margin-left:10px; margin-right:10px;}
+
+HR {color:#999999;}
+
+blockquote {margin-top:1px; margin-bottom:1px;}
+
+H1,H2,H3,H4,H5,H6,.h1,.h2,.h3,.h4,.h5,.h6 {color:#042A90; background-color:transparent;}
+H1,H2,H3 {margin-top:12px; margin-bottom:12px;}
+H4,H5 {margin-top:12px; margin-bottom:4px;}
+H6 {margin-top:8px; margin-bottom:2px;}
+
+H1,H3,.h1,.h3 {font-family:Verdana,Helvetica,Arial,sans-serif;}
+H2,H4,H5,H6,.h2,.h4,.h5,.h6 {font-family:Arial,Helvetica,sans-serif; }
+
+H1,H2,H3 {text-align:center;}
+H4,H5,H6 {text-align:left;}
+
+H1,H2,.h1,.h2 {font-weight:normal;}
+H3,H4,H5,H6,.h3,.h4,.h5,.h6 {font-weight:bold;}
+
+H1,.h1 {font-size:16pt;}
+H2,.h2 {font-size:15pt; letter-spacing:1px;}
+H3,.h3 {font-size:13pt;}
+H4,.h4 {font-size:12pt;}
+H5,.h5 {font-size:11pt;}
+H6,.h6 {font-size:10pt; color:#333333;}
+
+H1,.h1 {font-family:Arial,Helvetica,sans-serif; font-weight:bold; font-size:16pt; letter-spacing:1px;}
+
+P {margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px;}
+
+P, LI {line-height:125%;}
+
+P.list {font-family:Arial,Sans-Serif; font-size:10pt; line-height:175%;}
+.list {font-family:Arial,Sans-Serif; font-size:10pt; line-height:175%;}
+
+.t8, .c8, .r8, .j8, small {font-size:8pt;}
+.r, .r8 {text-align:right;}
+.c, .c8 {text-align:center;}
+.l, .t8 {text-align:left;}
+.j, .aj, .j8 {text-align:justify;}
+.a, .aj {text-indent:30px;}
+.t9 {font-size:9pt;}
+
+P.t8, P.c8, P.r8, P.j8 {margin-top:3px;}
+
+font.s {font-family:Verdana,Helvetica,Sans-Serif; font-size:10pt; color:#042A90;}
+
+OL {margin-top:5px; margin-bottom:5px; margin-left:25px;}
+UL {margin-top:5px; margin-bottom:5px; margin-left:16px;}
+LI {margin-top:6px; margin-bottom:1px; margin-left:15px;}
+.nm {margin-top:2px;}
+LI.t8 {margin-left:10px;}
+UL.tab {margin-top:0px; margin-bottom:0px; margin-left:30px;}
+
+/* TD */
+
+.bkg {background-color:#FFFFFF;}
+.brd {background-color:#666666;}
+.red {color:#FF0000;}
+.note {color:#666666;}
+
+TD.border {background-color:#666666;}
+
+TD.cl,TD.cc,TD.cl8,TD.cc8 {background-color:#FFFFFF;}
+
+TD.cl8,TD.cc8 {font-family:Verdana,Helvetica,Arial,Sans-Serif; font-size:8pt;}
+
+TD.cl,TD.cl8 {text-align:left;}
+TD.cc,TD.cc8 {text-align:center;}
+TD.cj {text-align:justify;}
+
+TH {font-weight:normal; background-color:#DDDDDD;}
+TH.left {text-align:left;}
+
+A:link {color:#0000CC; text-decoration:none;}
+A:visited {color:#002FBF; text-decoration:none;}
+A:hover {color:#CC0000; text-decoration:underline;}
+
+.title {font-family:Verdana,Arial,Sans-Serif; font-size:16pt; color:#214A31; font-weight:bold; letter-spacing:1px; margin-top:-27px; margin-left:-5px; text-align:center; z-index:200}
+.shadow {font-family:Verdana,Arial,Sans-Serif; font-size:16pt; color:#DDDDDD; font-weight:bold; letter-spacing:1px; margin-top:1px; margin-left:1px; text-align:center; z-index:100}
+
+
+FORM {margin-top:1px; margin-bottom:1px;}
+
+#nav A, #nav A:hover {
+  width:100%;
+  padding:2px;
+  margin:0px;
+  display:block;
+  text-decoration:none;
+  text-align:center;
+}
+
+#nav A {
+  background:none;
+  border:	1px solid #EEEEEE;
+}
+
+#nav A:hover {
+  color:#FF0000;
+  background:#EEEEEE;
+  border: 1px solid #999999;
+}

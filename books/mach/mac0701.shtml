@@ -1,0 +1,870 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content-Language" content="ru">
+<meta http-equiv="Creation-Date" content="2004-05-06">
+<meta http-equiv="Last-Update" content="2004-05-24">
+<meta http-equiv="Page URL" content="http://www.antibiotic.ru/books/mach/mac0701.shtml">
+<title>Применение антимикробных препаратов у пациентов с почечной недостаточностью / Современная антимикробная химиотерапия (руководство для врачей)</title>
+<meta name="description" content="Л.С. Страчунский, С.Н. Козлов. Современная антимикробная химиотерапия (руководство для врачей). Применение антимикробных препаратов у пациентов с почечной недостаточностью">
+<meta name="keywords" content="антимикробные препараты, почечная недостаточность, антимикробная химиотерапия">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="author" content="ANTIBIOTIC.ru">
+<meta name="copyright" content="Copyright (c) 2000-2004 ANTIBIOTIC.ru">
+<link rel="SHORTCUT ICON" type="image/x-icon" href="favicon.ico">
+<link rel="Home" href="../../index.htm">
+<link rel="Index" href="index.shtml">
+<link rel="Help" href="intro.shtml">
+<link rel="Copyright" href="../../copyright.php.html">
+<link rel="StyleSheet" type="text/css" href="inc/style.css">
+<style type="text/css"> @import url("inc/ie.css"); </style>
+<script type="text/javascript" language="JavaScript" src="inc/nn.js"></script>
+</head>
+
+<body>
+<center><div style="max-width:700px; width:700px;" align="left">
+<h3><div class="shadow">СОВРЕМЕННАЯ АНТИМИКРОБНАЯ ХИМИОТЕРАПИЯ</div>
+<div class="title">СОВРЕМЕННАЯ АНТИМИКРОБНАЯ ХИМИОТЕРАПИЯ</div></h3>
+<h4 class="c">Л.С. Страчунский, С.Н. Козлов. Руководство для врачей</h4>
+
+<!--navigation-->
+<hr size="2" noshade="">
+<table border="0" cellpadding="0" cellspacing="1" align="center"><tr>
+<td width="100"><div id="nav"><a href="index.shtml" title="Содержание книги">Содержание</a></div></td>
+<td>&nbsp;</td>
+<td width="25"><div id="nav"><a href="mac0101.shtml" title="Антибактериальные препараты. Бета-лактамные антибиотики. Пенициллины">1</a></div></td>
+<td width="25"><div id="nav"><a href="mac0201.shtml" title="Противотуберкулёзные препараты">2</a></div></td>
+<td width="25"><div id="nav"><a href="mac0301.shtml" title="Противогрибковые препараты">3</a></div></td>
+<td width="25"><div id="nav"><a href="mac0401.shtml" title="Противовирусные препараты">4</a></div></td>
+<td width="25"><div id="nav"><a href="mac0501.shtml" title="Противопаразитарные препараты">5</a></div></td>
+<td width="25"><div id="nav"><a href="mac0601.shtml" title="Аллергические реакции на антибиотики">6</a></div></td>
+<td width="25"><div id="nav"><a href="mac0701.shtml" title="Применение антимикробных препаратов у пациентов с почечной недостаточностью">7</a></div></td>
+<td width="25"><div id="nav"><a href="mac0801.shtml" title="Применение антимикробных препаратов при беременности и грудном вскармливании">8</a></div></td>
+<td width="25"><div id="nav"><a href="mac0901.shtml" title="Выбор антимикробных препаратов при различных инфекциях">9</a></div></td>
+<td width="25"><div id="nav"><a href="mac1001.shtml" title="Профилактическое применение антимикробных препаратов">10</a></div></td>
+<td>&nbsp;</td>
+<td width="25"><div id="nav"><a href="macpr1.shtml" title="Приложение 1. Дозирование антимикробных препаратов у новорожденных детей">11</a></div></td>
+<td width="25"><div id="nav"><a href="macpr2.shtml" title="Приложение 2. Синонимы антимикробных лекарственных средств">12</a></div></td>
+<td width="25"><div id="nav"><a href="abbr.shtml" title="Используемые сокращения">13</a></div></td>
+<td>&nbsp;</td>
+<td width="100"><div id="nav"><a href="../../index.htm" title="Сайт «Антибиотики и антимикробная терапия»">ANTIBIOTIC.ru</a></div></td>
+</tr></table>
+<hr size="1" noshade="">
+<!--/navigation-->
+
+<br>
+<h1>ПРИМЕНЕНИЕ АНТИМИКРОБНЫХ ПРЕПАРАТОВ<br> У ПАЦИЕНТОВ С ПОЧЕЧНОЙ НЕДОСТАТОЧНОСТЬЮ</h1>
+
+<p class="j">Большинство антимикробных препаратов частично или полностью выделяется через почки. Поэтому у пациентов с нарушенной функцией почек режимы их дозирования (дозу и/или интервалы между введениями) необходимо корректировать. В&nbsp;противном случае увеличивается Т<sub>1/2</sub> препаратов, причем иногда значительно, что ведет к их кумуляции в организме и повышению риска развития токсических эффектов. Исключение составляют препараты, для которых характерен преимущественно внепочечный путь выведения из организма. Они не кумулируются у пациентов с почечной недостаточностью и, следовательно, могут назначаться им в обычных дозах (<a href="#t24">табл.&nbsp;24</a>).</p>
+
+<p class="j">Как известно, одной из основных функциональных характеристик почек является клубочковая фильтрация, которую можно оценивать путём расчета клиренса креатинина. Существуют различные способы определения клиренса креатинина исходя из концентрации креатинина в сыворотке крови и моче. Разработаны специальные формулы, по которым с учетом массы тела, возраста и пола пациента можно рассчитать клиренс креатинина у взрослых пациентов.</p>
+
+<a name="t24"></a><br>
+<table border="0" cellpadding="0" cellspacing="0" align="center"><tr><td>
+<h5>Таблица 24. Антимикробные препараты, применяемые при почечной<br> недостаточности в обычных дозах</h5>
+
+<table class="brd" cellpadding="5" cellspacing="1" border="0" width="550">
+<tr class="bkg"><td class="c" colspan="2"><b>Антибактериальные</b></td></tr>
+<tr class="bkg" valign="top">
+  <td width="50%">Азитромицин<br> Бензатин бензилпенициллин<br> Бензилпенициллин прокаин<br> Джозамицин<br> Доксициклин<br> Клиндамицин<br> Линезолид<br> Метронидазол<br> Мидекамицин<br> Мидекамицина ацетат<br> Оксациллин<br> Орнидазол<br> Пефлоксацин<br> Рифампицин</td>
+  <td>Рокситромицин<br> Спектиномицин<br> Спирамицин<br> Тинидазол<br> Феноксиметилпенициллин<br> Фузидиевая кислота<br> Фуразолидон<br> Хлорамфеникол<br> Цефаклор<br> Цефоперазон<br> Цефтриаксон<br> Эритромицин</td>
+</tr>
+<tr class="bkg"><td class="c" colspan="2"><b>Противотуберкулёзные</b></td></tr>
+<tr class="bkg" valign="top">
+  <td>Пиразинамид</td>
+  <td>Рифабутин</td>
+</tr>
+<tr class="bkg"><td class="c" colspan="2"><b>Противогрибковые</b></td></tr>
+<tr class="bkg" valign="top">
+  <td>Гризеофульвин<br> Итраконазол<br> Кетоконазол</td>
+  <td>Леворин<br> Нистатин</td>
+</tr>
+<tr class="bkg"><td class="c" colspan="2"><b>Противопротозойные</b></td></tr>
+<tr class="bkg" valign="top">
+  <td>Мефлохин<br> Пириметамин</td>
+  <td>Хинин</td>
+</tr>
+<tr class="bkg"><td class="c" colspan="2"><b>Противогельминтные</b></td></tr>
+<tr class="bkg" valign="top">
+  <td>Албендазол<br> Левамизол</td>
+  <td>Мебендазол<br> Празиквантель</td>
+</tr>
+</table>
+</td></tr></table><br>
+
+<p class="j">Наиболее известными и фактически общепризнанными являются формулы Кокрофта и Голта (Cockcroft&nbsp;D.W., Gault&nbsp;M.H., 1976). Для расчета клиренса креатинина по этим формулам необходимо знать только один биохимический параметр - креатинин сыворотки крови, определение которого возможно в любой лаборатории. С учетом того, что в России принято выражать содержание креатинина сыворотки в мкмоль/л, ниже приводятся модифицированные варианты этих формул:</p>
+
+<h6>ДЛЯ МУЖЧИН:</h6>
+
+<table border="0" cellspacing="0" cellpadding="4"><tr>
+	<td>клиренс креатинина =</td>
+	<td class="c">[140 - возраст (лет)] &times; масса тела (кг)<br><hr style="color:#222222;" noshade="" size="1">креатинин сыворотки (мкмоль/л) &times; 0,8</td>
+</tr></table>
+
+<h6>ДЛЯ ЖЕНЩИН:</h6>
+
+<table border="0" cellspacing="0" cellpadding="4"><tr>
+	<td>клиренс креатинина =</td>
+	<td class="c">[140 - возраст (лет)] &times; масса тела (кг)<br><hr style="color:#222222;" noshade="" size="1">креатинин сыворотки (мкмоль/л) &times; 0,8</td>
+	<td>&times; 0,85</td>
+</tr></table>
+
+<p class="j">Данные формулы применимы для взрослых пациентов с любой массой тела (нормальная, сниженная, избыточная), но <i>при ожирении вместо фактической следует использовать долженствующую массу тела</i>. В повседневной клинической практике иногда можно обходиться без расчета клиренса креатинина, используя метод его ориентировочной оценки (<a href="#t25">табл.&nbsp;25</a>).</p>
+
+<a name="t25"></a><br>
+<table border="0" cellpadding="0" cellspacing="0" align="center"><tr><td>
+<h5>Таблица 25. Ориентировочное определение клиренса креатинина</h5>
+<p class="t8">(По Amsden G.W., Schentag J.J., 2000)</p>
+
+<table class="brd" cellpadding="5" cellspacing="1" border="0" width="550">
+<tr class="bkg">
+  <th colspan="2">Концентрация креатинина в сыворотке</th>
+  <th rowspan="2">Клиренс креатинина, мл/мин</th>
+</tr>
+<tr class="bkg">
+  <th>мг%</th>
+  <th>мкмоль/л</th>
+</tr>
+<tr class="bkg">
+  <td class="c">&lt;2</td>
+  <td class="c">&lt;177</td>
+  <td class="c">&gt;40</td>
+</tr>
+<tr class="bkg">
+  <td class="c">2-4</td>
+  <td class="c">177-354</td>
+  <td class="c">20-40</td>
+</tr>
+<tr class="bkg">
+  <td class="c">4-8</td>
+  <td class="c">354-707</td>
+  <td class="c">10-20</td>
+</tr>
+</table>
+</td></tr></table><br>
+
+<p>Для расчета клиренса креатинина <font class="h6"><b>у детей</b></font> используется формула Шварца (Schwarz&nbsp;G.L. и соавт., 1976):</p>
+
+<table border="0" cellspacing="0" cellpadding="4"><tr>
+	<td>клиренс креатинина =</td>
+	<td class="c">длина тела (см)<br><hr style="color:#222222;" noshade="" size="1">креатинин сыворотки (мкмоль/л) &times; 0,0113</td>
+	<td>&times; <b>k</b></td>
+</tr></table>
+<br>
+<p>где <b>k</b> - возрастной коэффициент пересчета:</p>
+<ul>
+  <li>0,33 - недоношенные новорожденные до 2 лет; </li>
+  <li>0,45 - доношенные новорожденные до 2 лет; </li>
+  <li>0,55 - дети 2-14 лет; </li>
+  <li>0,55 - девочки старше 14 лет; </li>
+  <li>0,70 - мальчики старше 14 лет.</li>
+</ul>
+
+<p class="j">Исходя из степени почечной недостаточности и ее влияния на экскрецию ЛС все антимикробные препараты можно разделить на 3 группы:</p>
+
+<p class="j">I.&nbsp;Препараты, которые применяются в обычной дозе (<a href="#t24">табл.&nbsp;24</a>).</p>
+
+<p class="j">II.&nbsp;Препараты, противопоказанные при почечной недостаточности. Они экскретируются с мочой в активной форме и характеризуются особо выраженной кумуляцией при нарушении функции почек (<a href="#t26">табл.&nbsp;26</a>).</p>
+
+<p class="j">III.&nbsp;Препараты, режимы дозирования которых изменяются в зависимости от степени почечной недостаточности (табл.&nbsp;<a href="#t27">27</a>,&nbsp;<a href="#t28">28</a>).</p>
+
+<a name="t26"></a><br>
+<table border="0" cellpadding="0" cellspacing="0" align="center"><tr><td>
+<h5>Таблица 26. Антимикробные препараты, противопоказанные<br> при почечной недостаточности</h5>
+
+<table class="brd" cellpadding="10" cellspacing="1" border="0" width="550">
+<tr class="bkg"><td>
+<p>Нитрофурантоин</p>
+<p>Озельтамивир<font class="red">*</font></p>
+<p>Производные 8-оксихинолина</p>
+<p>Сульфаниламиды и ко-тримоксазол<font class="red">*</font></p>
+<p>Тетрациклин</p>
+<p>Нефторированные хинолоны</p>
+</td></tr></table>
+
+<p class="t8"><font class="red">*</font> При клиренсе креатинина &lt; 10 мл/мин.</p>
+</td></tr></table><br>
+
+<p class="j">Как уже отмечалось выше, при назначении аминогликозидных антибиотиков (гентамицин и&nbsp;др.), обладающих потенциальным ототоксическим и нефротоксическим действием, желательно проводить мониторинг концентрации этих препаратов в крови. Поэтому на изменение режима дозирования аминогликозидов у пациентов с почечной недостаточностью необходимо обратить особое внимание. Один из способов коррекции доз аминогликозидов уже был рассмотрен (см. главу &laquo;<a href="mac0108.shtml">Аминогликозиды</a>&raquo;). Другие возможные приемы представлены в <a href="#t27">табл.&nbsp;27</a>.</p>
+
+<p class="j">Рекомендации по дозированию других антимикробных препаратов в зависимости от функции почек приведены в <a href="#t28">табл.&nbsp;28</a>.</p>
+
+<a name="t27"></a><br>
+<h5>Таблица 27. Дозирование аминогликозидов при почечной недостаточности</h5>
+<p class="t8">(По Gilbert D.N. и соавт., 2000)</p>
+
+<table class="brd" cellpadding="5" cellspacing="1" border="0" width="100%">
+<tr class="bkg">
+  <th colspan="5"><b>Традиционный режим введения аминогликозидов</b></th>
+</tr>
+<tr class="bkg">
+  <th rowspan="2">Препарат</th>
+  <th class="c8" rowspan="2">T<sub>1/2</sub> (ч) норма/ПН<font class="red">*</font></th>
+  <th colspan="3">Клиренс креатинина,&nbsp;мл/мин</th>
+</tr>
+<tr class="bkg">
+  <th>&lt; 50</th>
+  <th>10-20</th>
+  <th>&gt; 10</th>
+</tr>
+<tr class="bkg">
+  <td class="t8">Амикацин</td>
+  <td class="c8">1,4-2,3/17-150</td>
+  <td class="c8">60-90% каждые 12&nbsp;ч</td>
+  <td class="c8">30-70% каждые 12-18&nbsp;ч</td>
+  <td class="c8">20-30% каждые 24-48&nbsp;ч</td>
+</tr>
+<tr class="bkg">
+  <td class="t8">Гентамицин</td>
+  <td class="c8">2-3/20-60</td>
+  <td class="c8">60-90% каждые 12&nbsp;ч</td>
+  <td class="c8">30-70% каждые 12&nbsp;ч</td>
+  <td class="c8">20-30% каждые 24-48&nbsp;ч</td>
+</tr>
+<tr class="bkg">
+  <td class="t8">Тобрамицин</td>
+  <td class="c8">2-3/20-60</td>
+  <td class="c8">60-90% каждые 12&nbsp;ч</td>
+  <td class="c8">30-70% каждые 12&nbsp;ч</td>
+  <td class="c8">20-30% каждые 24-48&nbsp;ч</td>
+</tr>
+<tr class="bkg">
+  <td class="t8">Нетилмицин</td>
+  <td class="c8">2-3/35-72</td>
+  <td class="c8">50-90% каждые 12&nbsp;ч</td>
+  <td class="c8">20-60% каждые 12&nbsp;ч</td>
+  <td class="c8">10-20% каждые 12&nbsp;ч</td>
+</tr>
+<tr class="bkg">
+  <td class="t8">Стрептомицин</td>
+  <td class="c8">2-3/30-80</td>
+  <td class="c8">50% каждые 24&nbsp;ч</td>
+  <td class="c8">50% каждые 24-72&nbsp;ч</td>
+  <td class="c8">50% каждые 72-96&nbsp;ч</td>
+</tr>
+</table>
+
+<table class="brd" cellpadding="5" cellspacing="1" border="0" width="100%">
+<tr class="bkg">
+  <th colspan="8"><b>Однократное введение аминогликозидов</b></th>
+</tr>
+<tr class="bkg">
+  <th class="c8" width="15%">Клиренс креатинина, мл/мин</th>
+  <th width="13%">&gt; 80</th>
+  <th width="12%">60-80</th>
+  <th width="12%">40-60</th>
+  <th width="12%">30-40</th>
+  <th width="12%">20-30</th>
+  <th width="12%">10-20</th>
+  <th width="12%">&lt; 10</th>
+</tr>
+<tr class="bkg">
+  <th width="15%">Препарат</th>
+  <th width="49%" colspan="4">Одна доза каждые 24&nbsp;ч,&nbsp;мг/кг</th>
+  <th width="36%" colspan="3">Одна доза каждые 48&nbsp;ч,&nbsp;мг/кг</th>
+</tr>
+<tr class="bkg">
+  <td class="t8">Гентамицин<br>Тобрамицин</td>
+  <td class="c">5,1</td>
+  <td class="c">4,0</td>
+  <td class="c">3,5</td>
+  <td class="c">2,5</td>
+  <td class="c">4,0</td>
+  <td class="c">3,0</td>
+  <td class="c">2,0</td>
+</tr>
+<tr class="bkg">
+  <td class="t8">Амикацин<br>Стрептомицин</td>
+  <td class="c">15,0</td>
+  <td class="c">12,0</td>
+  <td class="c">7,5</td>
+  <td class="c">4,0</td>
+  <td class="c">7,5</td>
+  <td class="c">4,0</td>
+  <td class="c">3,0</td>
+</tr>
+<tr class="bkg">
+  <td class="t8">Нетилмицин</td>
+  <td class="c">6,5</td>
+  <td class="c">5,0</td>
+  <td class="c">4,0</td>
+  <td class="c">2,0</td>
+  <td class="c">3,0</td>
+  <td class="c">2,5</td>
+  <td class="c">2,0</td>
+</tr>
+</table>
+<p class="t8"><font class="red">*</font> ПН - почечная недостаточность.</p><br>
+
+<a name="t28"></a><br>
+<h5>Таблица 28. Дозы антимикробных препаратов при почечной недостаточности</h5>
+<p class="t8">(По Kampf D., 2000; Gilbert D.N. и соавт., 2000; Bartlett J.B., 2000)</p>
+
+<table class="brd" cellpadding="5" cellspacing="1" border="0" width="100%">
+<tr class="bkg">
+  <th rowspan="3">Препарат</th>
+  <th rowspan="3">Разовая доза, г</th>
+  <th colspan="4">Интервал между введениями, ч (дозы)</th>
+</tr>
+<tr class="bkg">
+  <th colspan="4">Клиренс креатинина,&nbsp;мл/мин</th>
+</tr>
+<tr class="bkg">
+  <th>&gt; 80</th>
+  <th>80-50</th>
+  <th>50-10</th>
+  <th>&lt; 10</th>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Пенициллины</b></td>
+</tr>
+<tr class="bkg">
+  <td>Азлоциллин</td>
+  <td class="c">2,0-4,0</td>
+  <td class="c">4-6</td>
+  <td class="c">4-6</td>
+  <td class="c">8</td>
+  <td class="c">12</td>
+</tr>
+<tr class="bkg">
+  <td>Амоксициллин</td>
+  <td class="c">0,25-0,5</td>
+  <td class="c">8</td>
+  <td class="c">8</td>
+  <td class="c">8-12</td>
+  <td class="c">12-24</td>
+</tr>
+<tr class="bkg">
+  <td>Амоксициллин/<br>клавуланат</td>
+  <td class="c">0,25-0,5</td>
+  <td class="c">8</td>
+  <td class="c">8</td>
+  <td class="c">12</td>
+  <td class="c">12-24</td>
+</tr>
+<tr class="bkg">
+  <td>Ампициллин</td>
+  <td class="c">0,5-2,0</td>
+  <td class="c">4-6</td>
+  <td class="c">4-6</td>
+  <td class="c">8</td>
+  <td class="c">12</td>
+</tr>
+<tr class="bkg">
+  <td>Ампициллин/<br>сульбактам</td>
+  <td class="c">0,75-3,0</td>
+  <td class="c">6-8</td>
+  <td class="c">6-8</td>
+  <td class="c">8-12</td>
+  <td class="c">24</td>
+</tr>
+<tr class="bkg">
+  <td>Бензилпенициллин</td>
+  <td class="c">1-4&nbsp;млн ЕД</td>
+  <td class="c">4-6</td>
+  <td class="c">4-6</td>
+  <td class="c">4-6</td>
+  <td class="c">4-6<br>(0,5-2,0&nbsp;млн ЕД)</td>
+</tr>
+<tr class="bkg">
+  <td>Пиперациллин</td>
+  <td class="c">3,0-4,0</td>
+  <td class="c">4-6</td>
+  <td class="c">4-6</td>
+  <td class="c">8</td>
+  <td class="c">12</td>
+</tr>
+<tr class="bkg">
+  <td>Пиперациллин/<br>тазобактам</td>
+  <td class="c">2,5-4,5</td>
+  <td class="c">6-8</td>
+  <td class="c">6-8</td>
+  <td class="c">8</td>
+  <td class="c">8-12</td>
+</tr>
+<tr class="bkg">
+  <td>Тикарциллин/<br>клавуланат</td>
+  <td class="c">3,2-5,2</td>
+  <td class="c">6-8</td>
+  <td class="c">6-8</td>
+  <td class="c">8-12 (3,2&nbsp;г)</td>
+  <td class="c">12 (1,6&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Пероральные цефалоспорины</b></td>
+</tr>
+<tr class="bkg">
+  <td>Цефадроксил</td>
+  <td class="c">0,5-1,0</td>
+  <td class="c">12-24</td>
+  <td class="c">12-24</td>
+  <td class="c">12-24 (0,5&nbsp;г)</td>
+  <td class="c">36 (0,5&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td>Цефалексин</td>
+  <td class="c">0,25-1,0</td>
+  <td class="c">6</td>
+  <td class="c">6</td>
+  <td class="c">8-12</td>
+  <td class="c">24-48</td>
+</tr>
+<tr class="bkg">
+  <td>Цефиксим</td>
+  <td class="c">0,4</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">24 (0,3&nbsp;г)</td>
+  <td class="c">48</td>
+</tr>
+<tr class="bkg">
+  <td>Цефтибутен</td>
+  <td class="c">0,4</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">48</td>
+  <td class="c">48-96 (0,2-0,4&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td>Цефуроксим аксетил</td>
+  <td class="c">0,125-0,5</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">24 (0,25&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Парентеральные цефалоспорины</b></td>
+</tr>
+<tr class="bkg">
+  <td>Цефазолин</td>
+  <td class="c">0,5-2,0</td>
+  <td class="c">8</td>
+  <td class="c">8</td>
+  <td class="c">8-12 (0,5-1,0&nbsp;г)</td>
+  <td class="c">12-24 (0,5-1,0&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td>Цефепим</td>
+  <td class="c">1,0-2,0</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">24</td>
+  <td class="c">48</td>
+</tr>
+<tr class="bkg">
+  <td>Цефоперазон/<br>сульбактам</td>
+  <td class="c">1,0-2,0</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">12 (1,0&nbsp;г)<font class="red">*</font></td>
+  <td class="c">12 (0,5&nbsp;г)<font class="red">**</font></td>
+</tr>
+<tr class="bkg">
+  <td>Цефотаксим</td>
+  <td class="c">0,5-2,0</td>
+  <td class="c">8-12</td>
+  <td class="c">8-12</td>
+  <td class="c">12-24</td>
+  <td class="c">24</td>
+</tr>
+<tr class="bkg">
+  <td>Цефтазидим</td>
+  <td class="c">1,0-2,0</td>
+  <td class="c">8-12</td>
+  <td class="c">8-12</td>
+  <td class="c">12-24</td>
+  <td class="c">24-48</td>
+</tr>
+<tr class="bkg">
+  <td>Цефуроксим</td>
+  <td class="c">0,75-1,5</td>
+  <td class="c">8</td>
+  <td class="c">8</td>
+  <td class="c">8-12</td>
+  <td class="c">24 (0,75&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Монобактамы</b></td>
+</tr>
+<tr class="bkg">
+  <td>Азтреонам</td>
+  <td class="c">1,0-2,0</td>
+  <td class="c">6</td>
+  <td class="c">8-12</td>
+  <td class="c">12-24</td>
+  <td class="c">24</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Карбапенемы</b></td>
+</tr>
+<tr class="bkg">
+  <td>Имипенем</td>
+  <td class="c">0,5-1,0</td>
+  <td class="c">6-8</td>
+  <td class="c">6-8 (0,5&nbsp;г)</td>
+  <td class="c">8-12 (0,5&nbsp;г)</td>
+  <td class="c">12 (0,5&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td>Меропенем</td>
+  <td class="c">0,5-1,0</td>
+  <td class="c">8</td>
+  <td class="c">8</td>
+  <td class="c">12</td>
+  <td class="c">24</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Макролиды</b></td>
+</tr>
+<tr class="bkg">
+  <td>Кларитромицин</td>
+  <td class="c">0,25-0,5</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">12-24</td>
+  <td class="c">24</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Линкосамиды</b></td>
+</tr>
+<tr class="bkg">
+  <td>Линкомицин, внутрь</td>
+  <td class="c">0,5</td>
+  <td class="c">6-8</td>
+  <td class="c">6-8</td>
+  <td class="c">8-12</td>
+  <td class="c">12 (0,25)</td>
+</tr>
+<tr class="bkg">
+  <td>Линкомицин, парентерально</td>
+  <td class="c">0,6-1,2</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">12 (0,2-0,4)</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Фторхинолоны</b></td>
+</tr>
+<tr class="bkg">
+  <td>Левофлоксацин, внутрь</td>
+  <td class="c">0,25-0,5</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">24 (0,25&nbsp;г)</td>
+  <td class="c">24 (0,125&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td>Левофлоксацин, в/в</td>
+  <td class="c">0,5</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">24 (0,25&nbsp;г)</td>
+  <td class="c">24 (0,125&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td>Ломефлоксацин</td>
+  <td class="c">0,4</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">24 (0,2)</td>
+  <td class="c">Нет данных</td>
+</tr>
+<tr class="bkg">
+  <td>Моксифлоксацин</td>
+  <td class="c">0,4</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">24<font class="red">***</font></td>
+  <td class="c">Нет данных</td>
+</tr>
+<tr class="bkg">
+  <td>Норфлоксацин</td>
+  <td class="c">0,4</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+</tr>
+<tr class="bkg">
+  <td>Офлоксацин</td>
+  <td class="c">0,2-0,4</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">24</td>
+  <td class="c">24 (0,1-0,2&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td>Ципрофлоксацин, внутрь</td>
+  <td class="c">0,25-0,75</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">12 (0,25&nbsp;г)</td>
+  <td class="c">24</td>
+</tr>
+<tr class="bkg">
+  <td>Ципрофлоксацин, в/в</td>
+  <td class="c">0,2-0,4</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">12 (0,25&nbsp;г)</td>
+  <td class="c">24</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Гликопептиды</b></td>
+</tr>
+<tr class="bkg">
+  <td>Ванкомицин</td>
+  <td class="c">1,0</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">24-96</td>
+  <td class="c">4-7 сут</td>
+</tr>
+<tr class="bkg">
+  <td>Тейкопланин</td>
+  <td class="c">0,4</td>
+  <td class="c">24</td>
+  <td class="c">48</td>
+  <td class="c">48</td>
+  <td class="c">72</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Сульфаниламиды/триметоприм</b></td>
+</tr>
+<tr class="bkg">
+  <td>Ко-тримоксазол<font class="red">****</font></td>
+  <td class="c">2-5&nbsp;мг/кг</td>
+  <td class="c">6-12</td>
+  <td class="c">18</td>
+  <td class="c">24</td>
+  <td class="c">Не применяют</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Полимиксины</b></td>
+</tr>
+<tr class="bkg">
+  <td>Полимиксин В</td>
+  <td class="c">1,0-1,5&nbsp;мг/кг</td>
+  <td class="c">12</td>
+  <td class="c">24</td>
+  <td class="c">48-72</td>
+  <td class="c">5 сут</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Противотуберкулёзные препараты</b></td>
+</tr>
+<tr class="bkg">
+  <td>Изониазид</td>
+  <td class="c">0,3</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">24 (0,15&nbsp;г)</td>
+  <td class="c">24</td>
+</tr>
+<tr class="bkg">
+  <td>Капреомицин</td>
+  <td class="c">1,0</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">24-48 (7,5&nbsp;мг/кг)</td>
+  <td class="c">72 (7,5&nbsp;мг/кг)</td>
+</tr>
+<tr class="bkg">
+  <td>Этамбутол</td>
+  <td class="c">15-25&nbsp;мг/кг</td>
+  <td class="c">24</td>
+  <td class="c">24 (15&nbsp;мг/кг)</td>
+  <td class="c">24-36 (15&nbsp;мг/кг)</td>
+  <td class="c">48 (15&nbsp;мг/кг)</td>
+</tr>
+<tr class="bkg">
+  <td>Этионамид</td>
+  <td class="c">0,5-1,0&nbsp;г/сут<br>(в&nbsp;1-3&nbsp;приёма)</td>
+  <td class="c">Обычная доза</td>
+  <td class="c">Обычная доза</td>
+  <td class="c">Обычная доза</td>
+  <td class="c">48 (5&nbsp;мг/кг)</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Противогрибковые препараты</b></td>
+</tr>
+<tr class="bkg">
+  <td>Амфотерицин В</td>
+  <td class="c">0,03-0,07</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">24-36</td>
+</tr>
+<tr class="bkg">
+  <td>Флуконазол</td>
+  <td class="c">0,2-0,4</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">24 (0,2&nbsp;г)</td>
+  <td class="c">48 (0,2&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td>Флуцитозин</td>
+  <td class="c">2,5</td>
+  <td class="c">6</td>
+  <td class="c">6</td>
+  <td class="c">24</td>
+  <td class="c">48 (2,0&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Противовирусные препараты</b></td>
+</tr>
+<tr class="bkg">
+  <td>Ацикловир</td>
+  <td class="c">5-10&nbsp;мг/кг</td>
+  <td class="c">8</td>
+  <td class="c">8</td>
+  <td class="c">12 (5-7,5&nbsp;мг/кг)</td>
+  <td class="c">24 (5-7,5&nbsp;мг/кг)</td>
+</tr> 
+<tr class="bkg">
+  <td>Валацикловир</td>
+  <td class="c">1,0</td>
+  <td class="c">8</td>
+  <td class="c">8</td>
+  <td class="c">12-24</td>
+  <td class="c">24 (0,5&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td>Ганцикловир</td>
+  <td class="c">5&nbsp;мг/кг</td>
+  <td class="c">12</td>
+  <td class="c">12-24</td>
+  <td class="c">24 (3&nbsp;мг/кг)</td>
+  <td class="c">24 (1,5&nbsp;мг/кг)</td>
+</tr>
+<tr class="bkg">
+  <td>Занамивир</td>
+  <td class="c">0,01</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">Нет данных</td>
+  <td class="c">Нет данных</td>
+</tr>
+<tr class="bkg">
+  <td>Ламивудин</td>
+  <td class="c">0,15</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">24 (0,1-0,15&nbsp;г)</td>
+  <td class="c">24 (0,025-0,05&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td>Озельтамивир</td>
+  <td class="c">0,075-0,15</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">24 (0,075&nbsp;г)</td>
+  <td class="c">Не применяют</td>
+</tr>
+<tr class="bkg">
+  <td>Римантадин</td>
+  <td class="c">0,1</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">24</td>
+</tr>
+<tr class="bkg">
+  <td>Фамцикловир</td>
+  <td class="c">0,5</td>
+  <td class="c">8</td>
+  <td class="c">8</td>
+  <td class="c">12-48 (0,25-0,5&nbsp;г)</td>
+  <td class="c">48 (0,25&nbsp;г)</td>
+</tr>
+<tr class="bkg">
+  <td>Фоскарнет</td>
+  <td class="c">60&nbsp;мг/кг</td>
+  <td class="c">8</td>
+  <td class="c">8-12</td>
+  <td class="c">12 (30&nbsp;мг/кг)</td>
+  <td class="c">24 (30&nbsp;мг/кг)</td>
+</tr>
+<tr class="bkg">
+  <td class="c" colspan="6"><b>Противопротозойные</b></td>
+</tr>
+<tr class="bkg">
+  <td>Атовахон</td>
+  <td class="c">0,5-0,75</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">12</td>
+  <td class="c">Нет данных</td>
+</tr>
+<tr class="bkg">
+  <td>Дапсон</td>
+  <td class="c">0,05-0,1</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">Нет данных</td>
+</tr>
+<tr class="bkg">
+  <td>Пентамидин</td>
+  <td class="c">4&nbsp;мг/кг</td>
+  <td class="c">24</td>
+  <td class="c">24</td>
+  <td class="c">24-36</td>
+  <td class="c">48</td>
+</tr>
+<tr class="bkg">
+  <td>Хинакрин</td>
+  <td class="c">0,1</td>
+  <td class="c">8</td>
+  <td class="c">8</td>
+  <td class="c">Нет данных</td>
+  <td class="c">Нет данных</td>
+</tr>
+<tr class="bkg">
+  <td>Хлорохин</td>
+  <td class="c">0,5</td>
+  <td class="c">12-24</td>
+  <td class="c">12-24</td>
+  <td class="c">12-24</td>
+  <td class="c">12-24 (0,25&nbsp;г)</td>
+</tr>
+</table>
+
+<a name="t28*"></a>
+<p class="t8"><font class="red">*</font> При клиренсе креатинина 30-15&nbsp;мл/мин</p>
+<p class="t8"><font class="red">**</font> При клиренсе креатинина &lt; 15&nbsp;мл/мин</p>
+<p class="t8"><font class="red">***</font> Нет данных о применении при клиренсе креатинина &lt;30&nbsp;мл/мин</p>
+<p class="t8"><font class="red">****</font> Ко-тримоксазол дозируется по триметоприму (внутривенное введение)</p>
+<br>
+
+<br><hr size="1" noshade="">
+<!--counters-->
+<table border="0" cellpadding="0" cellspacing="1" width="100%"><tr>
+<td align="left"><p class="t8"><a target="_blank" href="../../copyright.php.html" title="Положение о защите авторских прав">Copyright</a> &copy; 2000-2007 <a href="http://www.antibiotic.ru/" target="_blank" title="Антибиотики и антимикробная терапия">ANTIBIOTIC.ru</a></p>
+<p class="t8">Размещено: 15.05.2004</p></td>
+<td align="right" class="r8">
+<!--Rambler-1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../top100.cnt.gif?335834" alt="" width="1" height="1" border="0"></a><!--/Rambler--><!--RAX-1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';'+Math.random()+
+'" border="0" width="1" height="1" alt="">')
+//--></script><!--/RAX-->
+<!--RAX--><a target="_blank" href="../../stat/antibiotic.ru/index.htm"><img src="../../images/banners/rax.gif" border="0" width="31" height="31" alt="RAX.ru"></a><!--/RAX-->
+<!--Mail.ru--><a target="_blank" href="http://top.mail.ru/jump?from=96637"><img src="../../counter-1.gif?id=96637;t=58" border="0" height="31" width="88" alt="Рейтинг@Mail.ru"></a><!--/Mail.ru--> <!-- t=55 -->
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../images/banners/rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+<!--RMS--><a href="../../index-19.htm" target="_blank"><img src="../../images/banners/rusmedserv.gif" width="88" height="31" border="0" alt="Каталог медицинских ресурсов"></a><!--/RMS-->
+</td>
+</tr></table>
+<!--/counters-->
+<hr size="1" noshade="">
+<p class="t8"><font class="note">Адрес этой страницы: http://www.antibiotic.ru/books/mach/mac0701.shtml </font></p>
+<p class="t8"><font class="note">Дата последнего изменения: 24.05.2004 19:36 </font></p>
+</div></center>
+</body>
+</html>

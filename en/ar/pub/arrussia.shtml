@@ -1,0 +1,709 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Antimicrobial resistance in Russia</title>
+<meta name="description" content="Antimicrobial resistance in Russia">
+<meta name="keywords" content="antimicrobial resistance, community pathogens, Streptococcus pneumoniae, Streptococcus pyogenes, Haemophilus influenzae, Neisseria gonorrhoeae, Escherichia coli, Shigella spp., Salmonella spp., Mycobacterium tuberculosis, nosocomial pathogens, Staphylococcus aureus, Enterococcus spp., Enterobacteriaceae, Pseudomonas aeruginosa">
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript"> <!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/en/inc/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../inc/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 10px; margin-left: 10px; text-align: justify;}
+LI {margin-top: 8px; margin-left: 15px; text-align: justify;}
+H4 {margin-left: 10px;}
+</style>
+</head>
+
+<body class="main">
+
+<table width="750" cellpadding="0" border="0" cellspacing="5">
+<tr>
+  <th width="150" valign="top">
+
+  <table border="0" cellpadding="5" cellspacing="0" width="100%">
+    <tr><td>
+<p class="m10"><b>Antimicrobial Resistance</b></p>
+<hr size="1" style="color: #D0C0AC;">
+<p class="m8"><a href="../index.shtml#rus">Antimicrobial Resistance in Russia</a></p>
+<p class="m8"><a href="../index.shtml#pub">Publications</a></p>
+<p class="m8"><a href="../links.shtml">References</a></p>
+
+    </td></tr>
+  </table>
+  
+
+  </th><td valign="top">
+<!--navigation-->
+<map name="TopBtnEn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Previous page" title="Previous page">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Next page" title="Next page">
+<area shape="circle" coords="77,15,15" href="../../index-1.htm" alt="Main page" title="Main page">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="E-Mail" title="E-Mail">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../../rus/images/buttons/topline.gif);" width="98%" height="32"><img src="../../../rus/images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../../rus/images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Navigation" usemap="#TopBtnEn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+
+<h1>Antimicrobial resistance in Russia</h1>
+<hr size="1">
+
+<p><b>Community Pathogens</b></p>
+
+<blockquote>
+<a href="#streptopneumo"><i>Streptococcus pneumoniae</i></a><br>
+<a href="#streptopyo"><i>Streptococcus pyogenes</i></a><br>
+<a href="#haemophilus"><i>Haemophilus influenzae</i></a><br>
+<a href="#neisseria"><i>Neisseria gonorrhoeae</i></a><br>
+<a href="#escherichia"><i>Escherichia coli</i></a><br>
+<a href="#shigella"><i>Shigella</i> spp.</a><br>
+<a href="#salmonella"><i>Salmonella</i> spp.</a><br>
+</blockquote>
+<p><a href="#mycobact"><i>Mycobacterium tuberculosis</i></a></p>
+
+<p><b>Nosocomial Pathogens</b></p>
+<blockquote>
+<a href="#saureus"><i>Staphylococcus aureus</i></a><br>
+<a href="#enterococcus"><i>Enterococcus</i> spp.</a><br>
+<a href="#enterobact"><i>Enterobacteriaceae</i></a><br>
+<a href="#paeruginosa"><i>Pseudomonas aeruginosa</i></a><br>
+</blockquote>
+<hr size="1">
+
+<a name="intro"></a>
+<p>For the recent years, the antimicrobial resistance of nosocomial and community-acquired pathogens considerably increased all over the world. Talking about the rise of antimicrobial resistance it is necessary to take into consideration a level of the problem: whether it is global, regional or a local one.</p>
+
+<p>Above all, it is important to comprehend global tendencies in emerging of resistance. For instance, this is appearance and spread of strains of the methicillin-resistant <i>S.aureus</i>, penicillin-resistant <i>S.pneumoniae</i> and ESBL-producing <i>K.pneumoniae.</i></p>
+
+<p>However, antimicrobial resistance is not a total phenomenon involving all bacteria and drugs. <i>S.pyogenes</i> and <i>T.pallidum</i> are always susceptible to <font face="Symbol">b</font>-lactams and <i>H.influenzae</i> &#150; to III generation cephalosporins.</p>
+
+<p>In spite of great importance of global tendencies in antimicrobial resistance, it is crucial to rely on local data obtained from a particular country (i.e. regional data) for design and implementation of antibiotic policy.</p>
+
+<p>Levels of resistance vary considerably in different regions of Russian Federation. Thereupon the significance of territorial resistance monitoring and applying its results into clinical practice is beyond any doubts.</p>
+
+<p>In Russia, antimicrobial susceptibility testing (AST) faces many problems and the main is the absence of standardized testing methods. The only existing official recommendation &quot;Notification of procedures of AST by disc diffusing method&quot; published by the USSR Ministry of Health, in 1983 neither describes the methods of AST of fastidious microorganisms (<i>S.pneumoniae, H.influenzae, N.gonorrhoeae</i>) nor includes any interpretation criteria for modern, currently used antibiotics (cephalosporins, fluoroquinolones, carbapenems). Moreover, the expertise showed that recommended AGV medium was not suitable for AST for a number of antibiotics (e.g. antifolates).</p>
+
+<p>Thus, the substantial susceptibility data obtained in bacteriological laboratories cannot be estimated and analyzed. As well as one should carefully consider publications that do not have the information about AST methods and interpretation criteria used in the study.</p>
+
+<p>This chapter contains results of studies conducted accordingly to internationally recognized NCCLS standards. For proper perception and considering relevant clinical practice, discussed microorganisms are divided into community-acquired and nosocomial pathogens.</p>
+
+<a name="streptopneumo"></a><br><br>
+<h2>Community-acquired pathogens</h2>
+
+<h4><i>Streptococcus pneumoniae</i></h4>
+
+<p>The last decade was noted for emergence and prevalence of penicillin-resistant pneumococci and strains resistant to macrolides, chloramphenicol and tetracycline have been registered in a number of countries. In some regions resistance to macrolides prevails over the resistance to penicillin. Among healthy children in day-care clinics in Moscow, Smolensk and Yartsevo about 7.5% nasopharyngeal pneumococci had intermediate resistance to penicillin (MIC 0,12-1 mg/l). At the same time, no strains with high level of resistance (MIC &gt;&nbsp;2&nbsp;mg/l) were found.</p>
+
+<p>All strains with intermediate resistance to penicillin were susceptible to amoxicillin/clavulanate. Resistance to macrolides was 4.6%. The highest rate of resistance (56.8%) was due to co-trimoxazole.</p>
+
+<p>By preliminary data from multicenter study &quot;PeGAS-1&quot;, the number of strains with intermediate resistance to penicillin was 9% and less than 1% of strains with MIC &gt;&nbsp;2&nbsp;mg/l were found. The resistance rate to erythromycin was 3.6%.</p>
+
+<p>For the time being, the resistance of <i>S.pneumoniae</i> to tetracycline (64.9%) and co-trimoxazole (62.2%) is the most important problem.</p>
+
+<a name="streptopyo"></a><br><br>
+<h4><i>Streptococcus pyogenes</i></h4>
+
+<p><font face="Symbol">b</font>-haemolythic group&nbsp;A streptococci possess universe susceptibility to <font face="Symbol">b</font>-lactams. Issue of the day is the macrolide resistance that exceeds 30% in some countries. Resistance to macrolides in Russia seems to be 12.6% (<a href="#t1">Table&nbsp;1</a>). The major clinical problem is the resistance to tetracyclines that in Russia exceeds 60%.</p>
+
+<a name="t1"></a><br>
+<p><b>Table 1.</b> Susceptibility of <i>S.pyogenes</i> to antimicrobials (Smolensk, 1997)</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr>
+	<th>Antibiotic</th>
+	<th>S,&nbsp;%</th>
+	<th>IR,&nbsp;%</th>
+	<th>R,&nbsp;%</th>
+	<th>MIC<sub>90</sub></th>
+	<th>MIC&nbsp;Range, mg/L</th>
+</tr>
+<tr>
+	<td class="cl">Penicillin</td>
+	<td class="cc">100.0</td>
+	<td class="cc">0.0</td>
+	<td class="cc">0</td>
+	<td class="cc">0.016</td>
+	<td class="cc">0.012-0.032</td>
+</tr>
+<tr>
+	<td class="cl">Amoxicillin</td>
+	<td class="cc">100.0</td>
+	<td class="cc">0.0</td>
+	<td class="cc">0</td>
+	<td class="cc">0.023</td>
+	<td class="cc">0.016-0.032</td>
+</tr>
+<tr>
+	<td class="cl">Cefuroxime</td>
+	<td class="cc">100.0</td>
+	<td class="cc">0.0</td>
+	<td class="cc">0</td>
+	<td class="cc">0.023</td>
+	<td class="cc">0.016-0.125</td>
+</tr>
+<tr>
+	<td class="cl">Tetracycline</td>
+	<td class="cc">38.8</td>
+	<td class="cc">1.0</td>
+	<td class="cc">60.2</td>
+	<td class="cc">128</td>
+	<td class="cc">0.125-256</td>
+</tr>
+<tr>
+	<td class="cl">Erythromycin</td>
+	<td class="cc">87.4</td>
+	<td class="cc">2.9</td>
+	<td class="cc">9.7</td>
+	<td class="cc">0.75</td>
+	<td class="cc">0.016-3</td>
+</tr>
+<tr>
+	<td class="cl">Clindamycin</td>
+	<td class="cc">98.1</td>
+	<td class="cc">1.9</td>
+	<td class="cc">0.0</td>
+	<td class="cc">0.125</td>
+	<td class="cc">0.047-0.38</td>
+</tr>
+</table>
+</td></tr></table>
+
+<a name="haemophilus"></a><br><br>
+<h4><i>Haemophilus influenzae</i></h4>
+
+<p>The main mechanism of <i>H.influenzae</i> resistance to aminopenicillins (ampicillin and amoxicillin) is the production of plasmid mediated <font face="Symbol">b</font>-lactamases. </p>
+
+<p>According to data from Moscow, Yartsevo and Smolensk (<a href="#t2">Table&nbsp;2</a>) production of <font face="Symbol">b</font>-lactamases does not present a serious problem. The resistance of <i>H.influenzae</i> to co-trimoxazole is the most troublesome &#150; 20.3%.</p>
+
+<a name="t2"></a><br>
+<p><b>Table 2.</b> Susceptibility of <i>H.influenzae</i> to antimicrobials (1998)</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr>
+	<th>Antibiotic</th>
+	<th>S,&nbsp;%</th>
+	<th>IR,&nbsp;%</th>
+	<th>R,&nbsp;%</th>
+	<th>MIC<sub>90</sub></th>
+	<th>MIC&nbsp;Range, mg/L</th>
+</tr>
+<tr>
+	<td class="cl">Ampicillin</td>
+	<td class="cc">97.7</td>
+	<td class="cc">1.3</td>
+	<td class="cc">1.0</td>
+	<td class="cc">0.38</td>
+	<td class="cc">0.016-128</td>
+</tr>
+<tr>
+	<td class="cl">Amoxicillin/clavulanate</td>
+	<td class="cc">99.3</td>
+	<td class="cc">0</td>
+	<td class="cc">0.7</td>
+	<td class="cc">1</td>
+	<td class="cc">0.016-8</td>
+</tr>
+<tr>
+	<td class="cl">Cefaclor</td>
+	<td class="cc">97.7</td>
+	<td class="cc">1.3</td>
+	<td class="cc">1</td>
+	<td class="cc">3</td>
+	<td class="cc">0.25-32</td>
+</tr>
+<tr>
+	<td class="cl">Erythromycin</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">&#150;</td>
+	<td class="cc">8</td>
+	<td class="cc">1-16</td>
+</tr>
+<tr>
+	<td class="cl">Co-trimoxazole</td>
+	<td class="cc">79.1</td>
+	<td class="cc">0.6</td>
+	<td class="cc">20.3</td>
+	<td class="cc">32</td>
+	<td class="cc">0.016-32</td>
+</tr>
+</table>
+</td></tr></table>
+
+<a name="neisseria"></a><br><br>
+<h4><i>Neisseria gonorrhoeae</i></h4>
+
+<p>The AST of gonococci is a complex issue that demands special media and any reliable data concerning <i>N.gonorrhoeae</i> resistance are not available in Russia.</p>
+
+<p>In pilot survey (Smolensk, 1999) the rate of penicillin resistance strains of <i>N.gonorrhoeae</i> were 77.9%, and 96.1% to doxicycline. About 1.3% of strains were intermediately resistant to ciprofloxacin. No strains resistant to ceftriaxone were found.</p>
+
+<a name="escherichia"></a><br><br>
+<h4><i>Escherichia coli</i></h4>
+
+<p><i>E.coli</i> is the most frequent pathogen that causes community-acquired urinary tract infections. In 1998 the multicenter study of resistance of gram-negative pathogens of urinary tract infections in out-patient women was conducted in Moscow, Smolensk and Novosibirsk (<a href="#p1">Pict.&nbsp;1</a>)</p>
+
+<a name="p1"></a><br>
+<p><b>Picture 1.</b> Resistance of <i>E.coli</i> to antibiotics in Russia (1998)</p>
+<p><font size="1"><img src="images/arrus01.gif" width="620" height="310" border="0" alt="Picture 1. Resistance of E.coli to antibiotics in Russia (1998)"></font></p>
+<p class="t8"><b>Abbreviations:</b><br>
+AMP &#150; ampicillin; GEN &#150; gentamicin; SXT &#150; co-trimoxazole; FUR &#150; nitrofurantoin; <br>NAL &#150; nalidixic acid; NOR &#150; norfloxacin; CIP &#150; ciprofloxacin.</p>
+
+<p>The highest rates of resistance were observed to ampicillin (33.3%) and co-trimoxazole (18.4%). The lowest resistance was to fluoroquinolones, norfloxacin (2.6%) and ciprofloxacin (2.6%).</p>
+
+<a name="shigella"></a><br><br>
+<h4><i>Shigella flexneri</i> and <i>Shigella sonnei</i></h4>
+
+<p>Antimicrobial susceptibility testing was perfomed for <i>Shigella</i> spp. isolated in Smolensk during 1998-1999. Almost all of the <i>S.flexneri</i> strains isolated in 1998 were resistant to ampicillin (95%), ampicillin-sulbactam (95%), co-trimoxazole (98%), cloramphenicol (98%) and tetracycline (98%). Isolated in the same survey <i>S.sonnei</i> possessed lower resistance to ampicillin (7%), however resistance to other antimicrobials did not differ significantly. The resistance to co-trimoxazole was 100%, chloramphenicol &#150; 72% and tetracycline &#150; 93%. All strains of <i>Shigella</i> spp. were susceptible to nalidixic acid and ciprofloxacin. Results of AST of shigellae isolated in 1999 in Moscow and Smolensk are presented in the <a href="#t3">Table&nbsp;3</a>.</p>
+
+<a name="t3"></a><br>
+<p><b>Table 3.</b> Resistance (%) of <i>Shigella</i> spp. to antimicrobials (Smolensk, Moscow, 1999)</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr>
+	<th>Microorganism</th>
+	<th>AMP</th>
+	<th>AMS</th>
+	<th>SXT</th>
+	<th>CHL</th>
+	<th>TET</th>
+	<th>NAL</th>
+	<th>CIP</th>
+</tr>
+<tr>
+	<td class="cl"><i>S.flexneri</i></td>
+	<td class="cc">95.7</td>
+	<td class="cc">94.6</td>
+	<td class="cc">97.9</td>
+	<td class="cc">92.5</td>
+	<td class="cc">98.9</td>
+	<td class="cc">1.1</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl"><i>S.sonnei</i></td>
+	<td class="cc">34.7</td>
+	<td class="cc">34.7</td>
+	<td class="cc">95.1</td>
+	<td class="cc">38.6</td>
+	<td class="cc">93.1</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p class="t8"><b>Abbreviations:</b><br>
+AMP &#150; ampicillin, AMS &#150; ampicillin/sulbactam, SXT &#150; co-trimoxazole, 
+CHL &#150; chloramphenicol, TET &#150; tetracycline,<br>NAL &#150; nalidixic acid, CIP &#150; ciprofloxacin</p>
+
+<p>As it is seen in <a href="#t3">Table&nbsp;3</a>, there were no considerable changes in resistance rates of <i>S.flexneri</i> with the exception to increased resistance of <i>S.sonnei</i> to ampicillin and ampicilin/sulbactam &#150; from 7% in 1998 up to 35% in 1999.</p>
+
+<p>Data on resistance of shigellae in Ekaterinburg presented in <a href="#t4">Table&nbsp;4</a> also show that <i>S.sonnei</i> was lower resistant to penicillin and tetracycline as compared to <i>S.flexneri</i>. The exception is co-trimoxazole because of resistance of <i>S.sonnei</i> to it. The particular interest presents ciprofloxacin resistance of shigellae.</p>
+
+<a name="t4"></a><br>
+<p><b>Table&nbsp;4.</b> Resistance (%) of <i>Shigella</i> spp. to antimicrobials (Ekaterinburg, 1999)</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table cellpadding="5" cellspacing="1" border="0" width="100%">
+<tr>
+	<th>Microorganism</th>
+	<th>AMP</th>
+	<th>AMS</th>
+	<th>SXT</th>
+	<th>CRO</th>
+	<th>TET</th>
+	<th>CIP</th>
+</tr>
+<tr>
+	<td class="cl"><i>S.flexneri</i></td>
+	<td class="cc">98.1</td>
+	<td class="cc">98.1</td>
+	<td class="cc">73.6</td>
+	<td class="cc">0</td>
+	<td class="cc">91,8</td>
+	<td class="cc">3.8</td>
+</tr>
+<tr>
+	<td class="cl"><i>S.sonnei</i></td>
+	<td class="cc">7.3</td>
+	<td class="cc">7.3</td>
+	<td class="cc">97.6</td>
+	<td class="cc">0</td>
+	<td class="cc">66.7</td>
+	<td class="cc">4.9</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p class="t8"><b>Abbreviations:</b><br>
+AMP &#150; ampicillin, AMS &#150; ampicillin/sulbactam, SXT &#150; co-trimoxazole, 
+CRO &#150; ceftriaxone,<br>TET &#150; tetracycline, CIP &#150; ciprofloxacin.</p>
+
+<a name="salmonella"></a><br><br>
+<h4><i>Salmonella</i> spp.</h4>
+
+<p>As shown in <a href="#t5">Table&nbsp;5</a>, resistance of <i>Salmonella</i> spp. remains comparatively low with no strains resistant to cefotaxime, ciprofloxacin and co-trimoxazole.</p>
+
+<p>The highest resistance was observed to tetracycline (10.5%) and chloramphenicol (9.5%).</p>
+
+<a name="t5"></a><br>
+<p><b>Table&nbsp;5.</b> Resistance (%) <i>Salmonella</i> spp. to antibiotics (Smolensk, 1999)</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table cellpadding="5" cellspacing="1" border="0" width="100%">
+<tr>
+	<th>Microorganism</th>
+	<th>AMP</th>
+	<th>AMS</th>
+	<th>FTX</th>
+	<th>NAL</th>
+	<th>CIP</th>
+	<th>CHL</th>
+	<th>TET</th>
+	<th>SXT</th>
+</tr>
+<tr>
+	<td class="cl"><i>S.enteritidis</i></td>
+	<td class="cc">2.7</td>
+	<td class="cc">2.7</td>
+	<td class="cc">0</td>
+	<td class="cc">2.7</td>
+	<td class="cc">0</td>
+	<td class="cc">6.7</td>
+	<td class="cc">4</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl"><i>Salmonella</i> spp.</td>
+	<td class="cc">6.3</td>
+	<td class="cc">6.3</td>
+	<td class="cc">0</td>
+	<td class="cc">3.2</td>
+	<td class="cc">0</td>
+	<td class="cc">9.5</td>
+	<td class="cc">10.5</td>
+	<td class="cc">0</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p class="t8"><b>Abbreviations:</b><br>
+AMP &#150; ampicillin, AMS &#150; ampicillin/sulbactam, FTX &#150; cefotaxime, NAL &#150; nalidixic acid,<br>CIP &#150; ciprofloxacin, CHL &#150; chloramphenicol, TET &#150; tetracycline, SXT &#150; co-trimoxazole.</p>
+
+<p>The presented data do not reveal the complete situation with antimicrobial resistance in Russia, yet. In 1996 in St-Petersburg clinical and environmental strains of <i>S.typhimurium</i> resistant to cefotaxime were found. In 1999 in Ekaterinburg 16.7% Salmonella strains were resistant to ampicillin and ampicillin/sulbactam, 13.8% &#150; to tetracycline and 6.1% to co-trimoxazole. All examined strains were susceptible to fluoroquinolones. Moreover, one clinical strain manifested resistance to III generation cephalosporins and susceptibility to flouroquinolones and co-trimoxazole.</p>
+
+<a name="mycobact"></a><br><br>
+<h4><i>Mycobacterium tuberculosis</i></h4>
+
+<p>One of the leading reasons of failure of tuberculosis therapy is increased frequency of multi-drug resistant <i>Mycobacterium tuberculosis</i>, i.e. strains resistant at least to isoniazide and rifampicin.</p>
+
+<p>In 1991-1994 in nine regions of North-Western Russia (Komi Republic, Pskov, Novgorod, Saint-Petersburg and Leningrad region, Karelia, Vologda, Arkhangel'sk, Murmansk) frequency of <i>M.tuberculosis</i> primary resistant to one or more antimycobacterial drugs increased from 17% to 24%. The rate of secondary resistance did not significantly changed and was about 50%.</p>
+
+<p>In Leningrad region in 1992-1994 primary resistance was 29.2%, isolation frequency of multiresistance strains reached 5.1% without significant variations during whole survey period. Secondary resistance of extra-pulmonary isolates in 1989-1994 was 45.6% as compared to 69.5% in respiratory isolates.</p>
+
+<p>The spread of secondary multidrug resistant respiratory strains increased significantly and made 33% as compared to 69.5% in extra-pulmonary isolates.</p>
+
+<p>In Ivanovsk region primary multidrug resistance in 1998 was 3,8%. According to data of survey in Tomsk (1995-1996) primary resistance in mycobacteria reached 27.7%, multidrug resistance &#150; 3.4%.</p>
+
+<p>The survey has shown the marked tendency in growth of multidrug-resistance among <i>M.tuberculosis</i> during last years as a whole and especially to two basic drugs &#150; isoniasid and rifampin.</p>
+
+<a name="saureus"></a><br><br>
+<h2>Nosocomial pathogens</h2>
+
+<h4><i>S.aureus</i> and coagulase-negative staphylococci (CNS)</h4>
+
+<p>In multicenter survey of staphylococci susceptibility in Moscow and St-Petersburg (1998), considerable differences in emerging of MRSA in some hospitals were revealed. The resistance to oxacillin was more frequent in CNS (0-65,9%) than among <i>S.aureus</i> (0-40%). Generally in Moscow the isolation of MRSA was 33,4% and 4,1% in St-Petersburg.</p>
+
+<p>All staphylococci resistant to oxacillin were susceptible to vancomycin and 95%, 84% and 70% of MRSA were susceptible to fusidic acid, rifampin and ciprofloxacin, respectively (as compared with 80%, 85% и 61% for CNS respectively).</p>
+
+<a name="enterococcus"></a><br><br>
+<h4><i>Enterococcus</i> spp.</h4>
+
+<p>Sixteen percent of <i>E.faecalis</i> strains resistant to ampicillin were revealed in survey conducted in Moscow and St-Petersburg, and considerable variations of resistance frequency were observed among hospitals. Level of aminoglycoside resistance to strepromycin was 44% and and 25% to gentamicin. Neither intermediate nor resistant strains were observed to vancomycin. Unlike to <i>E.faecalis</i> 75% strains of <i>E.faecium</i> were resistant to ampicillin, when its susceptibility to other antimicrobials didn't differ noticeably.</p>
+
+<p>With epidemiological purpose susceptibility testing of enterococci strains isolated from of premature new-born feces were conducted. Results of antimicrobial activity <i>in&nbsp;vitro</i> are presented in <a href="#t6">Table&nbsp;6</a>.</p>
+
+<a name="t6"></a><br>
+<p><b>Table&nbsp;6.</b> Resistance (%) of <i>Enterococcus</i> spp. to antimicorbials (Smolensk)</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table cellpadding="5" cellspacing="1" border="0" width="100%">
+<tr>
+	<th>Antibiotic</th>
+	<th><i>E.faecalis</i> (N=33)</th>
+	<th><i>E.faecium</i> (N=61)</th>
+</tr>
+<tr>
+	<td class="cl">Ampicillin</td>
+	<td class="cc">3</td>
+	<td class="cc">77</td>
+</tr>
+<tr>
+	<td class="cl">Gentamicin</td>
+	<td class="cc">0</td>
+	<td class="cc">64</td>
+</tr>
+<tr>
+	<td class="cl">Streptomyicin</td>
+	<td class="cc">3</td>
+	<td class="cc">56</td>
+</tr>
+<tr>
+	<td class="cl">Vancomycin</td>
+	<td class="cc">&nbsp;&nbsp; 9 *</td>
+	<td class="cc">&nbsp;&nbsp; 10 *</td>
+</tr>
+<tr>
+	<td class="cl">Chloramphenicol</td>
+	<td class="cc">39</td>
+	<td class="cc">54</td>
+</tr>
+<tr>
+	<td class="cl">Rifampicin</td>
+	<td class="cc">88</td>
+	<td class="cc">93</td>
+</tr>
+<tr>
+	<td class="cl">Quinupristin/dalfopristin</td>
+	<td class="cc">15</td>
+	<td class="cc">3</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p class="t8">* Intermediate resistant strains</p>
+
+<p>Generally, <i>E.faecium</i> demonstrated higher resistance rate to tested antimicrobials with the exception of vancomycin, its activity was equal to all enterococci, and quinopristin/dalfopristin (3% resistant of <i>E.faecium</i> against 15% of <i>E.faecalis</i>). Only 3% of <i>E.faecalis</i> were resistant to ampicillin unlike 77% of <i>E.faecium</i>. Majority of <i>E.faecium</i> strains showed high level of resistance to aminoglycosides (64% to gentamicin and 56% to streptomycin).</p>
+
+<a name="enterobact"></a><br><br>
+<h4><i>Enterobacteriaceae</i></h4>
+
+<p>The resistance of <i>Enterobacteriaceae</i> varies widely among hospitals, which presents the reflection of the antibiotic policy. Data on antimicrobial resistance of most gram(-) nosocomial pathogens were obtained in multiceneter NPRS-1997 survey. The centers that participated in the study were Moscow, St-Petersburg, Smolensk, Krasnodar, Kazan, Nizhnij Novgorod, Ekaterinburg, Novosibirsk, Krasnoyarsk). The results are presented in <a href="#t7">Table&nbsp;7</a>.</p>
+
+<a name="t7"></a><br>
+<p><b>Table&nbsp;7.</b> Resistance to antimicrobials (%) of gram-negative bacteria isolated in ICUs in Russia (NPRS-1997)</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table cellpadding="5" cellspacing="1" border="0" width="100%">
+<tr>
+	<th>Antibiotic</th>
+	<th><i>E.coli</i></th>
+	<th><i>K.pneumoniae</i></th>
+	<th><i>P.mirabilis</i></th>
+	<th><i>Enterobacter</i> spp.</th>
+	<th><i>Acinetobacter</i> spp.</th>
+</tr>
+<tr>
+	<td class="cl">Piperacillin</td>
+	<td class="cc">44</td>
+	<td class="cc">85</td>
+ 	<td class="cc">59</td>
+  <td class="cc">70</td>
+	<td class="cc">88</td>
+</tr>
+<tr>
+	<td class="cl">Piperacillin/tazobactam</td>
+	<td class="cc">11</td>
+	<td class="cc">51</td>
+ 	<td class="cc">22</td>
+  <td class="cc">63</td>
+	<td class="cc">82</td>
+</tr>
+<tr>
+	<td class="cl">Amoxicillin/clavulanate</td>
+	<td class="cc">27</td>
+	<td class="cc">52</td>
+ 	<td class="cc">20</td>
+  <td class="cc">88</td>
+	<td class="cc">73</td>
+</tr>
+<tr>
+	<td class="cl">Cefuroxime</td>
+	<td class="cc">19</td>
+	<td class="cc">52</td>
+ 	<td class="cc">32</td>
+  <td class="cc">82</td>
+	<td class="cc">96</td>
+</tr>
+<tr>
+	<td class="cl">Cefotaxime</td>
+	<td class="cc">6</td>
+	<td class="cc">32</td>
+ 	<td class="cc">20</td>
+  <td class="cc">60</td>
+	<td class="cc">88</td>
+</tr>
+<tr>
+	<td class="cl">Ceftriaxone</td>
+	<td class="cc">5</td>
+	<td class="cc">33</td>
+ 	<td class="cc">17</td>
+  <td class="cc">57</td>
+	<td class="cc">94</td>
+</tr>
+<tr>
+	<td class="cl">Ceftazidime</td>
+	<td class="cc">3</td>
+	<td class="cc">26</td>
+ 	<td class="cc">1</td>
+  <td class="cc">56</td>
+	<td class="cc">78</td>
+</tr>
+<tr>
+	<td class="cl">Imipenem</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+ 	<td class="cc">0</td>
+  <td class="cc">0</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Gentamicin</td>
+	<td class="cc">13</td>
+	<td class="cc">58</td>
+ 	<td class="cc">56</td>
+  <td class="cc">42</td>
+	<td class="cc">91</td>
+</tr>
+<tr>
+	<td class="cl">Amikacin</td>
+	<td class="cc">1</td>
+	<td class="cc">0</td>
+ 	<td class="cc">1</td>
+  <td class="cc">4</td>
+	<td class="cc">7</td>
+</tr>
+<tr>
+	<td class="cl">Ciprofloxacin</td>
+	<td class="cc">1</td>
+	<td class="cc">2</td>
+ 	<td class="cc">5</td>
+  <td class="cc">5</td>
+	<td class="cc">53</td>
+</tr>
+<tr>
+	<td class="cl">Co-trimoxazole</td>
+	<td class="cc">27</td>
+	<td class="cc">51</td>
+ 	<td class="cc">62</td>
+  <td class="cc">12</td>
+	<td class="cc">88</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p>Resistance to piperacillin varies from 44% for <i>E.coli</i> to 88% for <i>Acinetobacter</i> spp, to piperacillin/tazobactam from 11% for <i>E.coli</i> to 82% for <i>Acinetobacter</i> spp. High resistance of <i>K.pneumoniae</i> to III generation cephalosporins (26-33%) is due to ESBL-producing and <i>Enterobacter</i> spp. (56-60%).</p>
+
+<p>It is necessary to notice high frequency of resistance to gentamicin, which varies from 13% for <i>E.coli</i> up to 91% for <i>Acinetobacter</i> spp. The lowest resistance was observed to ciprofloxacin, amikacin and imipenem.</p>
+
+<p>In &quot;Micromax&quot; survey (<a href="#t8">Table&nbsp;8</a>) conducted in 1998 in 8 hospitals of Moscow, Smolensk, Ekaterinburg, low resistance of <i>E.coli</i> and <i>Proteus</i> spp to <font face="Symbol">b</font>-lactams was noticed with slight differences among participating centers. At the same time <i>Klebsiella</i> spp showed high resistance to III generation of cephalosporins (average 40% to ceftiaxone and 31% to ceftazidime). Resistance to cefepime was almost two times lower &#150; 16%.</p>
+
+<a name="t8"></a><br>
+<p><b>Table&nbsp;8.</b> Resistance to antimicrobials (%) of nosocomial gram(-) bacteria, (&quot;Micromax&quot; study, 1999)</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table cellpadding="5" cellspacing="1" border="0" width="100%">
+<tr>
+	<th>Antibiotic</th>
+	<th><i>E.coli</i></th>
+	<th>Proteus spp.</th>
+	<th><i>Klebsiella</i> spp.</th>
+</tr>
+<tr>
+	<td class="cl">Piperacillin/tazobactam</td>
+	<td class="cc">3</td>
+	<td class="cc">1</td>
+	<td class="cc">17</td>
+</tr>
+<tr>
+	<td class="cl">Ceftriaxone</td>
+	<td class="cc">13</td>
+	<td class="cc">10</td>
+	<td class="cc">40</td>
+</tr>
+<tr>
+	<td class="cl">Ceftazidime</td>
+	<td class="cc">5</td>
+	<td class="cc">3</td>
+	<td class="cc">31</td>
+</tr>
+<tr>
+	<td class="cl">Cefepime</td>
+	<td class="cc">3</td>
+	<td class="cc">3</td>
+	<td class="cc">16</td>
+</tr>
+<tr>
+	<td class="cl">Imipenem</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Ciprofloxacin</td>
+	<td class="cc">12</td>
+	<td class="cc">15</td>
+	<td class="cc">14</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p>No strains of <i>E.coli, Proteus</i> spp. and <i>Klebsiella</i> spp resistant to imipenem were detected.</p>
+
+<a name="paeruginosa"></a><br><br>
+<h4><b><i>Pseudomonas aeruginosa</i></b></h4>
+
+<p>In NPRS-1997 multicenter study up to 50% of <i>Р.aeruginosa</i> strains were resistant to piperacillin, 41% to piperacillin/tazobactam and more than 10% to ceftazidime. Resistance to imipenem was relatively low (0-11%) in all participating centers. Resistance to gentamicin was 75% as compared to 7% to amikacin. From 6% up to 42% (average 15%) of <i>P.aeruginosa</i> strains were resistant to ciprofloxacin.</p>
+
+<p>Moscow study showed high resistance frequency of <i>P.aeruginosa</i> to antipseudomonal <font face="Symbol">b</font>-lactams: 45% for piperacillin/tazobactam, 55% to ceftazidime, 47% to cefepime.</p>
+
+<p>The lowest resistance was found to carbapenems (imipenem &#150; 18%, meropenem &#150; 19%). Notice high frequency of resistance of <i>P.aeruginosa</i> to ciprofloxacin (45%).</p>
+
+<p>Among aminoglycosides the most active was amikacin (11% of resistant strains), while more than 60% of the strains were resistant to gentamicin.</p>
+
+<p>In conclusion, it is necessary to notice that information mentioned in this chapter certainly can not be considered as exhaustive and it does not reflect the state of antibiotic resistance in Russia. That is why it is extremely important to conduct permanent monitoring of resistance with summarizing corrected data.</p>
+
+<br>
+<!-- begin footer -->
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tr>
+  <td style="text-align: left; vertical-align: bottom;" align="left" valign="bottom"><div class="t8">&copy; 2000-2006 IAC SSMA &middot; E-mail: <a href="mailto:website@antibiotic.ru" title="Send e-mail">website&#64;antibiotic&#46;ru</a></div></td>
+  <td colspan="2" valign="top" align="right"><font size="1"><!-- SpyLOG v2 f:0211 --><script language="javascript">
+u="u607.38.spylog.com";d=document;nv=navigator;na=nv.appName;p=1;
+bv=Math.round(parseFloat(nv.appVersion)*100);
+n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random();z="p="+p+"&rn="+rn;y="";
+y+="<a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+
+"&r="+escape(d.referrer)+"&pg="+escape(window.location.href)+"' border=0  width=88 height=31  alt='SpyLOG'>";
+y+="</a>"; d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<a href="../../../index-15.htm?f=3&p=1" target="_blank">
+<img src="../../../digits.png?p=1" alt='SpyLOG' border='0' width="88" height="31">
+</a></noscript><script language="javascript1.2"><!--
+if(!n) { d.write("--"+">"); }//--></script><!-- SpyLOG  --></font></td>
+</tr>
+</table>
+<!-- end of footer -->
+
+  </td></tr>
+</table>
+</body>
+</html>

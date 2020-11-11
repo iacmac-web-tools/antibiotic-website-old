@@ -1,0 +1,270 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru-RU"
+      xml:lang="ru-RU">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Войти в систему</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="generator" content="Open Journal Systems 2.4.5.0"/>
+    
+        <link rel="stylesheet" href="https://www.cochrane.ru/lib/pkp/styles/pkp.css" type="text/css"/>
+    <link rel="stylesheet" href="https://www.cochrane.ru/lib/pkp/styles/common.css" type="text/css"/>
+    <link rel="stylesheet" href="https://www.cochrane.ru/styles/common.css" type="text/css"/>
+    <link rel="stylesheet" href="https://www.cochrane.ru/styles/compiled.css" type="text/css"/>
+    <link rel="stylesheet" href="https://www.cochrane.ru/fancy-box/fancybox/jquery.fancybox-1.3.4.css">
+
+    <!-- Base Jquery -->
+        <script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/lib/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js"></script>
+    <!--<script src="https://www.cochrane.ru/fancybox/lib/jquery-1.10.1.min.js"></script>-->
+    <script src="https://www.cochrane.ru/fancy-box/fancybox/jquery.fancybox-1.3.4.js"></script>
+
+    
+    
+            <link rel="stylesheet" href="https://www.cochrane.ru/styles/sidebar.css" type="text/css" />                <link rel="stylesheet" href="https://www.cochrane.ru/styles/rightSidebar.css" type="text/css" />    
+            <link rel="stylesheet" href="https://www.cochrane.ru/public/site/sitestyle.css" type="text/css"/>
+            <link rel="stylesheet" href="https://www.cochrane.ru/plugins/blocks/languageToggle/styles/languageToggle.css" type="text/css"/>
+    
+    <!-- Default global locale keys for JavaScript -->
+    
+<script type="text/javascript">
+	jQuery.pkp = jQuery.pkp || { };
+	jQuery.pkp.locale = { };
+			
+				jQuery.pkp.locale.form_dataHasChanged = 'Данные этой формы были изменены. Все равно продолжить?';
+	</script>
+    <!-- Compiled scripts -->
+            
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/lib/jquery/plugins/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/functions/fontController.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/functions/general.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/functions/jqueryValidatorI18n.js"></script>
+
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/classes/Helper.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/classes/ObjectProxy.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/classes/Handler.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/classes/linkAction/LinkActionRequest.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/classes/features/Feature.js"></script>
+
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/controllers/SiteHandler.js"></script><!-- Included only for namespace definition -->
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/controllers/UrlInDivHandler.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/controllers/AutocompleteHandler.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/controllers/ExtrasOnDemandHandler.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/controllers/form/FormHandler.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/controllers/form/AjaxFormHandler.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/controllers/form/ClientFormHandler.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/controllers/grid/GridHandler.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/controllers/linkAction/LinkActionHandler.js"></script>
+
+<script type="text/javascript" src="https://www.cochrane.ru/js/pages/search/SearchFormHandler.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/js/statistics/ReportGeneratorFormHandler.js"></script>
+<script type="text/javascript" src="https://www.cochrane.ru/plugins/generic/lucene/js/LuceneAutocompleteHandler.js"></script>
+
+<script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/lib/jquery/plugins/jquery.pkp.js"></script>    
+            <link href="/js/css/styles-2d0eef518b.css" rel="stylesheet" />
+                <script src="/js/js/es6-1565b5f084.js" ></script>
+                <script src="/js/js/script-7bf759be79.js" ></script>
+        
+
+
+    <!-- Form validation -->
+    <script type="text/javascript" src="https://www.cochrane.ru/lib/pkp/js/lib/jquery/plugins/validate/jquery.validate.js"></script>
+    <script type="text/javascript">
+        <!--
+        // initialise plugins
+        
+        $(function () {
+            jqueryValidatorI18n("https://www.cochrane.ru", "ru_RU"); // include the appropriate validation localization
+            
+            $(".tagit").live('click', function () {
+                $(this).find('input').focus();
+            });
+        });
+        // -->
+        
+    </script>
+
+        
+</head>
+<body ng-app="cochrane" id="pkp-user-login">
+<div class="ie-error-block" style="display: none">
+    <div class="ui-widget ui-helper-clearfix ui-pnotify notifyFormError" style="width: 90%; opacity: 1; display: block; position: relative; top: 0; right: 0; left:0; padding-left: 10px">
+        <div class="ui-corner-all ui-pnotify-container ui-state-highlight" style="min-height: 16px;">
+            <div class="ui-pnotify-icon">
+                <span class="notifyIconPageAlert"></span>
+            </div>
+            <div class="ui-pnotify-title">
+                Данная операция не доступна в браузере Internet Explorer.
+            </div>
+            <div class="ui-pnotify-text">
+                Для работы в электронной редакции
+                рекомендуем использовать один из поддерживаемых браузеров:
+                <a target="_blank" href="https://www.google.ru/chrome/browser/desktop/">Chrome</a>,
+                <a target="_blank" href="https://www.mozilla.org/ru/firefox/new/">Firefox</a>,
+                <a target="_blank" href="https://browser.yandex.ru/desktop/main/" >Yandex</a> или
+                <a target="_blank" href="http://www.opera.com">Opera</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="container">
+
+    <div id="header">
+        <div id="headerTitle">
+            <h1>
+                                                    Издательство «Медиа сфера»
+                            </h1>
+        </div>
+    </div>
+
+    <div id="body">
+
+                    <div id="sidebar">
+                                                    <div id="rightSidebar">
+                        <!--div class="block" id="sidebarDevelopedBy">
+	<a class="blockTitle" href="http://pkp.sfu.ca/ojs/" id="developedBy">Open Journal Systems</a>
+</div--><!--div class="block" id="sidebarHelp">
+	<a class="blockTitle" href="javascript:openHelp('https://www.cochrane.ru/index.php/index/help/view/user/topic/000003')">Помощь</a>
+</div--><div class="block" id="sidebarUser">
+			<span class="blockTitle">Пользователь</span>
+	
+						<form method="post" action="https://www.cochrane.ru/index.php/index/login/signIn">
+				<table>
+					<tr>
+						<td><label for="sidebar-username">Имя пользователя</label></td>
+						<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+					</tr>
+					<tr>
+						<td><label for="sidebar-password">Пароль</label></td>
+						<td><input type="password" id="sidebar-password" name="password" value="" size="12" maxlength="32" class="textField" /></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Запомнить меня</label></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" value="Войти в систему" class="button" /></td>
+					</tr>
+				</table>
+			</form>
+			</div> 
+<div class="block" id="sidebarLanguageToggle">
+	<script type="text/javascript">
+		<!--
+		function changeLanguage() {
+			var e = document.getElementById('languageSelect');
+			var new_locale = e.options[e.selectedIndex].value;
+
+			var redirect_url = 'https://www.cochrane.ru/index.php/index/user/setLocale/NEW_LOCALE?source=%2Findex.php%2Findex%2Flogin%3Fsource%3D%252Findex.php%252Findex%252Fuser';
+			redirect_url = redirect_url.replace("NEW_LOCALE", new_locale);
+
+			window.location.href = redirect_url;
+		}
+		//-->
+	</script>
+	<span class="blockTitle">Язык</span>
+	<form action="#">
+		<label for="languageSelect">Выбрать язык</label>
+		<select id="languageSelect" size="1" name="locale" class="selectMenu"><option label="English" value="en_US">English</option>
+<option label="Russian" value="ru_RU" selected="selected">Russian</option>
+</select>
+		<input type="submit" class="button" value="Отправить" onclick="changeLanguage(); return false;" />
+	</form>
+</div>
+
+<!-- Add javascript required for font sizer -->
+<script type="text/javascript">
+	<!--
+	$(function(){
+		fontSize("#sizer", "body", 9, 16, 32, ""); // Initialize the font sizer
+	});
+	// -->
+</script>
+
+<div class="block" id="sidebarFontSize" style="margin-bottom: 4px;">
+	<span class="blockTitle">Размер шрифта</span>
+	<div id="sizer"></div>
+</div>
+<br />
+                                            </div>
+                            </div>
+        
+        <div id="main">
+            <div id="navbar">
+	<ul class="menu">
+		<li id="home"><a href="https://www.cochrane.ru/index.php/index/index">Главная</a></li>
+		<li id="about"><a href="https://www.cochrane.ru/index.php/index/about">О журнале</a></li>
+
+					<li id="login"><a href="https://www.cochrane.ru/index.php/index/login">Вход</a></li>
+							<li id="register"><a href="https://www.cochrane.ru/index.php/index/user/register">Регистрация</a></li>
+									
+		
+				
+
+				<li id="materialsForAuthors"><a href="https://www.cochrane.ru/index.php/index/materials">Материалы для авторов</a></li>
+	</ul>
+</div>
+            <div id="breadcrumb">
+	<a href="https://www.cochrane.ru/index.php/index/index">Главная</a> &gt;
+			<a href="https://www.cochrane.ru/index.php/index/login?source=%2Findex.php%2Findex%2Fuser" class="current">Войти в систему</a></div>
+
+                            <p>Добро пожаловать на сайт электронной редакции издательства «Медиа Сфера»! <br> Чтобы отправить статью в один из журналов издательства, необходимо зарегистрироваться. Для этого нажмите кнопку РЕГИСТРАЦИЯ в верхней навигационной панели и заполните форму. Если вы уже зарегистрировались, введите имя пользователя и пароль для входа в систему. В разделе «Материалы для авторов» вы найдете подробную инструкцию по пользованию электронной редакцией.</p>
+            
+
+            <h2>Войти в систему</h2>
+
+                        
+            <div id="content">
+
+
+
+
+	<form id="signinForm" method="post" action="https://www.cochrane.ru/index.php/index/login/signIn">
+
+
+<input type="hidden" name="source" value="/index.php/index/user" />
+
+	<table id="signinTable" class="data">
+	<tr>
+		<td class="label"><label for="loginUsername">Имя пользователя</label></td>
+		<td class="value"><input type="text" id="loginUsername" name="username" value="" size="20" maxlength="32" class="textField" /></td>
+	</tr>
+	<tr>
+		<td class="label"><label for="loginPassword">Пароль</label></td>
+		<td class="value"><input type="password" id="loginPassword" name="password" value="" size="20" maxlength="32" class="textField" /></td>
+	</tr>
+		<tr valign="middle">
+		<td></td>
+		<td class="value"><input type="checkbox" id="loginRemember" name="remember" value="1" /> <label for="loginRemember">Запомнить мои имя пользователя и пароль</label></td>
+	</tr>
+		<tr>
+		<td></td>
+		<td><input type="submit" value="Войти в систему" class="button" /></td>
+	</tr>
+	</table>
+
+	<p>
+		&#187; <a href="https://www.cochrane.ru/index.php/index/user/register">Не являетесь пользователем? Зарегистрируйтесь на этом сайте</a><br />		&#187; <a href="https://www.cochrane.ru/index.php/index/login/lostPassword">Забыли Ваш пароль?</a>
+	</p>
+<script type="text/javascript">
+<!--
+	document.getElementById('loginUsername').focus();
+// -->
+</script>
+</form>
+
+
+
+</div><!-- content -->
+</div><!-- main -->
+</div><!-- body -->
+
+
+
+</div><!-- container -->
+</body>
+</html>

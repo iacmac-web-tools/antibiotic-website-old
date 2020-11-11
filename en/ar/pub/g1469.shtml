@@ -1,0 +1,716 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Resistance of E.coli isolated from children with community-acquired urinary tract infections (CAUTIs) in Russia: Results of multicenter study ''ARMID''</title>
+<meta name="description" content="Resistance of E.coli isolated from children with community-acquired urinary tract infections (CAUTIs) in Russia: Results of multicenter study ARMID.">
+<meta name="keywords" content="resistance, E.coli, isolate, children, community-acquired, urinary tract infections, CAUTIs, multicenter study, ARMID, Stratchounski, Shevelev, Korovina, Edelstein, Kozlova, Zorkin, Katosova, Papajan, Marusina, Vjalkova, Agapova">
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript"> <!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/en/inc/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../inc/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top:10px; margin-left:10px; text-align:justify;}
+LI {margin-top:8px; margin-left:15px; text-align:justify;}
+H4 {margin-left:10px;}
+H5 {font-size:11pt}
+H5.l {text-align:left;}
+</style>
+</head>
+
+<body class="main">
+
+<table width="750" cellpadding="0" border="0" cellspacing="5">
+<tr>
+  <th width="150" valign="top">
+
+  <table border="0" cellpadding="5" cellspacing="0" width="100%">
+    <tr><td>
+<p class="m10"><b>Antimicrobial Resistance</b></p>
+<hr size="1" style="color: #D0C0AC;">
+<p class="m8"><a href="../index.shtml#rus">Antimicrobial Resistance in Russia</a></p>
+<p class="m8"><a href="../index.shtml#pub">Publications</a></p>
+<p class="m8"><a href="../links.shtml">References</a></p>
+
+    </td></tr>
+  </table>
+  
+
+  </th><td valign="top">
+<!--navigation-->
+<map name="TopBtnEn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Previous page" title="Previous page">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Next page" title="Next page">
+<area shape="circle" coords="77,15,15" href="../../index-1.htm" alt="Main page" title="Main page">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="E-Mail" title="E-Mail">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../../rus/images/buttons/topline.gif);" width="98%" height="32"><img src="../../../rus/images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../../rus/images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Navigation" usemap="#TopBtnEn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+
+<h2><a name="top"></a>42<sup>nd</sup> Interscience Conference on Antimicrobial Agents and Chemotherapy (ICAAC)</h2>
+
+<h5><i>28–30 September, 2002, San Diego, USA</i><br></h5>
+<h5><b>Poster # G-1469</b></h5>
+
+<h1>Resistance of <i>E.coli</i> isolated from children with community-acquired urinary tract infections (CAUTIs) in Russia: Results of multicenter study &quot;ARMID&quot;</h1>
+
+<h5><i><sup>1</sup>L.&nbsp;Stratchounski, <sup>1</sup>A.&nbsp;Shevelev, <sup>3</sup>N.&nbsp;Korovina, <sup>1</sup>I.&nbsp;Edelstein, <sup>2</sup>L.&nbsp;Kozlova, <sup>4</sup>S.&nbsp;Zorkin, <sup>4</sup>L.&nbsp;Katosova, <sup>5</sup>A.&nbsp;Papajan, <sup>6</sup>N.&nbsp;Marusina, <sup>7</sup>A.&nbsp;Vjalkova, <sup>8</sup>E.&nbsp;Agapova</i></h5>
+
+<h5 style="font-size:10pt; text-align:left; margin-left:10px;"><i>
+<sup>1</sup> Institute of Antimicrobial Chemotherapy, Smolensk;<br>
+<sup>2</sup> Regional Children Clinical Hospital, Smolensk;<br>
+<sup>3</sup> Department of Pediatrics, Moscow;<br>
+<sup>4</sup> Scientific Center of Children s Health, Moscow;<br>
+<sup>5</sup> Department of Pediatrics #2, Saint-Petersburg;<br>
+<sup>6</sup> Republican Pediatric Clinical Hospital, Kazan;<br>
+<sup>7</sup> Department of Pediatrics, Orenburg;<br>
+<sup>8</sup> Regional Children Clinical Hospital, Irkutsk
+</i></h5>
+
+<p style="text-align:right; font-size:8pt"><a target="_blank" href="../../pdfs/g-1469.pdf">The PDF format poster (1073 kb) <img src="../../images/pdf.gif" width="16" height="16" alt="" border="0"></a></p>
+
+<hr size="1">
+<ul>
+  <li><a href="#1">Abstract</a></li>
+  <li><a href="#2">Introduction</a></li>
+  <li><a href="#3">Materials and methods</a></li>
+  <li><a href="#4">Results and discussion</a></li>
+  <li><a href="#5">Conclusions</a></li>
+</ul>
+<hr size="1">
+
+<a name="1"></a><br>
+<h2>ABSTRACT</h2>
+
+<p><b>Background:</b> UTIs are one of the most frequent bacterial infections in children. <i>E.coli</i> is the primary pathogen causing CAUTIs. <b>Methods:</b> During the 2000-01 years 8 centers from European and Asian part of Russia took part in the study. The MICs of 16 antimicrobials were determined by agar dilution method according to the current NCCLS guidelines. <b>Results:</b> A total of 635 consecutive urine isolates from 607 children aged 1 month to 18 years with CAUTIs were collected. The most frequently isolated species from children with CAUTIs was <i>E.coli</i> (53.0%) followed by <i>Klebsiella</i>&nbsp;spp. (9.7%), <i>Proteus</i>&nbsp;spp. (8.5%), <i>Enterococcus</i>&nbsp;spp. (8.5%), <i>Enterobacter</i>&nbsp;spp. (5.7%) and <i>P.aeruginosa</i> (5.4%). Antimicrobial resistance rates of <i>E.coli</i> were as follows: ampicillin - 51.5%; co-amoxiclav - 3.9%; cefuroxime - 3.9%; ceftriaxone - 2.4%; ceftazidime - 0%; ceftibuten - 0%; cefepime - 0.9%; imipenem - 0%; gentamicin - 9.7%; netilmicin - 5.4%; amikacin - 0%; nalidixic acid - 7.0%; ciprofloxacin - 2.7%; fosfomycin - 0%; nitrofurantoin - 2.1% and co-trimoxazole - 35.5%. <b>Conclusions:</b> The main problem with uropathogens in Russia is a high level of <i>E.coli</i> resistance to aminopenicillins and co-trimoxazole. They can not be recommended as drugs of choise for CAUTIs.</p>
+
+<a name="2"></a><br>
+<h2>INTRODUCTION</h2>
+
+<p>UTIs are one of the most frequent infections in children. These infections are usually caused by Gram-negative bacteria most of which belong to the family <i>Enterobacteriaceae</i>. <i>E.coli</i> is a major bacterial pathogen causing CAUTIs. Therapy for these infections is usually begun before results of microbiological tests are known. In most cases, the choice of antibiotics for the treatment of UTIs is made empirically and should be based on the local antibiotic susceptibility data.</p>
+
+<a name="3"></a><br>
+<h2>MATERIALS AND METHODS</h2>
+
+<p><b>Bacterial isolates.</b> A total of 635 consecutive urine isolates from 607 children aged 1 month to 18 years with CAUTI were collected at 8 medical centers in 2000-2001 (<a href="#f1">Fig.&nbsp;1</a>).</p>
+
+<a name="f1"><br><br>
+<div align="center"><img src="images/g1469_1.gif" width="550" height="188" alt="Geographical location of centers, participating in the study ''ARMID''" border="0"></div>
+<p><b>Fig. 1.</b> Geographical location of centers, participating in the study &quot;ARMID&quot;</p><br>
+
+<p>All isolates were initially identified in local laboratories using standard biochemical tests, then transferred to the central laboratory of the Institute of Antimicrobial Chemotherapy, where they were reidentified and stored in trypticase-soy/glycerol broth at -70°C until analysis. <b>Susceptibility testing.</b> MICs of ampicillin, co-amoxiclav, cefuroxime, ceftriaxone, ceftazidime, ceftibuten, cefepime, imipenem, gentamicin, netilmicin, amikacin, nalidixic acid, ciprofloxacin, fosfomycin, nitrofurantoin and co-trimoxazole were determined by agar dilution method and interpreted according to the current NCCLS guidelines. <i>E.coli</i> strains ATCC 25922 and ATCC 35218 were used for quality control of susceptibility testing. Data managent and statistical analysis were performed using the M-lab software (Institute of Antimicrobial Chemotherapy, Smolensk, Russia).</p>
+
+<a name="4"></a><br>
+<h2>RESULTS AND DISCUSSION</h2>
+
+<p>The most frequently isolated species from children with CAUTIs was <i>E.coli</i> (53.0%), followed by <i>Klebsiella</i>&nbsp;spp. (9.7%), <i>Proteus</i>&nbsp;spp. (8.5%), <i>Enterococcus</i>&nbsp;spp. (8.5%), <i>Enterobacter</i>&nbsp;spp. (5.7%) and <i>P.aeruginosa</i> (5.4%). (<a href="#f2">Fig.&nbsp;2</a>).</p>
+
+<a name="f2"><br><br>
+<div align="center"><img src="images/g1469_2.gif" width="600" height="183" alt="Distribution of microorganisms" border="0"></div>
+<p><b>Fig. 2.</b> Distribution of microorganisms</p><br>
+
+<p>Results of the <i>in vitro</i> susceptibility testing of <i>E.coli</i> isolates are summarized in <a href="#t1">Table&nbsp;1</a>.</p>
+
+<a name="t1"></a><br>
+<p><b>Table 1.</b> Susceptibility <i>E.coli</i> to antimicrobials</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr>
+	<th width="20%" rowspan="2">Antimicrobial</th>
+	<th width="26%" colspan="3">MIC breakpoints</th>
+	<th width="8%" rowspan="2">S, %</th>
+	<th width="8%" rowspan="2">I, %</th>
+	<th width="8%" rowspan="2">R, %</th>
+	<th width="8%" rowspan="2">MIC<sub>50</sub>, mg/L</th>
+	<th width="8%" rowspan="2">MIC<sub>90</sub>, mg/L</th>
+	<th width="14%" rowspan="2">MIC ranges</th>
+</tr>
+<tr>
+	<th width="8%">S</th>
+	<th width="10%">I</th>
+	<th width="8%">R</th>
+</tr>
+<tr>
+	<td class="cl">Ampicillin</td>
+	<td class="cc"><u>&lt;</u>8</td>
+	<td class="cc">16</td>
+	<td class="cc"><u>&gt;</u>32</td>
+	<td class="cc">47.3</td>
+	<td class="cc">1.2</td>
+	<td class="cc">51.5</td>
+	<td class="cc">64</td>
+	<td class="cc">64</td>
+	<td class="cc">1-64</td>
+</tr>
+<tr>
+	<td class="cl">Co-amoxiclav</td>
+	<td class="cc"><u>&lt;</u>8</td>
+	<td class="cc">16</td>
+	<td class="cc">&gt;32</td>
+	<td class="cc">79.4</td>
+	<td class="cc">16.7</td>
+	<td class="cc">3.9</td>
+	<td class="cc">8</td>
+	<td class="cc">16</td>
+	<td class="cc">0.25-64</td>
+</tr>
+<tr>
+	<td class="cl">Cefuroxime</td>
+	<td class="cc"><u>&lt;</u>4</td>
+	<td class="cc">8</td>
+	<td class="cc"><u>&gt;</u>16</td>
+	<td class="cc">95.5</td>
+	<td class="cc">0.6</td>
+	<td class="cc">3.9</td>
+	<td class="cc">4</td>
+	<td class="cc">8</td>
+	<td class="cc">0.5-128</td>
+</tr>
+<tr>
+	<td class="cl">Ceftriaxone</td>
+	<td class="cc"><u>&lt;</u>8</td>
+	<td class="cc">16-32</td>
+	<td class="cc"><u>64</u></td>
+	<td class="cc">96.7</td>
+	<td class="cc">0.9</td>
+	<td class="cc">2.4</td>
+	<td class="cc">0.06</td>
+	<td class="cc">0.06</td>
+	<td class="cc">0.06-128</td>
+</tr>
+<tr>
+	<td class="cl">Ceftazidime</td>
+	<td class="cc"><u>&lt;</u>8</td>
+	<td class="cc">16</td>
+	<td class="cc"><u>&gt;</u>32</td>
+	<td class="cc">99.7</td>
+	<td class="cc">0.3</td>
+	<td class="cc">0</td>
+	<td class="cc">0.125</td>
+	<td class="cc">0.25</td>
+	<td class="cc">0.06-64</td>
+</tr>
+<tr>
+	<td class="cl">Ceftibuten</td>
+	<td class="cc"><u>&lt;</u>8</td>
+	<td class="cc">16</td>
+	<td class="cc"><u>&gt;</u>32</td>
+	<td class="cc">100</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0.125</td>
+	<td class="cc">0.25</td>
+	<td class="cc">0.03-64</td>
+</tr>
+<tr>
+	<td class="cl">Cefepime</td>
+	<td class="cc"><u>&lt;</u>8</td>
+	<td class="cc">16</td>
+	<td class="cc"><u>&gt;</u>32</td>
+	<td class="cc">98.2</td>
+	<td class="cc">0.9</td>
+	<td class="cc">0.9</td>
+	<td class="cc">0.06</td>
+	<td class="cc">0.125</td>
+	<td class="cc">0.06-128</td>
+</tr>
+<tr>
+	<td class="cl">Imipenem</td>
+	<td class="cc"><u>&lt;</u>4</td>
+	<td class="cc">8</td>
+	<td class="cc"><u>&gt;</u>16</td>
+	<td class="cc">99.5</td>
+	<td class="cc">0.5</td>
+	<td class="cc">0</td>
+	<td class="cc">0.5</td>
+	<td class="cc">0.5</td>
+	<td class="cc">0.5-8</td>
+</tr>
+<tr>
+	<td class="cl">Gentamicin</td>
+	<td class="cc"><u>&lt;</u>4</td>
+	<td class="cc">8</td>
+	<td class="cc"><u>&gt;</u>16</td>
+	<td class="cc">90.3</td>
+	<td class="cc">0</td>
+	<td class="cc">9.7</td>
+	<td class="cc">1</td>
+	<td class="cc">4</td>
+	<td class="cc">0.5-32</td>
+</tr>
+<tr>
+	<td class="cl">Netilmicin</td>
+	<td class="cc"><u>&lt;</u>8</td>
+	<td class="cc">16</td>
+	<td class="cc"><u>&gt;</u>32</td>
+	<td class="cc">91.6</td>
+	<td class="cc">3.0</td>
+	<td class="cc">5.4</td>
+	<td class="cc">1</td>
+	<td class="cc">4</td>
+	<td class="cc">0.5-64</td>
+</tr>
+<tr>
+	<td class="cl">Amikacin</td>
+	<td class="cc"><u>&lt;</u>8</td>
+	<td class="cc">32</td>
+	<td class="cc"><u>&gt;</u>64</td>
+	<td class="cc">100</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">2</td>
+	<td class="cc">4</td>
+	<td class="cc">1-16</td>
+</tr>
+<tr>
+	<td class="cl">Nalidixic acid</td>
+	<td class="cc"><u>&lt;</u>16</td>
+	<td class="cc">-</td>
+	<td class="cc"><u>&gt;</u>32</td>
+	<td class="cc">93</td>
+	<td class="cc">0</td>
+	<td class="cc">7.0</td>
+	<td class="cc">2</td>
+	<td class="cc">4</td>
+	<td class="cc">0.5-32</td>
+</tr>
+<tr>
+	<td class="cl">Ciprofloxacin</td>
+	<td class="cc"><u>&lt;</u>1</td>
+	<td class="cc">2</td>
+	<td class="cc"><u>&gt;</u>4</td>
+	<td class="cc">96.7</td>
+	<td class="cc">0.6</td>
+	<td class="cc">2.7</td>
+	<td class="cc">0.03</td>
+	<td class="cc">0.03</td>
+	<td class="cc">0.03-8</td>
+</tr>
+<tr>
+	<td class="cl">Fosfomycin</td>
+	<td class="cc"><u>&lt;</u>64</td>
+	<td class="cc">128</td>
+	<td class="cc"><u>&gt;</u>256</td>
+	<td class="cc">99.7</td>
+	<td class="cc">0.3</td>
+	<td class="cc">0</td>
+	<td class="cc">0.25</td>
+	<td class="cc">2</td>
+	<td class="cc">0.5-128</td>
+</tr>
+<tr>
+	<td class="cl">Nitrofurantoin</td>
+	<td class="cc"><u>&lt;</u>32</td>
+	<td class="cc">64</td>
+	<td class="cc"><u>&gt;</u>128</td>
+	<td class="cc">95.5</td>
+	<td class="cc">2.4</td>
+	<td class="cc">2.1</td>
+	<td class="cc">16</td>
+	<td class="cc">16</td>
+	<td class="cc">4-256</td>
+</tr>
+<tr>
+	<td class="cl">Co-trimoxazole</td>
+	<td class="cc"><u>&lt;</u>2</td>
+	<td class="cc">-</td>
+	<td class="cc"><u>&gt;</u>4</td>
+	<td class="cc">64.5</td>
+	<td class="cc">0</td>
+	<td class="cc">35.5</td>
+	<td class="cc">0.25</td>
+	<td class="cc">16</td>
+	<td class="cc">0.06-16</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p><b>Beta-lactams.</b> This study revealed an extremely high level of resistance to ampicillin (51.5%). The activity of co-amoxiclav varied from 91.4 to 100% in different centers (average: 96.1%).</p>
+
+<p>Imipenem and newer cephalosporins were highly active. However, the appearence of several isolates resistant to third and fourth  generation cephalosporins, especially to ceftriaxone, is alarming.</p>
+
+<p><b>Aminoglycosides.</b> Amikacin was the most active aminoglycoside tested. No isolates resistant to this compound were detected. Resistance rates to gentamicin and netilmicin were 9.7% and 5.4%, respectively.</p>
+
+<p><b>Quinolones.</b> Seven percent of <i>E.coli</i> were resistant to nalidixic acid, whereas only 2.7% - to ciprofloxacin.</p>
+
+<p><b>Antibiotics of other groups.</b> Resistance to co-trimoxazole was observed for 35.5% of isolates. There were no strains resistant to fosfomycin and only 2.1% - were resistant to nitrofurantoin.</p>
+
+<p>As shown in <a href="#t2">Table&nbsp;2</a> resistance rates of different antimicrobial agents were generally similar in geographically distant centers. Nevertheless, an exceptional situation was observed in N.Novgorod where all the <i>E.coli</i> strains were susceptible to co-amoxiclav, cephalosporins, imipenem, aminoglycosides, fosfomycin and nitrofurantoin, but more frequently resistant to nalidixic acid and ciprofloxacin.</p>
+
+<a name="t2"></a><br>
+<p><b>Table 2.</b> Resistance <i>E.coli</i> to antimicrobials in centers</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr>
+	<th width="20%">Antimicrobial</th>
+	<th width="10%">M-1<br>n=41</th>
+	<th width="10%">M-2<br>n=44</th>
+	<th width="10%">SPB<br>n=35</th>
+	<th width="10%">SML<br>n=73</th>
+	<th width="10%">KAZ<br>n=45</th>
+	<th width="10%">ORB<br>n=26</th>
+	<th width="10%">NNG<br>n=29</th>
+	<th width="10%">IRK<br>n=37</th>
+</tr>
+<tr>
+	<td class="cl">Ampicillin</td>
+	<td class="cc">56.1</td>
+	<td class="cc">43.2</td>
+	<td class="cc">50</td>
+	<td class="cc">57.2</td>
+	<td class="cc">48.9</td>
+	<td class="cc">50</td>
+	<td class="cc">31</td>
+	<td class="cc">67.6</td>
+</tr>
+<tr>
+	<td class="cl">Co-amoxiclav</td>
+	<td class="cc">2.4</td>
+	<td class="cc">0</td>
+	<td class="cc">8.6</td>
+	<td class="cc">5.5</td>
+	<td class="cc">4.4</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">8.1</td>
+</tr>
+<tr>
+	<td class="cl">Cefuroxime</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">8.6</td>
+	<td class="cc">5.5</td>
+	<td class="cc">13.3</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Ceftriaxone</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">2.9</td>
+	<td class="cc">2.7</td>
+	<td class="cc">11.1</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Ceftazidime</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Ceftibuten</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Cefepime</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">2.9</td>
+	<td class="cc">1.4</td>
+	<td class="cc">2.2</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Imipenem</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Gentamicin</td>
+	<td class="cc">4.9</td>
+	<td class="cc">4.5</td>
+	<td class="cc">8.6</td>
+	<td class="cc">11</td>
+	<td class="cc">17.8</td>
+	<td class="cc">3.8</td>
+	<td class="cc">0</td>
+	<td class="cc">13.5</td>
+</tr>
+<tr>
+	<td class="cl">Netilmicin</td>
+	<td class="cc">2.4</td>
+	<td class="cc">2.3</td>
+	<td class="cc">5.7</td>
+	<td class="cc">2.7</td>
+	<td class="cc">2.2</td>
+	<td class="cc">3.8</td>
+	<td class="cc">0</td>
+	<td class="cc">2.7</td>
+</tr>
+<tr>
+	<td class="cl">Amikacin</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Nalidixic acid</td>
+	<td class="cc">4.9</td>
+	<td class="cc">13.6</td>
+	<td class="cc">2.9</td>
+	<td class="cc">6.8</td>
+	<td class="cc">8.9</td>
+	<td class="cc">0</td>
+	<td class="cc">17.2</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Ciprofloxacin</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">2.7</td>
+	<td class="cc">4.4</td>
+	<td class="cc">0</td>
+	<td class="cc">13.8</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Fosfomycin</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Nitrofurantoin</td>
+	<td class="cc">4.9</td>
+	<td class="cc">6.8</td>
+	<td class="cc">0</td>
+	<td class="cc">1.4</td>
+	<td class="cc">2.2</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+	<td class="cc">0</td>
+</tr>
+<tr>
+	<td class="cl">Co-trimoxazole</td>
+	<td class="cc">41.5</td>
+	<td class="cc">25</td>
+	<td class="cc">34.3</td>
+	<td class="cc">39.7</td>
+	<td class="cc">35.6</td>
+	<td class="cc">38.5</td>
+	<td class="cc">17.2</td>
+	<td class="cc">45.9</td>
+</tr>
+</table>
+</td></tr></table>
+
+<table width="90%" cellpadding="1" cellspacing="1" border="0" align="center">
+<tr>
+	<td class="cl" style="font-size:8pt;" width="25%"><b>M-1</b> - Moscow-1</td>
+	<td class="cl" style="font-size:8pt;" width="25%"><b>SPB</b> - St.-Petersburg</td>
+	<td class="cl" style="font-size:8pt;" width="25%"><b>KAZ</b> - Kazan</td>
+	<td class="cl" style="font-size:8pt;" width="25%"><b>NNG</b> - N.Novgorod</td>
+</tr>
+<tr>
+	<td class="cl" style="font-size:8pt;"><b>M-2</b> - Moscow-2</td>
+	<td class="cl" style="font-size:8pt;"><b>SML</b> - Smolensk</td>
+	<td class="cl" style="font-size:8pt;"><b>ORB</b> - Orenburg</td>
+	<td class="cl" style="font-size:8pt;"><b>IRK</b> - Irkutsk</td>
+</tr>
+</table>
+
+<p>Isolates resistant to extended-spectrum cephalosporins were found only in Kazan, Smolensk and St.-Petersburg.</p>
+
+<p><b>Analysis of multiple resistance.</b> <a href="#t3">Table&nbsp;3</a> shows the frequencies of co-resistance to antimicrobials of different classes in E.coli isolates. The most frequently observed pattern was co-resistance to amoxicillin and co-trimoxazole (found in 21.2% of isolates). It was accompanied by co-resistance to either one of the aminoglycosides or quinolones in 3.3% or 1.8% of the cases, respectively. Simultaneous resistance to amoxicillin, co-trimoxazole, aminoglycosides and at least one of the cephalosporins was found in 1.8% of the isolates. Other combinations of resistance markers were less frequent, however single isolates non-susceptible to 4 or even 5 different antibiotics were seen.</p>
+
+<a name="t3"></a><br>
+<p><b>Table 3.</b> Frequency of isolates with multiple resistance</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="70%" align="center"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr>
+	<th width="25%">No. of resistence markers</th>
+	<th width="50%">Resistance phenotype</th>
+	<th width="25%">No. (%) of isolates</th>
+</tr>
+<tr>
+	<td class="cl" rowspan="5">2</td>
+	<td class="cl">Am-Tsx</td>
+	<td class="cl">70 (21.2)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Q</td>
+	<td class="cl">3 (0.9)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Amc</td>
+	<td class="cl">2 (0.6)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Ag</td>
+	<td class="cl">1 (0.3)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Nf</td>
+	<td class="cl">1 (0.3)</td>
+</tr>
+<tr>
+	<td class="cl" rowspan="6">3</td>
+	<td class="cl">Am-Ag-Tsx</td>
+	<td class="cl">11 (3.3)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Q-Tsx</td>
+	<td class="cl">6 (1.8)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Amc-Tsx</td>
+	<td class="cl">4 (1.2)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Amc-Cs</td>
+	<td class="cl">2 (0.6)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Amc-Ag</td>
+	<td class="cl">1 (0.3)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Ag-Q</td>
+	<td class="cl">1 (0.3)</td>
+</tr>
+<tr>
+	<td class="cl" rowspan="5">4</td>
+	<td class="cl">Am-Cs-Ag-Tsx</td>
+	<td class="cl">6 (1.8)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Ag-Q-Tsx</td>
+	<td class="cl">3 (0.9)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Cs-Ag-Q</td>
+	<td class="cl">1 (0.3)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Cs-Q-Tsx</td>
+	<td class="cl">1 (0.3)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Q-Tsx-Nf</td>
+	<td class="cl">1 (0.3)</td>
+</tr>
+<tr>
+	<td class="cl" rowspan="4">5</td>
+	<td class="cl">Am-Amc-Cs-Ag-Tsx</td>
+	<td class="cl">3 (0.9)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Ag-Q-Tsx-Nf</td>
+	<td class="cl">2 (0.6)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Amc-Cs-Tsx-Nf</td>
+	<td class="cl">1 (0.3)</td>
+</tr>
+<tr>
+	<td class="cl">Am-Amc-Cs-Q-Tsx</td>
+	<td class="cl">1 (0.3)</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p style="font-size:11px;">Resistance markers: <b>Am</b> - ampicillin, <b>Amc</b> - co-amoxiclav, <b>Cs</b> - cephalosporins (cefuroxime or ceftriaxone or ceftazidime or ceftibuten or cefepime); <b>Ag</b> - aminoglycosides (gentamicin or netilmicin or amikacin); <b>Q</b> - quinolones (nalidixic acid or ciprofloxacin); <b>Tsx</b> - co-trimoxazole; <b>Nf</b> - nitrofurantoin</p>
+
+<a name="5"></a><br>
+<h2>CONCLUSIONS</h2>
+
+<table width="100%" cellpadding="5" cellspacing="1" border="0" align="center">
+<tr>
+	<td class="cl">1.</td>
+	<td class="cl"><i>E.coli</i> is the primary bacterial pathogen causing CAUTIs in children.</td>
+</tr>
+<tr>
+	<td class="cl">2.</td>
+	<td class="cl">Resistance of outpatients urinary <i>E.coli</i> isolates to aminopenicilins and co-trimoxazole is common in Russia.</td>
+</tr>
+<tr>
+	<td class="cl">3.</td>
+	<td class="cl">The most active antimicrobials were co-amoxiclav, III-IV generation cephalosporins, carbapenems, ciprofloxacin, amikacin, fosfomycin and nitrofurantoin.</td>
+</tr>
+<tr>
+	<td class="cl">4.</td>
+	<td class="cl">Multiple resistance becomes increasingly common among <i>E.coli</i> strains causing CAUTIs in children in Russia.</td>
+</tr>
+</table>
+
+<br>
+<!-- begin footer -->
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tr>
+  <td style="text-align: left; vertical-align: bottom;" align="left" valign="bottom"><div class="t8">&copy; 2000-2006 IAC SSMA &middot; E-mail: <a href="mailto:website@antibiotic.ru" title="Send e-mail">website&#64;antibiotic&#46;ru</a></div></td>
+  <td colspan="2" valign="top" align="right"><font size="1"><!-- SpyLOG v2 f:0211 --><script language="javascript">
+u="u607.38.spylog.com";d=document;nv=navigator;na=nv.appName;p=1;
+bv=Math.round(parseFloat(nv.appVersion)*100);
+n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random();z="p="+p+"&rn="+rn;y="";
+y+="<a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+
+"&r="+escape(d.referrer)+"&pg="+escape(window.location.href)+"' border=0  width=88 height=31  alt='SpyLOG'>";
+y+="</a>"; d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<a href="../../../index-15.htm?f=3&p=1" target="_blank">
+<img src="../../../digits.png?p=1" alt='SpyLOG' border='0' width="88" height="31">
+</a></noscript><script language="javascript1.2"><!--
+if(!n) { d.write("--"+">"); }//--></script><!-- SpyLOG  --></font></td>
+</tr>
+</table>
+<!-- end of footer -->
+
+  </td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,2393 @@
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'html' -->
+<!-- FILE NAME SUGGESTIONS:
+   * html--front.html.twig
+   * html--home.html.twig
+   x html.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/html.html.twig' -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"cd3c2f1432",applicationID:"48922414"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<meta name="title" content="U.S. Pharmacopeia" />
+<meta property="og:determiner" content="| USP" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="description" content="We are dedicated to helping improve global health through standards setting in compounding, biologics, pharmaceutical manufacturing and other fields." />
+<meta name="twitter:title" content="| USP" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #0779bf} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>
+<style>.#back-top { right:40px; }#back-top span#button { background-color: #5eb1d0;} #back-top span#button:hover {opacity:1;filter:alpha(opacity = 1);background-color: #4898b6;}span#link {display : none;}</style>
+<link rel="shortcut icon" href="/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<script src="/sites/default/files/google_tag/google_tag.script.js?qjcre4"></script>
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_config.templates.email = {
+               subject: "${title}",
+               body: "${link}"
+          };
+          a2a_config.icon_color = "transparent,#5e6a71"; </script>
+<style>.a2a_kit a:hover path {
+              fill: #8075ff;
+          }
+          /* Override default opacity on hover */
+          .a2a_kit a:active .a2a_svg,
+          .a2a_kit a:hover .a2a_svg,
+          .a2a_menu a:active .a2a_svg,
+          .a2a_menu a:hover .a2a_svg {
+              opacity: 1 !important;
+          } </style>
+
+    <title>U.S. Pharmacopeia</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_Eiw9-LxE0JuK8CJuYc6mhFdMoszbrLvO1KUBvx6gcH4.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Hp_2YFjFY5TpBibKZPf0SeXr6eU9tt3Nt_Gz_60GkFw.css" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Lato:100,300,400,500,600,700" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_iYz8dPA7pBSKr-PLf9n9WlyNFDF8sHEZhB_UFY1gYhs.css" />
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+
+    <!-- Facebook Pixel Code to track conversions - Added at request of Global Comm -->
+    <script>
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1564022697182803');
+      fbq('track', "PageView");
+    </script>
+
+    <noscript>
+    <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1564022697182803&ev=PageView&noscript=1"
+        />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- iContact -->
+    <script>
+      (function(h,a,e,f,g,b,c,d){h[g]=h[g]||{};(h[g].info=h[g].info||[]).push(d);(h[g].g=h[g].g||function(m,i,j,n,k,l){k=a.createElement(m);l=m=="script"?a.getElementsByTagName("head")[0]:(a.documentElement||a.body);if(typeof i=="function"){i(k,j)}else{k[i]=j}k.src=n;l.appendChild(k)})(e,b,c,f)})(window,document,"script","https://t3072967.icpro.co/fp/r.js","___vo","async",1,"NDYwfDJFRTNDN3w0RTM4fDB8MHw2fDZCRDlENTZB");
+    </script>
+
+    <!-- Twitter universal website tag code -->
+    <script>
+      !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+      },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+      a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+      // Insert Twitter Pixel ID and Standard Event data below
+      twq('init','nxeum');
+      twq('track','PageView');
+    </script>
+    <!-- End Twitter universal website tag code -->
+
+    <!-- LinkedIn pixel -->
+    <script type="text/javascript">
+      _linkedin_data_partner_id = "50632";
+    </script>
+    <script type="text/javascript">
+      (function(){var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})();
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=50632&fmt=gif" />
+    </noscript>
+    <!-- End LinkedIn pixel -->
+
+    <!-- Begin Crazy Egg Heatmap -->
+    <script type="text/javascript">
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName("script")[0];
+      a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0067/1344.js?"+Math.floor(new Date().getTime()/3600000);
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+    </script>
+    <!-- End Crazy Egg Heatmap -->
+
+		<!-- If this a page that starts with an alias of "biologics, add scripts." -->
+				<!-- End Biologics -->
+
+    <!-- Begin Pardot Forms -->
+    <script type="text/javascript">
+    piAId = '324321';
+    piCId = '13014';
+    piHostname = 'pi.pardot.com';
+
+    (function() {
+        function async_load(){
+            var s = document.createElement('script'); s.type = 'text/javascript';
+            s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+            var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+        }
+        if(window.attachEvent) { window.attachEvent('onload', async_load); }
+        else { window.addEventListener('load', async_load, false); }
+    })();
+    </script>
+    <!-- End Pardot Forms -->
+
+    <!-- Begin India Training Institute -->
+        <!-- End India Training Institute -->
+
+    <!--BE IXF: JavaScript begin--> 
+		<script src="//cdn.bc0a.com/be_ixf_js_sdk.js"></script>
+		<script>
+			//Access to and use of BrightEdge Link Equity Manager is governed by the 
+			//Infrastructure Product Terms located at: www.brightedge.com/infrastructure-product-terms. 
+			//Customer acknowledges and agrees it has read, understands and agrees to be bound by the 
+			//Infrastructure Product Terms.
+			var be_sdk_options = {'sdk.account': 'f00000000185644',
+							  'requestparameters.caseinsensitive': true,
+							  'whitelist.parameter.list': 'ixf'
+							 };
+			BEJSSDK.construct(be_sdk_options);
+		</script>
+		<!--BE IXF: JavaScript end-->
+
+    <!--Crazy Egg heatmap begin-->
+        <!--Crazy Egg heatmap end-->
+
+    </head>
+
+        <body class="home url-home">
+
+    
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9F65K3" height="0" width="0" title="Google Tag Manager"></iframe></noscript>
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'off_canvas_page_wrapper' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/off-canvas-page-wrapper.html.twig' -->
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'page' -->
+<!-- FILE NAME SUGGESTIONS:
+   * page--path-alias--home.html.twig
+   x page--front.html.twig
+   * page--home.html.twig
+   * page.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/page--front.html.twig' -->
+<div class="layout-container front">
+
+  <header role="banner">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--header.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' -->
+  <div class="header">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--views-block--front-page-carousel-block-1.html.twig
+   * block--views-block--front-page-carousel-block-1.html.twig
+   * block--views-block.html.twig
+   * block--views.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div class="views-element-container front-page-carousel-block" id="block-views-block-front-page-carousel-block-1">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+<div>
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view__front_page_carousel' -->
+<!-- FILE NAME SUGGESTIONS:
+   * views-view--front-page-carousel.html.twig
+   * views-view--front-page-carousel.html.twig
+   * views-view.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/views-view--front_page_carousel.html.twig' -->
+<div class="carousel slide" id="front-page-slider">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner vertical" role="listbox">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_unformatted__front_page_carousel' -->
+<!-- FILE NAME SUGGESTIONS:
+   * views-view-unformatted--front-page-carousel.html.twig
+   * views-view-unformatted--front-page-carousel.html.twig
+   * views-view-unformatted.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/views-view-unformatted--front_page_carousel.html.twig' -->
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields__front_page_carousel' -->
+<!-- FILE NAME SUGGESTIONS:
+   * views-view-fields--front-page-carousel.html.twig
+   * views-view-fields--front-page-carousel.html.twig
+   * views-view-fields.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/views-view-fields--front_page_carousel.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<div class="item">
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+             <div class="mobile-img">
+
+
+
+
+  
+
+
+
+
+<img src="/sites/default/files/2020-07/trustx-homepage-mobile.jpg" width="645" height="645" alt="scientific graphics" />
+
+
+
+
+
+
+
+</div>
+        <div class="default-img">
+
+
+
+
+  
+
+
+
+
+<img src="/sites/default/files/2020-06/trustx-homepage.jpg" width="1600" height="645" alt="scientific graphics" />
+
+
+
+
+
+
+
+</div>
+        <div class="carousel-caption Left  mobile-text">
+               
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<h2>Can <span style="color:#ff6a39;">Trust</span> help treat the world's deadliest diseases?</h2>
+
+<p><a class="button-link orange-link" href="https://www.usp.org/campaigns/usp-dve" target="_blank">Launch the interactive experience</a></p>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+</div>
+</div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+<!-- END OUTPUT from 'themes/usporg/templates/views-view-fields--front_page_carousel.html.twig' -->
+
+
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields__front_page_carousel' -->
+<!-- FILE NAME SUGGESTIONS:
+   * views-view-fields--front-page-carousel.html.twig
+   * views-view-fields--front-page-carousel.html.twig
+   * views-view-fields.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/views-view-fields--front_page_carousel.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<div class="item">
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+             <div class="mobile-img">
+
+
+
+
+  
+
+
+
+
+<img src="/sites/default/files/2020-07/trust-colab-homepage-slider-mobile.jpg" width="645" height="645" alt="helix" />
+
+
+
+
+
+
+
+</div>
+        <div class="default-img">
+
+
+
+
+  
+
+
+
+
+<img src="/sites/default/files/2020-05/trust-colab-homepage-slider.jpg" width="1600" height="645" alt="helix" />
+
+
+
+
+
+
+
+</div>
+        <div class="carousel-caption Left  mobile-text">
+               
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<h2><span style="color:#ffffff;">Will innovations in healthcare and medicine deliver?</span></h2>
+<p><a class="button-link orange-link" href="https://www.usp.org/200-anniversary/trust-or-consequences">Read the report</a></p>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+</div>
+</div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+<!-- END OUTPUT from 'themes/usporg/templates/views-view-fields--front_page_carousel.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/usporg/templates/views-view-unformatted--front_page_carousel.html.twig' -->
+
+
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" data-slide="prev" href="#front-page-slider" role="button"><span class="sr-only">Previous</span></a>
+  <a class="right carousel-control" data-slide="next" href="#front-page-slider" role="button"><span class="sr-only">Next</span></a>
+
+</div>
+
+<!-- END OUTPUT from 'themes/usporg/templates/views-view--front_page_carousel.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--multisitesearch.html.twig
+   * block--block-content--b4613530-6d51-415c-8066-b2a91503b482.html.twig
+   * block--block-content.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div id="block-multisitesearch" class="search-box">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--body--basic-block.html.twig
+   * field--block-content--body.html.twig
+   * field--block-content--basic-block.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+            <div><div class="form-item"><label for="edit-search-api-fulltext">Fulltext search</label><input class="form-text" maxlength="128" name="search" size="30" type="text" value="" /></div>
+
+<div class="form-group"><select class="form-control"><option value="usporg">USP.org</option><option value="uspnf">USP-NF</option></select><div class="form-actions" id="edit-actions"><input class="form-submit" type="submit" value="Search" /></div>
+</div>
+</div>
+      
+<!-- END OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--globalpresence.html.twig
+   * block--menu-block--global-presence.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' -->
+<nav role="navigation" aria-labelledby="block-globalpresence-menu" id="block-globalpresence" class="global-presence-menu">
+      
+  <h2 id="block-globalpresence-menu">Global Presence</h2>
+  
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu' -->
+<!-- FILE NAME SUGGESTIONS:
+   * menu--global-presence.html.twig
+   x menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' -->
+
+              <ul>
+              <li>
+        <a href="/usp-brazil" target="" data-drupal-link-system-path="node/12346">USPвЂ“Brazil</a>
+              </li>
+          <li>
+        <a href="/usp-china" target="" data-drupal-link-system-path="node/12456">USPвЂ“China</a>
+              </li>
+          <li>
+        <a href="/other-locations#ethiopia" target="">USPвЂ“Ethiopia</a>
+              </li>
+          <li>
+        <a href="/usp-ghana" target="" data-drupal-link-system-path="node/11961">USPвЂ“Ghana</a>
+              </li>
+          <li>
+        <a href="/india" target="">USPвЂ“India</a>
+              </li>
+          <li>
+        <a href="/other-locations#indonesia" target="">USPвЂ“Indonesia</a>
+              </li>
+          <li>
+        <a href="/other-locations#nigeria" target="">USPвЂ“Nigeria</a>
+              </li>
+          <li>
+        <a href="/other-locations#pakistan">USPвЂ“Pakistan</a>
+              </li>
+          <li>
+        <a href="/other-locations#philippines" target="">USPвЂ“Philippines</a>
+              </li>
+          <li>
+        <a href="/switzerland" target="">USPвЂ“Switzerland</a>
+              </li>
+        </ul>
+  
+
+
+<!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' -->
+
+
+  </nav>
+
+<!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   x block--useraccountsmenu.html.twig
+   * block--menu-block--account.html.twig
+   * block--menu-block.html.twig
+   * block--system-menu-block.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/block--useraccountsmenu.html.twig' -->
+<nav role="navigation" aria-labelledby="block-useraccountsmenu-menu" id="block-useraccountsmenu" class="user-account-menu">
+    
+  <div class="dropdown">
+
+    <a aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" id="dropdownMenuLink">
+      <span class="login">Login</span>
+      <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+    </a>
+
+              
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu' -->
+<!-- FILE NAME SUGGESTIONS:
+   x menu--account.html.twig
+   * menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/menu--account.html.twig' -->
+
+        <ul class="dropdown-menu" aria-labelledby="dLabel">
+          <li>
+        <a href="https://online.uspnf.com">USP-NF Online</a>
+              </li>
+          <li>
+        <a href="https://online.uspdsc.com">DSC Online</a>
+              </li>
+          <li>
+        <a href="http://publications.usp.org/fcc-online/go">FCC Online/Forum</a>
+              </li>
+          <li>
+        <a href="https://online.usppf.com">PF Online</a>
+              </li>
+          <li>
+        <a href="http://www.usppf.com">PF Online (Legacy)</a>
+              </li>
+          <li>
+        <a href="https://compounding.usp.org" target="">USP Compounding</a>
+              </li>
+          <li>
+        <a href="http://www.uspusan.com" target="">USP Dictionary</a>
+              </li>
+          <li>
+        <a href="http://www.uspmsds.com" target="">SDS Online</a>
+              </li>
+          <li>
+        <a href="https://donors.usp.org" target="">USP Donor Portal</a>
+              </li>
+          <li>
+        <a href="http://www.uspchromcolumns.com/" target="">Chromatographic Columns</a>
+              </li>
+        </ul>
+  
+
+
+<!-- END OUTPUT from 'themes/usporg/templates/menu--account.html.twig' -->
+
+
+      </div>
+
+</nav>
+
+<!-- END OUTPUT from 'themes/usporg/templates/block--useraccountsmenu.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--usporg-branding.html.twig
+   x block--system-branding-block.html.twig
+   * block--system.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/block--system-branding-block.html.twig' -->
+<div id="block-usporg-branding">
+  
+    
+        <a href="/" title="USP" rel="home">
+      <img src="/themes/usporg/images/interior_logo.png" alt="USP" />
+    </a>
+      
+</div>
+
+<!-- END OUTPUT from 'themes/usporg/templates/block--system-branding-block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--socialmedia.html.twig
+   * block--menu-block--social-media.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' -->
+<nav role="navigation" aria-labelledby="block-socialmedia-menu" id="block-socialmedia" class="social-media-menu">
+            
+  <h2 class="visually-hidden" id="block-socialmedia-menu">Social Media</h2>
+  
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu' -->
+<!-- FILE NAME SUGGESTIONS:
+   * menu--social-media.html.twig
+   x menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' -->
+
+              <ul>
+              <li>
+        <a href="https://www.linkedin.com/company/uspharmacopeia" class="socicon socicon-linkedin" target="_blank" title="LinkedIn">Linked In</a>
+              </li>
+          <li>
+        <a href="https://twitter.com/uspharmacopeia" class="socicon socicon-twitter" target="_blank" title="Twitter">Twitter</a>
+              </li>
+          <li>
+        <a href="https://www.facebook.com/USPharmacopeia" class="socicon socicon-facebook" target="_blank" title="Facebook">Facebook</a>
+              </li>
+          <li>
+        <a href="https://www.youtube.com/user/USPharmacopeia" class="socicon socicon-youtube" target="_blank" title="YouTube">You Tube</a>
+              </li>
+          <li>
+        <a href="http://qualitymatters.usp.org" class="qmblog" target="_blank" title="Quality Matters Blog">QualityMatters Blog</a>
+              </li>
+        </ul>
+  
+
+
+<!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' -->
+
+
+  </nav>
+
+<!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--topmenu.html.twig
+   * block--menu-block--top-menu.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' -->
+<nav role="navigation" aria-labelledby="block-topmenu-menu" id="block-topmenu" class="top-menu">
+            
+  <h2 class="visually-hidden" id="block-topmenu-menu">Top Menu</h2>
+  
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu' -->
+<!-- FILE NAME SUGGESTIONS:
+   * menu--top-menu.html.twig
+   x menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' -->
+
+              <ul>
+              <li>
+        <a href="http://usp.jobs/" target="">Careers</a>
+              </li>
+          <li>
+        <a href="https://store.usp.org/OA_HTML/usp3_ibeCAcdLogin.jsp?a=b" target="">Store</a>
+              </li>
+          <li>
+        <a href="/help" target="" data-drupal-link-system-path="node/346">Help</a>
+              </li>
+          <li>
+        <a href="/frequently-asked-questions" target="" data-drupal-link-system-path="node/8756">FAQs</a>
+              </li>
+          <li>
+        <a href="/espanol" target="" data-drupal-link-system-path="node/12386">USP en EspaГ±ol</a>
+              </li>
+          <li>
+        <a href="http://www.usp.org/contact-us" target="">Contact Us</a>
+              </li>
+        </ul>
+  
+
+
+<!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' -->
+
+
+  </nav>
+
+<!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--ultimenumainnavigation.html.twig
+   * block--ultimenu-block--ultimenu-main.html.twig
+   * block--ultimenu-block.html.twig
+   * block--ultimenu.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div id="block-ultimenumainnavigation" class="ulti-main-menu">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'ultimenu' -->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/ultimenu.html.twig' -->
+
+<ul id="ultimenu-main" data-ultimenu="main" class="ultimenu ultimenu--main ultimenu--htb ultimenu--horizontal"><li class="ultimenu__item uitem has-ultimenu"><a href="/about" class="ultimenu__link" target="_self" data-drupal-link-system-path="node/176">About</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-about.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_about"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--mainnavigation.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="about-usp-menu-block"><h2 class="visually-hidden" id="block-mainnavigation-menu">About USP</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="/200-anniversary" data-drupal-link-system-path="node/19956">200th Anniversary</a></li><li><a href="/about" data-drupal-link-system-path="node/176">About USP</a></li><li><a href="/about/board-of-trustees" data-drupal-link-system-path="node/9506">Board of Trustees</a></li><li><a href="/about/convention-membership" target="" data-drupal-link-system-path="node/9511">Convention Membership</a></li><li><a href="/about/leadership" data-drupal-link-system-path="about/leadership">Leadership</a></li><li><a href="/about/volunteer-experts" data-drupal-link-system-path="node/11071">USP Volunteers</a></li><li><a href="/about/annual-report" data-drupal-link-system-path="node/26336">Annual Report</a></li><li><a href="http://usp.jobs" class="columns-2-menu-item" target="_self">Careers</a></li><li><a href="/about/legal-recognition" target="" data-drupal-link-system-path="node/9501">Legal Recognition</a></li><li><a href="/about/newsroom" target="_self" data-drupal-link-system-path="node/301">Newsroom</a></li><li><a href="/about/public-policy" target="" data-drupal-link-system-path="node/8146">Public Policy</a></li><li><a href="/about/quality-policy-iso-accreditation" data-drupal-link-system-path="node/11121">Quality Policy &amp; ISO Accreditation</a></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="/our-impact" class="ultimenu__link" data-drupal-link-system-path="node/181">Our Impact</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-our-impact.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_our_impact"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--main-6.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-main-6-menu" id="block-main-6"><h2 class="visually-hidden" id="block-main-6-menu">Our Impact</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="/our-impact" data-drupal-link-system-path="node/181">Our Impact</a></li><li><a href="/covid-19" data-drupal-link-system-path="node/24326">COVID-19</a></li><li><a href="https://www.usp.org/covid-19/supply-chain">Global Supply Chain</a></li><li><a href="/global-public-health" data-drupal-link-system-path="node/9841">Global Public Health</a></li><li><a href="/global-public-health/promoting-quality-of-medicines" data-drupal-link-system-path="node/17996">Promoting the Quality of Medicines Program (PQM+)</a></li><li><a href="/our-impact/antimicrobial-resistance" data-drupal-link-system-path="node/17881">Antimicrobial Resistance</a></li><li><a href="/our-impact/generics" data-drupal-link-system-path="node/17126">Generics Access Plan</a></li><li><a href="/our-impact/medicines-we-can-trust" data-drupal-link-system-path="node/18091">Medicines We Can Trust</a></li><li><a href="/our-impact/quality-institute" data-drupal-link-system-path="node/13151">Quality Institute</a></li><li><a href="/our-impact/true-impact" class="columns-2-menu-item" data-drupal-link-system-path="node/13081">True Impact Stories</a></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="" class="ultimenu__link is-active" target="" data-drupal-link-system-path="&lt;front&gt;">Our Work</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-our-work.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_our_work"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--mainnavigation-2.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-mainnavigation-2-menu" id="block-mainnavigation-2" class="our-work-menu-block"><h2 class="visually-hidden" id="block-mainnavigation-2-menu">Our Work Overview</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="/biologics" class="columns-2-menu-item" target="_self" data-drupal-link-system-path="node/8156">Biologics</a></li><li><a href="/chemical-medicines" target="" data-drupal-link-system-path="node/8161">Chemical Medicines</a></li><li><a href="/compounding" data-drupal-link-system-path="node/8166">Compounding Standards</a></li><li><a href="/dietary-supplements-herbal-medicines" target="_self" data-drupal-link-system-path="node/8171">Dietary Supplements &amp; Herbal Medicines</a></li><li><a href="/excipients" target="_self" data-drupal-link-system-path="node/8176">Excipients</a></li><li><a href="/food-safety-integrity" target="" data-drupal-link-system-path="node/8181">Food Safety &amp; Integrity</a></li><li><a href="/global-public-health" target="" data-drupal-link-system-path="node/9841">Global Public Health</a></li><li><a href="/harmonized-standards" target="" data-drupal-link-system-path="node/8186">Harmonized Standards</a></li><li><a href="/healthcare-quality-safety" data-drupal-link-system-path="node/8191">Healthcare Quality &amp; Safety Standards</a></li><li><a href="/reference-standards" data-drupal-link-system-path="node/10601">Reference Standards</a></li><li><a href="/research-innovation" data-drupal-link-system-path="node/10621">Research &amp; Innovation</a></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="/products-services" class="ultimenu__link" target="" data-drupal-link-system-path="node/191">Products &amp; Services</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-products-services.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_products_services"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--mainnavigation-3.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-mainnavigation-3-menu" id="block-mainnavigation-3" class="products-services-menu-block"><h2 class="visually-hidden" id="block-mainnavigation-3-menu">Products &amp; Services Overview</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="/products" class="parent-level2" target="" data-drupal-link-system-path="node/8211">Products</a><ul><li><a href="http://www.usp.org/reference-standards/reference-standards-catalog" target="">Reference Standards</a></li><li><a href="http://www.uspnf.com" target="">USP-NF</a></li><li><a href="http://www.foodchemicalscodex.org" target="">Food Chemicals Codex</a></li><li><a href="/products/dietary-supplements-compendium" target="" data-drupal-link-system-path="node/9896">Dietary Supplements Compendium</a></li><li><a href="/products/usp-compounding-compendium" target="" data-drupal-link-system-path="node/9906">USP Compounding Compendium</a></li><li><a href="/products" data-drupal-link-system-path="node/8211">All Products</a></li></ul></li><li><a href="/services" class="parent-level2" target="" data-drupal-link-system-path="node/8206">Services</a><ul><li><a href="http://education.usp.org" target="">Education Courses</a></li><li><a href="/services/verification-services" target="" data-drupal-link-system-path="node/10596">Verification Services</a></li><li><a href="https://www.usp.org/services/academic-connection">USP Academic Connection</a></li></ul></li><li><a href="/resources" data-drupal-link-system-path="node/9426">Resources</a><ul><li><a href="/sites/default/files/usp/document/authorized-distributors.pdf">Authorized Distributors</a></li><li><a href="/resources/compendial-tools" data-drupal-link-system-path="node/11411">Compendial Tools</a></li><li><a href="http://www.usp.org/chemical-medicines/dissolution">Dissolution</a></li><li><a href="/resources/chromatographic-columns" data-drupal-link-system-path="node/10051">Chromatographic Database</a></li><li><a href="http://hmc.usp.org/" target="">Herbal Medicines Compendium</a></li><li><a href="/global-public-health/medicines-quality-database" target="" data-drupal-link-system-path="node/10061">Medicines Quality Database</a></li><li><a href="http://www.uspmsds.com/msds/controller" target="">Safety Data Sheets</a></li><li><a href="/newsletter-and-information" target="" data-drupal-link-system-path="newsletter-and-information">Newsletters &amp; Updates</a></li></ul></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="/events-training" class="ultimenu__link" data-drupal-link-system-path="node/356">Events &amp; Training</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-events-training.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_events_training"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--main-2.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-main-2-menu" id="block-main-2"><h2 class="visually-hidden" id="block-main-2-menu">Events &amp; Training</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="/events-training" data-drupal-link-system-path="node/356">Events &amp; Training</a></li><li><a href="/events-training/search" data-drupal-link-system-path="events-training/search">Search Events &amp; Training</a></li><li><a href="http://education.usp.org/" class="columns-2-menu-item" target="_blank">USP Education &amp; Courses</a></li><li><a href="/events-training/workshops" target="" data-drupal-link-system-path="node/9171">Workshops</a></li><li><a href="/events-training/search?type%5B0%5D=event_types%3AExpert%20Committee/Panel%20Meeting" target="" data-drupal-link-query="{&quot;type&quot;:[&quot;event_types:Expert Committee\/Panel Meeting&quot;]}" data-drupal-link-system-path="events-training/search">Expert Committee Meetings</a></li><li><a href="http://www.usp.org/get-involved/provide-input/stakeholder-forums">Stakeholder Forums</a></li><li><a href="/events-training/user-forums" target="" data-drupal-link-system-path="node/10021">User Forums</a></li><li><a href="/events-training/usp-at-events" target="" data-drupal-link-system-path="node/10001">USP at Events</a></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="/get-involved" class="ultimenu__link" target="_self" data-drupal-link-system-path="node/201">Get Involved</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-get-involved.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_get_involved"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--main-4.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-main-4-menu" id="block-main-4" class="get-involved-menu-block"><h2 class="visually-hidden" id="block-main-4-menu">Get Involved Overview</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="/get-involved/partner" class="parent-level2" target="" data-drupal-link-system-path="node/8216">Partner</a><ul><li><a href="/get-involved/partner/new-revised-standards" data-drupal-link-system-path="node/9971">New or Revised Standards</a></li><li><a href="/get-involved/partner/reference-standards" data-drupal-link-system-path="node/9981">Reference Standards</a></li><li><a href="/get-involved/partner/compounding-monographs" data-drupal-link-system-path="node/9986">Compounding Monographs</a></li><li><a href="/get-involved/donate/submission-guidelines" target="" data-drupal-link-system-path="node/10181">Submission Guidelines</a></li><li><a href="/get-involved/partner/donor-recognition" data-drupal-link-system-path="node/12331">Donor Recognition</a></li></ul></li><li><a href="/get-involved/volunteer" class="parent-level2" target="" data-drupal-link-system-path="node/8221">Volunteer</a><ul><li><a href="/about/volunteer-experts" data-drupal-link-system-path="node/11071">How to Become a Volunteer</a></li><li><a href="http://callforcandidates.usp.org" target="">View Volunteer Opportunities</a></li></ul></li><li><a href="/get-involved/provide-input" class="parent-level2" target="" data-drupal-link-system-path="node/8226">Provide Input</a><ul><li><a href="/get-involved/comment-proposed-standards" target="" data-drupal-link-system-path="node/12321">Comment on Proposed Standards</a></li><li><a href="/get-involved/review-work-plans" target="" data-drupal-link-system-path="node/12311">Review Work Plans</a></li><li><a href="/get-involved/observe-expert-meeting" target="" data-drupal-link-system-path="node/12316">Observe a Committee Meeting</a></li><li><a href="/get-involved/provide-input/stakeholder-forums" target="" data-drupal-link-system-path="node/10016">Stakeholder Forums</a></li></ul></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="" class="ultimenu__link is-active" data-drupal-link-system-path="&lt;front&gt;">Resources</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-resources.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_resources"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--main-10.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-main-10-menu" id="block-main-10" class="resources-menu-block"><h2 class="visually-hidden" id="block-main-10-menu">Resources</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="https://usp.jobs/">Careers</a></li><li><a href="https://store.usp.org/OA_HTML/usp3_ibeCAcdLogin.jsp?a=b">Store</a></li><li><a href="/help" data-drupal-link-system-path="node/346">Help</a></li><li><a href="/frequently-asked-questions" data-drupal-link-system-path="node/8756">FAQs</a></li><li><a href="/espanol" data-drupal-link-system-path="node/12386">USP en EspaГ±ol</a></li><li><a href="/contact-us" data-drupal-link-system-path="node/326">Contact Us</a></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li></ul>
+<!-- END OUTPUT from 'themes/usporg/templates/ultimenu.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' -->
+
+
+  </header>
+
+  
+  
+
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--breadcrumb.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' -->
+  <div class="breadcrumb">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--usporg-messages.html.twig
+   x block--system-messages-block.html.twig
+   * block--system.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-messages-block.html.twig' -->
+<div data-drupal-messages-fallback class="hidden"></div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/block--system-messages-block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' -->
+
+
+
+  
+
+  <main role="main">
+
+    <div class="layout-content">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--content.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' -->
+  <div class="content">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--views-block--interior-pages-related-content-block-12.html.twig
+   * block--views-block--interior-pages-related-content-block-12.html.twig
+   * block--views-block.html.twig
+   * block--views.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div class="views-element-container photo-grid" id="block-views-block-interior-pages-related-content-block-12">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+<div>
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view.html.twig' -->
+<div class="photo-grid-wrapper normal js-view-dom-id-afda7a1c03907fd1492d1f2cbb3214e88529837aa274150430daa12b0b168f50">
+  
+  
+  
+
+      <header>
+      
+
+
+
+
+<h2 class="black text-align-center">Important Updates</h2>
+
+
+
+
+    </header>
+  
+  
+  
+
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_unformatted' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-unformatted.html.twig' -->
+    <div class="Three color-overlay dark-green views-row">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-field-optional-image"><div class="field-content dark-green">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/image/templates/image-formatter.html.twig' -->
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/image.html.twig' -->
+<img src="/sites/default/files/usp/image/optional-block/2020-10/lmic-survey-560x410.jpg" width="560" height="410" alt="man getting vaccine" />
+
+<!-- END OUTPUT from 'core/modules/system/templates/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'core/modules/image/templates/image-formatter.html.twig' -->
+
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-video"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-block-title"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-body"><div class="field-content dark-green">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<h2>COVID-19 vaccine survey of healthcare workers in low-and middle-income countries</h2>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-button-link"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<a href="https://www.usp.org/news/lmic-survey">Read more</a>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-nothing"><span class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<div class="pgbgcolor"></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</span></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+</div>
+    <div class="Three color-overlay black views-row">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-field-optional-image"><div class="field-content black">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/image/templates/image-formatter.html.twig' -->
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/image.html.twig' -->
+<img src="/sites/default/files/usp/image/optional-block/2020-05/EA837W_2_FreeTrial_560x410_0.jpg" width="560" height="410" alt="USP-NF online" />
+
+<!-- END OUTPUT from 'core/modules/system/templates/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'core/modules/image/templates/image-formatter.html.twig' -->
+
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-video"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-block-title"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-body"><div class="field-content black">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<h2><span style="color:#ffffff;">Get complimentary six-month access to <em>USP-NF Online</em></span></h2>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-button-link"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<a href="https://go.usp.org/USPNF-COVID-19">Read more</a>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-nothing"><span class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<div class="pgbgcolor"></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</span></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+</div>
+    <div class="Three color-overlay purple views-row">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-field-optional-image"><div class="field-content purple">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/image/templates/image-formatter.html.twig' -->
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/image.html.twig' -->
+<img src="/sites/default/files/usp/image/optional-block/2020-04/hand-sanitizer-toolkit.jpg" width="560" height="410" alt="hand sanitizer" />
+
+<!-- END OUTPUT from 'core/modules/system/templates/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'core/modules/image/templates/image-formatter.html.twig' -->
+
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-video"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-block-title"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-body"><div class="field-content purple">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<h2><span style="color:#ffffff;">Important alcohol-based hand sanitizer information</span></h2>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-button-link"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<a href="https://www.usp.org/covid-19/hand-sanitizer-information">Learn more</a>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-nothing"><span class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<div class="pgbgcolor"></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</span></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-unformatted.html.twig' -->
+
+
+    
+
+  
+  
+
+  
+  
+</div>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--frontpagefeaturedblockbottom.html.twig
+   * block--block-content--0bf6009b-c85f-449d-ae53-0dc87f5aa209.html.twig
+   * block--block-content.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div id="block-frontpagefeaturedblockbottom" class="front-page-featured-block-bottom">
+  
+    
+      
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--lateststandardsupdates.html.twig
+   * block--block-content--324e273d-3274-4ff4-87a6-f6fdd4c8c46a.html.twig
+   * block--block-content.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div id="block-lateststandardsupdates" class="title-block">
+  
+      <h2>Latest Standards Updates</h2>
+    
+      
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--uspnf.html.twig
+   * block--block-content--0c86727e-30a7-4433-a7d9-33b0b254131b.html.twig
+   * block--block-content.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div id="block-uspnf" class="uspnf-permanent-block">
+  
+      <h2>USP-NF</h2>
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--body--basic.html.twig
+   * field--block-content--body.html.twig
+   * field--block-content--basic.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+            <div class="perm-block-text"><p><a href="https://www.uspnf.com/sites/default/files/usp_pdf/EN/USPNF/usp-nf-commentary/usp-nf-2021-issue-1-commentary.pdf">USPвЂ“NF 2021, Issue 1 Commentary</a> (posted 02вЂ“NovвЂ“2020)</p>
+
+<hr /><p><a href="https://www.uspnf.com/official-text/revision-bulletins">Five New Revision Bulletins(</a> (posted 30вЂ“OctвЂ“2020)</p>
+
+<hr /><p><a href="https://www.uspnf.com/notices">One New General Chapter Prospectus</a>В (posted 25вЂ“SepвЂ“2020)</p>
+
+<hr /><p><a href="https://www.uspnf.com/notices#new">One New Publication Announcement </a> (posted 23вЂ“OctвЂ“2020)</p>
+
+<hr /><p><a href="https://www.uspnf.com/notices#new">One New Notice of Intent to Revise </a> (posted 23вЂ“OctвЂ“2020)</p>
+
+<hr /><p><a href="https://www.uspnf.com/notices/reporting-threshold-update-20201012">One New General Notice </a> (posted 12вЂ“OctвЂ“2020)</p>
+
+<hr /><p><a href="https://www.uspnf.com/notices#new">Three New Reference Changes </a> (posted 02вЂ“OctвЂ“2020)</p>
+</div>
+      
+<!-- END OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--referencestandards.html.twig
+   * block--block-content--d56c0973-20fc-459f-b673-f105b9125bf8.html.twig
+   * block--block-content.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div id="block-referencestandards" class="rs-permanent-block">
+  
+      <h2>Reference Standards</h2>
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--body--basic.html.twig
+   * field--block-content--body.html.twig
+   * field--block-content--basic.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+            <div class="perm-block-text"><div id="alert-box">
+<div id="alert-body">
+<p><a href="/reference-standards/covid-19-update">Updates on USP Reference Standards in response to COVID-19</a></p>
+</div>
+</div>
+<p></p>
+<p>Download full list as: <a href="http://static.usp.org/doc/referenceStandards/usprefstd.xls"><strong>EXCEL</strong></a><strong> |</strong> <a href="http://static.usp.org/doc/referenceStandards/dailycatalog.pdf"><strong>PDF</strong></a></p>
+
+<p><a href="https://store.usp.org/OA_HTML/ibeCCtpSctDspRte.jsp?section=12628">Biologics Reference Materials</a></p>
+
+<p>Food Ingredients Reference Materials list:В <strong><a href="http://static.usp.org/doc/referenceStandards/uspfccrefstd.xls" target="_blank">EXCEL</a>В |В <a href="http://static.usp.org/doc/referenceStandards/dailyfcccatalog.pdf" target="_blank">PDF</a></strong></p>
+
+<p>Dietary Supplements list: <strong><a href="https://static.usp.org/doc/referenceStandards/dailydscatalog.pdf" target="_blank">PDF</a></strong></p>
+
+<p><a href="/reference-standards/new-reference-standards">New USP Reference Standards</a></p>
+</div>
+      
+<!-- END OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--views-block--front-page-image-video-block-1.html.twig
+   * block--views-block--front-page-image-video-block-1.html.twig
+   * block--views-block.html.twig
+   * block--views.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div class="views-element-container front-page-image-video full-width-color from-right" id="block-views-block-front-page-image-video-block-1">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+<div>
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view.html.twig' -->
+<div class="js-view-dom-id-3972d14581148ef7e1bb677c5f3cfa33a463ae3a4d2310ed0c88c6165e537d67">
+  
+  
+  
+
+  
+  
+  
+
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_unformatted' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-unformatted.html.twig' -->
+    <div class="views-row">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-field-optional-video"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+<div class="video-embed-field-provider-html-5">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'video_embed_html5' -->
+<!-- BEGIN OUTPUT from 'modules/contrib/video_embed_html5/templates/video-embed-html5.html.twig' -->
+<video controls  width="100%">
+    <source src="/sites/default/files/usp/video/usp-trust-me.mp4" type="video/mp4"/>
+</video>
+<!-- END OUTPUT from 'modules/contrib/video_embed_html5/templates/video-embed-html5.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-video-placeholder-image"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/image/templates/image-formatter.html.twig' -->
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/image.html.twig' -->
+<img src="/sites/default/files/sites/default/files/usp/image/optional-blocks/trust-me-thumb.png" width="1665" height="899" alt="what is trust" />
+
+<!-- END OUTPUT from 'core/modules/system/templates/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'core/modules/image/templates/image-formatter.html.twig' -->
+
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-image"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-body"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<h2><span style="color:#ffffff;">200 years of building trust</span></h2>
+
+<p style="color:#ffffff;">The United States Pharmacopeia (USP) was created nearly 200 years ago, dedicated to instilling trust where it matters most: in the medicines, supplements and foods people rely on for their health. The quality standards we develop help manufacturers deliver on their promises of safe products, while building confidence among healthcare practitioners, patients and consumers.</p>
+
+<p><a class="button-link orange-link" href="https://www.usp.org/200-anniversary">Learn more about our legacy of trust</a></p>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-unformatted.html.twig' -->
+
+
+    
+
+  
+  
+
+      <footer>
+      
+    </footer>
+  
+  
+</div>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--views-block--front-page-image-video-block-3.html.twig
+   * block--views-block--front-page-image-video-block-3.html.twig
+   * block--views-block.html.twig
+   * block--views.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div class="views-element-container front-page-image-video full-width-color first-row from-left dark-green" id="block-views-block-front-page-image-video-block-3">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+<div>
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view.html.twig' -->
+<div class="js-view-dom-id-4ce84a0c52c5e98a04ba67c63106d556a3a71bf785470946d2bdb2145f388023">
+  
+  
+  
+
+  
+  
+  
+
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_unformatted' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-unformatted.html.twig' -->
+    <div class="views-row">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-field-optional-video"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+<div class="video-embed-field-provider-html-5">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'video_embed_html5' -->
+<!-- BEGIN OUTPUT from 'modules/contrib/video_embed_html5/templates/video-embed-html5.html.twig' -->
+<video controls  width="100%">
+    <source src="https://www.usp.org/sites/default/files/usp/video/usp-convention/commissioner-hahn-video-welcome.mp4" type="video/mp4"/>
+</video>
+<!-- END OUTPUT from 'modules/contrib/video_embed_html5/templates/video-embed-html5.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-video-placeholder-image"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/image/templates/image-formatter.html.twig' -->
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/image.html.twig' -->
+<img src="/sites/default/files/sites/default/files/usp/image/optional-blocks/CONV639W_Video_FDA-Hahn_800x450.jpg" width="800" height="450" alt="FDA Commissioner, Stephen Hahn" />
+
+<!-- END OUTPUT from 'core/modules/system/templates/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'core/modules/image/templates/image-formatter.html.twig' -->
+
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-image"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-body"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<h2><span style="color:#ffffff;">FDA Commissioner welcomes USP Convention Members</span></h2>
+
+<p><span style="color:#ffffff;">Commissioner Hahn reflects on the FDAвЂ™s shared history with USP to improve public health and protect patient safety, including current efforts to combat COVID-19.</span></p>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-unformatted.html.twig' -->
+
+
+    
+
+  
+  
+
+      <footer>
+      
+    </footer>
+  
+  
+</div>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--twitterfeed.html.twig
+   * block--block-content--15c65e01-c9ba-4e9f-9c31-8ac9d812a82e.html.twig
+   * block--block-content.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div id="block-twitterfeed" class="twitter-feed-block">
+  
+      <h2>USP Tweets</h2>
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--body--basic.html.twig
+   * field--block-content--body.html.twig
+   * field--block-content--basic.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+            <div class="perm-block-text"><p><a class="twitter-timeline" data-chrome="noheader noscrollbar transparent" data-tweet-limit="2" href="https://twitter.com/USPharmacopeia?ref_src=twsrc%5Etfw">В </a> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+</div>
+      
+<!-- END OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--field-collapsible-content--basic.html.twig
+   * field--block-content--field-collapsible-content.html.twig
+   * field--block-content--basic.html.twig
+   * field--field-collapsible-content.html.twig
+   * field--entity-reference-revisions.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+      <div>
+              <div>
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'paragraph' -->
+<!-- FILE NAME SUGGESTIONS:
+   * paragraph--collapsible-content--default.html.twig
+   x paragraph--collapsible-content.html.twig
+   * paragraph--default.html.twig
+   * paragraph.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/paragraph--collapsible-content.html.twig' -->
+  <div class="paragraph paragraph--type--collapsible-content paragraph--view-mode--default">
+          
+
+          
+          
+
+            <div class="collapse-content">
+        
+      </div>
+      <div class="expanded-collapsed" style="display:none">False</div>
+      </div>
+
+<!-- END OUTPUT from 'themes/usporg/templates/paragraph--collapsible-content.html.twig' -->
+
+</div>
+          </div>
+  
+<!-- END OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--views-block--front-page-image-video-block-2.html.twig
+   * block--views-block--front-page-image-video-block-2.html.twig
+   * block--views-block.html.twig
+   * block--views.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div class="views-element-container front-page-image-video from-right" id="block-views-block-front-page-image-video-block-2">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+<div>
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view.html.twig' -->
+<div class="js-view-dom-id-ecee666e2e4314da4a52b92eab4481e1a7a0d360280fcc5ccd276147dd382982">
+  
+  
+  
+
+  
+  
+  
+
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_unformatted' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-unformatted.html.twig' -->
+    <div class="views-row">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-field-optional-block-title"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+Quality Matters Blog
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-video"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-video-placeholder-image"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-field-optional-image"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'core/modules/image/templates/image-formatter.html.twig' -->
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/image.html.twig' -->
+<img src="/sites/default/files/usp/image/optional-block/2020-11/EA870W--Blog_370x200_2020-11-3_0.jpg" width="372" height="200" alt="" />
+
+<!-- END OUTPUT from 'core/modules/system/templates/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'core/modules/image/templates/image-formatter.html.twig' -->
+
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-body"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<h2>Ignore the politics. Trust the science</h2>
+
+<p>Recent politicization of the COVID-19 vaccine development and approval process has led to a concerning loss of confidence in vital governmental institutions designed to protect the public from harm.</p>
+
+<p><a class="button-link orange-link" href="https://qualitymatters.usp.org/ignore-politics-trust-science?utm_source=qmblogsubscribers&amp;utm_medium=email&amp;utm_campaign=covid19">Read more</a></p>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-unformatted.html.twig' -->
+
+
+    
+
+  
+  
+
+      <footer>
+      
+    </footer>
+  
+  
+</div>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--buttonlinktoreferencestandards.html.twig
+   * block--block-content--e01190c5-4460-4c90-9da9-494c525da20e.html.twig
+   * block--block-content.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div id="block-buttonlinktoreferencestandards" class="button-rs">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--field-button-link-and-text--buttons.html.twig
+   * field--block-content--field-button-link-and-text.html.twig
+   * field--block-content--buttons.html.twig
+   * field--field-button-link-and-text.html.twig
+   * field--link.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+            <div><a href="/reference-standards/reference-standards-catalog">Purchase</a></div>
+      
+<!-- END OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--buttonlinktouspnf.html.twig
+   * block--block-content--a365ca44-a436-4c3d-914e-dad89cbbfeee.html.twig
+   * block--block-content.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div id="block-buttonlinktouspnf" class="button-uspnf">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--field-button-link-and-text--buttons.html.twig
+   * field--block-content--field-button-link-and-text.html.twig
+   * field--block-content--buttons.html.twig
+   * field--field-button-link-and-text.html.twig
+   * field--link.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+            <div><a href="http://www.uspnf.com/">Access USP-NF</a></div>
+      
+<!-- END OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' -->
+
+
+    </div>
+  </main>
+
+      <footer role="contentinfo">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--footer.html.twig
+   x region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' -->
+  <div class="footer">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--socialmedia-2.html.twig
+   * block--menu-block--social-media.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' -->
+<nav role="navigation" aria-labelledby="block-socialmedia-2-menu" id="block-socialmedia-2" class="social-media-menu">
+            
+  <h2 class="visually-hidden" id="block-socialmedia-2-menu">Social Media</h2>
+  
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu' -->
+<!-- FILE NAME SUGGESTIONS:
+   * menu--social-media.html.twig
+   x menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' -->
+
+              <ul>
+              <li>
+        <a href="https://www.linkedin.com/company/uspharmacopeia" class="socicon socicon-linkedin" target="_blank" title="LinkedIn">Linked In</a>
+              </li>
+          <li>
+        <a href="https://twitter.com/uspharmacopeia" class="socicon socicon-twitter" target="_blank" title="Twitter">Twitter</a>
+              </li>
+          <li>
+        <a href="https://www.facebook.com/USPharmacopeia" class="socicon socicon-facebook" target="_blank" title="Facebook">Facebook</a>
+              </li>
+          <li>
+        <a href="https://www.youtube.com/user/USPharmacopeia" class="socicon socicon-youtube" target="_blank" title="YouTube">You Tube</a>
+              </li>
+          <li>
+        <a href="http://qualitymatters.usp.org" class="qmblog" target="_blank" title="Quality Matters Blog">QualityMatters Blog</a>
+              </li>
+        </ul>
+  
+
+
+<!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' -->
+
+
+  </nav>
+
+<!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--socialmedia-3.html.twig
+   * block--menu-block--social-media.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' -->
+<nav role="navigation" aria-labelledby="block-socialmedia-3-menu" id="block-socialmedia-3" class="social-media-menu">
+            
+  <h2 class="visually-hidden" id="block-socialmedia-3-menu">Social Media 3</h2>
+  
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu' -->
+<!-- FILE NAME SUGGESTIONS:
+   * menu--social-media.html.twig
+   x menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' -->
+
+              <ul>
+              <li>
+        <a href="https://www.linkedin.com/company/uspharmacopeia" class="socicon socicon-linkedin" target="_blank" title="LinkedIn">Linked In</a>
+              </li>
+          <li>
+        <a href="https://twitter.com/uspharmacopeia" class="socicon socicon-twitter" target="_blank" title="Twitter">Twitter</a>
+              </li>
+          <li>
+        <a href="https://www.facebook.com/USPharmacopeia" class="socicon socicon-facebook" target="_blank" title="Facebook">Facebook</a>
+              </li>
+          <li>
+        <a href="https://www.youtube.com/user/USPharmacopeia" class="socicon socicon-youtube" target="_blank" title="YouTube">You Tube</a>
+              </li>
+          <li>
+        <a href="http://qualitymatters.usp.org" class="qmblog" target="_blank" title="Quality Matters Blog">QualityMatters Blog</a>
+              </li>
+        </ul>
+  
+
+
+<!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' -->
+
+
+  </nav>
+
+<!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--ultimenumain.html.twig
+   * block--ultimenu-block--ultimenu-main.html.twig
+   * block--ultimenu-block.html.twig
+   * block--ultimenu.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div id="block-ultimenumain" class="ulti-main-menu">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'ultimenu' -->
+<!-- BEGIN OUTPUT from 'themes/usporg/templates/ultimenu.html.twig' -->
+
+<ul id="ultimenu-main" data-ultimenu="main" class="ultimenu ultimenu--main ultimenu--vtr ultimenu--vertical"><li class="ultimenu__item uitem has-ultimenu"><a href="/about" class="ultimenu__link" target="_self" data-drupal-link-system-path="node/176">About</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-about.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_about"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--mainnavigation.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="about-usp-menu-block"><h2 class="visually-hidden" id="block-mainnavigation-menu">About USP</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="/200-anniversary" data-drupal-link-system-path="node/19956">200th Anniversary</a></li><li><a href="/about" data-drupal-link-system-path="node/176">About USP</a></li><li><a href="/about/board-of-trustees" data-drupal-link-system-path="node/9506">Board of Trustees</a></li><li><a href="/about/convention-membership" target="" data-drupal-link-system-path="node/9511">Convention Membership</a></li><li><a href="/about/leadership" data-drupal-link-system-path="about/leadership">Leadership</a></li><li><a href="/about/volunteer-experts" data-drupal-link-system-path="node/11071">USP Volunteers</a></li><li><a href="/about/annual-report" data-drupal-link-system-path="node/26336">Annual Report</a></li><li><a href="http://usp.jobs" class="columns-2-menu-item" target="_self">Careers</a></li><li><a href="/about/legal-recognition" target="" data-drupal-link-system-path="node/9501">Legal Recognition</a></li><li><a href="/about/newsroom" target="_self" data-drupal-link-system-path="node/301">Newsroom</a></li><li><a href="/about/public-policy" target="" data-drupal-link-system-path="node/8146">Public Policy</a></li><li><a href="/about/quality-policy-iso-accreditation" data-drupal-link-system-path="node/11121">Quality Policy &amp; ISO Accreditation</a></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="/our-impact" class="ultimenu__link" data-drupal-link-system-path="node/181">Our Impact</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-our-impact.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_our_impact"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--main-6.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-main-6-menu" id="block-main-6"><h2 class="visually-hidden" id="block-main-6-menu">Our Impact</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="/our-impact" data-drupal-link-system-path="node/181">Our Impact</a></li><li><a href="/covid-19" data-drupal-link-system-path="node/24326">COVID-19</a></li><li><a href="https://www.usp.org/covid-19/supply-chain">Global Supply Chain</a></li><li><a href="/global-public-health" data-drupal-link-system-path="node/9841">Global Public Health</a></li><li><a href="/global-public-health/promoting-quality-of-medicines" data-drupal-link-system-path="node/17996">Promoting the Quality of Medicines Program (PQM+)</a></li><li><a href="/our-impact/antimicrobial-resistance" data-drupal-link-system-path="node/17881">Antimicrobial Resistance</a></li><li><a href="/our-impact/generics" data-drupal-link-system-path="node/17126">Generics Access Plan</a></li><li><a href="/our-impact/medicines-we-can-trust" data-drupal-link-system-path="node/18091">Medicines We Can Trust</a></li><li><a href="/our-impact/quality-institute" data-drupal-link-system-path="node/13151">Quality Institute</a></li><li><a href="/our-impact/true-impact" class="columns-2-menu-item" data-drupal-link-system-path="node/13081">True Impact Stories</a></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="" class="ultimenu__link is-active" target="" data-drupal-link-system-path="&lt;front&gt;">Our Work</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-our-work.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_our_work"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--mainnavigation-2.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-mainnavigation-2-menu" id="block-mainnavigation-2" class="our-work-menu-block"><h2 class="visually-hidden" id="block-mainnavigation-2-menu">Our Work Overview</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="/biologics" class="columns-2-menu-item" target="_self" data-drupal-link-system-path="node/8156">Biologics</a></li><li><a href="/chemical-medicines" target="" data-drupal-link-system-path="node/8161">Chemical Medicines</a></li><li><a href="/compounding" data-drupal-link-system-path="node/8166">Compounding Standards</a></li><li><a href="/dietary-supplements-herbal-medicines" target="_self" data-drupal-link-system-path="node/8171">Dietary Supplements &amp; Herbal Medicines</a></li><li><a href="/excipients" target="_self" data-drupal-link-system-path="node/8176">Excipients</a></li><li><a href="/food-safety-integrity" target="" data-drupal-link-system-path="node/8181">Food Safety &amp; Integrity</a></li><li><a href="/global-public-health" target="" data-drupal-link-system-path="node/9841">Global Public Health</a></li><li><a href="/harmonized-standards" target="" data-drupal-link-system-path="node/8186">Harmonized Standards</a></li><li><a href="/healthcare-quality-safety" data-drupal-link-system-path="node/8191">Healthcare Quality &amp; Safety Standards</a></li><li><a href="/reference-standards" data-drupal-link-system-path="node/10601">Reference Standards</a></li><li><a href="/research-innovation" data-drupal-link-system-path="node/10621">Research &amp; Innovation</a></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="/products-services" class="ultimenu__link" target="" data-drupal-link-system-path="node/191">Products &amp; Services</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-products-services.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_products_services"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--mainnavigation-3.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-mainnavigation-3-menu" id="block-mainnavigation-3" class="products-services-menu-block"><h2 class="visually-hidden" id="block-mainnavigation-3-menu">Products &amp; Services Overview</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="/products" class="parent-level2" target="" data-drupal-link-system-path="node/8211">Products</a><ul><li><a href="http://www.usp.org/reference-standards/reference-standards-catalog" target="">Reference Standards</a></li><li><a href="http://www.uspnf.com" target="">USP-NF</a></li><li><a href="http://www.foodchemicalscodex.org" target="">Food Chemicals Codex</a></li><li><a href="/products/dietary-supplements-compendium" target="" data-drupal-link-system-path="node/9896">Dietary Supplements Compendium</a></li><li><a href="/products/usp-compounding-compendium" target="" data-drupal-link-system-path="node/9906">USP Compounding Compendium</a></li><li><a href="/products" data-drupal-link-system-path="node/8211">All Products</a></li></ul></li><li><a href="/services" class="parent-level2" target="" data-drupal-link-system-path="node/8206">Services</a><ul><li><a href="http://education.usp.org" target="">Education Courses</a></li><li><a href="/services/verification-services" target="" data-drupal-link-system-path="node/10596">Verification Services</a></li><li><a href="https://www.usp.org/services/academic-connection">USP Academic Connection</a></li></ul></li><li><a href="/resources" data-drupal-link-system-path="node/9426">Resources</a><ul><li><a href="/sites/default/files/usp/document/authorized-distributors.pdf">Authorized Distributors</a></li><li><a href="/resources/compendial-tools" data-drupal-link-system-path="node/11411">Compendial Tools</a></li><li><a href="http://www.usp.org/chemical-medicines/dissolution">Dissolution</a></li><li><a href="/resources/chromatographic-columns" data-drupal-link-system-path="node/10051">Chromatographic Database</a></li><li><a href="http://hmc.usp.org/" target="">Herbal Medicines Compendium</a></li><li><a href="/global-public-health/medicines-quality-database" target="" data-drupal-link-system-path="node/10061">Medicines Quality Database</a></li><li><a href="http://www.uspmsds.com/msds/controller" target="">Safety Data Sheets</a></li><li><a href="/newsletter-and-information" target="" data-drupal-link-system-path="newsletter-and-information">Newsletters &amp; Updates</a></li></ul></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="/events-training" class="ultimenu__link" data-drupal-link-system-path="node/356">Events &amp; Training</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-events-training.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_events_training"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--main-2.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-main-2-menu" id="block-main-2"><h2 class="visually-hidden" id="block-main-2-menu">Events &amp; Training</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="/events-training" data-drupal-link-system-path="node/356">Events &amp; Training</a></li><li><a href="/events-training/search" data-drupal-link-system-path="events-training/search">Search Events &amp; Training</a></li><li><a href="http://education.usp.org/" class="columns-2-menu-item" target="_blank">USP Education &amp; Courses</a></li><li><a href="/events-training/workshops" target="" data-drupal-link-system-path="node/9171">Workshops</a></li><li><a href="/events-training/search?type%5B0%5D=event_types%3AExpert%20Committee/Panel%20Meeting" target="" data-drupal-link-query="{&quot;type&quot;:[&quot;event_types:Expert Committee\/Panel Meeting&quot;]}" data-drupal-link-system-path="events-training/search">Expert Committee Meetings</a></li><li><a href="http://www.usp.org/get-involved/provide-input/stakeholder-forums">Stakeholder Forums</a></li><li><a href="/events-training/user-forums" target="" data-drupal-link-system-path="node/10021">User Forums</a></li><li><a href="/events-training/usp-at-events" target="" data-drupal-link-system-path="node/10001">USP at Events</a></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="/get-involved" class="ultimenu__link" target="_self" data-drupal-link-system-path="node/201">Get Involved</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-get-involved.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_get_involved"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--main-4.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-main-4-menu" id="block-main-4" class="get-involved-menu-block"><h2 class="visually-hidden" id="block-main-4-menu">Get Involved Overview</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="/get-involved/partner" class="parent-level2" target="" data-drupal-link-system-path="node/8216">Partner</a><ul><li><a href="/get-involved/partner/new-revised-standards" data-drupal-link-system-path="node/9971">New or Revised Standards</a></li><li><a href="/get-involved/partner/reference-standards" data-drupal-link-system-path="node/9981">Reference Standards</a></li><li><a href="/get-involved/partner/compounding-monographs" data-drupal-link-system-path="node/9986">Compounding Monographs</a></li><li><a href="/get-involved/donate/submission-guidelines" target="" data-drupal-link-system-path="node/10181">Submission Guidelines</a></li><li><a href="/get-involved/partner/donor-recognition" data-drupal-link-system-path="node/12331">Donor Recognition</a></li></ul></li><li><a href="/get-involved/volunteer" class="parent-level2" target="" data-drupal-link-system-path="node/8221">Volunteer</a><ul><li><a href="/about/volunteer-experts" data-drupal-link-system-path="node/11071">How to Become a Volunteer</a></li><li><a href="http://callforcandidates.usp.org" target="">View Volunteer Opportunities</a></li></ul></li><li><a href="/get-involved/provide-input" class="parent-level2" target="" data-drupal-link-system-path="node/8226">Provide Input</a><ul><li><a href="/get-involved/comment-proposed-standards" target="" data-drupal-link-system-path="node/12321">Comment on Proposed Standards</a></li><li><a href="/get-involved/review-work-plans" target="" data-drupal-link-system-path="node/12311">Review Work Plans</a></li><li><a href="/get-involved/observe-expert-meeting" target="" data-drupal-link-system-path="node/12316">Observe a Committee Meeting</a></li><li><a href="/get-involved/provide-input/stakeholder-forums" target="" data-drupal-link-system-path="node/10016">Stakeholder Forums</a></li></ul></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li><li class="ultimenu__item uitem has-ultimenu"><a href="" class="ultimenu__link is-active" data-drupal-link-system-path="&lt;front&gt;">Resources</a><section class="ultimenu__flyout"><!-- THEME DEBUG --><!-- THEME HOOK: 'region' --><!-- FILE NAME SUGGESTIONS:
+   * region--ultimenu-main-resources.html.twig
+   x region.html.twig
+--><!-- BEGIN OUTPUT from 'themes/usporg/templates/region.html.twig' --><div class="ultimenu__region" class="ultimenu_main_resources"><!-- THEME DEBUG --><!-- THEME HOOK: 'block' --><!-- FILE NAME SUGGESTIONS:
+   * block--main-10.html.twig
+   * block--menu-block--main.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --><nav role="navigation" aria-labelledby="block-main-10-menu" id="block-main-10" class="resources-menu-block"><h2 class="visually-hidden" id="block-main-10-menu">Resources</h2><!-- THEME DEBUG --><!-- THEME HOOK: 'menu' --><!-- FILE NAME SUGGESTIONS:
+   * menu--main.html.twig
+   x menu.html.twig
+--><!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' --><ul><li><a href="https://usp.jobs/">Careers</a></li><li><a href="https://store.usp.org/OA_HTML/usp3_ibeCAcdLogin.jsp?a=b">Store</a></li><li><a href="/help" data-drupal-link-system-path="node/346">Help</a></li><li><a href="/frequently-asked-questions" data-drupal-link-system-path="node/8756">FAQs</a></li><li><a href="/espanol" data-drupal-link-system-path="node/12386">USP en EspaГ±ol</a></li><li><a href="/contact-us" data-drupal-link-system-path="node/326">Contact Us</a></li></ul><!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' --></nav><!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' --></div><!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' --></section></li></ul>
+<!-- END OUTPUT from 'themes/usporg/templates/ultimenu.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--bottommenu.html.twig
+   * block--menu-block--footer.html.twig
+   * block--menu-block.html.twig
+   x block--system-menu-block.html.twig
+   * block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' -->
+<nav role="navigation" aria-labelledby="block-bottommenu-menu" id="block-bottommenu" class="bottom-menu">
+            
+  <h2 class="visually-hidden" id="block-bottommenu-menu">Bottom Menu</h2>
+  
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu' -->
+<!-- FILE NAME SUGGESTIONS:
+   * menu--footer.html.twig
+   x menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/menu.html.twig' -->
+
+              <ul>
+              <li>
+        <a href="/ethics" target="" data-drupal-link-system-path="node/331">Code of Ethics</a>
+              </li>
+          <li>
+        <a href="/legal-notices" target="" data-drupal-link-system-path="node/10101">Legal Notices</a>
+              </li>
+          <li>
+        <a href="/legal-notices/privacy-policy" target="" data-drupal-link-system-path="node/336">Privacy Policy</a>
+              </li>
+          <li>
+        <a href="/legal-notices/terms" target="" data-drupal-link-system-path="node/341">Terms of Use</a>
+              </li>
+          <li>
+        <a href="/sitemap" target="" data-drupal-link-system-path="sitemap">Sitemap</a>
+              </li>
+          <li>
+        <a href="/" class="copyright is-active" target="" data-drupal-link-system-path="&lt;front&gt;">В© The United States Pharmacopeial Convention</a>
+              </li>
+        </ul>
+  
+
+
+<!-- END OUTPUT from 'core/modules/system/templates/menu.html.twig' -->
+
+
+  </nav>
+
+<!-- END OUTPUT from 'core/modules/system/templates/block--system-menu-block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--buttontext.html.twig
+   * block--block-content--90235f20-570d-4c48-a9cd-0ddc9f382286.html.twig
+   * block--block-content.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+<div id="block-buttontext">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   * field--block-content--body--basic-block.html.twig
+   * field--block-content--body.html.twig
+   * field--block-content--basic-block.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+            <div><style>
+<!--/*--><![CDATA[/* ><!--*/
+.button-link { color: #fff !important; }
+/*--><!]]>*/
+</style></div>
+      
+<!-- END OUTPUT from 'core/modules/system/templates/field.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/block/templates/block.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'themes/usporg/templates/region.html.twig' -->
+
+
+    </footer>
+  
+</div>
+<div class="modal fade" id="videoModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header"><button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">Г—</span></button></div>
+      <div class="modal-body">
+        <iframe width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+        <video autoplay="true" controls="true"></video>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="pdfModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header"><button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">Г—</span></button></div>
+      <div class="modal-body">
+        <div id="pdfContainer"></div>
+        <div id="share-icons">
+          <a href="" class="socicon socicon-mail" target="_blank" title="Email" rel="noopener noreferrer"></a>
+          <a href="" class="socicon socicon-twitter" target="_blank" title="Twitter"></a>
+          <a href="" class="socicon socicon-facebook" target="_blank" title="Facebook" rel="noopener noreferrer"></a>
+          <a href="" class="socicon socicon-linkedin" target="_blank" title="LinkedIn" rel="noopener noreferrer"></a>
+          <span class="button_copy_link">
+              <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <path fill="#5e6a71" d="M24.412 21.177c0-.36-.126-.665-.377-.917l-2.804-2.804a1.235 1.235 0 0 0-.913-.378c-.377 0-.7.144-.97.43.026.028.11.11.255.25.144.14.24.236.29.29s.117.14.2.256c.087.117.146.232.177.344.03.112.046.236.046.37 0 .36-.126.666-.377.918a1.25 1.25 0 0 1-.918.377 1.4 1.4 0 0 1-.373-.047 1.062 1.062 0 0 1-.345-.175 2.268 2.268 0 0 1-.256-.2 6.815 6.815 0 0 1-.29-.29c-.14-.142-.223-.23-.25-.254-.297.28-.445.607-.445.984 0 .36.126.664.377.916l2.778 2.79c.243.243.548.364.917.364.36 0 .665-.118.917-.35l1.982-1.97c.252-.25.378-.55.378-.9zm-9.477-9.504c0-.36-.126-.665-.377-.917l-2.777-2.79a1.235 1.235 0 0 0-.913-.378c-.35 0-.656.12-.917.364L7.967 9.92c-.254.252-.38.553-.38.903 0 .36.126.665.38.917l2.802 2.804c.242.243.547.364.916.364.377 0 .7-.14.97-.418-.026-.027-.11-.11-.255-.25s-.24-.235-.29-.29a2.675 2.675 0 0 1-.2-.255 1.052 1.052 0 0 1-.176-.344 1.396 1.396 0 0 1-.047-.37c0-.36.126-.662.377-.914.252-.252.557-.377.917-.377.136 0 .26.015.37.046.114.03.23.09.346.175.117.085.202.153.256.2.054.05.15.148.29.29.14.146.222.23.25.258.294-.278.442-.606.442-.983zM27 21.177c0 1.078-.382 1.99-1.146 2.736l-1.982 1.968c-.745.75-1.658 1.12-2.736 1.12-1.087 0-2.004-.38-2.75-1.143l-2.777-2.79c-.75-.747-1.12-1.66-1.12-2.737 0-1.106.392-2.046 1.183-2.818l-1.186-1.185c-.774.79-1.708 1.186-2.805 1.186-1.078 0-1.995-.376-2.75-1.13l-2.803-2.81C5.377 12.82 5 11.903 5 10.826c0-1.08.382-1.993 1.146-2.738L8.128 6.12C8.873 5.372 9.785 5 10.864 5c1.087 0 2.004.382 2.75 1.146l2.777 2.79c.75.747 1.12 1.66 1.12 2.737 0 1.105-.392 2.045-1.183 2.817l1.186 1.186c.774-.79 1.708-1.186 2.805-1.186 1.078 0 1.995.377 2.75 1.132l2.804 2.804c.754.755 1.13 1.672 1.13 2.75z">
+                </path>
+              </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.modal -->
+
+<!-- END OUTPUT from 'themes/usporg/templates/page--front.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/off-canvas-page-wrapper.html.twig' -->
+
+
+    <button data-ultimenu-button="#ultimenu-main" class="button button--ultimenu"><span class="bars"></span></button>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"home","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"data":{"extlink":{"extTarget":true,"extTargetNoOverride":null,"extNofollow":null,"extFollowNoOverride":null,"extClass":"0","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":".*\\.txt|.*\\.doc*|.*\\.pdf*|.*\\.xls*|.*\\.ppt*|.*vef\\\/load*\\imce*","extCssExclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"","mailtoClass":"0","mailtoLabel":"(link sends email)"}},"eu_cookie_compliance":{"popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-out\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EBy clicking the Accept button, you agree to us doing so.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-secondary-button\u0022\u003ENo, thanks\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EAgree\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-out\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-secondary-button\u0022\u003ENo, thanks\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EAgree\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/legal-notices\/privacy-policy","popup_link_new_window":false,"popup_position":false,"fixed_top_position":true,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","domain_all_sites":false,"popup_eu_only_js":false,"cookie_lifetime":100,"cookie_session":0,"disagree_do_not_show_popup":false,"method":"opt_out","whitelisted_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":false,"withdraw_button_on_info_popup":false,"cookie_categories":[],"enable_save_preferences_button":false,"fix_first_cookie_category":false,"select_all_categories_by_default":false},"scroll_to_top":{"label":"Back to top"},"user":{"uid":0,"permissionsHash":"17455910fb8f4fbe9f224462a727b9a2c14829e4cd4ff8f71710f9899b8c3292"}}</script>
+<script src="/sites/default/files/js/js_BZNsmom6hD5MdsQPs604zvJimS4dDNOmmLX5mEsDljc.js"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/default/files/js/js_SpN5QfSV0KYQPIGdFREIJ7A8fA4gSnJzUoiBkgmh2DI.js"></script>
+
+
+    <!-- If this a page that starts with an alias of "biologics, add script." -->
+        <!-- End Biologics -->
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"cd3c2f1432","applicationID":"48922414","transactionName":"bgYDYEcADUUEUhYKDVdMIFdBCAxYSkEDBAdmAABXXQQ=","queueTime":0,"applicationTime":29,"atts":"QkEAFg8aHks=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>
+
+<!-- END OUTPUT from 'themes/usporg/templates/html.html.twig' -->
+

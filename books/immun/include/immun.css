@@ -1,0 +1,68 @@
+BODY.main	{background-color: #F4F4F4; font-family: Verdana,Helvetica,Arial,Sans-Serif; font-size: 10pt; color: #004750; font-weight: normal; margin-top: 20px; margin-left: 5px; margin-right: 5px;}
+
+HR {color: #888888; margin-top: 1px; margin-bottom: 1px;}
+
+blockquote {margin-top: 1px; margin-bottom: 1px;}
+
+H1 {font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 16pt; font-weight: bold; color: #042A90; text-align: center; letter-spacing: 2px;}
+
+H2 {font-family: Arial,Verdana,Helvetica,sans-serif; font-size: 14pt; font-weight: bold; color: #042A90; text-align: center; letter-spacing: 1px;}
+
+H3 {font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 13pt; font-weight: bold; color: #042A90; text-align: center; letter-spacing: 1px;}
+
+H4 {font-family: Verdana,Arial,Helvetica,Sans-Serif; font-size: 13pt; font-weight: bold; color: #042A90; letter-spacing: 1px; text-align: left; margin-top: 24px; margin-bottom: 12px; margin-left: 2px;}
+
+H5 {font-family: Arial,Verdana,Helvetica,Sans-Serif; font-size: 13pt; font-weight: bold; color: #042A90; letter-spacing: 1px; text-align: left; margin-top: 24px; margin-bottom: 12px; margin-left: 2px;}
+
+H6 {font-family: Arial,Verdana,Helvetica,Sans-Serif; font-size: 11pt; font-weight: bold; color: #004566; letter-spacing: 1px; text-align: left; margin-top: 24px; margin-bottom: 4px; margin-left: 2px;}
+
+TABLE.small {
+	margin-left : 5px;
+	margin-right : 5px;
+	border-color : #00848C;
+	font-family: Verdana,Geneva,Helvetica,Arial,sans-serif;
+	font-size: 8pt;
+}
+
+.t8 {font-size: 8pt;}
+.t9 {font-size: 9pt;}
+.t10 {font-size: 10pt;}
+.t11 {font-size: 11pt;}
+.t12 {font-size: 12pt;}
+.t13 {font-size: 13pt;}
+.t14 {font-size: 14pt;}
+
+P	{font-family: Verdana,Helvetica,Arial,sans-serif; font-weight: normal; font-size: 10pt; color: #004750; line-height: 125%; text-align: justify; margin-top: 10px; margin-bottom: 3px; margin-left: 2px; margin-right: 3px; }
+
+P.left {text-align: left;}
+P.right {text-align: right;}
+P.center {text-align: center;}
+
+OL {font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 10pt; color: #004750; margin-top: 5px; margin-bottom: 5px; margin-left: 15px;}
+UL {font-family: Verdana,Helvetica,Arial,sans-serif; font-size: 10pt; color: #004750; margin-top: 5px; margin-bottom: 5px; margin-left: 15px;}
+LI {margin-top: 8px; margin-bottom: 1px; margin-left: 15px;}
+LI.j {margin-top: 8px; margin-bottom: 1px; margin-left: 15px; margin-right: 5px; text-align: justify;}
+LI.nm {margin-top: 3px; }
+
+TABLE.margin {margin-left: 5px;	margin-right: 10px;}
+UL.nm {margin-left: 1px;}
+
+TD {font-family: Verdana,Helvetica,Arial,Sans-Serif; font-size: 10pt; color: #004750; vertical-align: top;}
+
+TD.small {font-family: Verdana,Helvetica,Arial,Sans-Serif; font-size: 8pt;}
+TD.mbrd {background-color: #888888;}
+
+TD.cl {background-color: #F4F4F4;}
+TD.cc {background-color: #F4F4F4; text-align: center;}
+TD.cr {background-color: #F4F4F4; text-align: right;}
+TD.cj {background-color: #F4F4F4; text-align: justify;}
+
+TH {font-family: Verdana,Helvetica,Arial,Sans-Serif; font-size: 10pt; font-style: normal; font-weight: normal; color: #004750; background-color: #B8DBDB; }
+TH.nl {background-color: #DDF4F4;}
+
+A:link {color: #0066CC; text-decoration: none;}
+A:visited {color: #0066DD; text-decoration: none;}
+A:hover {color: #0033FF; text-decoration: underline;}
+
+FORM {margin-top:1px; margin-bottom:1px;}
+

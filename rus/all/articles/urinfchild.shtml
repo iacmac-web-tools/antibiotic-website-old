@@ -1,0 +1,321 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Антибактериальная терапия инфекций мочевыводящих путей у детей</title>
+<meta name="Description" content="Л.С.Страчунский, А.Н.Шевелев. Антибактериальная терапия инфекций мочевыводящих путей у детей">
+<meta name="keywords" content="Страчунский, Шевелев, ИМВП, ИМП, острый цистит, острый неосложненный пиелонефрит, Enterobacteriaceae, E.coli, S.saprophyticus, Klebsiella spp., P.mirabilis, Proteus spp., Pseudomonas spp., Klebsiella spp., С.albicans, амоксициллин/клавуланат, цефуроксим аксетил, цефаклор, цефтибутен, ко-тримоксазол, налидиксовая кислота, нитрофурантоин, ампициллин/сульбактам, цефотаксим, цефтриаксон, цефоперазон, цефепим, цефоперазон/сульбактам, гентамицин, нетилмицин, амикацин, имипенем, меропенем">
+<script language="JavaScript1.2">
+<!--
+function btn(ind,picture) {document.images[ind].src=picture;}
+-->
+</script>
+
+<script language="JavaScript">
+<!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/rus/include/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../include/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 10px; margin-left: 2px; margin-left: 2px; text-align: justify;}
+LI {margin-left: 5px; margin-top: 6px;}
+UL {margin-top: 6px; margin-left: 15px; margin-bottom: 5px;}
+UL.m1 {margin-top: 6px; margin-left: 12px;}
+OL {margin-top: 6px; margin-left: 25px;}
+H4 {margin-left: 2px; margin-bottom: 7px;}
+TD.sm {font-size: 8pt; text-align: left; background-color: #F0E8DA;}
+TH.cl {text-align: left;}
+TH.cj {text-align: justify;}
+TH.sm {font-size: 8pt; text-align: left;}
+</style>
+</head>
+<body class="main">
+
+<center>
+<table width="750" cellpadding="0" border="0" cellspacing="5">
+  <tr><td valign="top">
+<!--navigation-->
+<map name="TopBtn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Предыдущая страница" title="Предыдущая страница">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Следующая страница" title="Следующая страница">
+<area shape="circle" coords="77,15,15" href="../../../index.htm" alt="Главная страница сайта" title="Главная страница сайта">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="Написать письмо" title="Написать письмо">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../images/buttons/topline.gif);" width="98%" height="32"><img src="../../images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Навигация" usemap="#TopBtn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+  
+<br>
+<h1>АНТИБАКТЕРИАЛЬНАЯ ТЕРАПИЯ<br>ИНФЕКЦИЙ МОЧЕВЫВОДЯЩИХ ПУТЕЙ У ДЕТЕЙ</h1>
+<br>
+
+<p><i>Л.С. Страчунский, А.Н. Шевелев</i></p>
+<br>
+<hr size="1">
+
+<br>
+<h4>Эпидемиология</h4>
+
+<p>Инфекции мочевыводящих путей (ИМП) являются одними из наиболее распространенных бактериальных инфекций у детей. Они развиваются у 1-5% детей и нередко протекают бессимптомно. В возрасте до 1 года ИМП чаще развиваются у мальчиков, что связано с наличием врожденных аномалий мочевыводящей системы. В возрасте от 2 до 15 лет преобладают девочки в соотношении 6:1.</p>
+
+<br>
+<h4>Этиология</h4>
+
+<table cellpadding="2" cellspacing="0" border="0" width="100%">
+<tr>
+  <td class="cj" width="49%">Неосложненные ИМП более чем в 95% случаев вызываются одним микроорганизмом, наиболее часто из семейства <i>Enterobacteriaceae</i>. Основным возбудителем является <i>E.coli</i> &#150; 80-90%, гораздо реже <i>S.saprophyticus</i> (3-5%), <i>Klebsiella</i>&nbsp;spp., <i>P.mirabilis</i> и др.</td>
+  <td width="2%">&nbsp;&nbsp;&nbsp;</td>
+  <td class="cj" width="49%">При осложненных ИМП частота выделения <i>Е.сoli</i> снижается (35-40%), чаще встречаются другие возбудители &#150; <i>Proteus</i>&nbsp;spp., <i>Pseudomonas</i>&nbsp;spp., <i>Klebsiella</i>&nbsp;spp., грибы (преимущественно <i>С.albicans</i>).</td>
+</tr>
+</table>
+
+<br>
+<h4>Чувствительность возбудителей к антибиотикам</h4>
+
+<p>Чувствительность возбудителей к антибиотикам имеет решающее значение при выборе препарата для эмпирической терапии. В России отмечается высокая частота резистентности внебольничных штаммов <i>Е.coli</i>, выделенных у взрослых, к ампициллину (33%) и ко-тримоксазолу (18%). Резистентность к гентамицину, нитрофурантоину, налидиксовой кислоте и пипемидовой кислоте относительно невысока и составляет 3-6%. Наиболее активны фторхинолоны (норфлоксацин, ципрофлоксацин, пефлоксацин и др.), уровень резистентности к которым составляет менее 3%.</p>
+
+<p>Данные по чувствительности возбудителей ИМП у детей в России носят противоречивый и неполный характер, что связано с проблемами определения чувствительности микрофлоры к антибиотикам. В конце 2000&nbsp;г. будут подведены результаты первого в России многоцентрового исследования возбудителей ИМП у детей АРМИД-2000, которое проводится в соответствие с международными стандартами.</p>
+
+<br>
+<h4>Выбор антибиотиков</h4>
+
+<p>Антибиотики назначают в подавляющем большинстве случаев эмпирически, основываясь на локальных данных по чувствительности уропатогенов.</p>
+
+<table border="0" cellpadding="0" cellspacing="3" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr><th colspan="2"><b>Острый цистит</b></th></tr>
+<tr>
+  <td class="cl" width="50%"><u>Препараты выбора:</u>
+<ul class="nm"><li>амоксициллин/клавуланат (суспензия, таблетки)</li></ul></td>
+	<td class="cl" width="50%"><u>Альтернативные препараты:</u>
+<ul class="nm"><li>пероральные цефалоспорины II-III поколения (цефуроксим аксетил, цефаклор, цефтибутен)</li><li>ко-тримоксазол,</li><li>налидиксовая кислота,</li><li class="nm">нитрофурантоин</li></ul></td>
+</tr>
+<tr align="center"><th colspan="2"><b>Острый неосложненный пиелонефрит</b></th></tr>
+<tr>
+  <td class="cl"><u>Препараты выбора:</u><br>
+<ul class="nm"><li>ингибиторозащищенные аминопенициллины
+(амоксициллин/клавуланат, ампициллин/сульбактам)</li>
+<li>цефалоспорины III-IV поколения (цефотаксим, цефтриаксон, цефоперазон, цефепим, цефоперазон/сульбактам).</li></ul></td>
+	<td class="cl"><u>Альтернативные препараты:</u><br>
+<ul class="nm"><li>аминогликозиды (гентамицин, нетилмицин, амикацин)</li>
+<li>карбапенемы <br>(имипенем, меропенем)</li></ul></td>
+</tr>
+</table>
+</td></tr></table>
+
+<p>При среднетяжелом и тяжелом течении пиелонефрита у детей рекомендуется госпитализация. Детям противопоказано назначение фторхинолонов, ко-тримоксазола в первые 2 мес. жизни. В избранных случаях при осложненных пиелонефритах, обусловленных <i>Р.aeruginosa</i> или полирезистентными грамотрицательными возбудителями допускается назначение фторхинолонов у детей.</p>
+
+<p>Учитывая, что пиелонефрит у детей, особенно у мальчиков, развивается на фоне аномалий развития, решающим фактором, определяющим эффективность терапии, является хирургическое вмешательство.</p>
+
+<br>
+<h4>Путь введения антибиотиков</h4>
+
+<p>При легком и среднетяжелом течении терапию следует проводить пероральными препаратами.</p>
+<p>При тяжелом течении лечение необходимо начинать с парентерального введения и затем, по мере улучшения состояния переходить на пероральный прием (ступенчатая терапия).</p>
+
+<br>
+<h4>Длительность терапии</h4>
+
+<p>При остром цистите &#150; 7 дней. Терапия одной дозой у детей не рекомендуется ввиду частого развития рецидивов.<br>При остром пиелонефрите &#150; не менее 14 дней.</p>
+
+<br>
+<h4>Профилактика рецидивов</h4>
+
+<p>Пациентам с рецидивами ИМП (&gt;3 мес в течение года) назначается нитрофурантоин в дозе 1-2 мг/кг/сут в течение 6-12 месяцев. Если в течение периода профилактики эпизоды инфекции не возникают, то лечение прекращается. В противном случае, оно возобновляется вновь.</p>
+
+<br>
+<h4>Типичные ошибки при проведении антибиотикотерапии</h4>
+
+<ul><li><b>Выбор препарата без учета спектра активности антибиотика, особенностей его фармакокинетики, нежелательных лекарственных реакций (НЛР).</b></li></ul>
+
+<p>При острой ИМП у детей не следует назначать <a href="../../../ab/023-29.shtml#cs1"><b>цефалоспорины I поколения</b></a>, так как они имеют недостаточно высокую активность в отношении грамотрицательной флоры.</p>
+
+<p>Назначение при пиелонефрите <a href="../../../ab/063-64.shtml"><b>нитрофурантоина</b></a>, <a href="../../../ab/077-78.shtml"><b>нитроксолина</b></a>, <a href="../../../ab/038-42.shtml"><b>пипемидовой кислоты</b></a> нецелесообразно в связи с тем, что препараты не создают терапевтических концентраций в паренхиме почек.</p>
+
+<p><a href="../../../ab/056-60.shtml#co-trim"><b>Ко-тримоксазол</b></a> и <a href="../../../ab/013-22.shtml">ампициллин</a> не могут быть рекомендованы для лечения инфекций МВП из-за высокой резистентности к ним <i>E.coli</i>, а ко-тримоксазол ещё из-за высокого риска развития тяжелых НЛР (синдромы Стивенсона-Джонсона и Лайелла).</p>
+
+<p><a href="../../../ab/038-42.shtml"><b>Фторхинолоны</b></a> вследствие риска развития хондропатии у детей как правило не применяются. Исключением является выделение из мочи уропатогенов, устойчивых к другим антибиотикам.</p>
+
+<p>Использование фитопрепаратов с лечебной и профилактической целью при ИМП у детей в контролируемых клинических исследованиях не доказано.</p>
+
+<ul><li><b>Неверный путь и кратность введения препарата</b></li></ul>
+
+<p>В/м введение гентамицина при остром цистите или нетяжелом пиелонефрите при наличии эффективных пероральных антибиотиков (амоксициллин/клавуланат); парентеральное введение антибиотиков в амбулаторных условиях; назначение аминогликозидов 3 раза в сутки при равной эффективности и безопасности однократного введения.</p>
+
+<ul><li><b>Длительность терапии</b></li></ul>
+
+<p>Увеличение продолжительности терапии при остром цистите существенно не влияет на эффективность, но увеличивает риск НЛР.</p>
+
+<p>С другой стороны антибиотикотерапия должна продолжаться минимум 7 дней. Недопустимо использование у детей терапии одной дозой.</p>
+
+<br><br>
+<p style="text-align:center"><font size="1"><img src="images/urinfch_r1.gif" width="470" height="171" border="0" alt="Инфекции мочевыводящих путей у детей"></font></p><br><br>
+
+<h3>Режим дозирования антибактериальных препаратов <br>для лечения ИМП у детей</h3>
+
+<table border="0" cellpadding="0" cellspacing="3" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr>
+  <th rowspan="2"><b>Препарат</b></th>
+  <th colspan="2"><b>Доза</b></th>
+</tr>
+<tr>
+  <th>Внутрь</th>
+  <th>Парентерально</th>
+</tr>
+<tr>
+  <td class="cl">Амоксициллин</td>
+  <td class="cl">30-60 мг/кг/сут в 3 приема</td>
+  <td class="cl">&#150;</td>
+</tr>
+<tr>
+  <td class="cl">Ампициллин</td>
+  <td class="cl">30-50 мг/кг/сут в 4 приема</td>
+  <td class="cl">Старше 1 мес &#150;<br>50-100 мг/кг/сут в 4 введения</td>
+</tr>
+<tr>
+  <td class="cl" rowspan="2">Амоксициллина/клавуланат</td>
+  <td class="cl">3 мес-12 лет &#150; 20-40&nbsp;мг/кг/сут (по амоксициллину) в 3 приема</td>
+  <td class="cl">3 мес-12 лет &#150; 90-120&nbsp;мг/кг/сут (расчет на весь препарат) в 3-4 введения</td>
+</tr>
+<tr>
+  <td class="cl">Старше 12 лет &#150; 375-625&nbsp;мг 3 раза в сутки</td>
+  <td class="cl">Старше 12 лет &#150; 1,2&nbsp;г х 3-4 раза в сутки</td>
+</tr>
+<tr>
+  <td class="cl">Ампициллин/сульбактам</td>
+  <td class="cl">50 мг/кг/сут в 2 приема</td>
+  <td class="cl">150 мг/кг/сут в 3-4 введения</td>
+</tr>
+<tr>
+  <td class="cl">Цефаклор</td>
+  <td class="cl">20-40 мг/кг/сут в 2-3 приема</td>
+  <td class="cl">&#150;</td>
+</tr>
+<tr>
+  <td class="cl">Цефуроксим натрия</td>
+  <td class="cl">&#150;</td>
+  <td class="cl">50-100 мг/кг/сут в 3-4 введения</td>
+</tr>
+<tr>
+  <td class="cl">Цефуроксим аксетил</td>
+  <td class="cl">30 мг/кг/сут в 2 при</td>
+  <td class="cl">&#150;</td>
+</tr>
+<tr>
+  <td class="cl">Цефотаксим</td>
+  <td class="cl">&#150;</td>
+  <td class="cl">Старше 1 мес &#150;<br>50-100 мг/кг/сут в 2-3 введения</td>
+</tr>
+<tr>
+  <td class="cl">Цефтибутен</td>
+  <td class="cl">9 мг/кг/сут в 1-2 приема</td>
+  <td class="cl">&#150;</td>
+</tr>
+<tr>
+  <td class="cl">Цефоперазон</td>
+  <td class="cl">&#150;</td>
+  <td class="cl">50-100 мг/кг/сут в 2-3 введения</td>
+</tr>
+<tr>
+  <td class="cl">Цефтриаксон</td>
+  <td class="cl">&#150;</td>
+  <td class="cl">Старше 1 мес &#150;<br>20-75 мг/кг/сут в 1-2 введения</td>
+</tr>
+<tr>
+  <td class="cl">Цефепим</td>
+  <td class="cl">&#150;</td>
+  <td class="cl">Старше 2 мес &#150;<br>50 мг/кг/сут в 3 введения</td>
+</tr>
+<tr>
+  <td class="cl">Гентамицин</td>
+  <td class="cl">&#150;</td>
+  <td class="cl">3-5 мг/кг/сут в 1-2 введения</td>
+</tr>
+<tr>
+  <td class="cl">Нетилмицин</td>
+  <td class="cl">&#150;</td>
+  <td class="cl">4-7,5 мг/кг/сут в 1-2 введения</td>
+</tr>
+<tr>
+  <td class="cl">Амикацин</td>
+  <td class="cl">&#150;</td>
+  <td class="cl">15-20 мг/кг/сут в 1 введения</td>
+</tr>
+<tr>
+  <td class="cl">Имипенем</td>
+  <td class="cl">&#150;</td>
+  <td class="cl">Старше 1 мес &#150;<br>60-100 мг/кг/сут в 3-4 введения</td>
+</tr>
+<tr>
+  <td class="cl">Меропенем</td>
+  <td class="cl">&#150;</td>
+  <td class="cl">Старше 3 мес &#150;<br>10-12 мг/кг/сут в 3 введения</td>
+</tr>
+<tr>
+  <td class="cl">Ко-тримоксазол</td>
+  <td class="cl">Старше 2 мес &#150;<br>6-8 мг/кг/сут в 2 приема</td>
+  <td class="cl">Старше 2 мес &#150;<br>6-8 мг/кг/сут в 2 введения</td>
+</tr>
+<tr>
+  <td class="cl">Нитрофурантоин</td>
+  <td class="cl">Старше 1 мес &#150;<br>5-7 мг/кг/сут в 4 приема</td>
+  <td class="cl">&#150;</td>
+</tr>
+</table>
+</td></tr></table>
+<br><br>
+
+<h4>Литература</h4>
+<ol>
+<li value="1">Антибактериальная терапия. Практическое руководство. Под редакцией Л.С.&nbsp;Страчунского, Ю.Б.&nbsp;Белоусова, С.Н.&nbsp;Козлова; Москва, 2000.</li>
+<li value="2">Зоркин&nbsp;С.Н. Применение антибиотиков при лечении инфекций мочевыводящих путей у детей. Клиническая антимикробная терапия, т.1: 1999&nbsp;(3): 101-105.</li>
+<li value="3">Marks&nbsp;M.J., Arrieta&nbsp;A.C. Urinary tract infections / Textbook of Pediatric Infectious Diseases, Ed. Feigin R.D., Cherry J.D. 4<sup>th</sup> ed., W.B. Saunders Co., 1998; 483-503.</li>
+<li value="4">Hobermann&nbsp;A. e.a. Treatment of urinary tract infections. Pediatr. Infect. Dis. J., 1999; 18: 1020-1021.</li>
+</ol>
+
+<br>
+<!--footer-->
+<table border="0" cellpadding="0" cellspacing="1" width="100%"><tr>
+<td align="left" style="vertical-align:bottom;"><font class="t8">&copy; 2000-2009 <a target="_blank" href="../../../copyright.php.html">НИИАХ СГМА</a></font></td>
+
+<td colspan="2" align="right"><font size="1">
+<!--Rambler 1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../../top100.cnt.gif?335834" alt="Rambler's Top100" width="1" height="1" border="0"></a><!--/Rambler 1x1-->
+
+<!--LiveInternet 1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+';i'+escape('Жж'+document.title.substring(0,80))+';'+Math.random()+
+'" width=1 height=1 alt="">')
+//--></script><!--/LiveInternet-->
+
+<!--LiveInternet--><a href="../../../index-17.htm" target="_blank"><img src="../../../images/banners/rax.gif" border="0" width="31" height="31" title="liveinternet.ru"></a><!--/LiveInternet-->
+
+<!--TopList--><a href="http://top.list.ru/jump?from=96637" target="_blank"><img src="../../../counter-3.gif?id=96637;t=55" border="0" height="31" width="88" alt="TopList"></a><!--/TopList-->
+
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../../top100/banner-88x31-rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+</font>
+</td>
+
+</tr></table>
+<!--/footer-->
+
+<hr size="1">
+  </td></tr>
+</table>
+</center>
+</body>
+</html>

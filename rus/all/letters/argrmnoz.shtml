@@ -1,0 +1,850 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Состояние антибиотикорезистентности грамотрицательных возбудителей нозокомиальных инфекций в отделениях интенсивной терапии</title>
+<meta name="Description" content="Состояние антибиотикорезистентности грамотрицательных возбудителей нозокомиальных инфекций в отделениях интенсивной терапии. Информационное письмо. Издано в 1997 году МАКМАХ совместно с Межведомственным научным советом по внутрибольничным инфекциям при РАМН и Минздраве РФ">
+<meta name="keywords" content="антибиотикорезистентность, грамотрицательные возбудители, нозокомиальные инфекции, P.aeruginoza, E.coli, K.pneumoniae, P.mirabilis, Enterobacter spp., Acinetobacter spp., Pseudomonas aerugmosa, Escherichia соli, Klebsiella pneumoniae, Proteus mirabilis, Enterobacter spp., Acinetobacter spp., Citrobacter spp., Morganella morganii, Proteus vulgans, Serrate marcescens, Stenotrophomonas Xanthomonas maltophilia, пиперациллин, тазобактам, ко-амоксиклав, цефуроксим, цефотаксим, цефтриаксон, цефтазидим, имипенем, гентамицин, амикацин, ципрофлоксацин, ко-тримоксазол, бета-лактамазы, аминогликозиды, БЛРС">
+<script language="JavaScript1.2">
+<!--
+function btn(ind,picture) {document.images[ind].src=picture;}
+-->
+</script>
+
+<script language="JavaScript">
+<!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/rus/include/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../include/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 10px; margin-left: 5px; margin-right: 5px; text-align: justify;}
+UL {margin-top: 6px; margin-left: 18px;}
+OL {margin-top: 6px; margin-left: 25px;}
+LI {margin-top: 5px; margin-left: 5px; }
+H1 {margin-left: 5px; text-align: left;}
+H4 {font-family: Verdana,Arial,Helvetica,Sans-Serif; font-size: 13pt; margin-left: 5px;  text-align: left;}
+TH.c8 {font-size: 8pt;}
+</style>
+</head>
+<body class="main">
+
+<center>
+<table width="750" cellpadding="0" border="0" cellspacing="0">
+  <tr><td>
+
+<!--navigation-->
+<map name="TopBtn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Предыдущая страница" title="Предыдущая страница">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Следующая страница" title="Следующая страница">
+<area shape="circle" coords="77,15,15" href="../../../index.htm" alt="Главная страница сайта" title="Главная страница сайта">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="Написать письмо" title="Написать письмо">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../images/buttons/topline.gif);" width="98%" height="32"><img src="../../images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Навигация" usemap="#TopBtn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+
+<h1>Состояние антибиотикорезистентности грамотрицательных возбудителей нозокомиальных инфекций в отделениях интенсивной терапии</h1>
+
+<br>
+<p class="l">Информационное письмо. <br>Издано в 1997 году МАКМАХ совместно с 
+Межведомственным научным советом по внутрибольничным инфекциям при РАМН и Минздраве РФ.</p>
+
+<h4>Содержание</h4>
+<ul>
+<li><a href="#authors">Авторы</a></li>
+<li><a href="#intro">Введение</a></li>
+<li><a href="#agents">Возбудители</a></li>
+<li><a href="#resist">Резистентность к антибактериальным препаратам</a></li>
+<li><a href="#aprep">Антибактериальные препараты</a></li>
+<li><a href="#conclusion">Выводы</a></li>
+</ul>
+<hr size="1">
+
+<a name="authors"></a><br>
+<h4>Авторы</h4>
+
+<p>Информационное письмо подготовлено сотрудниками ЦНИИ эпидемиологии (<i>Н.А.&nbsp;Сёмина</i>), кафедры клинической фармакологии и антимикробной химиотерапии Смоленской медицинской академии (<i>Л.С.&nbsp;Страчунский, Р.С.&nbsp;Козлов, Г.К.&nbsp;Решедько, О.У.&nbsp;Стецюк, О.И.&nbsp;Кречикова</i>), Екатеринбургской больницы скорой медицинской помощи (<i>Л.И.&nbsp;Ахметова, С.М.&nbsp;Розанова, В.А.&nbsp;Руднов</i>), Казанской республиканской детской больницы <i>(М.Р.&nbsp;Рокицкий, Н.Е.&nbsp;Марусина</i>), Краснодарской краевой клинической больницы (<i>Н.П.&nbsp;Мельникова, B.K.&nbsp;Тарабан, А.Ф.&nbsp;Ямпольский</i>), Красноярской больницы скорой медицинской помощи (<i>Д.Э.&nbsp;Здзитовецкий, Т.Б.&nbsp;Сказка, Н.А.&nbsp;Гобец</i>), Научным центром акушерства, гинекологии и перинатологии РАМН (<i>А.С.&nbsp;Анкирская, Т.Г.&nbsp;Миронова,</i>), Центральной клинической больницы при Управлении делами Президента РФ (<i>В.Е.&nbsp;Ноников, С.Д.&nbsp;Митрохин, Л.А.&nbsp;Ритчик</i>), Нижегородской областной детской клинической больницы (<i>О.А.&nbsp;Сперанская, Н.А.&nbsp;Ждакова, Л.А.&nbsp;Смирнова</i>), Новосибирской областной клинической больницы (<i>В.Н.&nbsp;Ильина</i>), Санкт-Петербургской медицинской академии (<i>В.В.&nbsp;Тец, Н.В.&nbsp;Заславская</i>).</p>
+
+<a name="intro"></a><br>
+<h4>Введение</h4>
+
+<p>Нозокомиальные (госпитальные, внутрибольничные) инфекции остаются одной из наиболее сложных проблем в стационарах во всех странах мира, несмотря на проведение санитарно-эпидемиологических мероприятий и успехи в антимикробной терапии. Около 25% всех нозокомиальных инфекций приходится на долю пациентов, находящихся в отделениях интенсивной терапии (ОИТ).</p>
+
+<p>Несмотря на возрастание роли грамположительных бактерий и грибков в этиологии нозокомиальных инфекций, проблемными возбудителями, по-прежнему, остаются грамотрицательные аэробные микроорганизмы из семейства энтеробактерий и группы неферментирующих бактерий (НФБ): синегнойная палочка, ацинетобактеры и др.</p>
+
+<p>Для рационального выбора антимикробных препаратов необходимо знание наиболее частых возбудителей нозокомиальных инфекций и их резистентности к антимикробным препаратам в данном стационаре. Большое значение имеет достоверность данных, которые должны быть получены с помощью признанных в мире, хорошо воспроизводимых методов.</p>
+
+<p>В 1995-96 гг. в 10 ОИТ 9 городов России (Москва - 2 клиники, Санкт-Петербург, Екатеринбург, Казань, Краснодар, Красноярск, Новосибирск, Нижний Новгород, Смоленск) было проведено исследование распространенности грамотрицательных нозокомиальных инфекций в ОИТ и их резистентности к антибактериальным препаратам.</p>
+
+<p>В целом, было выделено и исследована чувствительность к антимикробным препаратам у 1005 последовательных штаммов грамотрицательных аэробных микроорганизмов от 863 пациентов, у которых симптомы инфекции развились более, чем через 48 ч после поступления в ОИТ.</p>
+    
+<a name="agents"></a><br>
+<h4>Возбудители</h4>
+
+<p>Наиболее частыми возбудителями нозокомиальных инфекций являлись: <i>Pseudomonas aerugmosa</i> (28,8%), <i>Escherichia соli</i> (21,4%), <i>Klebsiella pneumoniae</i> (16,7%), <i>Proteus mirabilis</i> (9,7%), <i>Enterobacter</i> spp. (8,2%) и <i>Acinetobacter</i> spp. (7,7%), которые составляли 92,5% всех штаммов. Кроме того были выделены <i>Citrobacter</i> spp. (1,6%), <i>Morganella morganii</i> (1,0%), <i>Proteus vulgans</i> (1,0%), <i>Serrate marcescens</i> (0,9%), <i>Stenotrophomonas (Xanthomonas) maltophilia</i> (0,9%) и другие грамотрицательные бактерии (2,1%). Наиболее частые возбудители нозокомиальных инфекций в ОИТ различных центров представлены в <a href="#t1">таблице&nbsp;1</a>.</p>
+
+<a name="t1"></a><br>
+<p class="l"><b>Таблица 1.</b> Наиболее частые возбудители нозокомиальных инфекций в ОИТ</p>
+
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<tr><td valign="top" bgcolor="#CC9988">
+<table cellpadding="4" border="0" cellspacing="1" width="100%">
+<tr>
+  <th>Центр</th>
+  <th class="t8">Число штаммов</th>
+  <th class="t8"><i>P.aeruginoza</i></th>
+  <th class="t8"><i>E.coli</i></th>
+  <th class="t8"><i>K.pneumoniae</i></th>
+  <th class="t8"><i>P.mirabilis</i></th>
+  <th class="t8"><i>Enterobacter</i> spp.</th>
+  <th class="t8"><i>Acinetobacter</i> spp.</th>
+</tr>
+<tr>
+  <td class="cl" nowrap="">Москва, I</td>
+  <td class="cc">99</td>
+  <td class="cc" nowrap="">36 (36,4%)</td>
+  <td class="cc" nowrap="">14 (14,1%)</td>
+  <td class="cc" nowrap="">8 (8,1%)</td>
+  <td class="cc" nowrap="">13 (13,1%)</td>
+  <td class="cc" nowrap="">7 (7,1%)</td>
+  <td class="cc" nowrap="">10 (10,1%)</td>
+</tr>
+<tr>
+  <td class="cl" nowrap="">Москва, II</td>
+  <td class="cc">101</td>
+  <td class="cc" nowrap="">2 (2,0%)</td>
+  <td class="cc" nowrap="">32 (31,7 %)</td>
+  <td class="cc" nowrap="">29 (28,7%)</td>
+  <td class="cc" nowrap="">0</td>
+  <td class="cc" nowrap="">34 (33,7%)</td>
+  <td class="cc" nowrap="">0</td>
+</tr>
+<tr>
+  <td class="cl" nowrap="">С.-Петербург</td>
+  <td class="cc">100</td>
+  <td class="cc" nowrap="">10 (10,0%)</td>
+  <td class="cc" nowrap="">46 (46,0%)</td>
+  <td class="cc" nowrap="">19 (19,0%)</td>
+  <td class="cc" nowrap="">9 (9,0%)</td>
+  <td class="cc" nowrap="">8 (8,0%)</td>
+  <td class="cc" nowrap="">2 (2,0%)</td>
+</tr>
+<tr>
+  <td class="cl" nowrap="">Смоленск</td>
+  <td class="cc">102</td>
+  <td class="cc" nowrap="">34 (33,3%)</td>
+  <td class="cc" nowrap="">14 (13,7%)</td>
+  <td class="cc" nowrap="">13 (12,7%)</td>
+  <td class="cc" nowrap="">22 (21,6%)</td>
+  <td class="cc" nowrap="">6 (5,9%)</td>
+  <td class="cc" nowrap="">2 (2,0%)</td>
+</tr>
+<tr>
+  <td class="cl" nowrap="">Новосибирск</td>
+  <td class="cc">102</td>
+  <td class="cc" nowrap="">55 (53,9%)</td>
+  <td class="cc" nowrap="">5 (4,9%)</td>
+  <td class="cc" nowrap="">22 (21,6%)</td>
+  <td class="cc" nowrap="">12 (11,8%)</td>
+  <td class="cc" nowrap="">5 (4,9%)</td>
+  <td class="cc" nowrap="">0</td>
+</tr>
+<tr>
+  <td class="cl" nowrap="">Красноярск</td>
+  <td class="cc">104</td>
+  <td class="cc" nowrap="">15 (14,4%)</td>
+  <td class="cc" nowrap="">36 (34,6%)</td>
+  <td class="cc" nowrap="">18 (17,3%)</td>
+  <td class="cc" nowrap="">12 (11,8%)</td>
+  <td class="cc" nowrap="">0</td>
+  <td class="cc" nowrap="">18 (17,3%)</td>
+</tr>
+<tr>
+  <td class="cl" nowrap="">Казань</td>
+  <td class="cc">99</td>
+  <td class="cc" nowrap="">43 (43,4%)</td>
+  <td class="cc" nowrap="">21 (21,2%)</td>
+  <td class="cc" nowrap="">31 (31,3%)</td>
+  <td class="cc" nowrap="">31 (31,3%)</td>
+  <td class="cc" nowrap="">1 (1,0%)</td>
+  <td class="cc" nowrap="">0</td>
+</tr>
+<tr>
+  <td class="cl" nowrap="">Краснодар</td>
+  <td class="cc">97</td>
+  <td class="cc" nowrap="">40 (41,2%)</td>
+  <td class="cc" nowrap="">6 (6,2%)</td>
+  <td class="cc" nowrap="">8 (8,2%)</td>
+  <td class="cc" nowrap="">17 (17,5%)</td>
+  <td class="cc" nowrap="">4 (4,1%)</td>
+  <td class="cc" nowrap="">13 (13,4%)</td>
+</tr>
+<tr>
+  <td class="cl" nowrap="">Екатеринбург</td>
+  <td class="cc">99</td>
+  <td class="cc" nowrap="">20 (20,2%)</td>
+  <td class="cc" nowrap="">16 (16,2%)</td>
+  <td class="cc" nowrap="">12 (12,1%)</td>
+  <td class="cc" nowrap="">12 (12,1%)</td>
+  <td class="cc" nowrap="">4 (4,0%)</td>
+  <td class="cc" nowrap="">27 (27,3%)</td>
+</tr>
+<tr>
+  <td class="cl" nowrap="">Н. Новгород</td>
+  <td class="cc">102</td>
+  <td class="cc" nowrap="">34 (33,3%)</td>
+  <td class="cc" nowrap="">25 (24,5%)</td>
+  <td class="cc" nowrap="">8 (7,8%)</td>
+  <td class="cc" nowrap="">8 (7,8%)</td>
+  <td class="cc" nowrap="">13 (12,7%)</td>
+  <td class="cc" nowrap="">5 (4,9%)</td>
+</tr>
+</table>
+</td></tr></table>
+
+<a name="resist"></a><br><br>
+
+<h4>Резистентность к антибактериальным препаратам</h4>
+
+<p>Метод Е-тестов (Etest&reg;, АБ Биодиск, Швеция) был использован для определения минимальных подавляющих концентраций (МПК) 12 антибиотиков, наиболее часто используемых для лечения нозокомиальных инфекций: <i>пиперациллина, пиперациллина/тазобактама, ко-амоксиклава, цефуроксима, цефтриаксона, цефотаксима, цефтазидима, имипенема, гентамицина, амикацина, ципрофлоксацина, ко-тримоксазола.</i></p>
+
+<p>Резистентность к антибактериальным препаратам наиболее частых грамотрицательных возбудителей нозокомиальных инфекций в ОИТ представлена в <a href="#t2">таблице&nbsp;2</a>.</p>
+
+<a name="t2"></a><br>
+<p class="l"><b>Таблица 2.</b> Уровень резистентности (%) к антибиотикам наиболее частых грамотрицательных возбудителей нозокомиальных инфекций в ОИТ</p>
+
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<tr><td valign="top" bgcolor="#CC9988">
+<table cellpadding="4" border="0" cellspacing="1" width="100%">
+<tr>
+  <th>Антибиотик</th>
+  <th class="t8"><i>P.aeruginoza</i></th>
+  <th class="t8"><i>E.coli</i></th>
+  <th class="t8"><i>K.pneumoniae</i></th>
+  <th class="t8"><i>P.mirabilis</i></th>
+  <th class="t8"><i>Enterobacter</i> spp.</th>
+  <th class="t8"><i>Acinetobacter</i> spp.</th>
+</tr>
+<tr>
+  <td class="cl">Пиперациллин</td>
+  <td class="cc">50</td>
+  <td class="cc">44</td>
+  <td class="cc">85</td>
+  <td class="cc">59</td>
+  <td class="cc">70</td>
+  <td class="cc">88</td>
+</tr>
+<tr>
+  <td class="cl">пиперациллин/ тазобактам</td>
+  <td class="cc">41</td>
+  <td class="cc">11</td>
+  <td class="cc">51</td>
+  <td class="cc">22</td>
+  <td class="cc">63</td>
+  <td class="cc">82</td>
+</tr>
+<tr>
+  <td class="cl">Ко-амоксиклав</td>
+  <td class="cc">*</td>
+  <td class="cc">27</td>
+  <td class="cc">52</td>
+  <td class="cc">20</td>
+  <td class="cc">88</td>
+  <td class="cc">73</td>
+</tr>
+<tr>
+  <td class="cl">Цефуроксим</td>
+  <td class="cc">*</td>
+  <td class="cc">19</td>
+  <td class="cc">52</td>
+  <td class="cc">32</td>
+  <td class="cc">82</td>
+  <td class="cc">96</td>
+</tr>
+<tr>
+  <td class="cl">Цефотаксим</td>
+  <td class="cc">*</td>
+  <td class="cc">6</td>
+  <td class="cc">32</td>
+  <td class="cc">20</td>
+  <td class="cc">60</td>
+  <td class="cc">88</td>
+</tr>
+<tr>
+  <td class="cl">Цефтриаксон</td>
+  <td class="cc">*</td>
+  <td class="cc">5</td>
+  <td class="cc">33</td>
+  <td class="cc">17</td>
+  <td class="cc">57</td>
+  <td class="cc">94</td>
+</tr>
+<tr>
+  <td class="cl">Цефтазидим</td>
+  <td class="cc">11</td>
+  <td class="cc">3</td>
+  <td class="cc">26</td>
+  <td class="cc">1</td>
+  <td class="cc">56</td>
+  <td class="cc">78</td>
+</tr>
+<tr>
+  <td class="cl">Имипенем</td>
+  <td class="cc">7</td>
+  <td class="cc">0</td>
+  <td class="cc">0</td>
+  <td class="cc">0</td>
+  <td class="cc">0</td>
+  <td class="cc">0</td>
+</tr>
+<tr>
+  <td class="cl">Гентамицин</td>
+  <td class="cc">75</td>
+  <td class="cc">13</td>
+  <td class="cc">58</td>
+  <td class="cc">56</td>
+  <td class="cc">42</td>
+  <td class="cc">91</td>
+</tr>
+<tr>
+  <td class="cl">Амикацин</td>
+  <td class="cc">7</td>
+  <td class="cc">1</td>
+  <td class="cc">0</td>
+  <td class="cc">1</td>
+  <td class="cc">4</td>
+  <td class="cc">7</td>
+</tr>
+<tr>
+  <td class="cl">Ципрофлоксацин</td>
+  <td class="cc">15</td>
+  <td class="cc">1</td>
+  <td class="cc">2</td>
+  <td class="cc">5</td>
+  <td class="cc">5</td>
+  <td class="cc">53</td>
+</tr>
+<tr>
+  <td class="cl">Ко-тримоксазол</td>
+  <td class="cc">*</td>
+  <td class="cc">27</td>
+  <td class="cc">51</td>
+  <td class="cc">62</td>
+  <td class="cc">12</td>
+  <td class="cc">88</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p class="t8">* определение чувствительности не проводилось в связи с природной резистентностью к этим антибиотикам</p><br>
+
+<p>Наиболее активным антибиотиком из группы бета-лактамов в отношении всех видов микроорганизмов был имипенем; меньшая активность отмечена у цефалоспоринов III поколения - цефтазидима, цефотаксима и цефтриаксона.</p>
+
+<p>При анализе активности антибиотиков других классов, наиболее активными препаратами были амикацин и ципрофлоксацин. Необходимо отметить очень высокий уровень резистентности к гентамицину, варьирующий от 13% у <i>E.coli</i> до 91% у <i>Acinetobacter</i> spp., что может быть связано с неоправданно широким применением гентамицина в стационарах и поликлиниках.</p>
+
+<p>Очень низкой являлась активность пиперациллина и его комбинации с ингибитором бета-лактамаз (пиперациллина/тазобактама) в отношении энтеробактерий и неферментирующих бактерий. Уровень резистентности к пиперациллину колеблется от 44% у <i>E.coli</i> до 88% у <i>Acinetobacter</i> spp.; к пиперациллину/тазобактаму - от 11% у <i>E.coli</i> до 82% у <i>Acinetobacter</i> spp.</p>
+
+<p>Высокий уровень резистентности к ко-амоксиклаву - от 20% у <i>P.mirabilis</i> до 88% у <i>Enterobacter</i> spp. - ограничивает возможность его применения при нозокомиальных инфекциях. Это относится и к цефалоспоринам II поколения (цефуроксиму).</p>
+
+<p>Необходимо отметить довольно высокую устойчивость к цефалоспоринам III поколения у <i>К.pneumoniae,</i> вследствие продукции бета-лактамаз расширенного спектра (БЛРС), и <i>Enterobacter</i> spp., по-видимому, вследствие селекции стабильно дерепрессированных мутантов.</p>
+
+<p>Хотелось бы обратить внимание на увеличение частоты нозокомиальных инфекций, вызванных <i>Acinetobacter</i> spp. в Москве (центр&nbsp;I), Красноярске, Краснодаре и Екатеринбурге. Особую тревогу вызывает нарастание резистентности к ципрофлоксацину (53% резистентных штаммов <i>Acinetobacter</i> spp.).</p>
+
+<p>Для лечения инфекций, вызванных множественно-резистентными штаммами <i>Enterobacter</i> spp., можно использовать ко-тримоксазол, так как устойчивость к нему составляет 12%.</p>
+
+<p>Сравнительная активность антибактериальных препаратов в зависимости от МПК<sub>90</sub> и уровня резистентности приведена в таблицах <a href="#t3">3</a>-<a href="#t4">4</a>.</p>
+
+<a name="t3"></a><br>
+<p class="l"><b>Таблица 3.</b> Сравнительная активность антимикробных препаратов против наиболее частых возбудителей нозокомиальных инфекций в зависимости от МПК<sub>90</sub> (мг/л)</p>
+
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<tr><td valign="top" bgcolor="#CC9988">
+<table cellpadding="4" border="0" cellspacing="1" width="100%">
+<tr>
+  <th class="c8" rowspan="2">Антибиотик</th>
+  <th class="c8" colspan="2"><i>E.coli</i></th>
+  <th class="c8" colspan="2"><i>K.pneumoniae</i></th>
+  <th class="c8" colspan="2"><i>P.mirabilis</i></th>
+  <th class="c8" colspan="2"><i>Enterobacter</i>&nbsp;spp.</th>
+  <th class="c8" colspan="2"><i>Acinetobacter</i>&nbsp;spp.</th>
+  <th class="c8" colspan="2"><i>P.aeruginoza</i></th>
+</tr>
+<tr>
+  <td class="cc8">МПК<sub>90</sub> (мг/л)</td>
+  <td class="cc8">Общее место</td>
+  <td class="cc8">МПК<sub>90</sub> (мг/л)</td>
+  <td class="cc8">Общее место</td>
+  <td class="cc8">МПК<sub>90</sub> (мг/л)</td>
+  <td class="cc8">Общее место</td>
+  <td class="cc8">МПК<sub>90</sub> (мг/л)</td>
+  <td class="cc8">Общее место</td>
+  <td class="cc8">МПК<sub>90</sub> (мг/л)</td>
+  <td class="cc8">Общее место</td>
+  <td class="cc8">МПК<sub>90</sub> (мг/л)</td>
+  <td class="cc8">Общее место</td>
+</tr>
+<tr><th style="text-align: left;" colspan="13">Бета-лактамы</th></tr>
+<tr>
+  <td class="cl8">пиперациллин</td>
+  <td class="cc"><u>&gt;</u> 256</td>
+  <td class="cc">12</td>
+  <td class="cc"><u>&gt;</u> 256</td>
+  <td class="cc">11</td>
+  <td class="cc"><u>&gt;</u> 256</td>
+  <td class="cc">11</td>
+  <td class="cc"><u>&gt;</u> 256</td>
+  <td class="cc">11</td>
+  <td class="cc"><u>&gt;</u> 256</td>
+  <td class="cc">11</td>
+  <td class="cc"><u>&gt;</u> 256</td>
+  <td class="cc">6</td>
+</tr>
+<tr>
+  <td class="cl8">пиперациллин/ тазобактам</td>
+  <td class="cc">32</td>
+  <td class="cc">10</td>
+  <td class="cc"><u>&gt;</u> 256</td>
+  <td class="cc">11</td>
+  <td class="cc"><u>&gt;</u> 256</td>
+  <td class="cc">11</td>
+  <td class="cc"><u>&gt;</u> 256</td>
+  <td class="cc">11</td>
+  <td class="cc"><u>&gt;</u> 256</td>
+  <td class="cc">11</td>
+  <td class="cc"><u>&gt;</u> 256</td>
+  <td class="cc">6</td>
+</tr>
+<tr>
+  <td class="cl8">ко-амоксиклав</td>
+  <td class="cc">16</td>
+  <td class="cc">7</td>
+  <td class="cc">32</td>
+  <td class="cc">4</td>
+  <td class="cc">64</td>
+  <td class="cc">7</td>
+  <td class="cc">128</td>
+  <td class="cc">5</td>
+  <td class="cc">128</td>
+  <td class="cc">6</td>
+  <td class="cc">*</td>
+  <td class="cc">*</td>
+</tr>
+<tr>
+  <td class="cl8">цефуроксим</td>
+  <td class="cc">16</td>
+  <td class="cc">7</td>
+  <td class="cc">128</td>
+  <td class="cc">9</td>
+  <td class="cc">128</td>
+  <td class="cc">9</td>
+  <td class="cc">128</td>
+  <td class="cc">5</td>
+  <td class="cc">128</td>
+  <td class="cc">6</td>
+  <td class="cc">*</td>
+  <td class="cc">*</td>
+</tr>
+<tr>
+  <td class="cl8">цефотаксим</td>
+  <td class="cc">2</td>
+  <td class="cc">5</td>
+  <td class="cc">64</td>
+  <td class="cc">5</td>
+  <td class="cc">16</td>
+  <td class="cc">5</td>
+  <td class="cc">128</td>
+  <td class="cc">5</td>
+  <td class="cc">128</td>
+  <td class="cc">6</td>
+  <td class="cc">*</td>
+  <td class="cc">*</td>
+</tr>
+<tr>
+  <td class="cl8">цефтриаксон</td>
+  <td class="cc">1</td>
+  <td class="cc">3</td>
+  <td class="cc">64</td>
+  <td class="cc">5</td>
+  <td class="cc">16</td>
+  <td class="cc">5</td>
+  <td class="cc">128</td>
+  <td class="cc">5</td>
+  <td class="cc">128</td>
+  <td class="cc">6</td>
+  <td class="cc">*</td>
+  <td class="cc">*</td>
+</tr>
+<tr>
+  <td class="cl8">цефтазидим</td>
+  <td class="cc">1</td>
+  <td class="cc">3</td>
+  <td class="cc">64</td>
+  <td class="cc">5</td>
+  <td class="cc">1</td>
+  <td class="cc">2</td>
+  <td class="cc">128</td>
+  <td class="cc">5</td>
+  <td class="cc">64</td>
+  <td class="cc">4</td>
+  <td class="cc">8</td>
+  <td class="cc">3</td>
+</tr>
+<tr>
+  <td class="cl8">имипенем</td>
+  <td class="cc">0,5</td>
+  <td class="cc">2</td>
+  <td class="cc">0,5</td>
+  <td class="cc">1</td>
+  <td class="cc">2</td>
+  <td class="cc">3</td>
+  <td class="cc">2</td>
+  <td class="cc">2</td>
+  <td class="cc">1</td>
+  <td class="cc">1</td>
+  <td class="cc">4</td>
+  <td class="cc">2</td>
+</tr>
+<tr><th style="text-align: left;" colspan="13">АГ</th></tr>
+<tr>
+  <td class="cl8">гентамицин</td>
+  <td class="cc">16</td>
+  <td class="cc">7</td>
+  <td class="cc">128</td>
+  <td class="cc">9</td>
+  <td class="cc">128</td>
+  <td class="cc">9</td>
+  <td class="cc">128</td>
+  <td class="cc">5</td>
+  <td class="cc">128</td>
+  <td class="cc">6</td>
+  <td class="cc">128</td>
+  <td class="cc">5</td>
+</tr>
+<tr>
+  <td class="cl8">амикацин</td>
+  <td class="cc">4</td>
+  <td class="cc">6</td>
+  <td class="cc">2</td>
+  <td class="cc">3</td>
+  <td class="cc">4</td>
+  <td class="cc">4</td>
+  <td class="cc">4</td>
+  <td class="cc">3</td>
+  <td class="cc">4</td>
+  <td class="cc">2</td>
+  <td class="cc">16</td>
+  <td class="cc">4</td>
+</tr>
+<tr><th style="text-align: left;" colspan="13">Другие</th></tr>
+<tr>
+  <td class="cl8">ципрофлоксацин</td>
+  <td class="cc">0,06</td>
+  <td class="cc">1</td>
+  <td class="cc">0,5</td>
+  <td class="cc">1</td>
+  <td class="cc">0,25</td>
+  <td class="cc">1</td>
+  <td class="cc">0,5</td>
+  <td class="cc">1</td>
+  <td class="cc">16</td>
+  <td class="cc">3</td>
+  <td class="cc">2</td>
+  <td class="cc">1</td>
+</tr>
+<tr>
+  <td class="cl8">ко-тримоксазол</td>
+  <td class="cc">64</td>
+  <td class="cc">11</td>
+  <td class="cc">64</td>
+  <td class="cc">5</td>
+  <td class="cc">64</td>
+  <td class="cc">7</td>
+  <td class="cc">8</td>
+  <td class="cc">4</td>
+  <td class="cc">64</td>
+  <td class="cc">4</td>
+  <td class="cc">*</td>
+  <td class="cc">*</td>
+</tr>
+</table>
+</td></tr></table>
+
+<p class="t8">АГ - аминогликозиды <br>* - определение чувствительности не проводилось в связи с природной резистентностью к этим антибиотикам</p>
+
+<a name="t4"></a><br>
+<p class="l"><b>Таблица 4.</b> Сравнительная активность антимикробных препаратов против наиболее частых возбудителей нозокомиальных инфекций в зависимости от уровня резистентности (%)</p>
+
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<tr><td valign="top" bgcolor="#CC9988">
+<table cellpadding="4" border="0" cellspacing="1" width="100%">
+<tr>
+  <th class="c8" rowspan="2">Антибиотик</th>
+  <th class="c8" colspan="2"><i>E.coli</i></th>
+  <th class="c8" colspan="2"><i>K.pneumoniae</i></th>
+  <th class="c8" colspan="2"><i>P.mirabilis</i></th>
+  <th class="c8" colspan="2"><i>Enterobacter</i>&nbsp;spp.</th>
+  <th class="c8" colspan="2"><i>Acinetobacter</i>&nbsp;spp.</th>
+  <th class="c8" colspan="2"><i>P.aeruginoza</i></th>
+</tr>
+<tr>
+  <td class="cc8">Резист. (%)</td>
+  <td class="cc8">Общее место</td>
+  <td class="cc8">Резист. (%)</td>
+  <td class="cc8">Общее место</td>
+  <td class="cc8">Резист. (%)</td>
+  <td class="cc8">Общее место</td>
+  <td class="cc8">Резист. (%)</td>
+  <td class="cc8">Общее место</td>
+  <td class="cc8">Резист. (%)</td>
+  <td class="cc8">Общее место</td>
+  <td class="cc8">Резист. (%)</td>
+  <td class="cc8">Общее место</td>
+</tr>
+<tr><th style="text-align: left;" colspan="13">Бета-лактамы</th></tr>
+<tr>
+  <td class="cl8">пиперациллин</td>
+  <td class="cc">44,2</td>
+  <td class="cc">12</td>
+  <td class="cc">84,5</td>
+  <td class="cc">12</td>
+  <td class="cc">58,8</td>
+  <td class="cc">11</td>
+  <td class="cc">69,5</td>
+  <td class="cc">10</td>
+  <td class="cc">88,3</td>
+  <td class="cc">7</td>
+  <td class="cc">49,8</td>
+  <td class="cc">6</td>
+</tr>
+<tr>
+  <td class="cl8">пип/тазо</td>
+  <td class="cc">11,2</td>
+  <td class="cc">7</td>
+  <td class="cc">51,2</td>
+  <td class="cc">8</td>
+  <td class="cc">21,6</td>
+  <td class="cc">8</td>
+  <td class="cc">63,4</td>
+  <td class="cc">9</td>
+  <td class="cc">81,8</td>
+  <td class="cc">6</td>
+  <td class="cc">41,2</td>
+  <td class="cc">5</td>
+</tr>
+<tr>
+  <td class="cl8">ко-амоксиклав</td>
+  <td class="cc">27,0</td>
+  <td class="cc">10</td>
+  <td class="cc">51,8</td>
+  <td class="cc">9</td>
+  <td class="cc">29,6</td>
+  <td class="cc">6</td>
+  <td class="cc">87,8</td>
+  <td class="cc">12</td>
+  <td class="cc">72,7</td>
+  <td class="cc">4</td>
+  <td class="cc">*</td>
+  <td class="cc">*</td>
+</tr>
+<tr>
+  <td class="cl8">цефуроксим</td>
+  <td class="cc">19,1</td>
+  <td class="cc">9</td>
+  <td class="cc">51,8</td>
+  <td class="cc">9</td>
+  <td class="cc">32,0</td>
+  <td class="cc">9</td>
+  <td class="cc">81,7</td>
+  <td class="cc">11</td>
+  <td class="cc">96,1</td>
+  <td class="cc">12</td>
+  <td class="cc">*</td>
+  <td class="cc">*</td>
+</tr>
+<tr>
+  <td class="cl8">цефотаксим</td>
+  <td class="cc">6,0</td>
+  <td class="cc">6</td>
+  <td class="cc">32,1</td>
+  <td class="cc">5</td>
+  <td class="cc">19,6</td>
+  <td class="cc">6</td>
+  <td class="cc">59,8</td>
+  <td class="cc">8</td>
+  <td class="cc">88,3</td>
+  <td class="cc">7</td>
+  <td class="cc">*</td>
+  <td class="cc">*</td>
+</tr>
+<tr>
+  <td class="cl8">цефтриаксон</td>
+  <td class="cc">4,7</td>
+  <td class="cc">5</td>
+  <td class="cc">32,7</td>
+  <td class="cc">6</td>
+  <td class="cc">16,5</td>
+  <td class="cc">5</td>
+  <td class="cc">57,3</td>
+  <td class="cc">7</td>
+  <td class="cc">93,5</td>
+  <td class="cc">11</td>
+  <td class="cc">*</td>
+  <td class="cc">*</td>
+</tr>
+<tr>
+  <td class="cl8">цефтазидим</td>
+  <td class="cc">2,8</td>
+  <td class="cc">4</td>
+  <td class="cc">26,2</td>
+  <td class="cc">4</td>
+  <td class="cc">1,0</td>
+  <td class="cc">2</td>
+  <td class="cc">56,1</td>
+  <td class="cc">6</td>
+  <td class="cc">77,9</td>
+  <td class="cc">5</td>
+  <td class="cc">10,7</td>
+  <td class="cc">3</td>
+</tr>
+<tr>
+  <td class="cl8">имипенем</td>
+  <td class="cc">0</td>
+  <td class="cc">1</td>
+  <td class="cc">0</td>
+  <td class="cc">1</td>
+  <td class="cc">0</td>
+  <td class="cc">1</td>
+  <td class="cc">0</td>
+  <td class="cc">1</td>
+  <td class="cc">0</td>
+  <td class="cc">1</td>
+  <td class="cc">7,3</td>
+  <td class="cc">2</td>
+</tr>
+<tr><th style="text-align: left;" colspan="13">АГ</th></tr>
+<tr>
+  <td class="cl8">гентамицин</td>
+  <td class="cc">12,6</td>
+  <td class="cc">8</td>
+  <td class="cc">57,7</td>
+  <td class="cc">11</td>
+  <td class="cc">55,7</td>
+  <td class="cc">10</td>
+  <td class="cc">41,5</td>
+  <td class="cc">5</td>
+  <td class="cc">90,9</td>
+  <td class="cc">10</td>
+  <td class="cc">75,1</td>
+  <td class="cc">7</td>
+</tr>
+<tr>
+  <td class="cl8">амикацин</td>
+  <td class="cc">0,5</td>
+  <td class="cc">2</td>
+  <td class="cc">0</td>
+  <td class="cc">1</td>
+  <td class="cc">1,0</td>
+  <td class="cc">2</td>
+  <td class="cc">3,7</td>
+  <td class="cc">2</td>
+  <td class="cc">6,5</td>
+  <td class="cc">2</td>
+  <td class="cc">6,9</td>
+  <td class="cc">1</td>
+</tr>
+<tr><th style="text-align: left;" colspan="13">Другие</th></tr>
+<tr>
+  <td class="cl8">ципрофлоксацин</td>
+  <td class="cc">0,9</td>
+  <td class="cc">3</td>
+  <td class="cc">2,4</td>
+  <td class="cc">3</td>
+  <td class="cc">2,1</td>
+  <td class="cc">4</td>
+  <td class="cc">4,9</td>
+  <td class="cc">3</td>
+  <td class="cc">53,2</td>
+  <td class="cc">3</td>
+  <td class="cc">15,2</td>
+  <td class="cc">4</td>
+</tr>
+<tr>
+  <td class="cl8">ко-тримоксазол</td>
+  <td class="cc">27,9</td>
+  <td class="cc">11</td>
+  <td class="cc">47,6</td>
+  <td class="cc">7</td>
+  <td class="cc">58,8</td>
+  <td class="cc">11</td>
+  <td class="cc">12,2</td>
+  <td class="cc">4</td>
+  <td class="cc">88,3</td>
+  <td class="cc">7</td>
+  <td class="cc">*</td>
+  <td class="cc">*</td>
+</tr>
+</table>
+</td></tr></table>
+<p class="t8">АГ - аминогликозиды <br>* - определение чувствительности не проводилось в связи с природной резистентностью к этим антибиотикам</p>
+
+<a name="aprep"></a><br>
+<h4>Антибактериальные препараты</h4>
+
+<p>Антибактериальную терапию получали 99,0% пациентов. Комбинации двух и более препаратов применялись у 36,2% пациентов. Из всех антибиотиков наиболее часто использовались аминогликозиды (35,3%), причем гентамицин составлял 27,3% всех назначений антибиотиков в целом, цефалоспорины III поколения - 13,2%, ампициллин - 11,5%. В то же время амикацин применялся лишь у 4,4% пациентов, ципрофлоксацин - у 2,5%, имипенем - у 2,2%. Таким образом, наиболее активные препараты получала лишь незначительная часть пациентов, находящаяся в ОИТ.</p>
+
+<a name="conclusion"></a><br>
+<h4>Выводы</h4>
+
+<table cellpadding="5" border="0" cellspacing="0" width="100%">
+<tr><td>1.</td><td>Наиболее частыми грамотрицательными аэробными возбудителями нозокомиальных инфекций в ОИТ в России являются <i>P.aeruginosa, E.coli, K.pneumoniae, P.mirabilis, Enterobacter</i> spp. и <i>Acinetobacter</i> spp.</td></tr>
+<tr><td>2.</td><td>Наиболее активными антимикробными препаратами в отношении подавляющего большинства грамотрицательных аэробных возбудителей нозокомиальных инфекций являются имипенем, амикацин и ципрофлоксацин.</td></tr>
+<tr><td>3.</td><td>Сравнительно высокий уровень резистентности штаммов энтеробактера и клебсиеллы к цефалоспоринам III поколения требует более обоснованного подхода к их назначению при нозокомиальных инфекциях, вызванных данными микроорганизмами.</td></tr>
+<tr><td>4.</td><td>Высокий уровень резистентности к гентамицину, ингибитор-защищённым пенициллинам не позволяет рассматривать их в качестве препаратов выбора для лечения грамотрицательных нозокомиальных инфекций.</td></tr>
+<tr><td>5.</td><td>Ко-тримоксазол можно применять для лечения инфекций, вызванных <i>Enterobacter</i> spp.</td></tr>
+<tr><td>6.</td><td>В ОИТ необходимо проводить постоянный мониторинг за возбудителями нозокомиальных инфекций и их резистентностью к антимикробным препаратам.</td></tr>
+</table>
+
+<br>
+<!--footer-->
+<table border="0" cellpadding="0" cellspacing="1" width="100%"><tr>
+<td align="left" style="vertical-align:bottom;"><font class="t8">&copy; 2000-2009 <a target="_blank" href="../../../copyright.php.html">НИИАХ СГМА</a></font></td>
+
+<td colspan="2" align="right"><font size="1">
+<!--Rambler 1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../../top100.cnt.gif?335834" alt="Rambler's Top100" width="1" height="1" border="0"></a><!--/Rambler 1x1-->
+
+<!--LiveInternet 1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+';i'+escape('Жж'+document.title.substring(0,80))+';'+Math.random()+
+'" width=1 height=1 alt="">')
+//--></script><!--/LiveInternet-->
+
+<!--LiveInternet--><a href="../../../index-17.htm" target="_blank"><img src="../../../images/banners/rax.gif" border="0" width="31" height="31" title="liveinternet.ru"></a><!--/LiveInternet-->
+
+<!--TopList--><a href="http://top.list.ru/jump?from=96637" target="_blank"><img src="../../../counter-3.gif?id=96637;t=55" border="0" height="31" width="88" alt="TopList"></a><!--/TopList-->
+
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../../top100/banner-88x31-rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+</font>
+</td>
+
+</tr></table>
+<!--/footer-->
+
+  </td></tr>
+</table>
+</center>
+</body>
+</html>

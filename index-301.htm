@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Р”РѕРјРµРЅ РЅР°РїСЂР°РІР»РµРЅ РЅР° СЃРµСЂРІРµСЂР° NIC.UA</title>
+  <meta name="description" content="Р”РѕРјРµРЅ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅ РЅР° NIC.UA. Р—Р°РєР°Р¶РёС‚Рµ С…РѕСЃС‚РёРЅРі РґР»СЏ СЃРІРѕРµРіРѕ РґРѕРјРµРЅР°. &#9742; +380 44 593-32-22" />
+  <link href="//img.nic.ua/p/style.css" rel="stylesheet" />
+  <link href="//img.nic.ua/f/sites/nic/css/b.css" rel="stylesheet" />
+  <link href="//img.nic.ua/favicon.ico" rel="shortcut icon" />
+  
+  <script src="//img.nic.ua/f/_source/js/jquery-1.6.2.min.js"></script>
+  <script src="//img.nic.ua/f/js/b.rus.js"></script>
+  <script src="//img.nic.ua/f/js/b.ukr.js"></script>
+  <script src="//img.nic.ua/f/js/b.eng.js"></script>
+  <script>
+	$(document).ready(function(){
+		var lang,
+			lastLang='',
+			langRel={'ru': 'rus', 'en': 'eng', 'uk': 'ukr'};
+	    if (navigator
+	            && navigator.userAgent
+	            && (lang = navigator.userAgent
+	                    .match(/android.*\W(\w\w)-(\w\w)\W/i))) {
+	        lang = lang[1];
+	    }
+
+	    if (!lang && navigator) {
+	        if (navigator.language) {
+	            lang = navigator.language;
+	        } else if (navigator.browserLanguage) {
+	            lang = navigator.browserLanguage;
+	        } else if (navigator.systemLanguage) {
+	            lang = navigator.systemLanguage;
+	        } else if (navigator.userLanguage) {
+	            lang = navigator.userLanguage;
+	        }
+	        lang = lang.substr(0, 2);
+	    }
+	    // РїРµСЂРµРІРѕРґРёРј РЅР°Р·РІР°РЅРёРµ СЏР·С‹РєР° РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ СЃ РѕСЃРЅРѕРІРЅС‹Рј СЃР°Р№С‚РѕРј
+	    lang=langRel[lang];
+
+	    function showLang(lng) {
+	    	$('.lang').hide();
+			$('.lang.'+lng).slideDown(300);
+			resetBanners(lng);
+			lastLang=lng;
+	    }
+	    showLang(lang)
+
+	    function makeBanners() {
+	    	var lng,  pbpL, bnContainer,
+	    		p, target, t;
+	    	for (lng in pbp) {
+	    		resetBanners(lng);
+	    	}
+	    }
+	    function resetBanners(lng) {
+	    	var pbpL=pbp[lng],
+				bnContainer=$('.lang.'+lng).find('.id-banners');
+		    //console.log(lng);
+    		if (bnContainer.size() && pbpL.length) {
+    			var p=new Array(),
+    				t='', target, i;
+    			for (i=0;i<pbpL.length;i++) { p[i] = pbpL[i]; }
+    			for (i=0;i<2;i++) {
+    				var idx = Math.round(100000*Math.random()) % p.length;						
+				    if (p[idx].newwin) { target = ' target="_blank" '; } else { target = ''; }
+					t = t + '<li class="preview-box-item"><div><a '+target+'class="preview-image '+p[idx].c+'" href="'+p[idx].l+'" >' +
+							'<img src="http://nic.ua/f/i/backgrounds/transparent.gif" alt=""/>' +
+							'<span class="title"><span>'+p[idx].t+'</span></span>' +
+		                    ((p[idx].r)?('<span class="notice"><span>'+p[idx].r+'</span></span>'):'')+
+							'</a><p>'+p[idx].n+'</p></div></li>';								
+					p.splice(idx,1);
+    			}
+    			bnContainer.html('<ul class="preview-box-list nm">'+t+'</ul>');
+    		}
+	    }
+	    makeBanners();
+		
+		$('.show-lang').click(function(){
+			var lng=$(this).attr('href').substr(1);
+			showLang(lng);
+		});
+
+
+		var lastHash=window.location.hash.substr(1);
+		function checkHash() {
+			var curHash=window.location.hash.substr(1);
+			if (curHash!=lastHash) {
+				var lng=curHash;
+				if (lastLang!=lng) {
+					switch (lng) {
+					    case 'rus':
+					    case 'eng':
+					    case 'ukr': {
+					    	showLang(lng);
+							break;
+					    }
+					}
+				}
+				lastHash=curHash;
+			}
+			setTimeout(checkHash,100);
+		}
+		setTimeout(checkHash,100);
+
+		
+	});
+  </script>
+</head>
+<body>
+<div class="lang rus">
+	<div class="logo">
+		<a href="https://nic.ua"><img src="//brand.nic.ua/files/nicua-color.png" width="154" height="44" alt="Р РµРіРёСЃС‚СЂР°С‚РѕСЂ РґРѕРјРµРЅРЅС‹С… РёРјС‘РЅ NIC.UA" /></a>
+	</div>
+	
+	<div class="lang-switcher">
+		<ul>
+			<li class="active"><a href="#rus"><i class="ru"></i><span>Р СѓСЃ</span></a></li>
+			<li><a class="show-lang" href="#ukr"><i class="uk"></i><span>РЈРєСЂ</span></a></li>
+			<li><a class="show-lang" href="#eng"><i class="en"></i><span>Eng</span></a></li>
+		</ul>
+	</div>
+
+	<div class="primary-info">
+		<h1>Р”РѕРјРµРЅ www.bio-lavka.kiev.ua РЅР°РїСЂР°РІР»РµРЅ РЅР°&nbsp;СЃРµСЂРІРµСЂР°&nbsp;<abbr><a rel="nofollow" href="https://nic.ua/">NIC.UA</a></abbr></h1>
+		<p><a class="whois" target="_blank" href="http://dig.ua/search/www.bio-lavka.kiev.ua">РЈР·РЅР°С‚СЊ РІР»Р°РґРµР»СЊС†Р° РґРѕРјРµРЅР°</a></p>
+	</div>
+
+	<div class="wrapper">
+		
+		<div class="fl-wrapper">
+			
+		
+			<div class="rest">
+				
+				
+				<div class="why">
+					<h2>РџРѕС‡РµРјСѓ СЏ&nbsp;РІРёР¶Сѓ СЌС‚Сѓ СЃС‚СЂР°РЅРёС†Сѓ?</h2>
+					<p>Р­С‚Р° СЃС‚СЂР°РЅРёС†Р° РѕС‚РѕР±СЂР°Р¶Р°РµС‚СЃСЏ, РµСЃР»Рё:
+						<ul class="standard"> 
+							<li><span>РІР°С€ РґРѕРјРµРЅ РЅР°СЃС‚СЂРѕРµРЅ РЅР° С…РѕСЃС‚РёРЅРі, РґР»СЏ РєРѕС‚РѕСЂРѕРіРѕ РµС‰С‘ РЅРµ СЃРѕР·РґР°РЅ С…РѕСЃС‚РёРЅРі-Р°РєРєР°СѓРЅС‚;</span></li>
+							<li><span>РІС‹ СѓРєР°Р·Р°Р»Рё РЅРµРїСЂР°РІРёР»СЊРЅС‹Рµ РЅР°СЃС‚СЂРѕР№РєРё РґР»СЏ РґРѕРјРµРЅР°;</span></li>
+							<li><span>РІР°С€ С…РѕСЃС‚РёРЅРі-Р°РєРєР°СѓРЅС‚ СѓРґР°Р»С‘РЅ СЃ СЃРµСЂРІРµСЂР°.</span></li>
+						</ul>
+					</p>
+									
+					<p class="support">РџРѕ Р»СЋР±С‹Рј РІРѕРїСЂРѕСЃР°Рј РѕР±СЂР°С‰Р°Р№С‚РµСЃСЊ РІ&nbsp;<a rel="nofollow" href="http://support.nic.ua" target="_blank">РєР»РёРµРЅС‚СЃРєСѓСЋ&nbsp;РїРѕРґРґРµСЂР¶РєСѓ</a>.</p>
+					</div>
+					<div class="parking">
+					<h2>РџР°СЂРєРѕРІРєР° РґРѕРјРµРЅР°</h2>
+					<p>Р”Р»СЏ Р±РµСЃРїР»Р°С‚РЅРѕР№ РїР°СЂРєРѕРІРєРё Р»СЋР±РѕРіРѕ РґРѕРјРµРЅР° РёСЃРїРѕР»СЊР·СѓР№С‚Рµ СЃР»РµРґСѓСЋС‰РёРµ <abbr>NS</abbr>:</p>
+					<ul>
+						<li><code>parked1.uadns.com</code></li>
+						<li><code>parked2.uadns.com</code></li>
+					</ul>
+					
+					
+					<div class="context">
+						
+					<!--	<div class="id-banners"></div> -->
+					</div>
+					
+				</div>
+			</div>
+					
+					<div class="blitz">
+						<!--<form method="POST" action="http://nic.ua/rus/card.html">
+							<h3>
+								<label for="search">РџРѕРёСЃРє СЃРІРѕР±РѕРґРЅС‹С… РґРѕРјРµРЅРѕРІ</label>
+							</h3>
+							<input id="search" type="text" name="dList" placeholder="Р’РІРµРґРёС‚Рµ РёРјСЏ РґРѕРјРµРЅР°..." /> <button id="submit"><img src="//img.nic.ua/p/arrow.png" alt="" /></button>
+							<input type="hidden" value="102" name="cardId" />
+							<input type="hidden" value="" name="aci" />
+							<input type="hidden" value="yes" name="loopback" />
+							
+						</form>-->
+						
+						<h3>Р—Р°РєР°Р¶РёС‚Рµ РґСЂСѓРіРёРµ СѓСЃР»СѓРіРё:</h3>
+						
+				<div class="other-services">
+           
+                <table><tr>
+                    <td valign="top"><a href="https://nic.ua/ru/domains"><img src="//img.nic.ua/p/icon-domain.png" alt="Р”РѕРјРµРЅС‹"></a></td>
+                <td width="25%" valign="top"><a rel="nofollow" href="https://nic.ua/ru/domains">Р”РѕРјРµРЅС‹</a>
+                <div>10 Р»РµС‚ Р±РµСЃРїРµСЂРµР±РѕР№РЅРѕР№ СЂР°Р±РѕС‚С‹. РЎРєРёРґРєРё, Р±РѕРЅСѓСЃС‹ Рё РїР°СЂС‚РЅРµСЂСЃРєР°СЏ РїСЂРѕРіСЂР°РјРјР°.</div></td>
+                <td valign="top"><a href="https://nic.ua/ru/hosting/website"><img src="//img.nic.ua/p/icon-hosting.png" alt="РҐРѕСЃС‚РёРЅРі"></a></td>
+                <td width="25%" valign="top"><a rel="nofollow" href="https://nic.ua/ru/hosting/website">РҐРѕСЃС‚РёРЅРі</a>
+                <div>Р’С‹СЃРѕРєР°СЏ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚СЊ. РЈРґРѕР±РЅР°СЏ РїР°РЅРµР»СЊ СѓРїСЂР°РІР»РµРЅРёСЏ.</div></td>
+                <td valign="top"><a href="https://nic.ua/ru/protection/tm"><img src="//img.nic.ua/p/icon-tm.png" alt="РўРѕСЂРіРѕРІР°СЏ РјР°СЂРєР°"></a></td>
+                <td width="25%" valign="top"><a rel="nofollow" href="https://nic.ua/ru/protection/tm">РўРѕСЂРіРѕРІР°СЏ РјР°СЂРєР°</a>
+                <div>Р—Р°С‰РёС‚РёРј РїСЂР°РІР° Рё РїРѕРјРѕР¶РµРј СЃРѕ РІСЃРµРјРё Р±СѓРјР°РіР°РјРё.</div></td>
+                </tr></table>
+             
+          </div>
+
+					</div>
+					
+				
+		</div>
+		
+	</div>
+
+	<div class="footer">
+		<div class="copy">В© <abbr>РћРћРћ</abbr> В«<a rel="nofollow" href="https://nic.ua">РќР

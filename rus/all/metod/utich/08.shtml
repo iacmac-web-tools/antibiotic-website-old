@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Практические рекомендации по антибактериальной терапии инфекций мочевой системы внебольничного происхождения у детей</title>
+<meta name="description" content="Практические рекомендации по антибактериальной терапии инфекций мочевой системы внебольничного происхождения у детей">
+<meta name="keywords" content="внебольничные инфекции мочевой системы у детей">
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript">
+<!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/rus/include/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../../include/main_ie.css"></noscript>
+
+<link rel="StyleSheet" type="text/css" href="styles.css">
+</head>
+
+<body class="main">
+
+<center>
+<table cellpadding="0" border="0" cellspacing="0" width="750">
+  <tr><td>
+<!--navigation-->
+<map name="TopBtn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Предыдущая страница" title="Предыдущая страница">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Следующая страница" title="Следующая страница">
+<area shape="circle" coords="77,15,15" href="../../../../index.htm" alt="Главная страница сайта" title="Главная страница сайта">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="Написать письмо" title="Написать письмо">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../../images/buttons/topline.gif);" width="98%" height="32"><img src="../../../images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../../images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Навигация" usemap="#TopBtn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+<br>
+<h6 class="header">ПРАКТИЧЕСКИЕ РЕКОМЕНДАЦИИ ПО АНТИБАКТЕРИАЛЬНОЙ ТЕРАПИИ ИНФЕКЦИЙ МОЧЕВОЙ СИСТЕМЫ ВНЕБОЛЬНИЧНОГО ПРОИСХОЖДЕНИЯ У ДЕТЕЙ</h6>
+<p class="header">[ <a href="index.shtml">Оглавление</a> ]</p>
+<hr size="1">
+<br>
+<h4>Выбор антимикробных препаратов в зависимости от нозологической формы и степени тяжести ИМС</h4>
+
+<p>Основными задачами терапии ИМС являются:</p>
+
+<ul>
+  <li>быстрое купирование микробно-воспалительного процесса в почечной ткани и мочевых путях,</li>
+  <li>предотвращение или сведение до минимума повреждения почечной паренхимы,</li>
+  <li>предупреждение рецидивов и связанных с ними осложнений.</li>
+</ul>
+
+<p class="aj">Выбор препарата в подавляющем большинстве случаев проводится эмпирически, на основе данных о преобладающих возбудителях (в частности <i>E.coli</i>), их резистентности в регионе, тяжести состояния пациента, функции почек, его возраста, предшествующей антибактериальной терапии и аллергологическом анамнезе.</p>
+
+<p class="aj">Для детей с циститами предпочтительным является применение пероральных препаратов. При этом необходимо учитывать фармакокинетику антибиотика и использовать препараты, позволяющие обеспечить высокие (выше МПК возбудителя) концентрации в моче при приеме 1-2 раза в сутки. Антибиотики с длительным периодом полувыведения (фосфомицин) могут назначаться 1 раз в сутки, что повышает комплаентность пациентов.</p>
+
+<p class="aj">Парентеральное введение антибиотиков используется при тяжелом течении острого пиелонефрита. При пиелонефрите следует использовать препараты, обеспечивающие высокие концентрации не только в моче, но и паренхиме почек. При среднетяжелом и тяжелом течении пиелонефрита, у детей первых 2 лет жизни независимо от тяжести состояния рекомендуется госпитализация ребенка в нефрологическое отделение.</p>
+
+<p class="aj">Дозы антибиотиков для терапии ИМС у детей приведены в <a href="#t2">табл.&nbsp;2</a>.</p>
+
+<h6 class="left">Острый цистит</h6>
+
+<p><i>Препараты выбора:</i> амоксициллин/клавуланат, фосфомицин.</p>
+<p><i>Альтернативные препараты:</i> цефуроксим аксетил, ко-тримоксазол<a href="#*">*</a>, нитрофурантоин, налидиксовая кислота.</p>
+<p><i>Путь введения:</i> практически всегда внутрь.</p>
+<p><i>Длительность терапии:</i> 7 дней, фосфомицин назначается однократно.</p>
+
+<h6 class="left">Пиелонефрит</h6>
+
+<p><i>Препараты выбора:</i> амоксициллин/клавуланат, цефалоспорины II-III поколения (цефуроксим, цефотаксим, цефоперазон, цефтриаксон).</p>
+<p><i>Альтернативные препараты:</i> цефепим, меропенем, ампициллин<a href="#**">**</a> в комбинации с аминогликозидами (гентамицин, нетилмицин, амикацин).</p>
+<p><i>Путь введения:</i> парентерально или внутрь (в зависимости от тяжести состояния). При легком течении пиелонефрита (незначительно выраженных симптомах интоксикации) целесообразно назначение пероральных форм, тогда как при средне-тяжелой и тяжелой формах заболевания применяется метод ступенчатой терапии - 3-5 дней проводится парентеральная антибактериальная терапия, и при улучшении состояния ребёнка производится переход на пероральный прием.</p>
+<p><i>Длительность терапии:</i> при первичном пиелонефрите не менее 14 дней, а при вторичном зависит от характера уродинамических расстройств и клинико-лабораторных показателей. Лечение обычно согласуется с детским хирургом.</p>
+
+<p class="aj">Назначение фторхинолонов противопоказано детям до 14 лет, ко-тримоксазола - в первые 2 месяца жизни. В отдельных случаях при осложненных пиелонефритах, вызванных <i>P.&nbsp;aеruginosa</i> или полирезистентными грамотрицательными возбудителями, допускается применение фторхинолонов (ципрофлоксацин, офлоксацин).</p>
+
+<a name="t2"></a><br>
+<p><b>Таблица 2.</b> Дозы антимикробных препаратов для лечения ИМС у детей</p>
+
+<table class="brd" cellpadding="5" cellspacing="1" border="0" width="100%">
+<tr>
+  <th rowspan="2">Антибиотик</th>
+  <th colspan="2">Доза</th>
+</tr>
+<tr>
+  <th class="c8">Внутрь</th>
+  <th class="c8">Парентерально</th>
+</tr>
+<tr class="bkg">
+  <td>Амоксициллин</td>
+  <td class="c">30-60 мг/кг/сут в 3 приема </td>
+  <td class="c">НП<a href="#****">****</a></td>
+</tr>
+<tr class="bkg">
+  <td>Ампициллин</td>
+  <td class="c">30-50 мг/кг/сут в 4 приема<a href="#***">***</a></td>
+  <td class="c">50-100 мг/кг/сут в 4 введ., в/в, в/м</td>
+</tr>
+<tr class="bkg">
+  <td>Амоксициллин/клавуланат</td>
+  <td class="c">3 мес.-12 лет<br>20-45 мг/кг/сут в 3 приема<br><br>Старше 12 лет<br>0,375-0,625 г 3 раза в сутки</td>
+  <td class="c">3 мес.-12 лет<br>20-45 мг/кг/сут в 3 введ., в/в<br><br>Старше 12 лет<br>1,2 г х 3-4 раза в сутки</td>
+</tr>
+<tr class="bkg">
+  <td>Цефуроксим натрия</td>
+  <td class="c">НП</td>
+  <td class="c">50-100 мг/кг/сут в 3-4 введ., в/в, в/м</td>
+</tr>
+<tr class="bkg">
+  <td>Цефуроксим аксетил</td>
+  <td class="c">30 мг/кг/сут в 2 приема</td>
+  <td class="c">НП</td>
+</tr>
+<tr class="bkg">
+  <td>Цефотаксим</td>
+  <td class="c">НП</td>
+  <td class="c">50-100 мг/кг/сут в 2-3 введ., в/в, в/м</td>
+</tr>
+<tr class="bkg">
+  <td>Цефтибутен</td>
+  <td class="c">9 мг/кг/сут в 1-2 приема</td>
+  <td class="c">НП</td>
+</tr>
+<tr class="bkg">
+  <td>Цефоперазон</td>
+  <td class="c">НП</td>
+  <td class="c">50-100 мг/кг/сут в 2-3 введ., в/в, в/м</td>
+</tr>
+<tr class="bkg">
+  <td>Цефтриаксон</td>
+  <td class="c">НП</td>
+  <td class="c">Старше 1 мес.<br>20-75 мг/кг/сут в 1-2 введ., в/в, в/м</td>
+</tr>
+<tr class="bkg">
+  <td>Цефепим</td>
+  <td class="c">НП</td>
+  <td class="c">Старше 2 мес.<br>100 мг/кг/сут в 2 введ., в/в, в/м</td>
+</tr>
+<tr class="bkg">
+  <td>Меропенем</td>
+  <td class="c">НП</td>
+  <td class="c">Старше 3 мес.<br>10-12 мг/кг/сут каждые 8 ч, в/в</td>
+</tr>
+<tr class="bkg">
+  <td>Гентамицин</td>
+  <td class="c">НП</td>
+  <td class="c">Старше 1 мес.<br>3-5 мг/кг/сут в 1-2 введ., в/в, в/м</td>
+</tr>
+<tr class="bkg">
+  <td>Нетилмицин</td>
+  <td class="c">НП</td>
+  <td class="c">4-6,5 мг/кг/сут в 1-2 введ., в/в, в/м</td>
+</tr>
+<tr class="bkg">
+  <td>Амикацин</td>
+  <td class="c">НП</td>
+  <td class="c">15-20 мг/кг/сут в 1-2 введ., в/в, в/м</td>
+</tr>
+<tr class="bkg">
+  <td>Ко-тримоксазол</td>
+  <td class="c">Старше 2 мес.<br>6-8 мг/кг/сут в 2 приема</td>
+  <td class="c">Старше 2 мес.<br>6-8 мг/кг/сут в 2 введ., в/в</td>
+</tr>
+<tr class="bkg">
+  <td>Нитрофурантоин</td>
+  <td class="c">Старше 1 мес.<br>5-7 мг/кг/сут в 4 приема</td>
+  <td class="c">НП</td>
+</tr>
+<tr class="bkg">
+  <td>Фосфомицина трометамол</td>
+  <td class="c">Старше 5 лет<br>2,0 г однократно</td>
+  <td class="c">НП</td>
+</tr>
+</table>
+
+<a name="*"></a><p>* В регионах, где резистентность <i>E.coli</i> к ко-тримоксазолу &lt;&nbsp;15%</p>
+<a name="**"></a>
+<p>** При чувствительности к ампициллину возбудителей пиелонефрита.</p>
+<a name="***"></a>
+<p>*** только при отсутствии амоксициллина</p>
+<a name="****"></a>
+<p>**** не применяется</p>
+
+<br>
+<!--footer-->
+<table border="0" cellpadding="0" cellspacing="1" width="100%"><tr>
+<td align="left" style="vertical-align:bottom;"><font class="t8">&copy; 2000-2009 <a target="_blank" href="../../../../copyright.php.html">НИИАХ СГМА</a></font></td>
+
+<td colspan="2" align="right"><font size="1">
+<!--Rambler 1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../../../top100.cnt.gif?335834" alt="Rambler's Top100" width="1" height="1" border="0"></a><!--/Rambler 1x1-->
+
+<!--LiveInternet 1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+';i'+escape('Жж'+document.title.substring(0,80))+';'+Math.random()+
+'" width=1 height=1 alt="">')
+//--></script><!--/LiveInternet-->
+
+<!--LiveInternet--><a href="../../../../index-17.htm" target="_blank"><img src="../../../../images/banners/rax.gif" border="0" width="31" height="31" title="liveinternet.ru"></a><!--/LiveInternet-->
+
+<!--TopList--><a href="http://top.list.ru/jump?from=96637" target="_blank"><img src="../../../../counter-3.gif?id=96637;t=55" border="0" height="31" width="88" alt="TopList"></a><!--/TopList-->
+
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../../../top100/banner-88x31-rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+</font>
+</td>
+
+</tr></table>
+<!--/footer-->
+
+<hr size="1">
+  </td></tr>
+</table>
+</center>
+</body>
+</html>

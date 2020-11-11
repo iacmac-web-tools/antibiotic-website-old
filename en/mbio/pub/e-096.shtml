@@ -1,0 +1,242 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>M. Edelstein, L. Stratchounski - Development of Single Strand Conformational Polymorphism (SSCP) PCR Method for Discriminatory Detection of Genes Coding for TEM-family beta-lactamases</title>
+<meta name="description" content="Development of Single Strand Conformational Polymorphism (SSCP) PCR Method for Discriminatory Detection of Genes Coding for TEM-family b-lactamases">
+<meta name="keywords" content="Single Strand, Conformational Polymorphism, SSCP, Discriminatory Detection, Genes Coding, TEM-family, PCR Method, b-lactamases, Edelstein, Stratchounski">
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript"> <!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/en/inc/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../inc/ie.css"></noscript>
+
+<style type="text/css">
+P {margin-top: 10px; margin-left: 10px; text-align: justify;}
+LI {margin-top: 8px; margin-left: 15px; text-align: justify;}
+H4 {margin-left: 10px;}
+H5 {font-size: 11pt}
+H5.l {text-align: left;}
+</style>
+</head>
+
+<body class="main">
+
+<table width="750" cellpadding="0" border="0" cellspacing="5">
+<tr>
+  <th width="150" valign="top">
+
+  <table border="0" cellpadding="5" cellspacing="0" width="100%">
+    <tr><td>
+<p class="m10"><b>Molecular Microbiology</b></p>
+<hr size="1" style="color: #D0C0AC;">
+<p class="m8">Selected poster presentations</p>
+
+
+    </td></tr>
+  </table>
+  
+
+  </th><td valign="top">
+<!--navigation-->
+<map name="TopBtnEn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Previous page" title="Previous page">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Next page" title="Next page">
+<area shape="circle" coords="77,15,15" href="../../index-1.htm" alt="Main page" title="Main page">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="E-Mail" title="E-Mail">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../../rus/images/buttons/topline.gif);" width="98%" height="32"><img src="../../../rus/images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../../rus/images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Navigation" usemap="#TopBtnEn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+
+<h2><a name="top"></a>38<sup>th</sup> Intersciece Conference on Antimicrobial Agents and Chemotherapy</h2>
+<h5><i>24-27 September, 1998, San Diego, USA</i><br>
+<b>Poster # E-096</b></h5>
+
+<h1>Development of Single Strand Conformational Polymorphism (SSCP) PCR Method for Discriminatory Detection of Genes Coding for TEM-family <font face="Symbol">b</font>-lactamases</h1>
+
+<h5><i><u>M. EDELSTEIN</u>, L. STRATCHOUNSKI</i></h5>
+
+<h5 class="l"><i>Department of Clinical Pharmacology &amp; Antimicrobial Chemotherapy, Smolensk State Medical Academy</i></h5>
+
+<hr size="1">
+
+<a name="1"></a><br>
+<h2>ABSTRACT</h2>
+
+<p>The TEM-type <font face="Symbol">b-</font>lactamases represent one of the most clinically significant families of plasmid encoded <font face="Symbol">b-</font>lactamases. In addition to broad-spectrum parental enzymes (TEM-1, TEM-2) they comprise a large number of extended-spectrum and inhibitor-resistant derivatives evolved by acquisition of point mutations. Detection of such mutations usually requires equencing of the genes which is time consuming and technically demanding. Other approaches used to study the <font face="Symbol">b-</font>lactamases of TEM-group have limitations: isoelectric focusing (IEF) is inadequate since the same pI can correspond to different <font face="Symbol">b-</font>lactamases; determination of enzymatic substrate profile is poorly reproducible; oligonucleotide probing can target only previously described mutations and requires multiple hybridisation reactions.</p>
+
+<p>We have applied a new strategy for differentiation of <i>bla</i><sub>TEM</sub> genes based on nonradioactive PCR-SSCP method. The method includes following steps:</p>
+
+<ol>
+   <li value="1">amplification of the whole gene with TEM-universal primers (5'-ATAAAATTCTTGAAGACGAAA-3' and 5'-GACAGTTACCAATGCTTAATCA-3');</li>
+   <li value="2">simultaneous digestion of the 1080bp PCR product with two restriction endonucleases;</li>
+   <li value="3">denaturation to single-stranded DNA and SSCP analysis of resulting fragments on a PhastSystem (Pharmacia Biotech, Sweden).</li>
+</ol>
+
+<p>To evaluate the applicability of the proposed technique we tested <i>E.coli</i> strains producing TEM-1, TEM-1b, TEM-2, TEM-3, TEM-4, TEM-7, TEM-9, TEM-10, TEM-12, TEM-26, TEM-32 (IRT-3), TEM-37 (IRT-8) and TEM-39 (IRT-10). Digestion of the TEM-amplicon with <i>Taq </i>I and <i>Pst</i> I results in three fragments of 348, 412 and 320bp. Single-strand conformation analysis of these fragments allowed the distinction of electrophoretic patterns displayed by all parental genes and their ESBL-encoding derivatives. Another combination of restriction enzymes <i>Taq</i> I and <i>Ava</i> II, was used to generate a set of 4 fragments (348, 290, 222 and 220bp) permitting further differentiation of the parental TEMs and inhibitor resistant mutants (i.e., TEM-32, TEM-37 and TEM-39) under the same analysis conditions. Replicates of the experiment showed that each of the 13 representative<font face="Symbol">b-</font>lactamase genes revealed specific and highly reproducible SSCP pattern.</p>
+
+<p>We conclude that this simple and rapid method may be successfully applied to the detailed characterization and molecular epidemiology of TEM-type <font face="Symbol">b-</font>lactamases.</p>
+
+<a name="2"></a><br>
+<h2>MATERIALS AND METHODS</h2>
+
+<p>The 13 strains carrying the reference <i>bla</i><sub>TEM</sub> genes were: <i>E.coli</i> J62 encoding TEM-1, <i>E.coli</i> J53 encoding TEM-10 donated by Dr. D. M. Livermore (London, UK); <i>E.coli</i> J53-2 encoding TEM-3, <i>E.coli</i> J53-2 encoding TEM-4, <i>E.coli</i> C1A encoding TEM-7, <i>E.coli</i> J53 encoding TEM-9, <i>E.coli</i> DH5a encoding TEM-12, <i>E.coli</i> J53 encoding TEM-26 donated by Prof. A. A. Medeiros (Providence, USA); <i>E.coli</i> C600 expressing <i>bla</i><sub>TEM-1b</sub>, <i>E.coli</i> C600 encoding TEM-2 and three clinical <i>E.coli</i> isolates encoding TEM-32, TEM-37 and TEM-39 (as defined by oligotyping) donated by Prof. M. H. Nicolas-Chanoine, (Boulogne, France).</p>
+
+<p>Prior to PCR bacterial strains were grown overnight on MacConkey agar at 35<sup>o</sup>C. The DNA was extracted using the InstaGene matrix (BioRad, USA) in accordance with manufacturer’s recommendations. Two primers (5’-ATAAAATTCTTGAAGACGAAA-3’ and 5’-GACAGTTACCAATGCTTAATCA-3’), previously described by C. Mabilat et al., were used to amplify a 1080bp fragment which covers the entire gene sequence from position -5 to 1074 according to Sutcliffe nucleotide numbering of <i>bla</i><sub>TEM</sub>. The PCR reaction mixture contained: 12.5mM Tris-HCl (pH 8.3), 62.5mM KCl, 2mM MgCl<sub>2</sub>, 200microM of each dNTP, 0.25microM of each primer, 1.25U AmpliTaq DNA polymerase (Perkin-Elmer, USA) and 20microL of InstaGene DNA preparation in a final reaction volume of 50microL . The AmpliWax PCR Gems (Perkin-Elmer, USA) were used in a standard manner to provide a hot start PCR conditions. The amplification reaction included an initial 90-s denaturation at 95<sup>o</sup>C followed by a three-step profile for 35 cycles: a 90-s annealing at 54<sup>o</sup>C, a 1-min extension at 72<sup>o</sup>C and a 30-s denaturation at 94<sup>o</sup>C with a final 2-min annealing and 3-min extension step.</p>
+
+<p>Twenty microliters of the amplified DNA was subjected to restriction enzyme digests with either 1u <i>Taq</i> I and 10u <i>Pst</i> I or 1u <i>Taq</i> I and 4u <i>Ava</i> II (Pharmacia Biotech, Sweden) for 2-h at 37<sup>o</sup>C and 1-h at 65<sup>o</sup>C.</p>
+
+<p>The digested amplicon was then denatured to yield single-stranded (ss) DNA fragments by mixing 2microL of digestion product with a double volume of denaturing solution (98% formamide, 2% glycerol, 0.05% bromphenol blue and 10mM EDTA). The mixture was then heated at 98<sup>o</sup>C for 10-min and cooled down to 0<sup>o</sup>C. The amplification, digestion and denaturation reactions were carried out in a PTC-200 thermal cycler (MJ Research, USA).</p>
+
+<a name="t1"></a><br>
+<p><b>Table 1.</b> The ssDNA fragments were separated on a PhastSystem (Pharmacia Biotech, Sweden) using a PhastGels homogeneous 12.5 and Native Buffer Strips. The program had three steps as follows:</p>
+
+<table border="0" cellpadding="0" cellspacing="10" width="100%"><tr><td bgcolor="#CC9988">
+<table width="100%" cellpadding="5" cellspacing="1" border="0">
+<tr>
+	<td class="cl" width="35%"><b>Pre-run Step 1:</b></td>
+	<td class="cc">400V</td>
+	<td class="cc">5mA</td>
+	<td class="cc">2W</td>
+	<td class="cc">15<sup>o</sup>C</td>
+	<td class="cc">70Vh</td>
+</tr>
+<tr>
+	<td class="cl"><b>Sample loading Step 2:</b></td>
+	<td class="cc">400V</td>
+	<td class="cc">1mA</td>
+	<td class="cc">2W</td>
+	<td class="cc">15<sup>o</sup>C</td>
+	<td class="cc">2Vh</td>
+</tr>
+<tr>
+	<td class="cl"><b>Separation Step 3:</b></td>
+	<td class="cc">400V</td>
+	<td class="cc">5mA</td>
+	<td class="cc">2W</td>
+	<td class="cc">15<sup>o</sup>C</td>
+	<td class="cc">X Vh<a href="#t1*">*</a></td>
+</tr>
+</table>
+</td></tr></table>
+
+<a name="t1*"></a>
+<p class="t8">* X=350Vh for the <i>Taq</i> I and <i>Pst</i> I digests; X=230Vh for the <i>Taq</i> I and <i>Ava</i> II digests.</p>
+
+<p>The gels were stained with the PhastGel DNA Silver Staining Kit (Pharmacia Biotech, Sweden).</p>
+
+<a name="3"></a><br>
+<h2>RESULTS AND DISCUSSION</h2>
+
+<p>A novel PCR-SSCP method has been applied for discriminatory detection of 13 different genes encoding TEM-type <font face="Symbol">b-</font>lactamases. All the genes were amplified using
+the described primers and PCR conditions. The resulting amplicons were digested by two restriction endonucleases simultaneously, denatured to yield ssDNA fragments and analysed by native gel electrophoresis.</p>
+
+<p>The unique restriction sites of <i>Taq</i> I and <i>Pst</i> I, which lies at nucleotide positions 342 and 754 according to Sutcliffe numbering, divide the amplicon by three fragments suitable for SSCP analysis<a name="back_1"></a> (<a href="#Figure_1a">Fig. 1a</a>, <a href="#Figure_2">2</a>). This combination of restriction endonucleases allowed the distinction of electrophoretic patterns displayed by all parental genes: <i>bla</i><sub>TEM-1a</sub>, <i>bla</i><sub>TEM-1b</sub>, <i>bla</i><sub>TEM-2</sub>, and their ESBL encoding derivatives: <i>bla</i><sub>TEM-3</sub>, <i>bla</i><sub>TEM-4</sub>, <i>bla</i><sub>TEM-7</sub>, <i>bla</i><sub>TEM-9</sub>, <i>bla</i><sub>TEM-10</sub>, <i>bla</i><sub>TEM-12</sub> and <i>bla</i><sub>TEM-26</sub> upon single-strand conformation analysis<a name="back_2"></a> (<a href="#Figure_3a">Fig.&nbsp;3a</a>, <a href="#Figure_3b">3b</a>). Mutations conferring resistance to inhibitors in TEM-32, TEM-37 and TEM-39 were not detected using the same combination of restriction enzymes. The corresponding SSCP profiles were indistinguishable from that of <i>bla</i><sub>TEM-2</sub> (Fig. 3b).</p>
+
+<p>Simultaneous digestion of the amplicon with <i>Taq</i> I and <i>Ava</i> II (i.e. substitution of <i>Pst</i> I for <i>Ava</i> II), which results in four DNA fragments: 348, 290, 222 and 220bp<a name="back_3"></a> (<a href="#Figure_1b">Fig.&nbsp;1b</a>), improved differentiation of <i>bla</i><sub>TEM-2</sub> and inhibitor resistant mutants (<a href="#Figure_4">Fig. 4</a>). The genes for TEM-32 and TEM-37 yielded very similar SSCP patterns. The other representative genes were clearly distinguishable.</p>
+
+<p>The specificity and reproducibility of the current method have been tested in 5 repetitive experiments. On every occasion each of the 13 examined <font face="Symbol">b-</font>lactamase genes revealed consistent and reproducible PCR-SSCP pattern. Standardisation of SSCP analysis was achieved through the use of Pharmacia PhastSystem. This system permits very rapid separation of ssDNA fragments under carefully controlled electrophoresis conditions and automated silver staining which simplifies the detection step and eliminates the use of radio-isotopes.</p>
+
+<p>The PCR-SSCP technique has been previously used to study a number of antibiotic resistance genes in bacteria, including those coding for SHV <font face="Symbol">b-</font>lactamases and, more recently, inhibitor resistant TEMs (IRTs). Until now, however, SSCP was not used to characterise mutations encountered in a larger family of TEM-derived ESBLs. Identification of such mutations requires analysis of a long (1kb) DNA sequence. At the same time, the DNA fragment to be examined by SSCP should preferably be in the size range 100 - 500bp. We have shown that restriction digestion of the 1080bp <i>bla</i><sub>TEM</sub> amplicon allows the use of PCR-SSCP technique for analysis of entire gene sequence and permits a sensitive detection of mutations by this method.</p>
+
+<p>Although the SSCP technique may not substitute determination of a full nucleotide sequence for characterisation of novel and unique <font face="Symbol">b-</font>lactamases, it affords the opportunity to screen a large number of strains for mutations in the <i>bla</i><sub>TEM</sub> genes. This is especially important in the context of epidemiological studies of antibiotic resistance mediated by TEM-type <font face="Symbol">b-</font>lactamases.</p>
+
+<a name="4"></a><br>
+<h2>CONCLUSION</h2>
+
+<p>Our results suggest that the PCR-SSCP technique may be successfully applied for rapid, sensitive and cost-effective detection of <i>bla</i><sub>TEM</sub> mutants in clinical diagnostics and basic research.</p>
+
+<h2>ACKNOWLEDGEMENT</h2>
+
+<p>We are very grateful to Dr. D. M. Livermore, Prof. A. A. Medeiros and Prof. M. H. Nicolas-Chanoine for the kind gifts of strains expressing reference TEM <font face="Symbol">b</font>-lactamases.</p>
+
+<hr size="1">
+<br>
+
+<table border="0" cellpadding="0" cellspacing="3" width="100%"><tr><td class="cc">
+<a name="Figure_1a"></a><img src="images/e096r1a.gif" width="416" height="49">
+<br>
+<p style="float:left"><b>Figure 1a:</b> Restriction sites of <i>Taq</i> I and <i>Pst</i> I in the 1080bp PCR product of <i>bla</i><sub>TEM</sub>.</p><p style="float:right"><b><a href="#back_1">BACK TO TEXT</a></b></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<a name="Figure_1b"></a><img src="images/e096r1b.gif" width="417" height="51">
+<br>
+<p style="float:left"><b>Figure 1b:</b> Restriction sites of <i>Taq</i> I and <i>Ava</i> II in the 1080bp PCR product of <i>bla</i><sub>TEM</sub>. </p><p style="float:right"><b><a href="#back_3">BACK TO TEXT</a></b></p>
+</td></tr></table>
+
+<hr size="1">
+<br>
+
+<table border="0" cellpadding="0" cellspacing="3" width="100%"><tr><td bgcolor="#CC9988" class="cc">
+<table border="0" cellpadding="7" width="661">
+<tr>
+  <td width="50%" class="cc"><a name="Figure_2"></a><img src="images/e096r2.jpg" height="306" width="246"></td>
+  <td class="cc"><a name="Figure_3a"></a><img src="images/e096r3a.jpg" height="307" width="249"></td>
+</tr>
+<tr>
+  <td width="50%" class="cl"><b>Figure 2:</b> Restriction     patterns of the <i>bla</i><sub>TEM</sub> PCR products (non-denatured patterns).<br>Lane 1: pUC18 <i>Hae</i> III molecular size marker;<br>Lane 2: 1080bp amplicon;<br>Lane 3: <i>Taq</i> I digest;<br>Lane 4: <i>Pst I</i> digest; Lanes 5-8: Taq I and Pst I digests of <i>bla</i><sub>TEM-1a, -1b, -2, -3</sub> PCR products.</td>
+    <td class="cl"><b>Figure 3a:</b> PCR-SSCP patterns of <i>Taq </i>I and <i>Pst</i> I digested amplicons of various <i>bla</i><sub>TEM</sub> genes.</td>
+</tr>
+<tr>
+  <td width="50%" class="cl"><b><a href="#back_1">BACK TO TEXT</a></b></td>
+  <td class="cl"><b><a href="#back_2">BACK TO TEXT</a></b></td>
+</tr>
+<tr>
+  <td width="50%" colspan="2"><hr size="1"></td>
+</tr>
+<tr>
+  <td class="cc"><a name="Figure_3b"></a><img src="images/e096r3b.jpg" height="310" width="248"></td>
+  <td class="cc"><a name="Figure_4"></a><img src="images/e096r4.jpg" height="311" width="255"></td>
+</tr>
+<tr>
+  <td width="50%" class="cl"><b>Figure 3b:</b> PCR-SSCP patterns of <i>Taq </i>I and <i>Pst</i> I digested amplicons of various <i>bla</i><sub>TEM</sub> genes.</td>
+  <td class="cl"><b> Figure 4:</b> PCR-SSCP patterns of <i>Taq </i>I and <i>Ava</i> II digested amplicons of various <i>bla</i><sub>TEM</sub> genes.</td>
+</tr>
+<tr>
+  <td width="50%" class="cl"><b><a href="#back_2">BACK TO TEXT</a></b></td>
+  <td class="cl"><b><a href="#back_3">BACK TO TEXT</a></b></td>
+</tr>
+</table>
+</td></tr></table>
+
+<hr size="1">
+
+<br>
+<!-- begin footer -->
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+<tr>
+  <td style="text-align: left; vertical-align: bottom;" align="left" valign="bottom"><div class="t8">&copy; 2000-2006 IAC SSMA &middot; E-mail: <a href="mailto:website@antibiotic.ru" title="Send e-mail">website&#64;antibiotic&#46;ru</a></div></td>
+  <td colspan="2" valign="top" align="right"><font size="1"><!-- SpyLOG v2 f:0211 --><script language="javascript">
+u="u607.38.spylog.com";d=document;nv=navigator;na=nv.appName;p=1;
+bv=Math.round(parseFloat(nv.appVersion)*100);
+n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random();z="p="+p+"&rn="+rn;y="";
+y+="<a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+
+"&r="+escape(d.referrer)+"&pg="+escape(window.location.href)+"' border=0  width=88 height=31  alt='SpyLOG'>";
+y+="</a>"; d.write(y);if(!n) { d.write("<"+"!--"); }//--></script><noscript>
+<a href="../../../index-15.htm?f=3&p=1" target="_blank">
+<img src="../../../digits.png?p=1" alt='SpyLOG' border='0' width="88" height="31">
+</a></noscript><script language="javascript1.2"><!--
+if(!n) { d.write("--"+">"); }//--></script><!-- SpyLOG  --></font></td>
+</tr>
+</table>
+<!-- end of footer -->
+
+  </td></tr>
+</table>
+</body>
+</html>

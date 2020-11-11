@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"ef0243a3c2",applicationID:"392991312"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<script>window.dataLayer = window.dataLayer || []; window.dataLayer.push({"site":{"language":"English","operatingUnit":"www_aha_org","environment":"development"},"page":{"content":{"url":"www.aha.org\/","pubdate":"20190114","topics":["AHA"],"type":["Issue Landing Page"]}}});</script>
+<meta property="og:site_name" content="American Hospital Association" />
+<link rel="canonical" href="https://www.aha.org/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="description" content="The American Hospital Association (AHA) is the national organization that represents and serves all types of hospitals and health care networks." />
+<meta property="og:type" content="website" />
+<meta name="twitter:site" content="@ahahospitals" />
+<meta name="twitter:title" content="American Hospital Association homepage | AHA" />
+<meta name="twitter:description" content="The American Hospital Association (AHA) is the national organization that represents and serves all types of hospitals and health care networks." />
+<meta name="msvalidate.01" content="54B5672E5B7E87B83D585F545F57B5E6" />
+<meta name="twitter:site:id" content="241215352" />
+<meta property="og:url" content="https://www.aha.org/" />
+<meta property="og:title" content="American Hospital Association homepage | AHA" />
+<meta name="google-site-verification" content="33fWWKyWZDLDoZCEHo62LpTT6PGOHXRFyEz4QnWinG4" />
+<meta name="twitter:url" content="https://www.aha.org/" />
+<meta property="og:description" content="The American Hospital Association (AHA) is the national organization that represents and serves all types of hospitals and health care networks." />
+<meta name="cache-control" content="max-age=900, public" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/themes/custom/aha/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="https://www.aha.org/" />
+<script src="/sites/default/files/google_tag/google_tag.script.js?qimunv"></script>
+
+    <title>American Hospital Association homepage | AHA</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_rEHaGCOHfOg7tsuqNkR2liz5rzv2RuJPMzbM-bQGraU.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_xQZAcuDyohOLSYfV55uFKD2q2vnSSDuGqDmkZW-GoD4.css" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_bb4f2J-N0s6N1oFsrBFFk0nevGwo8I_U4LtHwc2RGLg.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_qxuivx9k0b49C2uUiTZ-kuhLmXZrjqu3sggbkMWPlk0.css" />
+
+<!--[if IE]>
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs.css" />
+<![endif]-->
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+  </head>
+  <body class="page-aha-homepage">
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL4XBQK" height="0" width="0" title="Google Tag Manager"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div class="layout-container">
+  <header id="master-header" class='master-header' role="banner">
+
+		<section class="top-header">
+		<div class="container">
+			<div class='top-left-header'>
+				  <div>
+    <div id="block-globalnotification">
+  
+    
+      
+            <div class="body"><!--<p><strong><font color="#9d2235">Site maintenance coming!</font> Friday, July 10th @ 7:00pm ET вЂ“ Sunday, July 12th</strong></p>-->
+<p><strong><font color="#9d2235">The latest</font> <a href="/2020-01-22-updates-and-resources-novel-coronavirus-2019-cov" style="color: #5fa1d0 !important;"> Updates and Resources on Novel Coronavirus (COVID-19)</a>.</strong></p>
+<!--<p><b>Welcome to AHA.org!</b> AHA members, email <a href="mailto:AHAhelp@aha.org?Subject=Login">AHAhelp@aha.org</a> for help logging in.</p>--></div>
+      
+  </div>
+
+  </div>
+
+
+				<!-- <div class="global-alert">
+					<b>Take Action</b> <a href="#">Fund marketplace cost-sharing reductions <i class="fa fa-long-arrow-right"><span class="sr-only">icon chevron right</span></i></a>
+				</div> -->
+
+			</div>
+		</div>
+	</section>
+	
+	<section  class="bottom-header">
+		<div class="container">
+			<div class='bottom-left-header'>  <div>
+    <div id="block-ahaheaderlogo">
+  
+    
+      
+            <div class="body"><a class="site-brand" href="/">
+<img alt="American Hospital Association.  Advancing Health in America" class="hidden-xs hidden-sm" data-entity-type="" data-entity-uuid="" src="/themes/custom/aha/images/aha-brand-full.png" /> 
+<img alt="American Hospital Association.  Advancing Health in America" class="visible-xs visible-sm" data-entity-type="" data-entity-uuid="" src="/themes/custom/aha/images/aha-brand.svg" />
+</a></div>
+      
+  </div>
+
+  </div>
+</div>
+			<div id="js-bottom-right-header" class="bottom-right-header">
+
+				<div id="js-secondary-nav" class="secondary-nav">
+					  <div>
+    <nav role="navigation" aria-labelledby="block-secondarymenu-2-menu" id="block-secondarymenu-2">
+            
+  <h2 class="visually-hidden" id="block-secondarymenu-2-menu">Secondary Menu</h2>
+  
+
+        
+              <ul class="nav navbar-nav">
+              <li>
+        <a href="/about/member-center" data-drupal-link-system-path="node/193977">AHA Member Center</a>
+              </li>
+          <li>
+        <a href="/about" data-drupal-link-system-path="node/9208">About</a>
+              </li>
+          <li>
+        <a href="/press-center" data-drupal-link-system-path="node/9201">Press Center</a>
+              </li>
+          <li>
+        <a href="/about/contact" data-drupal-link-system-path="node/9218">Contact Us</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+				</div>
+
+				<div id="js-header-login-search" class="header-login-search">
+					<a href="#" id="js-navbar-mobile-toggle" class="navbar-mobile-toggle"></a>
+					<div id="js-header-login" class="header-login">
+													<div class="openid-connect-login-form" data-drupal-selector="openid-connect-login-form" id="block-openidconnectlogin">
+  
+    
+      <form action="/" method="post" id="openid-connect-login-form" accept-charset="UTF-8">
+  <div><input data-drupal-selector="edit-openid-connect-client-generic-login" type="submit" id="edit-openid-connect-client-generic-login" name="generic" value="Register / Log In" class="button js-form-submit form-submit" />
+</div><input autocomplete="off" data-drupal-selector="form-3otlhgnztywitmr2avjvmh-6yejmvzbw7czrrgr7etk" type="hidden" name="form_build_id" value="form-3otLHGNztYwItMr2AvJVmh-6YejmvZBW7CzRrGR7eTk" />
+<input data-drupal-selector="edit-openid-connect-login-form" type="hidden" name="form_id" value="openid_connect_login_form" />
+
+</form>
+
+  </div>
+
+											</div>
+
+					<div id="js-header-search" class="header-search">
+						<form class="views-exposed-form" data-drupal-selector="views-exposed-form-aha-search-page-1" action="/aha-search" method="get" id="views-exposed-form-aha-search-page-1" accept-charset="UTF-8" _lpchecked="1">
+							<div class="js-form-item form-item js-form-type-textfield form-item-search-api-fulltext js-form-item-search-api-fulltext">
+								<label for="edit-search-api-fulltext" class="sr-only">Search</label>
+								<input data-drupal-selector="edit-search-api-fulltext" type="text" id="edit-search-api-fulltext" name="search_api_fulltext" value="" size="30" maxlength="128" class="form-autocomplete ui-autocomplete-input" data-id="autocompletion_for_input_edit_search_api_fulltext_form_text" autocomplete="off" placeholder="Search AHA...">
+							</div>
+
+							<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+								<input data-drupal-selector="edit-submit-aha-search" type="submit" id="edit-submit-aha-search" value="Search" class="button js-form-submit form-submit">
+							</div>
+						</form>
+
+						<!-- Removed header Search region -->
+											</div>
+				</div>
+
+				<div id="master-nav" class="master-nav">
+					  <div>
+    <div id="block-ahaheader">
+  
+    
+      <div class="aha-menu-wrapper">
+	<a id="menu-toggle" class="navbar-toggle collapsed">
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	</a>
+	<nav  class="aha-header navbar navbar-default navbar-we-mega-menu mobile-collapse hover-action" data-menu-name="aha-header" data-block-theme="aha" data-style="Default" data-animation="None" data-delay="" data-duration="" data-autoarrow="" data-alwayshowsubmenu="" data-action="hover" data-mobile-collapse="0">
+	  <div class="container-fluid">
+	    <ul  class="we-mega-menu-ul nav nav-tabs">
+  <li  class="we-mega-menu-li dropdown-menu" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="6a65eaff-7477-4ab3-9cb3-6143e45faa8b" data-submenu="1" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/2020-01-30-2020-aha-advocacy-agenda" target="">
+    
+    Advocacy
+
+      </a>
+<div  class="we-mega-menu-submenu" data-element-type="we-mega-menu-submenu" data-submenu-width="800" data-class="" style="width: 800px">
+  <div class="we-mega-menu-submenu-inner">
+    <div  class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="0">
+  <div  class="we-mega-menu-col span4" data-element-type="we-mega-menu-col" data-width="4" data-block="" data-blocktitle="0" data-hidewhencollapse="" data-class="">
+  <ul class="nav nav-tabs subul">
+  <li  class="we-mega-menu-li label" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="a320b3af-cc21-41e3-bfec-8feee9c0b5e4" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="label" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="" target="">
+    
+    Quick Links
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li action-center" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="74d2a6c2-66e3-4eda-b629-319818a1ce8f" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="action-center" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/action-center" target="">
+    
+    Action Center
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="c1821d03-5998-4544-8dfd-c0f8010a0fa6" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacyagenda" target="">
+    
+    Advocacy Agenda
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="566e8a41-fff6-4012-9d95-cad0436564f2" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/action-alerts" target="">
+    
+    Action Alerts
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="d463889c-ec95-4d07-9a71-d5cc83fe90bd" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/bulletins" target="">
+    
+    Special Bulletins
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="ee667a49-cfd8-4ed5-a818-d27f7454b8d3" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advisories" target="">
+    
+    Advisories
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="dcccd4e8-b2f5-41ea-a8dc-bd5e9ac73f7f" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/letters" target="">
+    
+    Letters
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="1a892043-0e7a-4d83-b64e-3ae7f7f1be33" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/press-release" target="">
+    
+    Press Releases
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="4b95dae3-f611-4d20-9e4f-11d5b75caba2" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="https://wecarewevote.aha.org" target="">
+    
+    We Care, We Vote
+
+      </a>
+
+</li>
+
+</ul>
+</div>
+<div  class="we-mega-menu-col span4" data-element-type="we-mega-menu-col" data-width="4" data-block="" data-blocktitle="1" data-hidewhencollapse="" data-class="">
+  <ul class="nav nav-tabs subul">
+  <li  class="we-mega-menu-li label" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="205f5cb3-cca9-4f84-b436-38b9a78f604f" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="label" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="" target="">
+    
+    Topics
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="7e9eebf8-4242-472e-9fda-124554029d96" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/affordability" target="">
+    
+    Affordability
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="a2bab5f7-09b4-486c-a9f4-22938040debf" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/current-and-emerging-payment-models" target="">
+    
+    Current &amp; Emerging Payment Models
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="53523538-3c3b-49cb-a4b8-adeb30d6cd64" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/leveraging-technology" target="">
+    
+    Leveraging Technology
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="1692d6ab-1230-4beb-a9ed-db8b7de6f3c4" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/quality-and-patient-safety" target="">
+    
+    Quality and Patient Safety
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="ad2c9410-c323-423c-8b9a-c340118235a7" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/access-and-health-coverage" target="">
+    
+    Access &amp; Health Coverage
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="64ed16ce-13b5-46a0-a0a9-223ca477b9ff" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/workforce-home" target="">
+    
+    Workforce
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="b310761f-aa1e-4637-8159-961745ba260f" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/compliance" target="">
+    
+    Compliance
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="95605108-5194-4501-bfbe-7f46711d5703" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/regulatory-relief/regulatory" target="">
+    
+    Regulatory Relief
+
+      </a>
+
+</li>
+
+</ul>
+</div>
+<div  class="we-mega-menu-col span4" data-element-type="we-mega-menu-col" data-width="4" data-block="" data-blocktitle="1" data-hidewhencollapse="" data-class="">
+  <ul class="nav nav-tabs subul">
+  <li  class="we-mega-menu-li label" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="8e498a69-dc66-4a06-90c4-ad09281acd3c" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="label" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="" target="">
+    
+    Issues for You
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="73b85dce-6ef5-4346-8f25-1405a1f8da1a" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/bibliographylink-page/2018-04-20-value-hospital-mergers" target="">
+    
+    The Value of Hospital Mergers
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="525c0279-dfd2-45b9-9d7f-8cfc677448b0" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/340b" target="">
+    
+    The 340B Drug Savings Program
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="8c815bc0-b8fd-4c74-a702-2bcb1f7c0aaa" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="https://ifdhe.aha.org/" target="">
+    
+    Institute for Diversity and Health Equity
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="9ce9369c-4c3a-4e5a-b2d6-4960e555c3e5" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/small-or-rural" target="">
+    
+    Rural Health and Critical Access Hospitals
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="61b7b90d-07c3-47d9-82f1-cf36834b4673" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/long-term-care-and-rehabilitation" target="">
+    
+    Post-acute Care
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="efc1cbc9-e798-4c8c-9415-d0bcbcbeedf8" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/health-care-systems" target="">
+    
+    Health Care Systems
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="621f61f8-0403-4425-9efc-dde6dadf81e2" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/teaching-hospitals" target="">
+    
+    Teaching Hospitals
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="6490ea8f-f917-4b9b-bc3a-274feff7b318" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/access-and-health-coverage/access-behavioral-health" target="">
+    
+    Behavioral Health Services
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="893be39a-6531-47cc-800f-0aa826656dba" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/maternal-and-child-health" target="">
+    
+    Maternal Health
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="ecde3a39-c2e0-4f1e-b140-e7b5502f38c3" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/providers-with-health-plans" target="">
+    
+    Providers with Health Plans
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="faac84db-de3b-429e-9531-d95d7846077a" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/trustees" target="">
+    
+    Trustees
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="62359fd3-9b77-467e-a2cd-3b51a38fdb53" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/aha-physician-alliance" target="">
+    
+    Physician Leaders
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="c7bfd70b-f0c9-4e1b-afdc-a4a2b544ddd5" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advocacy/nurse-leaders" target="">
+    
+    Nurse Leadership
+
+      </a>
+
+</li>
+
+</ul>
+</div>
+
+</div>
+
+  </div>
+</div>
+</li>
+<li  class="we-mega-menu-li dropdown-menu" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="c06cd41d-68ec-4056-a845-0cbc87cc361e" data-submenu="1" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/career-resources/certification-center" target="">
+    
+    Career Resources
+
+      </a>
+<div  class="we-mega-menu-submenu" data-element-type="we-mega-menu-submenu" data-submenu-width="" data-class="" style="width: px">
+  <div class="we-mega-menu-submenu-inner">
+    <div  class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="0">
+  <div  class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="" data-blocktitle="0" data-hidewhencollapse="" data-class="">
+  <ul class="nav nav-tabs subul">
+  <li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="ccaea588-f9d6-4337-a0a0-e89e66002cb6" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="https://recruiting.ultipro.com/AME1048AHA/JobBoard/375a6da6-5fac-4f86-a078-43c6fe0f78b8/?q=&amp;o=postedDateDesc" target="">
+    
+    Current AHA Openings
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="54993d4b-75b3-43d9-a138-96e9972f91cd" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/career-resources/certification-center" target="">
+    
+    Certification Center
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="bb678dfb-aa5b-42b5-ae62-d2befa2c1de2" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/career-resources/health-career-center" target="">
+    
+    Health Career Center
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="8f630cf9-9a33-4f81-aa14-86c4393ea2a5" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/pmgs" target="">
+    
+    Individual Membership Organizations
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="d50e17d3-d674-491b-ab68-5b379f76871a" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="https://trustees.aha.org/" target="">
+    
+    Governance
+
+      </a>
+
+</li>
+
+</ul>
+</div>
+
+</div>
+
+  </div>
+</div>
+</li>
+<li  class="we-mega-menu-li dropdown-menu" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="195c9612-d23d-441b-8119-b132ed067687" data-submenu="1" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/data-insights/health-care-big-picture" target="">
+    
+    Data &amp; Insights
+
+      </a>
+<div  class="we-mega-menu-submenu" data-element-type="we-mega-menu-submenu" data-submenu-width="" data-class="" style="width: px">
+  <div class="we-mega-menu-submenu-inner">
+    <div  class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="0">
+  <div  class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="" data-blocktitle="0" data-hidewhencollapse="" data-class="">
+  <ul class="nav nav-tabs subul">
+  <li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="b3573440-b205-42d0-8143-2830550b1a78" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/statistics/fast-facts-us-hospitals" target="">
+    
+    Fast Facts on U.S. Hospitals
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="3451f3c0-8e7d-42d8-974b-fe82a8cb6d9b" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/data-insights/health-care-big-picture" target="">
+    
+    Health Care: The Big Picture
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="2020 AHA Environmental Scan" data-id="be8aa595-e754-4707-ab61-76453ebdce5f" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="2020 AHA Environmental Scan" href="/environmentalscan" target="">
+    
+    Environmental Scan
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="e4199598-ca3d-4408-9cc5-a61ee90acd46" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/aha-center-for-health-innovation" target="">
+    
+    AHA Center for Health Innovation
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="AHA Center for Health Innovation Market Scan newsletter" data-id="a60d9065-198f-4060-a741-4b246d3adaf3" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="AHA Center for Health Innovation Market Scan newsletter" href="/center/form/innovation-subscription" target="">
+    
+    Market Scan
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="186621bf-1116-4fd0-85f4-a39e63027e77" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="https://www.ahadata.com/" target="">
+    
+    AHA Data Products
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="62e4a9dd-1232-47f6-bafc-1e715651a7ae" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/data-and-insights/presentation-center" target="">
+    
+    Presentation Center
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="fcd44253-5da9-43d6-a2c3-87043744b334" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/data-insights/hospitals-and-systems" target="">
+    
+    Hospitals and Systems
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="f69f0288-41ec-4ba7-82ab-9ad734219b2f" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/topics/community-health-data" target="">
+    
+    Community Health Data
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="dd25668a-3389-4e7d-ae85-a6a05e6aa216" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/data-and-insights/best-practices-library" target="">
+    
+    Best Practices Library
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="5450d042-aa07-4039-abcc-604581b32185" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/data-insights/resource-center" target="">
+    
+    Resource Center
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="cc572010-cbd0-4ae9-880d-a09a53d29f41" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="https://ams.aha.org/EWEB/dynamicpage.aspx?Site=AHA&amp;WebCode=StoreMainPage&amp;AHABU=AHA" target="">
+    
+    AHA Online Store
+
+      </a>
+
+</li>
+
+</ul>
+</div>
+
+</div>
+
+  </div>
+</div>
+</li>
+<li  class="we-mega-menu-li dropdown-menu" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="207b339b-5154-4328-b6af-322ec0c943d5" data-submenu="1" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/calendar" target="">
+    
+    Education &amp; Events
+
+      </a>
+<div  class="we-mega-menu-submenu" data-element-type="we-mega-menu-submenu" data-submenu-width="" data-class="" style="width: px">
+  <div class="we-mega-menu-submenu-inner">
+    <div  class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="0">
+  <div  class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="" data-blocktitle="0" data-hidewhencollapse="" data-class="">
+  <ul class="nav nav-tabs subul">
+  <li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="add265cf-9609-4fe3-9869-20ca8a3a3d26" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/calendar" target="">
+    
+    Events &amp; Webinars Calendar
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="The AHA Rural Health Care Leadership Conference brings together top thinkers in the field, and offers you proven strategies for accelerating performance excellence and improving the sustainability of your rural hospital." data-id="b98d1547-377b-4e46-bea2-f64bb7138952" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="The AHA Rural Health Care Leadership Conference brings together top thinkers in the field, and offers you proven strategies for accelerating performance excellence and improving the sustainability of your rural hospital." href="https://ruralconference.aha.org/" target="">
+    
+    AHA Rural Health Care Leadership Conference
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="05d90737-1166-4597-80db-501049e450ed" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/center/performance-improvement/team-training" target="">
+    
+    AHA Team Training
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="5b089660-2b53-4dd0-affc-edd488bf23b6" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/education-events/aha-virtual-executive-dialogues" target="">
+    
+    AHA Virtual Executive Dialogues
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="f1f9417d-bbf1-4ea9-9d5b-84a98698c732" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="https://annualmeeting.aha.org/?utm_source=web&amp;utm_medium=topbanner&amp;utm_campaign=2020-AM&amp;utm_term=ahahomepage&amp;utm_content=registration" target="">
+    
+    AHA Annual Membership Meeting
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="The Leadership Summit offers strategies and tools to help organizations better serve their patients and communities while improving financial and operational goals." data-id="91db86a9-8c4e-4be6-a20c-241aa3b06c8f" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="The Leadership Summit offers strategies and tools to help organizations better serve their patients and communities while improving financial and operational goals." href="/education-and-events/leadership-summit" target="">
+    
+    AHA Leadership Summit
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="58116a9f-0c6f-4ec3-ae1e-7273fe39edf6" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/Individual-membership-organization-events" target="">
+    
+    Individual Membership Organization Events
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="9741efab-ac88-4862-949e-09f221394dae" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/aha-virtual-conference" target="">
+    
+    Virtual Conference: Navigating a New Reality
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="ad3f7284-1a8e-40bf-9d83-0e4d47d47080" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/value-initiative" target="">
+    
+    The Value Initiative
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="a9976cbf-1a93-44a8-b0b7-7721e7a48580" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="https://www.aha.org/center/innovation-capacity#innovation-resources" target="">
+    
+    Innovation Resources
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="d470d5e6-cf4e-4814-961b-3a2b709fe9b2" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="https://sponsor.aha.org/" target="">
+    
+    Sponsorship Information
+
+      </a>
+
+</li>
+
+</ul>
+</div>
+
+</div>
+
+  </div>
+</div>
+</li>
+<li  class="we-mega-menu-li dropdown-menu" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="640fbe82-4027-4904-ae63-325aff0233e5" data-submenu="1" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/news" target="">
+    
+    News
+
+      </a>
+<div  class="we-mega-menu-submenu" data-element-type="we-mega-menu-submenu" data-submenu-width="" data-class="" style="width: px">
+  <div class="we-mega-menu-submenu-inner">
+    <div  class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="0">
+  <div  class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="" data-blocktitle="0" data-hidewhencollapse="" data-class="">
+  <ul class="nav nav-tabs subul">
+  <li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="32d17041-ae1a-4d94-aa81-dc4d9f2b33a1" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/news" target="">
+    
+    News Articles
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="22ae802f-0d7b-43b5-aae5-cba248aadd32" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advancing-health-podcast" target="">
+    
+    Advancing Health Podcast
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="4b03b0bb-8095-4d6e-a8f5-7b30d0efc06c" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/blog" target="">
+    
+    AHA Stat Blog
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="4aff1890-a086-48c1-84a3-85a3bfc5ab0d" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/aha-news-rss-feed" target="">
+    
+    AHA News RSS Feed
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="AHA Today Subscription Page" data-id="671d4e00-2c3b-4243-a748-7ccfb8f9d2c4" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="AHA Today Subscription Page" href="/2017-12-15-aha-today" target="">
+    
+    Subscribe to AHA Today
+
+      </a>
+
+</li>
+
+</ul>
+</div>
+
+</div>
+
+  </div>
+</div>
+</li>
+<li  class="we-mega-menu-li dropdown-menu" data-level="0" data-element-type="we-mega-menu-li" description="" data-id="c0b82486-0a63-4701-8649-a8a88819c6d9" data-submenu="1" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/ahia/promoting-healthy-communities" target="">
+    
+    Individuals &amp; Communities
+
+      </a>
+<div  class="we-mega-menu-submenu" data-element-type="we-mega-menu-submenu" data-submenu-width="" data-class="" style="width: px">
+  <div class="we-mega-menu-submenu-inner">
+    <div  class="we-mega-menu-row" data-element-type="we-mega-menu-row" data-custom-row="0">
+  <div  class="we-mega-menu-col span12" data-element-type="we-mega-menu-col" data-width="12" data-block="" data-blocktitle="0" data-hidewhencollapse="" data-class="">
+  <ul class="nav nav-tabs subul">
+  <li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="1ee1e9aa-0083-489c-b548-b042b4858dde" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="_self">
+  <a class="we-mega-menu-li" title="" href="/americas-hospitals-supporting-health-supporting-you" target="_self">
+    
+    Supporting Health, Supporting You
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="88c8e581-fa9d-4265-969f-2a94cdd6e10a" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="https://www.100millionmasks.org/" target="">
+    
+    100 Million Mask Challenge
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="aecb74d9-9b34-40fe-8b45-9f1389bff926" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/wearamask" target="">
+    
+    Wear a Mask Campaign
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="b605e617-c3d0-4bf3-867a-261fb0881a3a" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/ahia/promoting-healthy-communities/united-against-flu" target="">
+    
+    United Against the Flu
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="cad3f171-b8e7-47eb-92f4-2f191cee0a8f" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/hhnmag/6467-we-care-we-vote" target="">
+    
+    We Care We Vote
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="8bff3ff9-e546-4374-b3a0-4cfcbb0f5266" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/advancing-health-in-america" target="">
+    
+    Advancing Health in America Campaign
+
+      </a>
+
+</li>
+<li  class="we-mega-menu-li" data-level="1" data-element-type="we-mega-menu-li" description="" data-id="89df643d-a743-4589-bd8a-c57b1008259c" data-submenu="0" hide-sub-when-collapse="" data-group="0" data-class="" data-icon="" data-caption="" data-alignsub="" data-target="">
+  <a class="we-mega-menu-li" title="" href="/ahia/advancing-best-practices" target="">
+    
+    Advancing Best Practices for Hospitals and Health Systems
+
+      </a>
+
+</li>
+
+</ul>
+</div>
+
+</div>
+
+  </div>
+</div>
+</li>
+
+</ul>
+	  </div>
+	</nav>
+</div>
+
+  </div>
+
+  </div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+</header>
+  <main id="main-content" role="main">
+    <div class="layout-content">
+        <div>
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-mainpagecontent">
+  
+    
+      
+<article role="article" class="dynamic-page--node aha-home--page-wrapper">
+
+  
+  <div class="container edp-container">
+    <div class="spacer dynamic-main ">
+                  <section class="page-maincontent">
+                
+            <div class="body"><meta property="og:image" content="https://www.aha.org/sites/default/files/2019-10/AHA-block-logo.jpg" /><meta name="twitter:image" content="https://www.aha.org/sites/default/files/2019-10/AHA-block-logo.jpg" />
+<style type="text/css">p ol li {
+font-size: 16px;
+}
+.meta.custom-lock-position {
+  position: relative;
+  top: 0px;
+  right: inherit;
+  display: block;
+  float: right;
+}
+</style>
+<p>&nbsp;</p>
+</div>
+      
+      <div class="field_custom_elements">
+              <div>  <div class="paragraph paragraph--type--cta-carousel-group paragraph--view-mode--default">
+          
+<div id="ctaCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
+<ol class="carousel-indicators"><li data-target="#ctaCarousel" data-slide-to="0"></li><li data-target="#ctaCarousel" data-slide-to="1"></li><li data-target="#ctaCarousel" data-slide-to="2"></li><li data-target="#ctaCarousel" data-slide-to="3"></li><li data-target="#ctaCarousel" data-slide-to="4"></li><li data-target="#ctaCarousel" data-slide-to="5"></li><li data-target="#ctaCarousel" data-slide-to="6"></li><li data-target="#ctaCarousel" data-slide-to="7"></li><li data-target="#ctaCarousel" data-slide-to="8"></li><li data-target="#ctaCarousel" data-slide-to="9"></li><li data-target="#ctaCarousel" data-slide-to="10"></li><li data-target="#ctaCarousel" data-slide-to="11"></li><li data-target="#ctaCarousel" data-slide-to="12"></li></ol>
+  <div class="carousel-inner">                    
+      <div class="item active">
+        
+<div class="cta_carousel_item">
+  <a href="/wearamask">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-10/carousel-mask-commercial.jpg?itok=RYFt_q1g" width="1200" height="400" alt="Wear a Mask For All the Things You Love. A blue surgical mask with the words &quot;Wear a mas.&quot; overlayed on it." />
+
+
+
+          <div class="carousel-caption">
+                  <h3>New &quot;Wear a Mask&quot; PSAs</h3>
+                          <div class="blurb">
+                                <p><p>Watch the AHA's latest Wear a Mask PSAs, explore our resources on proper mask-wearing and care practices, and read&nbsp;advice from health leaders that&nbsp;equips our nation with the information we&nbsp;need to keep ourselves, our families, and our communities safe.</p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            Watch the PSAs
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div>      
+      <div class="item ">
+        
+<div class="cta_carousel_item">
+  <a href="/issue-landing-page/2020-09-17-financial-implications-covid-19-hospitals-and-health-systems">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-05/aha-carousel-financial-pressure.jpg?itok=jediq-wD" width="1200" height="400" alt="Hospitals and Health Systems Face Unprecedented Financial Pressures Due to COVID-19 banner" />
+
+
+
+          <div class="carousel-caption">
+                  <h3>Financial Implications of COVID-19 on Hospitals and Health Systems</h3>
+                          <div class="blurb">
+                                <p><p>The AHA has rightly labeled this pandemic the greatest financial threat in history for hospitals and health systems as we continue to fight this pandemic at the same time that non-COVID patient visits remain below normal levels. The AHA has a number of resources and reports on the impact of COVID-19 on hospitals and health systems.</p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            Explore the Resources
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div>      
+      <div class="item ">
+        
+<div class="cta_carousel_item">
+  <a href="/supreme-court-cases">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-01/cardinal-health-gown-1200x400.jpg?itok=S6EeDMBl" width="1200" height="400" alt="operating room nurse unfolding a surgical gown" />
+
+
+
+          <div class="carousel-caption">
+                  <h3>The Supreme Court Hears Oral Arguments on ACA Individual Mandate Case</h3>
+                          <div class="blurb">
+                                <p><p>See the latest updates on the&nbsp;Texas v. California case regarding the Affordable Care Act individual mandate and the future of the ACA.</p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            See the latest updates
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div>      
+      <div class="item ">
+        
+<div class="cta_carousel_item">
+  <a href="/center/project-firstline">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-10/project-firstline-carousel-1200x400.jpg?itok=Gtw-nF5n" width="1200" height="400" alt="Project Firstline homepage carousel banner. A female clinician wear a gown, surgical mask, and face shield dons a pair of nitrile gloves." />
+
+
+
+          <div class="carousel-caption">
+                  <h3>Project Firstline</h3>
+                          <div class="blurb">
+                                <p><p>The AHA is partnering with the CDC and other healthcare organizations on a national infection control training collaborative for frontline healthcare workers and public health personnel.</p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            Read More
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div>      
+      <div class="item ">
+        
+<div class="cta_carousel_item">
+  <a href="/advocacy/leveraging-technology/cybersecurity">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-10/Pages-1-AA20-302A_Ransomware%20_Activity_Targeting_the_Healthcare_and_Public_Health_Sector.jpg?itok=9X82EIje" width="1200" height="400" alt="Joint Cybersecurity Advisory: Ransomware Activity Targeting the Healthcare and Public Health Sector. A downtown urban cityscape showing cyber connections across the city." />
+
+
+
+          <div class="carousel-caption">
+                  <h3> Joint Cybersecurity Advisory: Ransomware Activity Targeting the Healthcare and Public Health Sector</h3>
+                          <div class="blurb">
+                                <p><p>CISA, FBI, and HHS have credible information of an increased and imminent cybercrime threat to U.S. hospitals and healthcare providers.</p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            Read the Advisory
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div>      
+      <div class="item ">
+        
+<div class="cta_carousel_item">
+  <a href="/issue-landing-page/2020-09-23-stay-healthy-dont-delay-care">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-10/banner-dont-delay-care-1200x400-v3.jpg?itok=Th1sPBo6" width="1200" height="400" alt="DonвЂ™t Put Off the Care You Need PSA carousel banner" />
+
+
+
+          <div class="carousel-caption">
+                  <h3>New PSA Urges the Public вЂњDonвЂ™t Put Off the Care You NeedвЂќ</h3>
+                          <div class="blurb">
+                                <p><p>AHA released a public service announcement urging Americans to not delay getting the care they need. Social media, talking points and other materials for this effort are also available for use.</p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            Watch the PSA
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div>      
+      <div class="item ">
+        
+<div class="cta_carousel_item">
+  <a href="/about/awards/aha-nova-award">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-09/nova-award-applications-open-1200x400.jpg?itok=3Y26aJTV" width="1200" height="400" alt="AHA Dick Davidson NOVA Award. Collaboration for Healtheir Communities. 2021 Applications Now Open. American Hospital Association logo. Association for Community Health Improvement logo." />
+
+
+
+          <div class="carousel-caption">
+                  <h3>Applications for the 2021 AHA Dick Davidson NOVA Award Are Now Available</h3>
+                          <div class="blurb">
+                                <p><p>The AHA Dick Davidson NOVA Award recognizes the collaborative work of hospitals and community organizations to improve the health status of individuals and communities. Applications for the 2021 award are now available and accepted through Monday, November 23, 2020.</p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            Apply Now
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div>      
+      <div class="item ">
+        
+<div class="cta_carousel_item">
+  <a href="https://www.ahadata.com/aha-market-capture">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-09/MarketCapture_Launch_1200x400.jpg?itok=MhEb0p3n" width="1200" height="400" alt="MarketCapture. A man and a woman use MarketCapture on a computer." />
+
+
+
+          <div class="carousel-caption">
+                  <h3>Introducing AHA MarketCapture</h3>
+                          <div class="blurb">
+                                <p><p>Quickly identify opportunities to maximize in-network referrals</p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            Show Me More
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div>      
+      <div class="item ">
+        
+<div class="cta_carousel_item">
+  <a href="/2020-01-22-updates-and-resources-novel-coronavirus-2019-cov">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-01/coronovirus-1200x400.jpg?itok=UxGNJvan" width="1200" height="400" alt="Coronavirus illustration" />
+
+
+
+          <div class="carousel-caption">
+                  <h3> Updates and Resources on COVID-19</h3>
+                          <div class="blurb">
+                                <p><p>The Centers for Disease Control and Prevention and World Health Organization continue to address the novel coronavirus (COVID-19) pandemic.</p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            See the latest from CDC, WHO, and AHA updates and resources
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div>      
+      <div class="item ">
+        
+<div class="cta_carousel_item">
+  <a href="/advocacy/2020-04-16-introducing-ahas-new-app-my-aha-connect">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-05/My_AHA_Connect_1200x400.jpg?itok=FJZf9W4y" width="1200" height="400" alt="Ready for download! My AHA Connect App. Download. Photo of a mobile phone with the My AHA Connect app displaying on the screen." />
+
+
+
+          <div class="carousel-caption">
+                  <h3>Introducing AHA&#039;s New Members-Only App</h3>
+                          <div class="blurb">
+                                <p><p>Designed to make it easy for you to stay current with the latest health policy news and legislative updates, you can customize the app according to your interests for a personalized experience.</p>
+
+<p style="color: #9d2235;"><strong>Update to the latest version!</strong></p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            Download the App
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div>      
+      <div class="item ">
+        
+<div class="cta_carousel_item">
+  <a href="https://www.aha.org/guidesreports/2020-05-05-covid-19-pathways-recovery">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-05/aha-carousel-pathways-to-recovery.jpg?itok=aKCqtf-i" width="1200" height="400" alt="COVID-19: Pathways to Recovery banner" />
+
+
+
+          <div class="carousel-caption">
+                  <h3>COVID-19: Pathways to Recovery</h3>
+                          <div class="blurb">
+                                <p><p style="color: #9d2235;"><strong>AHA Member-Only Report</strong></p>
+
+<p>Considerations and Resources to Guide Hospitals and Health Systems</p>
+
+<p style="color: #003087;">Updated on June 10 with new sections on <strong>a New Patient Experience</strong>, <strong>Transitions of Care</strong>, and <strong>Risk Management</strong>.</p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            Members Read the Report
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div>      
+      <div class="item ">
+        
+<div class="cta_carousel_item">
+  <a href="/about/member-center">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-05/We-Are-AHA_Covid_1200x400.jpg?itok=0gTBOiDI" width="1200" height="400" alt="COVID-19: The AHA Responds. We are AHA." />
+
+
+
+          <div class="carousel-caption">
+                  <h3>New Video Highlights Value of AHA Membership during COVID-19</h3>
+                          <div class="blurb">
+                                <p><p>See how the association is telling hospital and health systemsвЂ™ stories, getting resources to the front lines and leading the field to recovery.</p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            Watch Now
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div>      
+      <div class="item ">
+        
+<div class="cta_carousel_item">
+  <a href="/center/aha-digital-pulse?utm_source=aha-web&amp;utm_medium=banner&amp;utm_campaign=graphic">
+    
+    <img src="/sites/default/files/styles/cta_carousel/public/2020-05/Digital%20Pulse_Discover_banner_1200x400.jpg?itok=LzZ_fHFm" width="1200" height="400" alt="AHA Digital Pulse Discover banner. AHA Digital Pulse screen shown on desktop computer, laptop computer, and tablet." />
+
+
+
+          <div class="carousel-caption">
+                  <h3>Take the New Behavioral Health Digital Pulse</h3>
+                          <div class="blurb">
+                                <p><p>Advance the integration of physical and behavioral health with digital solutions.</p>
+</p>
+          </div>
+                          <button class="carousel-btn btn btn-sm btn-default">
+            Learn More
+          </button>
+              </div>
+      </a>
+</div>
+
+      </div></div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#ctaCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="carousel-control right" href="#ctaCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a></div>
+
+      </div>
+</div>
+              <div>  <div class="paragraph paragraph--type--views-block paragraph--view-mode--default">
+          <div class="">
+        
+            <div class="field_views_block"><div>
+  
+    
+      <div class="views-element-container">
+
+<section  class="home-latest-news-block top-level-view js-view-dom-id-a75ca0cd28ef3854039dd30fbdfea5fb8672633d91dd250a7fd9d24ff4a8de60 resource-block">
+  
+  
+  
+
+      <header class="page-header">
+<h2><small>Latest News</small></h2>
+<a href="/news" class="link-more">See More <i class="fa fa-long-arrow-right"></i></a>
+</header>
+  
+  
+  
+  <div class="resource-wrapper">
+    <div class="resource-view">
+          <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/chairpersons-file/2020-11-10-chair-file-thanking-our-veterans-who-make-our-freedom-possible" hreflang="en">Chair File: Thanking our Veterans who make our Freedom Possible </a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 10, 2020 by Melinda L. Estes, M.D.</span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/headline/2020-11-09-cms-announces-medicare-premiums-and-deductibles-cy-2021" hreflang="en">CMS announces Medicare premiums and deductibles for CY 2021</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 9, 2020 </span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/headline/2020-11-09-cms-releases-final-rule-medicaid-chip-managed-care" hreflang="en">CMS releases final rule on Medicaid, CHIP managed care</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 9, 2020 </span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/headline/2020-11-09-live-coverage-ahas-website-nov-10-aca-supreme-court-oral-arguments" hreflang="en">Live coverage on AHAвЂ™s website of Nov. 10 ACA Supreme Court oral arguments</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 9, 2020 </span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/headline/2020-11-09-fda-authorizes-first-test-detect-neutralizing-antibodies-prior-infection" hreflang="en">FDA authorizes first test to detect neutralizing antibodies from prior infection</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 9, 2020 </span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/headline/2020-11-09-1-11-covid-19-hospital-patients-readmitted-study-finds" hreflang="en">1 in 11 COVID-19 hospital patients readmitted, study finds</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 9, 2020 </span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/headline/2020-11-09-pfizer-reports-90-efficacy-covid-19-vaccine-candidate" hreflang="en">Pfizer reports 90% efficacy for COVID-19 vaccine candidate</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 9, 2020 </span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/headline/2020-11-09-aha-issues-statement-2020-election" hreflang="en">AHA issues statement on 2020 election</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 9, 2020 </span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/headline/2020-11-09-hhs-again-urged-reinstate-june-reporting-requirements-covid-19-provider" hreflang="en">HHS again urged to reinstate June reporting requirements for COVID-19 Provider Relief Fund</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 9, 2020 </span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/headline/2020-11-06-health-care-adds-58300-jobs-october" hreflang="en">Health care adds 58,300 jobs in October</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 6, 2020 </span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/headline/2020-11-06-aha-avia-moderate-virtual-discussion-addressing-health-care-disparities" hreflang="en">AHA, AVIA to moderate virtual discussion on addressing health care disparities</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 6, 2020 </span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/headline/2020-11-06-new-aha-brief-webinar-medical-legal-partnerships-meet-social-needs" hreflang="en">New AHA brief, webinar on medical-legal partnerships to meet social needs</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 6, 2020 </span></div></div>
+
+    </div>
+  </div>
+
+  
+  
+
+  
+  
+
+       <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  
+</section>
+</div>
+
+  </div>
+</div>
+      
+      </div>
+      </div>
+</div>
+              <div>
+          <div class="paragraph paragraph--type--cta-multi paragraph--view-mode--default">
+        
+                        <div class="cta-image-header-sub-text-link-items ">
+                                                              <div class="cta-image-header-sub-text-link-item-wrapper">
+                                                        <a href="/advocacy/action-center" class="cta-image-header-sub-text-link-item">
+                                                    <div class="cta-image-header-sub-text-link-image">
+                              <img src="/sites/default/files/styles/medium/public/2019-08/aha-homepage-action-center.jpg">
+                          </div>
+                                                        <div class="cta-image-header-sub-text-link-header"></div>
+                                                                                  <div class="cta-image-header-sub-text-link-subheader">Advocacy</div>
+                                                                                  </a>
+                                                                                  <div class="cta-image-header-sub-text-link-text"><p><div class="views-element-container">
+
+<section  class="top-level-view js-view-dom-id-ab46a7de8decada2dc21afa1d374ef165a9e618e52472f2f978fcd55f272120b resource-block">
+  
+  
+  
+
+      
+  
+  
+  
+  <div class="resource-wrapper">
+    <div class="resource-view">
+          <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/action-alert/2020-07-02-use-aha-model-comments-submit-your-concerns-cms-its-proposal-collect" hreflang="en">Use AHA Model Comments to Submit Your Concerns to CMS on its Proposal to Collect Negotiated Rate Information on Medicare Cost Report</a></span></div><div class="views-field views-field-created"><span class="field-content">July 2, 2020</span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/action-alert/2020-07-01-contact-your-senators-and-urge-them-support-hospitals-and-health-systems" hreflang="en">Contact Your Senators and Urge Them to Support Hospitals and Health Systems in the Next COVID-19 Relief Package </a></span></div><div class="views-field views-field-created"><span class="field-content">July 1, 2020</span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/action-alert/2020-05-06-urge-congress-support-hospitals-next-covid-19-package" hreflang="en">Urge Congress to Support Hospitals in Next COVID-19 Package</a></span></div><div class="views-field views-field-created"><span class="field-content">May 6, 2020</span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/advocacy/2020-01-30-2020-aha-advocacy-agenda" hreflang="en">2020 AHA Advocacy Agenda</a></span></div><div class="views-field views-field-created"><span class="field-content">January 30, 2020</span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/special-bulletin/2020-05-12-special-bulletin-cms-releases-hospital-inpatient-pps-proposed-rule" hreflang="en">Special Bulletin: CMS Releases Hospital Inpatient PPS Proposed Rule for Fiscal Year 2021</a></span></div><div class="views-field views-field-created"><span class="field-content">May 12, 2020</span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/special-bulletin/2020-05-12-special-bulletin-cms-releases-fy-2021-ltch-pps-proposed-rule" hreflang="en">Special Bulletin: CMS Releases FY 2021 LTCH PPS Proposed Rule</a></span></div><div class="views-field views-field-created"><span class="field-content">May 12, 2020</span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/rural-advocacy-agenda" hreflang="en">2020 Rural Advocacy Agenda</a></span></div><div class="views-field views-field-created"><span class="field-content">January 27, 2020</span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/2019-09-21-affordability-advocacy-agenda" hreflang="en">Affordability Advocacy Agenda</a></span></div><div class="views-field views-field-created"><span class="field-content">September 21, 2019</span></div></div>
+
+    </div>
+  </div>
+
+  
+  
+
+  
+  
+
+  
+  
+</section>
+</div>
+</p>
+</div>
+                                                                                  <div class="cta-image-header-sub-text-link-text-button">
+                                <a href="/advocacy/action-center" class="btn btn-default btn-o background-color-heritage-blue">
+                                  AHA Action Center
+                                </a>
+                              </div>
+                                                </div>
+                                                              <div class="cta-image-header-sub-text-link-item-wrapper">
+                                                        <a href="/center" class="cta-image-header-sub-text-link-item">
+                                                    <div class="cta-image-header-sub-text-link-image">
+                              <img src="/sites/default/files/styles/medium/public/2019-08/aha-homepage-innovation-center.jpg">
+                          </div>
+                                                        <div class="cta-image-header-sub-text-link-header"></div>
+                                                                                  <div class="cta-image-header-sub-text-link-subheader"></div>
+                                                                                  </a>
+                                                                                  <div class="cta-image-header-sub-text-link-text"><div class="market-scan" style="margin-top: 0px; padding-top: 0px;">
+<h4><a href="/center/discover">Discover</a></h4>
+
+<h4><a href="/center/engage">Engage</a></h4>
+
+<h4><a href="/center/explore">Explore All Center Programs</a></h4>
+</div>
+<p><div class="views-element-container">
+
+<section  class="top-level-view js-view-dom-id-7dc82c13e3ce1f57e4a4ad9f69ff9ce2a2f3b75f7f53437772050428bbb3ce39 resource-block">
+  
+  
+  
+
+      <div class="cta-image-header-sub-text-link-subheader"><a href="/type/healthcareinnovation-thursday-blog">Blog</a></div>
+  
+  
+  
+  <div class="resource-wrapper">
+    <div class="resource-view">
+          <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/news/healthcareinnovation-thursday-blog/2020-11-04-artificial-intelligence-and-path-health-care" hreflang="en">Artificial Intelligence and the Path to Health Care Innovation</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 5, 2020</span></div></div>
+
+    </div>
+  </div>
+
+  
+  
+
+  
+  
+
+  
+  
+</section>
+</div>
+</p>
+
+<p><div class="views-element-container">
+
+<section  class="top-level-view js-view-dom-id-c8486d196aefd02e7485f82a49e1a59a72eb67cb49f4867c9286e0583503f82f resource-block">
+  
+  
+  
+
+      <div class="cta-image-header-sub-text-link-subheader"><a href="/center/form/innovation-subscription">Market Scan</a></div>
+  
+  
+  
+  <div class="resource-wrapper">
+    <div class="resource-view">
+          <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/aha-center-health-innovation-market-scan/2020-11-03-innovation-efforts-get-more-targeted-budgets" hreflang="en">Innovation Efforts Get More Targeted as Budgets Tighten</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 3, 2020</span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/aha-center-health-innovation-market-scan/2020-11-05-providers-stockpile-leverage-tech-address" hreflang="en">Providers Stockpile, Leverage Tech to Address Potential Supply Shortages</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 3, 2020</span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/aha-center-health-innovation-market-scan/2020-11-03-ahas-navigating-new-reality-conference-sessions" hreflang="en">AHAвЂ™S Navigating a New Reality Conference Sessions Now Available On-Demand</a></span></div><div class="views-field views-field-created"><span class="field-content">Nov 3, 2020</span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/aha-center-health-innovation-market-scan/2020-10-27-health-care-leaders-brace-pandemics-resurgence" hreflang="en">Health Care Leaders Brace for PandemicвЂ™s Resurgence</a></span></div><div class="views-field views-field-created"><span class="field-content">Oct 27, 2020</span></div></div>
+    <div class="article views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/aha-center-health-innovation-market-scan/2020-10-27-team-based-care-can-add-value-improve-outcomes" hreflang="en">Team-Based Care Can Add Value, Improve Outcomes in Pandemic Response</a></span></div><div class="views-field views-field-created"><span class="field-content">Oct 27, 2020</span></div></div>
+
+    </div>
+  </div>
+
+  
+  
+
+  
+  
+
+  
+  
+</section>
+</div>
+</p>
+</div>
+                                                                                  <div class="cta-image-header-sub-text-link-text-button">
+                                <a href="/center" class="btn btn-default btn-o background-color-heritage-blue">
+                                  More Innovation
+                                </a>
+                              </div>
+                                                </div>
+                                                              <div class="cta-image-header-sub-text-link-item-wrapper">
+                                                        <a href="/advancing-clinical-care" class="cta-image-header-sub-text-link-item">
+                                                    <div class="cta-image-header-sub-text-link-image">
+                              <img src="/sites/default/files/styles/medium/public/2019-10/aha-homepage-advancing-clinical-care.jpg">
+                          </div>
+                                                        <div class="cta-image-header-sub-text-link-header"></div>
+                                                                                  <div class="cta-image-header-sub-text-link-subheader"></div>
+                                                                                  </a>
+                                                                                  <div class="cta-image-header-sub-text-link-text"><div class="market-scan" style="margin-top: -30px; padding-top: -30px;">
+<div class="cta-image-header-sub-text-link-subheader"><a href="/2020-01-22-updates-and-resources-novel-coronavirus-2019-cov">Latest on COVID-19</a></div>
+<div class="views-element-container">
+
+<section  class="top-level-view js-view-dom-id-a212961d4e6a448b68892e3ac9225a096853b5027aa9f657b4e3f1630ffa3310 resource-block">
+  
+  
+  
+
+      
+  
+  
+  
+  <div class="resource-wrapper">
+    <div class="resource-view">
+          <div class="article views-row"><div class="views-field views-field-field-access-level"><div class="field-content">
+<div class="meta custom-lock-position">
+  <div class="views-field-access-level access-type-member-non-fed" data-toggle="tooltip" data-placement="bottom" title="Members only"><a href="/taxonomy/term/280" hreflang="en">Member Non-Fed</a></div>
+</div></div></div><div class="views-field views-field-title"><span class="field-content"><a href="/action-alert/2020-11-10-urge-your-representatives-and-senators-support-hospitals-and-health-systems" hreflang="en">Urge Your Representatives and Senators to Support Hospitals and Health Systems during вЂ

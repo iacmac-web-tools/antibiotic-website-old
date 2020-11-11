@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Руководство по инфекционному контролю в стационаре. Staphylococcus aureus</title>
+<meta name="description" content="Руководство по инфекционному контролю в стационаре. Staphylococcus aureus">
+<meta name="keywords" content="Staphylococcus aureus">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="resource-type" content="document">
+<meta name="author" content="ANTIBIOTIC.ru">
+<meta name="copyright" content="Copyright (c) 2000-2004 ANTIBIOTIC.ru">
+<link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon">
+<link rel="Home" href="../../index.htm">
+<link rel="Index" href="index.shtml">
+<link rel="Help" href="about.shtml">
+<link rel="Copyright" href="../../index.php-1.html?article=1">
+<link rel="StyleSheet" type="text/css" href="style.css">
+<script type="text/javascript" language="JavaScript" src="nn.js"></script>
+</head>
+
+<body>
+
+<center><div style="max-width:720px; width:720px;">
+<!--Rambler-1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../top100.cnt.gif?335834" alt="" width="1" height="1" border="0"></a><!--/Rambler--><!--RAX-1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';'+Math.random()+
+'" width=1 height=1 alt="">')
+//--></script><!--/RAX-->
+<div align="center" style="margin-top:5px; margin-bottom:5px;"><div class="shadow">РУКОВОДСТВО ПО ИНФЕКЦИОННОМУ КОНТРОЛЮ В СТАЦИОНАРЕ</div>
+<div class="title">РУКОВОДСТВО ПО ИНФЕКЦИОННОМУ КОНТРОЛЮ В СТАЦИОНАРЕ</div></div>
+
+
+<!--navigation-->
+<hr size="1">
+<table border="0" cellpadding="0" cellspacing="1" align="center"><tr>
+<td><div id="nav"><a href="index.shtml" title="Содержание книги">Содержание</a></div></td>
+<td rowspan="2">&nbsp;</td>
+<td><div id="nav"><a href="1.shtml" title="Значение инфекционного контроля">1</a></div></td>
+<td><div id="nav"><a href="2.shtml" title="Мытье рук">2</a></div></td>
+<td><div id="nav"><a href="3.shtml" title="Изоляция при инфекционных заболеваниях">3</a></div></td>
+<td><div id="nav"><a href="4.shtml" title="Стерилизация и использование стерильных предметов">4</a></div></td>
+<td><div id="nav"><a href="5.shtml" title="Дезинфекция предметов медицинского назначения">5</a></div></td>
+<td><div id="nav"><a href="6.shtml" title="Медицинский персонал в качестве источника инфекции?">6</a></div></td>
+<td><div id="nav"><a href="7.shtml" title="Проблема антибиотикорезистентности">7</a></div></td>
+<td><div id="nav"><a href="8.shtml" title="Пути решения проблемы антибиотикорезистентности в стационаре">8</a></div></td>
+<td><div id="nav"><a href="9.shtml" title="Организация инфекционного контроля и проблемы регистрации данных">9</a></div></td>
+<td><div id="nav"><a href="10.shtml" title="Сохранение безопасности окружающей среды стационара в условиях ограниченных ресурсов">10</a></div></td>
+<td><div id="nav"><a href="11.shtml" title="Окружающая среда пациента">11</a></div></td>
+<td><div id="nav"><a href="12.shtml" title="Пищевые продукты">12</a></div></td>
+<td><div id="nav"><a href="13.shtml" title="Вода">13</a></div></td>
+<td><div id="nav"><a href="14.shtml" title="Лаборатория">14</a></div></td>
+<td><div id="nav"><a href="15.shtml" title="Аптека">15</a></div></td>
+<td><div id="nav"><a href="16.shtml" title="Операционная">16</a></div></td>
+<td><div id="nav"><a href="17.shtml" title="Отделения неотложной помощи и приемные отделения">17</a></div></td>
+<td><div id="nav"><a href="18.shtml" title="ВИЧ-инфекция и СПИД">18</a></div></td>
+<td><div id="nav"><a href="19.shtml" title="Туберкулёз">19</a></div></td>
+<td><div id="nav"><a href="20.shtml" title="Диарея">20</a></div></td>
+<td><div id="nav"><a href="21.shtml" title="Инфекции кожи и мягких тканей">21</a></div></td>
+<td rowspan="2">&nbsp;</td>
+<td><div id="nav"><a href="../../index.htm" title="Сайт «Антибиотики и антимикробная терапия»">ANTIBIOTIC.ru</a></div></td>
+</tr><tr>
+<td>&nbsp;</td>
+<td><div id="nav"><a href="22.shtml" title="Инфекции кровотока">22</a></div></td>
+<td><div id="nav"><a href="23.shtml" title="Ведение пациентов с сосудистыми катетерами">23</a></div></td>
+<td><div id="nav"><a href="24.shtml" title="Нозокомиальные инфекции мочевыводящих путей">24</a></div></td>
+<td><div id="nav"><a href="25.shtml" title="Пневмония">25</a></div></td>
+<td><div id="nav"><a href="26.shtml" title="Дифтерия, столбняк, коклюш">26</a></div></td>
+<td><div id="nav"><a href="27.shtml" title="Корь">27</a></div></td>
+<td><div id="nav"><a href="28.shtml" title="Переливание крови и растворов для внутривенного введения">28</a></div></td>
+<td><div id="nav"><a href="29.shtml" title="Искусственная вентиляция легких">29</a></div></td>
+<td><div id="nav"><a href="30.shtml" title="Подготовка пациента к операции">30</a></div></td>
+<td><div id="nav"><a href="31.shtml" title="Инфекционный контроль в акушерстве">31</a></div></td>
+<td><div id="nav"><a href="32.shtml" title="Streptococcus pyogenes">32</a></div></td>
+<td><div id="nav"><a href="33.shtml" title="Staphylococcus aureus">33</a></div></td>
+<td><div id="nav"><a href="34.shtml" title="Энтерококки">34</a></div></td>
+<td><div id="nav"><a href="35.shtml" title="Пневмококки">35</a></div></td>
+<td><div id="nav"><a href="36.shtml" title="Энтеропатогенные бактерии">36</a></div></td>
+<td><div id="nav"><a href="37.shtml" title="Другие энтеробактерии">37</a></div></td>
+<td><div id="nav"><a href="38.shtml" title="Pseudomonas aeruginosa">38</a></div></td>
+<td><div id="nav"><a href="39.shtml" title="Helicobacter pylori">39</a></div></td>
+<td><div id="nav"><a href="40.shtml" title="Грибы">40</a></div></td>
+<td><div id="nav"><a href="41.shtml" title="Вирусы">41</a></div></td>
+<td><div id="nav"><a href="42.shtml" title="Инфекционная опасность трупного материала">42</a></div></td>
+<td>&nbsp;</td>
+</tr></table>
+<hr size="1">
+<!--/navigation-->
+
+
+<h3>Глава 33</h3>
+<h1><i>Staphylococcus aureus</i></h1>
+<h2>Werner E. Bischoff, Michael B. Edmond</h2>
+<p class="j"><b>Ключевое положение:</b>  <i>S.aureus</i> является одним из наиболее распространенных возбудителей нозокомиальных и внебольничных инфекций у человека, обладающих высокой вирулентностью. В последнее время наблюдается рост его резистентности к антибактериальным препаратам.</p>
+<p class="j"><b>Известные факты</b></p> 
+<ul><li>До 30% здоровых людей являются носителями <i>S.aureus</i>. Наиболее часто колонизируется слизистая преддверия носа, а также волосистые участки тела, и перианальная область.</li>
+<li>Около 12% всех НИ в США вызываются <i>S.aureus</i>.</li>
+<li>Наиболее распространенными НИ, вызванными S.aureus, являются инфекции дыхательных путей (20%) и послелоперационные раневые инфекции (19%), за ними следуют инфекции кровотока и мочевыводящих путей.</li>
+<li>В зависимости от чувствительности к антимикробным препаратам все штаммы <i>S.aureus</i> можно разделить на 2 группы: метициллиночувствительные <i>S.aureus</i> (MSSA) и метициллинорезистентные <i>S.aureus</i> (MRSA).</li>
+<li>Метициллиночувствительные штаммы <i>S.aureus</i> вызывают преимущественно внебольничные инфекции, тогда как основным источником инфекций, вызванных MRSA, и их резервуаром являются внутрибольничные условия.</li>
+<li>К факторам риска колонизации и инфицирования MSSA/MRSA относятся: наличие сопутствующих заболеваний (инфекции дыхательных путей, сахарный диабет, гемодиализ, заболевания, сопровождающиеся нарушением целостности кожных покровов, такие как экзема и ожоги), длительная госпитализация, предшествующая антибактериальная терапия, а также контакты с другими инфицированными/колонизированными MSSA/MRSA пациентами.</li>
+<li>Основной путь передачи инфекции - контактный, инфицирование воздушно-капельным путем встречается редко.</li></ul>
+<p class="j"><b>Спорные вопросы</b></p>
+<ul><li>В связи с повышенным вниманием к инфекциям, вызванным MRSA, частота НИ, вызванных MSSA, возможно недооценивается.</li>
+<li>Эффективность таких мероприятий, как скрининг на носительство MRSA при поступлении в стационар, рутинное проведение микробиологического мониторинга носительства MRSA с последующей санацией колонизированных пациентов или медицинского персонала в настоящее время не доказана.</li></ul>
+<p class="j"><b>Практические рекомендации</b></p>
+<p class="aj"><b>MSSA</b></p>
+<ul><li>Рутинно проводить периоперационную антибиотикопрофилактику.</li>
+<li>Соблюдать универсальные меры предосторожности (описаны в соответствующей главе).</li></ul>
+<p class="aj"><b>MRSA</b></p>
+<ul><li>Соблюдать барьерные (контактные) меры предосторожности.</li>
+<li>Медицинский персонал, контактные лица, а также инфицированные и колонизированные MRSA пациенты должны обрабатывать руки антисептиками (например, хлоргексидина глюконатом или спиртосодержащими средствами).</li>
+<li>Изолировать пациентов с инфекциями, вызванными MRSA, в отдельной палате или поместить их в палату, где находятся другие пациенты с такой же инфекцией (групповая изоляция).</li>
+<li>Предлагать проведение эрадикации носительства MRSA путем интраназального применения мупироцина у пациентов с рецидивирующими инфекциями и у носителей среди медицинского персонала.</li>
+<li>Вести учет пациентов, инфицированных/колонизированных MRSA, для более адекватного ведения их в случае повторной госпитализации.</li>
+<li>При переводе пациентов, колонизированных или инфицированных MRSA, в другое отделение или стационар необходимо предупредить принимающий медицинский персонал о наличии MRSA у пациента.</li>
+<li>После выписки из стационара не требуется соблюдения каких-либо специальных мер предосторожности - следует акцентировать внимание пациентов на необходимости мытья рук и соблюдении правил личной гигиены.</li></ul>
+<p class="j"><b>Резюме:</b> Во внебольничных условиях <i>S.aureus</i> является наиболее распространенным возбудителем фурункулеза и инфекций кожи и мягких тканей. В качестве нозокомиального патогена <i>S.aureus</i> может вызывать развитие таких жизнеугрожающих инфекций, как пневмония и инфекции хирургических ран. Появление в Европе метициллинорезистентных штаммов золотистого стафилококка с их последующим распространением по всему миру привело к тому, что <i>S.aureus</i> в настоящее время является одним из наиболее значимых возбудителей НИ.</p>
+<p class="aj">	Метициллиночувствительные и метициллинорезистентные штаммы <i>S.aureus</i> обладают равными возможностями для колонизации и инфицирования людей. Вероятность инфицирования <i>S.aureus</i> зависит от возраста пациента и числа сопутствующих заболеваний, увеличиваясь при наличии таких экзогенных факторов риска, как длительная госпитализация или контакты с другими колонизированными или инфицированными этим микроорганизмом людьми. Основным резервуаром <i>S.aureus</i> в организме человека является слизистая преддверия носа, однако этот возбудитель может также колонизировать волосистые участки тела, подмышечную и перианальную области. Частота колонизации увеличивается при различных повреждениях кожи, ранах и ожогах. Для эрадикации интраназального носительства метициллинорезистентных штаммов <i>S.aureus</i> можно использовать мупироцин в виде назальной мази. Однако для предотвращения развития резистентности к этому антибиотику такая терапия должна проводиться только у пациентов с рецидивирующими инфекциями, вызванными MRSA, и у носителей среди медицинского персонала.</p>
+<p class="aj">	В большинстве случаев инфицирование <i>S.aureus</i> происходит при прямом контакте с колонизированными участками тела. Воздушно-капельный путь передачи инфекции встречается редко, главным образом у пациентов с пневмонией, вызванной <i>S.aureus</i>, или обширными ожогами. В последних исследованиях показано, что колонизированные лица с острыми респираторными вирусными инфекциями могут выделять <i>S.aureus</i> в окружающую среду. Передача возбудителя непрямым контактным путем через медицинские инструменты встречается редко, однако в стационарах <i>S.aureus</i> может высеваться с различных окружающих предметов, включая стетоскопы.</p>
+<p class="aj">	Характер мероприятий, направленных на предотвращение распространения <i>S.aureus</i>, особенно при наличии пациентов, колонизированных или инфицированных MRSA, зависит от механизмов передачи возбудителя. Вспышки инфекций можно эффективно контролировать при немедленном начале соответствующих мероприятий ИК. Прервать пути передачи инфекции и взять под контроль вспышку можно при соблюдении таких мер, как изоляция пациентов, обработка рук антисептиком или спиртом и использование перчаток. В стационарах, где систематически регистрировались случаи инфекций, вызванных MRSA, добиться его полной эрадикации практически невозможно.</p>
+<p class="aj">	Для лечения системных инфекций, вызванных MRSA, используются антибиотики из группы гликопептидов, такие как ванкомицин и тейкопланин. Учитывая доказанную возможность передачи <i>in vitro</i> генов резистентности к ванкомицину от энтерококков к <i>S.aureus</i>, распространение ванкомицинорезистентных <i>S.aureus</i> (VRSA) является одним из самых страшных сценариев для современной системы ИК. Перспектива его реализации стала более отчетливой, когда весной 1997 г. в Японии был впервые выделен штамм <i>S.aureus</i> c промежуточной резистентностью к ванкомицину (<b>прим. ред.</b> - в 2002 г. в США выделено 2 штамма <i>S.aureus</i>, резистентных к ванкомицину с МПК=128 мг/л). Строгое соблюдение принципов изоляции пациентов является единственным способом, позволяющим предотвратить распространение этих полирезистентных штаммов.</p><br>
+
+<hr align="center" noshade="" width="50%" size="1">
+
+<h5 class="c">Литература</h5>
+<p class="aj">Boyce J.M., Jackson M.M., Pugliese G., et al. Methicillin-resistant Staphylococcus aureus (MRSA): a briefing for acute care hospitals and nursing facilities. Infect Control Hosp Epidemiol 1994; 15:105-15.</p>
+<p class="aj">Doebbeling B.N., Breneman D.L., Neu H.C., et al. Elimination of Staphylococcus aureus nasal carriage in health care workers: analysis of six clinical trials with calcium mupirocin ointment. Clin Infect Dis 1993; 17:466-74.</p>
+<p class="aj">Edmond M.B., Wallace S.E., McClish D.K., Pfaller M.A., Jones R.A., Wenzel R.P. Nosocomial Bloodstream Infections in United States hospitals: A Three-Year Analysis. Clin Infect Dis 1999; 29:239-44.</p>
+<br><br>
+<!--counters-->
+<table border="0" cellpadding="0" cellspacing="2" width="100%"><tr>
+<td align="left"><p class="t8">Дата размещения: 12.02.2004</p>
+<font class="t8">&copy; 2000-2007 <a href="../../copyright.php.html" target="_blank" title="О защите авторских прав">НИИАХ СГМА</a></font></td>
+<td align="right" class="r8">
+<!--Rambler-1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../top100.cnt.gif?335834" alt="" width="1" height="1" border="0"></a><!--/Rambler--><!--RAX-1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';'+Math.random()+
+'" width=1 height=1 alt="">')
+//--></script><!--/RAX-->
+<!--RAX--><a target="_blank" href="../../stat/antibiotic.ru/index.htm"><img src="../../images/banners/rax.gif" border="0" width="31" height="31" alt="rax.ru"></a><!--/RAX-->
+<!--Mail.ru--><a target="_blank" href="http://top.mail.ru/jump?from=96637"><img src="../../counter-1.gif?id=96637;t=58" border="0" height="31" width="88" alt="Рейтинг@Mail.ru"></a><!--/Mail.ru--> <!-- t=55 -->
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../top100/banner-88x31-rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+<!--RMS--><a href="../../index-19.htm" target="_blank"><img src="../../images/banners/rusmedserv.gif" width="88" height="31" border="0" alt="Каталог медицинских ресурсов"></a><!--/RMS--></td>
+</tr></table>
+<!--/counters-->
+<hr size="1">
+
+</div></center>
+</body>
+</html>

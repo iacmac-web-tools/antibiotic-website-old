@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1251">
+<META HTTP-EQUIV="Content-Language" CONTENT="ru">
+<META HTTP-EQUIV="Last-Update" CONTENT="2013-12-12">
+<TITLE>Проекты RosNet: Изучение распространения и резистентности грам(-) возбудителей нозокомиальных инфекций в отделениях интенсивной терапии (NPRS)</TITLE>
+<META name="description" content="Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии. Программы мониторинга за антибиотикорезистентностью в России (RosNet): Изучение распространения и резистентности грам(-) возбудителей нозокомиальных инфекций в отделениях интенсивной терапии (Nosocomial Prevalence and Resistance Survey - NPRS)">
+<META NAME="keywords" CONTENT="МАКМАХ, клиническая микробиология, антимикробная химиотерапия, RosNet, мониторинг, антибиотикорезистентность, грам(-) возбудители, нозокомиальные инфекции, отделения интенсивной терапии, NPRS">
+<META NAME="Language" CONTENT="Russian">
+<META NAME="robots" CONTENT="INDEX,FOLLOW">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="author" CONTENT="МАКМАХ">
+<META NAME="copyright" CONTENT="Copyright (c) 1998-2007 МАКМАХ">
+<META NAME="classification" CONTENT="Medicine">
+<LINK REL="SHORTCUT ICON" TYPE="image/x-icon" HREF="/iacmac/favicon.ico">
+<LINK REL="Home" HREF="/iacmac/">
+<LINK REL="Index" HREF="/iacmac/index.shtml">
+<LINK REL="Help" HREF="/iacmac/ru/info/">
+
+<LINK REL="StyleSheet" TYPE="text/css" HREF="/iacmac/inc/style.css">
+<STYLE TYPE="text/css"> @import url("/iacmac/inc/style-ie.css"); </STYLE>
+<script type="text/javascript" language="JavaScript" src="/iacmac/inc/nn.js"></script>
+</HEAD>
+
+<BODY leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0">
+
+<TABLE border="0" cellPadding="0" cellSpacing="0" width="100%">
+<TR>
+  <TD bgcolor="#D6D6D6" width="30%">&nbsp;</TD>
+  <TD width="775">
+<TABLE border="0" cellPadding="0" cellSpacing="0" width="100%">
+<TR bgcolor="#10715D">
+  <TD colspan="3"><img src="/iacmac/img/head1-ru.gif" width="775" height="32" border="0" alt="Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии"></TD>
+</TR>
+<TR bgcolor="#10715D">
+  <TD><img src="/iacmac/img/head2a.gif" width="39" height="29" alt="" border="0"></TD>
+  <TD><img src="/iacmac/img/head2b.gif" width="548" height="29" alt="" border="0"></TD>
+  <TD><img src="/iacmac/img/head2c.gif" width="188" height="29" alt="" border="0"></TD>
+</TR>
+</TABLE>
+
+<TABLE border="0" cellPadding="0" cellSpacing="0" width="100%">
+<TR bgcolor="#10715D">
+  <TD><img src="/iacmac/img/head3a.gif" width="25" height="101" alt="" border="0"></TD>
+  <TD><a href="/iacmac/" title="На главную страницу"><img src="/iacmac/img/head3b.jpg" width="97" height="101" alt="" border="0"></a></TD>
+  <TD background="/iacmac/img/head3c.gif" width="132"></TD>
+  <TD><img src="/iacmac/img/head3d.jpg" width="307" height="101" alt="" border="0"></TD>
+  <TD bgcolor="#F0F0F0" background="/iacmac/img/head3e.gif" width="214">
+
+    <TABLE border="0" cellPadding="2" cellSpacing="0" align="center">
+    <TR>
+      <TD align="right"><img src="/iacmac/img/flag-eng.gif" width="20" height="14" alt="" border="0"></TD>
+      <TD><H6><a class="n" href="/iacmac/en/">English</a></H6></TD>
+    </TR>
+    </TABLE>
+
+    <FORM NAME="web" METHOD="get" ACTION="http://www.yandex.ru:8081/yandsearch" target="_blank">
+    <INPUT TYPE="hidden" NAME="serverurl" VALUE="http://www.iacmac.ru/iacmac/"> 
+    <INPUT TYPE="hidden" NAME="server_name" VALUE="МАКМАХ"> 
+    <INPUT TYPE="hidden" NAME="referrer1" VALUE="http://www.iacmac.ru/iacmac/">
+    <INPUT TYPE="hidden" NAME="referrer2" VALUE="Сайт МАКМАХ">
+    <TABLE border="0" cellPadding="0" cellSpacing="2" align="center">
+    <TR><TD height="2"></TD></TR>
+    <TR><TD bgcolor="#10715D" height="1"></TD></TR>
+    <TR><TD height="2"></TD></TR>
+    <TR><TD><small>Поиск по сайту:</small></TD></TR>
+    <TR><TD><INPUT name="text" type="text" class="text" size="16" maxlength="150" title="Введите слова для поиска" style="height:20px;">&nbsp;<INPUT type="submit" class="button" value="Искать" style="height:20px;"></TD></TR>
+    </TABLE>
+    </FORM>
+  </TD>
+</TR>
+</TABLE>
+
+<TABLE border="0" cellPadding="0" cellSpacing="0" width="100%">
+<TR bgcolor="#10715D">
+  <TD><img src="/iacmac/img/head4a.gif" width="46" height="29" alt="" border="0"></TD>
+  <TD><img src="/iacmac/img/head4b.gif" width="729" height="29" alt="" border="0"></TD>
+</TR>
+</TABLE>
+
+<TABLE border="0" cellPadding="0" cellSpacing="0" width="100%">
+<TR>
+  <TD bgcolor="#10715D"><img src="/iacmac/img/head5a.gif" width="72" height="36" alt="" border="0"></TD>
+  <TD bgcolor="#D8D8D8" background="/iacmac/img/head5b.gif" width="703">
+  <TABLE border="0" cellPadding="0" cellSpacing="0" width="100%"><TR>
+    <TD background="/iacmac/img/tab1.gif" width="138" align="center"><div id="tab1"><a href="/iacmac/" title="На главную страницу">МАКМАХ</a></div></TD>
+<!--    <TD background="/iacmac/img/tab1.gif" width="138" align="center"><div id="tab1"><a href="/iacmac/ru/member/" title="Информация об индивидуальном членстве в МАКМАХ">Членство</a></div></TD>-->
+    <TD background="/iacmac/img/tab1.gif" width="138" align="center"><div id="tab1"><a href="/iacmac/ru/confer/" title="Конференции, симпозиумы и семинары МАКМАХ">Мероприятия</a></div></TD>
+    <TD background="/iacmac/img/tab1.gif" width="138" align="center"><div id="tab1"><a href="/iacmac/ru/pub/" title="Публикации МАКМАХ">Публикации</a></div></TD>
+    <TD background="/iacmac/img/tab2.gif" width="138" align="center"><div id="tab1"><a name="rosnet">RosNet</a></div></TD>
+    <TD><img src="/iacmac/img/px.gif" width="1" height="36" alt="" border="0"></TD>
+  </TR></TABLE>
+  </TD>
+</TR>
+</TABLE>
+
+<TABLE border="0" cellPadding="0" cellSpacing="0" width="100%">
+<TR>
+  <TD bgcolor="#10715D"><img src="/iacmac/img/head6a.gif" width="76" height="26" alt="" border="0"></TD>
+  <TD bgcolor="#CCE0DA" background="/iacmac/img/head6b.gif" width="699" style="padding-left:12px;"><small><a href="/iacmac/ru/rosnet/">RosNet</a> / NPRS</small></TD>
+</TR>
+</TABLE>
+
+<TABLE border="0" cellPadding="0" cellSpacing="0" width="100%">
+<TR valign="top">
+  <TD bgcolor="#10715D" background="/iacmac/img/head7a.gif"><img src="/iacmac/img/px.gif" width="36" height="1" alt="" border="0"></TD>
+  <TD bgcolor="#EFF5F4" background="/iacmac/img/head8b.gif" width="40"><img src="/iacmac/img/head7b.gif" width="40" height="75" alt="" border="0"></TD>
+  <TD bgcolor="#EFF5F4" width="699">
+
+  <TABLE border="0" cellPadding="1" cellSpacing="0" width="100%"><TR valign="top">
+    <TD style="padding:10px;">
+
+<H1 class="h2">Изучение распространения и резистентности грам(-) возбудителей нозокомиальных инфекций в отделениях интенсивной терапии&nbsp;&#150; NPRS</H1>
+<br>
+<H4>Общие сведения о проекте</H4>
+
+<p class="aj"><font class="h5">NPRS</font> - <font class="h5">Nosocomial Prevalence and Resistance Survey</font> - исследование структуры грам(-) возбудителей нозокомиальных инфекций в отделениях интенсивной терапии и их чувствительности к 12 антибактериальным препаратам разных групп: бета-лактамам, в том числе ингибитор-защищенным, аминогликозидам, фторхинолонам и карбапенемам.</p>
+<p>Исследование проводится с 1994 г.</p>
+
+<H4>I этап - 1994 г.</H4>
+
+<p>На I этапе принимало участие 3 центра:</p>
+<ul>
+<li>Научный центр хирургии (Москва)</li>
+<li>Государственный научный центр по антибиотикам (Москва)</li>
+<li>Смоленская государственная медицинская академия (Смоленск)</li>
+</ul>
+<p>Было изучено и проанализировано 300 грам(-) возбудителей нозокомиальных инфекций.</p>
+
+<H4>II этап - 1995-1996 гг.</H4>
+
+<p>На II этапе исследование было проведено в 1995-1996 гг. В нем принимали участие 10 центров:</p>
+<ul>
+<li>Центральная клиническая больница при Управлении делами Президента РФ (Москва)</li>
+<li>Научный центр акушерства, гинекологии и перинатологии РАМН (Москва)</li>
+<li>Санкт-Петербургская медицинская академия (Санкт-Петербург)</li>
+<li>Нижегородская областная детская клиническая больница (Нижний Новгород)</li>
+<li>Смоленская государственная медицинская академия (Смоленск)</li>
+<li>Краевая клиническая больница (Краснодар)</li>
+<li>Городская больница скорой медицинской помощи (Екатеринбург)</li>
+<li>Республиканская детская клиническая больница (Казань)</li>
+<li>Новосибирская областная клиническая больница (Новосибирск)</li>
+<li>Городская больница скорой медицинской помощи (Красноярск)</li>
+</ul>
+<p class="aj">Было собрано и проанализировано 1005 грам(-) возбудителей нозокомиальных инфекций в отделениях интенсивной терапии от 863 пациентов. По результатам проведенного исследования опубликовано Информационное письмо &laquo;<a target="_blank" href="/rus/all/letters/argrmnoz.shtml">Состояние антибиотикорезистентности грамотрицательных возбудителей нозокомиальных инфекций в отделениях интенсивной терапии</a>&raquo;, статья &laquo;Antimicrobial ResistancePatterns among Aerobic Gram-negative Bacilli Isolated from Patients in Intencive Care Units: Results of a Multicenter Study in Russia&raquo; в журнале &laquo;Clinical Microbiology and Infection&raquo; (Clin Microbiol Infect 1998; 4: 497-507).</p>
+<!-- /iacmac/docum/i_let_97.htm -->
+
+<H4>III этап - 1997-1999 гг.</H4>
+
+<p>На III этапе (1997-1999) участвует 26 центров в различных регионах России:</p>
+<ul>
+<li>Городская детская больница №&nbsp;13 им.&nbsp;Филатова (Москва)</li>
+<li>Городская клиническая больница № 23 им. Медсантруд (Москва)</li>
+<li>НИИ нейрохирургии им. Бурденко (Москва)</li>
+<li>Научный центр хирургии (Москва)</li>
+<li>Центральная клиническая больница при Управлении делами Президента РФ (Москва)</li>
+<li>Детская городская клиническая больница №&nbsp;9 (Москва)</li>
+<li>Клиническая больница при Управлении делами Президента РФ (Москва)</li>
+<li>Главный военный клинический госпиталь им.&nbsp;Бурденко (Москва)</li>
+<li>Городская клиническая больница №&nbsp;15 (Москва)</li>
+<li>Санкт-Петербургская медицинская академия им. акад. И.П.&nbsp;Павлова (Санкт-Петербург)</li>
+<li>Военно-медицинская академия (Санкт-Петербург)</li>
+<li>Российский НИИ травматологии и ортопедии им. Вредена (Санкт-Петербург)</li>
+<li>Смоленская государственная медицинская академия (Смоленск)</li>
+<li>Краевая клиническая больница (Краснодар)</li>
+<li>Краевой диагностический центр (Краснодар)</li>
+<li>Краевая детская клиническая больница (Ставрополь)</li>
+<li>Республиканская детская клиническая больница (Казань)</li>
+<li>Городская больница скорой медицинской помощи (Екатеринбург)</li>
+<li>Областная детская клиническая больница (Екатеринбург)</li>
+<li>Томская областная клиническая больница (Томск)</li>
+<li>Новосибирская областная клиническая больница (Новосибирск)</li>
+<li>Городская клиническая больница №&nbsp;21 (Уфа)</li>
+<li>Городская больница скорой медицинской помощи (Омск)</li>
+<li>Городская больница скорой медицинской помощи (Красноярск)</li>
+<li>Городская клиническая больница №&nbsp;7 (Красноярск)</li>
+<li>Дальневосточная центральная бассейновая больница (Владивосток)</li>
+</ul>
+
+<p class="aj">К&nbsp;настоящему времени исследовано и проанализировано <b>2594</b> штамма грам(-) возбудителей нозокомиальных инфекций в отделениях интенсивной терапии.</p>
+
+<p class="aj">На основании результатов III этапа исследования были разработаны &laquo;<a target="_blank" href="/cmac/2002_4_4/">Рекомендации по оптимизации антимикробной терапии нозокомиальных инфекций, вызванных грамотрицательными бактериями в отделениях реанимации и интенсивной терапии</a>&raquo;.</p>
+<br>
+<p>Если Вас заинтересовало участие в данном проекте или у Вас есть вопросы, просим Вас связаться с&nbsp;координатором проекта - <a href="&#109;ailto&#58;galina&#64;antibiotic&#46;ru">Галиной Константиновной Решедько</a>.</p>
+
+    </TD>
+    <TD>&nbsp;</TD>
+  </TR></TABLE>
+
+<br><br>
+
+<div align="right" style="padding-right:10px;"><small><font class="note">Дата последнего изменения: 12.12.2013 </font></small></div>
+
+<TABLE border="0" cellPadding="0" cellSpacing="10" width="100%"><TR>
+<TD align="left" valign="bottom"><small>&copy; 1998-2020 МАКМАХ</small></TD>
+<TD align="right">
+<!--Rambler-1x1--><a href="http://top100.rambler.ru/top100/"><img src="http://counter.rambler.ru/top100.cnt?335834" alt="" width="1" height="1" border="0"></a><!--/Rambler--><!--RAX-1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';'+Math.random()+
+'" border="0" width="1" height="1" alt="">')
+//--></script><!--/RAX-->
+<!--RAX--><a target="_blank" href="http://www.rax.ru/stat/antibiotic.ru/"><img src="/images/banners/rax.gif" border="0" width="31" height="31" alt="RAX.ru"></a><!--/RAX-->
+<!--Mail.ru--><a target="_blank" href="http://top.mail.ru/jump?from=96637"><img src="http://top.list.ru/counter?id=96637;t=58" border="0" height="31" width="88" alt="Рейтинг@Mail.ru"></a><!--/Mail.ru--> <!-- t=55 -->
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="/images/banners/rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+</TD>
+</TR></TABLE>
+<!--/counters-->
+
+  </TD>
+</TR>
+<TR bgcolor="#10715D">
+  <TD colspan="3" height="1"></TD>
+</TR>
+</TABLE>
+
+  </TD>
+  <TD bgcolor="#10715D"><img src="/iacmac/img/px.gif" width="1" height="1" alt="" border="0"></TD>
+  <TD bgcolor="#D6D6D6" width="30%">&nbsp;</TD>
+</TR>
+</TABLE>
+
+</BODY>
+</HTML>

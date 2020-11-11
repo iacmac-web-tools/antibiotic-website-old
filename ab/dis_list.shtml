@@ -1,0 +1,752 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Алфавитный указатель лекарственных средств</title>
+<meta name="description" content="Алфавитный указатель заболеваний">
+<meta name="keywords" content="антимикробная терапия, антибактериальная терапия, антибиотики, антибактериальные средства, инфекционные заболевания">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="resource-type" content="document">
+<meta name="author" content="ANTIBIOTIC.ru">
+<meta name="copyright" content="Copyright (c) 2000-2003 ANTIBIOTIC.ru">
+<link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon">
+<link rel="Home" href="../index.htm">
+<link rel="Index" href="index.shtml">
+<link rel="Glossary" href="abbr.shtml">
+<link rel="Copyright" href="about.shtml">
+<link rel="StyleSheet" type="text/css" href="include/styles.css">
+<style type="text/css">
+TD.bc {font-size:16pt;}
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" background="images/fon.jpg" align="center" height="149">
+			<tr>
+				<td height="15" width="100%">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" height="15">
+						<tr>
+							<td height="13" width="427" background="images/gradient_an.jpg">
+								<table width="200" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td width="30">&nbsp;</td>
+										<td><a href="../index.htm" class="text_an">www.antibiotic.ru</a></td>
+									</tr>
+								</table>
+							</td>
+							<td class="ttt" height="13" align="right" valign="bottom"><img src="images/book1.gif" width="197" height="15"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td height="132" valign="middle" width="100%">
+					<table border="0" cellspacing="0" cellpadding="0" height="133" width="100%">
+						<tr>
+							<td>
+								<table width="100%" border="0" cellspacing="0" cellpadding="0" height="133">
+									<tr>
+										<td width="600" height="128" background="images/3.gif" align="right">
+											<div valign="bottom">
+												<table width="614" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td width="375" height="40">&nbsp;</td>
+														<td rowspan="5" valign="middle" class="ttt">
+															<div align="right" valign="bottom">
+																<table cellspacing="0" cellpadding="0" border="0">
+																	<tr>
+																		<td class="text_avt" valign="top">Под редакцией:</td>
+																		<td class="text_avt" valign="top" width="53">&nbsp;</td>
+																	</tr>
+																	<tr>
+																		<td class="text_avt" valign="top" height="5"></td>
+																		<td class="text_avt" valign="top" width="53">&nbsp;</td>
+																	</tr>
+																	<tr>
+																		<td class="text_avt" valign="top"> Л.С. Страчунского</td>
+																		<td class="text_avt" valign="top" width="53">&nbsp;</td>
+																	</tr>
+																	<tr>
+																		<td class="text_avt" valign="top">Ю.Б. Белоусова</td>
+																		<td class="text_avt" valign="top" width="53">&nbsp;</td>
+																	</tr>
+																	<tr>
+																		<td class="text_avt" valign="top">С.Н. Козлова </td>
+																		<td class="text_avt" valign="top" width="53">&nbsp;</td>
+																	</tr>
+																</table>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td width="375" height="30" class="text_ruk">
+                        ПРАКТИЧЕСКОЕ РУКОВОДСТВО
+</td>
+													</tr>
+													<tr>
+														<td width="375" class="text_ter"> 
+                      по антиинфекционной  химиотерапии
+</td>
+													</tr>
+													<tr>
+														<td width="375" height="44">&nbsp;</td>
+													</tr>
+												</table>
+											</div>
+										</td>
+										<td background="images/4.gif" height="128" width="100%"></td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" align="right" background="images/4.gif"><img src="images/book2.gif" width="197" height="132"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			</table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" height="28">
+				<tr>
+					<td width="100%" bgcolor="#FFFFFF" height="2"></td>
+					<td bgcolor="#DE7E0A" height="2"></td>
+				</tr>
+				<tr bgcolor="#A9ABBC">
+					<td width="100%" height="26">&nbsp;</td>
+					<td height="26">&nbsp;</td>
+				</tr>
+			</table>
+			<table width="80%" border="0" cellspacing="0" cellpadding="0" align="center" height="10">
+				<tr>
+					<td height="10" width="100%">&nbsp;</td>
+				</tr>
+			</table>
+<!--Search-->
+<div class="mm" style="position: absolute;left: 433px; width: 500px; top: 2px; height: 30px">
+<table border="0" cellpadding="0" align="left" cellspacing="0"><tr><td>
+<form method="GET" action="http://www.google.ru/search" target="_blank">
+<input type="hidden" name="sitesearch" value="www.antibiotic.ru/ab/">
+<input type="hidden" name="domains" value="www.antibiotic.ru/ab/">
+<input type="hidden" name="hl" value="ru">
+<input type="hidden" name="num" value="20">
+<input type="hidden" name="newwindow" value="1">
+<input type="hidden" name="ie" value="windows-1251">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td style="vertical-align:middle;color:#FFFFFF">Поиск по сайту:</td><td><input name="q" type="text" size="30" maxlength="150" title="Введите слова для поиска и нажмите Enter"><input name="sa" type="submit" value="Искать"></td></tr>
+</table></form>
+</td></tr>
+</table></div>
+<!--/Search-->
+		
+
+
+
+
+<div class="mm" style="width: 130px; left: 205px; top: 0px; height: 24px">
+<a href="index.shtml" class="text_an">Содержание</a>
+  </div> 
+
+
+<div class="men" onmouseover="this.className='men1';" onmouseout="this.className = 'men';" style="width: 170px; left: 20px; top: 153px; height: 24px"> 
+<a href="mq.shtml" class="m"> Общие вопросы </a>
+<a href="intro.shtml" class="m">Введение</a>
+<a href="abbr.shtml" class="m">Список сокращений</a> 
+ <a href="about.shtml" class="m">Об   авторах и издателях</a>
+  <a href="termin.shtml" class="m">Основные термины и понятия</a>
+  <a href="sinonims.shtml" class="m">Синонимы ЛС</a>   
+  <a href="001-07.shtml" class="m">Механизмы антибиотико-резистентности</a> 
+<a href="007-11.shtml" class="m">Состояние 
+  антибиотико-резистентности в России</a>
+ <a href="drug_interactions.shtml" class="m">Лекарственные   взаимодействия</a> 
+<a href="pharmepi.shtml" class="m">Фармакоэпидемиология</a>
+</div> 
+
+<div class="men2" onmouseover="this.className='men22';" onmouseout="this.className = 'men2';" style="left: 190px; width: 170px; top: 153px; height: 24px">
+<a href="012.shtml" class="m">Описание препаратов</a> 
+  <a href="012-13.shtml" class="m">Общие особенности</a> <a href="012a.shtml" class="m">Антибактериальные</a>
+<a href="012o.shtml" class="m">Препараты других групп</a>  
+  <a href="065-75.shtml" class="m">Противотуберкулезные</a> <a href="fungi.shtml" class="m">Противогрибковые</a> 
+  <a href="012v.shtml" class="m">Противовирусные</a> <a href="proto.shtml" class="m">Противопротозойные</a>
+  <a href="gel.shtml" class="m">Противогельминтные</a>
+</div>
+
+<div class="men3" onmouseover="this.className='men33';" onmouseout="this.className = 'men3';" style="width: 170; left: 370px; top: 153px">
+<a href="098-105.shtml" class="m">Выбор препаратов</a> 
+  <a href="localinf.shtml" class="m">Инфекции различной локализации</a>
+  <a href="150-154.shtml" class="m">Туберкулез</a>
+  <a href="ch_fungi.shtml" class="m">Грибковые инфекции</a>
+ <a href="ch_viri.shtml" class="m">Вирусные инфекции</a>
+  <a href="aids.shtml" class="m">ВИЧ-инфекция</a>
+   <a href="ch_proto.shtml" class="m">Протозойные инфекции</a>
+    <a href="ch_gel.shtml" class="m">Гельминтозы</a> 
+</div>
+
+
+
+<div class="men4" onmouseover="this.className='men44';" onmouseout="this.className = 'men4';" style="width: 170; left: 540px; top: 153px"> 
+<a href="osob_prim.shtml" class="m">Особенности применения </a>
+ </div>
+
+
+
+
+<div class="men5" onmouseover="this.className='men55';" onmouseout="this.className = 'men5';" style="width: 170; left: 720px; top: 153px"> 
+<a href="list.shtml" class="m">Предметный 
+  указатель</a> <a href="drug_list.shtml" class="m">Лекарственные средства </a> 
+  <a href="dis_list.shtml" class="m">Заболевания</a> </div>
+  
+  <table width="90%" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td bgcolor="white" class="f15" valign="top"> 
+
+
+<h1>Приложение 2: Предметный указатель</h1>
+
+<h2>Заболевания</h2>
+
+<p>Указатель содержит расположенные в алфавитном порядке наименования заболеваний, упоминающихся в настоящем издании. При нажатии на ссылку откроется глава пособия, в которой наиболее полно в рамках данного руководства изложены вопросы, связанные с терапией этого заболевания.</p>
+
+<p class="c"><a href="#1">А</a> | <a href="#2">Б</a> | <a href="#3">В</a> | <a href="#4">Г</a> | <a href="#5">Д</a> | <a href="#6">З</a> | <a href="#7">И</a> | <a href="#8">К</a> | <a href="#9">Л</a> | <a href="#10">М</a> | <a href="#11">Н</a> | <a href="#12">О</a> | <a href="#13">П</a> | <a href="#14">Р</a> | <a href="#15">С</a> | <a href="#16">Т</a> | <a href="#17">У</a> | <a href="#18">Ф</a> | <a href="#19">Х</a> | <a href="#20">Ц</a> | <a href="#21">Ч</a> | <a href="#22">Ш</a> | <a href="#23">Э</a> | <a href="#24">Я</a> |</p>
+
+<br>
+<table width="80%" border="1" cellspacing="1" cellpadding="5" align="center">
+<tr>
+  <td class="bc"><a name="1"></a><b>А</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="131-136.shtml#abscess_brain">Абсцесс головного мозга</a><br>
+    <a href="090-93.shtml#abscess">Абсцесс легкого</a><br>
+    <a href="096-98.shtml#abscess">Абсцесс лица и шеи</a><br>
+    <a href="114-118.shtml#hepar">Абсцесс печени</a><br>
+    <a href="106-109.shtml#pielonefritis">Абсцесс почки</a><br>
+    <a href="131-136.shtml#abscess">Абсцесс эпидуральный</a><br>
+    <a href="096-98.shtml#actinomicosis">Актиномикоз</a><br>
+    <a href="ch_proto.shtml#amebiasis">Амебиаз</a><br>
+    <a href="ch_gel.shtml#nematodosis">Анкилостомидоз</a><br>
+    <a href="106-109.shtml#pielonefritis">Апостематозный пиелонефрит (<b>Пиелонефрит апостематозный</b>)</a><br>
+    <a href="114-118.shtml#appendicitis">Аппендицит острый</a><br>
+    <a href="098-105.shtml#artritis">Артрит инфекционный</a><br>
+    <a href="033-37.shtml">Артрит септический</a><br>
+    <a href="ch_gel.shtml#nematodosis">Аскаридоз</a><br>
+    <a href="ch_fungi.shtml#aspergillosis">Аспергиллез</a><br>
+    <a href="ch_fungi.shtml#aspergillosis">Аспергиллома</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="2"></a><b>Б</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="139-142.shtml">Бактериальные зоонозы (<b>Зоонозы бактериальные</b>)</a><br>
+    <a href="127-130.shtml#endometritis">Бактериальный вагиноз (<b>Вагиноз бактериальный</b>)</a><br>
+    <a href="eyes.shtml#keratitis">Бактериальный кератит (<b>Кератит бактериальный</b>)</a><br>
+    <a href="131-136.shtml">Бактериальный менингит (<b>Менингит бактериальный</b>)</a><br>
+    <a href="109-110.shtml">Бактериальный простатит (<b>Простатит бактериальный</b>)</a><br>
+    <a href="eyes.shtml#endophthalmitis">Бактериальный эндофтальмит (<b>Эндофтальмит бактериальный</b>)</a><br>
+    <a href="106-109.shtml#pregnant">Бактериурия бессимптомная</a><br>
+    <a href="106-109.shtml#pregnant">Бессимптомная бактериурия (<b>Бактериурия бессимптомная</b>)</a><br>
+    <a href="ch_fungi.shtml#endemic_mycosis">Бластомикоз</a><br>
+    <a href="eyes.shtml#blepharitis">Блефарит</a><br>
+    <a href="098-105.shtml#scratch">Болезнь кошачей царапины</a><br>
+    <a href="139-142.shtml#laim">Болезнь Лайма (<b>Боррелиоз клещевой</b>)</a><br>
+    <a href="139-142.shtml#laim">Боррелиоз клещевой</a><br>
+    <a href="090-93.shtml">Бронхит острый</a><br>
+    <a href="090-93.shtml">Бронхит хронический</a><br>
+    <a href="139-142.shtml#brucellosis">Бруцеллез</a><br>
+    <a href="096-98.shtml#cellulitis">Буккальный целлюлит (<b>Целлюлит буккальный</b>)</a><br>
+    <a href="098-105.shtml#bursitis">Бурсит острый</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="3"></a><b>В</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="127-130.shtml#endometritis">Вагинит</a><br>
+    <a href="127-130.shtml#endometritis">Вагинит трихомонозный</a><br>
+    <a href="127-130.shtml#endometritis">Вагиноз бактериальный</a><br>
+    <a href="eyes.shtml#keratitis">Вирусный кератит (<b>Кератит вирусный</b>)</a><br>
+    <a href="aids.shtml">ВИЧ-инфекция</a><br>
+    <a href="127-130.shtml">Воспалительные заболевания органов малого таза</a><br>
+    <a href="123-127.shtml#syphilis">Вторичный и ранний сифилис (<b>Сифилис вторичный и ранний</b>)</a><br>
+    <a href="127-130.shtml#endometritis">Вульвовагинит инфекционный</a><br>
+    <a href="127-130.shtml#endometritis">Вульвовагинит кандидозный</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="4"></a><b>Г</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="098-105.shtml#mionecrosis">Гангрена газовая</a><br>
+    <a href="ch_herpes.shtml">Генитальный герпес (<b>Герпес генитальный</b>)</a><br>
+    <a href="hep.shtml">Гепатит D</a><br>
+    <a href="hep.shtml">Гепатит C</a><br>
+    <a href="ch_herpes.shtml">Герпес генитальный</a><br>
+    <a href="ch_herpes.shtml">Герпес орофасциальный</a><br>
+    <a href="098-105.shtml#gidradenitis">Гидраденит гнойный</a><br>
+    <a href="ch_gel.shtml#cestodosis">Гименолепидоз</a><br>
+    <a href="096-98.shtml#stomatitis">Гингивостоматит Венсана язвенно-некротический (Стоматит некротический)</a><br>
+    <a href="ch_fungi.shtml#endemic_mycosis">Гистоплазмоз</a><br>
+    <a href="123-127.shtml#gonorrhea">Гонококковый конъюктивит (<b>Конъюктивит гонококковый</b>)</a><br>
+    <a href="123-127.shtml#gonorrhea">Гонококковый фарингит (<b>Фарингит гонококковый</b>)</a><br>
+    <a href="123-127.shtml#gonorrhea">Гонорея</a><br>
+    <a href="eyes.shtml#endophthalmitis">Грибковый эндофтальмит (<b>Эндофтальмит грибковый</b>)</a><br>
+    <a href="ch_grippe.shtml">Грипп</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="5"></a><b>Д</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="eyes.shtml#dacryocystitis">Дакриоаденит</a><br>
+    <a href="eyes.shtml#dacryocystitis">Дакриоцистит</a><br>
+    <a href="eyes.shtml#dacryocystitis">Дакриоцистит острый</a><br>
+    <a href="eyes.shtml#dacryocystitis">Дакриоцистит хронический</a><br>
+    <a href="ch_fungi.shtml#dermatomycosis">Дерматомикоз</a><br>
+    <a href="098-105.shtml#ulcer">Диабетическая язва стопы (<b>Язва стопы диабетическая</b>)</a><br>
+    <a href="119-123.shtml#intestine">Диарея острая</a><br>
+    <a href="119-123.shtml#intestine">Диарея путешественников</a><br>
+    <a href="114-118.shtml#hepar">Дивертикулит</a><br>
+    <a href="ch_gel.shtml#cestodosis">Дифиллоботриоз</a><br>
+    <a href="042-47.shtml">Дифтерия</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="6"></a><b>З</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="ch_fungi.shtml#mucormycosis">Зигомикоз (<b>Мукормикоз</b>)</a><br>
+    <a href="139-142.shtml">Зоонозы бактериальные</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="7"></a><b>И</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="098-105.shtml#impetigo">Импетиго</a><br>
+    <a href="114-118.shtml">Интраабдоминальные инфекции (<b>Инфекции интраабдоминальные</b>)</a><br>
+    <a href="127-130.shtml">Инфекции в акушерстве и гинекологии</a><br>
+    <a href="085-89.shtml">Инфекции ВДП</a><br>
+    <a href="eyes.shtml">Инфекции глаз</a><br>
+    <a href="119-123.shtml">Инфекции желудка</a><br>
+    <a href="119-123.shtml">Инфекции ЖКТ</a><br>
+    <a href="114-118.shtml">Инфекции интраабдоминальные</a><br>
+    <a href="119-123.shtml#intestine">Инфекции кишечника</a><br>
+    <a href="098-105.shtml">Инфекции кожи, мягких тканей, костей и суставов</a><br>
+    <a href="106-109.shtml">Инфекции МВП</a><br>
+    <a href="090-93.shtml">Инфекции НДП</a><br>
+    <a href="096-98.shtml">Инфекции полости рта и челюстно-лицевой области</a><br>
+    <a href="098-105.shtml#wound">Инфекции раневые послеоперационные</a><br>
+    <a href="109-110.shtml">Инфекции репродуктивной системы у мужчин</a><br>
+    <a href="110-114.shtml">Инфекции сердечно-сосудистой системы</a><br>
+    <a href="131-136.shtml">Инфекции ЦНС</a><br>
+    <a href="123-127.shtml">Инфекции, передающиеся половым путем</a><br>
+    <a href="127-130.shtml#abort">Инфекционные осложнения абортов</a><br>
+    <a href="098-105.shtml#artritis">Инфекционный артрит (<b>Артрит инфекционный</b>)</a><br>
+    <a href="127-130.shtml#endometritis">Инфекционный вульвовагинит (<b>Вульвовагинит инфекционный</b>)</a><br>
+    <a href="110-114.shtml">Инфекционный эндокардит (<b>Эндокардит инфекционный</b>)</a><br>
+    <a href="098-105.shtml#cat">Инфекция после укуса кошки</a><br>
+    <a href="098-105.shtml#rat">Инфекция после укуса крысы</a><br>
+    <a href="098-105.shtml#pig">Инфекция после укуса свиньи</a><br>
+    <a href="098-105.shtml#dog">Инфекция после укуса собаки</a><br>
+    <a href="098-105.shtml#human">Инфекция после укуса человека</a><br>
+    <a href="098-105.shtml#femor">Инфекция протезированного тазобедренного сустава</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="8"></a><b>К</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="eyes.shtml#dacryocystitis">Каналликутит</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидемия</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидоз</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидоз гортани</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидоз кожи</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидоз МВП</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидоз пищевода</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидоз полости рта</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидоз слизистых оболочек</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидозная паронихия (<b>Паронихия кандидозная</b>)</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидозный вульвовагинит (<b>Вульвовагинит кандидозный</b>)</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидозный менингит (<b>Менингит кандидозный</b>)</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидозный онихомикоз (<b>Онихомикоз кандидозный</b>)</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидозный перитонит (<b>Перитонит кандидозный</b>)</a><br>
+    <a href="ch_fungi.shtml#candidosis">Кандидозный эндокардит (<b>Эндокардит кандидозный</b>)</a><br>
+    <a href="098-105.shtml#furuncul">Карбункул</a><br>
+    <a href="eyes.shtml#keratitis">Кератит</a><br>
+    <a href="eyes.shtml#keratitis">Кератит бактериальный</a><br>
+    <a href="eyes.shtml#keratitis">Кератит вирусный</a><br>
+    <a href="eyes.shtml#keratitis">Кератит краевой</a><br>
+    <a href="139-142.shtml#laim">Клещевой боррелиоз (<b>Боррелиоз клещевой</b>)</a><br>
+    <a href="ch_gel.shtml#trematodosis">Клонорхоз</a><br>
+    <a href="042-47.shtml">Коклюш</a><br>
+    <a href="ch_fungi.shtml#endemic_mycosis">Кокцидиоидоз</a><br>
+    <a href="eyes.shtml#conjuctivitis">Конъюктивит</a><br>
+    <a href="123-127.shtml#gonorrhea">Конъюктивит гонококковый</a><br>
+    <a href="eyes.shtml#conjuctivitis">Конъюктивит молниеносный</a><br>
+    <a href="eyes.shtml#conjuctivitis">Конъюктивит острый</a><br>
+    <a href="eyes.shtml#conjuctivitis">Конъюктивит острый бактериальный</a><br>
+    <a href="eyes.shtml#conjuctivitis">Конъюктивит острый вирусный</a><br>
+    <a href="eyes.shtml#conjuctivitis">Конъюктивит с включениями</a><br>
+    <a href="eyes.shtml#conjuctivitis">Конъюктивит хронический</a><br>
+    <a href="eyes.shtml#keratitis">Краевой кератит (<b>Кератит краевой</b>)</a><br>
+    <a href="ch_fungi.shtml#cryptococcosis">Криптококкоз</a><br>
+    <a href="ch_proto.shtml#cryptosporidia">Криптоспоридиоз</a><br>
+    <a href="139-142.shtml">Ку-лихорадка</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="9"></a><b>Л</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="065-75.shtml#rifampicin">Легионеллез</a><br>
+    <a href="ch_proto.shtml#leishmaniasis">Лейшманиоз</a><br>
+    <a href="065-75.shtml#rifampicin">Лепра</a><br>
+    <a href="139-142.shtml#leptospira">Лептоспироз</a><br>
+    <a href="098-105.shtml#limfadenitis">Лимфаденит</a><br>
+    <a href="096-98.shtml#lymphadenitis">Лимфаденит лица и шеи</a><br>
+    <a href="098-105.shtml#limfangitis">Лимфангиит</a><br>
+    <a href="brviri.shtml">Лихорадка Ласса</a><br>
+    <a href="136-139.shtml">Лихорадка нейтропеническая</a><br>
+    <a href="ch_fungi.shtml#lichen">Лишай отрубевидный</a><br>
+    <a href="ch_gel.shtml#filariasis">Лоаоз</a><br>
+    <a href="ch_proto.shtml#lambliosis">Лямблиоз</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="10"></a><b>М</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="ch_proto.shtml#malaria">Малярия</a><br>
+    <a href="127-130.shtml">Мастит послеродовый</a><br>
+    <a href="131-136.shtml">Менингит</a><br>
+    <a href="131-136.shtml">Менингит бактериальный</a><br>
+    <a href="ch_fungi.shtml#candidosis">Менингит кандидозный</a><br>
+    <a href="ch_fungi.shtml#dermatomycosis">Микоз волосистой части головы</a><br>
+    <a href="ch_fungi.shtml#dermatomycosis">Микоз гладкой кожи</a><br>
+    <a href="098-105.shtml#mionecrosis">Мионекроз</a><br>
+    <a href="eyes.shtml#conjuctivitis">Молниеносный конъюктивит (<b>Конъюктивит молниеносный</b>)</a><br>
+    <a href="ch_fungi.shtml#mucormycosis">Мукормикоз</a><br>
+    <a href="123-127.shtml#limphogranulema">Мягкий шанкр</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="11"></a><b>Н</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="085-89.shtml">Наружный отит (<b>Отит наружный</b>)</a><br>
+    <a href="123-127.shtml#syphilis">Нейросифилис</a><br>
+    <a href="ch_gel.shtml#cestodosis">Нейроцистицеркоз</a><br>
+    <a href="136-139.shtml">Нейтропеническая лихорадка (<b>Лихорадка нейтропеническая</b>)</a><br>
+    <a href="098-105.shtml#fasciitis">Некротизирующий фасциит (<b>Фасциит некротизирующий</b>)</a><br>
+    <a href="096-98.shtml#stomatitis">Некротический стоматит (<b>Стоматит некротический</b>)</a><br>
+    <a href="ch_gel.shtml#nematodosis">Нематодозы</a><br>
+    <a href="056-60.shtml">Нокардиоз</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="12"></a><b>О</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="085-89.shtml#sinusit">Одонтогенный верхнечелюстной синусит (<b>Синусит одонтогенный верхнечелюстной</b>)</a><br>
+    <a href="056-60.shtml">Ожоги</a><br>
+    <a href="ch_fungi.shtml#dermatomycosis">Онихомикоз</a><br>
+    <a href="ch_gel.shtml#nematodosis">Онхоцеркоз</a><br>
+    <a href="ch_gel.shtml#trematodosis">Описторхоз</a><br>
+    <a href="085-89.shtml#orvi">ОРВИ</a><br>
+    <a href="ch_herpes.shtml">Орофасциальный герпес (<b>Герпес орофасциальный</b>)</a><br>
+    <a href="109-110.shtml#orhitis">Орхит</a><br>
+    <a href="109-110.shtml#orhitis">Орхоэпидидимит</a><br>
+    <a href="098-105.shtml#osteomielitis">Остеомиелит</a><br>
+    <a href="096-98.shtml#periostitis">Остеомиелит челюстей</a><br>
+    <a href="119-123.shtml#intestine">Острая диарея (<b>Диарея острая</b>)</a><br>
+    <a href="114-118.shtml#appendicitis">Острый аппендицит (<b>Аппендицит острый</b>)</a><br>
+    <a href="eyes.shtml#conjuctivitis">Острый бактериальный конъюктивит (<b>Конъюктивит острый бактериальный</b>)</a><br>
+    <a href="090-93.shtml">Острый бронхит (<b>Бронхит острый</b>)</a><br>
+    <a href="098-105.shtml#bursitis">Острый бурсит (<b>Бурсит острый</b>)</a><br>
+    <a href="eyes.shtml#conjuctivitis">Острый вирусный конъюктивит (<b>Конъюктивит острый вирусный</b>)</a><br>
+    <a href="eyes.shtml#dacryocystitis">Острый дакриоцистит (<b>Дакриоцистит острый</b>)</a><br>
+    <a href="eyes.shtml#conjuctivitis">Острый конъюктивит (<b>Конъюктивит острый</b>)</a><br>
+    <a href="106-109.shtml#cistitis">Острый неосложненный цистит (<b>Цистит острый неосложненный</b>)</a><br>
+    <a href="106-109.shtml#cistitis">Острый осложненный цистит (<b>Цистит острый осложненный</b>)</a><br>
+    <a href="085-89.shtml">Острый средний отит (<b>Отит средний острый</b>)</a><br>
+    <a href="114-118.shtml#holecistitis">Острый холангит (<b>Холангит острый</b>)</a><br>
+    <a href="114-118.shtml#holecistitis">Острый холецистит (<b>Холецистит острый</b>)</a><br>
+    <a href="106-109.shtml#cistitis">Острый цистит (<b>Цистит острый</b>)</a><br>
+    <a href="085-89.shtml">Отит</a><br>
+    <a href="085-89.shtml">Отит наружный</a><br>
+    <a href="085-89.shtml">Отит острый средний</a><br>
+    <a href="085-89.shtml">Отит средний</a><br>
+    <a href="085-89.shtml">Отит хронический средний</a><br>
+    <a href="ch_fungi.shtml#lichen">Отрубевидный лишай (<b>Лишай отрубевидный</b>)</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="13"></a><b>П</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="retroviri.shtml">Панкреатит</a><br>
+    <a href="ch_gel.shtml#trematodosis">Парагонимоз</a><br>
+    <a href="ch_fungi.shtml#endemic_mycosis">Паракокцидиоидоз</a><br>
+    <a href="139-142.shtml#facialis">Паралич лицевого нерва</a><br>
+    <a href="098-105.shtml#paronichia">Паронихия</a><br>
+    <a href="ch_fungi.shtml#candidosis">Паронихия кандидозная</a><br>
+    <a href="123-127.shtml#limphogranulema">Паховая гранулема</a><br>
+    <a href="ch_fungi.shtml#endemic_mycosis">Пенициллиоз</a><br>
+    <a href="123-127.shtml#syphilis">Первичный сифилис (<b>Сифилис первичный</b>)</a><br>
+    <a href="096-98.shtml#peridontitis">Периодонтит</a><br>
+    <a href="096-98.shtml#periostitis">Периостит</a><br>
+    <a href="ch_fungi.shtml#candidosis">Перитонит кандидозный</a><br>
+    <a href="114-118.shtml#peritonitis">Перитонит распространенный</a><br>
+    <a href="114-118.shtml#ulcer">Перфорация язвы желудка или двенадцатиперстной кишки</a><br>
+    <a href="106-109.shtml#pielonefritis">Пиелонефрит</a><br>
+    <a href="106-109.shtml#pielonefritis">Пиелонефрит апостематозный</a><br>
+    <a href="098-105.shtml#piomiositis">Пиомиозит</a><br>
+    <a href="eyes.shtml#keratitis">Пневмококковая язва роговицы (<b>Язва роговицы пневмококковая</b>)</a><br>
+    <a href="090-93.shtml#pneumonia">Пневмония</a><br>
+    <a href="ch_fungi.shtml#candidosis">Пневмония кандидозная</a><br>
+    <a href="127-130.shtml">Послеродовый мастит (<b>Мастит послеродовый</b>)</a><br>
+    <a href="098-105.shtml#bedsore">Пролежни</a><br>
+    <a href="114-118.shtml#wound">Проникающие ранения брюшной полости (<b>Ранения брюшной полости проникающие</b>)</a><br>
+    <a href="109-110.shtml">Простатит</a><br>
+    <a href="109-110.shtml">Простатит бактериальный</a><br>
+    <a href="ch_proto.shtml">Протозойные инфекции</a><br>
+    <a href="ch_fungi.shtml#pseudoallescheriosis">Псевдоаллешериоз</a><br>
+    <a href="096-98.shtml#pulpitis">Пульпит</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="14"></a><b>Р</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="114-118.shtml#wound">Ранения брюшной полости проникающие</a><br>
+    <a href="114-118.shtml#peritonitis">Распространенный перитонит (<b>Перитонит распространенный</b>)</a><br>
+    <a href="139-142.shtml">Риккетсиозы</a><br>
+    <a href="085-89.shtml#sinusit">Риносинусит (<b>Синусит</b>)</a><br>
+    <a href="098-105.shtml#rozha">Рожа</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="15"></a><b>С</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="136-139.shtml">Сепсис</a><br>
+    <a href="033-37.shtml">Септический артрит (<b>Артрит септический</b>)</a><br>
+    <a href="139-142.shtml#anthrax">Сибирская язва</a><br>
+    <a href="085-89.shtml#sinusit">Синусит</a><br>
+    <a href="085-89.shtml#sinusit">Синусит одногенный верхнечелюстной</a><br>
+    <a href="ch_fungi.shtml#mycosis">Системный микоз, вызванный <i>Malassezia</i> spp.</a><br>
+    <a href="ch_fungi.shtml#trichosporosis">Системный трихоспороз (<b>Трихоспороз системный</b>)</a><br>
+    <a href="123-127.shtml#syphilis">Сифилис</a><br>
+    <a href="123-127.shtml#syphilis">Сифилис вторичный и ранний</a><br>
+    <a href="123-127.shtml#syphilis">Сифилис первичный</a><br>
+    <a href="aids.shtml">СПИД</a><br>
+    <a href="ch_fungi.shtml#sporotrichosis">Споротрихоз</a><br>
+    <a href="085-89.shtml">Средний отит (<b>Отит средний</b>)</a><br>
+    <a href="eyes.shtml#keratitis">Стафилококковая язва роговицы (<b>Язва роговицы стафилококковая</b>)</a><br>
+    <a href="096-98.shtml#stomatitis">Стоматит некротический</a><br>
+    <a href="085-89.shtml#tonsillitis">Стрептококковый тонзиллит (<b>Тонзиллит стрептококковый</b>)</a><br>
+    <a href="ch_gel.shtml#nematodosis">Стронголоидоз</a><br>
+    <a href="131-136.shtml#empiema">Субдуральная эмпиема (<b>Эмпиема</b>)</a><br>
+    <a href="ch_fungi.shtml#pseudoallescheriosis">Сцедоспориоз (<b>Псевдоаллешериоз</b>)</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="16"></a><b>Т</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="098-105.shtml#tendovaginitis">Тендовагинит гнойный</a><br>
+    <a href="ch_fungi.shtml#cestodosis">Тениаринхоз</a><br>
+    <a href="ch_fungi.shtml#cestodosis">Тениоз</a><br>
+    <a href="ch_gel.shtml#nematodosis">Токсокароз</a><br>
+    <a href="ch_proto.shtml#toxoplasmosis">Токсоплазмоз</a><br>
+    <a href="085-89.shtml#tonsillitis">Тонзиллит</a><br>
+    <a href="085-89.shtml#tonsillitis">Тонзиллит стрептококковый</a><br>
+    <a href="eyes.shtml#conjuctivitis">Трахома</a><br>
+    <a href="ch_gel.shtml#trematodosis">Трематодозы</a><br>
+    <a href="ch_gel.shtml#nematodosis">Трихинеллез</a><br>
+    <a href="123-127.shtml#trichomoniasis">Трихомониаз</a><br>
+    <a href="123-127.shtml#trichomoniasis">Трихомониаз урогенитальный</a><br>
+    <a href="127-130.shtml#endometritis">Трихомонозный вагинит (<b>Вагинит трихомонозный</b>)</a><br>
+    <a href="ch_fungi.shtml#trichosporosis">Трихоспороз</a><br>
+    <a href="ch_fungi.shtml#trichosporosis">Трихоспороз системный</a><br>
+    <a href="ch_fungi.shtml#nematodosis">Трихоцефалез</a><br>
+    <a href="150-154.shtml">Туберкулез</a><br>
+    <a href="139-142.shtml#rabbit-fever">Туляремия</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="17"></a><b>У</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="098-105.shtml#rash">Угревая сыпь</a><br>
+    <a href="098-105.shtml#rash">Угри</a><br>
+    <a href="123-127.shtml#trichomoniasis">Урогенитальный трихомониаз (<b>Трихомониаз урогенитальный</b>)</a><br>
+    <a href="123-127.shtml#chlamidiosis">Урогенитальный хламидиоз (<b>Хламидиоз урогенитальный</b>)</a><br>
+  </td>
+</tr>
+
+<tr>
+  <td class="bc"><a name="18"></a><b>Ф</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="085-89.shtml#tonsillitis">Фарингит</a><br>
+    <a href="123-127.shtml#gonorrhea">Фарингит гонококковый</a><br>
+    <a href="098-105.shtml#fasciitis">Фасциит некротизирующий</a><br>
+    <a href="ch_fungi.shtml#pheogiphomycosis">Феогифомикозы</a><br>
+    <a href="ch_gel.shtml#filariasis">Филяриатозы</a><br>
+    <a href="096-98.shtml#abscess">Флегмона лица и шеи</a><br>
+    <a href="098-105.shtml#folliculitis">Фолликулит</a><br>
+    <a href="ch_fungi.shtml#fusariose">Фузариоз</a><br>
+    <a href="098-105.shtml#furuncul">Фурункул</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="19"></a><b>Х</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="123-127.shtml#chlamidiosis">Хламидиоз урогенитальный</a><br>
+    <a href="114-118.shtml#holecistitis">Холангит острый</a><br>
+    <a href="114-118.shtml#holecistitis">Холецистит острый</a><br>
+    <a href="ch_fungi.shtml#chromomycosis">Хромомикоз</a><br>
+    <a href="090-93.shtml">Хронический бронхит (<b>Бронхит хронический</b>)</a><br>
+    <a href="eyes.shtml#dacryocystitis">Хронический дакриоцистит (<b>Дакриоцистит хронический</b>)</a><br>
+    <a href="eyes.shtml#conjuctivitis">Хронический конъюктивит (<b>Конъюктивит хронический</b>)</a><br>
+    <a href="085-89.shtml">Хронический средний отит (<b>Отит хронический средний</b>)</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="20"></a><b>Ц</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="098-105.shtml">Целлюлит</a><br>
+    <a href="096-98.shtml#cellulitis">Целлюлит буккальный</a><br>
+    <a href="ch_gel.shtml#cestodosis">Цестодозы</a><br>
+    <a href="106-109.shtml#cistitis">Цистит</a><br>
+    <a href="106-109.shtml#cistitis">Цистит острый</a><br>
+    <a href="106-109.shtml#cistitis">Цистит острый неосложненный</a><br>
+    <a href="106-109.shtml#cistitis">Цистит острый осложненный</a><br>
+    <a href="ch_gel.shtml#cestodosis">Цистицеркоз</a><br>
+    <a href="ch_cytomeg.shtml">ЦМВ-инфекция</a><br>
+    <a href="ch_cytomeg.shtml">ЦМВ-ретинит</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="21"></a><b>Ч</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="139-142.shtml#chuma">Чума</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="22"></a><b>Ш</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="ch_gel.shtml#trematodosis">Шистосомозы</a><br>
+  </td>
+</tr>
+
+<tr>
+  <td class="bc"><a name="23"></a><b>Э</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="090-93.shtml#empiema">Эмпиема плевры</a><br>
+    <a href="131-136.shtml#empiema">Эмпиема субдуральная</a><br>
+    <a href="110-114.shtml">Эндокардит</a><br>
+    <a href="110-114.shtml">Эндокардит инфекционный</a><br>
+    <a href="ch_fungi.shtml#candidosis">Эндокардит кандидозный</a><br>
+    <a href="eyes.shtml#endophthalmitis">Эндофтальмит</a><br>
+    <a href="eyes.shtml#endophthalmitis">Эндофтальмит бактериальный</a><br>
+    <a href="eyes.shtml#endophthalmitis">Эндофтальмит грибковый</a><br>
+    <a href="ch_gel.shtml#nematodosis">Энтеробиоз</a><br>
+    <a href="085-89.shtml#epiglottitis">Эпиглоттит</a><br>
+    <a href="109-110.shtml#orhitis">Эпидидимит</a><br>
+    <a href="131-136.shtml#abscess">Эпидуральный абсцесс (<b>Абсцесс эпидуральный</b>)</a><br>
+    <a href="098-105.shtml#erisipeloid">Эризипелоид</a><br>
+    <a href="098-105.shtml#eritrasma">Эритразма</a><br>
+    <a href="ch_gel.shtml#echinococcosis">Эхинококкоз</a><br>
+  </td>
+</tr>
+<tr>
+  <td class="bc"><a name="24"></a><b>Я</b></td>
+</tr>
+<tr>
+  <td>
+    <a href="eyes.shtml#keratitis">Язва роговицы</a><br>
+    <a href="eyes.shtml#keratitis">Язва роговицы пневмококковая</a><br>
+    <a href="eyes.shtml#keratitis">Язва роговицы стафилококковая</a><br>
+    <a href="eyes.shtml#keratitis">Язва роговицы, вызванная синегнойной палочкой</a><br>
+    <a href="139-142.shtml#anthrax">Язва сибирская (<b>Сибирская язва</b>)</a><br>
+    <a href="098-105.shtml#ulcer">Язва стопы диабетическая</a><br>
+    <a href="119-123.shtml">Язвенная болезнь</a><br>
+    <a href="096-98.shtml#stomatitis">Язвенно-некротический гингивостоматит Венсана (<b>Стоматит некротический</b>)</a><br>
+  </td>
+</tr>
+</table>
+<br>
+</td></tr></table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+<tr><td height="20" bgcolor="#967BB0">&nbsp;</td></tr>
+<tr><td class="copy" height="30">&copy; 2000-2007 <a target="_blank" href="../copyright.php.html">НИИАХ СГМА</a></td></tr>
+</table>
+      
+<center>
+<a href="../index.htm"><img src="../images/banners/arus.gif" width="120" height="60" alt="Антибиотик.ru" border="0"></a>
+<a href="../iacmac/index.htm"><img src="../images/banners/iacmac.gif" width="120" height="60" border="0" alt="Межрегиональная ассоциация по клинической микробиологии и антимикробной химиотерапии"></a>
+<a href="../index-1.htm"><img src="../images/banners/cmac.gif" width="120" height="60" border="0" alt="Журнал ''Клиническая микробиология и антимикробная химиотерапия''"></a>
+<br>
+
+<!--counters-->
+<!--TopList--><a target="_top" href="http://top.list.ru/jump?from=96637"><script language="JavaScript"><!--
+d=document;a='';a+=';r='+escape(d.referrer)
+js=10//--></script><script language="JavaScript1.1"><!--
+a+=';j='+navigator.javaEnabled()
+js=11//--></script><script language="JavaScript1.2"><!--
+s=screen;a+=';s='+s.width+'*'+s.height
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)
+js=12//--></script><script language="JavaScript1.3"><!--
+js=13//--></script><script language="JavaScript"><!--
+d.write('<img src="http://top.list.ru/counter'+
+'?id=96637;t=58;js='+js+a+';rand='+Math.random()+
+'" alt="TopList" '+ 'border=0 height=31 width=88>')
+if(js>11)d.write('<'+'!-- ')//--></script><noscript><img src="../counter-2.gif?js=na;id=96637;t=58" border="0" height="31" width="88" alt="TopList"></noscript><script language="JavaScript"><!--
+if(js>11)d.write('--'+'>')//--></script></a><!--/TopList-->
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../top100/banner-88x31-rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+<br>
+<!--RAX counter--><script language="JavaScript"><!--
+document.write('<a href="http://www.rax.ru/click" '+
+'target=_blank><img src="http://counter.yadro.ru/hit?t26.12;r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';'+Math.random()+
+'" alt="rax.ru: показано число посетителей за сегодн\я" '+
+'border=0 width=88 height=15></a>')//--></script><!--/RAX-->
+<br>
+<!--Rambler 1x1--><a href="http://top100.rambler.ru/top100/"><img src="../top100.cnt.gif?335834" alt="Rambler's Top100" width="1" height="1" border="0"></a><!--/Rambler 1x1-->
+<!--/counters-->
+<div class="c8">Дата размещения: 10.09.2002</div>
+</center>
+
+</body>
+</html>

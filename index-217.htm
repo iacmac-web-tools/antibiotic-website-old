@@ -1,0 +1,2607 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang='en' class='no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7'> <![endif]-->
+<!--[if IE 7]>    <html lang='en' class='no-js lt-ie10 lt-ie9 lt-ie8'> <![endif]-->
+<!--[if IE 8]>    <html lang='en' class='no-js lt-ie10 lt-ie9'> <![endif]-->
+<!--[if IE 9]>    <html lang='en' class='no-js lt-ie10'> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang='en' class='no-js'> <!--<![endif]-->
+<head>
+<meta charset='utf-8'>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"27b438aa5b","applicationID":"77504","transactionName":"cV9cEEdeCA5cExpaX19VQgVSVEsLVwVQSg==","queueTime":0,"applicationTime":277,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"27b438aa5b",applicationID:"77504"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='The Journal of Clinical Investigation' name='AUTHOR'>
+<!-- Set the viewport width to device width for mobile -->
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<link href='/rss' rel='alternate' title='JCI New Article RSS' type='application/rss+xml'>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="7mPlUtlz8e3L2gpIDzOl+t4dbKCsLLst4+xCIS+e2PHyoa48+0KKtzEC5s9BYDLioAd9tO5PRiJxtTANVkcvmA==" />
+<link rel="shortcut icon" type="image/x-icon" href="/assets/jci-favicon-b6f74d2a3ee91ddde987c4dcc25a92d19a3f49aaf2cc6f8b58190cf1e34e3785.ico" />
+<title>
+JCI -
+Welcome
+</title>
+
+<!--[if gt IE 8]><!--><link rel="stylesheet" media="all" href="/assets/application-35f039dfdaa72883cf636e1848ce546cf36a1bb8dc337aa0aaf2944cc0efe73f.css" /><!--<![endif]-->
+<!--[if (lt IE 9)]>
+<link rel="stylesheet" media="all" href="/assets/ie8/application-8344233743ad5fae6328b0a08482b9778961dfa02c8f980574689a50e97c13cb.css" />
+<script src="/assets/ie8/ie8-head-bfd8231ba171b62724ed7348c9f7aef3cb95e7c031381a8875b6b0769bb2cd66.js"></script>
+<![endif]-->
+
+<style>
+  @font-face {
+    font-family: "klavika-bold";
+    src: url("//dm5migu4zj3pb.cloudfront.net/fonts/klavika/eot/KlavikaWebBasicBold.eot");
+    src:
+      url("//dm5migu4zj3pb.cloudfront.net/fonts/klavika/eot/KlavikaWebBasicBold.eot?#iefix") format("embedded-opentype"),
+      url("//dm5migu4zj3pb.cloudfront.net/fonts/klavika/woff/KlavikaWebBasicBold.woff") format("woff");
+  }
+  @font-face {
+    font-family: "klavika-regular";
+    src: url("//dm5migu4zj3pb.cloudfront.net/fonts/klavika/eot/KlavikaWebBasicRegular.eot");
+    src:
+      url("//dm5migu4zj3pb.cloudfront.net/fonts/klavika/eot/KlavikaWebBasicRegular.eot?#iefix") format("embedded-opentype"),
+      url("//dm5migu4zj3pb.cloudfront.net/fonts/klavika/woff/KlavikaWebBasicRegular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "foundation-icons";
+    src: url("//dm5migu4zj3pb.cloudfront.net/fonts/foundation-icons-3/foundation-icons.eot");
+    src: url("//dm5migu4zj3pb.cloudfront.net/fonts/foundation-icons-3/foundation-icons.eot?#iefix") format("embedded-opentype"),
+         url("//dm5migu4zj3pb.cloudfront.net/fonts/foundation-icons-3/foundation-icons.woff") format("woff"),
+         url("//dm5migu4zj3pb.cloudfront.net/fonts/foundation-icons-3/foundation-icons.ttf") format("truetype"),
+         url("//dm5migu4zj3pb.cloudfront.net/fonts/foundation-icons-3/foundation-icons.svg#fontcustom") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+</style>
+
+<script>
+  //Google Tag Manager Data Layer
+  //Values must be set before GTM tags are triggered
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    'siteName': 'content-jci',
+    'ipAddress': '5.145.220.181',
+    'environment': 'production',
+  });
+</script>
+<script src="/assets/vendor/modernizr-34068bbe55efaed404fc5f26a12641757e9f4e5ba63d46a472021f167c4e66c4.js"></script>
+<script type='text/javascript'>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function () {
+		var gads = document.createElement('script');
+		gads.async = true;
+		gads.type = 'text/javascript';
+		var useSSL = 'https:' == document.location.protocol;
+		gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+		var node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(gads, node);
+	})();
+
+	googletag.cmd.push(function () {
+
+		// NOTE: This script manages google ads, more info at doc/GoogleAds.md
+
+		var mapping = googletag.sizeMapping().addSize([800, 600], [300, 250]).addSize([640, 480], [260, 217]).build();
+		var mapping2 = googletag.sizeMapping()
+		   .addSize([1920, 1080], [728, 90])//All desktop like resolutions are set to 728x90
+		   .addSize([800, 600], [728, 90])
+		   .addSize([640, 480], [728, 90])
+		   .addSize([0, 0], [320, 50]) //Smaller than 640x480 screens
+		   .build();
+			
+		googletag.defineSlot('/82117132/jci-homepage-med-rectangle-left-col-top', [[300, 250],[260, 217]], 'jci-homepage-med-rectangle-left-col-top').defineSizeMapping(mapping).addService(googletag.pubads());
+
+		googletag.defineSlot('/82117132/jci-article-interior-leaderboard-top', [[728, 90],[320, 50]], 'jci-article-interior-leaderboard-top').defineSizeMapping(mapping2).addService(googletag.pubads());
+		googletag.defineSlot('/82117132/jci-article-interior-leaderboard-bottom', [728, 90], 'jci-article-interior-leaderboard-bottom').addService(googletag.pubads());
+		googletag.defineSlot('/82117132/jci-article-interior-skyscraper-right-col', [160, 600], 'jci-article-interior-skyscraper-right-col').addService(googletag.pubads());
+		googletag.defineSlot('/82117132/jci-interior-skyscraper-right-col', [160, 600], 'jci-interior-skyscraper-right-col').addService(googletag.pubads());
+
+		// collapseEmptyDivs requires all slots be defined above.
+		googletag.pubads().collapseEmptyDivs(true);
+		googletag.enableServices();
+	});
+</script>
+
+</head>
+
+<body class='' id='homepage_controller'>
+<div class='off-canvas-wrap' data-offcanvas=''>
+<div class='inner-wrap'>
+<div class='fixed show-for-large-up'>
+<div class='row menu-align' id='logo-bar'>
+<div class='small-12 columns'>
+<div class='cross-journal-container'>
+Go to
+<a href='http://insight.jci.org'>JCI Insight</a>
+</div>
+<a href="/"><img src="/assets/common/jci-spelled-out-white-on-transparent.20160208-f0c39cd1eaee455c46365719769dc2f4859d68368cfa219e5e491c77d472c0f4.png" /></a>
+</div>
+</div>
+
+<div class='row menu-align' id='journal-bar'>
+<div class='small-12 columns'>
+<ul class='inline-list'>
+<li><a href="/kiosks/about">About</a></li>
+<li><a href="/kiosks/editorial-board">Editors</a></li>
+<li><a href="/kiosks/about/consulting-editors">Consulting Editors</a></li>
+<li><a href="/kiosks/authors">For authors</a></li>
+<li><a href="/kiosks/connect">Alerts</a></li>
+<li><a href="/kiosks/advertise">Advertising/recruitment</a></li>
+<li><a href="/kiosks/subscriptions">Subscribe</a></li>
+<li><a href="/kiosks/contact">Contact</a></li>
+
+</ul>
+</div>
+</div>
+
+<div id='content-bar'>
+<nav class='top-bar' data-topbar=''>
+<section class='top-bar-section'>
+<ul class='left'>
+<li class='not-click'>
+<a id="topmenu_current_issue" href="/current">Current Issue</a>
+</li>
+<li class='not-click'>
+<a href="/archive">Past Issues</a>
+</li>
+<li class='has-dropdown not-click'>
+<a>By specialty</a>
+<ul class='dropdown'>
+<li><a href="/tags/118">COVID-19</a></li>
+<li><a href="/tags/15">Cardiology</a></li>
+<li><a href="/tags/21">Gastroenterology</a></li>
+<li><a href="/tags/25">Immunology</a></li>
+<li><a href="/tags/28">Metabolism</a></li>
+<li><a href="/tags/31">Nephrology</a></li>
+<li><a href="/tags/32">Neuroscience</a></li>
+<li><a href="/tags/33">Oncology</a></li>
+<li><a href="/tags/36">Pulmonology</a></li>
+<li><a href="/tags/42">Vascular biology</a></li>
+<li><a href="/specialties">All...</a></li>
+</ul>
+</li>
+<li class='has-dropdown not-click'>
+<a href="/videos">Videos</a>
+<ul class='dropdown'>
+<li><a href="/videos/cgms">Conversations with Giants in Medicine</a></li>
+<li><a href="/videos/authors_takes">Author&#39;s Takes</a></li>
+</ul>
+</li>
+<li class='has-dropdown not-click'>
+<a href="/tags/reviews">Reviews</a>
+<ul class='dropdown'>
+<li>
+<label>Reviews</label>
+</li>
+<li><a href="/tags/reviews">View all reviews...</a></li>
+<li class='divider'></li>
+<li>
+<label>Review Series</label>
+</li>
+<li><a href="/review_series/111">Hypoxia-inducible factors in disease pathophysiology and therapeutics (Oct 2020)</a></li>
+<li><a href="/review_series/110">Latency in Infectious Disease (Jul 2020)</a></li>
+<li><a href="/review_series/109">Immunotherapy in Hematological Cancers (Apr 2020)</a></li>
+<li><a href="/review_series/108">Big Data&#39;s Future in Medicine (Feb 2020)</a></li>
+<li><a href="/review_series/107">Mechanisms Underlying the Metabolic Syndrome (Oct 2019)</a></li>
+<li><a href="/review_series/106">Reparative Immunology (Jul 2019)</a></li>
+<li><a href="/review_series/105">Allergy (Apr 2019)</a></li>
+<li>
+<a href="/review_series">View all review series...</a>
+</li>
+</ul>
+</li>
+<li class='has-dropdown not-click'>
+<a>Collections</a>
+<ul class='dropdown'>
+<li><a href="/recently-published">Recently published</a></li>
+<li><a href="/in-press-preview">In-Press Preview</a></li>
+<li><a href="/tags/44">Commentaries</a></li>
+<li><a href="/tags/concise_communications">Concise Communication</a></li>
+<li><a href="/tags/56">Editorials</a></li>
+<li><a href="/tags/111">Viewpoint</a></li>
+<li><a href="/top_articles">Top read articles</a></li>
+
+</ul>
+</li>
+<li><a href="/tags/3">Clinical Medicine</a></li>
+<li class='has-dropdown not-click'>
+<a href="/this-month">JCI This Month</a>
+<ul class='dropdown'>
+<li><a href="/this-month/current">Current issue</a></li>
+<li><a href="/this-month">Past issues</a></li>
+</ul>
+</li>
+</ul>
+<ul class='right'>
+<li class='has-form'>
+<div id='search-area'>
+<form action="/search/results" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<input type="text" name="q" id="q" value="" placeholder="Search the JCI" />
+<input type="image" src="/assets/search-black-867f68b5b717d00fb9c106b8c637cfd33ea8ee8b2ff37a9eaf8cc675abe2fc86.png" value="" />
+</form>
+
+</div>
+</li>
+</ul>
+</section>
+</nav>
+</div>
+
+</div>
+<!--[if gt IE 8]><!--><nav class='tab-bar hide-for-large-up fixed' id='small-navbar'>
+<section class='left-small'>
+<a class='left-off-canvas-toggle menu-icon'>
+<span></span>
+</a>
+</section>
+<section class='middle tab-bar-section'>
+<h1 class='title'><a href="/"><img width="40" src="/assets/common/jci-only-white-8a7e75c924e8f4e2d61f98952aa688ca36f76c9e55ac7fa58f3a9a33a8cb4236.png" /></a></h1>
+</section>
+</nav>
+<aside class='left-off-canvas-menu'>
+<ul class='off-canvas-list'>
+<li>
+<label>The Journal of Clinical Investigation</label>
+</li>
+<li><form action="/search/results" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<div class='row collapse' id='search-div-offcanvas'>
+<div class='small-8 columns'>
+<input name='q' placeholder='Search the JCI' type='text'>
+</div>
+<div class='small-4 columns'>
+<input type="image" src="/assets/common/search-white-cc4a29c31d1a1a75e19da4c773d8175e78de1ac330be7aa089e7212ec0a7b49e.png" id="search-icon-offcanvas" />
+</div>
+</div>
+</form>
+
+</li>
+<li><a id="offcanvas_current_issue" href="/current">Current issue</a></li>
+<li><a href="/archive">Past issues</a></li>
+<li><a href="/specialties">Specialties</a></li>
+<li><a href="/tags/reviews">Reviews</a></li>
+<li><a href="/review_series">Review series</a></li>
+<li>
+<label>Videos</label>
+</li>
+<li><a href="/videos/cgms">Conversations with Giants in Medicine</a></li>
+<li><a href="/videos/authors_takes">Author&#39;s Takes</a></li>
+<li>
+<label>Collections</label>
+</li>
+<li><a href="/recently-published">Recently published</a></li>
+<li><a href="/in-press-preview">In-Press Preview</a></li>
+<li><a href="/tags/44">Commentaries</a></li>
+<li><a href="/tags/concise_communications">Concise Communication</a></li>
+<li><a href="/tags/56">Editorials</a></li>
+<li><a href="/tags/111">Viewpoint</a></li>
+<li><a href="/top_articles">Top read articles</a></li>
+
+<li>
+<label>Journal Details</label>
+</li>
+<li><a href="/kiosks/about">About</a></li>
+<li><a href="/kiosks/editorial-board">Editors</a></li>
+<li><a href="/kiosks/about/consulting-editors">Consulting Editors</a></li>
+<li><a href="/kiosks/authors">For authors</a></li>
+<li><a href="/kiosks/connect">Alerts</a></li>
+<li><a href="/kiosks/advertise">Advertising/recruitment</a></li>
+<li><a href="/kiosks/subscriptions">Subscribe</a></li>
+<li><a href="/kiosks/contact">Contact</a></li>
+
+</ul>
+</aside>
+<a class='exit-off-canvas'></a><!--<![endif]-->
+
+
+
+<!--[if (lt IE 9)]>
+<div class='alert-box info' data-alert=''>
+Please note that the JCI no longer supports your version of Internet Explorer. We recommend upgrading to the latest version of
+<a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer</a>,
+<a href="https://www.google.com/chrome/browser/desktop/index.html">Google Chrome</a>, or
+<a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>
+<a class='close' href='#'>&times;</a>
+</div>
+<![endif]-->
+
+<div class='row content-wrapper'>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='large-8 large-push-4 medium-7 medium-push-5 columns'>
+
+<div class='row promoted panel-padding'>
+<div class='small-12 large-8 columns'>
+<h5 class='promoted'><a href="/posts/608">COVID-19 article collection</a></h5>
+<a href="/posts/608"><div class='article-metadata'></div>
+Read the collection of COVID-19-related articles published in the JCI.
+</a></div>
+</div>
+
+<div class='row panel-padding'>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4>
+Recently published
+<small>- <a title="View more recently published articles" href="/recently-published">More</a></small>
+</h4>
+<div class='row'>
+<div class='small-12  columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/143466">What are protective antibody responses to pandemic SARS-CoV-2?</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41638-more' href='#'>
+<div class='article-abstract'>
+Human antibody responses to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) hold intense interest, with research efforts directed at optimizing antibody-based interventions and...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 9, 2020; First published October 15, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/44"><span class='label-article-type'>
+Commentary
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI143466' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41638-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/143466">What are protective antibody responses to pandemic SARS-CoV-2?</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/143466">Text</a></li>
+<li><a class="button tiny" href="/articles/view/143466/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Human antibody responses to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) hold intense interest, with research efforts directed at optimizing antibody-based interventions and monitoring immune status. By relating individual variations in antibody response to coronavirus disease 2019 (COVID-19) severity, beneficial antiviral immune responses may be identified in detail. In this issue of the JCI, Secchi and collaborators describe antibody response profiles in 509 patients with COVID-19 from Italy during the 2020 pandemic. The research team found that multiple antibody types to multiple SARS-CoV-2 antigens developed over four weeks. Notably, IgG against the spike receptor binding domain (RBD) was predictive of survival and IgA against the viral spike protein (S protein) associated with rapid virologic clearance. These results may help guide selection of convalescent plasma, hyperimmune products, monoclonal antibodies, and vaccine strategies for COVID-19.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Jeffrey P. Henderson</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/140189"><i>BCL11A</i> enhancerвЂ“edited hematopoietic stem cells persist in rhesus monkeys without toxicity</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41641-more' href='#'>
+<div class='article-abstract'>
+Gene editing of the erythroid-specific BCL11A enhancer in hematopoietic stem and progenitor cells (HSPCs) from patients with sickle cell disease (SCD) induces fetal hemoglobin (HbF) without...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 9, 2020; First published September 8, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/51"><span class='label-article-type'>
+Research Article
+</span>
+</a><a href="/tags/23"><span class='label-specialty'>
+Hematology
+</span>
+</a><a href="/tags/40"><span class='label-specialty'>
+Transplantation
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI140189' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/140189/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/140000/140189/small/JCI140189.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41641-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/140189"><i>BCL11A</i> enhancerвЂ“edited hematopoietic stem cells persist in rhesus monkeys without toxicity</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/140189">Text</a></li>
+<li><a class="button tiny" href="/articles/view/140189/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Gene editing of the erythroid-specific BCL11A enhancer in hematopoietic stem and progenitor cells (HSPCs) from patients with sickle cell disease (SCD) induces fetal hemoglobin (HbF) without detectable toxicity, as assessed by mouse xenotransplant. Here, we evaluated autologous engraftment and HbF induction potential of erythroid-specific BCL11A enhancerвЂ“edited HSPCs in 4 nonhuman primates. We used a single guide RNA (sgRNA) with identical human and rhesus target sequences to disrupt a GATA1 binding site at the BCL11A +58 erythroid enhancer. Cas9 protein and sgRNA ribonucleoprotein complex (RNP) was electroporated into rhesus HSPCs, followed by autologous infusion after myeloablation. We found that gene edits persisted in peripheral blood (PB) and bone marrow (BM) for up to 101 weeks similarly for BCL11A enhancerвЂ“ or control locusвЂ“targeted (AAVS1-targeted) cells. Biallelic BCL11A enhancer editing resulted in robust Оі-globin induction, with the highest levels observed during stress erythropoiesis. Indels were evenly distributed across PB and BM lineages. Off-target edits were not observed. Nonhomologous end-joining repair alleles were enriched in engrafting HSCs. In summary, we found that edited HSCs can persist for at least 101 weeks after transplant and biallelic-edited HSCs provide substantial HbF levels in PB red blood cells, together supporting further clinical translation of this approach.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Selami Demirci, Jing Zeng, Yuxuan Wu, Naoya Uchida, Anne H. Shen, Danilo Pellin, Jackson Gamer, Morgan Yapundich, Claire Drysdale, Jasmine Bonanno, Aylin C. Bonifacino, Allen E. Krouse, Nathaniel S. Linde, Theresa Engels, Robert E. Donahue, Juan J. Haro-Mora, Alexis Leonard, Tina Nassehi, Kevin Luk, Shaina N. Porter, Cicera R. Lazzarotto, Shengdar Q. Tsai, Mitchell J. Weiss, Shondra M. Pruett-Miller, Scot A. Wolfe, Daniel E. Bauer, John F. Tisdale</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/135665">Selective pharmacological inhibition of the sodium-dependent phosphate cotransporter NPT2a promotes phosphate excretion</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41643-more' href='#'>
+<div class='article-abstract'>
+The sodium-phosphate cotransporter NPT2a plays a key role in the reabsorption of filtered phosphate in proximal renal tubules, thereby critically contributing to phosphate homeostasis. Inadequate...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 9, 2020; First published August 27, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/51"><span class='label-article-type'>
+Research Article
+</span>
+</a><a href="/tags/20"><span class='label-specialty'>
+Endocrinology
+</span>
+</a><a href="/tags/31"><span class='label-specialty'>
+Nephrology
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI135665' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/135665/figure/1' ref='group' title='PF-06869206 inhibits phosphate uptake in primary rat PRT cells. PRT cells were treated with increasing doses of PF-06869206 (30 nM to 30 ОјM), DMSO vehicle (0 mg/kg PF-06869206), or PFA ( 5 mM, positive control) for 30 minutes. 32P was then added to the cells for 5 minutes, and the cells were rinsed to remove unincorporated 32P. Phosphate uptake by the cells was derived from cell-associated radioactivity measured after cell lysis. Phosphate uptake data are reported as the percentage of vehicle control and shown as the mean В± SEM of cells from 3 animals. P &lt; 0.05, mixed-effects model.'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/135000/135665/small/JCI135665.f1.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41643-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/135665">Selective pharmacological inhibition of the sodium-dependent phosphate cotransporter NPT2a promotes phosphate excretion</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/135665">Text</a></li>
+<li><a class="button tiny" href="/articles/view/135665/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>The sodium-phosphate cotransporter NPT2a plays a key role in the reabsorption of filtered phosphate in proximal renal tubules, thereby critically contributing to phosphate homeostasis. Inadequate urinary phosphate excretion can lead to severe hyperphosphatemia as in tumoral calcinosis and chronic kidney disease (CKD). Pharmacological inhibition of NPT2a may therefore represent an attractive approach for treating hyperphosphatemic conditions. The NPT2a-selective small-molecule inhibitor PF-06869206 was previously shown to reduce phosphate uptake in human proximal tubular cells in vitro. Here, we investigated the acute and chronic effects of the inhibitor in rodents and report that administration of PF-06869206 was well tolerated and elicited a dose-dependent increase in fractional phosphate excretion. This phosphaturic effect lowered plasma phosphate levels in WT mice and in rats with CKD due to subtotal nephrectomy. PF-06869206 had no effect on Npt2a-null mice, but promoted phosphate excretion and reduced phosphate levels in normophophatemic mice lacking Npt2c and in hyperphosphatemic mice lacking Fgf23 or Galnt3. In CKD rats, once-daily administration of PF-06869206 for 8 weeks induced an unabated acute phosphaturic and hypophosphatemic effect, but had no statistically significant effect on FGF23 or PTH levels. Selective pharmacological inhibition of NPT2a thus holds promise as a therapeutic option for genetic and acquired hyperphosphatemic disorders.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Valerie Clerin, Hiroshi Saito, Kevin J. Filipski, An Hai Nguyen, Jeonifer Garren, Janka Kisucka, Monica Reyes, Harald JГјppner</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/137712">Maintenance DNA methylation is essential for regulatory T cell development and stability of suppressive function</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41646-more' href='#'>
+<div class='article-abstract'>
+Tregs require Foxp3 expression and induction of a specific DNA hypomethylation signature during development, after which Tregs persist as a self-renewing population that regulates immune system...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 9, 2020; First published September 8, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/51"><span class='label-article-type'>
+Research Article
+</span>
+</a><a href="/tags/13"><span class='label-specialty'>
+Autoimmunity
+</span>
+</a><a href="/tags/25"><span class='label-specialty'>
+Immunology
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI137712' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/137712/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/137000/137712/small/JCI137712.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41646-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/137712">Maintenance DNA methylation is essential for regulatory T cell development and stability of suppressive function</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/137712">Text</a></li>
+<li><a class="button tiny" href="/articles/view/137712/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Tregs require Foxp3 expression and induction of a specific DNA hypomethylation signature during development, after which Tregs persist as a self-renewing population that regulates immune system activation. Whether maintenance DNA methylation is required for Treg lineage development and stability and how methylation patterns are maintained during lineage self-renewal remain unclear. Here, we demonstrate that the epigenetic regulator ubiquitin-like with plant homeodomain and RING finger domains 1 (Uhrf1) is essential for maintenance of methyl-DNA marks that stabilize Treg cellular identity by repressing effector T cell transcriptional programs. Constitutive and induced deficiency of Uhrf1 within Foxp3+ cells resulted in global yet nonuniform loss of DNA methylation, derepression of inflammatory transcriptional programs, destabilization of the Treg lineage, and spontaneous inflammation. These findings support a paradigm in which maintenance DNA methylation is required in distinct regions of the Treg genome for both lineage establishment and stability of identity and suppressive function.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Kathryn A. Helmin, Luisa Morales-Nebreda, Manuel A. Torres Acosta, Kishore R. Anekalla, Shang-Yang Chen, Hiam Abdala-Valencia, Yuliya Politanska, Paul Cheresh, Mahzad Akbarpour, Elizabeth M. Steinert, Samuel E. Weinberg, Benjamin D. Singer</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/125297">Sphingosine kinase 2 restricts T cell immunopathology but permits viral persistence</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41649-more' href='#'>
+<div class='article-abstract'>
+Chronic viral infections are often established by the exploitation of immune-regulatory mechanisms that result in nonfunctional T cell responses. Viruses that establish persistent infections remain...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 9, 2020; First published September 8, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/51"><span class='label-article-type'>
+Research Article
+</span>
+</a><a href="/tags/25"><span class='label-specialty'>
+Immunology
+</span>
+</a><a href="/tags/43"><span class='label-specialty'>
+Virology
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI125297' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/125297/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/125000/125297/small/JCI125297.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41649-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/125297">Sphingosine kinase 2 restricts T cell immunopathology but permits viral persistence</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/125297">Text</a></li>
+<li><a class="button tiny" href="/articles/view/125297/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Chronic viral infections are often established by the exploitation of immune-regulatory mechanisms that result in nonfunctional T cell responses. Viruses that establish persistent infections remain a serious threat to human health. Sphingosine kinase 2 (SphK2) generates sphingosine 1-phosphate, which is a molecule known to regulate multiple cellular processes. However, little is known about SphK2вЂ™s role during the host immune responses to viral infection. Here, we demonstrate that SphK2 functions during lymphocytic choriomeningitis virus Cl 13 (LCMV Cl 13) infection to limit T cell immune pathology, which subsequently aids in the establishment of virus-induced immunosuppression and the resultant viral persistence. The infection of Sphk2-deficient (Sphk2вЂ“/вЂ“) mice with LCMV Cl 13 led to the development of nephropathy and mortality via T cellвЂ“mediated immunopathology. Following LCMV infection, Sphk2вЂ“/вЂ“ CD4+ T cells displayed increased activity and proliferation, and these cells promoted overactive LCMV Cl 13вЂ“specific CD8+ T cell responses. Notably, oral instillation of an SphK2-selective inhibitor promoted protective T cell responses and accelerated the termination of LCMV Cl 13 persistence in mice. Thus, SphK2 is indicated as an immunotherapeutic target for the control of persistent viral infections.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Caleb J. Studstill, Curtis J. Pritzl, Young-Jin Seo, Dae Young Kim, Chuan Xia, Jennifer J. Wolf, Ravi Nistala, Madhuvanthi Vijayan, Yong-Bin Cho, Kyung Won Kang, Sang-Myeong Lee, Bumsuk Hahm</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/136105">A GABAergic neural circuit in the ventromedial hypothalamus mediates chronic stressвЂ“induced bone loss</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41652-more' href='#'>
+<div class='article-abstract'>
+Homeostasis of bone metabolism is regulated by the central nervous system, and mood disorders such as anxiety are associated with bone metabolism abnormalities, yet our understanding of the central...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 9, 2020; First published September 10, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/51"><span class='label-article-type'>
+Research Article
+</span>
+</a><a href="/tags/14"><span class='label-specialty'>
+Bone biology
+</span>
+</a><a href="/tags/32"><span class='label-specialty'>
+Neuroscience
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI136105' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/136105/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/136000/136105/small/JCI136105.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41652-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/136105">A GABAergic neural circuit in the ventromedial hypothalamus mediates chronic stressвЂ“induced bone loss</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/136105">Text</a></li>
+<li><a class="button tiny" href="/articles/view/136105/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Homeostasis of bone metabolism is regulated by the central nervous system, and mood disorders such as anxiety are associated with bone metabolism abnormalities, yet our understanding of the central neural circuits regulating bone metabolism is limited. Here, we demonstrate that chronic stress in crewmembers resulted in decreased bone density and elevated anxiety in an isolated habitat mimicking a space station. We then used a mouse model to demonstrate that GABAergic neural circuitry in the ventromedial hypothalamus (VMH) mediates chronic stressвЂ“induced bone loss. We show that GABAergic inputs in the dorsomedial VMH arise from a specific group of somatostatin neurons in the posterior region of the bed nucleus of the stria terminalis, which is indispensable for stress-induced bone loss and is able to trigger bone loss in the absence of stressors. In addition, the sympathetic system and glutamatergic neurons in the nucleus tractus solitarius were employed to regulate stress-induced bone loss. Our study has therefore identified the central neural mechanism by which chronic stressвЂ“induced mood disorders, such as anxiety, influence bone metabolism.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Fan Yang, Yunhui Liu, Shanping Chen, Zhongquan Dai, Dazhi Yang, Dashuang Gao, Jie Shao, Yuyao Wang, Ting Wang, Zhijian Zhang, Lu Zhang, William W. Lu, Yinghui Li, Liping Wang</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/142804">COVID-19 survival associates with the immunoglobulin response to the SARS-CoV-2 spike receptor binding domain</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41658-more' href='#'>
+<div class='article-abstract'>
+BACKGROUND Serological assays are of critical importance to investigate correlates of response and protection in coronavirus disease 2019 (COVID-19), to define previous exposure to severe acute...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 9, 2020; First published September 29, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/3"><span class='label-article-type'>
+Clinical Medicine
+</span>
+</a><a href="/tags/118"><span class='label-specialty'>
+COVID-19
+</span>
+</a><a href="/tags/25"><span class='label-specialty'>
+Immunology
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI142804' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/142804/figure/1' ref='group' title='Flow diagram of patients characterized in the study. All patients included in the study had a confirmed SARS-CoV-2 infection as defined by a positive RT-PCR from a nasal/throat swab and/or signs, symptoms, and radiological findings suggestive of COVID-19 pneumonia.'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/142000/142804/small/JCI142804.f1.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41658-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/142804">COVID-19 survival associates with the immunoglobulin response to the SARS-CoV-2 spike receptor binding domain</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/142804">Text</a></li>
+<li><a class="button tiny" href="/articles/view/142804/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>BACKGROUND Serological assays are of critical importance to investigate correlates of response and protection in coronavirus disease 2019 (COVID-19), to define previous exposure to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in populations, and to verify the development of an adaptive immune response in infected individuals.METHODS We studied 509 patients confirmed to have COVID-19 from the San Raffaele Hospital of Milan and 480 samples of prepandemic organ donor sera collected in 2010вЂ“2012. Using fluid-phase luciferase immune precipitation (LIPS) assays, we characterized IgG, IgM, and IgA antibodies to the spike receptor binding domain (RBD), S1+S2, nucleocapsid, and ORF6 to ORF10 of SARS-CoV-2, to the HCoV-OC43 and HCoV-HKU1 betacoronaviruses spike S2, and the H1N1Ca2009 flu virus hemagglutinin. Sequential samples at 1 and 3 months after hospital discharge were also tested for SARS-CoV-2 RBD antibodies in 95 patients.RESULTS Antibodies developed rapidly against multiple SARS-CoV-2 antigens in 95% of patients by 4 weeks after symptom onset and IgG to the RBD increased until the third month of follow-up. We observed a major synchronous expansion of antibodies to the HCoV-OC43 and HCoV-HKU1 spike S2. A likely coinfection with influenza was neither linked to a more severe presentation of the disease nor to a worse outcome. Of the measured antibody responses, positivity for IgG against the SARS-CoV-2 spike RBD was predictive of survival.CONCLUSION The measurement of antibodies to selected epitopes of SARS-CoV-2 antigens can offer a more accurate assessment of the humoral response in patients and its impact on survival. The presence of partially cross-reactive antibodies with other betacoronaviruses is likely to impact on serological assay specificity and interpretation.TRIAL REGISTRATION COVID-19 Patients Characterization, Biobank, Treatment Response and Outcome Predictor (COVID-BioB). ClinicalTrials.gov identifier: NCT04318366.FUNDING IRCCS Ospedale San Raffaele and UniversitГ  Vita Salute San Raffaele.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Massimiliano Secchi, Elena Bazzigaluppi, Cristina Brigatti, Ilaria Marzinotto, Cristina Tresoldi, Patrizia Rovere-Querini, Andrea Poli, Antonella Castagna, Gabriella Scarlatti, Alberto Zangrillo, Fabio Ciceri, Lorenzo Piemonti, Vito Lampasona</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/140797">Pharmacogenomics of intracellular methotrexate polyglutamates in patientsвЂ™ leukemia cells in vivo</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41642-more' href='#'>
+<div class='article-abstract'>
+BACKGROUND Interpatient differences in the accumulation of methotrexateвЂ™s active polyglutamylated metabolites (MTXPGs) in leukemia cells influence its antileukemic effects.METHODS To identify...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 9, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/3"><span class='label-article-type'>
+Clinical Medicine
+</span>
+</a><a href="/tags/23"><span class='label-specialty'>
+Hematology
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI140797' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/140797/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/140000/140797/small/JCI140797.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41642-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/140797">Pharmacogenomics of intracellular methotrexate polyglutamates in patientsвЂ™ leukemia cells in vivo</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/140797">Text</a></li>
+<li><a class="button tiny" href="/articles/view/140797/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>BACKGROUND Interpatient differences in the accumulation of methotrexateвЂ™s active polyglutamylated metabolites (MTXPGs) in leukemia cells influence its antileukemic effects.METHODS To identify genomic and epigenomic and patient variables determining the intracellular accumulation of MTXPGs, we measured intracellular MTXPG levels in acute lymphoblastic leukemia (ALL) cells from 388 newly diagnosed patients after in vivo high-dose methotrexate (HDMTX) (1 g/m2) treatment, defined ALL subtypes, and assessed genomic and epigenomic variants influencing folate pathway genes (mRNA, miRNA, copy number alterations [CNAs], SNPs, single nucleotide variants [SNVs], CpG methylation).RESULTS We documented greater than 100-fold differences in MTXPG levels, which influenced its antileukemic effects (P = 4 Г— 10вЂ“5). Three ALL subtypes had lower MTXPG levels (T cell ALL [T-ALL] and B cell ALL [B-ALL] with the TCF3-PBX1 or ETV6-RUNX1 fusions), and 2 subtypes had higher MTXPG levels (hyperdiploid and BCR-ABL like). The folate pathway genes SLC19A1, ABCC1, ABCC4, FPGS, and MTHFD1 significantly influenced intracellular MTXPG levels (P = 2.9 Г— 10вЂ“3 to 3.7 Г— 10вЂ“8). A multivariable model including the ALL subtype (P = 1.1 Г— 10вЂ“14), the SLC19A1/(ABCC1 + ABCC4) transporter ratio (P = 3.6 Г— 10вЂ“4), the MTX infusion time (P = 1.5 Г— 10вЂ“3), FPGS mRNA expression (P = 2.1 Г— 10вЂ“3), and MTX systemic clearance (P = 4.4 Г— 10вЂ“2) explained 42% of the variation in MTXPG accumulation (P = 1.1 Г— 10вЂ“38). Model simulations indicated that a longer infusion time (24 h vs. 4 h) was superior in achieving higher intracellular MTXPG levels across all subtypes if ALL.CONCLUSIONS These findings provide insights into mechanisms underlying interpatient differences in intracellular accumulation of MTXPG in leukemia cells and its antileukemic effectsFUNDING THE National Cancer Institute (NCI) and the Institute of General Medical Sciences of the NIH, the Basque Government Programa Posdoctoral de Perfeccionamiento de Personal Investigador doctor, and the American Lebanese Syrian Associated Charities (ALSAC).</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Elixabet Lopez-Lopez, Robert J. Autry, Colton Smith, Wenjian Yang, Steven W. Paugh, John C. Panetta, Kristine R. Crews, Erik J. Bonten, Brandon Smart, Deqing Pei, J. Robert McCorkle, Barthelemy Diouf, Kathryn G. Roberts, Lei Shi, Stanley Pounds, Cheng Cheng, Charles G. Mullighan, Ching-Hon Pui, Mary V. Relling, William E. Evans</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/141828">Decreased adipose tissue oxygenation associates with insulin resistance in individuals with obesity</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41650-more' href='#'>
+<div class='article-abstract'>
+BACKGROUND Data from studies conducted in rodent models have shown that decreased adipose tissue (AT) oxygenation is involved in the pathogenesis of obesity-induced insulin resistance. Here, we...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 9, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/3"><span class='label-article-type'>
+Clinical Medicine
+</span>
+</a><a href="/tags/28"><span class='label-specialty'>
+Metabolism
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI141828' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/141828/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/141000/141828/small/JCI141828.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41650-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/141828">Decreased adipose tissue oxygenation associates with insulin resistance in individuals with obesity</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/141828">Text</a></li>
+<li><a class="button tiny" href="/articles/view/141828/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>BACKGROUND Data from studies conducted in rodent models have shown that decreased adipose tissue (AT) oxygenation is involved in the pathogenesis of obesity-induced insulin resistance. Here, we evaluated the potential influence of AT oxygenation on AT biology and insulin sensitivity in people.METHODS We evaluated subcutaneous AT oxygen partial pressure (pO2); liver and whole-body insulin sensitivity; AT expression of genes and pathways involved in inflammation, fibrosis, and branched-chain amino acid (BCAA) catabolism; systemic markers of inflammation; and plasma BCAA concentrations, in 3 groups of participants that were rigorously stratified by adiposity and insulin sensitivity: metabolically healthy lean (MHL; n = 11), metabolically healthy obese (MHO; n = 15), and metabolically unhealthy obese (MUO; n = 20).RESULTS AT pO2 progressively declined from the MHL to the MHO to the MUO group, and was positively associated with hepatic and whole-body insulin sensitivity. AT pO2 was positively associated with the expression of genes involved in BCAA catabolism, in conjunction with an inverse relationship between AT pO2 and plasma BCAA concentrations. AT pO2 was negatively associated with AT gene expression of markers of inflammation and fibrosis. Plasma PAI-1 increased from the MHL to the MHO to the MUO group and was negatively correlated with AT pO2, whereas the plasma concentrations of other cytokines and chemokines were not different among the MHL and MUO groups.CONCLUSION These results support the notion that reduced AT oxygenation in individuals with obesity contributes to insulin resistance by increasing plasma PAI-1 concentrations and decreasing AT BCAA catabolism and thereby increasing plasma BCAA concentrations.TRIAL REGISTRATION ClinicalTrials.gov NCT02706262.FUNDING This study was supported by NIH grants K01DK109119, T32HL130357, K01DK116917, R01ES027595, P42ES010337, DK56341 (Nutrition Obesity Research Center), DK20579 (Diabetes Research Center), DK052574 (Digestive Disease Research Center), and UL1TR002345 (Clinical and Translational Science Award); NIH Shared Instrumentation Grants S10RR0227552, S10OD020025, and S10OD026929; and the Foundation for Barnes-Jewish Hospital.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Vincenza Cifarelli, Scott C. Beeman, Gordon I. Smith, Jun Yoshino, Darya Morozov, Joseph W. Beals, Brandon D. Kayser, Jeramie D. Watrous, Mohit Jain, Bruce W. Patterson, Samuel Klein</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/141455"><i>YIPF5</i> mutations cause neonatal diabetes and microcephaly through endoplasmic reticulum stress</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41653-more' href='#'>
+<div class='article-abstract'>
+Neonatal diabetes is caused by single gene mutations reducing pancreatic ОІ cell number or impairing ОІ cell function. Understanding the genetic basis of rare diabetes subtypes highlights fundamental...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 9, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/51"><span class='label-article-type'>
+Research Article
+</span>
+</a><a href="/tags/16"><span class='label-specialty'>
+Cell biology
+</span>
+</a><a href="/tags/22"><span class='label-specialty'>
+Genetics
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI141455' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/141455/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/141000/141455/small/JCI141455.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41653-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/141455"><i>YIPF5</i> mutations cause neonatal diabetes and microcephaly through endoplasmic reticulum stress</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/141455">Text</a></li>
+<li><a class="button tiny" href="/articles/view/141455/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Neonatal diabetes is caused by single gene mutations reducing pancreatic ОІ cell number or impairing ОІ cell function. Understanding the genetic basis of rare diabetes subtypes highlights fundamental biological processes in ОІ cells. We identified 6 patients from 5 families with homozygous mutations in the YIPF5 gene, which is involved in trafficking between the endoplasmic reticulum (ER) and the Golgi. All patients had neonatal/early-onset diabetes, severe microcephaly, and epilepsy. YIPF5 is expressed during human brain development, in adult brain and pancreatic islets. We used 3 human ОІ cell models (YIPF5 silencing in EndoC-ОІH1 cells, YIPF5 knockout and mutation knockin in embryonic stem cells, and patient-derived induced pluripotent stem cells) to investigate the mechanism through which YIPF5 loss of function affects ОІ cells. Loss of YIPF5 function in stem cellвЂ“derived islet cells resulted in proinsulin retention in the ER, marked ER stress, and ОІ cell failure. Partial YIPF5 silencing in EndoC-ОІH1 cells and a patient mutation in stem cells increased the ОІ cell sensitivity to ER stressвЂ“induced apoptosis. We report recessive YIPF5 mutations as the genetic cause of a congenital syndrome of microcephaly, epilepsy, and neonatal/early-onset diabetes, highlighting a critical role of YIPF5 in ОІ cells and neurons. We believe this is the first report of mutations disrupting the ER-to-Golgi trafficking, resulting in diabetes.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Elisa De Franco, Maria Lytrivi, Hazem Ibrahim, Hossam Montaser, Matthew N. Wakeling, Federica Fantuzzi, Kashyap Patel, CГ©line Demarez, Ying Cai, Mariana Igoillo-Esteve, Cristina Cosentino, VГ¤inГ¶ Lithovius, Helena Vihinen, Eija Jokitalo, Thomas W. Laver, Matthew B. Johnson, Toshiaki Sawatani, Hadis Shakeri, Nathalie Pachera, Belma Haliloglu, Mehmet Nuri Ozbek, Edip Unal, Ruken YД±ldД±rД±m, Tushar Godbole, Melek Yildiz, Banu Aydin, Angeline Bilheu, Ikuo Suzuki, Sarah E. Flanagan, Pierre Vanderhaeghen, ValГ©rie SenГ©e, CГ©cile Julier, Piero Marchetti, Decio L. Eizirik, Sian Ellard, Jonna SaarimГ¤ki-Vire, Timo Otonkoski, Miriam Cnop, Andrew T. Hattersley</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12  columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/142364"><i>YIPF5</i> mutations cause neonatal diabetes and microcephaly: progress for precision medicine and mechanistic understanding</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41654-more' href='#'>
+<div class='article-abstract'>
+Identifying genes that result in monogenic diabetes can provide insights that can build a scientific foundation for precision medicine. At present, nearly 20% of neonatal diabetes cases have...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 9, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/44"><span class='label-article-type'>
+Commentary
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI142364' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41654-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/142364"><i>YIPF5</i> mutations cause neonatal diabetes and microcephaly: progress for precision medicine and mechanistic understanding</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/142364">Text</a></li>
+<li><a class="button tiny" href="/articles/view/142364/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Identifying genes that result in monogenic diabetes can provide insights that can build a scientific foundation for precision medicine. At present, nearly 20% of neonatal diabetes cases have unknown causes. In this issue of the JCI, De Franco and Lytrivi et al. sequenced the genome of two probands with a rare neonatal diabetes subtype that also associated with microcephaly and epilepsy. The authors revealed mutations in the YIPF5 gene. YIPF5 resides in the Golgi apparatus and is thought to play a critical role in vesicular trafficking. Notably, disrupting YIPF5 in ОІ cellвЂ“based models induced ER stress signaling and resulted in the accumulation of intracellular proinsulin. We believe that utilizing registries and biobanks to reveal other monogenic atypical forms of diabetes is an important approach to gaining insight and suggest that an insulin sensitizer may alleviate ER stress associated with YIPF5 disruption by decreasing the demand for insulin secretion.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Toni I. Pollin, Simeon I. Taylor</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/138532">Cholinergic dysfunction in the dorsal striatum promotes habit formation and maladaptive eating</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41656-more' href='#'>
+<div class='article-abstract'>
+Dysregulation of habit formation has been recently proposed as pivotal to eating disorders. Here, we report that a subset of patients suffering from restrictive anorexia nervosa have enhanced habit...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 9, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/51"><span class='label-article-type'>
+Research Article
+</span>
+</a><a href="/tags/32"><span class='label-specialty'>
+Neuroscience
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI138532' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/138532/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/138000/138532/small/JCI138532.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41656-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/138532">Cholinergic dysfunction in the dorsal striatum promotes habit formation and maladaptive eating</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/138532">Text</a></li>
+<li><a class="button tiny" href="/articles/view/138532/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Dysregulation of habit formation has been recently proposed as pivotal to eating disorders. Here, we report that a subset of patients suffering from restrictive anorexia nervosa have enhanced habit formation compared with healthy controls. Habit formation is modulated by striatal cholinergic interneurons. These interneurons express vesicular transporters for acetylcholine (VAChT) and glutamate (VGLUT3) and use acetylcholine/glutamate cotransmission to regulate striatal functions. Using mice with genetically silenced VAChT (VAChT conditional KO, VAChTcKO) or VGLUT3 (VGLUT3cKO), we investigated the roles that acetylcholine and glutamate released by cholinergic interneurons play in habit formation and maladaptive eating. Silencing glutamate favored goal-directed behaviors and had no impact on eating behavior. In contrast, VAChTcKO mice were more prone to habits and maladaptive eating. Specific deletion of VAChT in the dorsomedial striatum of adult mice was sufficient to phenocopy maladaptive eating behaviors of VAChTcKO mice. Interestingly, VAChTcKO mice had reduced dopamine release in the dorsomedial striatum but not in the dorsolateral striatum. The dysfunctional eating behavior of VAChTcKO mice was alleviated by donepezil and by l-DOPA, confirming an acetylcholine/dopamine deficit. Our study reveals that loss of acetylcholine leads to a dopamine imbalance in striatal compartments, thereby promoting habits and vulnerability to maladaptive eating in mice.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Mathieu Favier, Helena Janickova, Damian Justo, Ornela Kljakic, LГ©onie Runtz, Joman Y. Natsheh, Tharick A. Pascoal, Jurgen Germann, Daniel Gallino, Jun-II Kang, Xiang Qi Meng, Christina Antinora, Sanda Raulic, Jacob P.R. Jacobsen, Luc Moquin, Erika Vigneault, Alain Gratton, Marc G. Caron, Philibert Duriez, Mark P. Brandon, Pedro Rosa Neto, M. Mallar Chakravarty, Mohammad M. Herzallah, Philip Gorwood, Marco A.M. Prado, Vania F. Prado, Salah El Mestikawy</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/143331">Corticosteroids, COVID-19 pneumonia, and acute respiratory distress syndrome</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41612-more' href='#'>
+<div class='article-abstract'>
+Although corticosteroids dampen the dysregulated immune system and sometimes are prescribed as an adjunctive treatment for pneumonia, their effectiveness in the treatment of coronavirus disease...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 3, 2020; First published September 25, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/44"><span class='label-article-type'>
+Commentary
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI143331' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/143331/figure/1' ref='group' title='Model for deleterious or beneficial effects of corticosteroids in the treatment of COVID-19. (A) In asymptomatic or mild cases and in the absence of treatment, SARSвЂ“CoV-2 induces transcriptional upregulation of interferons (IFNs) and NF-ОєB activation, which promote cytokine production and activation of macrophages as well as demargination of PMNs. Antigens are presented to T cells and a targeted cytotoxic response ensues. (B) In worsening illness, corticosteroid treatment can delay pathogen recognition and control. Dampened danger signaling leads to impaired IFN release, unchecked viral replication, and consequent alveolar and lung damage. (C) In severe illness with COVID-19 without corticosteroid treatment, viral propagation to the alveoli amplifies danger signals and worsens alveolar epithelial and endothelial damage. Persistent damage leads to exuberant NF-ОєB activation and inflammation worsens even as viral load decreases. (D) In severe cases of COVID-19 corticosteroid treatment may decrease proinflammatory cytokine burden and help resolution. Corticosteroids promote a proresolving macrophage phenotype that can clear cellular debris. Corticosteroids also reduce capillary permeability and increase alveolar edema fluid clearance, resulting in improved barrier function.'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/143000/143331/small/JCI143331.f1.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41612-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/143331">Corticosteroids, COVID-19 pneumonia, and acute respiratory distress syndrome</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/143331">Text</a></li>
+<li><a class="button tiny" href="/articles/view/143331/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Although corticosteroids dampen the dysregulated immune system and sometimes are prescribed as an adjunctive treatment for pneumonia, their effectiveness in the treatment of coronavirus disease 2019 (COVID-19) remains controversial. In this issue of the JCI, Liu and Zhang et al. evaluated corticosteroid treatment in more than 400 patients with severe COVID-19. The authors assessed subjects retrospectively for cardiac and liver injury, shock, ventilation, mortality, and viral clearance. Corticosteroids in severe COVID-19вЂ“related acute respiratory distress syndrome (ARDS) were associated with increased mortality and delayed viral clearance. Here, we consider how to reconcile the negative effects of corticosteroids revealed by Liu and Zhang et al. with the favorable effects (reduced mortality) that were described in the RECOVERY trial. We posit that treatment timing, dosage, and COVID-19 severity determine immune response and viral outcome. Patients with moderate-to-severe COVID-19 pneumonia are likely to benefit from moderate-dose corticosteroid treatment when administered relatively late in the disease course.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Michael A. Matthay, Katherine D. Wick</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/141054">Peripheral CD4<sup>+</sup> T cell subsets and antibody response in COVID-19 convalescent individuals</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41617-more' href='#'>
+<div class='article-abstract'>
+BACKGROUND Marked progress is achieved in understanding the physiopathology of coronavirus disease 2019 (COVID-19), which caused a global pandemic. However, the CD4+ T cell population critical for...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 3, 2020; First published August 25, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/3"><span class='label-article-type'>
+Clinical Medicine
+</span>
+</a><a href="/tags/118"><span class='label-specialty'>
+COVID-19
+</span>
+</a><a href="/tags/25"><span class='label-specialty'>
+Immunology
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI141054' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/141054/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/141000/141054/small/JCI141054.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41617-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/141054">Peripheral CD4<sup>+</sup> T cell subsets and antibody response in COVID-19 convalescent individuals</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/141054">Text</a></li>
+<li><a class="button tiny" href="/articles/view/141054/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>BACKGROUND Marked progress is achieved in understanding the physiopathology of coronavirus disease 2019 (COVID-19), which caused a global pandemic. However, the CD4+ T cell population critical for antibody response in COVID-19 is poorly understood.METHODS In this study, we provided a comprehensive analysis of peripheral CD4+ T cells from 13 COVID-19 convalescent patients, defined as confirmed free of SARS-CoV-2 for 2 to 4 weeks, using flow cytometry and magnetic chemiluminescence enzyme antibody immunoassay. The data were correlated with clinical characteristics.RESULTS We observed that, relative to healthy individuals, convalescent patients displayed an altered peripheral CD4+ T cell spectrum. Specifically, consistent with other viral infections, cTfh1 cells associated with SARS-CoV-2вЂ“targeting antibodies were found in COVID-19 covalescent patients. Individuals with severe disease showed higher frequencies of Tem and Tfh-em cells but lower frequencies of Tcm, Tfh-cm, Tfr, and Tnaive cells, compared with healthy individuals and patients with mild and moderate disease. Interestingly, a higher frequency of cTfh-em cells correlated with a lower blood oxygen level, recorded at the time of admission, in convalescent patients. These observations might constitute residual effects by which COVID-19 can impact the homeostasis of CD4+ T cells in the long-term and explain the highest ratio of class-switched virus-specific antibody producing individuals found in our severe COVID-19 cohort.CONCLUSION Our study demonstrated a close connection between CD4+ T cells and antibody production in COVID-19 convalescent patients.FUNDING Six Talent Peaks Project in Jiangsu Province and the National Natural Science Foundation of China (NSFC).</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Fang Gong, Yaping Dai, Ting Zheng, Liang Cheng, Dan Zhao, Hao Wang, Min Liu, Hao Pei, Tengchuan Jin, Di Yu, Pengcheng Zhou</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/142081">Are T cells helpful for COVID-19: the relationship between response and risk</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41619-more' href='#'>
+<div class='article-abstract'>
+The disease spectrum of coronavirus disease 2019 (COVID-19) ranges from no symptoms to multisystem failure and death. Characterization of virus-specific immune responses to severe acute respiratory...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 3, 2020; First published September 25, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/44"><span class='label-article-type'>
+Commentary
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI142081' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/142081/figure/1' ref='group' title='Model for T cell response in COVID-19 relative to patient risk. Patients at risk for severe COVID-19 disease (advanced age and higher comorbidity) show higher T cell responses than those at low risk. However, the activated T cells from patients at risk have impaired IFN-Оі and enhanced IL-2 production.'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/142000/142081/small/JCI142081.f1.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41619-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/142081">Are T cells helpful for COVID-19: the relationship between response and risk</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/142081">Text</a></li>
+<li><a class="button tiny" href="/articles/view/142081/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>The disease spectrum of coronavirus disease 2019 (COVID-19) ranges from no symptoms to multisystem failure and death. Characterization of virus-specific immune responses to severe acute respiratory coronavirus 2 (SARSвЂ“CoV-2) is key to understanding disease pathogenesis, but few studies have evaluated T cell immunity. In this issue of the JCI, Sattler and Angermair et al. sampled blood from subjects with COVID-19 and analyzed the activation and function of virus antigenвЂ“specific CD4+ T cells. T cells that failed to respond to peptides from the membrane, spike, or nucleocapsid proteins were more common in subjects who died. In those whose T cells had the capacity to respond, older patients with comorbidity had larger numbers of activated T cells compared with patients who had fewer risk factors, but these cells showed impaired IFN-Оі production. This cross-sectional study relates activated T cell responses to patient risk factors and outcome. However, T cell response trajectory over the disease course remains an open question.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Diane E. Griffin</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12  columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/144526">Promoting the success of women and minority physician-scientists in academic medicine: a deanвЂ™s perspective</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41620-more' href='#'>
+<div class='article-abstract'>
+
+</div>
+</a>
+<span class='article-published-at'>
+Published November 3, 2020; First published October 6, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/111"><span class='label-article-type'>
+Viewpoint
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI144526' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41620-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/144526">Promoting the success of women and minority physician-scientists in academic medicine: a deanвЂ™s perspective</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/144526">Text</a></li>
+<li><a class="button tiny" href="/articles/view/144526/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p></p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Nancy J. Brown</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/132372">Astrocytic neogenin/netrin-1 pathway promotes blood vessel homeostasis and function in mouse cortex</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41621-more' href='#'>
+<div class='article-abstract'>
+Astrocytes have multiple functions in the brain, including affecting blood vessel (BV) homeostasis and function. However, the underlying mechanisms remain elusive. Here, we provide evidence that...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 3, 2020; First published August 27, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/51"><span class='label-article-type'>
+Research Article
+</span>
+</a><a href="/tags/12"><span class='label-specialty'>
+Angiogenesis
+</span>
+</a><a href="/tags/32"><span class='label-specialty'>
+Neuroscience
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI132372' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/132372/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/132000/132372/small/JCI132372.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41621-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/132372">Astrocytic neogenin/netrin-1 pathway promotes blood vessel homeostasis and function in mouse cortex</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/132372">Text</a></li>
+<li><a class="button tiny" href="/articles/view/132372/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Astrocytes have multiple functions in the brain, including affecting blood vessel (BV) homeostasis and function. However, the underlying mechanisms remain elusive. Here, we provide evidence that astrocytic neogenin (NEO1), a member of deleted in colorectal cancer (DCC) family netrin receptors, is involved in blood vessel homeostasis and function. Mice with Neo1 depletion in astrocytes exhibited clustered astrocyte distribution and increased BVs in their cortices. These BVs were leaky, with reduced blood flow, disrupted vascular basement membranes (vBMs), decreased pericytes, impaired endothelial cell (EC) barrier, and elevated tip EC proliferation. Increased proliferation was also detected in cultured ECs exposed to the conditioned medium (CM) of NEO1-depleted astrocytes. Further screening for angiogenetic factors in the CM identified netrin-1 (NTN1), whose expression was decreased in NEO1-depleted cortical astrocytes. Adding NTN1 into the CM of NEO1-depleted astrocytes attenuated EC proliferation. Expressing NTN1 in NEO1 mutant cortical astrocytes ameliorated phenotypes in blood-brain barrier (BBB), EC, and astrocyte distribution. NTN1 depletion in astrocytes resulted in BV/BBB deficits in the cortex similar to those in Neo1 mutant mice. In aggregate, these results uncovered an unrecognized pathway, astrocytic NEO1 to NTN1, not only regulating astrocyte distribution, but also promoting cortical BV homeostasis and function.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Ling-Ling Yao, Jin-Xia Hu, Qiang Li, Daehoon Lee, Xiao Ren, Jun-Shi Zhang, Dong Sun, Hong-Sheng Zhang, Yong-Gang Wang, Lin Mei, Wen-Cheng Xiong</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/127607">dmPFC-vlPAG projection neurons contribute to pain threshold maintenance and antianxiety behaviors</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41623-more' href='#'>
+<div class='article-abstract'>
+The dorsal medial prefrontal cortex (dmPFC) has been recognized as a key cortical area for nociceptive modulation. However, the underlying neural pathway and the function of specific cell types...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 3, 2020; First published August 25, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/51"><span class='label-article-type'>
+Research Article
+</span>
+</a><a href="/tags/32"><span class='label-specialty'>
+Neuroscience
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI127607' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/127607/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/127000/127607/small/JCI127607.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41623-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/127607">dmPFC-vlPAG projection neurons contribute to pain threshold maintenance and antianxiety behaviors</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/127607">Text</a></li>
+<li><a class="button tiny" href="/articles/view/127607/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>The dorsal medial prefrontal cortex (dmPFC) has been recognized as a key cortical area for nociceptive modulation. However, the underlying neural pathway and the function of specific cell types remain largely unclear. Here, we show that lesions in the dmPFC induced an algesic and anxious state. Using multiple tracing methods including a rabies-based transsynaptic tracing method, we outlined an excitatory descending neural pathway from the dmPFC to the ventrolateral periaqueductal gray (vlPAG). Specific activation of the dmPFC/vlPAG neural pathway by optogenetic manipulation produced analgesic and antianxiety effects in a mouse model of chronic pain. Inhibitory neurons in the dmPFC were specifically activated using a chemogenetic approach, which logically produced an algesic and anxious state under both normal and chronic pain conditions. Antagonists of the GABAA receptor (GABAAR) or mGluR1 were applied to the dmPFC, which produced analgesic and antianxiety effects. In summary, the results of our study suggest that the dmPFC/vlPAG neural pathway might participate in the maintenance of pain thresholds and antianxiety behaviors under normal conditions, while silencing or suppressing the dmPFC/vlPAG pathway might be involved in the initial stages and maintenance of chronic pain and the emergence of anxiety-like behaviors.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Jun-Bin Yin, Shao-Hua Liang, Fei Li, Wen-Jun Zhao, Yang Bai, Yi Sun, Zhen-Yu Wu, Tan Ding, Yan Sun, Hai-Xia Liu, Ya-Cheng Lu, Ting Zhang, Jing Huang, Tao Chen, Hui Li, Zhou-Feng Chen, Jing Cao, Rui Ren, Ya-Nan Peng, Juan Yang, Wei-Dong Zang, Xiang Li, Yu-Lin Dong, Yun-Qing Li</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/140965">SARSвЂ“CoV-2вЂ“specific T cell responses and correlations with COVID-19 patient predisposition</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41624-more' href='#'>
+<div class='article-abstract'>
+Coronavirus disease 2019 (COVID-19) has emerged as a global pandemic caused by severe acute respiratory syndrome coronavirus 2 (SARSвЂ“CoV-2). So far, viral targets of cellular immunity and factors...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 3, 2020; First published August 24, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/51"><span class='label-article-type'>
+Research Article
+</span>
+</a><a href="/tags/118"><span class='label-specialty'>
+COVID-19
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI140965' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/140965/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/140000/140965/small/JCI140965.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41624-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/140965">SARSвЂ“CoV-2вЂ“specific T cell responses and correlations with COVID-19 patient predisposition</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/140965">Text</a></li>
+<li><a class="button tiny" href="/articles/view/140965/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Coronavirus disease 2019 (COVID-19) has emerged as a global pandemic caused by severe acute respiratory syndrome coronavirus 2 (SARSвЂ“CoV-2). So far, viral targets of cellular immunity and factors determining successful mounting of T cell responses are poorly defined. We therefore analyzed cellular responses to membrane, nucleocapsid, and spike proteins in individuals suffering from moderate or severe infection and in individuals who recovered from mild disease. We demonstrate that the CoV-2вЂ“specific CD4+ T helper cell response is directed against all 3 proteins with comparable magnitude, ex vivo proliferation, and portions of responding patients. However, individuals who died were more likely to have not mounted a cellular response to the proteins. Higher patient age and comorbidity index correlated with increased frequencies of CoV-2вЂ“specific CD4+ T cells, harboring higher portions of IL-2вЂ“secreting, but lower portions of IFN-ОівЂ“secreting, cells. Diminished frequencies of membrane proteinвЂ“reactive IFN-Оі+ T cells were particularly associated with higher acute physiology and chronic health evaluation II scores in patients admitted to intensive care. CoV-2вЂ“specific T cells exhibited elevated PD-1 expression in patients with active disease as compared with those individuals who recovered from previous mild disease. In summary, our data suggest a link between individual patient predisposition with respect to age and comorbidity and impairment of CoV-2вЂ“specific Th1-type cellular immunity, thereby supporting a concept of altered T cell function in at-risk patients.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Arne Sattler, Stefan Angermair, Helena Stockmann, Katrin Moira Heim, Dmytro Khadzhynov, Sascha Treskatsch, Fabian Halleck, Martin E. Kreis, Katja Kotsch</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/131799">Haploidentical mixed chimerism cures autoimmunity in established type 1 diabetic mice</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41626-more' href='#'>
+<div class='article-abstract'>
+Clinical trials are currently testing whether induction of haploidentical mixed chimerism (Haplo-MC) induces organ transplantation tolerance. Whether Haplo-MC can be used to treat established...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 3, 2020; First published August 20, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/51"><span class='label-article-type'>
+Research Article
+</span>
+</a><a href="/tags/13"><span class='label-specialty'>
+Autoimmunity
+</span>
+</a><a href="/tags/40"><span class='label-specialty'>
+Transplantation
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI131799' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='medium-3 hide-for-small columns'>
+<a href='https://www.jci.org/articles/view/131799/ga' ref='group' title='Graphical abstract'>
+<img src='//dm5migu4zj3pb.cloudfront.net/manuscripts/131000/131799/small/JCI131799.ga.gif'>
+</a>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41626-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/131799">Haploidentical mixed chimerism cures autoimmunity in established type 1 diabetic mice</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/131799">Text</a></li>
+<li><a class="button tiny" href="/articles/view/131799/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Clinical trials are currently testing whether induction of haploidentical mixed chimerism (Haplo-MC) induces organ transplantation tolerance. Whether Haplo-MC can be used to treat established autoimmune diseases remains unknown. Here, we show that established autoimmunity in euthymic and adult-thymectomized NOD (H-2g7) mice was cured by induction of Haplo-MC under a non-myeloablative anti-thymocyte globulinвЂ“based conditioning regimen and infusion of CD4+ T cellвЂ“depleted hematopoietic graft from H-2b/g7 F1 donors that expressed autoimmune-resistant H-2b or from H-2s/g7 F1 donors that expressed autoimmune-susceptible H-2s. The cure was associated with enhanced thymic negative selection, increased thymic Treg (tTreg) production, and anergy or exhaustion of residual host-type autoreactive T cells in the periphery. The peripheral tolerance was accompanied by expansion of donor- and host-type CD62LвЂ“Helios+ tTregs as well as host-type HeliosвЂ“Nrp1+ peripheral Tregs (pTregs) and PD-L1hi plasmacytoid DCs (pDCs). Depletion of donor- or host-type Tregs led to reduction of host-type PD-L1hi pDCs and recurrence of autoimmunity, whereas PD-L1 deficiency in host-type DCs led to reduction of host-type pDCs and HeliosвЂ“Nrp1+ pTregs. Thus, induction of Haplo-MC reestablished both central and peripheral tolerance through mechanisms that depend on allo-MHC+ donor-type DCs, PD-L1hi host-type DCs, and the generation and persistence of donor- and host-type tTregs and pTregs.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Yuqing Liu, Xiaoqi Wang, Yongping Zhu, Mingfeng Zhang, Ubaydah Nasri, Sharne S. Sun, Stephen J. Forman, Arthur D. Riggs, Xi Zhang, Defu Zeng</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+
+<h4>
+In-Press Preview
+<small>- <a title="View more In-Press Preview articles" href="/in-press-preview">More</a></small>
+</h4>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/139617">Mesenchymal Bmp3b expression maintains skeletal muscle integrity and decreases in age-related sarcopenia</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41647-more' href='#'>
+<div class='article-abstract'>
+Age-related sarcopenia constitutes an important health problem associated with adverse outcomes. Sarcopenia is closely associated with fat infiltration in muscle, which is attributable to...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 10, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/106"><span class='label-article-type'>
+Research
+</span>
+</a><a href="/tags/113"><span class='label-in-press-preview'>
+In-Press Preview
+</span>
+</a><a href="/tags/10"><span class='label-specialty'>
+Aging
+</span>
+</a><a href="/tags/30"><span class='label-specialty'>
+Muscle biology
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI139617' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41647-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/139617">Mesenchymal Bmp3b expression maintains skeletal muscle integrity and decreases in age-related sarcopenia</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/139617">Text</a></li>
+<li><a class="button tiny" href="/articles/view/139617/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Age-related sarcopenia constitutes an important health problem associated with adverse outcomes. Sarcopenia is closely associated with fat infiltration in muscle, which is attributable to interstitial mesenchymal progenitors. Mesenchymal progenitors are non-myogenic in nature but are required for homeostatic muscle maintenance. However, the underlying mechanism of mesenchymal progenitor-dependent muscle maintenance is not clear, nor is the precise role of mesenchymal progenitors in sarcopenia. Here, we show that mice genetically engineered to specifically deplete mesenchymal progenitors exhibited phenotypes markedly similar to sarcopenia, including muscle weakness, myofiber atrophy, alterations of fiber types, and denervation at neuromuscular junctions. Through searching for genes responsible for mesenchymal progenitor-dependent muscle maintenance, we found that Bmp3b is specifically expressed in mesenchymal progenitors, whereas its expression level is significantly decreased during aging or adipogenic differentiation. The functional importance of Bmp3b in maintaining myofiber mass as well as muscle-nerve interaction was demonstrated using knockout mice and cultured cells treated with Bmp3b. Furthermore, the administration of recombinant BMP3B in aged mice reversed their sarcopenic phenotypes. These results reveal previously unrecognized mechanisms by which the mesenchymal progenitors ensure muscle integrity and suggest that age-related changes in mesenchymal progenitors have a considerable impact on the development of sarcopenia.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Akiyoshi Uezumi, Madoka Ikemoto-Uezumi, Heying Zhou, Tamaki Kurosawa, Yuki Yoshimoto, Masashi Nakatani, Keisuke Hitachi, Hisateru Yamaguchi, Shuji Wakatsuki, Toshiyuki Araki, Mitsuhiro Morita, Harumoto Yamada, Masashi Toyoda, Nobuo Kanazawa, Tatsu Nakazawa, Jun Hino, So-ichiro Fukada, Kunihiro Tsuchida</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/134565">Deubiquitinase USP7 contributes to the pathogenicity of spinal and bulbar muscular atrophy</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41648-more' href='#'>
+<div class='article-abstract'>
+Polyglutamine (polyQ) diseases are devastating, slowly progressing neurodegenerative conditions caused by expansion of polyQ-encoding CAG repeats within the coding regions of distinct, unrelated...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 10, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/106"><span class='label-article-type'>
+Research
+</span>
+</a><a href="/tags/113"><span class='label-in-press-preview'>
+In-Press Preview
+</span>
+</a><a href="/tags/32"><span class='label-specialty'>
+Neuroscience
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI134565' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41648-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/134565">Deubiquitinase USP7 contributes to the pathogenicity of spinal and bulbar muscular atrophy</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/134565">Text</a></li>
+<li><a class="button tiny" href="/articles/view/134565/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Polyglutamine (polyQ) diseases are devastating, slowly progressing neurodegenerative conditions caused by expansion of polyQ-encoding CAG repeats within the coding regions of distinct, unrelated genes. In spinal and bulbar muscular atrophy (SBMA), polyQ expansion within the androgen receptor (AR) causes progressive neuromuscular toxicity, the molecular basis of which is unclear. Using quantitative proteomics, we identified changes in the AR interactome caused by polyQ expansion. We found that the deubiquitinase USP7 preferentially interacts with polyQ-expanded AR, and that lowering USP7 levels reduced mutant AR aggregation and cytotoxicity in cell models of SBMA. Moreover, USP7 knockdown suppressed disease phenotypes in SBMA and spinocerebellar ataxia type 3 (SCA3) fly models, and monoallelic knockout of Usp7 ameliorated several motor deficiencies in transgenic SBMA mice. USP7 overexpression resulted in reduced AR ubiquitination, indicating the direct action of USP7 on AR. Using quantitative proteomics, we identified the ubiquitinated lysine residues on mutant AR that are regulated by USP7. Finally, we found that USP7 also differentially interacts with mutant Huntingtin (HTT) protein in striatum and frontal cortex of a knock-in mouse model of HuntingtonвЂ™s disease. Taken together, our findings reveal a critical role for USP7 in the pathophysiology of SBMA and suggest a similar role in SCA3 and HuntingtonвЂ™s disease.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Anna Pluciennik, Yuhong Liu, Elana Molotsky, Gregory B. Marsh, Bedri Ranxhi, Frederick J. Arnold, Sophie St-Cyr, Beverly L. Davidson, Naemeh Pourshafie, Andrew P. Lieberman, Wei Gu, Sokol V. Todi, Diane E Merry</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/138519">Oleic acid restores suppressive defects in tissue-resident FOXP3 regulatory T cells from patients with multiple sclerosis</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41655-more' href='#'>
+<div class='article-abstract'>
+FOXP3+ regulatory T cells (Tregs) rely on fatty acid -oxidation (FAO)-driven oxidative phosphorylation (OXPHOS) for differentiation and function. Recent data demonstrate a role for Tregs in the...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 10, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/106"><span class='label-article-type'>
+Research
+</span>
+</a><a href="/tags/113"><span class='label-in-press-preview'>
+In-Press Preview
+</span>
+</a><a href="/tags/13"><span class='label-specialty'>
+Autoimmunity
+</span>
+</a><a href="/tags/25"><span class='label-specialty'>
+Immunology
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI138519' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41655-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/138519">Oleic acid restores suppressive defects in tissue-resident FOXP3 regulatory T cells from patients with multiple sclerosis</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/138519">Text</a></li>
+<li><a class="button tiny" href="/articles/view/138519/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>FOXP3+ regulatory T cells (Tregs) rely on fatty acid -oxidation (FAO)-driven oxidative phosphorylation (OXPHOS) for differentiation and function. Recent data demonstrate a role for Tregs in the maintenance of tissue homeostasis with tissue-resident Tregs possessing tissue-specific transcriptomes. However, specific signals that establish tissue-resident Treg programs remain largely unknown. Tregs metabolically rely on FAO, and considering the lipid-rich environments of tissues, we hypothesized that environmental lipids drive Treg homeostasis. First, using human adipose tissue to model tissue residency, we identified oleic acid as the most prevalent free fatty acid. Mechanistically, oleic acid amplified Treg FAO-driven OXPHOS metabolism, creating a positive feedback mechanism that increased the expression of FOXP3 and phosphorylation of STAT5, which enhanced Treg suppressive function. Comparing the transcriptomic program induced by oleic acid to the pro-inflammatory arachidonic acid, we found that Tregs sorted from peripheral blood and adipose of healthy donors transcriptomically resembled the oleic acid in vitro treated Tregs, whereas Tregs from the adipose of MS patients more closely resembled an arachidonic acid transcriptomic profile. Finally, we found oleic acid concentrations were reduced in the adipose of MS patients, and exposure of MS Tregs to oleic acid restored defects in their suppressive function. These data demonstrate the importance of fatty acids in regulating tissue inflammatory signals.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Saige L. Pompura, Allon Wagner, Alexandra Kitz, Jacob Laperche, Nir Yosef, Margarita Dominguez-Villar, David Hafler</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12  columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/145615">Emergency seed funding for COVID-19 research: lessons from Johns Hopkins University</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41659-more' href='#'>
+<div class='article-abstract'>
+Seed grant programs are an efficient mechanism for universities to invest in high-risk ideas, incite collaborative research, support early career faculty, and direct faculty towards a specific...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 10, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/111"><span class='label-article-type'>
+Viewpoint
+</span>
+</a><a href="/tags/113"><span class='label-in-press-preview'>
+In-Press Preview
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI145615' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41659-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/145615">Emergency seed funding for COVID-19 research: lessons from Johns Hopkins University</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/145615">Text</a></li>
+<li><a class="button tiny" href="/articles/view/145615/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Seed grant programs are an efficient mechanism for universities to invest in high-risk ideas, incite collaborative research, support early career faculty, and direct faculty towards a specific goal. At the outset of the COVID-19 pandemic, Johns Hopkins leadership quickly mobilized to support research teams as they pivoted to gather preliminary data and seek solutions to save lives. Here we discuss key lessons learned from the program.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Julie Messersmith, Chasmine Stoddart-Osumah, Marc Lennon, Denis Wirtz</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/95747">Oxidized-CaMKII and <i>O</i>-GlcNAcylation cause increased atrial fibrillation in diabetic mice by distinct mechanisms</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class='hide-for-small show-more' data-reveal-id='article41639-more' href='#'>
+<div class='article-abstract'>
+Diabetes mellitus (DM) and atrial fibrillation (AF) are major unsolved public health problems, and diabetes is an independent risk factor for AF. However, the mechanism(s) underlying this clinical...
+</div>
+</a>
+<span class='article-published-at'>
+Published November 5, 2020
+</span>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/106"><span class='label-article-type'>
+Research
+</span>
+</a><a href="/tags/113"><span class='label-in-press-preview'>
+In-Press Preview
+</span>
+</a><a href="/tags/15"><span class='label-specialty'>
+Cardiology
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI95747' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article41639-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/95747">Oxidized-CaMKII and <i>O</i>-GlcNAcylation cause increased atrial fibrillation in diabetic mice by distinct mechanisms</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/95747">Text</a></li>
+<li><a class="button tiny" href="/articles/view/95747/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>Diabetes mellitus (DM) and atrial fibrillation (AF) are major unsolved public health problems, and diabetes is an independent risk factor for AF. However, the mechanism(s) underlying this clinical association is unknown. Reactive oxygen species (ROS) and protein O-GlcNAcylation (OGN) are increased in diabetic hearts, and calmodulin kinase II (CaMKII) is a proarrhythmic signal that may be activated by ROS (ox-CaMKII) and OGN (OGN-CaMKII). We induced type 1 (T1D) and type 2 DM (T2D) in a portfolio of genetic mouse models capable of dissecting the role of ROS and OGN at CaMKII and global OGN in diabetic AF. Here we show that T1D and T2D significantly increased AF, and this increase required CaMKII and OGN. T1D and T2D both require ox-CaMKII to increase AF, however we did not detect OGN-CaMKII nor a role for OGN-CaMKII in diabetic AF. Collectively, our data affirm CaMKII as a critical proarrhythmic signal in diabetic AF, and suggest ROS primarily promotes AF by ox-CaMKII, while OGN promotes AF by a CaMKII-independent mechanism(s). These results provide new and unanticipated insights into the mechanisms for increased AF in DM, and suggest potential benefits for future CaMKII and OGN targeted therapies.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Olurotimi O. Mesubi, Adam G. Rokita, Neha Abrol, Yuejin Wu, Biyi Chen, Qinchuan Wang, Jonathan M. Granger, Anthony Tucker-Bartley, Elizabeth D. Luczak, Kevin R Murphy, Priya Umapathi, Partha S. Banerjee, Tatiana Boronina, Robert N. Cole, Lars S. Maier, Xander H.T. Wehrens, Joel L. Pomerantz, Long-Sheng Song, Rexford Ahima, Gerald W. Hart, Natasha E. Zachara, Mark E. Anderson</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+
+</div>
+</div>
+
+</div>
+</div>
+
+<div class='row panel-padding'>
+<div class='small-12 columns'>
+<h5>View more articles by topic:</h5>
+</div>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='large-4 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/10">Aging</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/11">AIDS/HIV</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/12">Angiogenesis</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/13">Autoimmunity</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/119">Bone
+Biology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/14">Bone biology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/15">Cardiology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/16">Cell biology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/17">Clinical trials</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/118">COVID-19</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/18">Dermatology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/19">Development</a></p>
+</div>
+</div>
+</div>
+<div class='large-4 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/20">Endocrinology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/21">Gastroenterology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/22">Genetics</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/23">Hematology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/24">Hepatology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/25">Immunology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/26">Infectious disease</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/27">Inflammation</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/28">Metabolism</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/29">Microbiology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/30">Muscle biology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/31">Nephrology</a></p>
+</div>
+</div>
+</div>
+<div class='large-4 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/32">Neuroscience</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/33">Oncology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/34">Ophthalmology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/35">Otology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/36">Pulmonology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/37">Reproductive biology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/38">Stem cells</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/39">Therapeutics</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/40">Transplantation</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/41">Vaccines</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/42">Vascular biology</a></p>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<p><a href="/tags/43">Virology</a></p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class='large-4 large-pull-8 medium-5 medium-pull-7 columns'>
+<div class='row homepage-panel centered' id='jci-homepage-med-rectangle-left-col-top'>
+<div class='small-12 columns'>
+<span class='secondary label'>Advertisement</span>
+<script>
+  try {
+    googletag.cmd.push(function () {
+      googletag.display('jci-homepage-med-rectangle-left-col-top');
+    })
+  } catch(e){}
+</script>
+</div>
+</div>
+
+<div class='row homepage-panel'>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4>November 2020</h4>
+</div>
+</div>
+<div class='row'>
+<div class='large-6 small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<a class='hide-for-small' data-reveal-id='issue-modal' href='#'><img class="cover-img show-more issue-cover" src="//dm5migu4zj3pb.cloudfront.net/volumes/130/11/130-11-cover.jpg" /></a>
+<a class='show-for-small' href='/130/11' id='homepage_mobile_cover_image'><img class="cover-img issue-cover" src="//dm5migu4zj3pb.cloudfront.net/volumes/130/11/130-11-cover.jpg" /></a>
+</div>
+</div>
+</div>
+<div class='large-6 small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h3>
+<small>
+On the cover:
+<br>
+<a href="/articles/view/130996">Inhibiting mitophagy improves macrophage bacterial clearance</a>
+</small>
+</h3>
+</div>
+<div class='small-12 columns hide-for-small'>
+<p>
+<a class='show-more' data-reveal-id='issue-modal' href='#'>
+The Journal
+<i class='fi-magnifying-glass'></i>
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='reveal-modal medium' data-reveal='' id='issue-modal'>
+<div class='left non-col'>
+<a id="homepage_medium_modal_issue" href="/130/11"><img class="border" src="//dm5migu4zj3pb.cloudfront.net/volumes/130/11/130-11-cover.jpg" /></a>
+</div>
+<div class='non-col'>
+<h4>November 2020 Issue</h4>
+</div>
+<div class='non-col'>
+<h3>
+<small>
+On the cover:
+<br>
+<a href="/articles/view/130996">Inhibiting mitophagy improves macrophage bacterial clearance</a>
+</small>
+</h3>
+<p>
+Macrophage-mediated bacterial clearance and inflammatory functions play critical roles in controlling sepsis. The role of mitochondria, specifically that of mitophagy, in macrophage activation and function remains unclear. In this issue, <a href="/articles/view/130996">Patoli, Mignotte, et al.</a> demonstrate that LPS exposure leads to inhibition of mitophagy in murine macrophages. The work further reveals that mitophagy inhibition enhances bacterial clearance and improves survival in a mouse model. The findings provide a rationale for therapeutic exploration of mitophagy pathways in sepsis. The cover image represents metabolic reprogramming associated with the inhibition of mitophagy. M1 macrophages were stained with JC-1 dye to indicate mitochondria with low (green) or high (red) membrane potential, revealing the effects of LPS exposure. Image credit: Charles Thomas.
+
+</p>
+<p>
+<ul class='button-group'>
+<li><a class="tiny button" id="homepage_cover_popup" href="/130/11">View this issue</a></li>
+<li><a class="tiny button" href="/archive">View all issues</a></li>
+</ul>
+</p>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+</div>
+</div>
+<div class='row homepage-panel'>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5>JCI This Month</h5>
+</div>
+<div class='small-12 columns'>
+<a class='show-more' data-reveal-id='impact-modal' href='#'>
+<p>JCI This Month is a digest of the research, reviews, and other features published each month.</p>
+</a>
+</div>
+<div class='small-12 columns'>
+<a class='show-more' data-reveal-id='impact-modal' href='#'>
+JCI This Month
+<i class='fi-magnifying-glass'></i>
+</a>
+</div>
+</div>
+<div class='reveal-modal medium' data-reveal='' id='impact-modal'>
+<div class='left non-col'>
+<a href="/this-month/2020/11"><img class="border" src="//dm5migu4zj3pb.cloudfront.net/impact/cover/102/jci_tm_2020_11.png" /></a>
+</div>
+<div class='non-col'>
+<h4>November 2020 JCI This Month</h4>
+</div>
+<div class='non-col'>
+<p>JCI This Month is a digest of the research, reviews, and other features published each month.</p>
+<p>
+<ul class='button-group'>
+<li><a class="tiny button" href="/this-month/2020/11">View this issue</a></li>
+<li><a class="tiny button" href="/this-month">View all issues</a></li>
+</ul>
+</p>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+</div>
+</div>
+<div class='row homepage-panel'>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='large-12 columns'>
+<h4>
+Review Series
+<small> - <a href="/review_series">More</a></small>
+</h4>
+</div>
+</div>
+<div class='row'>
+<div class='large-12 columns'>
+<h5><a href="/review_series/111">Hypoxia-inducible factors in disease pathophysiology and therapeutics</a></h5>
+</div>
+<div class='large-12 columns'>
+<h6>Series edited by Gregg L. Semenza</h6>
+</div>
+<div class='large-12 columns'>
+<a class='show-more' data-reveal-id='review-series-modal' href='#'>
+<p>
+Maintaining adequate oxygen levels in the organs and tissues of multicellular organisms is essential to preserving cellular metabolism and bioenergetics. When oxygen levels fall below normal...
+</p>
+</a>
+</div>
+</div>
+<div class='reveal-modal medium' data-reveal='' id='review-series-modal'>
+<h4><a href="/review_series/111">Hypoxia-inducible factors in disease pathophysiology and therapeutics</a></h4>
+<h5>Series edited by Gregg L. Semenza</h5>
+<p>Maintaining adequate oxygen levels in the organs and tissues of multicellular organisms is essential to preserving cellular metabolism and bioenergetics. When oxygen levels fall below normal physiological levels, hypoxia signaling pathways trigger physiological changes meant to evoke adaptive responses at organismal, tissue, and cellular levels. Hypoxia-inducible factors (HIFs) are positioned at the crux of these oxygen-sensing mechanisms, regulating a multitude of transcriptional programs that control angiogenesis, metabolism, immune function, erythropoiesis, and more. In this issue, a review series created by JCIвЂ™s deputy editor Gregg Semenza highlights how HIFs contribute to the pathogenesis and treatment of human disease. The reviews describe the hypoxic conditions that drive or exacerbate pathophysiology in diseases ranging from pulmonary hypertension to cancer. Moreover, they highlight HIF-targeting strategies in preclinical and clinical development, discussing their potential to improve the therapeutic outcomes in these diseases.</p>
+<p>
+<ul class='button-group'>
+<li><a class="tiny button" href="/review_series/111">View this review series</a></li>
+<li><a class="tiny button" href="/review_series">View all review series</a></li>
+</ul>
+</p>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+</div>
+</div>
+<div class='row homepage-panel'>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4>
+Latest Reviews
+<small> - <a href="/tags/reviews">More</a></small>
+</h4>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='line-height: 1.4;'><a href="/articles/view/144115">Age-related susceptibility to Coronavirus infections: role of impaired and dysregulated host immunity</a></h5>
+</div>
+<div class='small-12 columns article-metadata'>
+<a style="color:black;" href="/articles/view/144115">Human coronaviruses (hCoVs) cause severe respiratory illness in the elderly. Age-related impairments in innate immunity and sub-optimal virus-specific T cell and antibody responses are believed to...
+</a></div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='line-height: 1.4;'><a href="/articles/view/142031">Stem cell therapy for muscular dystrophies</a></h5>
+</div>
+<div class='small-12 columns article-metadata'>
+<a style="color:black;" href="/articles/view/142031">Muscular dystrophies are a heterogeneous group of genetic diseases, characterized by progressive degeneration of skeletal and cardiac muscle. Despite the intense investigation of different...
+</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='row homepage-panel'>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4 class='notices-signup'>Sign up for email alerts</h4>
+<form action='https://notices.jci.org/subscribers/new' method='get'>
+<input name='utm_source' type='hidden' value='jci'>
+<input name='utm_medium' type='hidden' value='web'>
+<input name='utm_campaign' type='hidden' value='email_signup'>
+<input name='utm_content' type='hidden' value='homepage'>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<input name='email_address' placeholder='Your email address' type='text'>
+</div>
+<div class='small-12 medium-3 columns'>
+<input class='button tiny orange' type='submit' value='Sign up'>
+</div>
+</div>
+</form>
+</div>
+</div>
+
+</div>
+</div>
+<div class='row homepage-panel'>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4>
+Author's Take
+<small> - <a href="/videos/authors_takes">More</a></small>
+</h4>
+</div>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5><a href="/posts/625">Maintenance DNA methylation is essential for development and stability</a></h5>
+</div>
+<div class='small-12 columns'>
+<a href="/posts/625"><p>In this episode, Benjamin Singer and colleagues explain that maintenance DNA methylation at inflammatory gene loci is necessary to stabilize regulatory T cell identity and suppressive function during both development and lineage self-renewal...</p>
+</a></div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 large-10 columns'>
+<div class='flex-video'>
+<iframe allowfullscreen='' frameborder='0' height='197' src='//www.youtube.com/embed/ORPjvF1pC6s' width='350'></iframe>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='row homepage-panel'>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4>
+Conversations with Giants in Medicine
+<small> - <a href="/videos/cgms">More</a></small>
+</h4>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5><a href="/posts/623">JCI&#39;s Conversations with Giants in Medicine: C. Ronald Kahn</a></h5>
+</div>
+<div class='small-12 columns'>
+<a href="/posts/623"><p>C. Ronald (Ron) Kahn of the Joslin Diabetes Center at Harvard Medical School is a physician-scientist who illuminated much of what we appreciate about the insulin receptor and the means by which it signals.</p>
+</a></div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 large-10 columns'>
+<div class='flex-video'>
+<iframe allowfullscreen='' frameborder='0' height='197' src='//www.youtube.com/embed/w0A1wQZeDZs' width='350'></iframe>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div id='footer'>
+<div class='row panel-padding'>
+<div class='small-6 columns'>
+Follow JCI:
+<span id='social-links'>
+<a onclick="trackOutboundLink(&#39;/facebook?ref=footer&#39;);" href="/facebook"><img title="Facebook" src="/assets/social/facebook_logo_white-8549cbbdd5755c8d81d1ab2fdea8326c3ec2963a83ad22b73dff80d93b500a47.png" /></a>
+<a onclick="trackOutboundLink(&#39;/twitter?ref=footer&#39;);" href="/twitter"><img title="Twitter" src="/assets/social/twitter_logo_v2-60ea0c72387950663c0b04fc251455a5a04ed832e9291810914f0d9257b5f597.png" /></a>
+<a href="/rss"><img title="RSS" src="/assets/social/rss_icon-cd21b1126f247087e91b0bc6c9d4acc3968c4ecb46461efba523e501876818ba.png" /></a>
+</span>
+
+<br>
+Copyright &#169; 2020
+<a href="http://www.the-asci.org">American Society for Clinical Investigation</a>
+<br>
+ISSN: 0021-9738 (print), 1558-8238 (online)
+</div>
+<div class='small-6 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4 class='notices-signup'>Sign up for email alerts</h4>
+<form action='https://notices.jci.org/subscribers/new' method='get'>
+<input name='utm_source' type='hidden' value='jci'>
+<input name='utm_medium' type='hidden' value='web'>
+<input name='utm_campaign' type='hidden' value='email_signup'>
+<input name='utm_content' type='hidden' value='footer'>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<input name='email_address' placeholder='Your email address' type='text'>
+</div>
+<div class='small-12 medium-3 columns'>
+<input class='button tiny orange' type='submit' value='Sign up'>
+</div>
+</div>
+</form>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+<!--[if gt IE 8]><!--><script src="/assets/application-b0080efa630f60e2ad71909fdb9e2e47b6644ff7454d1fe90279396c02ef2e8a.js"></script><!--<![endif]-->
+<!--[if (lt IE 9)]>
+<script src="/assets/ie8/application-56fa2dadb4a7c0b757c9323e2baa810348c2052533f460b704e8627525d49783.js"></script>
+<![endif]-->
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4d8389db4b0bb592" async="async"></script>
+<script src="//d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" async="async"></script>
+
+
+<!--[if lt IE 9]>
+<script src="/assets/ie8/ie8-b06973a49582971e782acad6ffd4ed088fc75a69416e7b71a48175f8ad303474.js"></script>
+<![endif]-->
+
+</body>
+</html>

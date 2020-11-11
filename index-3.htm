@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script type="application/shiny-singletons">6ecd307eb5271ea567b76ef010204b628c2572c2,cf74c3cee181d28487e4442385563abadb708e0d,b8d79706b067e925accf37c2d5d6cf4524fed520,0df8bd462850fbc7b1392908d8c264508594b859,5e0f88febb86f96c0520e14c578ee14ba67872b6,abbc5191535f7e95ba1254171676097ac26b5edc,93265af5ae8b86889d094456aadbb722300d9aeb,0b5360dbc07698438ca82f0745a05da93b112f6d</script>
+  <script type="application/html-dependencies">json2[2014.02.04];jquery[1.12.4];shiny[1.2.0];font-awesome[5.3.1];shinyBS[0.61];htmlwidgets[1.3];particlesjs[2.0.0];particles-binding[0.0.0.9500];proj4js[2.3.15];highcharts[6.0.3];highchart-binding[0.6.0];datatables-css[0.0.0];datatables-binding[0.5.2];crosstalk[1.0.0];shinyWidgets[0.4.8];awesome-bootstrap[0.2.0];ionrangeslider[2.1.6];strftime[0.9.2];selectize[0.11.2];leaflet[1.3.1];leafletfix[1.0.0];Proj4Leaflet[1.0.1];rstudio_leaflet[1.3.1];leaflet-binding[2.0.2];bootstrap[3.3.7];formattable_widget-binding[0.2.0.1];d3[4.10.2];collapsibleTree[0.1.6];collapsibleTree-binding[0.1.7];vis[4.16.1];timeline[0.4];timevis-binding[0.5]</script>
+<script src="shared/json2-min.js"></script>
+<script src="shared/jquery.min.js"></script>
+<link href="shared/shiny.css" rel="stylesheet" />
+<script src="shared/shiny.min.js"></script>
+<link href="font-awesome-5.3.1/css/all.min.css" rel="stylesheet" />
+<link href="font-awesome-5.3.1/css/v4-shims.min.css" rel="stylesheet" />
+<link href="sbs/shinyBS.css" rel="stylesheet" />
+<script src="sbs/shinyBS.js"></script>
+<script src="htmlwidgets-1.3/htmlwidgets.js"></script>
+<link href="particlesjs-2.0.0/particles.css" rel="stylesheet" />
+<script src="particlesjs-2.0.0/particles.min.js"></script>
+<script src="particles-binding-0.0.0.9500/particles.js"></script>
+<script src="proj4js-2.3.15/proj4.js"></script>
+<link href="highcharts-6.0.3/css/motion.css" rel="stylesheet" />
+<script src="highcharts-6.0.3/highcharts.js"></script>
+<script src="highcharts-6.0.3/highcharts-3d.js"></script>
+<script src="highcharts-6.0.3/highcharts-more.js"></script>
+<script src="highcharts-6.0.3/modules/stock.js"></script>
+<script src="highcharts-6.0.3/modules/heatmap.js"></script>
+<script src="highcharts-6.0.3/modules/treemap.js"></script>
+<script src="highcharts-6.0.3/modules/annotations.js"></script>
+<script src="highcharts-6.0.3/modules/boost.js"></script>
+<script src="highcharts-6.0.3/modules/data.js"></script>
+<script src="highcharts-6.0.3/modules/drag-panes.js"></script>
+<script src="highcharts-6.0.3/modules/drilldown.js"></script>
+<script src="highcharts-6.0.3/modules/funnel.js"></script>
+<script src="highcharts-6.0.3/modules/item-series.js"></script>
+<script src="highcharts-6.0.3/modules/offline-exporting.js"></script>
+<script src="highcharts-6.0.3/modules/overlapping-datalabels.js"></script>
+<script src="highcharts-6.0.3/modules/parallel-coordinates.js"></script>
+<script src="highcharts-6.0.3/modules/sankey.js"></script>
+<script src="highcharts-6.0.3/modules/solid-gauge.js"></script>
+<script src="highcharts-6.0.3/modules/streamgraph.js"></script>
+<script src="highcharts-6.0.3/modules/sunburst.js"></script>
+<script src="highcharts-6.0.3/modules/vector.js"></script>
+<script src="highcharts-6.0.3/modules/wordcloud.js"></script>
+<script src="highcharts-6.0.3/modules/xrange.js"></script>
+<script src="highcharts-6.0.3/modules/exporting.js"></script>
+<script src="highcharts-6.0.3/modules/export-data.js"></script>
+<script src="highcharts-6.0.3/maps/modules/map.js"></script>
+<script src="highcharts-6.0.3/plugins/grouped-categories.js"></script>
+<script src="highcharts-6.0.3/plugins/motion.js"></script>
+<script src="highcharts-6.0.3/plugins/multicolor_series.js"></script>
+<script src="highcharts-6.0.3/custom/reset.js"></script>
+<script src="highcharts-6.0.3/custom/symbols-extra.js"></script>
+<script src="highcharts-6.0.3/custom/text-symbols.js"></script>
+<script src="highchart-binding-0.6.0/highchart.js"></script>
+<link href="datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="datatables-binding-0.5.2/datatables.js"></script>
+<link href="crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<link href="shinyWidgets/shinyWidgets.css" rel="stylesheet" />
+<script src="shinyWidgets/shinyWidgets-bindings.min.js"></script>
+<link href="shinyWidgets/awesomeRadioCheckbox/css/awesome-bootstrap-checkbox-shiny.css" rel="stylesheet" />
+<link href="shared/ionrangeslider/css/ion.rangeSlider.css" rel="stylesheet" />
+<link href="shared/ionrangeslider/css/ion.rangeSlider.skinShiny.css" rel="stylesheet" />
+<script src="shared/ionrangeslider/js/ion.rangeSlider.min.js"></script>
+<script src="shared/strftime/strftime-min.js"></script>
+<link href="shared/selectize/css/selectize.bootstrap3.css" rel="stylesheet" />
+<!--[if lt IE 9]>
+<script src="shared/selectize/js/es5-shim.min.js"></script>
+<![endif]-->
+<script src="shared/selectize/js/selectize.min.js"></script>
+<link href="leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="leaflet-1.3.1/leaflet.js"></script>
+<link href="leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="leaflet-binding-2.0.2/leaflet.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="shared/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<script src="shared/bootstrap/js/bootstrap.min.js"></script>
+<script src="shared/bootstrap/shim/html5shiv.min.js"></script>
+<script src="shared/bootstrap/shim/respond.min.js"></script>
+<script src="formattable_widget-binding-0.2.0.1/formattable_widget.js"></script>
+<script src="d3-4.10.2/d3.min.js"></script>
+<link href="collapsibleTree-0.1.6/collapsibleTree.css" rel="stylesheet" />
+<script src="collapsibleTree-binding-0.1.7/collapsibleTree.js"></script>
+<link href="vis-4.16.1/vis.min.css" rel="stylesheet" />
+<script src="vis-4.16.1/vis.min.js"></script>
+<link href="timeline-0.4/timevis.css" rel="stylesheet" />
+<script src="timevis-binding-0.5/timevis.js"></script>  <link href="waiter-assets/please-wait.css" rel="stylesheet" type="text/css"/>
+  <script>window.loading_screen;</script>
+  <link href="waiter-assets/spinkit.css" rel="stylesheet" type="text/css"/>
+  <script src="waiter-assets/please-wait.min.js"></script>
+  <script src="waiter-assets/custom.js"></script>
+  <script>document.addEventListener('DOMContentLoaded', function() {window.loading_screen = pleaseWait({
+      logo: 'map_link1.gif',
+      backgroundColor: '#ffffff',
+      loadingHtml: ''
+    });});</script>
+  <link rel="stylesheet" type="text/css" href="toastr/toastr.min.css"/>
+  <script src="toastr/toastr.min.js"></script>
+  <script src="toastr/shinytoastr.js"></script>
+  <style>.shinyjs-hide { display: none !important; }</style>
+  <script>Shiny.addCustomMessageHandler('shinyjs-show', function(params) { shinyjs.debugMessage('shinyjs: calling function "show" with parameters:'); shinyjs.debugMessage(params); shinyjs.show(params);});
+Shiny.addCustomMessageHandler('shinyjs-hide', function(params) { shinyjs.debugMessage('shinyjs: calling function "hide" with parameters:'); shinyjs.debugMessage(params); shinyjs.hide(params);});
+Shiny.addCustomMessageHandler('shinyjs-toggle', function(params) { shinyjs.debugMessage('shinyjs: calling function "toggle" with parameters:'); shinyjs.debugMessage(params); shinyjs.toggle(params);});
+Shiny.addCustomMessageHandler('shinyjs-enable', function(params) { shinyjs.debugMessage('shinyjs: calling function "enable" with parameters:'); shinyjs.debugMessage(params); shinyjs.enable(params);});
+Shiny.addCustomMessageHandler('shinyjs-disable', function(params) { shinyjs.debugMessage('shinyjs: calling function "disable" with parameters:'); shinyjs.debugMessage(params); shinyjs.disable(params);});
+Shiny.addCustomMessageHandler('shinyjs-toggleState', function(params) { shinyjs.debugMessage('shinyjs: calling function "toggleState" with parameters:'); shinyjs.debugMessage(params); shinyjs.toggleState(params);});
+Shiny.addCustomMessageHandler('shinyjs-addClass', function(params) { shinyjs.debugMessage('shinyjs: calling function "addClass" with parameters:'); shinyjs.debugMessage(params); shinyjs.addClass(params);});
+Shiny.addCustomMessageHandler('shinyjs-removeClass', function(params) { shinyjs.debugMessage('shinyjs: calling function "removeClass" with parameters:'); shinyjs.debugMessage(params); shinyjs.removeClass(params);});
+Shiny.addCustomMessageHandler('shinyjs-toggleClass', function(params) { shinyjs.debugMessage('shinyjs: calling function "toggleClass" with parameters:'); shinyjs.debugMessage(params); shinyjs.toggleClass(params);});
+Shiny.addCustomMessageHandler('shinyjs-html', function(params) { shinyjs.debugMessage('shinyjs: calling function "html" with parameters:'); shinyjs.debugMessage(params); shinyjs.html(params);});
+Shiny.addCustomMessageHandler('shinyjs-onevent', function(params) { shinyjs.debugMessage('shinyjs: calling function "onevent" with parameters:'); shinyjs.debugMessage(params); shinyjs.onevent(params);});
+Shiny.addCustomMessageHandler('shinyjs-alert', function(params) { shinyjs.debugMessage('shinyjs: calling function "alert" with parameters:'); shinyjs.debugMessage(params); shinyjs.alert(params);});
+Shiny.addCustomMessageHandler('shinyjs-logjs', function(params) { shinyjs.debugMessage('shinyjs: calling function "logjs" with parameters:'); shinyjs.debugMessage(params); shinyjs.logjs(params);});
+Shiny.addCustomMessageHandler('shinyjs-runjs', function(params) { shinyjs.debugMessage('shinyjs: calling function "runjs" with parameters:'); shinyjs.debugMessage(params); shinyjs.runjs(params);});
+Shiny.addCustomMessageHandler('shinyjs-reset', function(params) { shinyjs.debugMessage('shinyjs: calling function "reset" with parameters:'); shinyjs.debugMessage(params); shinyjs.reset(params);});
+Shiny.addCustomMessageHandler('shinyjs-delay', function(params) { shinyjs.debugMessage('shinyjs: calling function "delay" with parameters:'); shinyjs.debugMessage(params); shinyjs.delay(params);});
+Shiny.addCustomMessageHandler('shinyjs-click', function(params) { shinyjs.debugMessage('shinyjs: calling function "click" with parameters:'); shinyjs.debugMessage(params); shinyjs.click(params);});</script>
+  <script src="shinyjs/shinyjs-default-funcs.js"></script>
+  <script>shinyjs.debug = false;</script>
+  
+<meta name="description" lang="en-us" content="AMRmap is a monitoring system for antibiotic resistance in Russia, which contains a set of tools for the analysis and visualization of data on the susceptibility of microorganisms to antimicrobial agents." />
+<meta name="description" lang="ru" content="AMRmap - СЌС‚Рѕ СЃРёСЃС‚РµРјР° РјРѕРЅРёС‚РѕСЂРёРЅРіР° Р°РЅС‚РёР±РёРѕС‚РёРєРѕСЂРµР·РёСЃС‚РµРЅС‚РЅРѕСЃС‚Рё Р РѕСЃСЃРёРё, РєРѕС‚РѕСЂР°СЏ СЃРѕРґРµСЂР¶РёС‚ РЅР°Р±РѕСЂ РёРЅСЃС‚СЂСѓРјРµРЅС‚РѕРІ РґР»СЏ Р°РЅР°Р»РёР·Р° Рё РІРёР·СѓР°Р»РёР·Р°С†РёРё РґР°РЅРЅС‹С… Рѕ С‡СѓРІСЃС‚РІРёС‚РµР»СЊРЅРѕСЃС‚Рё РјРёРєСЂРѕРѕСЂРіР°РЅРёР·РјРѕРІ Рє Р°РЅС‚РёРјРёРєСЂРѕР±РЅС‹Рј РїСЂРµРїР°СЂР°С‚Р°Рј." />
+<meta name="keywords" lang="en-us" content="Antibiotic Resistance, Antibiotic Resistance Visualization, AMR, Antibiotic Resistance Monitoring, Surveillance Study, Epidemiology"/>
+
+<meta name="keywords" lang="ru" content="РђРЅС‚РёР±РёРѕС‚РёРєРѕСЂРµР·РёСЃС‚РµРЅС‚РЅРѕСЃС‚СЊ, РљР°СЂС‚Р° Р°РЅС‚РёР±РёРѕС‚РёРєРѕСЂРµР·РёСЃС‚РµРЅС‚РЅРѕСЃС‚Рё, РњРѕРЅРёС‚РѕСЂРёРЅРі Р°РЅС‚РёР±РёРѕС‚РёРєРѕСЂРµР·РёСЃС‚РµРЅС‚РЅРѕСЃС‚Рё, AMR, РђРЅС‚РёР±РёРѕС‚РёРєРё"/>
+
+<meta name="robots" content="index, follow" />
+                 
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <title>AMRmap</title>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85066436-1', 'auto');
+  ga('send', 'pageview');
+
+
+
+  $(document).on('change', 'select', function(e) {
+    ga('send', 'event', 'widget', 'select data', $(e.currentTarget).val());
+  });
+  
+  $(document).on('click', 'button', function() {
+    ga('send', 'event', 'button', 'plot data');
+  });</script>
+  <meta name="google-site-verification" content="y5xv4imPFTwTwcIqsP13QUn7FstwHPsAdXAYMznTeqI" />
+<meta name="yandex-verification" content="897d6853ec3c6f8a" />
+  <title>AMRmap</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script src="js/mobile.js"></script>
+  <link rel="stylesheet" href="assets/spinner.css"/>
+  <link rel="stylesheet" href="css-loaders/css/fallback.css"/>
+  <link rel="stylesheet" href="css-loaders/css/load4.css"/>
+  <style>#spinner-d356e3062ee2bb9dd2ee7a8b16fad674 {color: #1ca093}</style>
+  <style>#spinner-d356e3062ee2bb9dd2ee7a8b16fad674 {font-size: 15px}spinner-d356e3062ee2bb9dd2ee7a8b16fad67415</style>
+  <style>#spinner-88b2f97275e154bdfe46c8f2799bc49a {color: #1ca093}</style>
+  <style>#spinner-88b2f97275e154bdfe46c8f2799bc49a {font-size: 15px}spinner-88b2f97275e154bdfe46c8f2799bc49a15</style>
+  <style>#spinner-e3ba95b21cb0638c2b97bc166ad03843 {color: #1ca093}</style>
+  <style>#spinner-e3ba95b21cb0638c2b97bc166ad03843 {font-size: 15px}spinner-e3ba95b21cb0638c2b97bc166ad0384315</style>
+  <style>#spinner-38cb70fd02e24f579033e2c45df0a7c3 {color: #1ca093}</style>
+  <style>#spinner-38cb70fd02e24f579033e2c45df0a7c3 {font-size: 15px}spinner-38cb70fd02e24f579033e2c45df0a7c315</style>
+  <style>#spinner-03108d39ed081df10a424e135f89afe8 {color: #1ca093}</style>
+  <style>#spinner-03108d39ed081df10a424e135f89afe8 {font-size: 15px}spinner-03108d39ed081df10a424e135f89afe815</style>
+  <style>#spinner-77b6b4afc4d390f67e26f0d7773d7abc {color: #1ca093}</style>
+  <style>#spinner-77b6b4afc4d390f67e26f0d7773d7abc {font-size: 15px}spinner-77b6b4afc4d390f67e26f0d7773d7abc15</style>
+  <style>#spinner-2f7b5e75f739fbe8bd8909402bebd839 {color: #1ca093}</style>
+  <style>#spinner-2f7b5e75f739fbe8bd8909402bebd839 {font-size: 15px}spinner-2f7b5e75f739fbe8bd8909402bebd83915</style>
+  <style>#spinner-65dca1c9dde1ca40da8306cd3211fd42 {color: #1ca093}</style>
+  <style>#spinner-65dca1c9dde1ca40da8306cd3211fd42 {font-size: 15px}spinner-65dca1c9dde1ca40da8306cd3211fd4215</style>
+  <style>#spinner-d6586c712c283cb142f8528d655699f1 {color: #1ca093}</style>
+  <style>#spinner-d6586c712c283cb142f8528d655699f1 {font-size: 15px}spinner-d6586c712c283cb142f8528d655699f115</style>
+  <style>#spinner-6db23e2334fb81316baf2bdd6eccbed0 {color: #1ca093}</style>
+  <style>#spinner-6db23e2334fb81316baf2bdd6eccbed0 {font-size: 15px}spinner-6db23e2334fb81316baf2bdd6eccbed015</style>
+  <style>#spinner-9bcb69fe2a7c7ea14da432eee9902dd8 {color: #1ca093}</style>
+  <style>#spinner-9bcb69fe2a7c7ea14da432eee9902dd8 {font-size: 15px}spinner-9bcb69fe2a7c7ea14da432eee9902dd815</style>
+  <style>#spinner-edb82ac8f6ea1312531c4e81900c18e8 {color: #1ca093}</style>
+  <style>#spinner-edb82ac8f6ea1312531c4e81900c18e8 {font-size: 15px}spinner-edb82ac8f6ea1312531c4e81900c18e815</style>
+  <style>#spinner-1092996ec566500bfe88fa871cc9e3a2 {color: #1ca093}</style>
+  <style>#spinner-1092996ec566500bfe88fa871cc9e3a2 {font-size: 15px}spinner-1092996ec566500bfe88fa871cc9e3a215</style>
+  <style>#spinner-9809fc9b270c016ac65d580a4579134e {color: #1ca093}</style>
+  <style>#spinner-9809fc9b270c016ac65d580a4579134e {font-size: 15px}spinner-9809fc9b270c016ac65d580a4579134e15</style>
+  <style>#spinner-0bcef755fe20633f0997716b5f8a5472 {color: #1ca093}</style>
+  <style>#spinner-0bcef755fe20633f0997716b5f8a5472 {font-size: 15px}spinner-0bcef755fe20633f0997716b5f8a547215</style>
+  <style>#spinner-0328b9ae18ccf1e8f99bc9584ace550c {color: #1ca093}</style>
+  <style>#spinner-0328b9ae18ccf1e8f99bc9584ace550c {font-size: 15px}spinner-0328b9ae18ccf1e8f99bc9584ace550c15</style>
+  <style>#spinner-09f707d784e968f0c135cd90ab5fd3cf {color: #1ca093}</style>
+  <style>#spinner-09f707d784e968f0c135cd90ab5fd3cf {font-size: 15px}spinner-09f707d784e968f0c135cd90ab5fd3cf15</style>
+  <style>#spinner-fc48135219fd34860da4a43cd6c77c5a {color: #1ca093}</style>
+  <style>#spinner-fc48135219fd34860da4a43cd6c77c5a {font-size: 15px}spinner-fc48135219fd34860da4a43cd6c77c5a15</style>
+  <style>#spinner-361bfc67654a33cf59771206c7a04481 {color: #1ca093}</style>
+  <style>#spinner-361bfc67654a33cf59771206c7a04481 {font-size: 15px}spinner-361bfc67654a33cf59771206c7a0448115</style>
+  <style>#spinner-9025873c8a5964caad48d08c75c11652 {color: #1ca093}</style>
+  <style>#spinner-9025873c8a5964caad48d08c75c11652 {font-size: 15px}spinner-9025873c8a5964caad48d08c75c1165215</style>
+  <style>#spinner-c65cc386bae3e3ff09ceaeb720c2e54a {color: #1ca093}</style>
+  <style>#spinner-c65cc386bae3e3ff09ceaeb720c2e54a {font-size: 15px}spinner-c65cc386bae3e3ff09ceaeb720c2e54a15</style>
+  <style>#spinner-05a74ea8648df7cdd47a1a007d63ae65 {color: #1ca093}</style>
+  <style>#spinner-05a74ea8648df7cdd47a1a007d63ae65 {font-size: 15px}spinner-05a74ea8648df7cdd47a1a007d63ae6515</style>
+  <style>#spinner-f99964020557f4e2aced8ce2dcb68586 {color: #1ca093}</style>
+  <style>#spinner-f99964020557f4e2aced8ce2dcb68586 {font-size: 15px}spinner-f99964020557f4e2aced8ce2dcb6858615</style>
+  <style>#spinner-97ab1553b7a7427a59d029c2fd65646b {color: #1ca093}</style>
+  <style>#spinner-97ab1553b7a7427a59d029c2fd65646b {font-size: 15px}spinner-97ab1553b7a7427a59d029c2fd65646b15</style>
+  <style>#spinner-3ea260daa1d1cfa3c315999eb047c6e6 {color: #1ca093}</style>
+  <style>#spinner-3ea260daa1d1cfa3c315999eb047c6e6 {font-size: 15px}spinner-3ea260daa1d1cfa3c315999eb047c6e615</style>
+  <style>#spinner-03a1c0ca6127fd9461b1d03f246e79ae {color: #1ca093}</style>
+  <style>#spinner-03a1c0ca6127fd9461b1d03f246e79ae {font-size: 15px}spinner-03a1c0ca6127fd9461b1d03f246e79ae15</style>
+  <style>#spinner-9ce939e0656780b771c8c7707439e6cf {color: #1ca093}</style>
+  <style>#spinner-9ce939e0656780b771c8c7707439e6cf {font-size: 15px}spinner-9ce939e0656780b771c8c7707439e6cf15</style>
+  <style>#spinner-c0722bdcd398e1f656701e5b5d4872d6 {color: #1ca093}</style>
+  <style>#spinner-c0722bdcd398e1f656701e5b5d4872d6 {font-size: 15px}spinner-c0722bdcd398e1f656701e5b5d4872d615</style>
+  <style>#spinner-f7b1243b66d5661acf2c0e37ebf505f1 {color: #1ca093}</style>
+  <style>#spinner-f7b1243b66d5661acf2c0e37ebf505f1 {font-size: 15px}spinner-f7b1243b66d5661acf2c0e37ebf505f115</style>
+  <style>#spinner-eb9ded74e3a6b1fbbd95dc380993b7a1 {color: #1ca093}</style>
+  <style>#spinner-eb9ded74e3a6b1fbbd95dc380993b7a1 {font-size: 15px}spinner-eb9ded74e3a6b1fbbd95dc380993b7a115</style>
+  <style>#spinner-fea1a9a0e7eaa5ad3db8f3d7c60dced3 {color: #1ca093}</style>
+  <style>#spinner-fea1a9a0e7eaa5ad3db8f3d7c60dced3 {font-size: 15px}spinner-fea1a9a0e7eaa5ad3db8f3d7c60dced315</style>
+  <style>#spinner-44f78c174395f5ec8a3dce48c07a5562 {color: #1ca093}</style>
+  <style>#spinner-44f78c174395f5ec8a3dce48c07a5562 {font-size: 15px}spinner-44f78c174395f5ec8a3dce48c07a556215</style>
+  <style>#spinner-aba4969895c19a3364b7ab866ad04b5a {color: #1ca093}</style>
+  <style>#spinner-aba4969895c19a3364b7ab866ad04b5a {font-size: 15px}spinner-aba4969895c19a3364b7ab866ad04b5a15</style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1679">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <span class="navbar-brand"><span style='font-family:  verdana;color: #ffffff; font-size:18pt; font-weight: bold;  text-align: center;font-style:italic;'>AMRmap<sup style='font-family:  verdana;color: #ffffff; font-size:10pt; font-weight: bold;  text-align: center;font-style:italic;'> 2.1</sup></span></span>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-collapse-1679">
+        <ul class="nav navbar-nav shiny-tab-input" id="navb1" data-tabsetid="4510">
+          <li class="active">
+            <a href="#tab-4510-1" data-toggle="tab" data-value="Р“Р»Р°РІРЅР°СЏ">
+              <i class=" fa fa-university fa-2x fa-fw"></i>
+              Р“Р»Р°РІРЅР°СЏ
+            </a>
+          </li>
+          <li>
+            <a href="#tab-4510-2" data-toggle="tab" data-value="РђРЅР°Р»РёР· РґР°РЅРЅС‹С…">
+              <i class=" fa fa-pie-chart fa-2x fa-fw"></i>
+              РђРЅР°Р»РёР· РґР°РЅРЅС‹С…
+            </a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-value="РЎРїСЂР°РІРєР°">
+              <i class=" fa fa-info-circle fa-2x fa-fw"></i>
+              РЎРїСЂР°РІРєР°
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" data-tabsetid="7490">
+              <li>
+                <a href="#tab-7490-1" data-toggle="tab" data-value="&lt;a target=&#39;_blank&#39; href=&#39;http://map.antibiotic.ru/guide/&#39;&gt;  &lt;i class=&#39;fa fa-graduation-cap&#39;&gt; &lt;/i&gt; Р СѓРєРѕРІРѕРґСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ&lt;/a&gt;"><a target='_blank' href='http://map.antibiotic.ru/guide/'>  <i class='fa fa-graduation-cap'> </i> Р СѓРєРѕРІРѕРґСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ</a></a>
+              </li>
+              <li>
+                <a href="#tab-7490-2" data-toggle="tab" data-value="РљРѕРјР°РЅРґР° РїСЂРѕРµРєС‚Р°">
+                  <i class=" fa fa-users fa-fw"></i>
+                  РљРѕРјР°РЅРґР° РїСЂРѕРµРєС‚Р°
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#tab-4510-4" data-toggle="tab" data-value="Рћ РїСЂРѕРµРєС‚Рµ">
+              <i class=" fa fa-certificate fa-2x fa-fw"></i>
+              Рћ РїСЂРѕРµРєС‚Рµ
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="tab-content" data-tabsetid="4510">
+      <div class="tab-pane active" data-value="Р“Р»Р°РІРЅР°СЏ" data-icon-class="fa fa-university fa-2x" id="tab-4510-1">
+        <input id="isMobile" class="mobile-element" type="hidden"/>
+        <div id="particles-target">
+          <div class="row" id="logo_intro">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6" align="center">
+              <img src="AMRmap_logo-min.png" align="center" id="img_l"/>
+            </div>
+          </div>
+          <br/>
+          <div class="row">
+            <br/>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-2" align="center">
+              <button id="beginwork" type="button" class="btn btn-default action-button">
+                <i class="fa fa-play"></i>
+                РќР°С‡Р°С‚СЊ СЂР°Р±РѕС‚Сѓ
+              </button>
+            </div>
+            <div class="col-sm-2" align="center">
+              <button id="tabBut" type="button" class="btn btn-default action-button">
+                <i class="fa fa-user-circle-o"></i>
+                Р­РєСЃРїРµСЂС‚Р°Рј
+              </button>
+              <div id="Logoutbutn" class="shiny-html-output"></div>
+            </div>
+            <div class="col-sm-2" align="center">
+              <button id="ya_q" type="button" class="btn btn-default action-button" onclick="window.open(&#39;https://forms.gle/GLo5kbYG1t1VyCBZ9&#39;, &#39;_blank&#39;)">
+                <i class="fa fa-question"></i>
+                РџСЂРѕР№РґРёС‚Рµ РѕРїСЂРѕСЃ
+              </button>
+            </div>
+            <div class="col-sm-3"></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4" align="center">
+              <h4><a target='_blank' href='http://map.antibiotic.ru/guide/'>Р СѓРєРѕРІРѕРґСЃС‚РІРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ</a></h4>
+              <a href='http://amrmap.net'>English version</a>
+            </div>
+            <div class="col-sm-4"></div>
+          </div>
+          <br/>
+          <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <div class="well" align="left" id="startwell">
+                <span style='font-family:  verdana;color: rgba(0, 90, 82, 0.78); font-size:14pt; font-weight: bold;  font-style:italic;'>   AMRmap</span> - СЌС‚Рѕ РѕРЅР»Р°Р№РЅ РїР»Р°С‚С„РѕСЂРјР° Р°РЅР°Р»РёР·Р° РґР°РЅРЅС‹С… СЂРµР·РёСЃС‚РµРЅС‚РЅРѕСЃС‚Рё Рє Р°РЅС‚РёРјРёРєСЂРѕР±РЅС‹Рј РїСЂРµРїР°СЂР°С‚Р°Рј РІ Р РѕСЃСЃРёРё, РєРѕС‚РѕСЂР°СЏ СЃРѕРґРµСЂР¶РёС‚ РЅР°Р±РѕСЂ РёРЅСЃС‚СЂСѓРјРµРЅС‚РѕРІ РґР»СЏ РІРёР·СѓР°Р»РёР·Р°С†РёРё РґР°РЅРЅС‹С… Рѕ С‡СѓРІСЃС‚РІРёС‚РµР»СЊРЅРѕСЃС‚Рё РјРёРєСЂРѕРѕСЂРіР°РЅРёР·РјРѕРІ Рє Р°РЅС‚РёРјРёРєСЂРѕР±РЅС‹Рј РїСЂРµРїР°СЂР°С‚Р°Рј Рё СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅРµРЅРЅРѕСЃС‚Рё РѕСЃРЅРѕРІРЅС‹С… РіРµРЅРµС‚РёС‡РµСЃРєРёС… РґРµС‚РµСЂРјРёРЅР°РЅС‚ СѓСЃС‚РѕР№С‡РёРІРѕСЃС‚Рё Рє Р°РЅС‚РёР±РёРѕС‚РёРєР°Рј.</span>
+                <hr/>
+                <span>Р”Р»СЏ С†РёС‚РёСЂРѕРІР°РЅРёСЏ: <a target='_blank' href='https://cmac-journal.ru/publication/2017/2/cmac-2017-t19-n2-p084/' download> РљСѓР·СЊРјРµРЅРєРѕРІ Рђ.Р®., РўСЂСѓС€РёРЅ Р

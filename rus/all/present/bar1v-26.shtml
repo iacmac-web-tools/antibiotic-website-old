@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Джон Бартлетт. Бактериальная резистентность</title>
+<script language="JavaScript1.2"> <!--//
+function btn(ind,picture) {document.images[ind].src=picture;}
+//--> </script>
+
+<script language="JavaScript">
+<!--// 
+document.write('<link rel="StyleSheet" type="text/css" href="/rus/include/');
+if (navigator.appName=="Netscape") {
+	document.write("nn")
+} else {
+	document.write("ie")
+}
+document.write('.css">');
+//-->
+</script>
+<noscript><link rel="StyleSheet" type="text/css" href="../../include/main_ie.css"></noscript>
+
+<style type="text/css">
+H1 {margin-bottom:6px;}
+H3 {margin-bottom:6px;}
+H5 {font-family:Arial,Verdana,Helvetica,Sans-Serif; font-size:11pt; text-align:center; margin-top:1px; margin-bottom:2px;}
+</style>
+<script language="JavaScript"><!--
+var FirstSlide = 1;
+var LastSlide = 27;
+function ZeroFill(iNum, iDigits)
+{
+  var sNum = iNum; 
+  while (sNum.length < iDigits)
+  sNum = "0" + sNum;
+  return sNum;
+}
+--></script>
+</head>
+<body class="main">
+
+<center>
+<table width="750" cellpadding="0" border="0" cellspacing="5">
+<tr><td>
+<!--navigation-->
+<map name="TopBtn">
+<area shape="circle" coords="15,15,15" href="javascript:history.go(-1)" alt="Предыдущая страница" title="Предыдущая страница">
+<area shape="circle" coords="46,15,15" href="javascript:history.go(+1)" alt="Следующая страница" title="Следующая страница">
+<area shape="circle" coords="77,15,15" href="../../../index.htm" alt="Главная страница сайта" title="Главная страница сайта">
+<area shape="circle" coords="108,15,15" href="mailto:website@antibiotic.ru" alt="Написать письмо" title="Написать письмо">
+</map>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> <!--1-->
+<tr>
+  <td bgcolor="#F8F3E6" background="/rus/images/buttons/topline.gif" style="background-color: #F8F3E6; background-image: url(../../images/buttons/topline.gif);" width="98%" height="32"><img src="../../images/inv.gif" width="1" height="32" border="0" alt=""></td>
+  <td width="1%"><font size="1"><img src="../../images/buttons/topbtn.gif" width="126" height="32" border="0" alt="Навигация" usemap="#TopBtn"></font></td>
+</tr>
+</table>
+<!--/navigation-->
+
+<h3>Презентация выступления Джона Бартлетта (США)<br> &quot;Бактериальная резистентность&quot;</h3>
+<h5>IX Российский Национальный Конгресс &quot;ЧЕЛОВЕК И ЛЕКАРСТВО&quot;</h5>
+<hr size="1">
+
+<center>
+<script language="JavaScript1.2"><!--
+var FirstSlide = 1;
+var LastSlide = 27;
+
+var ValueN = location.search.substring(1);
+var ValueC = '';
+
+var Prev = Number(ValueN)-1;
+var Next = Number(ValueN)+1;
+
+document.write('<TABLE border="0" cellspacing="5" cellpadding="0" align="center">');
+document.write('<TR>');
+
+document.write('<TD>');
+if (Prev >= FirstSlide) {
+  document.write('<A href="bar1v.shtml?'+Prev+'">Предыдущий</A>');
+}
+else {
+  document.write('<font color="Silver">Предыдущий</font>');
+}
+document.write('</TD>');
+
+document.write('<TD>&middot;</TD>');
+
+document.write('<TD>');
+document.write('<a href="bar1.shtml">Оглавление</a>');
+document.write('</TD>');
+
+document.write('<TD>&middot;</TD>');
+
+document.write('<TD>');
+if (Next <= LastSlide) {
+  document.write('<A href="bar1v.shtml?'+Next+'">Следующий</A>');
+}
+else {
+  document.write('<font color="Silver">Следующий</font>');
+}
+document.write('</TD>');
+document.write('</TR>');
+
+document.write('<TR>');
+document.write('<TD colspan="5">');
+document.write('<h5>Слайд '+ValueN+' из '+LastSlide+'</h5>');
+document.write('</TD>');
+document.write('</TR>');
+document.write('</TABLE>');
+
+ValueC = ZeroFill(ValueN, 2);
+
+if (ValueN == 17) {
+  document.write('<img src="bartlett1/'+ValueC+'.jpg" width="610" height="407" border="0" alt="">');
+  }
+else {
+  document.write('<img src="bartlett1/'+ValueC+'.gif" width="610" height="407" border="0" alt="">');
+}
+
+//--></script>
+
+<br><br>
+<!--footer-->
+<table border="0" cellpadding="0" cellspacing="1" width="100%"><tr>
+<td align="left" style="vertical-align:bottom;"><font class="t8">&copy; 2000-2009 <a target="_blank" href="../../../copyright.php.html">НИИАХ СГМА</a></font></td>
+
+<td colspan="2" align="right"><font size="1">
+<!--Rambler 1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../../top100.cnt.gif?335834" alt="Rambler's Top100" width="1" height="1" border="0"></a><!--/Rambler 1x1-->
+
+<!--LiveInternet 1x1--><script language="JavaScript"><!--
+document.write('<img src="http://counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+';i'+escape('Жж'+document.title.substring(0,80))+';'+Math.random()+
+'" width=1 height=1 alt="">')
+//--></script><!--/LiveInternet-->
+
+<!--LiveInternet--><a href="../../../index-17.htm" target="_blank"><img src="../../../images/banners/rax.gif" border="0" width="31" height="31" title="liveinternet.ru"></a><!--/LiveInternet-->
+
+<!--TopList--><a href="http://top.list.ru/jump?from=96637" target="_blank"><img src="../../../counter-3.gif?id=96637;t=55" border="0" height="31" width="88" alt="TopList"></a><!--/TopList-->
+
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../../top100/banner-88x31-rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+</font>
+</td>
+
+</tr></table>
+<!--/footer-->
+
+<hr size="1">
+</center></td></tr></table>
+</center>
+</body>
+</html>

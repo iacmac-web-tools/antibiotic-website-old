@@ -1,0 +1,389 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Страчунский Л.С., Козлов С.Н. Макролиды в современной клинической практике</title>
+<meta name="description" content="Страчунский Л.С., Козлов С.Н. Макролиды в современной клинической практике">
+<meta name="keywords" content="приложение, коммерческие диски, диски с макролидами, критерии интерпретации, интерпретация чувствительности, Страчунский, Козлов, макролиды">
+<link rel="StyleSheet" type="text/css" href="include/mcl.css">
+<style type="text/css">
+P	{text-align: justify;}
+UL {margin-top: 2px; margin-bottom: 1px; margin-left: 15px;}
+UL.f {margin-top: 8px; margin-bottom: 8px; margin-left: 20px; text-align: justify;}
+LI.l {margin-top: 2px; margin-bottom: 1px; margin-left: 20px;}
+</style>
+</head>
+
+<body class="main">
+
+<a name="1"></a><a name="p1_1"></a>
+<h3>ПРИЛОЖЕНИЕ</h3>
+
+<br>
+<h5>I. Коммерческие диски с макролидами</h5>
+
+<table border="0" cellpadding="0" cellspacing="2" width="100%"><tr><td class="border">
+<table border="0" cellpadding="5" cellspacing="1" width="100%">
+<tr>
+  <th width="5%">№</th>
+  <th width="20%">Антибиотик</th>
+  <th width="10%">Код</th>
+  <th width="15%">Содержание антибиотика в диске, мкг</th>
+  <th width="50%">Компания-изготовитель</th>
+</tr>
+<tr>
+  <td class="cc">1</td>
+  <td>Эритромицин</td>
+  <td>E</td>
+  <td class="cc">15</td>
+  <td>АО Ферейн, Россия<br>Sensi-Disc, Becton Dickinson, США<br>bioDiscs, bioMerieux, Франция<br>Oxoid, Великобритания</td>
+</tr>
+<tr>
+  <td class="cc">2</td>
+  <td>Олеандомицин</td>
+  <td>OL</td>
+  <td class="cc">15</td>
+  <td>АО Ферейн, Россия<br>Sensi-Disc, Becton Dickinson, США<br>bioDiscs, bioMerieux, Франция<br>Oxoid, Великобритания</td>
+</tr>
+<tr>
+  <td class="cc">3</td>
+  <td>Азитромицин</td>
+  <td>AZM</td>
+  <td class="cc">15</td>
+  <td>Sensi-Disc, Becton Dickinson, США</td>
+</tr>
+<tr>
+  <td class="cc">4</td>
+  <td>Рокситромицин</td>
+  <td>RO</td>
+  <td class="cc">15</td>
+  <td>Oxoid, Великобритания</td>
+</tr>
+<tr>
+  <td class="cc">5</td>
+  <td>Кларитромицин</td>
+  <td>CLR</td>
+  <td class="cc">15</td>
+  <td>Sensi-Disc, Becton Dickinson, США<br>Oxoid, Великобритания</td>
+</tr>
+<tr>
+  <td class="cc">6</td>
+  <td>Спирамицин</td>
+  <td>SP</td>
+  <td class="cc">100</td>
+  <td>Sensi-Disc, Becton Dickinson, США<br>bioDiscs, bioMerieux, Франция<br>Oxoid, Великобритания</td>
+</tr>
+<tr>
+  <td class="cc">7</td>
+  <td>Мидекамицин</td>
+  <td>MID</td>
+  <td class="cc">30</td>
+  <td>Showa Yakuhin Kako Co., Япония</td>
+</tr>
+</table>
+</td></tr></table>
+
+<a name="p1_2"></a><br><br>
+<h5>II. Критерии интерпретации чувствительности</h5>
+
+<p><b>А</b>. Критерии интерпретации чувствительности &quot;непривередливых&quot; микроорганизмов к макролидам на агаре Мюллер-Хинтон (инокулюм 0,5 McFarland, инкубация 35<sup>о</sup>С в обычной атмосфере в течение 16-18 часов)</p>
+
+<table border="0" cellpadding="0" cellspacing="2" width="100%"><tr><td class="border">
+<table border="0" cellpadding="5" cellspacing="1" width="100%">
+<tr>
+  <th width="20%" rowspan="2">Антибиотик</th>
+  <th width="20%" rowspan="2">Содержание антибиотика в диске, мкг</th>
+  <th width="30%" colspan="3">Диаметр зоны, мм</th>
+  <th width="20%" colspan="2">МПК, мг/л</th>
+  <th width="10%" rowspan="2">&nbsp;</th>
+</tr>
+<tr>
+  <th width="10%">Р</th>
+  <th width="10%">У/Р</th>
+  <th width="10%">Ч</th>
+  <th width="10%">Р</th>
+  <th width="10%">Ч</th>
+</tr>
+<tr>
+  <td>Эритромицин</td>
+  <td class="cc">15</td>
+  <td class="cc"><u>&lt;</u> 13</td>
+  <td class="cc">14-22</td>
+  <td class="cc"><u>&gt;</u> 23</td>
+  <td class="cc"><u>&gt;</u> 8</td>
+  <td class="cc"><u>&lt;</u> 0,5</td>
+  <td>NCCLS</td>
+</tr>
+<tr>
+  <td>Азитромицин</td>
+  <td class="cc">15</td>
+  <td class="cc"><u>&lt;</u> 13</td>
+  <td class="cc">14-17</td>
+  <td class="cc"><u>&gt;</u> 18</td>
+  <td class="cc"><u>&gt;</u> 8</td>
+  <td class="cc"><u>&lt;</u> 2</td>
+  <td>NCCLS</td>
+</tr>
+<tr>
+  <td>Кларитромицин</td>
+  <td class="cc">15</td>
+  <td class="cc"><u>&lt;</u> 13</td>
+  <td class="cc">14-17</td>
+  <td class="cc"><u>&gt;</u> 18</td>
+  <td class="cc"><u>&gt;</u> 8</td>
+  <td class="cc"><u>&lt;</u> 2</td>
+  <td>NCCLS</td>
+</tr>
+<tr>
+  <td>Диритромицин</td>
+  <td class="cc">15</td>
+  <td class="cc">&lt; 16</td>
+  <td class="cc">16-27</td>
+  <td class="cc"><u>&gt;</u> 28</td>
+  <td class="cc">&gt; 4</td>
+  <td class="cc"><u>&lt;</u> 0,12</td>
+  <td>SFM <a href="#ts_*">*</a></td>
+</tr>
+<tr>
+  <td>Рокситромицин</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&lt; 17</td>
+  <td class="cc">17-21</td>
+  <td class="cc"><u>&gt;</u> 22</td>
+  <td class="cc">&gt; 4</td>
+  <td class="cc"><u>&lt;</u> 1</td>
+  <td>SFM</td>
+</tr>
+<tr>
+  <td>Спирамицин</td>
+  <td class="cc">100</td>
+  <td class="cc">&lt; 19</td>
+  <td class="cc">19-23</td>
+  <td class="cc"><u>&gt;</u> 24</td>
+  <td class="cc">&gt; 4</td>
+  <td class="cc"><u>&lt;</u> 1</td>
+  <td>SFM</td>
+</tr>
+<tr>
+  <td>Джосамицин</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&lt; 19</td>
+  <td class="cc">19-23</td>
+  <td class="cc"><u>&gt;</u> 24</td>
+  <td class="cc">&gt; 4</td>
+  <td class="cc"><u>&lt;</u> 1</td>
+  <td>SFM</td>
+</tr>
+<tr>
+  <td>Мидекамицин</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&lt; 19</td>
+  <td class="cc">19-23</td>
+  <td class="cc"><u>&gt;</u> 24</td>
+  <td class="cc">&gt; 4</td>
+  <td class="cc"><u>&lt;</u> 1</td>
+  <td>SFM</td>
+</tr>
+</table>
+</td></tr></table>
+<a name="ts_*"></a>
+<p class="t8">* SFM - критерии Французского общества микробиологов (Societe Francaise de
+Microbiologie), 1996<br>Р - резистентны, У/Р - умеренно резистентны, Ч - чувствительны</p>
+<br><br>
+
+<p><b>Б</b>. Критерии интерпретации чувствительности <i>S.pneumoniae</i> и других стрептококков к макролидам на агаре Мюллер-Хинтон с 5% дефибринированной бараньей крови (инокулюм 0,5 McFarland, инкубация 35<sup>о</sup>С, 5% CO<sub>2</sub> в течение 20-24 часов)</p>
+
+<table border="0" cellpadding="0" cellspacing="2" width="100%"><tr><td class="border">
+<table border="0" cellpadding="5" cellspacing="1" width="100%">
+<tr>
+  <th width="20%" rowspan="2">Антибиотик</th>
+  <th width="20%" rowspan="2">Содержание антибиотика в диске, мкг</th>
+  <th width="30%" colspan="3">Диаметр зоны, мм</th>
+  <th width="20%" colspan="2">МПК, мг/л</th>
+  <th width="10%" rowspan="2">&nbsp;</th>
+</tr>
+<tr>
+  <th width="10%">Р</th>
+  <th width="10%">У/Р</th>
+  <th width="10%">Ч</th>
+  <th width="10%">Р</th>
+  <th width="10%">Ч</th>
+</tr>
+<tr>
+  <td>Эритромицин</td>
+  <td class="cc">15</td>
+  <td class="cc"><u>&lt;</u> 15</td>
+  <td class="cc">16-20</td>
+  <td class="cc"><u>&gt;</u> 21</td>
+  <td class="cc"><u>&gt;</u> 1</td>
+  <td class="cc"><u>&lt;</u> 0,25</td>
+  <td>NCCLS</td>
+</tr>
+<tr>
+  <td>Азитромицин</td>
+  <td class="cc">15</td>
+  <td class="cc"><u>&lt;</u> 13</td>
+  <td class="cc">14-17</td>
+  <td class="cc"><u>&gt;</u> 18</td>
+  <td class="cc"><u>&gt;</u> 2</td>
+  <td class="cc"><u>&lt;</u> 0,5</td>
+  <td>NCCLS</td>
+</tr>
+<tr>
+  <td>Кларитромицин</td>
+  <td class="cc">15</td>
+  <td class="cc"><u>&lt;</u> 16</td>
+  <td class="cc">17-20</td>
+  <td class="cc"><u>&gt;</u> 21</td>
+  <td class="cc"><u>&gt;</u> 1</td>
+  <td class="cc"><u>&lt;</u> 0,25</td>
+  <td>NCCLS</td>
+</tr>
+</table>
+</td></tr></table>
+<br><br>
+
+<p><b>В</b>. Критерии интерпретации чувствительности <i>H.influenzae</i> к макролидам на агаре НТМ (инокулюм 0,5&nbsp;McFarland, инкубация 35<sup>о</sup>С, 5% CО<sub>2</sub> в течение 16-18 часов)</p>
+
+<table border="0" cellpadding="0" cellspacing="2" width="100%"><tr><td class="border">
+<table border="0" cellpadding="5" cellspacing="1" width="100%">
+<tr>
+  <th width="20%" rowspan="2">Антибиотик</th>
+  <th width="20%" rowspan="2">Содержание антибиотика в диске, мкг</th>
+  <th width="30%" colspan="3">Диаметр зоны, мм</th>
+  <th width="20%" colspan="2">МПК, мг/л</th>
+  <th width="10%" rowspan="2">&nbsp;</th>
+</tr>
+<tr>
+  <th width="10%">Р</th>
+  <th width="10%">У/Р</th>
+  <th width="10%">Ч</th>
+  <th width="10%">Р</th>
+  <th width="10%">Ч</th>
+</tr>
+<tr>
+  <td>Эритромицин</td>
+  <td class="cc">15</td>
+  <td class="cc">&#150;</td>
+  <td class="cc">&#150;</td>
+  <td class="cc"><u>&gt;</u> 12</td>
+  <td class="cc">&#150;</td>
+  <td class="cc"><u>&lt;</u> 4</td>
+  <td>NCCLS</td>
+</tr>
+<tr>
+  <td>Кларитромицин</td>
+  <td class="cc">15</td>
+  <td class="cc"><u>&lt;</u> 10</td>
+  <td class="cc">11-12</td>
+  <td class="cc"><u>&gt;</u> 13</td>
+  <td class="cc"><u>&gt;</u> 32</td>
+  <td class="cc"><u>&lt;</u> 8</td>
+  <td>NCCLS</td>
+</tr>
+</table>
+</td></tr></table>
+<br><br>
+
+<p><b>Г</b>. Допустимые пределы диаметров зон подавления роста контрольных штаммов для макролидов на агаре Мюллер-Хинтон (инокулюм 0,5&nbsp;McFarland, инкубация 35<sup>о</sup>С в обычной атмосфере в течение 16-18 часов)</p>
+
+<table border="0" cellpadding="0" cellspacing="2" width="100%"><tr><td class="border">
+<table border="0" cellpadding="5" cellspacing="1" width="100%">
+<tr>
+  <th width="20%" rowspan="2">Антибиотик</th>
+  <th width="14%" rowspan="2">Содержание антибиотика в&nbsp;диске, мкг</th>
+  <th width="11%"><i>S.aureus</i> АТСС 25923</th>
+  <th width="11%"><i>S.aureus</i> АТСС 29213</th>
+  <th width="22%" colspan="2"><i>H.influenzae</i><br>АТСС<br>49247</th>
+  <th width="22%" colspan="2"><i>S.pneumoniae</i><br>АТСС<br>49619</th>
+</tr>
+<tr>
+  <th width="11%"><img src="images/diam.gif" width="11" height="10" border="0" alt="диаметр"> зоны, мм</th>
+  <th width="11%">МПК, мг/л</th>
+  <th width="11%"><img src="images/diam.gif" width="11" height="10" border="0" alt="диаметр"> зоны, мм</th>
+  <th width="11%">МПК, мг/л</th>
+  <th width="11%"><img src="images/diam.gif" width="11" height="10" border="0" alt="диаметр"> зоны, мм</th>
+  <th width="11%">МПК, мг/л</th>
+</tr>
+<tr>
+  <td>Эритромицин</td>
+  <td class="cc">15</td>
+  <td class="cc">22-30</td>
+  <td class="cc">0,25-1</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">25-30</td>
+  <td class="cc">0,03-0,12</td>
+</tr>
+<tr>
+  <td>Азитромицин</td>
+  <td class="cc">15</td>
+  <td class="cc">21-26</td>
+  <td class="cc">0,5-2</td>
+  <td class="cc">13-21</td>
+  <td class="cc">1-4</td>
+  <td class="cc">19-25</td>
+  <td class="cc">0,06-0,25</td>
+</tr>
+<tr>
+  <td>Кларитромицин</td>
+  <td class="cc">15</td>
+  <td class="cc">26-32</td>
+  <td class="cc">0,12-0,5</td>
+  <td class="cc">11-17</td>
+  <td class="cc">4-16</td>
+  <td class="cc">25-31</td>
+  <td class="cc">0,03-0,12</td>
+</tr>
+<tr>
+  <td>Диритромицин</td>
+  <td class="cc">15</td>
+  <td class="cc">18-26</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">18-25</td>
+  <td class="cc">0,06-0,25</td>
+</tr>
+<tr>
+  <td>Спирамицин <a href="#ts1">*</a></td>
+  <td class="cc">100</td>
+  <td class="cc">25-27</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+  <td class="cc">&nbsp;</td>
+</tr>
+</table>
+</td></tr></table>
+<a name="ts1"></a>
+<p class="t8">* Критерии для всех макролидов, кроме спирамицина, приведены в соответствии со стандартами NCCLS (1997), критерии для спирамицина разработаны SFM (1996)</p>
+
+<br>
+<!--counters-->
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+<tr>
+  <td align="left" valign="bottom" style="vertical-align:bottom;"><font class="t8">&copy; 2000-2007 <a target="_blank" href="../../copyright.php.html">НИИАХ СГМА</a></font></td>
+  <td align="right">
+<!--Rambler 1x1--><a href="http://top100.rambler.ru/top100/"><img src="../../top100.cnt.gif?335834" alt="Rambler's Top100" width="1" height="1" border="0"></a><!--/Rambler 1x1-->
+
+<!--TopList--><a target="_top" href="http://top.list.ru/jump?from=96637"><img src="../../counter-1.gif?id=96637;t=58" border="0" height="31" width="88" alt="TopList"></a><!--/TopList-->
+
+<!--Rambler--><a href="http://top100.rambler.ru/top100/" target="_blank"><img src="../../top100/banner-88x31-rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a><!--/Rambler-->
+
+<br><!--RAX--><script language="JavaScript"><!--
+document.write('<a href="http://www.rax.ru/click" '+
+'target=_blank><img src="http://counter.yadro.ru/hit?t26.11;r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';'+Math.random()+
+'" alt="rax.ru: показано число посетителей за сегодн\я" '+
+'border=0 width=88 height=15></a>')//--></script><!--/RAX-->
+  </td>
+</tr>
+</table>
+<!--/counters-->
+
+</body>
+</html>

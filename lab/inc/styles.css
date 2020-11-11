@@ -1,0 +1,288 @@
+body {
+margin: 0; padding: 0;
+background: #F5F8FF; background-color:#F5F8FF;
+}
+
+body, p, td, th, ul, ol, li, table, input, textarea {
+font: 13px "Trebuchet MS", Arial, sans-serif;
+color: #0A539C;/*202040*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+margin-top: 0; margin-bottom: 0.6em;
+color: #054da1;
+background-color:transparent;
+}
+
+h1, h2 {text-align: center;}
+h3, h4, h5, h6 {text-align: left;}
+
+h1, .h1 {
+font: normal 20px "Trebuchet MS", Arial, sans-serif;
+}
+h2, .h2 {
+font: normal 18px "Trebuchet MS", Arial, sans-serif;
+}
+h3, .h3 {
+font: bold 15px "Trebuchet MS", Arial, sans-serif;
+}
+h4, .h4 {
+font: bold 13px "Trebuchet MS", Arial, sans-serif;
+}
+h5, .h5 {
+font: bold 12px "Trebuchet MS", Arial, sans-serif;
+}
+h6, .h6 {
+font: bold 11px "Trebuchet MS", Arial, sans-serif;
+}
+
+form {
+margin: 0;
+}
+
+small, .small {font: normal 11px Verdana, Arial, sans-serif;}
+
+dl {margin-top: 0;}
+dt {font-weight: bold; margin-bottom: 0.5em;}
+dd {margin-left: 30px; margin-bottom: 1em; line-height: 150%;}
+
+hr {color:#999999; margin-top:2px; margin-bottom:2px;}
+
+blockquote {margin-top:1px; margin-bottom:1px;}
+
+pre {font-family:Courier New,Courier,monospace; font-size:10pt; line-height:150%;}
+
+a, a:link, .link {color: #0033bc; } /* text-decoration: none; */
+a.nu {text-decoration: none;}
+a.nc {color: #222222; text-decoration: none;}
+a:visited {color: #3500bc; } /* text-decoration: none; */
+a:hover {color: #cc0000; text-decoration: underline;}
+a.nu:hover {text-decoration: none;}
+
+p, li {font-size:100%; line-height:140%;}
+
+p {margin-left:1px; margin-right:1px; margin-top:8px; margin-bottom:6px;}
+
+ul {
+margin-left: 1.8em;
+padding-left: 0px;
+}
+ol {
+margin-left: 2.2em;
+padding-left: 0px;
+}
+li {
+margin-left: 0; padding-left: 0.4em; margin-top: 0; margin-bottom: 0.5em;
+}
+ol li {
+padding-left: 0;
+}
+ul.tbl {
+margin-top: 0; margin-bottom: 0.1em; margin-left: 1.5em; padding-left: 0px;
+}
+ul.tbl li {
+margin-top: 0; margin-bottom: 0.1em; margin-left: 0; padding-left: 0px;
+}
+
+table.border {border-collapse:collapse;}
+table.border td, table.border th {border: 1px solid #bcc1df;}
+
+th {
+text-align: center;
+font-weight: normal;
+background: #f1f5fe url(../img/bgth.gif) repeat-x;
+} /*background-color:#F1F5FE;*/
+
+td.top {vertical-align:top;}
+td.tab {padding-left:22px;}
+
+.l, .t8 {text-align:left;}
+.r, .r8 {text-align:right;}
+.c, .c8 {text-align:center;}
+.j, .j8, .aj {text-align:justify;}
+.a, .aj {text-indent:28px;}
+
+.t8, .c8, .r8, .j8 {font-size:8pt;}
+.arial {font-family:Arial,sans-serif;}
+.serif {font-family: Times, serif; font-size:12pt;}
+
+.normal {font-style:normal; font-weight:normal; font-size:8pt;}
+.red {color:#FF0000;}
+.note {color:#666666;}
+.note_block {margin-top: 6px; margin-left: 15px; text-indent:-12px; color: #666666; }
+
+#line_brd {border-bottom: 1px solid #4D82BE;} /* 10715D */
+
+img.border {
+  border-top: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC;
+  border-bottom: 1px solid #666666; border-right: 1px solid #666666;
+}
+.cute {
+  background-image: url(../img/cute.gif);
+  background-repeat: no-repeat;
+}
+
+form {margin: 0px 0px 0px 0px;}
+select,input,textarea {font-size:13px;}
+
+/* неиспользуемые */
+sup.sn {font-style:normal; font-weight:normal; font-size:8pt; color:#666666;}
+.br {margin-top:3px; margin-bottom:3px;}
+#line_gray {border-bottom: 1px solid #CCCCCC; margin-bottom:4px;}
+#line_green {border-bottom: 2px solid #BDB160; padding-bottom:6px; margin-bottom:12px;}
+.line_dashed {border-bottom: 1px dashed #10715D; margin-bottom:12px;}
+
+#outer {
+background: #ffffff url(../img/bg.gif);
+text-align: center;
+padding-bottom: 10px;
+}
+
+#container {
+text-align: left;
+background: #ffffff;
+border: 1px solid #bcc1df;
+width: 786px;
+margin-left: auto;
+margin-right: auto;
+margin: 0 auto;
+margin-bottom: 5px;
+padding: 0;
+}
+
+#header {
+display: block;
+padding: 0; margin: 0;
+}
+
+#topimage {
+padding: 0; margin: 0;
+display: block;
+height: 110px;
+background: url(../img/topimage.jpg) no-repeat;
+}
+
+#maintext {
+padding: 15px; padding-left: 50px; padding-right: 50px;
+float: none;
+}
+
+#under {
+display: block;
+color: #333333;
+padding: 5px;
+border-top: 1px solid #F0F4FE;
+font: normal 11px Verdana, Arial, sans-serif;
+background: #ebeffa url(../img/bgu.gif) repeat-x;
+}
+
+
+/* ------- menu ------- */
+
+#topmenu {
+background: #f5f8ff;
+display: block;
+height: 28px;
+text-align:left;
+border-top: 1px solid #e8eefc;
+border-bottom: 1px solid #bcc1df;
+padding: 0; padding-bottom:-3px;
+background: #ebeffa url(../img/bgtm.gif) repeat-x;
+}
+
+#nav, #nav ul {
+/*	float: left;*/
+	list-style: none;
+	line-height: normal;
+	background: #f5f8ff;
+	padding: 0;
+/*	border-width: 0 0 0 0;*/
+/*  border-bottom: 1px solid #CCCCCC;*/
+	border: 1px solid #f5f8ff;
+	border-top: 1px solid #FDFDFF;
+	margin: 0; /* 0 0 1em 0 */
+/*  margin-left:5px;*/
+
+font: normal 11px Verdana, Arial, sans-serif;
+}
+
+#nav a {
+	display: block;
+	width: auto; /* 150 auto */
+/*	w\idth: 90px;*/
+	color: #2E4CA0;
+	text-decoration: none;
+	padding: 6px;
+  background: #f5f8ff;
+	border: 1px solid #f5f8ff;
+  line-height: normal;
+/*	border-width: 0 0 0 0;*/
+background: #ebeffa url(../img/bgtm.gif) repeat-x;
+}
+
+#nav a:hover {
+background: #ffffff;
+color: #3333ff;
+border: 1px solid #333333;
+}
+
+#nav li {
+	float: left;
+	padding: 0;
+  margin: 0;
+/*	border-right: 1px solid #E8EEFC;*/
+	font: normal 11px Verdana, Arial, sans-serif;
+/*	width: 150px;*/ /* косяк в мозилле */
+}
+
+#nav li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 200px; /* 148 150 */
+/*	w\idth: 90px;*/
+/*	border-width: 1px;*/
+border: 1px solid #bcc1df;
+	margin: 0;
+}
+
+#nav li ul.long {
+	width: 300px;
+}
+#nav li ul li {
+	float: none;
+}
+
+#nav li li {
+/*	padding-right: 10px;*/
+	width: 148px; /* 148 */
+	border-right: none;
+}
+
+#nav li ul a {
+	width: 186px; /* 148 */
+/*	w\idth: 9em;*/
+}
+#nav li ul.long a {
+	width: 286px; /* 148 */
+/*	w\idth: 9em;*/
+}
+
+#nav li ul ul {
+	position:absolute;
+  margin: -2.5em 0 0 148px; /* 148 */
+}
+
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {
+	left: -999em;
+}
+
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul {
+	left: auto;
+}
+
+#nav li:hover, #nav li.sfhover {
+/*	background: #FFFFFF;*/
+}
+
+/* ------- menu ------- */

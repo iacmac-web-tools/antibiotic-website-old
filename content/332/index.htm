@@ -1,0 +1,1280 @@
+
+
+
+
+<!- exp2 !->
+<html>
+<head>
+
+<title>Экспедиции.ру - Вакансия врача в экспедицию </title>
+<meta name="charset" content="windows-1251">
+<meta name="keywords" content="детский отдых, отдых на море, детский лагерь, летний детский лагерь, отдых детей, образовательный лагерь, летний отдых, детские экспедиции, экспедиции, молодежный отдых, активный отдых, отдых в Анапе, летний лагерь, экспедиция, каникулы, Белое море, Черное море, Байкал, Алтай, туризм, путешествия, конный поход">
+<meta name="description" content="Детский отдых. Детские экспедиции на Белое и Черное моря, озеро Байкал, горный Алтай, и другие.">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta content=no-cache http-equiv=pragma>
+<meta content=no-cache http-equiv=cache-control>
+<meta content=0 http-equiv=expires>
+<base href='http://www.expeditions.ru/'>
+
+<script src="/design/lx.js"></script>
+
+<script>
+self.tm=new Array();
+self.menu=new Array();
+self.submenu=new Array();
+self.cont=new Array();
+
+fakeAbsolute=false;
+
+isDOM=document.getElementById?true:false
+isOpera=isOpera5=window.opera && isDOM
+isOpera6=isOpera && window.print
+isOpera7=isOpera && document.readyState
+isMSIE=isIE=document.all && document.all.item && !isOpera
+isStrict=document.compatMode=='CSS1Compat'
+isNN=isNC=navigator.appName=="Netscape"
+isNN4=isNC4=isNN && !isDOM
+isMozilla=isNN6=isNN && isDOM
+
+if (isMSIE) fakeAbsolute=true;
+
+
+function cancelCloseMenu(id)
+{
+ self.cont[id]++;
+ if(self.tm[id])
+ {
+  clearTimeout(self.tm[id]);
+ }
+}
+
+function initiateHideMenu(id)
+{
+ self.cont[id]--;
+ if (self.cont[id]<=0)
+ {
+  tm[id]=setTimeout("hideMenu("+id+")",1000);
+ }
+}
+
+function hideMenu(id)
+{
+ submenu[id].hide();
+}
+
+function showMenu(id)
+{
+ if (self.cont[id]) {} else {self.cont[id]=0;}
+ prosvet=0; // между меню и субменю
+
+ is=9;
+ if (is>0)
+ {
+  if (is<1000) {} else {is=1;}
+ }
+ else
+ {
+  is=1;
+ }
+
+
+ for (i=1;i<=is;i++)
+ {
+  if (i!=id)
+  {
+   if (self.submenu[i]) hideMenu(i);
+  }
+ }
+ if(!self.menu[id] || !self.submenu[id])
+ {
+  menu[id]=layer("menulayer"+id);
+  submenu[id]=layer("submenulayer"+id);
+ }
+ cancelCloseMenu(id);
+ x=menu[id].getAbsoluteLeft();
+ y=menu[id].getAbsoluteTop() + menu[id].getHeight() + prosvet;
+
+ if (fakeAbsolute)
+ {
+  x=0;
+  y=menu[id].getHeight() + prosvet;
+ }
+
+ submenu[id].moveTo(x, y);
+ submenu[id].show(id);
+}
+
+</script>
+
+<style>
+ table
+ {
+  font-size:12px;
+ }
+
+ .inTheme
+ {
+  color:#ffffff;
+  font-size:11px;
+  font-weight:bold;
+  background-color:#004b7d;
+ }
+
+ input  {
+        background : #e0e0e0;
+        border : 1px solid #808080;
+        font-size : 14;
+        color : #000000;
+        font-family : Arial;
+        text-align : left;
+ }
+
+ .butt  {
+        background : #d0d0d0;
+        border : 1px solid #808080;
+        font-size : 12;
+        color : #707070;
+        font-family : Tahoma;
+        cursor:hand;
+        text-align : center;
+ }
+
+ .butt1  {
+        background : #d0d0d0;
+        border : 1px solid #808080;
+        font-size : 12;
+        color : #707070;
+        font-family : Tahoma;
+        cursor:hand;
+        text-align : center;
+ }
+
+ .hidden {display: none; visibility: hidden;}
+ .visible {display: inline; visibility: visible;}
+
+ a:link {text-decoration:none; color:#004bc8;}
+ a:visited {text-decoration:none;color:#004bc8;}
+ a:active {text-decoration:none;color:#004bc8;}
+ a:hover {color:#004bc8;text-decoration:underline;}
+
+
+body
+{
+ scrollbar-face-color: #e3e3e3;
+ scrollbar-shadow-color: #808080;
+ scrollbar-3dlight-color: #e0e0e0;
+ scrollbar-darkshadow-color: #404040;
+ scrollbar-highlight-color: #f0f0f0;
+ scrollbar-track-color: #f8f8f8;
+ scrollbar-arrow-color: #000000;
+ font-family:"Arial";
+}
+
+</style>
+
+</head>
+
+<body leftmargin=0 rightmargin=0 topmargin=0 bottommargin=0 bgcolor=#004b7d>
+<center>
+<table width='950' height=100% cellpadding=0 cellspacing=0 marginwidth=0 style='margin:0px;'>
+<!- -- HEADER -- -!>
+ <tr height=24>
+  <td align=center class=inTheme style='font-size:13px;' background='content/headers/titlebg.gif'>
+   <font color='#000000'>Региональный фонд поддержки научных и образовательных программ «Фонд Биологических Исследований»</font>
+  </td>
+ </tr>
+ <tr height=165>
+  <td>
+   <table width=100% height=165 cellpadding=0 cellspacing=0 marginwidth=0 style='margin:0px;' background='img/headerbg.gif'>
+    <tr>
+     <td background1='content/headers/common.jpg' style='font-size:13px; background:url(content/headers/common.jpg) no-repeat;'>
+      <a href='home/'><img src='content/headers/logo.gif' border=0><br></a>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr height=32>
+  <td bgcolor=#e3e3e3>
+   <table width=100% height=1 cellpadding=0 cellspacing=0 marginwidth=0 bgcolor=#a0a0a0>
+   <tr><td><img src='img/empty.gif' width=1 height=1 border=0><br></td></tr></table>
+   <table width=100% height=30 cellpadding=0 cellspacing=0 marginwidth=0 style='margin:0px;font-size:11px;font-weight:bold;font-family:"Arial";' background='content/headers/menubg.gif'>
+    <tr>
+          <td width=2><img src='img/sep.gif' width=2 height=30 border=0><br></td>
+     <td align=center width=104.5
+      id="menulayer1" style="position: relative;" onmouseover="showMenu(1); return true" onmouseout="initiateHideMenu(1); return true"
+     >
+      <a href='home/'><font color=black>Главная</font></a>
+
+      <div id="submenulayer1" style="position: absolute; visibility: hidden;"></div>
+
+     </td>
+     <td width=5><img src='img/sep.gif' width=5 height=30 border=0><br></td>
+
+     <td align=center width=104.5
+      id="menulayer2" style="position: relative;" onmouseover="showMenu(2); return true" onmouseout="initiateHideMenu(2); return true"
+     >
+      <a href='content/texts/1/'><font color=black>Состоявшиеся экспедиции</font></a>
+
+      <table width=104.5 cellpadding=3 cellspacing=1 border=0 bgcolor=#000000 id="submenulayer2" style="position: absolute; visibility: hidden;">
+<tr><td bgcolor=#ecfafa onmouseover='cancelCloseMenu(2); return true' onmouseout='initiateHideMenu(2); return true'
+ style='margin:0px;font-size:11px;font-family:"Arial";'
+ align=center
+>
+<a href='content/121/' onmouseover='cancelCloseMenu(2); return true' onmouseout='initiateHideMenu(2); return true'><b>Фотографии из экспедиций</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/292/' onmouseover='cancelCloseMenu(2); return true' onmouseout='initiateHideMenu(2); return true'><b>Видео из экспедиций</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/55/' onmouseover='cancelCloseMenu(2); return true' onmouseout='initiateHideMenu(2); return true'><b>Статьи и рассказы участников.</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/328/' onmouseover='cancelCloseMenu(2); return true' onmouseout='initiateHideMenu(2); return true'><b>Отчеты о научно-практических программах</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/169/' onmouseover='cancelCloseMenu(2); return true' onmouseout='initiateHideMenu(2); return true'><b>Белое море.   Экспедиции  2002-2010</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/11/' onmouseover='cancelCloseMenu(2); return true' onmouseout='initiateHideMenu(2); return true'><b>Большой Утриш экспедиции 2001-2008</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/212/' onmouseover='cancelCloseMenu(2); return true' onmouseout='initiateHideMenu(2); return true'><b>Северное сияние 2008</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/240/' onmouseover='cancelCloseMenu(2); return true' onmouseout='initiateHideMenu(2); return true'><b>Сары-Челек 2008</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/110/' onmouseover='cancelCloseMenu(2); return true' onmouseout='initiateHideMenu(2); return true'><b>Байкал 2005</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/201/' onmouseover='cancelCloseMenu(2); return true' onmouseout='initiateHideMenu(2); return true'><b>Новый год под северным сиянием</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/19/' onmouseover='cancelCloseMenu(2); return true' onmouseout='initiateHideMenu(2); return true'><b>Старица 2002</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br>
+</td></tr>
+</table>
+
+
+     </td>
+     <td width=5><img src='img/sep.gif' width=5 height=30 border=0><br></td>
+
+     <td align=center width=104.5
+      id="menulayer3" style="position: relative;" onmouseover="showMenu(3); return true" onmouseout="initiateHideMenu(3); return true"
+     >
+      <a href='content/texts/2/'><font color=black>Экспедиции для детей на 2020</font></a>
+
+      <table width=104.5 cellpadding=3 cellspacing=1 border=0 bgcolor=#000000 id="submenulayer3" style="position: absolute; visibility: hidden;">
+<tr><td bgcolor=#ecfafa onmouseover='cancelCloseMenu(3); return true' onmouseout='initiateHideMenu(3); return true'
+ style='margin:0px;font-size:11px;font-family:"Arial";'
+ align=center
+>
+<a href='content/156/' onmouseover='cancelCloseMenu(3); return true' onmouseout='initiateHideMenu(3); return true'><b>Экспедиция ПОЛЯРНЫЙ КРУГ (июль, август)</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/28/' onmouseover='cancelCloseMenu(3); return true' onmouseout='initiateHideMenu(3); return true'><b>Экспедиция Большой УТРИШ (август)</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/211/' onmouseover='cancelCloseMenu(3); return true' onmouseout='initiateHideMenu(3); return true'><b>Экспедиция Северное сияние  (Новогодние праздники)</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/30/' onmouseover='cancelCloseMenu(3); return true' onmouseout='initiateHideMenu(3); return true'><b>Экспедиция СТАРИЦА</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/350/' onmouseover='cancelCloseMenu(3); return true' onmouseout='initiateHideMenu(3); return true'><b>Каникулы на собачьих упряжках</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br>
+</td></tr>
+</table>
+
+
+     </td>
+     <td width=5><img src='img/sep.gif' width=5 height=30 border=0><br></td>
+
+     <td align=center width=104.5
+      id="menulayer4" style="position: relative;" onmouseover="showMenu(4); return true" onmouseout="initiateHideMenu(4); return true"
+     >
+      <a href='content/texts/229/'><font color=black>Экспедиции для взрослых</font></a>
+
+      <table width=104.5 cellpadding=3 cellspacing=1 border=0 bgcolor=#000000 id="submenulayer4" style="position: absolute; visibility: hidden;">
+<tr><td bgcolor=#ecfafa onmouseover='cancelCloseMenu(4); return true' onmouseout='initiateHideMenu(4); return true'
+ style='margin:0px;font-size:11px;font-family:"Arial";'
+ align=center
+>
+<a href='content/381/' onmouseover='cancelCloseMenu(4); return true' onmouseout='initiateHideMenu(4); return true'><b>Научно-образовательная экспедиция для студентов.</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br>
+</td></tr>
+</table>
+
+
+     </td>
+     <td width=5><img src='img/sep.gif' width=5 height=30 border=0><br></td>
+
+     <td align=center width=104.5
+      id="menulayer5" style="position: relative;" onmouseover="showMenu(5); return true" onmouseout="initiateHideMenu(5); return true"
+     >
+      <a href='content/texts/231/'><font color=black>Образовательные программы</font></a>
+
+      <table width=104.5 cellpadding=3 cellspacing=1 border=0 bgcolor=#000000 id="submenulayer5" style="position: absolute; visibility: hidden;">
+<tr><td bgcolor=#ecfafa onmouseover='cancelCloseMenu(5); return true' onmouseout='initiateHideMenu(5); return true'
+ style='margin:0px;font-size:11px;font-family:"Arial";'
+ align=center
+>
+<a href='content/386/' onmouseover='cancelCloseMenu(5); return true' onmouseout='initiateHideMenu(5); return true'>Летняя БиоШкола</a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br>
+</td></tr>
+</table>
+
+
+     </td>
+     <td width=5><img src='img/sep.gif' width=5 height=30 border=0><br></td>
+
+     <td align=center width=104.5
+      id="menulayer6" style="position: relative;" onmouseover="showMenu(6); return true" onmouseout="initiateHideMenu(6); return true"
+     >
+      <a href='content/texts/3/'><font color=black>Как принять участие</font></a>
+
+      <table width=104.5 cellpadding=3 cellspacing=1 border=0 bgcolor=#000000 id="submenulayer6" style="position: absolute; visibility: hidden;">
+<tr><td bgcolor=#ecfafa onmouseover='cancelCloseMenu(6); return true' onmouseout='initiateHideMenu(6); return true'
+ style='margin:0px;font-size:11px;font-family:"Arial";'
+ align=center
+>
+<a href='content/312/' onmouseover='cancelCloseMenu(6); return true' onmouseout='initiateHideMenu(6); return true'><b>Акция Позови с собой друзей!</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/334/' onmouseover='cancelCloseMenu(6); return true' onmouseout='initiateHideMenu(6); return true'>Вакансии персонала в детско-юношескую экспедицию</a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/72/' onmouseover='cancelCloseMenu(6); return true' onmouseout='initiateHideMenu(6); return true'>Как стать участником (для детей, Москва и МО)</a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/74/' onmouseover='cancelCloseMenu(6); return true' onmouseout='initiateHideMenu(6); return true'>Как стать участником (для детей, Россия кр.Москвы)</a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br>
+</td></tr>
+</table>
+
+
+     </td>
+     <td width=5><img src='img/sep.gif' width=5 height=30 border=0><br></td>
+
+     <td align=center width=104.5
+      id="menulayer7" style="position: relative;" onmouseover="showMenu(7); return true" onmouseout="initiateHideMenu(7); return true"
+     >
+      <a href='content/texts/75/'><font color=black>Полезная информация</font></a>
+
+      <table width=104.5 cellpadding=3 cellspacing=1 border=0 bgcolor=#000000 id="submenulayer7" style="position: absolute; visibility: hidden;">
+<tr><td bgcolor=#ecfafa onmouseover='cancelCloseMenu(7); return true' onmouseout='initiateHideMenu(7); return true'
+ style='margin:0px;font-size:11px;font-family:"Arial";'
+ align=center
+>
+<a href='content/196/' onmouseover='cancelCloseMenu(7); return true' onmouseout='initiateHideMenu(7); return true'><b>Курсы школы ПЕРВОЙ ПОМОЩИ</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/305/' onmouseover='cancelCloseMenu(7); return true' onmouseout='initiateHideMenu(7); return true'><b>Памятка для родителей</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/77/' onmouseover='cancelCloseMenu(7); return true' onmouseout='initiateHideMenu(7); return true'><b>Проезд железнодорожным транспортом</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/154/' onmouseover='cancelCloseMenu(7); return true' onmouseout='initiateHideMenu(7); return true'><b>Проезд к Биофаку МГУ</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/313/' onmouseover='cancelCloseMenu(7); return true' onmouseout='initiateHideMenu(7); return true'><b>Нормативные документы, правила и инструкции</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/76/' onmouseover='cancelCloseMenu(7); return true' onmouseout='initiateHideMenu(7); return true'><b>Общие сведения по клещевому энцефалиту</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/330/' onmouseover='cancelCloseMenu(7); return true' onmouseout='initiateHideMenu(7); return true'><b>Бешенство</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/252/' onmouseover='cancelCloseMenu(7); return true' onmouseout='initiateHideMenu(7); return true'><b>Погодные карты</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/54/' onmouseover='cancelCloseMenu(7); return true' onmouseout='initiateHideMenu(7); return true'><b>Карты и спутниковые снимки</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br><a href='content/247/' onmouseover='cancelCloseMenu(7); return true' onmouseout='initiateHideMenu(7); return true'><b>Проверка возможности организации радиосвязи</b></a><br>
+<img src='img/empty.gif' width=5 height=15 border=0><br>
+</td></tr>
+</table>
+
+
+     </td>
+     <td width=5><img src='img/sep.gif' width=5 height=30 border=0><br></td>
+
+     <td align=center width=104.5
+      id="menulayer8" style="position: relative;" onmouseover="showMenu(8); return true" onmouseout="initiateHideMenu(8); return true"
+     >
+      <a href='content/texts/6/'><font color=black>Контакты</font></a>
+
+      <div id="submenulayer8" style="position: absolute; visibility: hidden;"></div>
+
+     </td>
+     <td width=5><img src='img/sep.gif' width=5 height=30 border=0><br></td>
+
+     <td align=center width=114
+      id="menulayer9" style="position: relative;" onmouseover="showMenu(9); return true" onmouseout="initiateHideMenu(9); return true"
+     >
+      <a href='message/forum/'><font color=black>Форум</font></a>
+
+      <div id="submenulayer9" style="position: absolute; visibility: hidden;"></div>
+
+     </td>
+     <td width=5><img src='img/sep.gif' width=5 height=30 border=0><br></td>
+
+
+
+
+    </tr>
+   </table>
+   <table width=100% height=1 cellpadding=0 cellspacing=0 marginwidth=0 bgcolor=#a0a0a0>
+   <tr><td><img src='img/empty.gif' width=1 height=1 border=0><br></td></tr></table>
+  </td>
+ </tr>
+ <tr height=1>
+  <td bgcolor=#ffffff>
+   <img src='img/empty.gif' width=1 height=1 border=0><br>
+  </td>
+ </tr>
+<!- -- COLUMNS -- -!>
+ <tr valign=top>
+  <!- -- LEFT COLUMN -- -!>
+  <td>
+   <table width=100% height=100% cellpadding=0 cellspacing=0 border=0 style='margin:0px;'>
+    <tr valign=top>
+     
+     <td width=160 bgcolor=#e3e3e3>
+      <table width=100% cellpadding=0 cellspacing=0 marginwidth=0 style='margin:0px;'>
+       <tr valign=top>
+        <td width=10><img src='img/empty.gif' width=10 height=1 border=0><br></td>
+        <td align=center>
+         <img src='img/empty.gif' width=140 height=5 border=0><br>
+         <span style='font-size:16px;font-weight:bold;'>НОВОСТИ</span><br>
+         <img src='img/empty.gif' width=10 height=10 border=0><br>
+         <center><hr width=50%><img src='img/empty.gif' width=1 height=7 border=0><br><b>15 августа 2020</b><br><a href='content/news/102/'><font color=black>День открытых дверей в Федеральном детском эколого-биологическом центре <br>
+18 августа 2020 г. в 10:00<br></font></a><img src='img/empty.gif' width=1 height=10 border=0><br><center><hr width=50%><img src='img/empty.gif' width=1 height=7 border=0><br><b>06 августа 2020</b><br><a href='content/news/101/'><font color=black>Экспедиции `Полярный круг 2020` и `Белое море 2020` успешно завершены.<br></font></a><img src='img/empty.gif' width=1 height=10 border=0><br><center><hr width=50%><img src='img/empty.gif' width=1 height=7 border=0><br><b>06 сентября 2019</b><br><a href='content/news/100/'><font color=black>Все летние экспедиции проекта успешно завершены, участники вернулись домой. <br>
+С новым учебным годом друзья! <br>
+До новых встреч!<br>
+<br></font></a><img src='img/empty.gif' width=1 height=10 border=0><br><br>
+         <br>
+         <br>
+        </td>
+        <td width=10><img src='img/empty.gif' width=10 height=1 border=0><br></td>
+       </tr>
+              <tr height=30>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+        <td align=center background='content/headers/titlebg.gif'>
+         <font color=#000000><b><a href='http://www.expeditions.ru/content/121/'>Фото из экспедиций</a></b></font>
+        </td>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+       </tr>
+       <tr valign=top height=50>
+        <td width=10>&nbsp;</td>
+        <td align=center>
+         <img src='img/empty.gif' width='1' height='6' border='0'><br>
+
+
+<P align=center style="margin-top: 6; margin-bottom: 6"><SPAN style="FONT-WEIGHT: bold"><SPAN style="FONT-SIZE: 6pt; FONT-FAMILY: Arial"><FONT face=Tahoma color=#000000 size=1>Фото из экспедиции </FONT></SPAN></SPAN></P>
+
+ <Script Language="JavaScript">
+var imagesarr = new Array(
+ "http://www.expeditions.ru/content/photo/000.jpg",
+ "http://www.expeditions.ru/content/photo/010.jpg",
+ "http://www.expeditions.ru/content/photo/020.jpg",
+ "http://www.expeditions.ru/content/photo/030.jpg",
+ "http://www.expeditions.ru/content/photo/040.jpg",
+ "http://www.expeditions.ru/content/photo/050.jpg",
+ "http://www.expeditions.ru/content/photo/060.jpg",
+ "http://www.expeditions.ru/content/photo/070.jpg",
+ "http://www.expeditions.ru/content/photo/080.jpg",
+ "http://www.expeditions.ru/content/photo/110.jpg",
+ "http://www.expeditions.ru/content/photo/120.jpg",
+ "http://www.expeditions.ru/content/photo/130.jpg",
+ "http://www.expeditions.ru/content/photo/140.jpg",
+ "http://www.expeditions.ru/content/photo/160.jpg",
+ "http://www.expeditions.ru/content/photo/170.jpg",
+ "http://www.expeditions.ru/content/photo/200.jpg",
+ "http://www.expeditions.ru/content/photo/210.jpg",
+ "http://www.expeditions.ru/content/photo/220.jpg",
+ "http://www.expeditions.ru/content/photo/230.jpg") 
+
+
+</Script>
+<a href="http://www.expeditions.ru/content/121/">
+<Script Language="JavaScript"> 
+
+  var los = Math.floor(Math.random() * imagesarr.length)
+   document.write ("<Img border=0 Src='"+imagesarr[los]+"'>");
+
+</Script></a>
+
+
+
+<P align=center style="margin-top: 6; margin-bottom: 6"><SPAN style="FONT-WEIGHT: bold"><SPAN style="FONT-SIZE: 6pt; FONT-FAMILY: Arial"><FONT face=Tahoma color=#000000 size=1>Видео из экспедиции </FONT></SPAN></SPAN></P>  
+
+
+<p align="center" style="margin-top: 6; margin-bottom: 6"><a href="http://www.expeditions.ru/content/292/"><img border="0" src="http://www.expeditions.ru/content/photo/190.jpg" width="140" height="100"></a></p>
+
+
+
+
+         <br>
+        </td>
+       </tr>
+
+       <tr height=30>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+        <td align=center background='content/headers/titlebg.gif'>
+         <font color=#000000><b><a href='http://www.expeditions.ru/content/252/'>Прогноз погоды</a></b></font>
+        </td>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+       </tr>
+       <tr valign=top height=50>
+        <td width=10>&nbsp;</td>
+        <td align=center>
+         <P align=center style="margin-top: 5"><SPAN style="FONT-WEIGHT: bold"><SPAN style="FONT-SIZE: 6pt; FONT-FAMILY: Arial"><FONT face=Tahoma color=#000000 size=1>Погода в районах проведения экспедиций: </FONT></SPAN></SPAN></P>  
+      
+<P align=center style="margin-top: 8; margin-bottom: 0"><SPAN style="FONT-WEIGHT: bold"><SPAN style="font-size: 9pt; font-family: Arial; font-weight: bold"><FONT face=Tahoma color=#000000 size=2><A href="content/156/">Полярный круг</A></FONT></SPAN></SPAN></P>
+
+
+
+         <p style="margin-top: 8; margin-bottom: 0">
+
+
+
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="100"> <PARAM NAME=movie VALUE="http://img.gismeteo.ru/flash/100x100s.swf"> <param name="FlashVars" value="&city=22217&colorSet=moon"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF><embed src="http://img.gismeteo.ru/flash/100x100s.swf?&city=22217&colorSet=moon" quality="high" bgcolor="#FFFFFF" WIDTH="100" HEIGHT="100" NAME="100x100" ALIGN TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></OBJECT>
+
+
+
+
+<P align=center style="margin-top: 8; margin-bottom: 0"><SPAN style="FONT-WEIGHT: bold"><SPAN style="FONT-SIZE: 9pt; FONT-FAMILY: Arial"><FONT face=Tahoma color=#000000 size=2><A href="content/173/">Хибины</A></FONT></SPAN></SPAN></P>
+
+
+         <p style="margin-top: 8; margin-bottom: 0">
+
+
+<OBJECT classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0' WIDTH='100' HEIGHT='100'><PARAM NAME='movie' VALUE='http://img.gismeteo.ru/flash/100x100s.swf?city=22216&colorset=moon'><PARAM NAME='menu' VALUE='false'><param name='FlashVars' value='city=22216&colorset=moon'><PARAM NAME='quality' VALUE='high'><PARAM NAME='menu' VALUE='false'><PARAM NAME='bgcolor' VALUE='#FFFFFF'><embed src="http://img.gismeteo.ru/flash/100x100s.swf?city=22216&colorset=moon" menu="false" quality="high" bgcolor="#FFFFFF" WIDTH="100" HEIGHT="100" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></OBJECT>
+
+
+
+<P align=center style="margin-top: 8; margin-bottom: 0"><SPAN style="font-size: 9pt; font-family: Arial; font-weight: bold"><FONT face=Tahoma color=#000000 size=2><A href="content/26/">Байкал</A></FONT></SPAN></P>
+
+         <p style="margin-top: 8; margin-bottom: 0">
+
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="100"> <PARAM NAME=movie VALUE="http://img.gismeteo.ru/flash/100x100s.swf"> <param name="FlashVars" value="&city=30710&colorSet=moon"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF><embed src="http://img.gismeteo.ru/flash/100x100s.swf?&city=30710&colorSet=moon" quality="high" bgcolor="#FFFFFF" WIDTH="100" HEIGHT="100" NAME="100x100" ALIGN TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></OBJECT>
+
+<P align=center style="margin-top: 8; margin-bottom: 0"><SPAN style="font-size: 9pt; font-family: Arial; font-weight: bold"><FONT face=Tahoma color=#000000 size=2><A href="content/28/">Большой Утриш</A></FONT></SPAN></P>
+
+
+
+         <p style="margin-top: 8; margin-bottom: 0">
+
+
+
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="100"> <PARAM NAME=movie VALUE="http://img.gismeteo.ru/flash/100x100s.swf"> <param name="FlashVars" value="&city=37001&colorSet=moon"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF><embed src="http://img.gismeteo.ru/flash/100x100s.swf?&city=37001&colorSet=moon" quality="high" bgcolor="#FFFFFF" WIDTH="100" HEIGHT="100" NAME="100x100" ALIGN TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></OBJECT>
+
+
+<P align=center style="margin-top: 8; margin-bottom: 0"><SPAN style="font-size: 9pt; font-family: Arial; font-weight: bold"><FONT face=Tahoma color=#000000 size=2><A href="content/146/">Горный Алтай</A></FONT></SPAN></P>
+
+         <p style="margin-top: 8; margin-bottom: 0">
+
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="100" HEIGHT="100"> <PARAM NAME=movie VALUE="http://img.gismeteo.ru/flash/100x100s.swf"> <param name="FlashVars" value="&city=36052&colorSet=moon"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF><embed src="http://img.gismeteo.ru/flash/100x100s.swf?&city=36052&colorSet=moon" quality="high" bgcolor="#FFFFFF" WIDTH="100" HEIGHT="100" NAME="100x100" ALIGN TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></OBJECT>
+
+<img src='img/empty.gif' width='1' height='1' border='0'><br>
+
+
+
+         <br>
+        </td>
+       </tr>
+
+       <tr height=30>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+        <td align=center background='content/headers/titlebg.gif'>
+         <font color=#000000><b>Каталоги и ссылки</b></font>
+        </td>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+       </tr>
+       <tr valign=top height=50>
+        <td width=10>&nbsp;</td>
+        <td align=center>
+         <p align="center"><img src='img/empty.gif' width=0 height=4 border=0><br>
+
+</p>
+
+<p align="center"><A href="http://wsbs-msu.ru/"><IMG src="http://www.expeditions.ru/content/pics/230-c20774ba0a0b889ef4cd38d5a50fc189.gif" border=0 width="88" height="31"></A>
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+
+
+
+<A href="http://www.alba-tros.ru/" target=top><IMG src="http://www.expeditions.ru/content/pics/515-ff44ba9cd387819e30f7d269653f0ced.gif" border=0 width="88" height="31" alt="АЛЬБАТРОС - Техника для приключений"></a>
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+
+
+<A href="http://speckrepej.ru/" target=top><IMG src="http://www.expeditions.ru/content/pics/460-961fc0dd858592c42856cf286ae7cee4.gif" border=0 width="88" height="31 "alt="Метизы и крепеж из нержавеющей стали"></a>
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+
+<A href="http://www.megaservis.ru/" target=top><IMG src="http://www.expeditions.ru/content/pics/461-37b1c60c6a5e7c88bdec5130b75522d7.gif" border=0 width="88" height="31" alt="Радиостанции, антенны, GSM репитеры"></a>
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+
+
+<A href="http://www.moreman.ru/" target=top><IMG 
+src="http://www.expeditions.ru/content/pics/510-df9c57c518dc7cd825d7394293d680bb-small.gif" border=0 width="88" height="31" alt="Катера, яхты, надувные лодки и лодочные моторы"></a>
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+
+<A href="http://www.bolttop.ru/" target=top><IMG src="http://www.expeditions.ru/content/pics/511-c457b701bc7290d45e0781a420a66e8b.gif" border=0 width="88" height="31" alt="ТАКЕЛАЖ, ОСНАСТКА ДЛЯ ЯХТ"></a>
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+
+<A href="http://www.solarhome.ru/ru/index.htm" target=top><IMG src="http://www.expeditions.ru/content/pics/462-87d6725017d830e6bf7c0e520ee5428c.gif " border=0 width="88" height="66"alt="Ваш Солнечный Дом - разработка, продажа и установка систем автономного энергообеспечения на базе возобновляемых источников энергии "></a>
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+<A href="http://www.vvv.ru/cnt.php3?id=4274" target="_top"><img
+src="http://cnt.vvv.ru/cgi-bin/cnt?id=4274" width=88 height=31 border=0
+alt="Экстремальный портал VVV.RU"></a>
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+
+<A href="http://www.helicon.ru" target=top><img
+src="http://www.expeditions.ru/helicon.PNG" width=88 height=31 border=0
+alt="Оснащение исследовательских и медицинских лабораторий."></a></a>
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+
+<A href="http://moi-konservy.ru" target=top><img
+src="http://www.expeditions.ru/content/pics/634-564ad03f583c4de20f26a1e5f5c1204b.jpg" width=88 height=44 border=0
+alt="Лучшие консервы из мяса в одном месте"></a></a>
+
+<img src='img/empty.gif' width=1 height=1 border=0>
+
+         <br>
+        </td>
+       </tr>
+
+
+      </table>
+     </td>
+
+     <td width=1 bgcolor=#a0a0a0>
+      <img src='img/empty.gif' width=1 height=1 border=0><Br>
+     </td>
+     
+     <!- -- CENTRAL COLUMN -- -!>
+     <td align=center bgcolor=#ffffff>
+      <table width=100% cellpadding=0 cellspacing=0 marginwidth=0 style='margin:0px;'>
+       <tr valign=top>
+       <td width=10><img src='img/empty.gif' width=10 height=1 border=0><br></td>
+        <td>
+         <img src='img/empty.gif' width=1 height=5 border=0><br>
+         <h1 style="margin-top: 0; margin-bottom: 0" align="center">
+&nbsp;</h1>
+<h1 style="margin-top: 0; margin-bottom: 0" align="center">
+<font size="4" face="Tahoma">Требуются врачи в детско-юношеские экспедиции</font></h1>
+<h1 style="margin-top: 0; margin-bottom: 0" align="center">
+<font size="4" face="Tahoma"><a href="http://www.expeditions.ru/content/156/">«Полярный круг»</a> 
+и <a href="http://www.expeditions.ru/content/147/">«Горный Алтай» </a></font></h1>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">&nbsp;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma"><b>Сроки<span lang="ru"> проведения экспедиции</span>:</b>&nbsp;
+</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">&nbsp;</font></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;" align="left"><font face="Tahoma">детско-юношеская экспедиция «Полярный круг»:&nbsp;&nbsp; 03 июля – 29 июля 2014 г.</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0"><font face="Tahoma">детско-юношеская 
+экспедиция «Полярный круг»:&nbsp; 29 июля – 26 августа 2014 г.</font></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;" align="left"><span style="font-family: Tahoma;">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0"><b>
+<font face="Tahoma">Требования:</font></b></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">&nbsp;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">Стаж лечебной работы от 1 года;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">Возраст от 25 до <span lang="ru">45</span> лет;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">Хорошее физическое состояние.</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">&nbsp;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0"><b>
+<font face="Tahoma">Обязанности:</font></b></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">&nbsp;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">Контроль состояния здоровья участников экспедиции; </font>
+</p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">Оказание медицинской помощи заболевшим участникам экспедиции;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">Организация госпитализации больных;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">Контроль соблюдения правил гигиены и санитарии; </font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">Проведение занятий по оказанию первой помощи;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">Сопровождение группы к месту проведения экспедиции и обратно.</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0"><span lang="ru">
+<font face="Tahoma"><b>Условия участия в экспедиции:</b> </font></span></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0"><span lang="ru">
+<font face="Tahoma">по результатам собеседования.</font></span></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma"><span lang="EN-US">&nbsp;</span></font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0"><b>
+<font face="Tahoma"><span lang="EN-US">Контакты:</span></font></b></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">&nbsp;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0"><font face="Tahoma">+7-<span lang="EN-US">926-057-1000</span></font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0"><font face="Tahoma"><span lang="EN-US">expeditions@list.ru</span></font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">&nbsp;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">&nbsp;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">&nbsp;</font></p>
+<p class="MsoNormal" style="margin-top: 0; margin-bottom: 0">
+<font face="Tahoma">&nbsp;</font></p>
+
+
+
+
+
+         <br><br>
+        </td>
+       <td width=10><img src='img/empty.gif' width=10 height=1 border=0><br></td>
+       </tr>
+      </table>
+     </td>
+
+     <td width=1 bgcolor=#a0a0a0>
+      <img src='img/empty.gif' width=1 height=1 border=0><Br>
+     </td>
+
+     <!- -- RIGHT COLUMN -- -!>
+     <td width=160 bgcolor=#e0e0e0>
+      <table width=100% height=100% cellpadding=0 cellspacing=0 marginwidth=0 style='margin:0px;'>
+       <tr valign=top>
+        <td width=10>&nbsp;</td>
+        <td>
+         <img src='img/empty.gif' width=140 height=5 border=0><br>
+         
+         <br><br>
+        </td>
+        <td width=10>&nbsp;</td>
+       </tr>
+       <tr height=30>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+        <td align=center background='content/headers/titlebg.gif'>
+         <a href='user/reg/'><font color=#000000><b>Общение</b></font></a>
+        </td>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+       </tr>
+       <tr valign=top>
+        <td width=10>&nbsp;</td>
+        <td>
+         <table width=100% border=0>
+<tr valign=middle>
+<td>&nbsp;</td>
+<form method='post' action='http://www.expeditions.ru/user/login/'>
+<td>
+<img src='img/empty.gif' width=5 height=5 border=0><br>
+ <table border=0>
+  <tr>
+   <td>Имя: </td><td><input name='lgn' style='background-color:#ffffff;color:#000000;' size=7></td>
+  </tr>
+  <tr>
+   <td>Код: </td><td><input name='pwd' type=password style='background-color:#ffffff;color:#000000;' size=7></td>
+  </tr>
+ </table>
+ <center>
+ <input type='submit' value='Войти на сайт !' class=butt1><br>
+ <a href='user/reg/'>Регистрация</a><br>
+ <a href='user/remind/'>Забыли пароль?</a><br>
+
+</td>
+</form>
+<td>&nbsp;</td>
+</tr>
+</table>
+
+         <br>
+         <br>
+         <br>
+        </td>
+        <td width=10>&nbsp;</td>
+       </tr>
+              <tr height=30>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+        <td align=center background='content/headers/titlebg.gif'>
+         <font color=#000000><b><a href='http://www.expeditions.ru/content/75/'>Полезная информация</a></b></font>
+        </td>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+       </tr>
+       <tr valign=top height=50>
+        <td width=10>&nbsp;</td>
+        <td align=center>
+         <!-- MPPSS trainer -->
+<a href="http://www.mppss.ru/" target=" _blank">
+<p align="center"><img src="http://www.expeditions.ru/img/mppss.gif" width="140" height="66" border="0" alt="МППСС тренажер"></a>
+<!-- MPPSS trainer end -->
+         <br>
+        </td>
+       </tr>
+
+       <tr height=30>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+        <td align=center background='content/headers/titlebg.gif'>
+         <font color=#000000><b><a href='http://www.expeditions.ru/content/131/'>Наши друзья</a></b></font>
+        </td>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+       </tr>
+       <tr valign=top height=50>
+        <td width=10>&nbsp;</td>
+        <td align=center>
+         <img src='img/empty.gif' width='1' height='12' border='0'><br>
+
+
+
+<a href="http://www.wwf.ru" target="_blank"><img src="http://www.expeditions.ru/content/pics/425-0c51522a5ad53d242c97ff7f271ebd80.gif" width="100" height="100" border=0 alt="WWF Russia. "></a>
+
+<img src='img/empty.gif' width='1' height='6' border='0'><br>
+
+
+<A href="http://satellite-magazine.ru/" target="_blank"><IMG src="http://www.expeditions.ru/office/../content/pics/253-f0f003da21f2dc425bb625223a690409.gif" border=0></A>
+
+<img src='img/empty.gif' width='1' height='6' border='0'><br>
+
+
+<A href="http://vento.ru/"target="_blank"><IMG 
+
+src="http://www.expeditions.ru/content/pics/575-f78f7025d05bf32acee71eba74de1579.jpg"  alt="Магазин 
+
+туристического снаряжения" border=0></a>
+
+<img src='img/empty.gif' width=1 height=6 border=0><br>
+
+<a href="http://www.tk-turin.ru/" target="_blank"><img border="0" src="http://www.expeditions.ru/content/pics/574-521be3461be58ccd1fc2ccb547e5a0e8.jpg" alt="Магазин туристического снаряжения" border="0" width="100" height="100"></a>
+
+
+<img src='img/empty.gif' width=1 height=6 border=0><br>
+
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+WIDTH="100" HEIGHT="500" id="myMovieName">
+<param name="_cx" value="3175">
+<param name="_cy" value="15875">
+<param name="FlashVars" value>
+<param name="Movie" value="http://www.ifaw.org/flash/banners/120x600-betterWorld2_EN.swf?clickTAG=http://www.ifaw.org">
+<param name="Src" value="http://www.ifaw.org/flash/banners/120x600-betterWorld2_EN.swf?clickTAG=http://www.ifaw.org">
+<param name="WMode" value="Window">
+<param name="Play" value="0">
+<param name="Loop" value="-1">
+<param name="Quality" value="High">
+<param name="SAlign" value>
+<param name="Menu" value="-1">
+<param name="Base" value>
+<param name="AllowScriptAccess" value>
+<param name="Scale" value="ShowAll">
+<param name="DeviceFont" value="0">
+<param name="EmbedMovie" value="0">
+<param name="BGColor" value="FFFFFF">
+<param name="SWRemote" value>
+<param name="MovieData" value>
+<param name="SeamlessTabbing" value="1">
+<param name="Profile" value="0">
+<param name="ProfileAddress" value>
+<param name="ProfilePort" value="0">
+<param name="AllowNetworking" value="all">
+<param name="AllowFullScreen" value="false"><embed SRC="http://www.ifaw.org/flash/banners/120x600-betterWorld2_EN.swf?clickTAG=http://www.ifaw.org" quality="high" bgcolor="#FFFFFF" WIDTH="100" HEIGHT="500" NAME="myMovieName" ALIGN TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></OBJECT> 
+
+
+
+
+
+
+<img src='img/empty.gif' width='1' height='6' border='0'><br>
+
+
+
+
+
+         <br>
+        </td>
+       </tr>
+
+       <tr height=30>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+        <td align=center background='content/headers/titlebg.gif'>
+         <font color=#000000><b>Добавить сайт в:</b></font>
+        </td>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+       </tr>
+       <tr valign=top height=50>
+        <td width=10>&nbsp;</td>
+        <td align=center>
+         <p align="center"><img src='img/empty.gif' width=0 height=4 border=0><br>
+<head>
+  <meta http-equiv="Content-Language" content="ru">
+  <style type="text/css">
+    .tb_bookmarks img { vertical-align: middle; }
+    .tb_bookmarks span { vertical-align: middle; }
+    .tb_bookmarks a { text-decoration: none; }
+    .tb_bookmarks .add {
+      margin-top: 3px;
+      border: 1px solid #DCDCDC;
+      padding: 0px;
+      border-collapse: collapse;
+      background-color: #FFFFFF;
+    }
+    .tb_bookmarks .add th {
+      text-align: left;
+      border: 1px solid #DCDCDC;
+      padding: 3px;
+      background-color: #FEEEC2;
+    }
+    .tb_bookmarks .footnote {
+      text-align: right;
+      font-size: xx-small;
+      padding: 1px 6px 1px 1px;
+      background-color: #FEEEC2;
+    }
+  </style>
+</head>
+<script type="text/javascript">
+//<![CDATA[
+    var bmUrl = encodeURIComponent(location.href);
+    var bmTitle = encodeURIComponent(window.document.title);
+    var My_ClickTimeout = 0, My_PopUp = 0;
+    DeleteOn = new Image();
+    DeleteOn.src = "/images/DeleteOn.gif";
+    function getWindowRect() {
+        var de = document.documentElement,
+            db = document.body;
+        return {
+            "left": window.pageXOffset || (db &&
+            db.scrollLeft) || (de && de.scrollLeft),
+            "top": window.pageYOffset
+            || (db && db.scrollTop)
+            || (de && de.scrollTop),
+            "width": window.innerWidth || (de &&
+            de.clientWidth) ||
+            document.body.clientWidth,
+            "height": window.innerHeight || (de &&
+            de.clientHeight) ||
+            document.body.clientHeight
+        }
+    }
+    function getElementRect(elem) {
+        var l = 0, t = 0, w = elem.offsetWidth,
+            h = elem.offsetHeight;
+        while (elem) {
+            l += elem.offsetLeft;
+            t += elem.offsetTop;
+            elem = elem.offsetParent;
+        }
+        return { "left": l, "top": t, "width": w,
+            "height": h };
+    }
+   function setBookmarksPos(parent, target) {
+       target.style.top = '0';
+       target.style.left = '0';
+       var p = getElementRect(parent),
+           p1 = getElementRect(target),
+           s = getWindowRect(), h;
+       if (p.top + p.height + target.offsetHeight + 3 <
+           s.top + s.height)
+           h = p.top + p.height + 3; else
+           if (p.top - target.offsetHeight - 6 > s.top ||
+              (p.top - target.offsetHeight - 6 >= 0 &&
+              s.top - p.top + target.offsetHeight
+              + 6 < p.top + p.height +
+              target.offsetHeight + 3 - s.top - s.height))
+              h = p.top - target.offsetHeight - 6; else
+              h = p.top + p.height + 3;
+       target.style.top = (h - p1.top) + 'px';
+       target.style.left = (p.left - p1.left) - 3 + 'px';
+   }
+   function My_BookmarkOpen(This) {
+        if (My_ClickTimeout)
+            clearTimeout(My_ClickTimeout);
+        if (My_PopUp && My_PopUp !=
+            This.nextSibling)
+            My_PopUp.style.display = "none";
+        My_PopUp = This.nextSibling;
+        My_PopUp.style.display = "";
+        setBookmarksPos(This, My_PopUp);
+    }
+    function My_BookmarClose() {
+        My_ClickTimeout = setTimeout(
+            "My_PopUp.style.display=" +
+            "'none';My_PopUp=0;" +
+            "My_ClickTimeout=0",
+            300);
+    }
+    function __add_favourite(a, u, t) {
+        try {
+            window.external.AddFavorite(u, t);
+        }
+        catch (e) {
+            try {
+                window.sidebar.addPanel(t, u, "");
+            }
+            catch (e) {
+                if (typeof (opera) == "object")
+                {
+                    a.rel = "sidebar";
+                    a.title = t;
+                    a.url = u;
+                    return true;
+                } else {
+                    alert('Нажмите Ctrl-D чтобы' +                         'добавить страницу в' +                         'закладки');
+                }
+            }
+        }
+        return false;
+    }
+//]]>
+</script>
+<body>
+
+<div align="center">
+
+<table class="tb_bookmarks" border="0" cellspacing="0" cellpadding="0"><tr>
+    <td width="32" height="18"><a title="Добавить в Избранное" href="" onclick="return __add_favourite(this,bmUrl,bmTitle);"><img src="/images/Bookmarks/Favourite.png" alt="Избранное" style="border-width:0px;" /> </a></td>
+    <td height="18"><font face="Arial" size="2"><a title="Добавить в Избранное" href="" onclick="return __add_favourite(this,bmUrl,bmTitle);">
+	в Избранное</a></font></td></tr><tr>
+    <td width="32" height="18"><a title="ВКонтакте" href="" onclick="javascript:window.open('http://vkontakte.ru/share.php?url='+bmUrl,'Bookmarks'); return false;"><img title="ВКонтакте" src="/images/Bookmarks/Vkontakte.png" alt="ВКонтакте" style="border-width:0px;" /></a></td>
+    <td height="18"><font face="Arial" size="2"><a title="ВКонтакте" href="" onclick="javascript:window.open('http://vkontakte.ru/share.php?url='+bmUrl,'Bookmarks'); return false;">
+	ВКонтакте</a></font></td>
+</tr><tr>
+    <td width="32" height="18"><a title="Одноклассники.ru" href="" onclick="javascript:window.open('http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=0&st._surl='+bmUrl,'Bookmarks'); return false;"><img title="Одноклассники.ru" src="/images/Bookmarks/Odnoklassniki.png" alt="Одноклассники.ru" style="border-width:0px;" /></a></td>
+    <td height="18"><font face="Arial" size="2"><a title="Одноклассники.ru" href="" onclick="javascript:window.open('http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=0&st._surl='+bmUrl,'Bookmarks'); return false;">
+	Одноклассники.ру</a></font></td>
+</tr><tr>
+    <td width="32" height="18"><a title="Facebook" href="" onclick="javascript:window.open('http://www.facebook.com/sharer.php?u='+bmUrl,'Bookmarks'); return false;"><img title="Facebook" src="/images/Bookmarks/Facebook.png" alt="Facebook" style="border-width:0px;" /></a></td>
+    
+    <td height="18"><font face="Arial" size="2"><a title="Facebook" href="" onclick="javascript:window.open('http://www.facebook.com/sharer.php?u='+bmUrl,'Bookmarks'); return false;">
+	<span lang="en-us">Facebook</span></a></font></td>
+    
+</tr><tr>
+    <td width="32" height="18"><a title="Twitter" href="" onclick="javascript:window.open('http://twitter.com/home?status='+bmTitle+' - '+bmUrl,'Bookmarks'); return false;"><img title="Twitter" src="/images/Bookmarks/Twitter.png" alt="Twitter" style="border-width:0px;" /></a></td>
+    <td height="18"><font face="Arial" size="2"><a title="Twitter" href="" onclick="javascript:window.open('http://twitter.com/home?status='+bmTitle+' - '+bmUrl,'Bookmarks'); return false;">
+	<span lang="en-us">Twitter</span></a></font></td>
+</tr><tr>
+    <td width="32" height="18"><a title="Google" href="" onclick="javascript:window.open('https://www.google.com/bookmarks/mark?op=add&bkmk='+bmUrl+'&title='+bmTitle,'Bookmarks'); return false;"><img title="Google" src="/images/Bookmarks/Google.png" alt="Google" style="border-width:0px;" /></a></td>
+    
+    <td height="18"><font face="Arial" size="2"><a title="Google" href="" onclick="javascript:window.open('https://www.google.com/bookmarks/mark?op=add&bkmk='+bmUrl+'&title='+bmTitle,'Bookmarks'); return false;">
+	<span lang="en-us">Google</span></a></font></td>
+    
+</tr><tr>
+    <td width="32" height="18"><a title="Liveinternet" href="" onclick="javascript:window.open('http://www.liveinternet.ru/journal_post.php?action=n_add&cnurl='+bmUrl+'&cntitle='+bmTitle,'Bookmarks'); return false;"><img title="Liveinternet" src="/images/Bookmarks/Li.png" alt="Liveinternet" style="border-width:0px;" /></a></td>
+    
+    <td height="18"><font face="Arial" size="2"><a title="Liveinternet" href="" onclick="javascript:window.open('http://www.liveinternet.ru/journal_post.php?action=n_add&cnurl='+bmUrl+'&cntitle='+bmTitle,'Bookmarks'); return false;">
+	<span lang="en-us">LiveInternet</span></a></font></td>
+    
+</tr><tr>
+    <td width="32" height="18"><a title="Google Buzz" href="" onclick="javascript:window.open('http://www.google.com/reader/link?url='+bmUrl+'&title='+bmTitle,'Bookmarks'); return false;"><img title="Google Buzz" src="/images/Bookmarks/Buzz.png" alt="Google Buzz" style="border-width:0px;" /></a></td>
+    
+    <td height="18"><font face="Arial" size="2"><a title="Google Buzz" href="" onclick="javascript:window.open('http://www.google.com/reader/link?url='+bmUrl+'&title='+bmTitle,'Bookmarks'); return false;">
+	<span lang="en-us">Google Buzz</span></a></font></td>
+    
+</tr><tr>
+    <td width="32" height="18"><a title="LiveJournal" href="" onclick="javascript:window.open('http://www.livejournal.com/update.bml?event='+bmUrl+'&subject='+bmTitle,'Bookmarks'); return false;"><img title="LiveJournal" src="/images/Bookmarks/Livejournal.png" alt="LiveJournal" style="border-width:0px;" /></a></td>
+
+    <td height="18"><font face="Arial" size="2"><a title="LiveJournal" href="" onclick="javascript:window.open('http://www.livejournal.com/update.bml?event='+bmUrl+'&subject='+bmTitle,'Bookmarks'); return false;">
+	<span lang="en-us">LiveJournal</span></a></font></td>
+
+</tr></table>
+
+</div>
+
+</body>
+
+         <br>
+        </td>
+       </tr>
+
+
+       <tr height=30>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+        <td align=center background='content/headers/titlebg.gif'>
+         <font color=#000000><b>Счётчики</b></font>
+        </td>
+        <td width=10 background='content/headers/titlebg.gif'>&nbsp;</td>
+       </tr>
+       <tr valign=top height=150>
+        <td width=10>&nbsp;</td>
+        <td align=center>
+         <img src='img/empty.gif' width='1' height='16' border='0'><br>
+
+	
+<!-- HotLog -->
+<script type="text/javascript" language="javascript">
+hotlog_js="1.0"; hotlog_r=""+Math.random()+"&s=279865&im=301&r="+
+escape(document.referrer)+"&pg="+escape(window.location.href)+ "&title=" + escape(document.title);
+</script>
+<script type="text/javascript" language="javascript1.1">
+hotlog_js="1.1"; hotlog_r+="&j="+(navigator.javaEnabled()?"Y":"N");
+</script>
+<script type="text/javascript" language="javascript1.2">
+hotlog_js="1.2"; hotlog_r+="&wh="+screen.width+"x"+screen.height+"&px="+
+(((navigator.appName.substring(0,3)=="Mic"))?screen.colorDepth:screen.pixelDepth);
+</script>
+<script type="text/javascript" language="javascript1.3">
+hotlog_js="1.3";
+</script>
+<script type="text/javascript" language="javascript">
+hotlog_r+="&js="+hotlog_js;
+document.write('<a href="http://click.hotlog.ru/?279865" target="_blank"><img '+
+'src="http://hit20.hotlog.ru/cgi-bin/hotlog/count?'+
+hotlog_r+'" border="0" width="88" height="31" alt="HotLog"><\/a>');
+</script>
+<noscript>
+<a href="http://click.hotlog.ru/?279865" target="_blank"><img
+src="http://hit20.hotlog.ru/cgi-bin/hotlog/count?s=279865&im=301" border="0"
+width="88" height="31" alt="HotLog"></a>
+</noscript>
+<!-- /HotLog -->
+
+
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+<!--Rating@Mail.ru COUNTER--><script language="JavaScript" type="text/javascript"><!--
+d=document;var a='';a+=';r='+escape(d.referrer)
+js=10//--></script><script language="JavaScript1.1" type="text/javascript"><!--
+a+=';j='+navigator.javaEnabled()
+js=11//--></script><script language="JavaScript1.2" type="text/javascript"><!--
+s=screen;a+=';s='+s.width+'*'+s.height
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)
+js=12//--></script><script language="JavaScript1.3" type="text/javascript"><!--
+js=13//--></script><script language="JavaScript" type="text/javascript"><!--
+d.write('<a href="http://top.mail.ru/jump?from=928358"'+
+' target=_top><img src="http://top.list.ru/counter'+
+'?id=928358;t=170;js='+js+a+';rand='+Math.random()+
+'" alt="Рейтинг@Mail.ru"'+' border=0 height=15 width=88/><\/a>')
+if(11<js)d.write('<'+'!-- ')//--></script><noscript><a
+target=_top href="http://top.mail.ru/jump?from=928358"><img
+src="http://top.list.ru/counter?js=na;id=928358;t=170"
+border=0 height=15 width=88
+alt="Рейтинг@Mail.ru"/></a></noscript><script language="JavaScript" type="text/javascript"><!--
+if(11<js)d.write('--'+'>')//--></script><!--/COUNTER-->
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+
+<a href="http://www.yandex.ru/cy?base=0&host=www.expeditions.ru">
+<img src="http://www.yandex.ru/cycounter?www.expeditions.ru" width=88 height=31 alt="Яндекс цитирования" border=0></a>
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+<!-- Yandex.Metrika informer -->
+<a href="http://metrika.yandex.ru/stat/?id=6546997&from=informer"
+target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/6546997/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" /></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<div style="display:none;"><script type="text/javascript">
+(function(w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter6546997 = new Ya.Metrika({id:6546997,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        }
+        catch(e) { }
+    });
+})(window, 'yandex_metrika_callbacks');
+</script></div>
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript" defer="defer"></script>
+<noscript><div><img src="//mc.yandex.ru/watch/6546997" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+<!-- SpyLOG f:0211 -->
+<script language="javascript"><!--
+Mu="u6617.38.spylog.com";Md=document;Mnv=navigator;Mp=0;
+Md.cookie="b=b";Mc=0;if(Md.cookie)Mc=1;Mrn=Math.random();
+Mn=(Mnv.appName.substring(0,2)=="Mi")?0:1;Mt=(new Date()).getTimezoneOffset();
+Mz="p="+Mp+"&rn="+Mrn+"&c="+Mc+"&t="+Mt;
+if(self!=top){Mfr=1;}else{Mfr=0;}Msl="1.0";
+//--></script><script language="javascript1.1"><!--
+Mpl="";Msl="1.1";Mj = (Mnv.javaEnabled()?"Y":"N");Mz+='&j='+Mj;
+//--></script><script language="javascript1.2"><!--
+Msl="1.2";Ms=screen;Mpx=(Mn==0)?Ms.colorDepth:Ms.pixelDepth;
+Mz+="&wh="+Ms.width+'x'+Ms.height+"&px="+Mpx;
+//--></script><script language="javascript1.3"><!--
+Msl="1.3";//--></script><script language="javascript"><!--
+My="";My+="<a href='http://"+Mu+"/cnt?cid=661738&f=3&p="+Mp+"&rn="+Mrn+"' target='_blank'>";
+My+="<img src='http://"+Mu+"/cnt?cid=661738&"+Mz+"&sl="+Msl+"&r="+escape(Md.referrer)+"&fr="+Mfr+"&pg="+escape(window.location.href);
+My+="' border=0 width=88 height=31 alt='SpyLOG'>";
+My+="</a>";Md.write(My);//--></script><noscript>
+<a href="http://u6617.38.spylog.com/cnt?cid=661738&f=3&p=0" target="_blank">
+<img src="http://u6617.38.spylog.com/cnt?cid=661738&p=0" alt='SpyLOG' border='0' width=88 height=31 >
+</a></noscript>
+<!-- SpyLOG -->
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+<!--LiveInternet counter--><script language="JavaScript"><!--
+document.write('<a href="http://www.liveinternet.ru/click" '+
+'target=_blank><img src="http://counter.yadro.ru/hit?t52.6;r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+';'+Math.random()+
+'" title="liveinternet.ru: показано число просмотров и посетителей за 24 часа" '+
+'border=0 width=88 height=31></a>')//--></script><!--/LiveInternet-->
+
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+<!-- begin of Top100 code -->
+
+<script id="top100Counter" type="text/javascript" src="http://counter.rambler.ru/top100.jcn?737705"></script>
+<noscript>
+<a href="http://top100.rambler.ru/navi/737705/">
+<img src="http://counter.rambler.ru/top100.cnt?737705" alt="Rambler's Top100" border="0" />
+</a>
+
+</noscript>
+<!-- end of Top100 code -->
+
+<img src='img/empty.gif' width=1 height=1 border=0><br>
+
+
+<!-- YaMetrics begin -->
+<script type="text/javascript"><!--
+var ya_cid=80272;
+//--></script>
+<script src="http://bs.yandex.ru/resource/watch.js" type="text/javascript"></script>
+<noscript><div style="display: inline;"><img src="http://bs.yandex.ru/watch/80272" width="1" height="1" alt=""></div></noscript>
+<!-- YaMetrics end -->
+
+
+
+
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="140" style="position: relative; top: -1775; left: 0; z-index: 0" height="198" background="http://www.expeditions.ru/img/Urgently-75-198.gif">
+    <tr>
+      <td style="font-family: Tahoma; font-size: 12pt; font-weight: bold; line-height: 100%; border: 1 solid #A0A0A0; margin-top: 1; margin-bottom: 1" valign="middle" align="center">
+        <p style="margin-top: 1; margin-bottom: 1"><img border="0" src="http://www.expeditions.ru/content/pics/458-0d8f7e9c4da2912c3ef11d60d46c11f6.gif" width="94" height="33">
+        <p style="margin-top: 1; margin-bottom: 1"><font size="2"><a href="http://www.expeditions.ru/content/156/">Экспедиция "Полярный круг"</a></font>
+        <p style="margin-top: 0; margin-bottom: 0"><font size="1">июль-август </font>
+        <p style="margin-top: 0; margin-bottom: 0"><a href="http://www.expeditions.ru/content/278/"><font size="1">фото
+        из экспедиции</font></a>
+        <p style="margin-top: 0; margin-bottom: 0"> 
+        <a href="http://www.expeditions.ru/content/278/"><img border="0" src="http://www.expeditions.ru/content/pics/463-df11c4bb7a10a09c71e31bc51be585ad.jpg" width="120" height="86"></a> 
+        <p style="margin-top: 0; margin-bottom: 0"> 
+  </table>
+
+  </center>
+</div>
+         <br>
+        </td>
+       </tr>
+       <tr valign=top height=100%>
+        <td width=10>&nbsp;</td>
+        <td>
+         <br>
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr height=1>
+  <td bgcolor=#a0a0a0>
+   <img src='img/empty.gif' width=1 height=1 border=0><Br>
+  </td>
+ </tr>
+ <tr height=25>
+  <td align=center bgcolor=#e3e3e3 background='img/pbg1.png'>
+   Copyright &copy; <a href='message/new/2/'>ShamAN</a>, 2004-2006.
+  </td>
+ </tr>
+ <tr height=1>
+  <td bgcolor=#a0a0a0>
+   <img src='img/empty.gif' width=1 height=1 border=0><Br>
+  </td>
+ </tr>
+</table>
+</center>
+</body>
+</html>
+

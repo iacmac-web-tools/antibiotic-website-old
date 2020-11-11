@@ -1,0 +1,11 @@
+/* 
+IE-specific CSS for this theme, use styleNN.css file for CSS
+that works anywhere.  Well, that works in Netscape 4.x.  
+So, if something in this file looks "unusual", check the styleNN.css
+file and you'll probably find something done to compensate for NN 
+*/
+HR {color:#997A66; margin-top:1px; margin-bottom:1px;}
+
+INPUT.pn-text {background-color: #FFFFFC; border: 1px solid #997A66;} /* F8F3E6 */
+INPUT.pn-button {background-color: #F8F3E6; border: 1px solid #997A66;}
+INPUT.txt-button {font-size:9pt; background-color: #F8F3E6; border: 1px solid #997A66;}

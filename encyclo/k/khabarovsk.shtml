@@ -1,0 +1,518 @@
+
+<html>
+<head>
+<title>RUSNET :: Encyclopedia :: K :: Khabarovsk</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+
+
+<!--meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"-->
+
+
+
+<META NAME="keywords" CONTENT="Netherlands, Holland, Dutch, news, subscribe, encyclopaedia, webstore, investment, finance, Beatrix, Benelux, cannabis, cofee-shop, cheese, Amsterdam, Rotterdam, Nord-Ost, consulting, ecstasy, democracy, Balkenende, enterprises, FIPC">
+<META NAME="description" CONTENT="Rusnetsite is een interactieve promotor dat zich toelegt op matchmaking en het verstrekken van zakelijke informatie en dienstverlening aan Nederlandstalige bedrijven in de Benelux met betrekking tot hun activiteiten in Rusland, Oekraine, Moldavie, en Wit-Rusland door middel van het updaten van de bedrijvendatabase, verzorging, monitoring en analyse van informatie over Rusland en GOS">
+
+
+<link rel=stylesheet href="/nn.css" type=text/css>
+
+<script language="JavaScript">
+
+function doMouseOn ( obj ) {
+obj.className = 'hover';
+}
+function doMouseOff ( obj ) {
+obj.className = 'normal';
+}
+function setHome(o) {
+o.style.behavior='url(#default#homepage)';
+o.setHomePage('http://rusnet.nl/')
+}
+function NoCopy() {
+        window.status='RUSNET@NL';
+        return false;
+}
+
+
+
+</script>
+
+</head>
+
+<body bgcolor=#ffffff text=#00164F link=#00164F vlink=#666666 alink=#7394a0 topmargin=0 leftmargin=0 marginheight=0 marginwidth=0>
+<center>
+<!-- // banner //-->
+<!--script language=JavaScript src="/snow.js"></script-->
+<script language=JavaScript src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script language=JavaScript src="/img_border.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/jquery.fancybox-1.3.4.css" />
+<style>
+.thumb {
+	list-style: none outside;
+	display: inline;
+}
+.thumb li {
+	float:left;
+	width: 66px;
+	height: 48px;
+	margin: 2px;
+	overflow: hidden;
+}
+.thumb img {
+	width: 65px;
+}
+#rentTable {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#rentImgWrapper {
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+	text-align: center;
+	padding-left: 2px;
+}
+#rentImgWrapper img {
+	/*float: left;*/
+	margin-left: 3px;
+	width: 66px;
+	/*border: 0px;*/
+}
+</style>
+<!--[if IE]>
+<style>
+.thumb li {
+	margin: 1px;
+}
+</style>
+<![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox-1.3.4.pack.js"></script>
+
+<div id="rentTable" style="width:770px;border:2px #aa0000 solid;font-size:11px;text-align:center;"><div style="text-align:center;font-weight:bold;"><div style="font-size:13px;">To rent - Te huur - Сдаётся в аренду - in Bilthoven - De Bilt</div>Office and warehouse - Kantoor met magazijn - Офис и склад</div><div style="text-align:center;">250 m<sup>2</sup> - 5 km. from Center of Utrecht - 40 km. from Amsterdam - &euro; 2.800, per month - near Head office of Rabobank</div><center>
+<ul class="thumb"><li><a href="/i/ban/rent/21.jpg" rel="group" class="fancybox"><img src="/i/ban/rent/tb/21.jpg" /></a></li><li><a href="/i/ban/rent/25.jpg" rel="group" class="fancybox"><img src="/i/ban/rent/tb/25.jpg" /></a></li><li><a href="/i/ban/rent/20.jpg" rel="group" class="fancybox"><img src="/i/ban/rent/tb/20.jpg" /></a></li><li><a href="/i/ban/rent/14.jpg" rel="group" class="fancybox"><img src="/i/ban/rent/tb/14.jpg" /></a></li><li><a href="/i/ban/rent/3.jpg" rel="group" class="fancybox"><img src="/i/ban/rent/tb/3.jpg" /></a></li><li><a href="/i/ban/rent/24.jpg" rel="group" class="fancybox"><img src="/i/ban/rent/tb/24.jpg" /></a></li><li><a href="/i/ban/rent/7.jpg" rel="group" class="fancybox"><img src="/i/ban/rent/tb/7.jpg" /></a></li><li><a href="/i/ban/rent/2.jpg" rel="group" class="fancybox"><img src="/i/ban/rent/tb/2.jpg" /></a></li><li><a href="/i/ban/rent/4.jpg" rel="group" class="fancybox"><img src="/i/ban/rent/tb/4.jpg" /></a></li><li><a href="/i/ban/rent/19.jpg" rel="group" class="fancybox"><img src="/i/ban/rent/tb/19.jpg" /></a></li><li><a href="/i/ban/rent/18.jpg" rel="group" class="fancybox"><img src="/i/ban/rent/tb/18.jpg" /></a></li></ul>
+</center><div style="text-align:center;clear:both;">Tel. +31 30 228 56 56; e-mail: rus_net@rusnet.nl</div></div>
+
+<script type="text/javascript">
+	
+$(function() {
+	$(".fancybox").fancybox({
+		'titlePosition': 'inside',
+		titleFormat: function (title, currentArray, currentIndex, currentOpts) {
+			return '<b>Tel. +31 30 228 56 56;<br>e-mail: rus_net@rusnet.nl</b>';
+		}
+	});
+});
+
+/*
+ *$(document).ready(
+	function() {
+		$('.thumb img').hoverZoom(
+			{
+				speedView:600,
+				speedRemove:400,
+				showCaption:true,
+				speedCaption:600,
+				debug:true,
+				hoverIntent: true,
+				loadingIndicatorPos: 'center'
+			}
+		);
+	}
+); 
+*/
+</script>
+<table width=770 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td style="border:1px dotted #0000cc;">
+
+
+</td>
+</tr>
+<tr><td><a href="/nl/vip/"><img src=/i/ban/vip.gif width=770 height=10 border=0 alt="VIP of Rusnet"></a></td></tr>
+</table><img src=/i/---.gif width=1 height=2><br>
+
+<table width=770 border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td width=197><img src="/i/logo_en.gif" width=197 height=74 border=0 alt="RUSNET" /></td><td width=105 background=/i/bg-up_.gif></td><td width=468 align=right><table cellpadding=0 cellspacing=0 align=right>
+
+<tr>
+
+<td><a href="http://tpprf.ru/en/business_and_services/" target=_blank><img src="/i/ban/ruschamber_en.gif" width="158" height="50" border="0" alt="banner" /></a></td>
+
+<td width=8></td>
+
+<td><a href="http://www.ruschamber.com/frame.php?id=1869&l=2" target=_blank><img src="/i/ban/veeng158x50.jpg" width="158" height="50" border="0" alt="banner" /></a></td>
+
+</tr>
+
+</table></td></tr></table><img src=/i/---.gif width=1 height=2><br><table width=770 border=0 cellspacing=0 cellpadding=0 background=/i/bg-blue.gif>
+<tr>
+<td width=114 class=st align=center><a class=st id=b href=http://www.rusnet.nl><font color=#dde3e6>&nbsp;www.rusnet.nl</font></a></td>
+<td width=128><a href=/ru/ onmouseover=document.ru.src="/i/ru-.gif" onmouseout=document.ru.src="/i/ru.gif"><img name=ru src=/i/ru.gif width=57 height=21 border=0 alt="Russian version"></a><a href=/nl/ onmouseover=document.nl.src="/i/nl-.gif" onmouseout=document.nl.src="/i/nl.gif"><img name=nl src=/i/nl.gif width=71 height=21 border=0 alt="Dutch version"></a></td>
+<td width=528 align=right class=st><font color=#dde3e6><a class=st href="/agenda/"><font color=#dde3e6>Agenda</font></a> | <a class=st href="/links/"><font color=#dde3e6>Links</font></a> | <a class=st href="http://tpprf.ru/en/" target=_blank><font color=#dde3e6>Russian CCI</font></a> &nbsp;</font></td>
+</tr>
+</table><img src=/i/---.gif width=1 height=2><br><table width=770 border=0 cellspacing=0 cellpadding=0 background=/i/bg-olive.gif>
+<tr>
+<td class=st width=14>&nbsp;</td>
+<td width=170 class=st><font color=#ffffff>
+Tuesday, 10.11.2020
+</font></td>
+<td width=1 height=21 background=/i/bg-center.gif valign=top><img src=/i/bg-center.gif width=1></td>
+<td width=415 background=/i/bg-olive.gif bgcolo#9AA3B5><table cellpadding=0 cellspacing=0><form action="/vip/search.shtml" method=GET><tr><td width=26 align=center><a href="/vip/rubricator.shtml"><img src=/i/rubricator.gif width=20 height=21 border=0 alt="VIP Rubricator"></a></td><td class=st><input type=text class=vip name='txt' value=' Dutch Company Search in VIP-database' onFocus="this.value=''"></td>
+<td width=10><input width=14 height=19 type=image align=absmiddle src=/i/tico-go.gif></td>
+</tr></form></table></td>
+<td width=1 background=/i/bg-center.gif valign=top><img src=/i/bg-center.gif width=1></td><form action="/search/results.shtml" method="get"><input type="hidden" name="lg" value="en"><td class=st nowrap width=169><a href=# onClick="setHome(this);return false"><img class=normal src=/i/tico-home.gif align=absmiddle width=17 height=21 border=0 onMouseOver="doMouseOn(this)" onMouseOut="doMouseOff(this)" alt="Make rusnet.nl your homepage"></a><a href="javascript:window.external.AddFavorite('http://www.rusnet.nl/', 'RUSNET - Commercial informational & consulting Centre')"><img class=normal src=/i/tico-fav.gif align=absmiddle width=15 height=21 border=0 onMouseOver="doMouseOn(this)" onMouseOut="doMouseOff(this)" alt="Add to favorites"></a><a href=mailto:info@rusnet.nl><img class=normal src=/i/tico-mail.gif align=absmiddle width=17 height=21 border=0 onMouseOver="doMouseOn(this)" onMouseOut="doMouseOff(this)" alt="info@rusnet.nl"></a><a href=/search/><img class=normal src=/i/tico-search.gif align=absmiddle width=13 height=21 border=0 onMouseOver="doMouseOn(this)" onMouseOut="doMouseOff(this)" alt="Site search" name=searchbt></a><input class=s size=7 value="" name=text onMouseOver="doMouseOn(searchbt)" onMouseOut="doMouseOff(searchbt)"><input width=14 height=21 type=image align=absmiddle src=/i/tico-go.gif onMouseOver="doMouseOn(searchbt)" onMouseOut="doMouseOff(searchbt)"></td></tr>
+
+<tr><td colspan=6 background=/i/bg-dash.gif><img src=/i/---.gif width=1 height=1></td></tr></form></table>
+
+<table width=770 border=0 cellspacing=0 cellpadding=0>
+<tr valign=top>
+
+<TD width=1 background=/i/bg-center.gif><IMG alt="tramp" height=1 src=/i/---.gif width=1></TD>
+
+
+
+
+<td width="183" class="bg" bgcolor="#ffffff" style="background: transparent url(/i/ny-bg.jpg) no-repeat bottom;">
+<table width=183 border=0 cellspacing=0 cellpadding=0 background="" bgcolor="">
+<tr>
+
+    <td align=center width=56><a href="/vip_companies/"><img class=normal align=absmiddle src="/i/---.gif" width=29 height=29 border=0></td>
+    <td class=tt id=b><a id=nl href="/vip_companies/"><font color=#4D6699>VIP-Companies</font></a></td>
+    <td><img src=/i/---.gif width=7 height=9></td>
+
+</tr>
+<tr><td colspan=3><img src=/i/dash-menu.gif width=183 height=1></td></tr>
+<tr>
+
+    <td align=center width=56><a href="/vip/"><img class=normal align=absmiddle src="/i/---.gif" width=29 height=29 border=0></td>
+    
+    <td class=tt id=b><a id=nl href="/vip/"><font color=#4D6699>VIP of Rusnet</font></a></td>
+    
+    <td><img src=/i/---.gif width=7 height=9></td>
+    
+
+</tr>
+<tr><td colspan=3><img src=/i/dash-menu.gif width=183 height=1></td></tr>
+<tr>
+
+    <td align=center width=56><a href="/about/"><img class=normal align=absmiddle src="/i/---.gif" width=29 height=29 border=0></td>
+    <td class=tt id=b><a id=nl href="/about/"><font color=#4D6699>Rusnet Partners</font></a></td>
+    <td><img src=/i/---.gif width=7 height=9></td>
+
+</tr>
+<tr><td colspan=3><img src=/i/dash-menu.gif width=183 height=1></td></tr>
+<tr>
+
+    <td align=center width=56><a href="/news/"><img class=normal align=absmiddle src="/i/---.gif" width=29 height=29 border=0></td>
+    <td class=tt id=b><a id=nl href="/news/"><font color=#4D6699>CIS Today</font></a></td>
+    <td><img src=/i/---.gif width=7 height=9></td>
+
+</tr>
+<tr><td colspan=3><img src=/i/dash-menu.gif width=183 height=1></td></tr>
+<tr>
+
+    <td align=center width=56><a href="/encyclo/"><img class=hover align=absmiddle src="/i/---.gif" width=29 height=29 border=0></td>
+    <td width=112 class=tt id=b><a id=nl href="/encyclo/"><font color=#d93634>Encyclopedia</font></a></td>
+    <td><img src=/i/arrow-m.gif width=7 height=9></td>
+</tr>
+<!--tr><td colspan=3><img src=/i/dash-menu.gif width=183 height=1></td></tr>
+<tr>
+
+    <td align=center width=56><a href="/mailnews/"><img class=normal align=absmiddle src="/i/---.gif" width=29 height=29 border=0></td>
+    <td class=tt id=b><a id=nl href="/mailnews/"><font color=#4D6699>Subscribe</font></a></td>
+    <td><img src=/i/---.gif width=7 height=9></td>
+
+</tr-->
+<tr><td colspan=3><img src=/i/dash-menu.gif width=183 height=1></td></tr>
+<tr>
+
+    <td align=center width=56><a href="/contactus/"><img class=normal align=absmiddle src="/i/---.gif" width=29 height=29 border=0></td>
+    <td class=tt id=b><a id=nl href="/contactus/"><font color=#4D6699>Contact</font></a></td>
+    <td><img src=/i/---.gif width=7 height=9></td>
+
+</tr>
+
+<tr><td colspan=3><img src=/i/dash-menu.gif width=183 height=1></td></tr>
+
+<tr><td colspan=3>
+<table width=100% cellpadding=0 cellspacing=8 border=0>
+<tr><td>
+<table width=100% cellpadding=5 cellspacing=0 border=0>
+<tr bgcolor=#E6EAF0 valign=top><td width=1%>
+<img src=/i/bec.gif width=20 height=20 alt="Did you know..."></td>
+<td width=99% class=st><img src=/i/---.gif width=1 height=3><br><b>&nbsp;Did you know...</b></td></tr></table>
+<table width=100% cellpadding=8 cellspacing=0 border=0>
+<tr bgcolor=#E6EAF0><td class=st><font color=#878DA4><a href=/encyclo/b/bering.shtml>The Great Nordic Expedition</a> (1733-1741), was the largest expedition the world ever saw, it included 10,000 men.</font>
+</td>
+</tr></table>
+</td></tr></table>
+</td></tr>
+
+<tr>
+<td colspan=3>
+
+
+
+</td>
+</tr>
+
+</table>
+
+
+
+
+
+
+<p><table width=100% cellpadding=0 cellspacing=0>
+<tr>
+<td width=37></td>
+<td><!-- img src="/i/ded_en.gif" border=0 width=100 height=100 --></td>
+</tr>
+</table>
+
+<p><img src="/i/trans.gif" width="183" height="150">
+
+</td>
+
+<td width="1" background="/i/bg-center.gif" width="1"><img src="/i/---.gif" width="1" height="1"></td>
+
+
+
+<td width=413>
+<table width=413 border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td class=st width=26>&nbsp;</td>
+<td width=373 class=st>
+<font color=#999999><a class=st href="/"><font color=#999999>RusNet</font></a> :: <a class=st href="../"><font color=#999999>Encyclopedia</font></a> :: <a class=st href=" "><font color=#999999>K</font></a></font>
+</td>
+<td class=st width=16>&nbsp;</td>
+</tr>
+<tr><td colspan=3><img src=/i/dash-crumb.gif width=141 height=1></td></tr>
+
+<tr valign=top>
+<td class=ttl align=center width=26><p></td>
+
+<td class=ttl>
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr valign=top><td width=90% class=ttl><p>Khabarovsk<p></td><td nowrap width=10% align=right class=ttl><p><a style="font:11px/9px tahoma,verdana,arial,helvetica; color:#666666; text-decoration:none" href="/encyclo/k/print/khabarovsk.shtml "><img align=left src=/i/ico-print.gif width=20 height=20 border=0 alt="print version">print<br><nobr>version</nobr></a></td></tr></table>
+</td></tr>
+<tr><td width=26 class=st>&nbsp;</td>
+<td class=tv>
+<table height=15 border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/a><font color=#ffffff><b>a</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/b><font color=#ffffff><b>b</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/c><font color=#ffffff><b>c</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/d><font color=#ffffff><b>d</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/e><font color=#ffffff><b>e</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/f><font color=#ffffff><b>f</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/g><font color=#ffffff><b>g</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/h><font color=#ffffff><b>h</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/i><font color=#ffffff><b>i</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/j><font color=#ffffff><b>j</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/k><font color=#ffffff><b>k</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/l><font color=#ffffff><b>l</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/m><font color=#ffffff><b>m</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/n><font color=#ffffff><b>n</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/o><font color=#ffffff><b>o</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/p><font color=#ffffff><b>p</b></font></a>&nbsp;</td><td class=st width=2></td>
+<!--td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/q><font color=#ffffff><b>Q</b></font></a>&nbsp;</td><td class=st width=2></td-->
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/r><font color=#ffffff><b>r</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/s><font color=#ffffff><b>s</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/t><font color=#ffffff><b>t</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/u><font color=#ffffff><b>u</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/v><font color=#ffffff><b>v</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/w><font color=#ffffff><b>w</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/x><font color=#ffffff><b>x</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/y><font color=#ffffff><b>y</b></font></a>&nbsp;</td><td class=st width=2></td>
+<td class=st bgcolor=#9aa3b5>&nbsp;<a id=nl href=/encyclo/z><font color=#ffffff><b>z</b></font></a>&nbsp;</td>
+</tr>
+</table>
+
+
+<p><b>Khabarovsk, a city of more than 600,000, is second only to Vladivostok in size in the Russian Far East.</b>
+<p>Khabarovsk is close to the border with China and is almost directly east of Harbin. It is the last major stop on the <a href="../t/trans_siberian_railway.shtml">Trans-Siberian Railway</a> before <a href="../v/vladivostok.shtml">Vladivostok</a>.
+<p>Although Khabarovsk has long been the headquarters of the Far Eastern Military Command, it was never closed to foreign visitors, unlike Vladivostok. Khabarovsk is the largest Russian city east of <a href="../b/baikal.shtml">Lake Baikal</a>, and it is the capital of the <a href="khabarovsk_territory.shtml">Khabarovsk Territory</a>. It is located at the confluence of the <a href="../a/amur.shtml">Amur</a> and <a href="../u/ussuri.shtml">Ussuri</a> rivers.
+<p>Nearly three-quarters of Khabarovsk's inhabitants work in some type of industrial job, and entire sections of the city consist of factories surrounded by boxy Soviet-style apartment blocks. With its steady flow of tourists from Japan, South Korea and China, the city has a bustling, international feel to it.
+<p>The city itself is built on three long geographical ridges, which gave rise to the ancient legend that the area rested on the backs of three great whales.
+
+</table>
+</td>
+<td width=1 background=/i/bg-center.gif width=1><img src=/i/---.gif width=1 height=1></td>
+
+<td width=169 bgcolor=#ffffff>
+
+<table width="100%" cellpadiign="0" cellspacing="0">
+
+
+
+<tr><td height="15"></td></tr>
+
+<tr>
+<td align="center" class="st">
+
+<a href="http://www.tpprf.ru/en/activities/business/services_fp/" target=_blank><img src="/i/ban/tpprf.gif" width=100 height=100 border=0 vspace=10 alt="Exclusive Partner of the Russian Chamber of Commerce and Industry in the Netherlands"></a><br />
+Official Partner of the Russian Chamber of Commerce and Industry in the Netherlands
+
+</td>
+</tr>
+
+
+
+<tr><td height="15"></td></tr>
+
+</table>
+
+<table width=169 border=0 cellspacing=0 cellpadding=0 background="/i/bg-right.gif">
+
+
+
+<tr><td height=20 class=st id=b><font color=white>&nbsp; PHRASE OF THE DAY</font></td></tr>
+<tr><td>
+<table width=169 border=0 cellspacing=0 cellpadding=5 background="">
+<tr bgcolor=#ffffff>
+<td class=st>What lies behind us and what lies before us are tiny matters compared to what lies within us.<div align=right>Ralph Waldo Emerson</div>
+</td>
+</tr>
+</table>
+
+
+</table>
+
+
+</td><td width=1 background=/i/bg-center.gif><IMG alt="tramp" height=1 src=/i/---.gif width=1></TD></tr>
+<tr><TD width=1 background=/i/bg-center.gif><IMG alt="tramp" height=1 src=/i/---.gif width=1></TD><td class=st width=184 bgcolor=#ffffff>&nbsp;</td><td width=1 background=/i/bg-center.gif width=1><img src=/i/---.gif width=1 height=1></td><td class=st align=right width=415><a style="text-decoration:none;color:#999999" href=#top onClick="scrollTo(0,0); return false;">top of the page</a>&nbsp;</td><td width=1 background=/i/bg-center.gif width=1><img src=/i/---.gif width=1 height=1></td><td bgcolor=#ffffff width=169 class=st>&nbsp;</td><TD width=1 background=/i/bg-center.gif><IMG alt="tramp" height=1 src=/i/---.gif width=1></TD></tr>
+</table>
+
+<table width=770 border=0 cellpadding=0 cellspacing=0>
+<tr><td background=/i/bg-dash.gif><img src=/i/---.gif width=1 height=1></td></tr></table>
+
+<table width=770 border=0 cellpadding=0 cellspacing=4>
+<tr><td align=center class=st><a href=/services/advertising/>Advertise</a> | <a href=/contactus/>Contacts</a> | <a href=/about/>About Rusnet</a> | <a href=/search/>Search</a></td></tr></table><img src=/i/---.gif width=1 height=2><br>
+
+<table width=770 border=0 cellpadding=0 cellspacing=0>
+<tr><td background=/i/bg-dash.gif><img src=/i/---.gif width=1 height=1></td></tr>
+</table><img src=/i/---.gif width=1 height=2><br>
+
+<table width=770 border=0 cellspacing=0 cellpadding=0>
+<tr valign=top>
+<td class=st id=transparent width="41" style='padding-right:2px;'>
+
+<div id="eXTReMe"><a href="http://extremetracking.com/open?login=ru5net2">
+<img src="http://t1.extreme-dm.com/i.gif" style="border: 0;"
+height="38" width="41" id="EXim" alt="eXTReMe Tracker" /></a>
+<script type="text/javascript"><!--
+var EXlogin='ru5net2' // Login
+var EXvsrv='s10' // VServer
+EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+EXb=EXs.colorDepth:EXb=EXs.pixelDepth;
+navigator.javaEnabled()==1?EXjv="y":EXjv="n";
+EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
+EXd.write("<img src=http://e1.extreme-dm.com",
+"/"+EXvsrv+".g?login="+EXlogin+"&amp;",
+"jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
+"l="+escape(EXd.referrer)+" height=1 width=1>");//-->
+</script><noscript><div id="neXTReMe"><img height="1" width="1" alt=""
+src="http://e1.extreme-dm.com/s10.g?login=ru5net2&amp;j=n&amp;jv=n" />
+</div></noscript></div>
+
+</td>
+<td class=st id=transparent>
+
+<!-- SpyLOG v2 f:1211 -->
+<script language="javascript">
+u="u515.00.spylog.com";d=document;nv=navigator;na=nv.appName;p=1;
+bv=Math.round(parseFloat(nv.appVersion)*100);
+ n=(na.substring(0,2)=="Mi")?0:1;rn=Math.random(); z="p="+p+"&rn="+rn;y="";
+y+="<a href='http://"+u+"/cnt?f=3&p="+p+"&rn="+rn+"' target=_blank>";
+y+="<img src='http://"+u+"/cnt?"+z+
+"&r1="+escape(d.referrer)+"&r="+escape(parent.document.referrer)+
+ "&pg="+escape(window.location.href)+"' border=0  width=88 height=31  alt='SpyLOG'>";
+ y+="</a>";  d.write(y); if(!n) { d.write("<"+"!--"); } //--></script>
+<noscript>
+<a href="http://u515.00.spylog.com/cnt?f=3&p=1" target=_blank>
+<img src="http://u515.00.spylog.com/cnt?p=1" alt='SpyLOG' border='0'  width=88 height=31 >
+ </a>
+</noscript>
+<script language="javascript1.2"><!--
+ if(!n) { d.write("--"+">"); }//--></script>
+<!-- SpyLOG  -->
+
+<a href="http://www.yandex.ru/cy?base=0&host=www.rusnet.nl"><img src="http://www.yandex.ru/cycounter?www.rusnet.nl" width=88 height=31 alt="Яндекс цитирования" border=0></a>
+
+<!-- HotLog -->
+<script language="javascript">
+hotlog_js="1.0";
+hotlog_r=""+Math.random()+"&s=28245&im=112&r="+escape(document.referrer)+"&pg="+
+escape(window.location.href);
+document.cookie="hotlog=1; path=/"; hotlog_r+="&c="+(document.cookie?"Y":"N");
+</script><script language="javascript1.1">
+hotlog_js="1.1";hotlog_r+="&j="+(navigator.javaEnabled()?"Y":"N")</script>
+<script language="javascript1.2">
+hotlog_js="1.2";
+hotlog_r+="&wh="+screen.width+'x'+screen.height+"&px="+
+(((navigator.appName.substring(0,3)=="Mic"))?
+screen.colorDepth:screen.pixelDepth)</script>
+<script language="javascript1.3">hotlog_js="1.3"</script>
+<script language="javascript">hotlog_r+="&js="+hotlog_js;
+document.write("<a href='http://click.hotlog.ru/?28245' target='_top'><img "+
+" src='http://hit3.hotlog.ru/cgi-bin/hotlog/count?"+
+hotlog_r+"&' border=0 width=88 height=31 alt=HotLog></a>")</script>
+<noscript><a href=http://click.hotlog.ru/?28245 target=_top><img
+src="http://hit3.hotlog.ru/cgi-bin/hotlog/count?s=28245&im=112" border=0
+width="88" height="31" alt="HotLog"></a></noscript>
+<!-- /HotLog -->
+
+<!--Rating@Mail.ru COUNTER-->
+<script language="JavaScript"><!--
+d=document;var a='';a+=';r='+escape(d.referrer)
+js=10//--></script><script language="JavaScript1.1"><!--
+a+=';j='+navigator.javaEnabled()
+js=11//--></script><script language="JavaScript1.2"><!--
+s=screen;a+=';s='+s.width+'*'+s.height
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)
+js=12//--></script><script language="JavaScript1.3"><!--
+js=13//--></script><script language="JavaScript"><!--
+d.write('<a href="http://top.mail.ru/jump?from=25932"'+
+' target=_top><img src="http://top.list.ru/counter'+
+'?id=25932;t=221;js='+js+a+';rand='+Math.random()+
+'" alt="Рейтинг@Mail.ru"'+' border=0 height=31 width=88></a>')
+if(js>11)d.write('<'+'!-- ')//--></script><noscript><a target=_blank href="http://top.mail.ru/jump?from=25932"><img
+src="http://top.list.ru/counter?js=na;id=25932;t=221"
+border=0 height=31 width=88
+alt="Рейтинг@Mail.ru"></a></noscript><script language="JavaScript"><!--
+if(js>11)d.write('--'+'>')//--></script>
+<!--/COUNTER-->
+
+<!-- begin of Top100 logo -->
+<a href="http://top100.rambler.ru/home?id=431054"><img src="http://top100-images.rambler.ru/top100/w9.gif" alt="Rambler's Top100" width="88" height="31" border="0" /></a>
+<!-- end of Top100 logo -->
+
+<!-- begin of Top100 code -->
+<script id="top100Counter" type="text/javascript" src="http://counter.rambler.ru/top100.jcn?431054"></script><noscript><img src="http://counter.rambler.ru/top100.cnt?431054" alt="" width="1" height="1" border="0"></noscript>
+<!-- end of Top100 code -->
+
+</td>
+<td class=st align=right>
+&copy; 2003-2012 <a href=http://rusnet.nl id=b>RusNet</a><br>Made by <a href=http://www.neonet.md id=b target=_blank>NeoNet</a>
+</td></tr>
+<tr><td class=st colspan=2>&nbsp;</td></tr>
+</table>
+
+</center>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4097581-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>
+
